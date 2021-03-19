@@ -1,9 +1,11 @@
 # Over view
 
-Here you'll find some usefull notes that I use as a reminder.
-It can be programming languages notes or a sum up of research papers
+Here you'll find some useful documentation about software Engineering.
+From requirements, design, programming language to testing but also some research papers, notebook about AI, ML, DL, NLP and so on.
 
 # Usage
 
-Each note is listed as a branch. Switch into one of them to get the note you want
+Each note is attached as a branch. Switch into one of them to see the notes
+
+= . = 
 
