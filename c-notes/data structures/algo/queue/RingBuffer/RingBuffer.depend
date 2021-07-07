@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1584209020 source:c:\users\a.diela\documents\adiela\faurecia\work\test\bin\ringbuffer\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1625690486 source:c:\users\a.diela\documents\adiela\training\research-notes\c-notes\data structures\algo\queue\ringbuffer\ringbuffer_geeksforgeeks.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

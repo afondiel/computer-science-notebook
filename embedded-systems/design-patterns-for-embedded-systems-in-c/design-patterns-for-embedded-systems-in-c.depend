@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1634048624 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ch1\Sensor\include\Sensor.h"
+
+1634047060 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor.h
+
+1634047060 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor\include\sensor.h
+
+1634049180 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor\src\sensor.c
+	<stdio.h>
+	<stdlib.h>
+	"..\include\Sensor.h"
+

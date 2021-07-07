@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1620175336 source:e:\training\cc++\c-cpp-notes\cpp-data-structures-notes\main.cpp
+	<iostream>
+
+1624303602 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_array_.cpp
+	<iostream>
+	<array>
+	"interface.h"
+
+1620247610 e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\interface.h
+
+1620248260 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_binary_tree_.cpp
+
+1620248158 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_container_.cpp
+
+1620248280 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_graphic_.cpp
+
+1620248210 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_queue_.cpp
+
+1620248232 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_stack_.cpp
+
+1620248690 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\main.cpp
+	<iostream>
+	"interface.h"
+
+1624302400 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_linked_list_.cpp
+	<iostream>
+	"interface.h"
+
+1624384924 source:e:\training\cc++\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_vector_.cpp
+	<iostream>
+	<array>
+	<vector>
+	"interface.h"
+
+1633857456 source:d:\lab\research-notes\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_heap.cpp
+	<iostream>
+	<vector>
+	<bits/stdc++.h>
+
+1633391410 source:d:\lab\research-notes\cpp-notes\cppdatastructuresandalgorithmdesignprinciples\cpp-data-structures-notes\_queue_.cpp
+	<iostream>
+	<queue>
+	<bits/stdc++.h>
+
