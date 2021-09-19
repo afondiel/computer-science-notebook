@@ -1,0 +1,10 @@
+*.vsc
+*.o
+*.cbp
+*.layout
+*.exe
+*.depend
+/build
+/codeblocks
+
+
