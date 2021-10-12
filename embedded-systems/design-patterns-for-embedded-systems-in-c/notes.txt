@@ -1,0 +1,101 @@
+// ::::::::::::::::::NOTES :::::::::::::::::::::::: //
+
+//////////////////////////////////////////////
+//Chapter 1 :  What Is Embedded Programming?
+/////////////////////////////////////////////
+
+//================ What’s Special About Embedded Systems? ================ //
+// ---------------------------------------------------------------------------------- //
+     ->Embedded Design Constraints
+     ->The Embedded Tool Chain
+     ->OS, RTOS, or Bareback?
+     ->Embedded Middleware
+     ->Codevelopment with Hardware
+     ->Debugging and Testing
+// ------------------------------------------------------------------------------------//
+=> Resource constraints
+    — Most embedded systems are far more highly constrained in available memory, CPU
+    cycles, and other resources
+    — Embedded systems must often interface with custom hardware and create their own
+    device drivers
+    — Small embedded systems run with a bare bones RTOS or no OS at all
+    — Most embedded systems are implemented in C
+=> Predictability and timeliness are often crucial to success
+=> Often require high dependability
+    — Safety
+    — Reliability
+    — Security
+=> Design patterns for embedded applications provide reusable effective solutions to these
+concerns
+// ---------------------------------------------------------------------------------------//
+
+//================ OO or Structured – It’s Your Choice =======//
+
+     ->Classes 10
+     ->Objects
+     ->Polymorphism and Virtual Functions
+     ->Subclassing
+     ->Finite State Machines
+// ---------------------------------------------------------------------------------------//
+A note about design patterns in C
+
+=> Almost all design pattern books assure object oriented implementation in Java, C++, C# or
+similar languages
+=> Three styles for implementing patterns in C
+    —> File-based :
+        * This is “standard” C in which the application 'source' code is organized into pairs of files
+        (header and implementation). Not all common patterns are easy to implement in this
+        style. This style organizes files around “class” concept but it’s all vanilla C.
+    —> Object-based :
+        * This approach uses "structs" to represent the classes (instances of which comprise the
+        objects) and manually name 'mangled functions' manipulate the data stored in the struct.
+        Especially useful when there will multiple instances (variables) of a class or type.
+    —> Object-oriented :
+        * This style is similar to object-based except that the "struct" itself contains "function pointers"
+        as a means to implement polymorphism and virtual functions, something
+        required for implementing some patterns (those that require inheritance or
+        polymorphism)
+// --------------------------------------------------------------------------------------//
+
+///////////////////////////////////////////////////////////////////////////////////
+//Chapter 2  : Embedded Programming with The HarmonyTM for Embedded RealTime Process
+///////////////////////////////////////////////////////////////////////////////////
+
+// - SW development process & Design
+// => Macro-cycle (stakeholder focus - *Months* - "Deployment,optmizatio,2 concept, Key concept"=Project Plan)
+// => Micro-cycle (Team focus - *weeks* - Demo-able/shippable build= Iteration plan)
+// => Nano-cycle (Personal focus - *hours* - revision of workitems=Project work Item)
+
+// Architectural design views //
+
+Subsystem and Components View  \             / Concurrency and Resource View
+                                \           /
+                                Harmony ESW View
+                                /           \
+Safety and Reliability View    /             \ Architecture Deployment Distribution View
+
+//////////////////////////////////////////////////////
+//Chapter 3  : Design Patterns for Accessing Hardware
+//////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////:
+//Chapter 4  : Design Patterns for Embedding Concurrency and Resource Management
+///////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//Chapter 5 : Design Patterns for State Machines
+//////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////:
+//Chapter 6  : Safety and Reliability Patterns
+/////////////////////////////////////////////////////:::
+
+/////////////////////////////////////////////////////////\
+///!\ Distribution and communications
+/////////////////////////////////////////////////////:::
