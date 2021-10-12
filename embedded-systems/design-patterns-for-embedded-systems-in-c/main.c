@@ -27,15 +27,20 @@ int main()
 
 // OO or Structured : Better approach OO.
 
-/*File-based */
+/*File-based  : as CLASS */
 
 //file can be seen as encapsulating boundary*/
 //      => Pair of files  : *.C (src) as funtions body and private varibles/functions
 //                          *.H (header) as public variables and functions
-    printf(" ::::::::::: TEST Sensor ::::::::::::: \n");
+    printf(" ::::::::::: TEST I Sensor ::::::::::::: \n");
     printf("Get filterFrequency : %d\n", mySensor.filterFrequency);
     printf("Get updateFrequency : %d\n", mySensor.updateFrequency);
     printf("Get value : %d\n", mySensor.value);
+
+    printf(" ::::::::::: TEST II Sensor ::::::::::::: \n");
+    printf("Get filterFrequency : %d\n", Sensor_getFilterFrequency(&mySensor));
+    printf("Get updateFrequency : %d\n", Sensor_getUpdateFrequency(&mySensor));
+    printf("Get value : %d\n", Sensor_getValue(&mySensor));
 
 
 /*Object-based*/
