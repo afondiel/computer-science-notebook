@@ -5,12 +5,12 @@
 ***********************************************************************/
 
 #include <iostream>
-#include "interface.h"
+//#include "interface.h"
 using namespace std;
 
 int main()
 {
-    cout << "main function \./" << endl;
+    cout << "main function \\./" << endl;
 
     return 0;
 }

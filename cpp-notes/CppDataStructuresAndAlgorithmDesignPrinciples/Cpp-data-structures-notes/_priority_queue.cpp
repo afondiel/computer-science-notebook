@@ -11,18 +11,20 @@
 
 using namespace std;
 
-//////////////////////////////////
-//////// 8. Queue       //////////
-//////////////////////////////////
+/////////////////////////////////////
+//////// 9. Priority Queue //////////
+/////////////////////////////////////
 
 /*
-data structure based on  : FIFO = FIRST IN FIRST OUT
-for accessing and processing the data
+It's just like the Queue but PQ aranges element in a NON increasing order
+{5,7,10} => becomes {10, 7, 5}
+
+ /!\ PQ is based on vector
 
  -> Removing from the front
  -> Adding from the back
 
-*/
+ */
 
 /*
 |   last/TAIL   |          |          |   first/HEAD  |
@@ -30,9 +32,9 @@ for accessing and processing the data
 
 /*---- structure-----*/
 //=== declaration ====
-//queue<type> _queue
+//priority_queue<type> _p_queue
 //=== definition ======
-//queue<type> _queue = {1, 2, 3};
+//priority_queue<type> _pqueue = {1, 2, 3};
 
 // functions ----------------------x------------------------------ Time complexity
 /*
@@ -45,33 +47,31 @@ for accessing and processing the data
 */
 
 
-void ShowqueueData(queue <int> q)
+void ShowPqueueData(priority_queue <int> pq)
 {
-    while(!q.empty())
+    while(!pq.empty())
     {
-        cout << '\t' << q.front();
-        q.pop();
+        cout << '\t' << pq.top();
+        //removing element
+        pq.pop();
     }
     cout << '\n';
-
 }
 
 int main()
 {
-    cout << "### std::queue\\./ ### " << endl;
+    cout << "### std::priority_queue\\./ ### " << endl;
 
-    queue<int> _queue;
-    // Add element in the queue from the BACK of the queue
-    _queue.push(1);  // queue becomes {1}
-    _queue.push(3);  // queue becomes {1, 3}
-    _queue.push(2);   // queue becomes {1, 3, 2}
+    priority_queue<int> _pqueue;
+    // Add element in the _pqueue from the BACK of the _pqueue
+    _pqueue.push(1);  // _pqueue becomes {1}
+    _pqueue.push(3);  // _pqueue becomes {3, 1}
+    _pqueue.push(2);   // _pqueue becomes {3, 2, 1}
 
-    cout << "The size of the queue is :" << _queue.size() << endl;
+    cout << "The size of the priority_queue is :" << _pqueue.size() << endl;
+    cout << "The top of the priority_queue is :" << _pqueue.top() << endl;
 
-    //removing element from the FRONT of the queue (tail)
-    _queue.pop();  //queue becomes {2, 3}
-    _queue.push(4);  //queue becomes {2, 3, 4}
-    ShowqueueData(_queue);
+    ShowPqueueData(_pqueue);
 
     return 0;
 }
