@@ -27,4 +27,4 @@ Sensor * Sensor_Create(void);
 void Sensor_Destroy(Sensor* const me);
 
 
-#endif Sensor_H
+#endif
