@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "ch1\Sensor\include\Sensor.h"
+#include "ch1\Sensor\include\Sensor_OO.h"
 
 Sensor mySensor = {
                    //Hz  //Hz //mV
@@ -54,14 +55,15 @@ int main()
     Sensor * p_Sensor0, * p_Sensor1;
     p_Sensor0 = Sensor_Create();
     p_Sensor1 = Sensor_Create();
+
     /* do stuff with the sensors ere */
     p_Sensor0->value = 99;
     p_Sensor1->value = -1;
     printf("The current value from Sensor 0 is %d\n", Sensor_getValue(p_Sensor0));
     printf("The current value from Sensor 1 is %d\n", Sensor_getValue(p_Sensor1));
     /* done with sensors */
-    Sensor_Destroy(p_Sensor0);
-    Sensor_Destroy(p_Sensor1);
+    //Sensor_Destroy(p_Sensor0);
+    //Sensor_Destroy(p_Sensor1);
 
 /*Object-oriented : This style is similar to object-based except that the
     => "struct" itself contains "function pointers" (virtual functions)
@@ -69,9 +71,21 @@ int main()
 */
 
 // code
+    //object instantiation
+    Sensor * p_Sensor2;
+    p_Sensor2 = Sensor_Create();
+
+    //set new frequency
+    //Sensor_setFilterFrequency(p_Sensor2, 10);
+    //Sensor_getFilterFrequency(p_Sensor2)
+
+    printf(" ::::::::::: TEST I Sensor_OO ::::::::::::: \n");
+    printf("Get filterFrequency : %d\n", Sensor_getFilterFrequency(p_Sensor2));
+    //printf("Get updateFrequency : %d\n", mySensor.updateFrequency);
+    //printf("Get value : %d\n", mySensor.value);
 
 
-
+    Sensor_Destroy(p_Sensor2);
 
 //printf("Chapter 2 :  Embedded Programming with The HarmonyTM for Embedded RealTime Process\n");
 //Chapter 2  : Embedded Programming with The HarmonyTM for Embedded RealTime Process
