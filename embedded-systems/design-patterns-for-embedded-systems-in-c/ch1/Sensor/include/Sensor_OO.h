@@ -5,6 +5,11 @@
 #define Sensor_H
 //include "ADConverter.h"
 
+typedef enum{
+	MEMORYMAPPED,
+	PORTMAPPED
+}e_interface;
+
 /* function pointers */
 typedef int (*f0ptrInt) (const Sensor* const me);        /* (void*) == ptr to the function w only me ptr argument */
 typedef void (*f1ptrVoid) (const Sensor* const me, int); /* (void*, int)  == ptr to function with me ptr + int args */
@@ -19,6 +24,7 @@ typedef struct {
     // virtual functions
     f0ptrInt getFilterFreq; /* ptr to the function w only me ptr argument */
     f1ptrVoid setFilterFreq; /* ptr to function with me ptr and int args */
+    e_interface whatKindOfInterface; /*sensor interface cmd : memory/port mapped */ 
 
 }Sensor;
 
