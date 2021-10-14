@@ -1,15 +1,50 @@
 # depslib dependency file v1.0
-1634048624 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
+1634251580 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
 	<stdio.h>
 	<stdlib.h>
-	"ch1\Sensor\include\Sensor.h"
+	"ch1\Queue\include\queue_OO.h"
+	"ch1\Queue\include\CachedQueue_OO.h"
+	"ch1\Queue\main_queue.h"
 
 1634047060 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor.h
 
-1634056202 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor\include\sensor.h
+1634118076 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor\include\sensor.h
 
 1634056202 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor\src\sensor.c
 	<stdio.h>
 	<stdlib.h>
 	"..\include\Sensor.h"
+
+1634116344 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor\src\sensor_oo.c
+	<stdio.h>
+	<stdlib.h>
+	"..\include\Sensor_OO.h"
+
+1634163330 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor\include\sensor_oo.h
+
+1634215148 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\src\queue_oo.c
+	<stdio.h>
+	<stdlib.h>
+	"../include/queue_OO.h"
+
+1634202632 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\queue_oo.h
+
+1634251498 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\main_queue.c
+	<stdio.h>
+	<stdlib.h>
+	"include\queue_OO.h"
+	"include\CachedQueue_OO.h"
+	"main_queue.h"
+
+1634164612 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\main_queue.h
+
+1634251824 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\src\cachedqueue_oo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"..\include\queue_OO.h"
+	"..\include\cachedQueue_OO.h"
+
+1634251386 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\cachedqueue_oo.h
+	"..\include\queue_OO.h"
 

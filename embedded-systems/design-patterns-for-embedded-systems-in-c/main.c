@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "ch1\Queue\include\queue_OO.h"
+#include "ch1\Queue\include\CachedQueue_OO.h"
 #include "ch1\Queue\main_queue.h"
 
 // Sensor exemples
@@ -89,7 +90,11 @@ int main()
     //Sensor_Destroy(p_Sensor2);
 
 
-    //:::::::::::::::::::OO second exemple : QUEUE ::::::::::::::::::::::::::::::
+    //:::::::::::::::::::OO second exemple : QUEUE ::::::::::::::::::::::::::::::::::::
+
+    //main_queue();
+
+    //:::::::::::::::: CHACHEDQUEUE exemple : Inheritance / Polymorphism ::::::::::::::
 
     main_queue();
 
