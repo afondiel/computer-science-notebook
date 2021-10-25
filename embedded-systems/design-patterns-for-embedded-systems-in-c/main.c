@@ -96,14 +96,20 @@ int main()
 
     //:::::::::::::::: CHACHEDQUEUE exemple : Inheritance / Polymorphism ::::::::::::::
 
-    main_queue();
+    //main_queue();
 
 
 //printf("Chapter 2 :  Embedded Programming with The HarmonyTM for Embedded RealTime Process\n");
 //Chapter 2  : Embedded Programming with The HarmonyTM for Embedded RealTime Process
 
 //printf("Chapter 3 :  Design Patterns for Accessing Hardware\n");
+//========================================================
 //Chapter 3  : Design Patterns for Accessing Hardware
+//========================================================
+
+
+    main_hw_access();
+
 //Chapter 4  : Design Patterns for Embedding Concurrency and Resource Management
 //Chapter 5 : Design Patterns for State Machines
 //Chapter 6  : Safety and Reliability Patterns

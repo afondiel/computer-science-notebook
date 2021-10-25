@@ -78,10 +78,15 @@ Safety and Reliability View    /             \ Architecture Deployment Distribut
 //Chapter 3  : Design Patterns for Accessing Hardware
 //////////////////////////////////////////////////////
 
+//Patterns in this chapter:
 
-
-
-
+//=>Hardware Proxy Pattern   – Encapsulate the hardware into a class or struct
+//=>Hardware Adapter Pattern – Adapt between a required and a provided interface
+//=>Mediator Pattern         – Coordinate complex interactions
+//=>Observer Pattern         – Support efficient sensor data distribition
+//=>Debouncing Pattern       – Reject intermittent hardware signals
+//=>Interrupt Pattern        – Handle high-ugency hardware signals
+//=>Polling Pattern          – Periodically check for new sensor data
 
 
 
