@@ -5,6 +5,8 @@
 *.exe
 *.depend
 /build
+/bin
+/obj
 /codeblocks
 
 
