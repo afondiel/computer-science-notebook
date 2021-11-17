@@ -1,0 +1,28 @@
+Big O
+
+- Time complexy
+
+Notation								Name	
+O(1) 	------------------------------ constant
+O(log (log n))	------------------------ double logarithmic
+O(log n)	------------------------------ logarithmic
+O((log n)^c) , c>1-----------------------------  polylogarithmic
+O(n^c),  0<c<1----------------------------  fractional power
+O(n)	-------------------------------- linear
+O(nlog*n)------------------------------ n log-star n
+O(nlog ^n = O(log n!)----------------------- linearithmic, loglinear, quasilinear, or "n log n"
+O(n^2)	-------------------------------- quadratic
+O(n^c)	--------------------------------------- polynomial or algebraic
+O(c^n) , c>1----------------------- exponential 
+O(n!)	-------------------------- factorial
+
+
+- Space Complexy 
+
+ => power efficienty
+ => HW constraint
+ => memory size ?
+
+
+//Src: 
+//comparative growth rates limits : https://en.wikipedia.org/wiki/Exponential_growth
