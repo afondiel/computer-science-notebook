@@ -64,7 +64,7 @@ similar languages
 // - SW development process & Design
 // => Macro-cycle (stakeholder focus - *Months* - "Deployment,optmizatio,2 concept, Key concept"=Project Plan)
 // => Micro-cycle (Team focus - *weeks* - Demo-able/shippable build= Iteration plan)
-// => Nano-cycle (Personal focus - *hours* - revision of workitems=Project work Item)
+// => Nano-cycle (Personal focus - *hours* - revision of work items=Project work Item)
 
 // Architectural design views //
 
@@ -85,10 +85,16 @@ Safety and Reliability View    /             \ Architecture Deployment Distribut
 //=>Mediator Pattern         – Coordinate complex interactions
 //=>Observer Pattern         – Support efficient sensor data distribition
 //=>Debouncing Pattern       – Reject intermittent hardware signals
-//=>Interrupt Pattern        – Handle high-ugency hardware signals
+//=>Interrupt Pattern        – Handle high-urgency hardware signals
 //=>Polling Pattern          – Periodically check for new sensor data
 
+software-accessible hardware can be categorized into four kinds :
+ – infrastructure (uC, uP, Timers ...),
+ - communications (RS-232, CAN, SPI ...),
+ - sensors (temp, speed ...),
+ - actuators (motor, ev, lights, LEDS ...)
 
+ //Bitfields & interruption : good tools for HW handling
 
 ////////////////////////////////////////////////////////////////////////////////:
 //Chapter 4  : Design Patterns for Embedding Concurrency and Resource Management
