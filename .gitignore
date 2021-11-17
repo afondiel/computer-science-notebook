@@ -4,9 +4,8 @@
 *.layout
 *.exe
 *.depend
-/build
-/bin
-/obj
-/codeblocks
-
+*.build
+*.bin
+*.obj
+*.codeblocks
 
