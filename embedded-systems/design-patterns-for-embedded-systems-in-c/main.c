@@ -5,9 +5,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "ch1\Queue\include\queue_OO.h"
-#include "ch1\Queue\include\CachedQueue_OO.h"
-#include "ch1\Queue\main_queue.h"
+#include <stdint.h>
+#include <stdbool.h>
+//#include "ch1\Queue\include\queue_OO.h"
+//#include "ch1\Queue\include\CachedQueue_OO.h"
+//#include "ch1\Queue\main_queue.h"
 
 //ch3
 #include "ch3\Accessing Hardware\main_hw.h"
@@ -23,7 +25,7 @@
 ///////////////////// MAIN TEST //////////////////////////
 int main()
 {
-
+    printf(" = = = = = = = = = = Main function = = = = = = = = = = \n");
 
     // CONTENTS
 
@@ -109,17 +111,18 @@ int main()
 //========================================================
 //Chapter 3  : Design Patterns for Accessing Hardware
 //========================================================
-printf("Chapter 3 :  Design Patterns for Accessing Hardware\n");
+    printf("Chapter 3 :  Design Patterns for Accessing Hardware - TEST\n");
 
-main_hw_access();
+    //HW_main
+    main_hw_access();
 
+    printf("//------------------------- End HW Main -------------------------//\n");
 //Chapter 4  : Design Patterns for Embedding Concurrency and Resource Management
 //Chapter 5 : Design Patterns for State Machines
 //Chapter 6  : Safety and Reliability Patterns
 //Appendix A UML Notation
 
 
-
-
     return 0;
 }
+

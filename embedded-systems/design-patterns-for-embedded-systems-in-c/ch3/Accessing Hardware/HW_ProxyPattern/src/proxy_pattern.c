@@ -1,6 +1,6 @@
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include "..\include\proxy_pattern.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "..\include\proxy_pattern.h"
 //
 ///* Initialize function ptrs in constructor */
 //void Sensor_Init(Sensor* const me) {

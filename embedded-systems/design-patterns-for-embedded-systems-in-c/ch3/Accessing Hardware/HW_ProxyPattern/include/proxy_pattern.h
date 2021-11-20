@@ -4,10 +4,6 @@
 #ifndef proxy_pattern_H
 #define proxy_pattern_H
 
-typedef enum{
-	MEMORYMAPPED,
-	PORTMAPPED
-}e_interface;
 
 /* function pointers */
 //typedef int (*f0ptrInt) (const Sensor* const me);        /* (void*) == ptr to the function w only me ptr argument */

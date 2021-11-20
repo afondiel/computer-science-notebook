@@ -89,10 +89,10 @@ Safety and Reliability View    /             \ Architecture Deployment Distribut
 //=>Polling Pattern          – Periodically check for new sensor data
 
 software-accessible hardware can be categorized into four kinds :
- – infrastructure (uC, uP, Timers ...),
- - communications (RS-232, CAN, SPI ...),
- - sensors (temp, speed ...),
- - actuators (motor, ev, lights, LEDS ...)
+ –> infrastructure (uC, uP, Timers ...),
+ -> communications (RS-232, CAN, SPI ...),
+ -> sensors (temp, speed ...),
+ -> actuators (motor, ev, lights, LEDS ...)
 
  //Bitfields & interruption : good tools for HW handling
 
