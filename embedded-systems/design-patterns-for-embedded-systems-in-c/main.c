@@ -9,6 +9,10 @@
 #include "ch1\Queue\include\CachedQueue_OO.h"
 #include "ch1\Queue\main_queue.h"
 
+//ch3
+#include "ch3\Accessing Hardware\main_hw.h"
+#include "ch3\Accessing Hardware\HW_ProxyPattern\include\proxy_pattern.h"
+
 // Sensor exemples
 /*Sensor mySensor = {
                    //Hz  //Hz //mV
@@ -23,7 +27,7 @@ int main()
 
     // CONTENTS
 
-    printf("Chapter 1 :  What Is Embedded Programming?\n");
+    //printf("Chapter 1 :  What Is Embedded Programming?\n");
 
 //Chapter 1 :  What Is Embedded Programming?
 
@@ -102,13 +106,12 @@ int main()
 //printf("Chapter 2 :  Embedded Programming with The HarmonyTM for Embedded RealTime Process\n");
 //Chapter 2  : Embedded Programming with The HarmonyTM for Embedded RealTime Process
 
-//printf("Chapter 3 :  Design Patterns for Accessing Hardware\n");
 //========================================================
 //Chapter 3  : Design Patterns for Accessing Hardware
 //========================================================
+printf("Chapter 3 :  Design Patterns for Accessing Hardware\n");
 
-
-    main_hw_access();
+main_hw_access();
 
 //Chapter 4  : Design Patterns for Embedding Concurrency and Resource Management
 //Chapter 5 : Design Patterns for State Machines

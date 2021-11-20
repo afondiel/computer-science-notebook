@@ -31,10 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="ch1/Sensor/include/Sensor_OO.h" />
-		<Unit filename="ch1/Sensor/src/Sensor_OO.c">
+		<Unit filename="ch3/Accessing Hardware/HW_ProxyPattern/include/proxy_pattern.h" />
+		<Unit filename="ch3/Accessing Hardware/HW_ProxyPattern/src/proxy_pattern.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="ch3/Accessing Hardware/main_hw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ch3/Accessing Hardware/main_hw.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

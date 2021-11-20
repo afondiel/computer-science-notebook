@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1634779614 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
+1637308802 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
 	<stdio.h>
 	<stdlib.h>
 	"ch1\Queue\include\queue_OO.h"
 	"ch1\Queue\include\CachedQueue_OO.h"
 	"ch1\Queue\main_queue.h"
+	"ch3\Accessing Hardware\main_hw.h"
+	"ch3\Accessing Hardware\HW_ProxyPattern\include\proxy_pattern.h"
 
 1634047060 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor.h
 
@@ -27,7 +29,7 @@
 	<stdlib.h>
 	"../include/queue_OO.h"
 
-1634202632 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\queue_oo.h
+1637186194 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\queue_oo.h
 
 1634251498 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\main_queue.c
 	<stdio.h>
@@ -36,7 +38,7 @@
 	"include\CachedQueue_OO.h"
 	"main_queue.h"
 
-1634164612 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\main_queue.h
+1637186194 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\main_queue.h
 
 1634251824 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\src\cachedqueue_oo.c
 	<stdio.h>
@@ -45,6 +47,44 @@
 	"..\include\queue_OO.h"
 	"..\include\cachedQueue_OO.h"
 
-1634251386 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\cachedqueue_oo.h
+1637186194 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\cachedqueue_oo.h
 	"..\include\queue_OO.h"
+
+1637308422 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.c
+	<stdio.h>
+	<stdlib.h>
+
+1637308470 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\src\proxy_pattern.c
+
+1637186194 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.h
+
+1637308462 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\proxy_pattern.h
+
+1637308470 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\src\proxy_pattern.c
+
+1637309124 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.c
+	<stdio.h>
+	<stdlib.h>
+	"HW_ProxyPattern\include\proxy_pattern.h"
+	"main_hw.h"
+
+1637308462 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\proxy_pattern.h
+
+1637186194 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.h
+
+1637308802 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ch1\Queue\include\queue_OO.h"
+	"ch1\Queue\include\CachedQueue_OO.h"
+	"ch1\Queue\main_queue.h"
+	"ch3\Accessing Hardware\main_hw.h"
+	"ch3\Accessing Hardware\HW_ProxyPattern\include\proxy_pattern.h"
+
+1637186194 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\queue_oo.h
+
+1637186194 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\cachedqueue_oo.h
+	"..\include\queue_OO.h"
+
+1637186194 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\main_queue.h
 
