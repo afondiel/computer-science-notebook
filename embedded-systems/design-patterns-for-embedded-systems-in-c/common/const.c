@@ -1,0 +1,11 @@
+///////////////////////////////////////////////////////
+// design-patterns-for-embedded-systems-in-c
+// by : Bruce Powel Douglass - PhD
+///////////////////////////////////////////////////////
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+
