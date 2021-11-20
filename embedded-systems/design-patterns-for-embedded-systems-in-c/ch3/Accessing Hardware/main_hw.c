@@ -82,7 +82,7 @@ void main_hw_access(void)
     printf("//------------------------- main_hw_access -------------------------//\n");
 
     //Test bitfielf_TEST1 :
-    /* \Warning: change DEVICE_ADDRESS value to avoid Dump memory fault
+    /* \Warning: change DEVICE_ADDRESS value to avoid segmentation fault
      *
      */
     //bitField_TEST1();
