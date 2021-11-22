@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "HW_ProxyPattern\include\proxy_pattern.h"
+#include "HW_ProxyPattern\include\HWProxyExample.h"
 #include "main_hw.h"
 
 // #83 : Manipulating bit-oriented memory mapped hardware

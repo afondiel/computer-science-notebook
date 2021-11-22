@@ -1,12 +1,11 @@
 # depslib dependency file v1.0
-1637308802 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
+1637440090 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
 	<stdio.h>
 	<stdlib.h>
-	"ch1\Queue\include\queue_OO.h"
-	"ch1\Queue\include\CachedQueue_OO.h"
-	"ch1\Queue\main_queue.h"
+	<stdint.h>
+	<stdbool.h>
 	"ch3\Accessing Hardware\main_hw.h"
-	"ch3\Accessing Hardware\HW_ProxyPattern\include\proxy_pattern.h"
+	"ch3\Accessing Hardware\HW_ProxyPattern\include\HWProxyExample.h"
 
 1634047060 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor.h
 
@@ -50,36 +49,40 @@
 1637186194 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\cachedqueue_oo.h
 	"..\include\queue_OO.h"
 
-1637308422 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.c
+1637440090 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.c
 	<stdio.h>
 	<stdlib.h>
+	"HW_ProxyPattern\include\HWProxyExample.h"
+	"main_hw.h"
 
 1637308470 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\src\proxy_pattern.c
 
-1637186194 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.h
+1637436224 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.h
 
 1637308462 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\proxy_pattern.h
 
-1637308470 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\src\proxy_pattern.c
-
-1637309124 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.c
+1637428592 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\src\proxy_pattern.c
 	<stdio.h>
 	<stdlib.h>
-	"HW_ProxyPattern\include\proxy_pattern.h"
+	"..\include\proxy_pattern.h"
+
+1637440090 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.c
+	<stdio.h>
+	<stdlib.h>
+	"HW_ProxyPattern\include\HWProxyExample.h"
 	"main_hw.h"
 
-1637308462 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\proxy_pattern.h
+1637440026 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\proxy_pattern.h
 
-1637186194 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.h
+1637436224 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.h
 
-1637308802 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
+1637440090 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
 	<stdio.h>
 	<stdlib.h>
-	"ch1\Queue\include\queue_OO.h"
-	"ch1\Queue\include\CachedQueue_OO.h"
-	"ch1\Queue\main_queue.h"
+	<stdint.h>
+	<stdbool.h>
 	"ch3\Accessing Hardware\main_hw.h"
-	"ch3\Accessing Hardware\HW_ProxyPattern\include\proxy_pattern.h"
+	"ch3\Accessing Hardware\HW_ProxyPattern\include\HWProxyExample.h"
 
 1637186194 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\queue_oo.h
 
@@ -87,4 +90,18 @@
 	"..\include\queue_OO.h"
 
 1637186194 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\main_queue.h
+
+1637428592 source:f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\src\hwproxyexample.c
+	<stdio.h>
+	<stdlib.h>
+	"..\include\proxy_pattern.h"
+
+1637441112 f:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\hwproxyexample.h
+
+1637441146 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\src\hwproxyexample.c
+	<stdio.h>
+	<stdlib.h>
+	"..\include\proxy_pattern.h"
+
+1637441112 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\hwproxyexample.h
 

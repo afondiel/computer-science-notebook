@@ -4,32 +4,32 @@
 	<ActiveTarget name="Release" />
 	<File name="notes.txt" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2049" topLine="39" />
+			<Cursor1 position="4886" topLine="90" />
+		</Cursor>
+	</File>
+	<File name="ch3\Accessing Hardware\main_hw.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="310" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4225" topLine="104" />
+		</Cursor>
+	</File>
+	<File name="ch3\Accessing Hardware\HW_ProxyPattern\include\proxy_pattern.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1331" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="ch3\Accessing Hardware\main_hw.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="110" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="ch3\Accessing Hardware\HW_ProxyPattern\src\proxy_pattern.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1918" topLine="57" />
-		</Cursor>
-	</File>
-	<File name="ch3\Accessing Hardware\main_hw.c" open="1" top="1" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="198" topLine="5" />
-		</Cursor>
-	</File>
-	<File name="ch3\Accessing Hardware\HW_ProxyPattern\include\proxy_pattern.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1320" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="main.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="491" topLine="6" />
+			<Cursor1 position="75" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

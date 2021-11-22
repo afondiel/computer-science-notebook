@@ -13,7 +13,7 @@
 
 //ch3
 #include "ch3\Accessing Hardware\main_hw.h"
-#include "ch3\Accessing Hardware\HW_ProxyPattern\include\proxy_pattern.h"
+#include "ch3\Accessing Hardware\HW_ProxyPattern\include\HWProxyExample.h"
 
 // Sensor exemples
 /*Sensor mySensor = {
