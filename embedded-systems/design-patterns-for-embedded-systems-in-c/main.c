@@ -14,6 +14,8 @@
 //ch3
 #include "ch3\Accessing Hardware\main_hw.h"
 #include "ch3\Accessing Hardware\HW_ProxyPattern\include\HWProxyExample.h"
+#include "ch3\Accessing Hardware\HW_ProxyPattern\include\MotorData.h"
+#include "ch3\Accessing Hardware\HW_ProxyPattern\include\MotorProxy.h"
 
 // Sensor exemples
 /*Sensor mySensor = {

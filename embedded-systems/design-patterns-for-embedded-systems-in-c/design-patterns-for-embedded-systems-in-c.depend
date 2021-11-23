@@ -1,11 +1,13 @@
 # depslib dependency file v1.0
-1637440090 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
+1637624516 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	<stdbool.h>
 	"ch3\Accessing Hardware\main_hw.h"
 	"ch3\Accessing Hardware\HW_ProxyPattern\include\HWProxyExample.h"
+	"ch3\Accessing Hardware\HW_ProxyPattern\include\MotorData.h"
+	"ch3\Accessing Hardware\HW_ProxyPattern\include\MotorProxy.h"
 
 1634047060 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor.h
 
@@ -49,7 +51,7 @@
 1637186194 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\queue\include\cachedqueue_oo.h
 	"..\include\queue_OO.h"
 
-1637440090 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.c
+1637624824 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\main_hw.c
 	<stdio.h>
 	<stdlib.h>
 	"HW_ProxyPattern\include\HWProxyExample.h"
@@ -103,5 +105,20 @@
 	<stdlib.h>
 	"..\include\proxy_pattern.h"
 
-1637441112 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\hwproxyexample.h
+1637624322 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\hwproxyexample.h
+
+1637624962 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\motordata.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	"HWProxyExample.h"
+
+1637624962 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\motorproxy.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	"HWProxyExample.h"
+	"MotorData.h"
 

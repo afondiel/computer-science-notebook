@@ -92,6 +92,10 @@ void main_hw_access(void)
      */
     bitField_TEST2();
 
+    //////////////////////////
+    //HW Proxy example test //
+    //////////////////////////
+    //?
 
 
 }

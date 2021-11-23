@@ -4,9 +4,13 @@
 
 #ifndef MOTORDATA_H
 #define MOTORDATA_H
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <stdbool.h>
 
 #include "HWProxyExample.h"
+
 typedef struct MotorData MotorData;
 struct MotorData {
     unsigned char on_off;

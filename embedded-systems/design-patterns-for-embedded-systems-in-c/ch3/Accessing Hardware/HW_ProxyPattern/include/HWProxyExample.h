@@ -11,8 +11,7 @@ struct MotorController;
 struct MotorDisplay;
 // HW data
 struct MotorData;
-
-//HW
+//HW proxy
 struct MotorProxy;
 
 typedef enum DirectionType {
