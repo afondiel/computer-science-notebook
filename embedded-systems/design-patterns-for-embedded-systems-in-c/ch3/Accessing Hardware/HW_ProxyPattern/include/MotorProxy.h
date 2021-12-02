@@ -46,7 +46,10 @@ void MotorProxy_initialize(MotorProxy* const me);
 /* update the speed and direction of the motor together */
 void MotorProxy_writeMotorSpeed(MotorProxy* const me, const DirectionType* direction, unsigned int speed);
 
-MotorProxy * MotorProxy_Create(void); void MotorProxy_Destroy(MotorProxy* const me);
+//Constractor
+MotorProxy * MotorProxy_Create(void);
+//Destractor
+void MotorProxy_Destroy(MotorProxy* const me);
 
 
 #endif
