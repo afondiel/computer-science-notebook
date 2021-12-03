@@ -87,7 +87,7 @@ void MotorProxy_Cleanup(MotorProxy* const me) {
 // ---------------------------------------------------------------------------------//
 DirectionType* MotorProxy_accessMotorDirection(MotorProxy* const me) {
     MotorData mData;
-    if (!me->motorData)
+    if (!me->motorAddr)
         return 0;
     mData = unmarshall(*me->motorAddr);
     return mData.direction;
@@ -96,7 +96,7 @@ DirectionType* MotorProxy_accessMotorDirection(MotorProxy* const me) {
 // ---------------------------------------------------------------------------------//
 unsigned int MotorProxy_accessMotorSpeed(MotorProxy* const me) {
     MotorData mData;
-    if (!me->motorData)
+    if (!me->motorAddr)
         return 0;
     mData = unmarshall(*me->motorAddr);
     return mData.speed;
@@ -105,7 +105,7 @@ unsigned int MotorProxy_accessMotorSpeed(MotorProxy* const me) {
 // ---------------------------------------------------------------------------------//
 unsigned int MotorProxy_aceessMotorState(MotorProxy* const me) {
     MotorData mData;
-    if (!me->motorData)
+    if (!me->motorAddr)
         return 0;
     mData = unmarshall(*me->motorAddr);
     return mData.errorStatus;
@@ -113,7 +113,7 @@ unsigned int MotorProxy_aceessMotorState(MotorProxy* const me) {
 
 // ---------------------------------------------------------------------------------//
 void MotorProxy_clearErrorStatus(MotorProxy* const me) {
-    if (!me->motorData)
+    if (!me->motorAddr)
         return;
     *me->motorAddr &= 0xFF;
 }
@@ -135,7 +135,7 @@ void MotorProxy_disable(MotorProxy* const me) {
 // ---------------------------------------------------------------------------------//
 
 void MotorProxy_enable(MotorProxy* const me) {
-    if (!me->motorData)
+    if (!me->motorAddr)
         return;
     *me->motorAddr |= 1;
 }
@@ -144,7 +144,7 @@ void MotorProxy_enable(MotorProxy* const me) {
 
 void MotorProxy_initialize(MotorProxy* const me) {
     MotorData mData;
-    if (!me->motorData)
+    if (!me->motorAddr)
         return;
 
     mData.on_off = 1;
@@ -171,7 +171,7 @@ void MotorProxy_writeMotorSpeed(
     MotorData mData;
     double dPi, dArmLength, dSpeed, dAdjSpeed;
 
-    if (!me->motorData)
+    if (!me->motorAddr)
         return;
 
     mData = unmarshall(*me->motorAddr);
@@ -188,7 +188,7 @@ void MotorProxy_writeMotorSpeed(
         mData.speed = speed;
     }
 
-    *me->motorData = marshal(mData);
+    *me->motorAddr = marshal(mData);
 
     return;
 }

@@ -107,14 +107,14 @@
 
 1637624322 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\hwproxyexample.h
 
-1637624962 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\motordata.h
+1638476330 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\motordata.h
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	<stdbool.h>
 	"HWProxyExample.h"
 
-1637625690 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\motorproxy.h
+1638475136 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\accessing hardware\hw_proxypattern\include\motorproxy.h
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
