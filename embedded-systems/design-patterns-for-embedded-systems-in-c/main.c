@@ -12,10 +12,10 @@
 //#include "ch1\Queue\main_queue.h"
 
 //ch3
-#include "ch3\Accessing Hardware\main_hw.h"
-#include "ch3\Accessing Hardware\HW_ProxyPattern\include\HWProxyExample.h"
-#include "ch3\Accessing Hardware\HW_ProxyPattern\include\MotorData.h"
-#include "ch3\Accessing Hardware\HW_ProxyPattern\include\MotorProxy.h"
+#include "ch3\3-1 - HW accessing concept\hw_test.h"
+#include "ch3\3-2 - HW_ProxyPattern\include\HWProxyExample.h"
+#include "ch3\3-2 - HW_ProxyPattern\include\MotorData.h"
+#include "ch3\3-2 - HW_ProxyPattern\include\MotorProxy.h"
 
 // Sensor exemples
 /*Sensor mySensor = {
