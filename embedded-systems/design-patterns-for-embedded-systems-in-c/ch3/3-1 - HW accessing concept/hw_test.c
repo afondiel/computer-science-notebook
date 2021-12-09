@@ -6,7 +6,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "HW_ProxyPattern\include\HWProxyExample.h"
 #include "hw_test.h"
 
 // --------------------Functions definitions----------------------- //
@@ -20,9 +19,9 @@ void emergencyShutDown(void)
 void bitField_TEST1(void)
 {
     unsigned char* pDevice;
-    pDevice = (unsigned char *)DEVICE_ADDRESS; // pt to device
+    //pDevice = (unsigned char *)DEVICE_ADDRESS; // pt to device
     // for testing you can replace the above line with
-    // pDevice = malloc(1);
+    pDevice = malloc(1);  //Test purpose
 
     *pDevice = 0xFF; // start with all bits on
     printf("Device bits %X\n", *pDevice);
