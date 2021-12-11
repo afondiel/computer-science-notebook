@@ -83,7 +83,7 @@ Safety and Reliability View    /             \ Architecture Deployment Distribut
 //=>Hardware Proxy Pattern   – Encapsulate the hardware into a class or struct
 //=>Hardware Adapter Pattern – Adapt between a required and a provided interface
 //=>Mediator Pattern         – Coordinate complex interactions
-//=>Observer Pattern         – Support efficient sensor data distribition
+//=>Observer Pattern         – Support efficient sensor data distribution (Publish-Subscribe//Client-Server))
 //=>Debouncing Pattern       – Reject intermittent hardware signals
 //=>Interrupt Pattern        – Handle high-urgency hardware signals
 //=>Polling Pattern          – Periodically check for new sensor data
