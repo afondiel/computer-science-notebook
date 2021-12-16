@@ -99,9 +99,21 @@ software-accessible hardware can be categorized into four kinds :
 ////////////////////////////////////////////////////////////////////////////////:
 //Chapter 4  : Design Patterns for Embedding Concurrency and Resource Management
 ///////////////////////////////////////////////////////////////////////////////////
+
+// => Cyclic Executive Pattern – Schedule threads in an infinite loop
+// => Static Priority Pattern – Schedule threads by priority
+// => Critical Region Pattern – Protect resources by disabling task switching
+// => Guarded Call Pattern – Protect resources through mutex semaphores
+// => Queuing Pattern – Serialize access through queuing messages
+// => Rendezvous Pattern – Coordinate complex task synchronization
+// => Simultaneous Locking Pattern – Avoid deadlock by locking resources together
+// => Ordered Locking Pattern – Avoid deadlock by locking resources only in specific orders
+
 ////////////////////////////////////////////////////////////////////////////
 //Chapter 5 : Design Patterns for State Machines
 //////////////////////////////////////////////////////////////////////////
+
+// ?
 
 /////////////////////////////////////////////////////////:
 //Chapter 6  : Safety and Reliability Patterns
