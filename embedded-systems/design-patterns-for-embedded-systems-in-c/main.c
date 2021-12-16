@@ -17,6 +17,17 @@
 #include "ch3\3-2 - HW_ProxyPattern\include\MotorData.h"
 #include "ch3\3-2 - HW_ProxyPattern\include\MotorProxy.h"
 
+//ch4
+#include "ch4\Embedding Concurrency and Resource Management\ECRM_main.h"
+//#include "ch4\Embedding Concurrency and Resource Management\4.1-Basic Concurrency Concepts\include"
+//#include "ch4\Embedding Concurrency and Resource Management\4.2-Cyclic Executive Patterncepts\include"
+//#include "ch4\Embedding Concurrency and Resource Management\4.3-Static Priority Pattern\include"
+//#include "ch4\Embedding Concurrency and Resource Management\4.4-Critical Region Pattern\include"
+//#include "ch4\Embedding Concurrency and Resource Management\4.5-Guarded Call Pattern\include"
+//#include "ch4\Embedding Concurrency and Resource Management\4.6-Queuing Pattern\include"
+//#include "ch4\Embedding Concurrency and Resource Management\4.7-Rendezvous Pattern\include"
+//#include "ch4\Embedding Concurrency and Resource Management\4.8-Simultaneous Locking Pattern\include"
+//#include "ch4\Embedding Concurrency and Resource Management\4.9-Ordered Locking\include"
 // Sensor exemples
 /*Sensor mySensor = {
                    //Hz  //Hz //mV
@@ -113,16 +124,27 @@ int main()
 //========================================================
 //Chapter 3  : Design Patterns for Accessing Hardware
 //========================================================
-    printf("Chapter 3 :  Design Patterns for Accessing Hardware - TEST\n");
+//    printf("Chapter 3 :  Design Patterns for Accessing Hardware - TEST\n");
+//
+//    //HW_main
+//    main_hw_access();
+//
+//    printf("//------------------------- End HW Main -------------------------//\n");
 
-    //HW_main
-    main_hw_access();
 
-    printf("//------------------------- End HW Main -------------------------//\n");
-//Chapter 4  : Design Patterns for Embedding Concurrency and Resource Management
-//Chapter 5 : Design Patterns for State Machines
-//Chapter 6  : Safety and Reliability Patterns
-//Appendix A UML Notation
+//========================================================
+//Chapter 4 - Embedding Concurrency and Resource Management
+//========================================================
+
+    // ECRM_main
+    ECRM_main();
+
+//========================================================
+//Chapter 4 - Design Patterns for State Machines
+//========================================================
+//========================================================
+//Chapter 4 - Safety and Reliability Patterns
+//========================================================
 
 
     return 0;
