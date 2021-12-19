@@ -35,7 +35,7 @@ void ECRM_main(void)
     //4.1-Basic Concurrency Concepts //\
     //////////////////////////\n");
 
-    /**** Cyclic executive processing loop ***/
+    /**==== Cyclic executive processing loop ====**/
     /* global static and stack data */
     static int nTasks = 3;
     int currentTask;
@@ -50,6 +50,27 @@ void ECRM_main(void)
         }; /* end cyclic processing loop */
     }
 
+    /** ====Basic task structure with a preemptive scheduler ==== **/
+    /*here is where private static data goes*/
+    static int taskAInvocationCounter = 0;
+    void taskA(void) {
+        /* more private task data */
+        int stufftoDo;
+        /* initialization code */
+        stuffToDo = 1;
+        while (stuffToDo) {
+            signal = waitOnSignal();
+            switch (signal) {
+                case signal1:
+                /* signal 1 processing here */
+                break;
+                case signal2:
+                /* signal 2 processing here */
+                case signal3:
+                /* signal 3 processing here */
+            };
+        }; /* end infinite while loop */
+    }; /* end task */
 
     printf("//////////////////////////\
     //4.2-Cyclic Executive Pattern //\
