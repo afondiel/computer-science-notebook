@@ -100,6 +100,14 @@ software-accessible hardware can be categorized into four kinds :
 //Chapter 4  : Design Patterns for Embedding Concurrency and Resource Management
 ///////////////////////////////////////////////////////////////////////////////////
 
+small apps
+- cyclic executives schedulers : infinite loop tasks are executed sequentially?
+- round-robin schedulers : infinite loop only run task to specific points then go back to scheduling loop?
+
+larger embedded apps
+- preemptive scheduling : priority task (wait-ready-run)
+- time-slicing scheduler (also known as time-driven multitasking executive or TDME) : each task has a specific completion time
+
 // => Cyclic Executive Pattern – Schedule threads in an infinite loop
 // => Static Priority Pattern – Schedule threads by priority
 // => Critical Region Pattern – Protect resources by disabling task switching
@@ -113,7 +121,12 @@ software-accessible hardware can be categorized into four kinds :
 //Chapter 5 : Design Patterns for State Machines
 //////////////////////////////////////////////////////////////////////////
 
-// ?
+//
+// =>Single Event Receptor Pattern – Implement state machines with a single event receptor
+// =>Multiple Event Receptor Pattern – Implement state machines with many event receptors
+// =>State Table Pattern – Implement a table-driven state machine
+// =>State Design Pattern – Implement state machines with creation of state objects
+// =>Decomposed And-State Pattern – Implement and-states through the decomposition of the composite state
 
 /////////////////////////////////////////////////////////:
 //Chapter 6  : Safety and Reliability Patterns
