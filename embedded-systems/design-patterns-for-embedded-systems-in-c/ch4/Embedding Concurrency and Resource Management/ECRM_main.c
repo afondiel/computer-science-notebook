@@ -17,6 +17,7 @@
 //#include "4.8-Simultaneous Locking Pattern\include"
 //#include "4.9-Ordered Locking\include"
 
+#define TRUE (1)
 /* ================ ECRM MAIN TEST ============================= */
 
 /**
@@ -33,7 +34,22 @@ void ECRM_main(void)
     printf("///////////////////////////\
     //4.1-Basic Concurrency Concepts //\
     //////////////////////////\n");
-    //?
+
+    /**** Cyclic executive processing loop ***/
+    /* global static and stack data */
+    static int nTasks = 3;
+    int currentTask;
+    /* initialization code */
+    currentTask = 0;
+    if (POST()) { /* Power On Self Test succeeds */
+        /* scheduling executive */
+        while (TRUE) {
+            task1();
+            task2();
+            task3();
+        }; /* end cyclic processing loop */
+    }
+
 
     printf("//////////////////////////\
     //4.2-Cyclic Executive Pattern //\
