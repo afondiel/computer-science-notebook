@@ -1,6 +1,7 @@
 # JS ESSENTIAL
 
-JS = JAVASCRIPT
+- Created by Brandan Eich in 1995, from NCC (Mozilla Foundation)
+- Inspired from JAVA
 
 # JS TOOLS
 
@@ -8,10 +9,18 @@ JS = JAVASCRIPT
 
 -- Chrome : V8
 -- firefox : SpiderMonkey
--- explorer : 
--- Siri
+-- explorer : ? 
+-- Safari : ?
 
-NODE vs NODEJS
+--! NODE : C++ program embedded w/ js engine v8, this can run tool outside of the browser 
 
-- NODE : C++ program embedded w/ js engine v8, this can run tool outside of the browser
-- NODEJS : 
+# APPLICATIONS
+
+- Web dev (front, back, FS)
+
+# FRAMEWORKS
+
+- React
+- Angular
+- Vue
+
