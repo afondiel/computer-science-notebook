@@ -1,0 +1,17 @@
+# JS ESSENTIAL
+
+JS = JAVASCRIPT
+
+# JS TOOLS
+
+## Compiler : JS Engine, found in every browser like 
+
+-- Chrome : V8
+-- firefox : SpiderMonkey
+-- explorer : 
+-- Siri
+
+NODE vs NODEJS
+
+- NODE : C++ program embedded w/ js engine v8, this can run tool outside of the browser
+- NODEJS : 
