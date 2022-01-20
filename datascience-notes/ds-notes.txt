@@ -1,0 +1,13 @@
+============== DATASCIENCE NOTES =================
+
+ == Agenda == 
+
+- Start
+- Learn to Code in Python
+- Identifying Data Science Tasks
+- Understanding Different Types of Data
+- Analyzing and Visualizaing Data
+- Preprocessing and Feature Engineering
+- Modelling + Algorithms and Evaluation
+- Deployment and Integration
+- Domain Expertise and Soft Skills
