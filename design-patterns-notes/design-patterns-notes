@@ -175,7 +175,23 @@ Behaviorals patterns: assign responsiblities between the objects
 *** Create his own solution by reusing the generic solution ****
 
 
+# Identify the problem
+- understand well his conception problem
+/!\ get to know very all the patterns will much easier to identify the pattern that fits the best /!\
+
+# Find the pattern
+
+-identify the pattern(s)
+-identify the paticipants
+-study the impact/consequence of its use
+
+# Apply the pattern
+
+-Finally, to create our own solution by reusing the generic solution.
+-We match our participants and pattern's ones 
+-we recreate the pattern schematic with our own names
+
+/!\ Usage : rename the class WidgetGenerator => WidgetFactory (express more clearly the pattern used)
 
 
-
-//src :https://www.codingame.com/playgrounds/503/design-patterns/uml-basics
+// @credit :https://www.codingame.com/playgrounds/503/design-patterns/uml-basics
