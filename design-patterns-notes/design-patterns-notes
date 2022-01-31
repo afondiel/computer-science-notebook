@@ -109,12 +109,22 @@ Relation between classes
 #### Design Patterns history ####
 ##################################
 
+Inspiration from architecture : 
+by Christopher Alexander. Form the book, "A pattern language" (1977)
 
+"FIRST" Software design patterns book : 
+-  "Design Patterns: Elements of Reusable Object-Oriented Software" (1995), by Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides the Gang of Four (GoF).
 
+What is NOT a pattern : 
+- a reusable or parametrizable componant.
+- an algorithm.
+- a framework.
 
-
-
-
+What is a pattern : 
+The identification by a name explicite who identify a the pattern
+The description of the problem
+The problem's solution
+The positive and negative solution's concequencies
 
 
 
