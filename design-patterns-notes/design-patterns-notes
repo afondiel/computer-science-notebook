@@ -59,9 +59,9 @@ Inheritance
 Abstract classes : If a class doesn't provide an implementation for any operation
 -------------------
 | AbstractClass	   |	
--------------------
-| AbstractOperation|	
--------------------
+----------------------
+| AbstractOperation()|	
+----------------------
 
 
 Instance
@@ -115,6 +115,10 @@ by Christopher Alexander. Form the book, "A pattern language" (1977)
 "FIRST" Software design patterns book : 
 -  "Design Patterns: Elements of Reusable Object-Oriented Software" (1995), by Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides the Gang of Four (GoF).
 
+##################################
+#### Design Patterns concept ####
+##################################
+
 What is NOT a pattern : 
 - a reusable or parametrizable componant.
 - an algorithm.
@@ -125,6 +129,51 @@ The identification by a name explicite who identify a the pattern
 The description of the problem
 The problem's solution
 The positive and negative solution's concequencies
+
+##################################
+#### Design Patterns Organization ####
+##################################
+
+The 23 originals patterns referenced at the GoF's patterns are organized into 3 big families : 
+
+# Creationals patterns: abstract the instanciation process
+- Singleton
+- Factory Method
+- Abstract Factory
+- Builder
+- Prototype
+
+Structurals patterns: compose the objects and classes in large structures
+- Adaptor
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+
+Behaviorals patterns: assign responsiblities between the objects
+
+- Interpreter
+- Template method
+- Chain of responsibility
+- Command
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Visitor
+
+##################################
+#### Design Patterns USAGE ####
+##################################
+
+*** Find the problem ***
+*** Find the generic pattern for this problem ***
+*** Create his own solution by reusing the generic solution ****
+
 
 
 
