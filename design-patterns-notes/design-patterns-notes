@@ -1,0 +1,122 @@
+===================================
+===== Design-patterns-notes =======
+===================================
+
+
+### Fundamentals OOP ####
+
+1/ Encapsulation
+2/ Message
+Messaging passing execution time)
+3/ Polymorphism
+4/ Inheritance
+
+# Reference & Classes
+
+* Variables : 
+Attribute w/ a reference (memory adress) : a name, reference, object
+* Types : 
+-> Class : 
+- Var + methods for future instance
+- type a variable or a return type
+- mould type ?   : A factory
+
+* Interface : 
+Abstract type (abstract class) w/ methodes signatures (prototypes)
+=> In the class we implement one/many interfaces methods
+
+
+#### UML BASICS ####
+
+Class Model  : 
+
+--------------
+| className	  |
+--------------
+| Attributes  |	
+--------------
+| Operation1()|
+| Operation2()|
+| Operation3()|
+--------------
+Encapsulation : + (public); = protected; - private
+
+
+Inheritance
+--------------
+| superClass  |	
+--------------
+       ^
+       |
+       |
+       |
+       |
+--------------
+| SubClass   |	
+--------------
+
+
+Abstract classes : If a class doesn't provide an implementation for any operation
+-------------------
+| AbstractClass	   |	
+-------------------
+| AbstractOperation|	
+-------------------
+
+
+Instance
+--------------
+| 	Class     |	
+--------------
+       ^
+       |
+       | <<instanceOf>>
+       |
+       |
+--------------
+|	 Object   |	
+--------------
+
+
+Relation between classes
+
+-Dependency -----> (import; return values, params )
+-Association/multiple associations : both instance objects are referenced
+-Agregation : strong link
+-Composition : STRONGEST link
+
+## UML DRIAGRAMS ##
+
+# Structural :
+-Class diagram
+-Component diagram
+-Composite structure diagram
+-Deployment diagram
+-Object diagram
+-Package diagram
+-Profile diagram
+
+# Behavioral : 
+-Activity diagram
+-Communication diagram
+-Interaction overview diagram
+-Sequence diagram
+-State diagram
+-Timing diagram
+-Use case diagram
+
+##################################
+#### Design Patterns history ####
+##################################
+
+
+
+
+
+
+
+
+
+
+
+//src :https://www.codingame.com/playgrounds/503/design-patterns/uml-basics
