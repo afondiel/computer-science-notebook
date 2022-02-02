@@ -17,7 +17,7 @@ class IMediator(metaclass=ABCMeta):
 class Mediator(IMediator):
     "The Mediator Concrete Class"
     def __init__(self):
-        self.colleague1 = Colleague1()
+        self.colleague1 = Colleague1() 
         self.colleague2 = Colleague2()
     def colleague1_method(self):
         return self.colleague1.colleague1_method()
