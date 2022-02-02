@@ -1,0 +1,70 @@
+================= CAN PROTOCOL NOTES =================
+
+Standards : J1939/ ISO 11898
+				    
+Needs : Mores electronics, ECUs, Sensors, Wire harnesses => 
+
+Pros : speed increase
+Cons : wire lenght decrease  
+
+* CAN PROTOCOL *
+
++----+-----+-----+------+------+---+----+----+----+  	+----+
+|IFS | SoF | ARBA| CTRL | DATA |CRC| ACK| EoF| IFS| ... | IFS| 
++----+-----+-----+------+------+---+----+----+----+  	+----+
+
+# IFS(Intermission Frame Space) :  minimum bit between 2 msgs
+    
+ - minimum bit between 2 msgs
+
+# SoF(Start Of Frame) : 
+			 
+1 bit (0/1)
+
+# ARBA (Arbitraction field): handle priority node 
+	 
+- 11 bits (standard)
+- 29 bits (extended)
+
+			^
+dominant	|	    +--------       +5
+			|   1   |   0  
+reccesive	+-------+-------+---->  -5
+			 no 	 priority
+			priority
+			
+			
+/!\ every node sending 1 bit, recessive and receiveing at the same time 1 bit dominant LOST the priority
+			
+# CTRL(Control field) : 
+
+6 bits
+
++----+-----+------+-----+----+----+
+| IDE| RSV | 	    DLC(4)        | 
++----+-----+-----+-----+-----+----+
+|	 |	   | 	 | 	   | 	 | 	  | 
++----+-----+-----+-----+-----+----+
+- IDE : ID - EXTENDED
+- RSV (RESERVED) 
+- DLC : Data length / size of data field		 
+
+# DATA(Data field) 
+				 
+0 - 64 bits
+
+# CRC(Cyclic Redundancy Check)
+ 	 
+16 bits
+
+# ACK(Acknowelged field)
+			 
+2 bits
+
+
+References: 
+https://en.wikipedia.org/wiki/CAN_bus
+
+# EoF(End of Frame)
+ 				 
+7 bits
