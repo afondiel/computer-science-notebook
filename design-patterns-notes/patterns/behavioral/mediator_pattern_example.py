@@ -48,3 +48,5 @@ print(f"COLLEAGUE1 <--> {DATA}")
 # If I am Colleague2, I want some data from Colleague1
 DATA = MEDIATOR.colleague1_method()
 print(f"COLLEAGUE2 <--> {DATA}")
+
+# credit: https://medium.com/design-patterns-in-python/mediator-design-pattern-5b1a8d05b8
