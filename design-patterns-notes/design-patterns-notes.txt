@@ -194,4 +194,6 @@ Behaviorals patterns: assign responsiblities between the objects
 /!\ Usage : rename the class WidgetGenerator => WidgetFactory (express more clearly the pattern used)
 
 
-// @credit :https://www.codingame.com/playgrounds/503/design-patterns/uml-basics
+// srcs : 
+- https://en.wikipedia.org/wiki/Software_design_pattern
+- https://www.codingame.com/playgrounds/503/design-patterns/uml-basics
