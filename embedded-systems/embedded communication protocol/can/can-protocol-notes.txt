@@ -57,14 +57,16 @@ reccesive	+-------+-------+---->  -5
  	 
 16 bits
 
-# ACK(Acknowelged field)
+# ACK(Acknowelged field) : transmission :1 / reception : 0
 			 
 2 bits
 
+SLOT | Delimiter ( 1 reccesive bit )
 
-References: 
-https://en.wikipedia.org/wiki/CAN_bus
 
 # EoF(End of Frame)
  				 
 7 bits
+
+References: 
+https://en.wikipedia.org/wiki/CAN_bus
