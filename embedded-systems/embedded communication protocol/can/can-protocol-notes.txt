@@ -1,11 +1,13 @@
 ================= CAN PROTOCOL NOTES =================
 
-Standards : J1939/ ISO 11898
-				    
-Needs : Mores electronics, ECUs, Sensors, Wire harnesses => 
+CAN = Control Area Network : standards that define how ECUs communicate to each others in vehicule
 
-Pros : speed increase
-Cons : wire lenght decrease 
+*Standards : ISO 11898
+				    
+*Needs : Mores electronics, ECUs, Sensors, Wire harnesses => 
+
+*Pros : speed increase
+*Cons : wire lenght decrease 
 
 
 *ISO 11898 & OSI Model : CAN2.0*
@@ -31,9 +33,12 @@ Cons : wire lenght decrease
 
 * CAN PROTOCOL *
 
-+----+-----+-----+------+------+---+----+----+----+  	+----+
-|IFS | SoF | ARBA| CTRL | DATA |CRC| ACK| EoF| IFS| ... | IFS| 
-+----+-----+-----+------+------+---+----+----+----+  	+----+
++------+-----+-------------+-------+------------+---------+------+---------+----+  	 +----+
+|IFS   | SoF | ARBA		   | CTRL  | 	DATA    |	CRC	  | ACK  | EoF	   | IFS| ...| IFS| 
++------+-----+-------------+-------+------------+---------+------+---------+----+  	 +----+
+|2 bits|1 bit| 11 - 29 bits| 6 bits| 0 - 64 bits| 16 bits |2 bits| 7 bits  |IFS | ...| IFS|  
++------+-----+-------------+-------+------------+----+----+------+---------+----+  	 +----+
+
 
 # IFS(Intermission Frame Space) :  minimum bit between 2 msgs
     
@@ -89,6 +94,29 @@ SLOT | Delimiter ( 1 reccesive bit )
 # EoF(End of Frame)
  				 
 7 bits
+
+
+# NETWORK Communication 
+
++------------------------+--------------------------+ 
+		LAYER			 | Protocol Data Unit (PDU) |
++---+--------------------+--------------------------+
+| 7	| Application layer  | 							|
++---+--------------------+							+
+| 6	| 					 | 		     DATA			|
++---+--------------------+							+
+| 5	|	   				 |							|
++---+--------------------+---------------------------
+| 4 |					 | 						    |
++---+--------------------+---------------------------
+| 3 |					 |	        			    |
++---+--------------------+---------------------------
+| 2	| Data link layer    | 		Frame			    |
++---+--------------------+---------------------------
+| 1	|	Physical layer   |	 	Bit, Symbol		    |
++------------------------+--------------------------+
+
+
 
 References: 
 https://en.wikipedia.org/wiki/CAN_bus
