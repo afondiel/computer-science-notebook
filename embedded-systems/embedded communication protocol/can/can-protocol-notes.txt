@@ -117,6 +117,34 @@ SLOT | Delimiter ( 1 reccesive bit )
 +------------------------+--------------------------+
 
 
+# CAN  MESSAGE  TYPE
+
+1/ Data frame
+2/ Remote Frame (RTR = 1)
+3/ Error Frame
+4/ Overload Frame
+
+
+
+# Erro Handling
+
+
+* Active Error 
+
+Tx = 1;
+Rx = 1;
+
+ * Passive Error
+
+Tx = 1;
+Rx = 1;
+
+* Bus Off
+
+Tx = 1;
+Rx = 1;
+
 
 References: 
 https://en.wikipedia.org/wiki/CAN_bus
+https://www.kvaser.com/lesson/can-basics-training-introduction/
