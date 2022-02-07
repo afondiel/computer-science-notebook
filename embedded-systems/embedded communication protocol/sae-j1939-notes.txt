@@ -1,18 +1,13 @@
 ==================== SAE J1939 notes ==================
 
-# J1939 protocol : ISO 11898 - 2 / CAN 2.0B
-SAE J1939 is a set of standards that define how ECUs communicate 
-via the CAN bus in *heavy-duty vehicles*
+# J1939 protocol : ISO 11898 : CAN 2.0B
 
-J1939 provides a higher layer protocol (HLP) based on CAN 
-as the "physical layer"
+- Higher-layer protocol built on CAN
+- Used in heavy-duty vehicles
+- The speed is nearly always 250 kbit/s or 500 kbit/s
+- J1939 uses the 29-bit(extended)identifier defined within the CAN 2.0B
 
-* J1939 via CAN PROTOCOL *
-
-+----+-----+-----+------+------+---+----+----+----+  	+----+
-|IFS | SoF | ARBA| CTRL | DATA |CRC| ACK| EoF| IFS| ... | IFS| 
-+----+-----+-----+------+------+---+----+----+----+  	+----+
-
+* CAN Layer * 
 
 +------------------------+--------------------------+ 
 		LAYER			 | Protocol Data Unit (PDU) |
@@ -31,4 +26,63 @@ as the "physical layer"
 +---+--------------------+---------------------------
 | 1	|	Physical layer   |	 	Bit, Symbol		    |
 +------------------------+--------------------------+
+
+* CAN PROTOCOL *
+
+
++----+-----+-----+------+------+---+----+----+----+  	+----+
+|IFS | SoF | ARBA| CTRL | DATA |CRC| ACK| EoF| IFS| ... | IFS| 
++----+-----+-----+------+------+---+----+----+----+  	+----+
+
+* J1939 via CAN PROTOCOL *
+
+ARB (Arbitraction field) : 
+
+<----------- 29-bit Extended CAN Frame identifier ------------------------>
++---------+----------+-----------+----------+-------------+---------------+
+| PRIORITY| RESERVED | DATA PAGE |PDU FORMAT| PDU SPECIFIC| SOURCE ADDRESS| 
++---------+----------+-----------+----------+-------------+---------------+
+| 3 bits  | 1 bit 	 | 1 bit 	 |8 bits	| 8 bits	  | 8 bits		  | 
++---------+----------+-----------+----------+-------------+---------------+
+
+*The J1939 PGN (Parameter Group Number) 
+
+		  <---------------- 18-bit PGN ------------------ >
++---------+----------+-----------+----------+-------------+---------------+
+|PRIORITY | RESERVED | DATA PAGE |PDU FORMAT| PDU SPECIFIC| SOURCE ADDRESS| 
++---------+----------+-----------+----------+-------------+---------------+
+|//////// | 1 bit 	 | 1 bit 	 |8 bits	| 8 bits	  | ///////////	  | 
++---------+----------+-----------+----------+-------------+---------------+
+		  
+*The J1939 SPN(Suspect Parameter Number)
+
+*** DATA (Data field) of CAN PROTOCOL  *** 
+<----------------------------------- 0-64-bit Data field ----------------------------------------------->
++---------+----------+-----------+----------+-------------+---------------+-------------+---------------+
+| BYTE7   | BYTE6    | BYTE5     |BYTE4     | BYTE3       | BYTE2         | BYTE1       | BYTE0         |  
++---------+----------+-----------+----------+-------------+---------------+-------------+---------------+
+| 8 bits  | 8 bits   | 8 bits  	 |8 bits	| 8 bits	  | 8 bits		  | 8 bits	    | 8 bits		|  
++---------+----------+-----------+----------+-------------+---------------+-------------+---------------+
+
+The J1939 SPN
+
+				8-bit SPN1 
+		   <--------------------->														   <------16-bit SPN2 ------->
++----------+----------+----------------------+-----------+----------+-----------+--------- +-------------+-----------+
+|BYTE7(msb)|BYTE7(lsb)| BYTE6(msb)|BYTE6(lsb)| BYTE5     |BYTE4     | BYTE3     | BYTE2    | BYTE1       | BYTE0     |  
++---------------------+----------------------+-----------+----------+-----------+----------+-------------+-----------+
+| 8 bits   			  |    		 8 bits      | 8 bits  	 |8 bits	| 8 bits	| 8 bits   | 8 bits	     | 8 bits	 |  
++---------------------+----------------------+-----------+----------+-----------+----------+-------------+-----------+
+
+
+*The J1939 Diagnostics
+
+
+
+# References : 
+
+- j1939 protocol : https://www.csselectronics.com/pages/j1939-explained-simple-intro-tutorial
+- j1939 diag : https://embeddedflakes.com/j1939-diagnostics-part-1/
+ - kvaser : https://www.kvaser.com/about-can/higher-layer-protocols/j1939-introduction/
+- kvaser : https://www.kvaser.com/lesson/j1939-dbc-file-discussion/
 
