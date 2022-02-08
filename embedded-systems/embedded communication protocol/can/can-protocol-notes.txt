@@ -129,6 +129,14 @@ SLOT | Delimiter ( 1 reccesive bit )
 4/ Overload Frame
 
 
+# ERROR DETECTION
+
+-Bit Monitoring ? signal level nok based on the transmitted bits
+-Bit stuffing ?  : after 5 consecutive bit w/ same parity a opposite bit signal is adder by the transmitter, then removed by the receiver
+-Frame Check  : CRC Delimiter, EOF, Intermision
+-ACK Check ? : ACK ERROR
+-CRC Check ? : CRC (15 bit) ERROR
+
 
 # ERROR HANDLING 
 
@@ -138,20 +146,21 @@ SLOT | Delimiter ( 1 reccesive bit )
 -CRC Error ?
 -Form Error ?
 
+ERROR COUNTER per NODE
 
-//TEC ?
-//REC ? 
+//TEC (Transmitter Error Counter ) : ?
+//REC (Receiver Error Counter ) : ? 
 
+ex : 
 cnt +=8;
 
-
-ACTIVE ERROR : 
+ACTIVE ERROR : active error flag detected
 si cnt > 96 && < 128 
 
-PASSIVE ERROR : 
+PASSIVE ERROR : passive error flag detected
 si cnt >= 128
 
-BUS OFF :
+BUS OFF : no error flag detected
 
 si cnt >= 256, then reset to ACTIVE ERROR state
 
