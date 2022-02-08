@@ -30,6 +30,10 @@ CAN = Control Area Network : standards that define how ECUs communicate to each 
 | 1	|	Physical layer   |	 	Bit, Symbol		    |
 +------------------------+--------------------------+
  
+* Physical Laye(bit level): wire canh/canL, resistance,  baud, timing bit, package of 0/1
+* DataLink Layer(frame level) : frame id, lenght, Tx : CN4 Telemetry / Rx : SRC
+* Transport Layer : J1939 ? => 
+* Application Layer : Machine/Tractor
 
 * CAN PROTOCOL *
 
@@ -53,12 +57,12 @@ CAN = Control Area Network : standards that define how ECUs communicate to each 
 - 11 bits (standard)
 - 29 bits (extended)
 
-			^
-dominant	|	    +--------       +5
-			|   1   |   0  
-reccesive	+-------+-------+---->  -5
-			 no 	 priority
-			priority
+				^
+dominant(0)		|	    +--------       +5
+				|   1   |   0  
+reccesive(1)	+-------+-------+---->  -5
+				no 	 	 priority
+				priority
 			
 			
 /!\ every node sending 1 bit, recessive and receiveing at the same time 1 bit dominant LOST the priority
@@ -126,24 +130,37 @@ SLOT | Delimiter ( 1 reccesive bit )
 
 
 
-# Erro Handling
+# ERROR HANDLING 
+
+-Bit Error ?
+-ACK Error ?
+-Stuff Error ?
+-CRC Error ?
+-Form Error ?
 
 
-* Active Error 
+//TEC ?
+//REC ? 
 
-Tx = 1;
-Rx = 1;
+cnt +=8;
 
- * Passive Error
 
-Tx = 1;
-Rx = 1;
+ACTIVE ERROR : 
+si cnt > 96 && < 128 
 
-* Bus Off
+PASSIVE ERROR : 
+si cnt >= 128
 
-Tx = 1;
-Rx = 1;
+BUS OFF :
 
+si cnt >= 256, then reset to ACTIVE ERROR state
+
+
+# Bit timing
+
+quanta ? 
+clock synchronization? 
+ 
 
 References: 
 https://en.wikipedia.org/wiki/CAN_bus
