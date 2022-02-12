@@ -1,6 +1,8 @@
-"""
-Factory Design Pattern Exampe
-"""
+"""! @brief Factory Design Pattern Exampe """
+#
+# @author : afondiel | 12/02/2022
+#
+
 from abc import ABCMeta, abstractmethod, abstractstaticmethod
 from enum import IntEnum
 
