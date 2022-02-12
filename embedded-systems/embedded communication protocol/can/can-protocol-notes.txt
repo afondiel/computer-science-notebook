@@ -37,11 +37,11 @@ CAN = Control Area Network : standards that define how ECUs communicate to each 
 
 * CAN PROTOCOL *
 
-+------+-----+-------------+-------+------------+---------+------+---------+----+  	 +----+
-|IFS   | SoF | ARBA		   | CTRL  | 	DATA    |	CRC	  | ACK  | EoF	   | IFS| ...| IFS| 
-+------+-----+-------------+-------+------------+---------+------+---------+----+  	 +----+
-|2 bits|1 bit| 11 - 29 bits| 6 bits| 0 - 64 bits| 16 bits |2 bits| 7 bits  |IFS | ...| IFS|  
-+------+-----+-------------+-------+------------+----+----+------+---------+----+  	 +----+
++------+------+-----+-------------+-------+------------+---------+------+---------+----+--------+
+|IDLE  |IFS   | SoF | ARBA		  | CTRL  |    DATA    |	CRC	 | ACK  | EoF	  | IFS|   IDLE | 
++------+------+-----+-------------+-------+------------+---------+------+---------+----+--------+ ...
+| //// |2 bits|1 bit| 11 - 29 bits| 6 bits| 0 - 64 bits| 16 bits |2 bits| 7 bits  |IFS |   //// |  
++------+------+-----+-------------+-------+------------+----+----+------+---------+----+--------+
 
 
 # IFS(Intermission Frame Space) :  minimum bit between 2 msgs
@@ -51,6 +51,9 @@ CAN = Control Area Network : standards that define how ECUs communicate to each 
 # SoF(Start Of Frame) : 
 			 
 1 bit (0/1)
+
+0 : start
+1 : not start
 
 # ARBA (Arbitraction field): handle priority node 
 	 
@@ -71,13 +74,16 @@ reccesive(1)	+-------+-------+---->  -5
 
 6 bits
 
-+----+-----+------+-----+----+----+
-| IDE| RSV | 	    DLC(4)        | 
-+----+-----+-----+-----+-----+----+
-|	 |	   | 	 | 	   | 	 | 	  | 
-+----+-----+-----+-----+-----+----+
-- IDE : ID - EXTENDED
++--------+---------+------+-----+----+----+
+| IDE(r1)| RSV(r0) | 	    DLC(4)        | 
++--------+---------+-----+-----+-----+----+
+|	     |	       | 	 | 	   | 	 | 	  | 
++--------+---------+-----+-----+-----+----+
+- IDE : Data format
+STANDARD(0)
+EXTENDED(1)
 - RSV (RESERVED) 
+
 - DLC : Data length / size of data field		 
 
 # DATA(Data field) 
@@ -151,14 +157,22 @@ ERROR COUNTER per NODE
 //TEC (Transmitter Error Counter ) : ?
 //REC (Receiver Error Counter ) : ? 
 
-ex : 
+ex :
+
+cnt (TEC, REC) 
+
 cnt +=8;
 
 ACTIVE ERROR : active error flag detected
 si cnt > 96 && < 128 
 
+=> node will send 6 dominant bit, 8 recessive => IFS
+
 PASSIVE ERROR : passive error flag detected
 si cnt >= 128
+
+=> node will send 6 dominant bit, 8 recessive => IFS
+
 
 BUS OFF : no error flag detected
 
