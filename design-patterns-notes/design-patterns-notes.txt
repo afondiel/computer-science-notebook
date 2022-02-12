@@ -137,37 +137,54 @@ The positive and negative solution's concequencies
 The 23 originals patterns referenced at the GoF's patterns are organized into 3 big families : 
 
 # Creationals patterns: abstract the instanciation process
-- Singleton
-- Factory Method (*) : manufactures an object
-- Abstract Factory
-- Builder
-- Prototype
 
-Structurals patterns: compose the objects and classes in large structures
-- Adaptor
-- Bridge
-- Composite
-- Decorator
-- Facade
-- Flyweight
-- Proxy
+==> Singleton  <==
 
-Behaviorals patterns: assign responsiblities between the objects
+==> Factory Method (*) : manufactures an object <==
+case 1 : Creator is an abstract (super)class
+case 2 : Creator is an Concrete (super)class
+case 3 : Parameterized factory methods => create multiple products
 
-- Interpreter
-- Template method
-- Chain of responsibility
-- Command
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy
-- Visitor
+* Proprieties
+- when creating an object without knowing it in davanced during the design stage 
+(ex : an random event of same nature, decision (person class : teacher/student ) ...
+- create new objects(products) during the run-time
+- subclasses(creator) create the product instead of superclass(Creator)
+- subclasses(creator) overrides methods/operations of the superclasses(Creator)
+
+* Applications : 
+- create new objects(products) during the run-time
+- useful for large projects
+
+==> Abstract Factory <==
+==> Builder <==
+==> Prototype <==
+
+# Structurals patterns: compose the objects and classes in large structures
+==> Adaptor <==
+==> Bridge <==
+==> Composite <==
+==> Decorator <==
+==> Facade <==
+==> Flyweight <==
+==> Proxy <==
+
+# Behaviorals patterns: assign responsiblities between the objects
+
+==> Interpreter <==
+==> Template method <==
+==> Chain of responsibility <==
+==> Command <==
+==> Iterator <==
+==> Mediator <==
+==> Memento <==
+==> Observer <==
+==> State <==
+==> Strategy <==
+==> Visitor <==
 
 ##################################
-#### Design Patterns USAGE ####
+#### Design Patterns USAGE 	  ####
 ##################################
 
 *** Find the problem ***
@@ -197,3 +214,5 @@ Behaviorals patterns: assign responsiblities between the objects
 // srcs : 
 - https://en.wikipedia.org/wiki/Software_design_pattern
 - https://www.codingame.com/playgrounds/503/design-patterns/uml-basics
+- https://www.amazon.fr/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
+
