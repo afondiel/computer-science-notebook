@@ -77,6 +77,19 @@ The J1939 SPN
 
 *The J1939 Diagnostics
 
+- DM : Diagnostic Message
+@TBD
+
+--Lamp Format
+@TBD
+
+** DTC Format **
+
+FMI => Failure Mode Indicator
+SPN => Suspect Parameter Number =>  "SIGNALS (associé (ou présent) dans un PGN(MSG) voir doc SAE1939-71 ISO ?? norme)"
+OC => occurence count
+CM => SPN Conversion Method (CM)
+
 
 
 # References : 
