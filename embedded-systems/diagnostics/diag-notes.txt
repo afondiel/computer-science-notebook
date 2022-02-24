@@ -1,0 +1,27 @@
+# diagnostics protocols
+
+1/ On board diagnostic : Engine ECU 
+
+Warns the users if a malfunction is detected when engine running/stops
+
+- OBD
+
+2/ Off board diagnostic : All (others) ECU in the vehicule
+
+Warning and store the error code(fault) to be retrieved in the garage
+ 
+- UDS
+--> UDS on CAN
+--> UDS on IP
+- KWP2000
+
+
+- SAE-J1939/73
+
+
+- references : 
+
+https://en.wikipedia.org/wiki/On-board_diagnostics
+
+
+
