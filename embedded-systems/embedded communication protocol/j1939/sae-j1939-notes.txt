@@ -91,6 +91,19 @@ A DM containts  :
 |   Lamp Status (LS)  |  			 DTC1 		       	  | 				DTC2 			   	   |  		|					DTCn			    |	 
 +---------------------+-----------------------------------+----------------------------------------+		-----------------------------------------
 
+DM classes:
+DM1 Diagnostic Message 1, Active Diagnostic Trouble Codes
+DM2 Diagnostic Message 2, Previously Active Diagnostic Trouble Codes
+DM3 Diagnostic Message 3, Diagnostic Data Clear/Reset For Previously Active DTCs
+DM4 Diagnostic Message 4, Freeze Frame Parameters
+DM5 Diagnostic Message 5, Diagnostic Readiness
+DM6 Diagnostic Message 6, Continuously Monitored Systems Test Results
+DM7 Diagnostic Message 7, Command Non-Continuously Monitored Test
+DM8 Diagnostic Message 8, Test Results For Non-Continuously Monitored Systems
+DM9 Diagnostic Message 9, Oxygen Sensor Test Results
+DM10 Diagnostic Message 10, Non-Continuously Monitored Systems Test IDs Support
+DM11 Diagnostic Message 11, Diagnostic Data Clear/Reset For Active DTCs
+DM12 Diagnostic Message 12, Emissions Related Active DTCs
 
 ** Lamp Status Format **
 <-----BYTE1 : Lamp ----><---BYTE2:Flash-------->
@@ -124,4 +137,5 @@ CM => SPN Conversion Method (CM)
 - j1939 diag : https://embeddedflakes.com/j1939-diagnostics-part-1/
  - kvaser : https://www.kvaser.com/about-can/higher-layer-protocols/j1939-introduction/
 - kvaser : https://www.kvaser.com/lesson/j1939-dbc-file-discussion/
+- implementation : http://www.microcontrol.net/wp-content/uploads/2021/10/hb_j1939_v3r00_en.pdf
 
