@@ -1,27 +1,29 @@
 # diagnostics protocols
 
-1/ On board diagnostic : Engine ECU 
+1/ On board diagnostic : Monitors Engine ECU 
 
 Warns the users if a malfunction is detected when engine running/stops
 
 - OBD
+- OBD II (ISO 9141/SAE J1978)
 
-2/ Off board diagnostic : All (others) ECU in the vehicule
+2/ Off board diagnostic : Monitors All (others) ECU in the vehicule
 
 Warning and store the error code(fault) to be retrieved in the garage
  
-- UDS
---> UDS on CAN
---> UDS on IP
+- UDS (ISO 14229)
+--> UDS on CAN (ISO 14229-3)
+--> UDS on IP (ISO 14229)
 - KWP2000
-
-
+- diagnostics over K-Line
 - SAE-J1939/73
 
 
 - references : 
 
 https://en.wikipedia.org/wiki/On-board_diagnostics
+https://en.wikipedia.org/wiki/Unified_Diagnostic_Services
+https://en.wikipedia.org/wiki/OBD-II_PIDs
 
 
 
