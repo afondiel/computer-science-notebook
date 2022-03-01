@@ -4,13 +4,15 @@ ISOBUS :  is a communication protocol for the agriculture industry based on the 
 
 - ISOBUS is compliance to AEF (Agricultural Industry Electronic Foundation) certification
 
-### Application : 
+### Application
 
-- Control implements from a unique (Virtual) Terminal
+- Control implements(tools) from a unique (Virtual) Terminal
 - Reduce ECU 
+- "plug and play” Application
 - Allow to export the data of implement(tool) to a FARM Management Software (FMS) for anlysis 
-	- Data export in XML
-### Standard ###
+- Data exported in ISO-XML format
+	
+### Standard
 
 ISO 11783: Tractors and machinery for agriculture and forestry—Serial control and communications data network
 
@@ -32,12 +34,19 @@ ISO 11783-13: File server
 ISO 11783-14: Sequence control
 
 
+### The AEF Certified Label
+TU => Universal Terminal
+TECU => (Basic Tractor ECU)  :  Gateway between Tractor ECUs and Implements(tool) ECU bus
+AUX-N => Auxiliary Control :
+TC-BAS=>Task Controller basic (totals) : 
+TC-GEO => Task Controller geo-based (variables): 
+TC-SC=> Task Controller Section Control : 
+
+### Database 
+
+
 ### Communication protocol 
 
-TECU - Gateway between Tractor ECU and Implemented bus(of the tool)
-TC-BAS - Task Controller BASIC
-TC-GEO - 
-TC-SC - 
 
 
 
