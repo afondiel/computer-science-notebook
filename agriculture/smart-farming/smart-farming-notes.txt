@@ -2,7 +2,7 @@
 
 The Smart Farming(SF) : combine conventional agriculture + digital and technical solutions.
 - 
- 
+
  
 * Goal : Support farm daily work and allow you to gain in efficiency
 
@@ -15,6 +15,14 @@ The Smart Farming(SF) : combine conventional agriculture + digital and technical
 - GROWTH 
 - HARVEST
 
+### Innovation
+
+- Performance
+- Comfort
+- Productivity
+- efficiency
+- Farm Management (data viz, data managment ...)
+
 ############ PIPELINE #############
 PREPARE > PLANT > GROW > HARVEST
 ###################################
@@ -22,7 +30,10 @@ PREPARE > PLANT > GROW > HARVEST
 ### Tools : 
 - sensors
 - drones
+- IoT
+- AI (ml, dl ... )
 - GDPR(en)/RGPD(fr)
+
 
 
 
