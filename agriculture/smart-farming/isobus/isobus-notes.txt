@@ -36,6 +36,8 @@ ISO 11783-14: Sequence control
 
 ### The AEF Certified Label
 
+* functionalities
+
 TU => Universal Terminal
 TECU => (Basic Tractor ECU)  :  Gateway between Tractor ECUs and Implements(tool) ECU bus
 AUX-N => Auxiliary Control :
@@ -46,7 +48,8 @@ TIM => Tractor Implement Management  : Under dev
 LOG => Logging of device values independent of the task : Under dev
 ISB => ISOBUS Shortcut Button : Under dev
 
-
+* Certification Organization
+- AEF 
 ### Database 
 @TBD
 
