@@ -1,0 +1,35 @@
+======== smart-farming notes =========
+
+The Smart Farming(SF) : combine conventional agriculture + digital and technical solutions.
+- 
+ 
+ 
+* Goal : Support farm daily work and allow you to gain in efficiency
+
+* Futre ambition  : Build the Agriculture 4.0 (thanks to digital agriculture)
+
+### Application of SF : 
+
+- Field PREPARATION 
+- PLANTATION  
+- GROWTH 
+- HARVEST
+
+############ PIPELINE #############
+PREPARE > PLANT > GROW > HARVEST
+###################################
+
+### Tools : 
+- sensors
+- drones
+- GDPR(en)/RGPD(fr)
+
+
+
+
+### references
+https://medium.com/sciforce/smart-farming-or-the-future-of-agriculture-359f0089df69
+https://medium.com/swlh/computer-vision-in-agriculture-d84b69c6858e
+https://www.barto.ch/fr/pour-les-agriculteurs/smart-farming#:~:text=Il%20s'agit%20d'une,permettre%20de%20gagner%20en%20efficacit%C3%A9.
+
+
