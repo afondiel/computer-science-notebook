@@ -35,18 +35,23 @@ ISO 11783-14: Sequence control
 
 
 ### The AEF Certified Label
+
 TU => Universal Terminal
 TECU => (Basic Tractor ECU)  :  Gateway between Tractor ECUs and Implements(tool) ECU bus
 AUX-N => Auxiliary Control :
 TC-BAS=>Task Controller basic (totals) : 
 TC-GEO => Task Controller geo-based (variables): 
 TC-SC=> Task Controller Section Control : 
+TIM => Tractor Implement Management  : Under dev
+LOG => Logging of device values independent of the task : Under dev
+ISB => ISOBUS Shortcut Button : Under dev
+
 
 ### Database 
-
+@TBD
 
 ### Communication protocol 
-
+@TBD
 
 
 
@@ -57,5 +62,5 @@ TC-SC=> Task Controller Section Control :
 ### references
 
 https://en.wikipedia.org/wiki/ISO_11783
-https://en.wikipedia.org/wiki/ISO_11783
-
+www.aef-online.org
+www.aef-isobus-database.org
