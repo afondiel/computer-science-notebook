@@ -1,0 +1,52 @@
+======== isobus notes =========
+
+ISOBUS :  is a communication protocol for the agriculture industry based on the SAE J1939 protocol (which includes CANbus) .
+
+- ISOBUS is compliance to AEF (Agricultural Industry Electronic Foundation) certification
+
+### Application : 
+
+- Control implements from a unique (Virtual) Terminal
+- Reduce ECU 
+- Allow to export the data of implement(tool) to a FARM Management Software (FMS) for anlysis 
+	- Data export in XML
+### Standard ###
+
+ISO 11783: Tractors and machinery for agriculture and forestry—Serial control and communications data network
+
+The standard comes in 14 parts:
+
+ISO 11783-1: General standard for mobile data communication
+ISO 11783-2: Physical layer
+ISO 11783-3: Data link layer
+ISO 11783-4: Network layer
+ISO 11783-5: Network management
+ISO 11783-6: Virtual terminal
+ISO 11783-7: Implement messages application layer
+ISO 11783-8: Power train messages
+ISO 11783-9: Tractor ECU
+ISO 11783-10: Task controller and management information system data interchange
+ISO 11783-11: Mobile data element dictionary
+ISO 11783-12: Diagnostics services
+ISO 11783-13: File server
+ISO 11783-14: Sequence control
+
+
+### Communication protocol 
+
+TECU - Gateway between Tractor ECU and Implemented bus(of the tool)
+TC-BAS - Task Controller BASIC
+TC-GEO - 
+TC-SC - 
+
+
+
+* Exporting data
+-> ISO-XML : for easy data exchange  
+
+
+### references
+
+https://en.wikipedia.org/wiki/ISO_11783
+https://en.wikipedia.org/wiki/ISO_11783
+
