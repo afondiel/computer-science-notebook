@@ -34,13 +34,26 @@ PREPARE > PLANT > GROW > HARVEST
 - AI (ml, dl ... )
 - GDPR(en)/RGPD(fr)
 
+### AgriTech
 
+ - Management Information Systems:
+ - Precision Agriculture
+ - Agricultural automation and robotics
+ 
+->Drones that plant rice seeds
+->Smart agriculture and the IoT: a ‘ball’ to keep grain fresh
+->The robot that looks after chickens
+->5G farming: helping salmon farmers to ‘see’ one million fish
+->Soil health in smart farming: machine learning gets its hands dirty
 
 
 
 ### references
+https://www.smart-akis.com/index.php/network/what-is-smart-farming/
 https://medium.com/sciforce/smart-farming-or-the-future-of-agriculture-359f0089df69
 https://medium.com/swlh/computer-vision-in-agriculture-d84b69c6858e
 https://www.barto.ch/fr/pour-les-agriculteurs/smart-farming#:~:text=Il%20s'agit%20d'une,permettre%20de%20gagner%20en%20efficacit%C3%A9.
-
+https://www.thalesgroup.com/en/worldwide-digital-identity-and-security/iot/magazine/how-smart-farming-technology-planting-seeds
+https://www.thalesgroup.com/en/markets/digital-identity-and-security/iot/magazine/infographic-7-ways-farming-getting-smart
+https://easternpeak.com/blog/iot-in-agriculture-technology-use-cases-for-smart-farming-and-challenges-to-consider/
 
