@@ -49,6 +49,7 @@ PREPARE > PLANT > GROW > HARVEST
 
 
 ### references
+https://en.wikipedia.org/wiki/Category:Agricultural_technology
 https://www.smart-akis.com/index.php/network/what-is-smart-farming/
 https://medium.com/sciforce/smart-farming-or-the-future-of-agriculture-359f0089df69
 https://medium.com/swlh/computer-vision-in-agriculture-d84b69c6858e
