@@ -50,20 +50,42 @@ ISB => ISOBUS Shortcut Button : Under dev
 
 * Certification Organization
 - AEF 
-### Database 
-@TBD
+
 
 ### Communication protocol 
 @TBD
 
+### Database 
+@TBD
 
 
-* Exporting data
+* Database Description
+- DDI : Data Dictionary //Data Description Index
+- DDE : DDEntity
+- DDOP : Device Description Object Pool
+- XML : Extensible Markup Language
+- TC  : Task Controller
+- MICS :  : Mobile Implement Control System
+- CAN : Controller Area Network 
+- GPS : Global Positioning System
+- VT : Virtual Terminal
+- ECU : Electronic Control Unit
+- TECU : Tractor ECU
+- BUS : Binary Unit System
+- MIS: Farm Management Information System
+- PD :  Process Data ,
+- HMI : Human-Machine Interface 
+
+
+* Exporting data format
 -> ISO-XML : for easy data exchange  
+-> ISO-XLSX : for easy data exchange  
+-> ISO-CSV : for easy data exchange  
 
 
 ### references
 
 https://en.wikipedia.org/wiki/ISO_11783
-www.aef-online.org
-www.aef-isobus-database.org
+https://www.iso.org/standard
+https://www.aef-online.org
+https://www.aef-isobus-database.org
