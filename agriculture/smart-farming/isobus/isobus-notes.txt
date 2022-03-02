@@ -51,13 +51,8 @@ ISB => ISOBUS Shortcut Button : Under dev
 * Certification Organization
 - AEF 
 
-
-### Communication protocol 
-@TBD
-
 ### Database 
 @TBD
-
 
 * Database Description
 - DDI : Data Dictionary //Data Description Index
@@ -83,8 +78,15 @@ ISB => ISOBUS Shortcut Button : Under dev
 -> ISO-CSV : for easy data exchange  
 
 
-### references
+### Communication protocol 
+- based on J1939
 
+### ISOBUS stack Implementation
+
+
+
+### references
+https://github.com/afondiel/research-notes/tree/master/embedded-systems/embedded%20communication%20protocol/j1939
 https://en.wikipedia.org/wiki/ISO_11783
 https://www.iso.org/standard
 https://www.aef-online.org
