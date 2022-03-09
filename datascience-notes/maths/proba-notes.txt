@@ -41,3 +41,10 @@ X : variable/expérience aléatoire
 --> Le théorème central limite
 
 
+# references 
+
+https://fr.wikipedia.org/wiki/Portail:Probabilit%C3%A9s_et_statistiques
+https://dun.unistra.fr/ipm/unit/bayesien/co/1_5_1_0.html#:~:text=Notion%20de%20loi%20discr%C3%A8te%20ou%20continue&text=Une%20loi%20de%20probabilit%C3%A9%20est%20dite%20continue%20quand%20l'exp%C3%A9rience,n'a%20plus%20de%20sens
+
+
+
