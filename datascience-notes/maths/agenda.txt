@@ -4,4 +4,18 @@
 - Linear Algebra 
 - Mathematical Optimization 
 - Calculus
+
+* Application
+
 - Specific data Science tasks & math you need to know for them
+ 
+ => Experimental design : commonly applied as A/B testing
+ => Data processing : for model preparation or analysis
+ =W Modeling : Building/Optimizing/ Performance Evaluation  
+
+
+
+# references :
+
+https://www.youtube.com/watch?v=eJtHzkMy_1k
+https://www.youtube.com/watch?v=AycMp7X9Z20
