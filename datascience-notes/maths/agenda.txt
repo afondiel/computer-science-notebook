@@ -1,0 +1,7 @@
+============ Maths for DS ============
+
+- Statistics & Probability 
+- Linear Algebra 
+- Mathematical Optimization 
+- Calculus
+- Specific data Science tasks & math you need to know for them
