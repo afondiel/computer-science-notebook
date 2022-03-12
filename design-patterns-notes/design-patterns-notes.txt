@@ -1,6 +1,4 @@
-===================================
-===== Design-patterns-notes =======
-===================================
+## Design-patterns-notes 
 
 
 ### Fundamentals OOP ####
@@ -130,17 +128,17 @@ The description of the problem
 The problem's solution
 The positive and negative solution's concequencies
 
-##################################
+######################################
 #### Design Patterns Organization ####
-##################################
+######################################
 
 The 23 originals patterns referenced at the GoF's patterns are organized into 3 big families : 
 
 # Creationals patterns: abstract the instanciation process
 
-==> Singleton  <==
+## Singleton
 
-==> Factory Method (*) : manufactures an object <==
+## Factory Method (*) : manufactures an object ##
 case 1 : Creator is an abstract (super)class
 case 2 : Creator is an Concrete (super)class
 case 3 : Parameterized factory methods => create multiple products
@@ -156,32 +154,52 @@ case 3 : Parameterized factory methods => create multiple products
 - create new objects(products) during the run-time
 - useful for large projects
 
-==> Abstract Factory <==
-==> Builder <==
-==> Prototype <==
+## Abstract Factory
+## Builder
+## Prototype
 
 # Structurals patterns: compose the objects and classes in large structures
-==> Adaptor <==
-==> Bridge <==
-==> Composite <==
-==> Decorator <==
-==> Facade <==
-==> Flyweight <==
-==> Proxy <==
+ - It uses *inheritance* to compose interfaces or implementations  
+
+## Adapter (i.e. wrapper) : interface convertor ##
+
+* Proprieties * 
+- case 1 : create an adapter class?
+- case 2 : work through the adapter to convert the incomptible class to be used by the client ?
+
+* Applications : 
+- How can a class be *reused* that does not have an interface that a client requires?
+- How can classes that have incompatible interfaces work together?
+- How can an alternative interface be provided for a class?
+- Gateway? API ? 
+
+## Bridge
+## Composite
+## Decorator 
+## Facade
+## Flyweight
+## Proxy
 
 # Behaviorals patterns: assign responsiblities between the objects
 
-==> Interpreter <==
-==> Template method <==
-==> Chain of responsibility <==
-==> Command <==
-==> Iterator <==
-==> Mediator <==
-==> Memento <==
-==> Observer <==
-==> State <==
-==> Strategy <==
-==> Visitor <==
+## Interpreter
+## Template method 
+## Chain of responsibility
+## Command
+## Iterator
+
+## Mediator : Define an object that encapsulates how a set of objects interact. ##
+* Proprieties * 
+- case1 : Mediator promotes loose coupling by keeping objects from referring to each other explicitly
+- case2 : it lets you vary their interaction independently.
+* Applications : 
+- ?
+
+## Memento
+## Observer 
+## State
+## Strategy
+## Visitor 
 
 ##################################
 #### Design Patterns USAGE 	  ####
