@@ -1,0 +1,49 @@
+=============== REGRESSION NOTES ==============
+
+- Invented by Francis Galton (1886)
+
+* Goal: 
+    - Study correlation between prices
+    - Magnetude of relationship (between variables, features of a system ..)
+
+
+* Applications : 
+- medecines (medical models)
+- Business (consummer behavior, firm productivity, competiveness of public/private sector)
+
+* Model (Y = Xb + e)
+
+(price) 
+^  
+|  /
+| /
+|/
++++++-> (surface/size)
+
+X -->[  ? ]--> Y
+
+where : 
+- Y : Response var (dependent var to explain/predict based on value of the independent var )
+- X : explanatory/independent var 
+- b : predicted parameter
+- e : error
+
+/!\ This model can predict the price of any sized house based on where the value falls on the regression line /!\
+
+* Adjusted Response
+^     ^
+Y  = Xb 
+
+* residuals
+^       ^
+e = Y - Y
+
+ * ========== Grossary : ============
+- bias : is a "weighing" factor on the interpretation of the results in a more or less hidden way. When we speak of a biased analysis, the results are mathematically correct but their interpretation is distorted by the bias.
+- error: generates false results. Basically, if the data is wrong the results are wrong, if the calculation formulas are wrong or inadequate the results are wrong.
+- residuals  : represent the portion of variability not explained by the model.
+
+
+
+
+
