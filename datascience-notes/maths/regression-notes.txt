@@ -64,7 +64,7 @@ f(m,b) = [df/dm] = [ ? ]
 
 
 
- * ========== Grossary : ============
+ * ========== Glossary : ============
 
 - bias : is a "weighing" factor on the interpretation of the results in a more or less hidden way. When we speak of a biased analysis, the results are mathematically correct but their interpretation is distorted by the bias.
 - error: generates false results. Basically, if the data is wrong the results are wrong, if the calculation formulas are wrong or inadequate the results are wrong.
