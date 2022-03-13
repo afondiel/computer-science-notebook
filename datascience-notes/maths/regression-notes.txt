@@ -11,7 +11,7 @@
 - medecines (medical models)
 - Business (consummer behavior, firm productivity, competiveness of public/private sector)
 
-* Model (Y = Xb + e)
+* Model (Y = mX + b)
 
 (price) 
 ^  
@@ -25,18 +25,18 @@ X -->[  ? ]--> Y
 where : 
 - Y : Response var (dependent var to explain/predict based on value of the independent var )
 - X : explanatory/independent var 
-- b : predicted parameter
-- e : error
+- m : model(predicted) parameter
+- b : error/bias
 
 /!\ This model can predict the price of any sized house based on where the value falls on the regression line /!\
 
 * Adjusted Response
 ^     ^
-Y  = Xb 
+Y  = mX 
 
-* residuals
+* Error/residuals
 ^       ^
-e = Y - Y
+b = Y - Y
 
 ## SUPERVISED NEURAL NERWORK(NN) : REGRESSION & CLASSIFICATION                      
 - Classification : groups data in some classes 
@@ -45,19 +45,31 @@ e = Y - Y
                 => Predict values on a continues spectrum rather than discret Classes
 
 * Cost Fonction for linear regression
- 
-erreur quadratique moyenne (EQM) : 
                   ^
 MSE = 1/n*sum(Y - Y)^2 => the derivate gives the Gradien Descent 
 
 
+* Optimization algorithm (MODEL Optimization ? )
+
+Gradien Descent : 1st order (derivative) to find the minimum value or error of the model 
+- pros  : reduce error
+- cons : derivate/and matrix inversion ? 
+
+derivate of response based on model parameters (m,b)
+f(m,b) = [df/dm] = [ ? ]
+         [df/db]   [ ? ]
+
+* Cost ?
+* Precision ? 
+
 
 
  * ========== Grossary : ============
+
 - bias : is a "weighing" factor on the interpretation of the results in a more or less hidden way. When we speak of a biased analysis, the results are mathematically correct but their interpretation is distorted by the bias.
 - error: generates false results. Basically, if the data is wrong the results are wrong, if the calculation formulas are wrong or inadequate the results are wrong.
 - residuals  : represent the portion of variability not explained by the model.
-- MSE : mean squared error
+- MSE : mean squared error (erreur quadratique moyenne)
 
 
 
