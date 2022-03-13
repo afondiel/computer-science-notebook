@@ -23,9 +23,9 @@
 X -->[  ? ]--> Y
 
 where : 
-- Y : Response var (dependent var to explain/predict based on value of the independent var )
-- X : explanatory/independent var 
-- m : model(predicted) parameter
+- Y : Response var (dependent var to explain/predict based on value of the independent var ) - variable to train/predict based on X
+- X : explanatory/independent var/preditor
+- m : weight
 - b : error/bias
 
 /!\ This model can predict the price of any sized house based on where the value falls on the regression line /!\
@@ -34,9 +34,9 @@ where :
 ^     ^
 Y  = mX 
 
-* Error/residuals
+* residual error
 ^       ^
-b = Y - Y
+e = Y - Y
 
 ## SUPERVISED NEURAL NERWORK(NN) : REGRESSION & CLASSIFICATION                      
 - Classification : groups data in some classes 
