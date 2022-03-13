@@ -38,10 +38,26 @@ Y  = Xb
 ^       ^
 e = Y - Y
 
+## SUPERVISED NEURAL NERWORK(NN) : REGRESSION & CLASSIFICATION                      
+- Classification : groups data in some classes 
+- Regression : predicts values based on line which best models the relationship between the independent(X)
+                and dependent variables(Y)
+                => Predict values on a continues spectrum rather than discret Classes
+
+* Cost Fonction for linear regression
+ 
+erreur quadratique moyenne (EQM) : 
+                  ^
+MSE = 1/n*sum(Y - Y)^2 => the derivate gives the Gradien Descent 
+
+
+
+
  * ========== Grossary : ============
 - bias : is a "weighing" factor on the interpretation of the results in a more or less hidden way. When we speak of a biased analysis, the results are mathematically correct but their interpretation is distorted by the bias.
 - error: generates false results. Basically, if the data is wrong the results are wrong, if the calculation formulas are wrong or inadequate the results are wrong.
 - residuals  : represent the portion of variability not explained by the model.
+- MSE : mean squared error
 
 
 
