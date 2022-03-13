@@ -51,11 +51,11 @@ MSE = 1/n*sum(Y - Y)^2 => the derivate gives the Gradien Descent
 
 * Optimization algorithm (MODEL Optimization ? )
 
-Gradien Descent : 1st order (derivative) to find the minimum value or error of the model 
-- pros  : reduce error
-- cons : derivate/and matrix inversion ? 
+Gradien Descent : 1st order (derivative) to find the minimum value i.e reducing error of the cost function
+- derivate of response based on model parameters (m,b)
 
-derivate of response based on model parameters (m,b)
+Expresion : 
+
 f(m,b) = [df/dm] = [ ? ]
          [df/db]   [ ? ]
 
