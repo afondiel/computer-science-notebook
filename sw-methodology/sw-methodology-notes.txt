@@ -1,0 +1,34 @@
+# SW Methodology Notes
+
+- Methodology Models : 
+
+Agile Model (/!\) : 
+-> Frameworks : 
+	=> XP (eXtreme Programming) => (dev activities, iteration improvement from eXperiences(empiricism approach) )
+	=> scrum (Productive) => (management and organization)
+	=> SAFe (Scaled Agile Framrwork)
+	=> Kanban (reactive)
+	=> Nexy
+	...
+
+WaterFall Model(old)
+V-Cycles Model
+Y-Cycles Model
+Lean Model
+Prototypes Model
+
+
+# References
+
+Agile Model : 
+WaterFall Model : 
+V-Cycles Model :
+Y-Cycles Model :
+Lean Model :
+Prototypes Model : 
+
+https://www.uptech.team/blog/software-development-methodologies#:~:text=Software%20development%20methodology%20refers%20to,systematic%20approach%20to%20software%20development.
+
+
+
+
