@@ -1,7 +1,9 @@
 # SW Methodology Notes
 
-- Methodology Models : 
+- Methodology Models : according to the Product PI (Program Increment) planning (PDCA model)
 
+WaterFall Model(old)
+V-Cycles Model
 Agile Model (/!\) : 
 -> Frameworks : 
 	=> XP (eXtreme Programming) => (dev activities, iteration improvement from eXperiences(empiricism approach) )
@@ -11,20 +13,20 @@ Agile Model (/!\) :
 	=> Nexy
 	...
 
-WaterFall Model(old)
-V-Cycles Model
-Y-Cycles Model
 Lean Model
 Prototypes Model
 
 
 # References
 
-Agile Model : 
-WaterFall Model : 
-V-Cycles Model :
-Y-Cycles Model :
-Lean Model :
+
+V-Cycles Model : https://en.wikipedia.org/wiki/V-Model_(software_development)
+DSDM:https://en.wikipedia.org/wiki/Dynamic_systems_development_method
+/!\ Agile Model : https://en.wikipedia.org/wiki/Agile_software_development
+-scrum : https://en.wikipedia.org/wiki/Scrum_(software_development)
+-kanban : https://en.wikipedia.org/wiki/Kanban_(development)
+WaterFall Model : https://en.wikipedia.org/wiki/Waterfall_model 
+Lean Model : https://en.wikipedia.org/wiki/Lean_software_development
 Prototypes Model : 
 
 https://www.uptech.team/blog/software-development-methodologies#:~:text=Software%20development%20methodology%20refers%20to,systematic%20approach%20to%20software%20development.
