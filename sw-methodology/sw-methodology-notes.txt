@@ -1,20 +1,41 @@
 # SW Methodology Notes
 
+ * Def : 
+ * Application : 
+
 - Methodology Models : according to the Product PI (Program Increment) planning (PDCA model)
 
-WaterFall Model(old)
-V-Cycles Model
-Agile Model (/!\) : 
+*WaterFall Model(old)
+*V-Cycles Model
+*Agile Model (/!\) : 
+
+ PIPELINE : 
+ 
+ PLAN > DESIGN > DEV > TEST > DEPLOY > REVIEW ==> LAUNCH (1st Iteration) ... 2nd Iteration : ...
+ 
+ - Backlog :
+ - Product Backlog :
+ - Items : 
+ - Sprint : 
+ - Increment : 
+ - Iteration
+ - Product Owner(PO) == Manager
+ - Scrum Master (SM) == Project Leader
+ - Plan Iteration(PI)
+ - Continue Integration (CI) : ?
+ - Continue Deployement (CD) : ? 
+ - WIP :  ?
+
 -> Frameworks : 
-	=> XP (eXtreme Programming) => (dev activities, iteration improvement from eXperiences(empiricism approach) )
 	=> scrum (Productive) => (management and organization)
-	=> SAFe (Scaled Agile Framrwork)
 	=> Kanban (reactive)
+	=> XP (eXtreme Programming) => (dev activities, iteration improvement from eXperiences(empiricism approach) )
+	=> SAFe (Scaled Agile Framrwork)
 	=> Nexy
 	...
 
-Lean Model
-Prototypes Model
+*Lean Model
+*Prototypes Model
 
 
 # References
