@@ -24,7 +24,7 @@
  - Plan Iteration(PI)
  - Continue Integration (CI) : ?
  - Continue Deployement (CD) : ? 
- - WIP :  ?
+ - Work In Progress (WIP) :  ?
 
 -> Frameworks : 
 	=> scrum (Productive) => (management and organization)
