@@ -1,0 +1,8 @@
+============ Statistic Notes ============
+
+- Séries
+- Séries de positions (moyenne, mediane, étendu, écartile) 
+- Séries de dispersions (variance , écartipe) 
+
+
+
