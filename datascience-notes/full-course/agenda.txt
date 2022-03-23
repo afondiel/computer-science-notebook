@@ -1,0 +1,26 @@
+======== Data Science - Roadmap ==========
+
+
+1-Fundamentals
+
+Matrices & Linear Algebra Fundamentals
+Hash Functions, Binary Tree, O(n)
+Relational Algebra, DB Basics
+Inne, Outer, Cross, Theta Join
+CAP Theorem
+Tabular Data
+Data Frame & Series
+OLAP
+Multidimensional Data Model
+
+
+
+2-Statistics
+3-Programming
+4-Machine Learning
+5-Text Mining and NPL
+6-Visualization
+7-Big Data
+8-Data Ingestion
+9-Data Munging
+10-ToolBox
