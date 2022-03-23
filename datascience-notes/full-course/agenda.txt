@@ -12,15 +12,27 @@ Tabular Data
 Data Frame & Series
 OLAP
 Multidimensional Data Model
+ETL
+Reporting Vs BI Vs Analytics
+JSON & XML
+NoSQL
+Regex
+Vendor Landscape
+Env Setup
 
-
-
-2-Statistics
-3-Programming
-4-Machine Learning
-5-Text Mining and NPL
+2-Statistics 
+3-Programming 
+4-Machine Learning 
+5-Text Mining and NPL 
 6-Visualization
 7-Big Data
 8-Data Ingestion
 9-Data Munging
 10-ToolBox
+
+
+# Credit content : 
+
+Pramod R : 
+
+- https://medium.com/@getpramod.r/my-journey-path-from-a-software-engg-to-bi-specialist-to-a-data-scientist-21be40095e5
