@@ -57,4 +57,5 @@ https://www.barto.ch/fr/pour-les-agriculteurs/smart-farming#:~:text=Il%20s'agit%
 https://www.thalesgroup.com/en/worldwide-digital-identity-and-security/iot/magazine/how-smart-farming-technology-planting-seeds
 https://www.thalesgroup.com/en/markets/digital-identity-and-security/iot/magazine/infographic-7-ways-farming-getting-smart
 https://easternpeak.com/blog/iot-in-agriculture-technology-use-cases-for-smart-farming-and-challenges-to-consider/
+- Elsevier : smart-agricultural-technology : https://www.journals.elsevier.com/smart-agricultural-technology
 
