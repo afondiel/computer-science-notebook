@@ -1,5 +1,18 @@
 ============== DATASCIENCE NOTES =================
 
+AGENDA & MOTIVATIONS
+
+- Start !!!
+- Learn to Code in Python
+- Identifying Data Science Tasks
+- Understanding Different Types of Data
+- Analyzing and Visualizaing Data
+- Preprocessing and Feature Engineering
+- Modelling + Algorithms and Evaluation
+- Deployment and Integration
+- Domain Expertise and Soft Skills
+
+
 
 <<------------- ibm certificate ----------------->>
 
@@ -82,29 +95,31 @@ Course 1 : What a Data Science ?
 
 ## Deep Learning and Machine Learning ? 
 
-
-
-
-
-
-
-
-
 ## Hands-on Exercise: Data Science Exploration 
 
 
 
- == Learning process skills == 
+## The Final Deliverable
 
-- Start !!!
-- Learn to Code in Python
-- Identifying Data Science Tasks
-- Understanding Different Types of Data
-- Analyzing and Visualizaing Data
-- Preprocessing and Feature Engineering
-- Modelling + Algorithms and Evaluation
-- Deployment and Integration
-- Domain Expertise and Soft Skills
+Analytics = comunicate findings (set of insightsin the data) using Tables & plots.
+
+1. define the ingredients and requirements  ? 
+2. how to search for background information ?
+3. Tools needed to generate the deliverable ?
+
+*tools : grabber
+
+* working w/ Data Scientists : 
+
+- Data Scientists work at the same level as the CIO (Chief Information Officer)
+- Passion / DNA / curiosity / sens of humor/ Story teller  
+- Communication skills / relatable (relationship esaier)
+- Good analysis / Driven - data / Analytics skills ? 
+- Company needs : Engineer/Architecture/ Design/ Team expansion
+- Technical skills : Statistical, algo, ml, bigdata : datastoring ...
+
+
+
 
 
 
