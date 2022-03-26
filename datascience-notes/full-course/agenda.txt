@@ -52,7 +52,30 @@ Causation
 Least1 Fit
 Euclidean Distance
 
-3-Programming 
+3-Programming
+
+Python Basics
+Working in Excel
+R-Setup - R-Studio
+R-Basics
+Expressions
+Variables
+IBM SPSS
+Rapid MIner
+Vectors
+Matrices
+Arrays
+Factors
+Lists
+Data Frames
+Reading CSV Data
+Reading Raw Data
+Subsetting Data
+Manipulate Data Frames
+Functions
+Factor Analysis
+Install Pkgs
+
 4-Machine Learning 
 5-Text Mining and NPL 
 6-Visualization
