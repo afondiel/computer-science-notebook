@@ -1,0 +1,18 @@
+== Agenda == 
+
+Data Exploring in R(Hist, Boxplot..)
+Uni, Bi & Multivariate Viz
+ggplot2
+Histogram & Pie(Uni)
+Tree & Tree Map
+Scatter Plot(Bi)
+Line Charts(Bi)
+Spatial Charts
+Survey Plot
+Timeline
+Decision Tree
+D3.js
+InfoVis
+IBM ManyEyes
+Tableau
+

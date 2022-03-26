@@ -1,0 +1,30 @@
+== Agenda == 
+
+What is ML ?
+Numerical Var
+Categorical Var
+Supervised learning
+Unsupervised learning
+Concepts, Inputs & attributes
+Training & Test Data
+Classifier
+Prediction
+Lift
+Overfitting
+Bias & Variance
+Trees & Classification
+Classification Rate
+Decision Trees
+Boosting
+Naive Bayes Classifiers
+K-Nearest Neighor
+Logistic Regression
+Ranking - regression
+Linear Regression - regression
+Perceptron - regression
+Hierarchical Clustering
+K-means Clustering
+Neural Networks
+Sentiment Analysis
+Collaborative Filtering
+Tagging

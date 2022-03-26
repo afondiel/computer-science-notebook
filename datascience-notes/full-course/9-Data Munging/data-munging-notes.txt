@@ -1,0 +1,19 @@
+== Agenda == 
+
+Dimensionality & Numerosity Reduction
+Normalization
+Data Scrubbing
+Handling Missing Values
+Unbiased Estimators
+Binning Sparse Values
+Feature Extraction
+Denoising
+Sampling
+stratified Sampling
+Principal Component Analysis
+Data Survey
+
+
+
+
+
