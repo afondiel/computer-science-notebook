@@ -21,6 +21,37 @@ Vendor Landscape
 Env Setup
 
 2-Statistics 
+
+Pick a Dataset (UCI Repo)
+Descriptive Statistics (mean, median, range, SD, Var)
+Explotary Data Analysis
+Histograms
+Percentiles & Outilers
+Proba Theory
+Bayes Theorem
+Random Variables
+Cumul Dist fn(CDF)
+Contininous Distributions(Normal, Poisson, Gaussian)
+Skewness
+ANOVA
+Prob Den Fn(PDF)
+Central Limit Theorem
+Monte Carlo Method
+Hypothesis Testing
+p-value
+Chi2 Test
+Estimation
+Confid Int(CI)
+MLE
+Kernel Density Estimate
+Regression
+Covariance
+Correlation
+Pearson Coeff
+Causation
+Least1 Fit
+Euclidean Distance
+
 3-Programming 
 4-Machine Learning 
 5-Text Mining and NPL 
