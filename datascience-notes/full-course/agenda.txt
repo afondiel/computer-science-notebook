@@ -77,6 +77,38 @@ Factor Analysis
 Install Pkgs
 
 4-Machine Learning 
+
+What is ML ?
+Numerical Var
+Categorical Var
+Supervised learning
+Unsupervised learning
+Concepts, Inputs & attributes
+Training & Test Data
+Classifier
+Prediction
+Lift
+Overfitting
+Bias & Variance
+Trees & Classification
+Classification Rate
+Decision Trees
+Boosting
+Naive Bayes Classifiers
+K-Nearest Neighor
+Logistic Regression
+Ranking - regression
+Linear Regression - regression
+Perceptron - regression
+Hierarchical Clustering
+K-means Clustering
+Neural Networks
+Sentiment Analysis
+Collaborative Filtering
+Tagging
+
+
+
 5-Text Mining and NPL 
 6-Visualization
 7-Big Data
