@@ -203,6 +203,21 @@ Data Survey
 
 10-ToolBox
 
+MS Excel with Analysis ToolPack
+Java, Python
+R, R-studio, Rattle
+Weka, Knime, RapidMiner
+Hadoop Dist of Choice
+Spark, Storm
+Flume, Scribe, Chukwa
+Nutch, Talend, ScraperWiki
+WebScrapper, Flume, Sqoop
+tm, RWeka, NLTK
+RHIPE
+D3.js, ggplot2, Shiny
+IBM LanguageWare
+Cassandra, MongoDB
+
 
 # Credit content : 
 
