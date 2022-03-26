@@ -183,7 +183,7 @@ Transformation and Enrichement
 Data survey
 Google OpenRefine
 How much Data ? 
-Using ETL(Extract, Transform, Load)
+Using ETL(Extract-Transform-Load)
 
 9-Data Munging
 
