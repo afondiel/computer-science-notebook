@@ -148,6 +148,30 @@ Tableau
 
 
 7-Big Data
+
+Map Reduce Fundamentals
+Hadoop Components
+HDFS
+Data Replication Principles
+Setup Hadoop (IBM/Cloudera/HortonWorks)
+Name & Data Nodes
+Job & Task Traker
+M/R Programming 
+Sqoop (Loading Data in HDFS)
+Flume, Scribe : For Unstruc Data
+SQL with Pig
+WDH with hive
+Scribe, Chukwa for Weblog
+Using Mathout
+Zookeeper Avro
+Storm : Hadoop Realtime
+Rhadoop, RHIPE
+rmr
+Cassandra
+MongoDB, Neo4j
+
+
+
 8-Data Ingestion
 9-Data Munging
 10-ToolBox
