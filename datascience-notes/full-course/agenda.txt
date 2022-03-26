@@ -173,6 +173,18 @@ MongoDB, Neo4j
 
 
 8-Data Ingestion
+
+Summary of Data Formats
+Data Discovery
+Data Sources and Acquisition
+Data Integration
+Data Fusion
+Transformation and Enrichement
+Data survey
+Google OpenRefine
+How much Data ? 
+Using ETL
+
 9-Data Munging
 10-ToolBox
 
