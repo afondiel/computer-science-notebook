@@ -186,6 +186,21 @@ How much Data ?
 Using ETL
 
 9-Data Munging
+
+Dimensionality & Numerosity Reduction
+Normalization
+Data Scrubbing
+Handling Missing Values
+Unbiased Estimators
+Binning Sparse Values
+Feature Extraction
+Denoising
+Sampling
+stratified Sampling
+Principal Component Analysis
+Data Survey
+
+
 10-ToolBox
 
 
