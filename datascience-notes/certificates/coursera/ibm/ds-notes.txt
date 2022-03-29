@@ -127,15 +127,20 @@ Ex: Gender Wages(salary) between Men and Women => REGRESSION MODEL !!!
 #### The Narrative
 
  ??
-##### 
- Two types of deliverable
+##### The structure of narrative
 
+* Two types of deliverable
 - brief
 - detailed
 
-The deliverable template,
+* The deliverable Contents: 
 
-Format including :
+ - Tables (row, columns)
+ - Plot graphics
+
+* The deliverable template : 
+
+#########################################################################
 cover page
 Table of figures
 Table of graphics ??
@@ -143,17 +148,15 @@ table of contents(ToC)
 executive summary//abstract
 (Introduction)
 detailed contents
-
+-Literature review
+-Methodology sections ??
+-Results section??
+-Discussion section ?? (POWER OF NARRATIVE//STORYTELLING)
+Conclusion
 acknowledgments
 references, and appendices (if needed).
 
-
-Methodology sections ??
-Results section??
-Discussion section ?? (POWER OF NARRATIVE//STORYTELLING)
-Conclusion
-
-
+#########################################################################
 # References : 
  
 * Data mining : 
