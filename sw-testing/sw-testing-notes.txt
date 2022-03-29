@@ -1,0 +1,38 @@
+Test plan : written during detailed Design
+Code review
+UT: Unitary Testing
+IT: Integration Testing
+VT: Validation Testing
+
+
+# Tools:
+
+Polyspace: static code analysis
+Helix QAC : static code analysis
+
+
+# stardards :
+
+MISRA : système critique
+CERT:
+CWE and CWE Top 25
+
+
+# References : 
+
+Eureka : https://www.youtube.com/watch?v=sO8eGL6SFsA
+IBM : https://www.ibm.com/topics/software-testing
+
+Requirements :
+
+https://appsierra.com/5-essential-features-of-embedded-testing-tools/
+
+https://www.rapitasystems.com/embedded-software-testing-tools
+
+Iso26262:
+
+https://www.parasoft.com/industries/embedded/automotive/
+
+Cantata:
+
+https://www.qa-systems.fr/solutions/automotive/
