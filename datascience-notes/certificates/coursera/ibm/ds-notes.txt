@@ -118,9 +118,40 @@ Analytics = comunicate findings (set of insightsin the data) using Tables & plot
 - Company needs : Engineer/Architecture/ Design/ Team expansion
 - Technical skills : Statistical, algo, ml, bigdata : datastoring ...
 
+### What Analytical Techniques/Methods Do You Need?
+
+- identify the type of data for analysis
+- bias vs compensation ?
+Ex: Gender Wages(salary) between Men and Women => REGRESSION MODEL !!! 
+ 
+#### The Narrative
+
+ ??
+##### 
+ Two types of deliverable
+
+- brief
+- detailed
+
+The deliverable template,
+
+Format including :
+cover page
+Table of figures
+Table of graphics ??
+table of contents(ToC)
+executive summary//abstract
+(Introduction)
+detailed contents
+
+acknowledgments
+references, and appendices (if needed).
 
 
-
+Methodology sections ??
+Results section??
+Discussion section ?? (POWER OF NARRATIVE//STORYTELLING)
+Conclusion
 
 
 # References : 
