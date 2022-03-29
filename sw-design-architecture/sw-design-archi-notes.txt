@@ -1,0 +1,88 @@
+Programming paradigm
+- Concurrent programming
+- Procedural programming
+- Oriented Object Programming
+- Object Based Programming
+- Modular programming
+
+Design patterns :
+
+https://en.m.wikipedia.org/wiki/Software_design_pattern
+
+
+# Creational patterns
+
+# Structural patterns
+
+# Behavioral patterns
+
+Src :https://www.geeksforgeeks.org/software-design-patterns/
+
+Some of the popular design patterns:
+
+Design Patterns | Set 1 (Introduction)
+Design Patterns | Set 2 (Factory Method)
+Observer Pattern | Set 1 (Introduction)
+Observer Pattern | Set 2 (Implementation)
+Singleton Design Pattern
+Singleton Class in Java
+Singleton Design Pattern in Java
+Singleton Design Practices with Examples
+Prevent Singleton Patterns from Reflection, Serialization and Cloning
+Decorator Pattern | Set 1 (Background)
+The Decorator Pattern | Set 2 (Introduction and Design)
+Strategy Pattern | Set 1 (Introduction)
+Strategy Pattern | Set 2 (Implementation)
+Adapter Pattern
+Command Pattern
+Iterator Pattern
+Iterator Pattern of a Single Linked List
+Curiously recurring template pattern (CRTP)
+Flyweight Design Pattern
+Facade Design Pattern | Introduction
+Proxy Design Pattern
+Composite Design Pattern
+Prototype Design Pattern
+Abstract Factory Pattern
+Bridge Design Pattern
+Template Method Design Pattern
+Builder Design Pattern
+Chain of Responsibility Design Pattern
+Unified Modeling Language (UML) | Class Diagrams
+
+
+Critical section problem :
+
+Issues:
+deadlock(catching same spinlock twice)
+starving
+Solutions : mutex, semaphores, atomic code, spinlock
+
+
+##### References : ####
+
+Wikipedia : secure coding
+
+https://en.m.wikipedia.org/wiki/Secure_coding
+
+https://techbeacon.com/security/4-ways-secure-your-code-regardless-programming-language
+
+https://wiki.sei.cmu.edu/confluence/plugins/servlet/mobile?contentId=88042842#content/view/88042842
+
+Coding standards:
+https://www.perforce.com/blog/qac/secure-coding-standards
+
+Concurrent programming :
+https://en.m.wikipedia.org/wiki/Concurrent_computing
+
+https://en.wikipedia.org/wiki/List_of_concurrent_and_parallel_programming_languages
+
+Programming paradigms:
+https://en.m.wikipedia.org/wiki/Programming_paradigm
+
+Bugs:
+https://en.m.wikipedia.org/wiki/Software_bug
+
+Automatic bug fixing:
+
+https://en.m.wikipedia.org/wiki/Automatic_bug_fixing
