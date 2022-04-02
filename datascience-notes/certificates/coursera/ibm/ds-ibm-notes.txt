@@ -1,0 +1,247 @@
+============== DATASCIENCE IBM CERTIFICATE NOTES =================
+
+
+== AGENDA ==
+
+COURSE 1 : WHAT'S A DATA SCIENCE ? 
+Course 2 : TOOLS FOR DATA SCIENCE
+Course 3 : DATA SCIENCE METHODOLOGY
+Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
+Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
+Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
+Course 7 : DATA ANALYSIS W/ PYTHON
+Course 8 : DATA VISUALIZATION W/ PYTHON 
+Course 9 : MACHINE LEARNING W/ PYTHON
+Course 10 : APPLIED DATA SCIENCE CAPSTONE
+
+========================================================
+
+Course 1 : WHAT'S A DATA SCIENCE ? 
+
+//// W1 ///
+What's a data science ? 
+
+/!\ Data Science is a process to understand data and do differents things
+- keywords : trends, insights, data structured and unstructured, expore, manipulation, find answers, recommendation
+
+# Fundamentals of DS
+- Data Analysis (question problem ? => Find Answers => Create Value)
+- Data Science ( log files, social medias, email, sales data, patient info files, sports perfomance data, sensor data, seurity camera ...)
+- Be curious!!!
+- Data visualization => to explain => trends, to tell history, to detect a pattern, new behaiviour ...
+
+# Many path to DS
+# What do DS do ?
+# A day in life of Data Scientist ?
+# Old vs new problems ? 
+- unstructured vs strutured
+# Topics algorithms
+# Clouds for Data Scientist ?
+
+# Big Data and Data Mining 
+
+- Big Data and Data Mining ? 
+- Foundations of Big Data ?
+- What is Hadoop ?
+- How Big Data is Driving Digital Transformation?
+- Data Science Skills & Big Data ?
+- Data Scientists at New York University ?
+- Data Mining ?
+
+* def *
+1st/ approach (traditional) : Statistical analysis
+2nd/ Approach : unsupervised + machine-learning algorithms.
+
+* Goal * : to explore hitherto unknown trends and insights by subjecting data to analysis
+
+7 Steps Down the Data Mine : 
+
+1. Establish data mining goals
+ - set up goals for the exercise.
+ - identify the key questions that need to be answered
+ - costs and benefits of exercise
+ - Define expected exercise resultats and accuracy
+ - High levels of accuracy from data mining would cost more and vice versa.
+ 
+2. Select data
+
+ - The output of a data mining exercise largely depends upon the quality of data being used.
+ - Data might be available 
+ - If Data not available then go to  : plan new data collection initiatives, including surveys 
+ - The type of data, its size, and frequency of collection have a direct bearing on the cost
+ - Datas come from differents Databases
+ 
+ 
+3. Preprocess data
+ - clean
+ - identify relevant attributes
+ - identify the irrelevant attributes of data
+ 
+4. Transform data
+ - determine the appropriate format in which data must be stored
+ - data mining is to reduce the number of attributes needed to explain the phenomena
+  --- using Data reduction algorithms
+ - store data in the variables
+ 
+5. Store data
+ - Storing Data into the right/good Data mining format for immediate read/write
+ - new variables can be created to store data and temporary write/read back into the database
+ - store data on servers or storage media that keeps the data secure
+ - Data safety and privacy should be a prime concern for storing data.
+
+
+6. Mine data
+ - After data is appropriately processed, transformed, and stored, it is subject to data mining
+ - data analysis methods
+ - including parametric
+ - non-parametric methods, and machine-learning algorithms.
+ /!\ - data visualization : good starting point for data mining
+ - Multidimensional views of the data
+ - data mining software
+ - FIND  : HIDDEN trends in the data se
+ 
+7. Evaluate data mining results
+ - Extract the result 
+ - Do a formal evaluation 
+ - > Testing the predictative capabilities of the model
+ - > effitiency & of the algorithms in the producing data
+ 
+ /!\ in-sample forecast
+ 
+ -> Share the result w/ Stakeholders
+ -> improve the quality of the resultat from the shared feedback
+ 
+/// W2////
+
+## Deep Learning and Machine Learning ? 
+ 
+
+## Hands-on Exercise: Data Science Exploration 
+
+
+
+## The Final Deliverable
+
+Analytics = comunicate findings (set of insightsin the data) using Tables & plots.
+
+1. define the ingredients and requirements  ? 
+2. how to search for background information ?
+3. Tools needed to generate the deliverable ?
+
+*tools : grabber
+
+* working w/ Data Scientists : 
+
+- Data Scientists work at the same level as the CIO (Chief Information Officer)
+- Passion / DNA / curiosity / sens of humor/ Story teller  
+- Communication skills / relatable (relationship esaier)
+- Good analysis / Driven - data / Analytics skills ? 
+- Company needs : Engineer/Architecture/ Design/ Team expansion
+- Technical skills : Statistical, algo, ml, bigdata : datastoring ...
+
+///W3///
+
+### What Analytical Techniques/Methods Do You Need?
+
+- identify the type of data for analysis
+- bias vs compensation ?
+Ex: Gender Wages(salary) between Men and Women => REGRESSION MODEL !!! 
+ 
+#### The Narrative
+
+ ??
+##### The structure of narrative
+
+* Two types of deliverable
+- brief
+- detailed
+
+* The deliverable Contents: 
+
+ - Tables (row, columns)
+ - Plot graphics
+
+* The deliverable template : 
+
+#########################################################################
+cover page
+Table of figures
+Table of graphics ??
+table of contents(ToC)
+executive summary//abstract
+(Introduction)
+detailed contents
+-Literature review
+-Methodology sections ??
+-Results section??
+-Discussion section ?? (POWER OF NARRATIVE//STORYTELLING)
+Conclusion
+acknowledgments
+references, and appendices (if needed).
+#########################################################################
+
+Course 2 : TOOLS FOR DATA SCIENCE
+
+////W1///
+///W2///
+///W3///
+Course 3 : DATA SCIENCE METHODOLOGY
+
+////W1///
+///W2///
+///W3///
+Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
+////W1///
+///W2///
+///W3///
+Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
+////W1///
+///W2///
+///W3///
+Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
+////W1///
+///W2///
+///W3///
+////W1///
+///W2///
+///W3///
+Course 8 : DATA VISUALIZATION W/ PYTHON 
+////W1///
+///W2///
+///W3///
+Course 9 : MACHINE LEARNING W/ PYTHON
+////W1///
+///W2///
+///W3///
+Course 10 : APPLIED DATA SCIENCE CAPSTONE
+////W1///
+///W2///
+///W3///
+
+
+
+
+# ToolBox
+
+- Data mining : togaware/rattle :
+
+
+
+
+
+
+# References : 
+ 
+* Data mining : 
+ 
+togaware/rattle :
+https://www.togaware.com/
+https://rattle.togaware.com/
+
+Books : Getting Started with Data Science: Making Sense of Data with Analytics
+https://www.informit.com/store/getting-started-with-data-science-making-sense-of-data-9780133991024
+
+
+ 
+ 
+
