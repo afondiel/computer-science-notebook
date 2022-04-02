@@ -37,7 +37,7 @@ What's a data science ?
 - SW Engineer
 /!\ Soft skills/Qualities : Cusiosity, Take Position=>Confidence, Story teller
 
-# What do DS do ?
+# What do Data Scientists do ?
 - recomendation algorithm
 - Prediction Model
 - Find patterns 
@@ -50,6 +50,11 @@ What's a data science ?
 # Old vs new problems ? 
 - old => Predict congestion (uber taxi)
 - new => Environment, Climate Changes
+- Find (new) solution  : 
+		=> Identify the problem  \
+		=> Gather datas     	  \ BUILD A MODEL !!!!
+		=> Identify 			  /
+		=> Tools				 /
 
 # Topics algorithms
 - list : regression, data viz, neural net, nearest neighbour, classification ...
@@ -58,22 +63,14 @@ What's a data science ?
 
 
 # Clouds for Data Scientist ?
-- Cloud : storage data, high performance computing, save physocal space in own computer, simulations works in the same data
 - Cloud : Cloud allows to access to data, collaborate easy
-- IBM : IBM Cloud
-- Amazon : Amazon Web Services(AWS)
-- Google  : Google Cloud Plateforme
-- Tools : Hadloop, stata ...
+- Cloud : storage data, high performance computing, save physocal space in own computer, simulations works in the same data
+=> IBM : IBM Cloud
+=> Amazon : Amazon Web Services(AWS)
+=> Google  : Google Cloud Plateforme
+=> Tools : Hadloop, stata ...
 
 # Big Data and Data Mining 
-
-- Big Data and Data Mining ? 
-- Foundations of Big Data ?
-- What is Hadoop ?
-- How Big Data is Driving Digital Transformation?
-- Data Science Skills & Big Data ?
-- Data Scientists at New York University ?
-- Data Mining ?
 
 * def *
 1st/ approach (traditional) : Statistical analysis
@@ -81,7 +78,46 @@ What's a data science ?
 
 * Goal * : to explore hitherto unknown trends and insights by subjecting data to analysis
 
-7 Steps Down the Data Mine : 
+- Big Data and Data Mining ?
+- Foundations of Big Data ?
+- What is Hadoop ?
+
+Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, tools ...)
+
+* 5Vs : 
+	=> Velocity : Speed data (quick RT)
+	=> Volume :	 Scalable (2,5 quintillons bytes => 10 millions DVDS)
+	=> Variety :	Diversity => data come from diffrent Sources (audio, video, img ...) 
+	=> Veracity : qlity / origin of data (Releablity, accuracy)
+	=> Value : turns data to value (Solution, profits..)
+
+Data scientist extract/drives data from big data
+ Tools : 
+ => Apache sparks
+=> Hadoop (created by Dong Cutting ) => based on Data Cluster, splits data into a pieces to computing a large amount of data (gain speed, performance ...)
+ 
+- How Big Data is Driving Digital Transformation?
+		    CEO 
+
+	/ 					\
+  CDO						CIO 
+(Chief Data Officer)		(Chief Information Officer)
+
+- Data Science Skills & Big Data ?
+- Cloud
+- Programming Skills
+- Python (panda for data viz)
+- R
+- Unix/Lunix
+- Maths(Algebra Statistics)
+- Jupyter note book + AWS (Virtual Account)
+- BIG DATA (concept created by Google, Statistical technics to handle large data)
+
+- Data Scientists at New York University ?
+
+- Data Mining ?
+
+7 Steps Down the Data Mining : 
 
 1. Establish data mining goals
  - set up goals for the exercise.
