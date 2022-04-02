@@ -31,12 +31,39 @@ What's a data science ?
 - Data visualization => to explain => trends, to tell history, to detect a pattern, new behaiviour ...
 
 # Many path to DS
+
+- Maths : statistics
+- Business Analysis & strategies
+- SW Engineer
+/!\ Soft skills/Qualities : Cusiosity, Take Position=>Confidence, Story teller
+
 # What do DS do ?
+- recomendation algorithm
+- Prediction Model
+- Find patterns 
+- unstructured vs strutured data
+
 # A day in life of Data Scientist ?
+- > /!\ Find solution by analyzing datas
+- > Curious, fluency in analysis, good communication=>story teller
+
 # Old vs new problems ? 
-- unstructured vs strutured
+- old => Predict congestion (uber taxi)
+- new => Environment, Climate Changes
+
 # Topics algorithms
+- list : regression, data viz, neural net, nearest neighbour, classification ...
+- strutured data : ranged /organized data (EXCEL row,colomns) 
+- unstructured data :  comes from sensors(video, audio...), web not in row /colomns
+
+
 # Clouds for Data Scientist ?
+- Cloud : storage data, high performance computing, save physocal space in own computer, simulations works in the same data
+- Cloud : Cloud allows to access to data, collaborate easy
+- IBM : IBM Cloud
+- Amazon : Amazon Web Services(AWS)
+- Google  : Google Cloud Plateforme
+- Tools : Hadloop, stata ...
 
 # Big Data and Data Mining 
 
