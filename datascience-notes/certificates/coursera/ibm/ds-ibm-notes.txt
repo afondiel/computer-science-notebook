@@ -93,11 +93,11 @@ Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, 
 
 Data scientist extract/drives data from big data
  Tools : 
- => Apache sparks
-=> Hadoop (created by Dong Cutting ) => based on Data Cluster, splits data into a pieces to computing a large amount of data (gain speed, performance ...)
+	=> Apache sparks
+	=> Hadoop (created by Dong Cutting ) => based on Data Cluster, splits data into a pieces to computing a large amount of data (gain speed, performance ...)
  
 - How Big Data is Driving Digital Transformation?
-		    CEO 
+		    CEO => working w/ them and the financial department to adapt the needs
 
 	/ 					\
   CDO						CIO 
@@ -177,10 +177,21 @@ Data scientist extract/drives data from big data
 /// W2////
 
 ## Deep Learning and Machine Learning ? 
- 
+ML => Algorithms
+DL => Model based on Neural Network 
+DS => Extracting knowledge/insights of large volume of (disparated) data 
+=> Maths Technics : statistical analysis, data viz, ML/DL algo/ Models
+AI => everything allows the computer to learn, to solve problems and make intelligent decision  
+
+Application ML : 
+=>Recommendation systems (Decision tree, naive bayes, bayesian analysis)
+=>Classification
+=> Predict Analysis
+=>Fraud Detection
+
 
 ## Hands-on Exercise: Data Science Exploration 
-
+- Chap.7 : Book by Murtaza Haider
 
 
 ## The Final Deliverable
