@@ -1,0 +1,64 @@
+=== Overview ===
+
+Created by the Qt Company in 1995, Qt is a framework for creating graphical user interface (GUI) applications. 
+It's also a cross-plateform running on Linux, MacOS, Windows and embedded devices. 
+It's compatible with C++, python and JS
+
+==== Qt applications workflow ====
+
+1. Design Studio
+2. Implementation 
+3. Create reuseble componenents
+4. Animation
+5. Interactions (States/connection)
+6. App setup (RT embedded Desktop)
+ - RT
+ - Embedded
+ - Desktop
+ - Mobile
+
+==== Qt QML : Language and infrastracture  ==== 
+
+ - the component code is generated automatically in a file.qml from UI
+
+QML modules : 
+
+	Create .qml components and place them into a specific dir
+	import moduledir\subdir
+
+
+==== Qt Quick designer ====
+- interface infrastructures to design GUIs for MOBILE and EMBEDDED applications
+
+UI Design : design and prototype the UI experience whithout any code
+ - main UI (ui.qml and qml)
+ - critical safety elements (Qt safe render)
+ 
+Quick safe renders and standards => "tell-tales" => safety critical part 
+Quick language : Qt Safe Renders and safety standards => Tell-tales : safety critical part, these are the warning lamps for things such as airbag, oil level, engine temperature and brakes
+
+==== Qt Designer  ====
+
+- interface infrastructures to design GUIs for desktop applications
+- Tools : Qt Widgets Application. 
+
+==== Devices ====
+ - Desktop
+ - Mobile 
+ - Embedded
+	NXP widely used is  : 
+ 		- i.MX6 CPU
+ 		- i.MX6 GPU 
+
+==== Get started ====
+
+UI quick : 
+ - Components(sender, receiver...)
+ - signals
+ - Animation 
+
+
+==== Cross-platform ====
+
+Qt Project (.pro) File is actually the project file used by "qmake" to build
+your application, library, or plugin.
