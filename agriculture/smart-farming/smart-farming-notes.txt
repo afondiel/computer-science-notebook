@@ -58,4 +58,6 @@ https://www.thalesgroup.com/en/worldwide-digital-identity-and-security/iot/magaz
 https://www.thalesgroup.com/en/markets/digital-identity-and-security/iot/magazine/infographic-7-ways-farming-getting-smart
 https://easternpeak.com/blog/iot-in-agriculture-technology-use-cases-for-smart-farming-and-challenges-to-consider/
 - Elsevier : smart-agricultural-technology : https://www.journals.elsevier.com/smart-agricultural-technology
+- https://interestingengineering.com/9-robots-that-are-invading-the-agriculture-industry
+
 
