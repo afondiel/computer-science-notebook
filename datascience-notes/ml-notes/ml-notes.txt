@@ -142,3 +142,6 @@ Output : Labels
 Josh gordon : https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
 
 Yufeng Guo/Google Cloud Plateform: https://www.youtube.com/watch?v=nKW8Ndu7Mjw
+
+https://www.ibm.com/cloud/blog/supervised-vs-unsupervised-learning
+
