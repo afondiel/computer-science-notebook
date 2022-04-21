@@ -19,23 +19,23 @@ Course 10 : APPLIED DATA SCIENCE CAPSTONE
 Course 1 : WHAT'S A DATA SCIENCE ? 
 
 //// W1 ///
-What's a data science ? 
+What's a Data Science ? 
 
 /!\ Data Science is a process to understand data and do differents things
 - keywords : trends, insights, data structured and unstructured, expore, manipulation, find answers, recommendation
 
-# Fundamentals of DS
+# Fundamentals of Data Scienstis : 
 - Data Analysis (question problem ? => Find Answers => Create Value)
-- Data Science ( log files, social medias, email, sales data, patient info files, sports perfomance data, sensor data, seurity camera ...)
-- Be curious!!!
+- Data Science (Deal with different type of datas) : log files, social medias, email, sales data, patient info files, sports perfomance data, sensor data, security camera ...
+- !!! Be curious !!!
 - Data visualization => to explain => trends, to tell history, to detect a pattern, new behaiviour ...
 
-# Many path to DS
+# Many path to Data Science
 
 - Maths : statistics
 - Business Analysis & strategies
 - SW Engineer
-/!\ Soft skills/Qualities : Cusiosity, Take Position=>Confidence, Story teller
+/!\ Soft skills/Qualities : Cusiosity, Take Position => Confidence, Story teller
 
 # What do Data Scientists do ?
 - recomendation algorithm
@@ -64,10 +64,10 @@ What's a data science ?
 
 # Clouds for Data Scientist ?
 - Cloud : Cloud allows to access to data, collaborate easy
-- Cloud : storage data, high performance computing, save physocal space in own computer, simulations works in the same data
+- Cloud : storage data, high performance computing, save physical space in own computer, simulations work in the same data
 => IBM : IBM Cloud
 => Amazon : Amazon Web Services(AWS)
-=> Google  : Google Cloud Plateforme
+=> Google  : Google Cloud Platform
 => Tools : Hadloop, stata ...
 
 # Big Data and Data Mining 
