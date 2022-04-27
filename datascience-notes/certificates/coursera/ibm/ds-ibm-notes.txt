@@ -184,10 +184,10 @@ DS => Extracting knowledge/insights of large volume of (disparated) data
 AI => everything allows the computer to learn, to solve problems and make intelligent decision  
 
 Application ML : 
-=>Recommendation systems (Decision tree, naive bayes, bayesian analysis)
-=>Classification
+=> Recommendation systems (Decision tree, naive bayes, bayesian analysis)
+=> Classification
 => Predict Analysis
-=>Fraud Detection
+=> Fraud Detection
 
 
 ## Hands-on Exercise: Data Science Exploration 
@@ -196,7 +196,7 @@ Application ML :
 
 ## The Final Deliverable
 
-Analytics = comunicate findings (set of insightsin the data) using Tables & plots.
+Analytics = comunicate findings (set of insights in the data) using Tables & plots.
 
 1. define the ingredients and requirements  ? 
 2. how to search for background information ?
@@ -256,9 +256,41 @@ references, and appendices (if needed).
 
 Course 2 : TOOLS FOR DATA SCIENCE
 
-////W1///
+////W1 : Languages of Data Science ///
+
+# Intro : 
+Data Science requires programming languages & frameworks
+Automation w/ Data Science tooling  : save time, uncovered inspiration
+Visual programming & model
+Open Sources tool vs Commercial sw
+Cloud Computing
+
+# The languages of Data Science : 
+- Recommended : Python, R, SQL
+- Optional : Scala, Java, C++, julia
+- Others : JS, PHP, Go, Ruby, Visual Basics
+Usage : Depend on the problem to be solved / or the company you in
+
+## Roles in DS : 
+- Business Analyst
+- Database Engineer
+- Data Analyst
+- Data Engineer
+- Data Scientist
+- Research Scientist
+- Sw Engineer
+- Statician
+- Product Manager 
+- Project Manager
+
+# Introduction to Python 
+
+
+
+
 ///W2///
 ///W3///
+
 Course 3 : DATA SCIENCE METHODOLOGY
 
 ////W1///
