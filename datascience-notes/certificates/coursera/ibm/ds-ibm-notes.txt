@@ -266,6 +266,8 @@ Open Sources tool vs Commercial sw
 Cloud Computing
 
 # The languages of Data Science : 
+/!\ Kaggle 2019 survey : learning new language plus 1Ok of wage increase /!\ 
+
 - Recommended : Python, R, SQL
 - Optional : Scala, Java, C++, julia
 - Others : JS, PHP, Go, Ruby, Visual Basics
@@ -284,6 +286,54 @@ Usage : Depend on the problem to be solved / or the company you in
 - Project Manager
 
 # Introduction to Python 
+- Most popular DS language
+- easy to learn
+- great community 
+- 80% DS use Python 
+- Usage : AI, ML, WEB, IoT
+- Organization : IBM, Wikepedia, Google, Yahoo, cern, FB ..
+
+=> What's python great for ? 
+- General Purpose language
+- Large standard library 
+
+=> For Data Science : 
+- Scientific computing lib : Panda, NumPy, SciPy and Matplotlib
+- For AI : PyTorch, TensorFlow, Keras, and Scikit-learn
+- Natural Language Processing (NLP) : Natural Language TooKit (NLTK)
+
+=> Diversity and Inclusion Efforts : 
+Code of Conduct : https://www.python.org/psf/conduct/
+
+# Introduction to R 
+
+- Open Source (OSI) vs Free SW (SFS) ? (different LIcense )
+OSI : Business Focused
+FSF : Values Focused
+
+- R is a FSF !
+
+=> Who's R For ? 
+- Staticistician, mathematicians, data miners (for statistical sw, graphing and data analysis )
+- Array-oriented synthax : easy conversion 'maths => Code'
+- ease to learn
+- Organizations love it : IBM, Google, FB, TechCrunch, UBER, Trulia.. 
+
+=> What R makes great ? 
+- world largest repository of Statistical knowledge 
+- More than 15000 release packages truns complex compository analysis
+- R integrates well w/ C++, PYTHON, Java ..
+- R is OOP 
+- Complex maths operation
+
+=> Large Community : 
+- www.whyr.foundation.com
+
+
+
+
+
+
 
 
 
