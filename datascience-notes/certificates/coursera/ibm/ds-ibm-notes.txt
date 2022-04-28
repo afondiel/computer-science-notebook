@@ -273,7 +273,7 @@ Cloud Computing
 - Others : JS, PHP, Go, Ruby, Visual Basics
 Usage : Depend on the problem to be solved / or the company you in
 
-## Roles in DS : 
+## Roles in Data Science : 
 - Business Analyst
 - Database Engineer
 - Data Analyst
@@ -365,7 +365,12 @@ Rladies : www.rladies.com
 - Microsoft SQL Server
 
 # Others Data Science Language
-- Scala, Java, C++ Julia...
+- Scala : Apache Spark 
+- Java : Weka (data mining), Java-ML(ml lib), Apache MLlib, Deeplearning4j
+- C++ : TensoFlow, MongoDB, Caffe
+- Julia : (create at MIT) Numerical analysis; complied language
+- JS : Java Script : TensorFlow.js , R-js (Algebra)
+- PHP, Go, Ruby, Visual Basics
 
 
 
