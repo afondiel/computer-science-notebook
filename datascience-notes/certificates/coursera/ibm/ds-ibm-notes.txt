@@ -367,10 +367,43 @@ Rladies : www.rladies.com
 # Others Data Science Language
 - Scala : Apache Spark 
 - Java : Weka (data mining), Java-ML(ml lib), Apache MLlib, Deeplearning4j
-- C++ : TensoFlow, MongoDB, Caffe
+- C++ : TensoFlow, MongoDB, Caffe (Deeplearning)
 - Julia : (create at MIT) Numerical analysis; complied language
 - JS : Java Script : TensorFlow.js , R-js (Algebra)
 - PHP, Go, Ruby, Visual Basics
+
+////W1 : Categories of Data Science Tools ///
+
+# Intro : 
++----------++------------++--------++----------++----------++----------+
+|  Data    || Data Transf|| Data   || 		   || 		   || 		   |
+|Management|| Integration||	Viz	   ||		   ||		   ||		   |
+|		   ||		     ||		   ||		   ||		   ||		   |
++----------++------------++--------++----------++----------++----------+
+
+
+- Data Management : is the process of persisting and retrieving data
+- Data Integration and Transformation : (ETL : Extract - Transform - Load) is the process of retrieving data from remote data management systems
+- Data visualization : data Exploratio process, final deliverable
+- Model building : create a ml or dl models using appropriate algo w/ lots of data
+- Model Deployment : makes ml/dl models accessible to a 3rd part application
+- Model Monitoring and Assessment : continious perfomance qlity checks of deployed models (accuracy,fairness, adversial robustness )  
+- Code Asset Management : visionning, collaborative features to facilite teamwork 
+- Data Asset Management : dublication, backups, acess right management
+- Development Environment : tools to implement, execute, test, and deploy
+- Execution Environment : where data processing, model training, Deployment take places
+- Fully INTEGRATED Visual Tools : integrates all
+
+# Open Source Tools for Data Science - Part 1 : 
+
+## Data Management
+
+- Relational database : MySQL, PostgradeSQL
+ 
+
+
+
+
 
 
 
