@@ -314,7 +314,7 @@ FSF : Values Focused
 - R is a FSF !
 
 => Who's R For ? 
-- Staticistician, mathematicians, data miners (for statistical sw, graphing and data analysis )
+- Statistician, mathematicians, data miners (for statistical sw, graphing and data analysis )
 - Array-oriented synthax : easy conversion 'maths => Code'
 - ease to learn
 - Organizations love it : IBM, Google, FB, TechCrunch, UBER, Trulia.. 
@@ -324,11 +324,13 @@ FSF : Values Focused
 - More than 15000 release packages truns complex compository analysis
 - R integrates well w/ C++, PYTHON, Java ..
 - R is OOP 
-- Complex maths operation
+- common maths operation (matrix are ease to do)
 
 => Large Community : 
-- www.whyr.foundation.com
-
+useR : user2020.r-project.com
+WhyR : www.whyr.foundation.com
+SataRdays : www.satarday.com
+Rladies : www.rladies.com
 
 
 
