@@ -332,6 +332,40 @@ WhyR : www.whyr.foundation.com
 SataRdays : www.satarday.com
 Rladies : www.rladies.com
 
+# Introduction to SQL
+
+- SQL : Structured Query Language
+- No procedure language
+- 20y older than Python and R (creted on 1974 by IBM)
+- useful to handle structured data 
+=> Relational DB (collection of two dimmensional tables like row, column) : 
+- ex : datasets, Microsoft Excel spread sheet  
+
+=> SQL elements : 
+- clause
+- expression
+- statement
+- predicate
+- query
+ 
+=> What makes SQL Great : 
+- job opportunnities in data engineering
+- mandatory for Data Analyst and Data Science
+- direct access to data when performing sql op (w/out copying the data in beforehand)
+- interpreter between the user and the DB
+- ANSI standard (scable : one db and multiple dbs)
+
+=> SQL Databases  : 
+- MySQM
+- PostgreSQL
+- Access
+- SQLite
+- Oracle DB
+- MariaDB
+- Microsoft SQL Server
+
+# Others Data Science Language
+- Scala, Java, C++ Julia...
 
 
 
@@ -340,6 +374,7 @@ Rladies : www.rladies.com
 
 
 
+ 
 ///W2///
 ///W3///
 
@@ -364,7 +399,7 @@ Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
 ///W2///
 ///W3///
 Course 8 : DATA VISUALIZATION W/ PYTHON 
-////W1///
+////W1///-
 ///W2///
 ///W3///
 Course 9 : MACHINE LEARNING W/ PYTHON
