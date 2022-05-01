@@ -484,6 +484,43 @@ After a model is built => API consummable to another apps
 - KNIME (open innovation) : created by University of Konstanz in 2004 
 - ORANGE
 
+# Commercial Tools For Data Science : 
+- Data Mgt : 
+=> Oracle DB
+=> MS SQL Server
+=> IBM DB2
+
+- Data int & Transformation (ETL)
+=> Informatica 
+=> IBM InfoSphere DataStage
+=> Talend
+=> IBM Watson Studio Desktop
+
+- Data visualization
+=> Tableau
+=> MS Power BI 
+=> IBM Cognos Analyst
+
+- Model Building 
+=> SPSS 
+=> SAS 
+
+- Data Deployment 
+=> IBM SPSS (IBM Watson Studio Desktop)
+=> PMLM ? 
+
+- Model Monitoring & Code Asset Mgt : USE OPENSOURCES TOOLS
+=> Git & GitHub
+
+- Dev Env : 
+=> IBM Watson Studio (Desktop
+
+- Fully Integrated Visual Tools : 
+=> IBM Watson Studio (Desktop : Jupyter + graphic tools )
+=> IBM Watson Open Scale
+/!\ Can be deployed on the top of Kubernetes and RedHat OpenShift
+
+=> H2O Driveless AI : covers the completed data science cycle
 
 
 
