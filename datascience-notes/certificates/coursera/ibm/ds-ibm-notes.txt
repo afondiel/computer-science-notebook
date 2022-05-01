@@ -396,10 +396,74 @@ Rladies : www.rladies.com
 
 # Open Source Tools for Data Science - Part 1 : 
 
-## Data Management
-
-- Relational database : MySQL, PostgradeSQL
+## Data Management tools: 
  
+Relational tool : 
+- MySQL 
+- PostgreSQL 
+NoSQL : 
+- MongoDB
+- Cassandra
+- CouchDB 
+File based:
+- Hadoop File System
+- Cloud File systems : Ceph
+- Elasticsearch : text data storage & Data retrievement
+
+# Data Integration and transformation(ETL) tools : 
+
+- Extraction - Transform - Load or ELT because Data is dumped somewhere (i.e : Comes from some sources...)
+- Data Scientist is responsible for Data
+- Also called : Data Refinery and cleansing 
+## Tools : 
+- Apache Airflow :  created by RBNB
+- Kubeflow : high level ds pipeline layer on the top of Kubernetes
+- Apache Kafka : created by Linkedin
+- Apache NIFI : data viz editor
+- Apache Spark SQL : scalable sql for cluster of multi-nodes
+- NodeRED : (very low ressources) data viz editor (runs on RaspberryPi)
+
+# Data visualization tools : 
+
+- Programming libs code + tools (covers on the next vid) 
+- Hue : creates visualization from SQL queries
+- Kibana : data viz for web application based on Elasticsearch
+- superset : data exploration & viz for web application
+
+# Model Deployment tools : 
+After a model is built => API consummable to another apps
+
+- PredictionIO : Apache Spark ML models
+- SELDON : supports lots of frameworks (TF, SparkML, R, sci-kitlearn) runs on top of Kubernetes, RedHat OpenShift
+- mleap : creates SparkML
+- TensorFlow (TF Lite : embedded systems (RPi, Smartphone); TF.JS : Web)
+
+# Model Monitoring and Assessment Tools : 
+
+- ModelDB : a system to manage ML models (storage, quering ), supports : SparkML pipelines and scikit-learn
+- Prometheus : multi-purpose tool
+/!\ Model perfomance is not EXLUSIVELLY measured through Accuracy & Model bias 
+- IBM AI fairness 360 OS Toolkit : detects bias and ml models 
+- IBM Adversarial robustness 360 ToolBox : protect model against hacking and covers vulnabilities
+- IBM Explanability 360 Toolkit : model description
+
+# Code Asset Management tools (version mgt) : 
+
+- git 
+- GitHub
+- GitLab
+- BitBucket
+
+# Data Asset Mgt tools: 
+
+- Apache Atlas : 
+- ODPA EGERIA : exchange data
+- Kylo
+
+
+
+
+
 
 
 
