@@ -410,12 +410,12 @@ File based:
 - Cloud File systems : Ceph
 - Elasticsearch : text data storage & Data retrievement
 
-# Data Integration and transformation(ETL) tools : 
+## Data Integration and transformation(ETL) tools : 
 
 - Extraction - Transform - Load or ELT because Data is dumped somewhere (i.e : Comes from some sources...)
 - Data Scientist is responsible for Data
 - Also called : Data Refinery and cleansing 
-## Tools : 
+### Tools : 
 - Apache Airflow :  created by RBNB
 - Kubeflow : high level ds pipeline layer on the top of Kubernetes
 - Apache Kafka : created by Linkedin
@@ -423,14 +423,14 @@ File based:
 - Apache Spark SQL : scalable sql for cluster of multi-nodes
 - NodeRED : (very low ressources) data viz editor (runs on RaspberryPi)
 
-# Data visualization tools : 
+## Data visualization tools : 
 
 - Programming libs code + tools (covers on the next vid) 
 - Hue : creates visualization from SQL queries
 - Kibana : data viz for web application based on Elasticsearch
 - superset : data exploration & viz for web application
 
-# Model Deployment tools : 
+## Model Deployment tools : 
 After a model is built => API consummable to another apps
 
 - PredictionIO : Apache Spark ML models
@@ -438,7 +438,7 @@ After a model is built => API consummable to another apps
 - mleap : creates SparkML
 - TensorFlow (TF Lite : embedded systems (RPi, Smartphone); TF.JS : Web)
 
-# Model Monitoring and Assessment Tools : 
+## Model Monitoring and Assessment Tools : 
 
 - ModelDB : a system to manage ML models (storage, quering ), supports : SparkML pipelines and scikit-learn
 - Prometheus : multi-purpose tool
@@ -447,18 +447,19 @@ After a model is built => API consummable to another apps
 - IBM Adversarial robustness 360 ToolBox : protect model against hacking and covers vulnabilities
 - IBM Explanability 360 Toolkit : model description
 
-# Code Asset Management tools (version mgt) : 
+## Code Asset Management tools (version mgt) : 
 
 - git 
 - GitHub
 - GitLab
 - BitBucket
 
-# Data Asset Mgt tools: 
+## Data Asset Mgt tools: 
 
 - Apache Atlas : 
 - ODPA EGERIA : exchange data
 - Kylo
+
 
 
 
