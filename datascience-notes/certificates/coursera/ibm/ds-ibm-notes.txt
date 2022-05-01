@@ -460,6 +460,30 @@ After a model is built => API consummable to another apps
 - ODPA EGERIA : exchange data
 - Kylo
 
+# Open Source Tools for Data Science - Part 2 : 
+
+## Development Environment : 
+
+- Jupyter : notebook for python programming (data science ide : code, interpreter, results viz)
+- Jupyter Lab : next generation of jupyter nb
+- Apache Zeppilin : uses integrated lib for ploting opposite to jupyter nb
+- R-Studio  : IDE for data viz for R language, dev in python also possible
+- SPYDER : like E-Studio but for Python world
+
+
+## Execution Environments (Data Clustering) : to execute a large amount of data
+
+- Apache Spark :  scalable execution performance (mostly used)
+- Apache Flink : batch processing engine for RT data streaming
+- RAY (riselab) : deeplearning training on a large scale
+
+## Fully INTEGRATED Visual Tools :
+- No programming skills necessary
+=> Data Int - Data Viz - Model Building
+
+- KNIME (open innovation) : created by University of Konstanz in 2004 
+- ORANGE
+
 
 
 
