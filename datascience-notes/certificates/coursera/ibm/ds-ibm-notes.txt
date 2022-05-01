@@ -522,21 +522,46 @@ After a model is built => API consummable to another apps
 
 => H2O Driveless AI : covers the completed data science cycle
 
+# CLOUD BASED TOOLS FOR DATA SCIENCE : take operations task away from the user
 
+SaaS : Software as a Service - cloud provider operates the tool for the client in the cloud (storage, configuration and updates...) 
+PaaS : Platform as a Service
 
+- Data Management : 
+=> Amazon DynamoDB : NoSQL db for data storage and retrieval  in key-value/document store format(like JSON) 
+=> Cloudant : database as a service offering (based on Apache CouchDB)
+=> IBM Db2
 
+- Data Integration and Transformation(ETL/ELT) : 
+=> Informatica
+=> IBM Data Refinery (Part of IBM Watson Studio)
 
+- Data visualization :
+=> Datameer
+=> IBM Cognos Analytics
+=> IBM Data Refinery : data exploration and Viz
+	* Word cloud :  document corpus
 
+- Model building :
+=> IBM Watson Machine Learning
+=> Google Cloud : AI Platform Training 
 
+- Model Deployment : make
+=> IBM SPSS Collaboration & Deployement Services : PMML language
+=> IBM Watson Machine Learning
 
+- Model Monitoring and Assessment
+=> AWS : Amazon SageMaker Model Monitor
+=> Watson openScale
 
+- Code Asset Management :
+- Development Environment
+- Execution Environment :
 
-
-
-
-
-
-
+- Fully INTEGRATED Visual Tools and Platform : 
+=> IBM Watson Studio + Open Scale (ML + AI Tasks)
+=> MS Azure Machine Learning
+=> H2O AI
 
  
 ///W2///
