@@ -21,7 +21,9 @@ Course 1 : WHAT'S A DATA SCIENCE ?
 #########################################################################
 
 //// W1 ///
+***********************
 What's a Data Science ? 
+***********************
 
 /!\ Data Science is a process to understand data and do differents things
 - keywords : trends, insights, data structured and unstructured, expore, manipulation, find answers, recommendation
@@ -177,8 +179,9 @@ Data scientist extract/drives data from big data
  -> improve the quality of the resultat from the shared feedback
  
 /// W2////
-
+*****************************************
 ## Deep Learning and Machine Learning ? 
+*****************************************
 ML => Algorithms
 DL => Model based on Neural Network 
 DS => Extracting knowledge/insights of large volume of (disparated) data 
@@ -237,8 +240,8 @@ Ex: Gender Wages(salary) between Men and Women => REGRESSION MODEL !!!
  - Tables (row, columns)
  - Plot graphics
 
+#########################################################################
 * The deliverable template : 
-
 #########################################################################
 cover page
 Table of figures
@@ -568,15 +571,32 @@ PaaS : Platform as a Service
 => H2O AI
 
 
-*****************************************
+*******************************************
 // W1 : PACKAGES, APIs, DATA SETS and Models
-*****************************************
+*******************************************
 
 # Libraries for Data Science : 
-- 
+- Libraries(frameworks) : collection of functions and methods that enable to perform a wide variety of actions without writing any code
 
+- Python most useful libs: 
+1. Scientific Computing lib
+=> Pandas : Data stuctures and Tools - cleaning, manipulation, analysis ( data is represeting in row and col model called : DATAFRAME)
+=> NumPy : Arrays & matrices : (pandas is built on top of NumPy) 
+2. Visualization lib 
+=> Matplotlib : plots & graphs, most popular
+=> Seaborn :  plots (heatmaps, time series, violin plots ...)
+3. high level ML & DL
+=> Scikit-learn  : ML algorithms like regression,classification, clustering ...)
+=> Keras : DL and NN 
+4. Deep Learning Lib
+=> TensorFlow ; build for production & Deployement
+=> Pytorch  : build for experimentation 
 
-
+Apache Spark : general -purpose cluster computing framework to process data using compute-cluster(computing data from multiple computer)
+- pandas, Numpy, scikit-learning   
+- languages : python, R, scala, SQL 
+- Scala libs : Vegas(statical & viz), Big DL (dl)
+- R libs(ml & data viz): ggplot2, others (use w/ Keras & TF)   => R is being superseded by python
 
 
 ///W2///
