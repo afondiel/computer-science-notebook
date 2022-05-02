@@ -16,7 +16,9 @@ Course 10 : APPLIED DATA SCIENCE CAPSTONE
 
 ========================================================
 
+#########################################################################
 Course 1 : WHAT'S A DATA SCIENCE ? 
+#########################################################################
 
 //// W1 ///
 What's a Data Science ? 
@@ -254,7 +256,9 @@ acknowledgments
 references, and appendices (if needed).
 #########################################################################
 
+#########################################################################
 Course 2 : TOOLS FOR DATA SCIENCE
+#########################################################################
 
 ////W1 : Languages of Data Science ///
 
@@ -465,7 +469,7 @@ After a model is built => API consummable to another apps
 ## Development Environment : 
 
 - Jupyter : notebook for python programming (data science ide : code, interpreter, results viz)
-- Jupyter Lab : next generation of jupyter nb
+- JupyterLab : next generation of jupyter nb
 - Apache Zeppilin : uses integrated lib for ploting opposite to jupyter nb
 - R-Studio  : IDE for data viz for R language, dev in python also possible
 - SPYDER : like E-Studio but for Python world
@@ -563,9 +567,22 @@ PaaS : Platform as a Service
 => MS Azure Machine Learning
 => H2O AI
 
- 
+
+*****************************************
+// W1 : PACKAGES, APIs, DATA SETS and Models
+*****************************************
+
+# Libraries for Data Science : 
+- 
+
+
+
+
+
 ///W2///
 ///W3///
+///W4///
+
 
 Course 3 : DATA SCIENCE METHODOLOGY
 
