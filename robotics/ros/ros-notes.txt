@@ -1,0 +1,13 @@
+==== Robot Operating System (Ros) Notes ===
+
+*ROS : set of software libraries and tools that help you build robot applications
+
+*Applications : 
+* Tools : 
+
+*References :
+
+https://www.ros.org/
+https://en.wikipedia.org/wiki/Robot_Operating_System
+https://www.youtube.com/watch?v=0BxVPCInS3M
+https://en.wikipedia.org/wiki/Robotics
