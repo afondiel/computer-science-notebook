@@ -611,8 +611,43 @@ Apache Spark : general -purpose cluster computing framework to process data usin
 - Client <=> [API] <=> Ressources(endpoint)
 ex : The Watson Speech to Text API / Watson language translator API
 
+# Data Sets- Powering Data Science
+- Data Sets : structured collection of data ( text, numbers, or media such as images, audio, or video files)
+## Data Structured :
+- Tabular data :  row, col (csv files)
+- Hierarchical data, Network data (graph, nodes...)
+- Raw files (imgs, audios ..)
 
-///W2///
+## Data Owenership 
+- Private Data
+=> Confidential
+=> Private or personal information
+=> Commercial sensitive
+- Open Data : 
+=> Scientific institutions 
+=> Governments
+=> Organizations (UN, OMS)
+=> Companies
+=> Publicly available
+## Where to find open data
+- Open data list 
+=> datacalogs.org
+- Governmental, intergovernmental & Organizations websites
+=> data.un.org
+=> data.Governmental
+=> europeandataportal.europeandataportal
+- Kaggle : 
+=> kaggle.com/datasets
+- Google data set search : 
+datasetsearch.research.google.com
+
+## Community Data License Agreement
+- cdla.io : Linux Foundation
+- CDLA-Sharing
+- CDLA-permissive
+
+
+
 ///W3///
 ///W4///
 
