@@ -646,7 +646,15 @@ datasetsearch.research.google.com
 - CDLA-Sharing
 - CDLA-permissive
 
+# Sharing Enterprise Data - Data Asset exchange
 
+- IBM Data Asset eXchange(DAX) : Curated collection of data sets, from IBM Research and 3rd party
+=> Diverse data types (imgs, text files) & high level of curation for data set quality
+=> Friendly license & use terms
+=> notebooks examples (charts, timeseries, ml model)
+=> DAX projects on ibm.develpper websites
+## Get Stated w/ DAX
+- download dataset or explore w/ notebook on Watson Studio 
 
 ///W3///
 ///W4///
