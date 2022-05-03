@@ -699,6 +699,36 @@ Prepare Data => Build Model => Training model				  ... => Deploy model
 => Deploy model : make available for the application
 
 
+################################
+# The Model Asset Exchange (MAX)
+################################
+
+- Model build 'Time to value' is a long process and need to be optimized  : MAX does that!!!
+- free open source dl microservices
+=> pre-trained / custom trainable state of art models 
+=> fully tested, deploy 
+=> approved personal/commercial use
+- Vailable for variety of domains
+=> object detection
+=> image, audio, text classification(what is in this...)
+=> named entity recognition
+=> img to Text (generate image caption)
+=> human pose detection
+
+### MAX model serving microservices
+-----------------------------------------------------------------------------------------
+Data 				   + 	Model  +	Compute ressources 		+ 		Domain expertise
+(Input/output and			(	Pretrained	 model	) 					(REST API)	
+model processing code)
+-----------------------------------------------------------------------------------------
+	model serving container (Docker images ) => deploy in production w/ Kubernetes
+----------------------------------------------------------------------------------------
+HW : Local Machine/Private cloud / Hybrid cloud / Public cloud
+-----------------------------------------------------------------------------------------
+
+### Model serving microservices API 
+- REST API 
+- developer.ibm.com/exchange/models
 
 ///W3///
 ///W4///
