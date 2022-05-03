@@ -656,9 +656,52 @@ datasetsearch.research.google.com
 ## Get Stated w/ DAX
 - download dataset or explore w/ notebook on Watson Studio 
 
+##########################
+# Machine Learning Models - Learning from data to make predictions
+##########################
+- Data can contain a wealth of information
+- traditional programming approach reaches its computer limit due to the alarge amount size of data
+=> Solution : Machine Learning Model : algorithms which learn from experiences by identifying patterns and predicts the result  
+- A model must be trained on data before it can be used to make predicts 
+types of ml learning classes : 
+=> Supervised (most commun) : Data is labeled and model trained to make correct predictions (input data(X), corrected output (y))
+	examples : 
+	- regression : predict real numerical values (home sales prices, stock market)
+	- classifications : classify things into Categories (email spams filters, fraud detection, image classification)
+=> unsupervised : data is not labeled. Model tries to identify patterns w/out external help
+	- clustering and anomaly detection
+=> reinforcement : Conceptually similar to human learning processes
+	- a robot learning to walk, Go, Chess and other strategy games
+##########################
+# Deep Learning Models 
+##########################
+- Tries to loosely emulate how human brain works
+Applications : 
+=> Natural Language Processing
+=> Image,Audio, and video analysis
+=> Time Series forecasting
+=> Much more
+=> LARGE datasets of labeled data and compute intensive
+
+- Build from scratch / download from public model repos
+- frameworks : TensoFlow, PyTorch, Keras
+- populars model repos : 
+=> model zoo
+=> ONNX model zoo 
+
+ML /DL Pipeline-process
+--------------+--------------+----------------+		+-----------
+Prepare Data => Build Model => Training model				  ... => Deploy model
+---------------+---------------++--------------+		+-------------
+=> Prepare Data  : (collect data , clean, label)  
+=> Build Model : from scratch/ zoo model that fits to the problem
+=> Training Model(iterative process ) : requires (more) data, time, expertise, ressources
+=> Deploy model : make available for the application
+
+
+
 ///W3///
 ///W4///
-
 
 Course 3 : DATA SCIENCE METHODOLOGY
 
