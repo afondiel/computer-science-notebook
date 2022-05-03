@@ -598,6 +598,19 @@ Apache Spark : general -purpose cluster computing framework to process data usin
 - Scala libs : Vegas(statical & viz), Big DL (dl)
 - R libs(ml & data viz): ggplot2, others (use w/ Keras & TF)   => R is being superseded by python
 
+# Application Programming Interfaces(API)
+- API : lets two pieces of software talk to each other (part of library) 
+- things to know : input/output 
+(program <=> |API| => Other sw components)
+- interface between two differents programs/sws (Python => [API] => TF(written in c++))
+=>julia/Matlab/Scala/R<=> [API] <=> TF
+
+## REST(REpresentation State Transport) APIs  : interact w/ web Services
+- Applications called throughthe internet (communication, input/request, Output/Ressources)
+- (Client) <=> [API] <=> (Web services)
+- Client <=> [API] <=> Ressources(endpoint)
+ex : The Watson Speech to Text API / Watson language translator API
+
 
 ///W2///
 ///W3///
@@ -618,7 +631,7 @@ Course 5 : PYTHON PROJECT FOR DATA SCIENCE
 ///W2///
 ///W3///
 Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
-////W1///
+///!/W1///
 ///W2///
 ///W3///
 ////W1///
