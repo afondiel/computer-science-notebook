@@ -824,8 +824,40 @@ And finally, if you want to go for a more in-depth notebook on the iris dataset 
 **********************
 # RStudio IDE
 **********************
-# Video: VideoIntroduction to R and RStudio
-# Video: VideoPlotting within RStudio
+# Introduction to R and RStudio
+- Statistical programming Language
+- Used for data processing and manipulation
+- Statistical, Data Analysis and Machine Learning
+- R is used ùost academics, healthcare and the gouvernment
+- R supports importing data from different sources : 
+=> Flat files
+=> Databases 
+=> Web
+=> statistical sw : SPSS, STATA ...
+
+## R capabilities : 
+- ease to use
+- great for data viz
+- Basics analysis doesnt need any packages tobe installed
+
+## RStudio IDE 
+
+- Code editor
+- Console
+- Workspace/History tabs 
+- Plots, files , helps, packages ....
+
+## R libs : 
+
+- dplyr : Data Manipulation
+- stringr : String Manipulation 
+- ggplot : Data Visualization 
+- caret : Machine Learning 
+
+
+
+
+# Plotting within RStudio
 # Ungraded External Tool: Ungraded External ToolGetting started with RStudio and Installing packages
 # Getting started with RStudio and Installing packages
 # Ungraded External Tool: Ungraded External ToolPlotting within RStudio
