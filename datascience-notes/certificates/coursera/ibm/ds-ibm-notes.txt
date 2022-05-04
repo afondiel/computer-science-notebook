@@ -749,9 +749,9 @@ Find ready-to-use deep learning models on the Model Asset Exchange
 Explore the deep learning model-serving detecting the image 
 
 *******************************************
-// W2 : Introduction to Jupyter Notebook  //
+// W2 : Jupyter Notebook and JupyterLab //
 *******************************************
-# Jupyter Notebook and JupyterLab : 
+# Introduction to Jupyter Notebook  : 
 - Jupyter : Julia-Python-R
 - jupyter created from ipython 
 - A tool for recording Data Science experimentation
@@ -770,6 +770,54 @@ Jupyte Environment
 ```pip install JupyterLab ``` or from ANACONDA 
 
 SKILLS NETWORK : virtual jupyter notebook nothing to be installed
+
+# Getting Started w/ Jupyter
+- open on SKILLS NETWORK
+
+# Jupyter Kernels
+# Jupyter Architecture
+# Hands-on Lab: Jupyter Notebook - The Basics
+# Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - The Basics
+# Lab - Jupyter Notebook - More Features
+# Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - More Features
+# Hands-on Lab: Jupyter Notebook - Advanced Features
+# Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - Advanced Features
+# Jupyter Notebooks on the Internet
+# Practice Quiz: Practice Quiz - Jupyter Notebook
+# 3 questions
+
+**********************
+# RStudio IDE
+**********************
+# Video: VideoIntroduction to R and RStudio
+# Video: VideoPlotting within RStudio
+# Ungraded External Tool: Ungraded External ToolGetting started with RStudio and Installing packages
+# Getting started with RStudio and Installing packages
+# Ungraded External Tool: Ungraded External ToolPlotting within RStudio
+# Plotting within RStudio
+# Ungraded External Tool: Ungraded External ToolPlotting within RStudio (Advanced)
+# Practice Quiz: Practice Quiz - RStudio IDE
+# 3 questions
+
+*****************************
+# GitHub
+******************************
+# Video: VideoOverview of Git/GitHub
+# Video: VideoGitHub - Getting Started
+# Lab 1: GitHub Lab - Getting Started
+# Video: VideoGitHub - Working with Branches
+# Lab: Branching, Merging and Pull Requests on GitHub (Optional)
+# Video: VideoGit and GitHub via command line (Optional)
+# Pre-requisites for command line interface (Optional)
+# Configuring SSH access to repository (Optional)
+# Git and GitHub via command line instructions (Optional)
+# Video: VideoBranching and merging via command line (Optional)
+# Lab 2: Branching and merging via command line (Optional)
+# Video: VideoContributing to repositories via pull request (Optional)
+# Lab 3: Contributing to repositories via pull request (Optional)
+# Practice Quiz: Practice Quiz - GitHub
+# 3 questions
+
 
 
 ///W3///
