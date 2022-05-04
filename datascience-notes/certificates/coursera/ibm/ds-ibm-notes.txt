@@ -730,38 +730,71 @@ HW : Local Machine/Private cloud / Hybrid cloud / Public cloud
 - REST API 
 - developer.ibm.com/exchange/models
 
+#########################################
+# Reading: Explore Data Sets and Models 
+#########################################
+
+Model Asset Exchange and the Data Asset Exchange
+
+- Model Asset Exchange (MAX) and the Data Asset Exchange (DAX) 
+- open source Data Science resources on IBM Developer.
+
+## Exercise 1: ex ref : https://colab.research.google.com/drive/1ijvJh9FRhmfQzHgtPexnQMPNlowfluwz?authuser=1#scrollTo=Mo60qFIu7pHl
+Where to find open data sets on IBM Developer
+How to explore those data sets
+
+
+## Exercise 2: http://ml-exchange.org/models
+Find ready-to-use deep learning models on the Model Asset Exchange
+Explore the deep learning model-serving detecting the image 
+
+
 ///W3///
 ///W4///
-
+#########################################################################
 Course 3 : DATA SCIENCE METHODOLOGY
+#########################################################################
+////W1///
+///W2///
+///W3///
+#########################################################################
+Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
+#########################################################################
 
 ////W1///
 ///W2///
 ///W3///
-Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
-////W1///
-///W2///
-///W3///
+#########################################################################
 Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
+#########################################################################
+
 ////W1///
 ///W2///
 ///W3///
+#########################################################################
 Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
+#########################################################################
 ///!/W1///
 ///W2///
 ///W3///
 ////W1///
 ///W2///
 ///W3///
+#########################################################################
 Course 8 : DATA VISUALIZATION W/ PYTHON 
+#########################################################################
 ////W1///-
 ///W2///
 ///W3///
+#########################################################################
 Course 9 : MACHINE LEARNING W/ PYTHON
+#########################################################################
 ////W1///
 ///W2///
 ///W3///
+#########################################################################
 Course 10 : APPLIED DATA SCIENCE CAPSTONE
+#########################################################################
 ////W1///
 ///W2///
 ///W3///
