@@ -773,9 +773,28 @@ SKILLS NETWORK : virtual jupyter notebook nothing to be installed
 
 # Getting Started w/ Jupyter
 - open on SKILLS NETWORK
+- slide mode to deliver the work
+- terminate the session (before leaving the jupyterlab ? ) 
 
 # Jupyter Kernels
+- A notebook kernel : computational engine that excutes the code contained in a Notebook file
+- Jupyter Kernels for many other languages exist
+- the kernel perfoms the computational and produces results, when the notebook is executed
+- Other notebook languages can be need based on the Environment
+
 # Jupyter Architecture
+- implements a 2 process model : kernel - client
+- client : interface enabling the user to send code to the kernel
+- Kernel : execute the code and returns to the client for display
+- the client is the browser when using jupyter notebook
+
+(user) -> (browser) -> (Notebook server) -> (Kernel) 
+						|
+					(Notebook file)
+
+NB Converts : Converts notebook to the new file format (pdf, html)	
+
+
 # Hands-on Lab: Jupyter Notebook - The Basics
 # Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - The Basics
 # Lab - Jupyter Notebook - More Features
