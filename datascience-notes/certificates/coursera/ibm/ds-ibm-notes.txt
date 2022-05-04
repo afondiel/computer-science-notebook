@@ -771,6 +771,8 @@ Jupyte Environment
 
 SKILLS NETWORK : virtual jupyter notebook nothing to be installed
 
+virtual jupyter notebook : https://labs.cognitiveclass.ai/tools/jupyterlite/lab/tree/labs/DS0105EN/Jupyter_Notebook.ipynb?lti=true
+
 # Getting Started w/ Jupyter
 - open on SKILLS NETWORK
 - slide mode to deliver the work
@@ -796,12 +798,26 @@ NB Converts : Converts notebook to the new file format (pdf, html)
 
 
 # Hands-on Lab: Jupyter Notebook - The Basics
+
 # Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - The Basics
 # Lab - Jupyter Notebook - More Features
 # Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - More Features
 # Hands-on Lab: Jupyter Notebook - Advanced Features
 # Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - Advanced Features
+
 # Jupyter Notebooks on the Internet
+First you start with exploratory data analysis, so this notebook is highly recommended to have a look at:
+ https://nbviewer.jupyter.org/github/Tanu-N-Prabhu/Python/blob/master/Exploratory_data_Analysis.ipynb
+
+For data integration / cleansing at a smaller scale, the python library pandas is often used. Please have a look at this notebook: 
+https://towardsdatascience.com/data-cleaning-with-python-using-pandas-library-c6f4a68ea8eb
+
+If you want to already experience what clustering is, have a look at this: 
+https://nbviewer.jupyter.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb
+
+And finally, if you want to go for a more in-depth notebook on the iris dataset have a look here:
+ https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+
 # Practice Quiz: Practice Quiz - Jupyter Notebook
 # 3 questions
 
