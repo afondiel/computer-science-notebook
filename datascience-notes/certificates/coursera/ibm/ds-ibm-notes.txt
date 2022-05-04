@@ -748,6 +748,29 @@ How to explore those data sets
 Find ready-to-use deep learning models on the Model Asset Exchange
 Explore the deep learning model-serving detecting the image 
 
+*******************************************
+// W2 : Introduction to Jupyter Notebook  //
+*******************************************
+# Jupyter Notebook and JupyterLab : 
+- Jupyter : Julia-Python-R
+- jupyter created from ipython 
+- A tool for recording Data Science experimentation
+- It allows Data Scientist to combine text and code block in a signle file
+- It generates plots and tables within the file
+- Notebooks can be exported as pdf and html files
+
+JupyterLab : open multiple jupyter files
+
+Jupyte Environment
+- Google Collab
+- IBM 
+
+## Installation : 
+
+```pip install JupyterLab ``` or from ANACONDA 
+
+SKILLS NETWORK : virtual jupyter notebook nothing to be installed
+
 
 ///W3///
 ///W4///
