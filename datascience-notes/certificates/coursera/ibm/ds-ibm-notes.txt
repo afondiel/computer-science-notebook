@@ -854,15 +854,33 @@ And finally, if you want to go for a more in-depth notebook on the iris dataset 
 - ggplot : Data Visualization 
 - caret : Machine Learning 
 
-
-
+## RStudio Virtual Environment  : 
+- https://labs.cognitiveclass.ai/login/lti
+- https://labs.cognitiveclass.ai/tools/rstudio-ide/?md_instructions_url=https%3A%2F%2Fcf-courses-data.s3.us.cloud-object-storage.appdomain.cloud%2FIBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork%2Flabs%2FModule2%2FDS0105EN-2-Lab-RStudio%2520%25E2%2580%2593%2520The%2520Basics.md&lis_outcome_service_url=https%3A%2F%2Fapi.coursera.org%2Fapi%2FonDemandLtiOutcomes.v1&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY3Rpb24iOiJsdGkvcmVzdWx0cyIsInVzZXJuYW1lIjoidHJhaW5pbmcxMjM0Iiwib3B0aW9ucyI6eyJsaXNfb3V0Y29tZV9zZXJ2aWNlX3VybCI6Imh0dHBzOi8vYXBpLmNvdXJzZXJhLm9yZy9hcGkvb25EZW1hbmRMdGlPdXRjb21lcy52MSIsImxpc19yZXN1bHRfc291cmNlZGlkIjoib25kZW1hbmR-ZDg4ZmE0MWUzOGE2MDUxYzc0M2YyN2M0ZTRjNzljZTYhfm9DQlU1X1ZZRWVlQlFBN1NHMG5JTEEhfjJnTDZpIX5iVGJjUzh3RUVleVBpZzRRdXhrU0l3Iiwib2F1dGhfY29uc3VtZXJfa2V5IjoidG9vbHNfZm9yX2hhbmRzX29uX2RhdGFfc2NpZW5jZSIsInNjb3JlIjoiMS4wIn0sImlhdCI6MTY1MTcwODAxNywiZXhwIjoxNjUxNzI5NjE3fQ.u_wsr_rTdwflpOtIOeVZPQ6eQVsLz5MOpEunbi3t1uE&lti=true
 
 # Plotting within RStudio
+- ggplot :histograms, charts, scatterplots
+- plotly : web
+- Lattice : complex, multivariables datasets  
+- Leaflet : interatives plots
+
+## installing lib  : 
+install.packages("package name")
+## using a lib 
+ex : library(ggplot)
+
 # Ungraded External Tool: Ungraded External ToolGetting started with RStudio and Installing packages
+
+- https://labs.cognitiveclass.ai/tools/rstudio-ide/?md_instructions_url=https%3A%2F%2Fcf-courses-data.s3.us.cloud-object-storage.appdomain.cloud%2FIBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork%2Flabs%2FModule2%2FDS0105EN-2-Lab-RStudio%2520%25E2%2580%2593%2520The%2520Basics.md&lis_outcome_service_url=https%3A%2F%2Fapi.coursera.org%2Fapi%2FonDemandLtiOutcomes.v1&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY3Rpb24iOiJsdGkvcmVzdWx0cyIsInVzZXJuYW1lIjoidHJhaW5pbmcxMjM0Iiwib3B0aW9ucyI6eyJsaXNfb3V0Y29tZV9zZXJ2aWNlX3VybCI6Imh0dHBzOi8vYXBpLmNvdXJzZXJhLm9yZy9hcGkvb25EZW1hbmRMdGlPdXRjb21lcy52MSIsImxpc19yZXN1bHRfc291cmNlZGlkIjoib25kZW1hbmR-ZDg4ZmE0MWUzOGE2MDUxYzc0M2YyN2M0ZTRjNzljZTYhfm9DQlU1X1ZZRWVlQlFBN1NHMG5JTEEhfjJnTDZpIX5iVGJjUzh3RUVleVBpZzRRdXhrU0l3Iiwib2F1dGhfY29uc3VtZXJfa2V5IjoidG9vbHNfZm9yX2hhbmRzX29uX2RhdGFfc2NpZW5jZSIsInNjb3JlIjoiMS4wIn0sImlhdCI6MTY1MTcwODAxNywiZXhwIjoxNjUxNzI5NjE3fQ.u_wsr_rTdwflpOtIOeVZPQ6eQVsLz5MOpEunbi3t1uE&lti=true
+
 # Getting started with RStudio and Installing packages
+
 # Ungraded External Tool: Ungraded External ToolPlotting within RStudio
+
 # Plotting within RStudio
+
 # Ungraded External Tool: Ungraded External ToolPlotting within RStudio (Advanced)
+
 # Practice Quiz: Practice Quiz - RStudio IDE
 # 3 questions
 
