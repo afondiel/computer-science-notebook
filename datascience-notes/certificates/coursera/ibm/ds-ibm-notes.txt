@@ -887,18 +887,18 @@ ex : library(ggplot)
 *****************************
 # GitHub
 ******************************
-# Video: VideoOverview of Git/GitHub
-# Video: VideoGitHub - Getting Started
+# Overview of Git/GitHub
+# GitHub - Getting Started
 # Lab 1: GitHub Lab - Getting Started
-# Video: VideoGitHub - Working with Branches
+# GitHub - Working with Branches
 # Lab: Branching, Merging and Pull Requests on GitHub (Optional)
-# Video: VideoGit and GitHub via command line (Optional)
+# Git and GitHub via command line (Optional)
 # Pre-requisites for command line interface (Optional)
 # Configuring SSH access to repository (Optional)
 # Git and GitHub via command line instructions (Optional)
-# Video: VideoBranching and merging via command line (Optional)
+# Branching and merging via command line (Optional)
 # Lab 2: Branching and merging via command line (Optional)
-# Video: VideoContributing to repositories via pull request (Optional)
+# Contributing to repositories via pull request (Optional)
 # Lab 3: Contributing to repositories via pull request (Optional)
 # Practice Quiz: Practice Quiz - GitHub
 # 3 questions
