@@ -875,20 +875,48 @@ ex : library(ggplot)
 
 
 # Getting started with RStudio and Installing packages
+- install.packages("package name")
+- # install.packages("GGally", repos = "https://cran.r-project.org", type= "source") 
+- the packages are located at  : '/usr/local/lib/R/site-library'
 
 # Ungraded External Tool: Ungraded External ToolPlotting within RStudio
+- Practice
 
 # Plotting within RStudio
 
+# get details of dataset : '?mtcars'
+
 # Ungraded External Tool: Ungraded External ToolPlotting within RStudio (Advanced)
 
-# Practice Quiz: Practice Quiz - RStudio IDE
+# Practice Quiz: Practice Quiz - RStudio IDE	
 # 3 questions
 
 *****************************
 # GitHub
 ******************************
 # Overview of Git/GitHub
+- Git is a Version Control System tool
+- Version Control System  : keep track of changes of a document and make collaboration much easier
+- Git : Free and open source sw (GPL)
+- Distributed version control system
+- Accessible anywhere in the world 
+- Most popular vcs outthere
+
+## Git (client) + GitHub (server : web-hosted) : 
+- GitLab
+- GitBucket 
+- Beanstalk 
+
+## SHORT Glossay : 
+- SSH protocol : A method for secure remote login from one computer to another
+- repository : folders of a project that are set up for version control
+- Fork : a copy of a repo
+- Pull request : The process to request someone reviews and approves your changes before they become final
+- Working directory : A directory on your file system, including its files and subdir, that is associated with a git repo
+
+## Git commands : https://git-scm.com/docs
+## GitHub : https://try.github.io
+
 # GitHub - Getting Started
 # Lab 1: GitHub Lab - Getting Started
 # GitHub - Working with Branches
