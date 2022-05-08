@@ -939,9 +939,96 @@ ex : library(ggplot)
 # 3 questions
 
 
+////////////////////////////////////
+///W3 : Watson Studio
+////////////////////////////////////
 
-///W3///
-///W4///
+# What is IBM Watson Studio?
+- DATA : greater ressources of every smart Organization
+- IBM IDE for DATASCIENCE and DATA PROJECTS
+- data analysis, model building, data viz, open sources and collaborative  framework 
+
+- Applications : 
+=> innovation
+=> Data Refinery
+=> Dev and traniing of ML/DL models 
+
+# Watson Studio Introduction
+
+ - A effecient Data driven Team : 
+ => Data Engineer
+ => Data Scientist
+ => Data Steward
+ => Business Analyst
+ => Developer
+
+ - collaborative and easy to create a project (feature) : 
+ => Overview, Asset, Env, Jobs ...
+
+
+# Creating an Account on IBM Watson Studio
+- need to use the bank account to finish the registration - it sucks ! 
+
+# Jupyter Notebook in Watson Studio - Part 1
+* ASSET *
+- Add a notebook to the project (*.ipyn file)
+- add a dataset to work with and open the data as pandas dataframe
+- Add a description : add cells etc ... & run the code 
+- Create a Job so that the nbs run in different time
+
+# Jupyter Notebook in Watson Studio - Part 2
+* ENVIRONMENT SET UP * 
+- sw & hw configuration 
+- Default or Spark (for additional infos)
+- Choose the sw version (Python, R, Scala ..) 
+- Stop the Kernel to start the new env, associate w/ nb
+- Publish the nb to the GitHub
+
+Ungraded External Tool: Ungraded External ToolObtain an IBM Cloud Feature Code
+Hands-on Lab: Creating a Watson Studio Project with Jupyter Notebook
+
+Linking GitHub to Watson Studio
+- create a Github token 
+- generate a token 
+- settings : Integration => Github Working Repo
+
+# Practice Quiz: Practice Quiz - Watson Studio
+
+/////////////////////////////
+// Other IBM Tools
+////////////////////////////
+
+Other IBM Tools for Data Science
+IBM Watson Knowledge Catalog
+Data Refinery
+SPSS Modeler Flows in Watson Studio
+Lab: Modeler Flows in Watson Studio
+IBM SPSS Modeler
+SPSS Statistics
+Model Deployment with Watson Machine Learning
+Auto AI in Watson Studio
+IBM Watson OpenScale
+Practice Quiz: Practice Quiz - Other IBM Tools
+12 questions
+
+/////////////////////////////////////////////////
+///W4 : Create and Share Your Jupyter Notebook
+///////////////////////////////////////////////////
+
+Instructions: Create and Share Your Jupyter Notebook
+. Duration: 20 minutes20 min
+. Click to resume
+Peer-graded Assignment: Submit Your Work and Grade Your Peers
+. Duration: 18 minutes18 min
+Due May 30, 8:59 AM CEST
+Review Your Peers: Submit Your Work and Grade Your Peers
+Due Jun 2, 8:59 AM CEST
+Final Exam
+Quiz: Final Exam
+12 questions
+Digital Badge
+Reading: Reading IBM Digital Badge
+
 #########################################################################
 Course 3 : DATA SCIENCE METHODOLOGY
 #########################################################################
