@@ -998,34 +998,112 @@ Linking GitHub to Watson Studio
 // Other IBM Tools
 ////////////////////////////
 
-Other IBM Tools for Data Science
-IBM Watson Knowledge Catalog
-Data Refinery
-SPSS Modeler Flows in Watson Studio
-Lab: Modeler Flows in Watson Studio
-IBM SPSS Modeler
-SPSS Statistics
-Model Deployment with Watson Machine Learning
-Auto AI in Watson Studio
-IBM Watson OpenScale
-Practice Quiz: Practice Quiz - Other IBM Tools
-12 questions
+# Other IBM Tools for Data Science : intro
+
+# IBM Watson Knowledge Catalog
+- unites all Catalogs in a single metadata-rich Catalog
+- corresponds  : Data Asset Mgt, Code Asset Mgt, Data Mgt, Data Integration & Transformation
+- Main features : Find data, Catalog data, Govern, Understand, Power data science, Prepare and Connect, Deploy Data 
+- build on the top of RedHat OpenShift
+- runs on the private or public cloud
+
+- Catalog  : metadata about contents of assets and their access
+- A metadata is encrypted and store in the secure cloud location 
+- Storage places : IBM Cloudant, Db2, Db2 Warehouse, AWS, Azure, twitter, pdf ...
+- Need a permission to access a specific/sensitive catalog 
+- IBM Watson Studio  : There are some public Catalog 
+
+
+# Data Refinery
+- Power tool for data preparation and analysis
+- Simplifying Data Preparation 
+- Interative visual interface that enables self-service preparation
+- available in Watson Studio
+- analyse the data and run at the end
+
+
+# SPSS Modeler Flows in Watson Studio
+- Data Mgt, Data Int & Trans, Data Viz and Model Building
+- buikd ML and pipeliness (SPSS Modeler)
+- Model objects : data sources(inputs), type, agregate, filter, merge 
+
+## Types of nodes :
+- Palettes(menu on the left) and canavas
+- Data sources are located in the import
+- After the model setup and configuration => RUN => Generate Model (in Nuggets)
+
+## Examing models
+- Predict values (Categories)
+- Model accuracy
+- Confusion matrix
+- Network Diagram 
+
+## Auot-Classifer and Auto-NUmeric : 
+- Categories and target perspective
+
+# Lab: Modeler Flows in Watson Studio : assumed as done due to the access problem
+
+# IBM SPSS Modeler (SPSS acquired by IBM 2009)
+- Building model w/ coding (Boxes and objects, graphics)
+- Data Mgt, Data Int & Trans, Data Viz and Model Building + Model Deployement
+- Super Node vs Partition node
+- Build and  Examine
+- Model prediction(scoring) & evaluation (confusion matrix and Accuracy) 
+- introduction to IBM SPSS Modeler:  https://www.youtube.com/watch?v=bJfe9C9_hjY
+
+# SPSS Statistics
+- IBM SPSS Statistics 
+- Data mining and ML 
+- Load dataset
+- Chose the type of model to be applied : ex: Tree Model
+- show model detailed after building 
+- data viz : chart builder
+- SPSS Synthax
+
+Learn SPSS : https://www.youtube.com/watch?v=TZPyOJ8tFcI
+
+# Model Deployment with Watson Machine Learning
+- The return of investment is obtained when the model/pipeline is put into production
+- To make prediction, scores and new cases ..
+## standard for model Deployement : 
+- Sage Maker (Amazon)
+- MLFlow (Databricks)
+- AirFlow (Airbnb)
+- Kubeflow (Google)
+
+- PMML : Predictive Markup Model Language
+- Generated from : Watson Studio & SPSS
+-> JSON => the revolution !!!
+## ONNX : Open Source DL project from MS & FB
+## IBM  Watson ML
+- support  : PMML & ONNNx
+
+# Auto AI in Watson Studio
+- Help to simplify an AI lifecycle management, AutoAI automates : 
+- AutoAI Process : 
+
+(Raw labeled Dataset)=>(Preparation)=>(Model selection)=>(HPO)=> (Feature engineering)=>(HPO)
+- Build pipelines, comparing them according to the adverses experiments...
+- Classification & regression ONLY 
+
+# IBM Watson OpenScale
+- Fairness 
+- Explanability : Enhances compliance w/ regulation  
+-> Fair Credit Reporting Act 
+-> GDPR
+- Model Monitoring (bais in the prediction (%) ...)
+-> control and increase Accuracy and fix inconsitency
+- Business Impact   
+
+# Practice Quiz: Practice Quiz - Other IBM Tools : 12 questions
 
 /////////////////////////////////////////////////
 ///W4 : Create and Share Your Jupyter Notebook
 ///////////////////////////////////////////////////
 
 Instructions: Create and Share Your Jupyter Notebook
-. Duration: 20 minutes20 min
-. Click to resume
 Peer-graded Assignment: Submit Your Work and Grade Your Peers
-. Duration: 18 minutes18 min
-Due May 30, 8:59 AM CEST
 Review Your Peers: Submit Your Work and Grade Your Peers
-Due Jun 2, 8:59 AM CEST
-Final Exam
-Quiz: Final Exam
-12 questions
 Digital Badge
 Reading: Reading IBM Digital Badge
 
