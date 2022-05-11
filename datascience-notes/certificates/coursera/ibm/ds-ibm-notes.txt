@@ -984,8 +984,14 @@ ex : library(ggplot)
 - Stop the Kernel to start the new env, associate w/ nb
 - Publish the nb to the GitHub
 
-Ungraded External Tool: Ungraded External ToolObtain an IBM Cloud Feature Code
-Hands-on Lab: Creating a Watson Studio Project with Jupyter Notebook
+# Ungraded External Tool: Ungraded External ToolObtain an IBM Cloud Feature Code
+- created new account and added a new code
+
+# Hands-on Lab: Creating a Watson Studio Project with Jupyter Notebook
+- Task 1: Create Watson Studio Service:
+- Task 2: Open Watson Studio
+- Task 3: Create a Project
+- Task 4: Adding a Notebook to the Project:
 
 Linking GitHub to Watson Studio
 - create a Github token 
@@ -1000,13 +1006,14 @@ Linking GitHub to Watson Studio
 
 # Other IBM Tools for Data Science : intro
 
-# IBM Watson Knowledge Catalog
+# IBM Watson Knowledge Catalog 
+=> Catalog and manage all data ressources <= 
 - unites all Catalogs in a single metadata-rich Catalog
 - corresponds  : Data Asset Mgt, Code Asset Mgt, Data Mgt, Data Integration & Transformation
 - Main features : Find data, Catalog data, Govern, Understand, Power data science, Prepare and Connect, Deploy Data 
 - build on the top of RedHat OpenShift
+- DC : protects data from misuse and enables sharing of assets automatically and dynamically masking sensitive data
 - runs on the private or public cloud
-
 - Catalog  : metadata about contents of assets and their access
 - A metadata is encrypted and store in the secure cloud location 
 - Storage places : IBM Cloudant, Db2, Db2 Warehouse, AWS, Azure, twitter, pdf ...
@@ -1015,50 +1022,83 @@ Linking GitHub to Watson Studio
 
 
 # Data Refinery
+=> graphical tools for analyzing and preparing data <=
 - Power tool for data preparation and analysis
 - Simplifying Data Preparation 
 - Interative visual interface that enables self-service preparation
 - available in Watson Studio
-- analyse the data and run at the end
+- analyse the data and run at the end in th real dataset
+- relational operators  : left join, inner join etc
+- automation (from database ) => (Data refinerey) => Target table
 
 
 # SPSS Modeler Flows in Watson Studio
+=> easy to use graphical interfaces for statistics, ML and ETL <=
 - Data Mgt, Data Int & Trans, Data Viz and Model Building
-- buikd ML and pipeliness (SPSS Modeler)
+- build ML and pipeliness (SPSS Modeler)
 - Model objects : data sources(inputs), type, agregate, filter, merge 
 
 ## Types of nodes :
-- Palettes(menu on the left) and canavas
+- Palettes(menu on the left) and canavas(main part o fthe screen)
 - Data sources are located in the import
 - After the model setup and configuration => RUN => Generate Model (in Nuggets)
+
+## SPSS Modeler Flows : 
+- Each flow starts w/ data sources located in the import group
+=> Ex: AI dataset (drugs from Watson Studio env)
+- Target(label) => Categorical field
+- Predictive variables 
 
 ## Examing models
 - Predict values (Categories)
 - Model accuracy
 - Confusion matrix
-- Network Diagram 
+## Network Diagram 
+- NN represent of the built model ( input layers, hidden layers and output layers)
+- weights and theirs values, and nn connections  ...
 
-## Auot-Classifer and Auto-NUmeric : 
-- Categories and target perspective
+## Auto-Classifer and Auto-NUmeric Nodes: 
+- Categories and continuos target perspective
+- build severals models and pick the best one based on a certain criterion 
 
 # Lab: Modeler Flows in Watson Studio : assumed as done due to the access problem
 
-# IBM SPSS Modeler (SPSS acquired by IBM 2009)
+# IBM SPSS Modeler 
+- create by Clementine 1994
+- acquired by SPSS in 1998 
+- SPSS acquired by IBM 2009
 - Building model w/ coding (Boxes and objects, graphics)
 - Data Mgt, Data Int & Trans, Data Viz and Model Building + Model Deployement
-- Super Node vs Partition node
-- Build and  Examine
-- Model prediction(scoring) & evaluation (confusion matrix and Accuracy) 
+
+## Prediction a CHURN (from telecommunication database)
+- round node
+- hexagone node (data sources)
+- feature selection node => build to generate a yellow nugget 
+- Super Node (special node created by the user) 
+## Build and Examine
+- run the flow
+##  Examine output (on trained data)
+- input and target
+- classification table which resumes the model features
+## Training and test
+- Partition node : records for testing and validation 
+- partitioned data ( to avoid Overfitting - high accuracy)
+## Model prediction(scoring) & evaluation (confusion matrix and Accuracy) 
 - introduction to IBM SPSS Modeler:  https://www.youtube.com/watch?v=bJfe9C9_hjY
 
-# SPSS Statistics
-- IBM SPSS Statistics 
-- Data mining and ML 
-- Load dataset
-- Chose the type of model to be applied : ex: Tree Model
-- show model detailed after building 
-- data viz : chart builder
-- SPSS Synthax
+# SPSS Statistics (1968 )
+- IBM SPSS Statistics & ML application
+- build predictive model, statistical analysis of data
+- build statistical & Data mining algos w/out coding 
+- file format (*.sav)
+- Load dataset are presented as structured data table (excel )
+## useful MENUS : 
+- DATA : 
+- TRANSFORMATION : 
+- ANALYZE : Chose the type of model to be applied : ex: Tree Model
+- show model detailed after building (classification table)
+- GRAPHS  : data viz : chart builder
+- SPSS Synthax : special programing language used by others tools
 
 Learn SPSS : https://www.youtube.com/watch?v=TZPyOJ8tFcI
 
@@ -1070,29 +1110,32 @@ Learn SPSS : https://www.youtube.com/watch?v=TZPyOJ8tFcI
 - MLFlow (Databricks)
 - AirFlow (Airbnb)
 - Kubeflow (Google)
-
-- PMML : Predictive Markup Model Language
+## PMML : Predictive Markup Model Language
+=> created by Data Mining Group(DMG) in 1990s
 - Generated from : Watson Studio & SPSS
--> JSON => the revolution !!!
+-> PFA Portable Format for Analytics from DMG
+-> JSON => the revolution !!! (2013)
 ## ONNX : Open Source DL project from MS & FB
+- models are built for very specific Environment (embedded device : GPU, CPU, FPGA ..)
 ## IBM  Watson ML
-- support  : PMML & ONNNx
+- support  : SPSS Modeler, PMML & ONNNx
 
 # Auto AI in Watson Studio
+- create ML Pipelines !!!
 - Help to simplify an AI lifecycle management, AutoAI automates : 
-- AutoAI Process : 
-
+- AutoAI Process/pipeline : 
 (Raw labeled Dataset)=>(Preparation)=>(Model selection)=>(HPO)=> (Feature engineering)=>(HPO)
 - Build pipelines, comparing them according to the adverses experiments...
 - Classification & regression ONLY 
+- Pipelines are saved as ML assets in Watson Studio
 
-# IBM Watson OpenScale
+# IBM Watson OpenScale (create ML Pipelines)
 - Fairness 
 - Explanability : Enhances compliance w/ regulation  
--> Fair Credit Reporting Act 
--> GDPR
+	=> Fair Credit Reporting Act 
+	=> GDPR
 - Model Monitoring (bais in the prediction (%) ...)
--> control and increase Accuracy and fix inconsitency
+	=> control and increase Accuracy and fix inconsitency
 - Business Impact   
 
 # Practice Quiz: Practice Quiz - Other IBM Tools : 12 questions
@@ -1102,9 +1145,9 @@ Learn SPSS : https://www.youtube.com/watch?v=TZPyOJ8tFcI
 ///////////////////////////////////////////////////
 
 Instructions: Create and Share Your Jupyter Notebook
+- My Project link : 
 Peer-graded Assignment: Submit Your Work and Grade Your Peers
 Review Your Peers: Submit Your Work and Grade Your Peers
-Digital Badge
 Reading: Reading IBM Digital Badge
 
 #########################################################################
