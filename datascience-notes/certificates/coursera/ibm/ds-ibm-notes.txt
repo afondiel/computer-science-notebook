@@ -1146,7 +1146,8 @@ Learn SPSS : https://www.youtube.com/watch?v=TZPyOJ8tFcI
 ///////////////////////////////////////////////////
 
 Instructions: Create and Share Your Jupyter Notebook
-- My Project link : 
+- My Project link : https://eu-de.dataplatform.cloud.ibm.com/analytics/notebooks/v2/7ca3c478-e3f7-4bbe-9ddb-4da5bdb3dfb2/view?access_token=bca88978829370aace11414003eca738683d4e720317bde195d1752d867860e8
+
 Peer-graded Assignment: Submit Your Work and Grade Your Peers
 Review Your Peers: Submit Your Work and Grade Your Peers
 Reading: Reading IBM Digital Badge
