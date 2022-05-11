@@ -991,7 +991,8 @@ ex : library(ggplot)
 - Task 1: Create Watson Studio Service:
 - Task 2: Open Watson Studio
 - Task 3: Create a Project
-- Task 4: Adding a Notebook to the Project:
+- Task 4: Adding a Notebook to the Project
+ => Add assets => JNB editor
 
 Linking GitHub to Watson Studio
 - create a Github token 
