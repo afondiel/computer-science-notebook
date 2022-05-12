@@ -1161,8 +1161,30 @@ Module 1: From Problem to Approach and from Requirements to Collection
 Module 2: From Understanding to Preparation and from Modeling to Evaluation
 Module 3: From Deployment to Feedback
 
-////W1 : Welcome///
-- Data Science Methodoly :  ? 
+////W1 : Welcome - Data Science Methodoly ///
+- Q&A Data Science ? 
+- Data is every where and increasing ?
+=> Methodology : a system of methods in a particular area of study or activity
+- goal(in ds) : ensure that the data is used in problem solving is relevant and properly manipulated to address the question at handle
+- course by John Rollins (IBM Analytics)
+
+- 10 questions answered ds methodology (in netshell) : 
+## From problem to approach:
+1/ What is the problem that you are trying to solve ?
+2/ How can you use data to answer the question
+## Working w/ data :
+3/ What data do you need to answer the question ? 
+4/ Where is the data comming from (identify all sources) and how will you get it ? 
+5/ Is the data that you collected representative and work with the data ?
+6/ what additional work is required to manipulate and work with the data ?
+## Deriving the answer : 
+7/ In what way can the data be vizaulized to get to the answer that is required ?
+8/ Does the model used really answer the initial question or does it need to be adjusted
+9/ Can you put the model into practive ?
+10/ Can you get constructive feedback into answering the question ? 
+ 
+
+
 
 
 ////W1 : From Problem to Approach///
