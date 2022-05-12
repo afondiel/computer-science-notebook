@@ -1155,7 +1155,50 @@ Reading: Reading IBM Digital Badge
 #########################################################################
 Course 3 : DATA SCIENCE METHODOLOGY
 #########################################################################
-////W1///
+////W1 : Syllabus///
+
+Module 1: From Problem to Approach and from Requirements to Collection
+Module 2: From Understanding to Preparation and from Modeling to Evaluation
+Module 3: From Deployment to Feedback
+
+////W1 : Welcome///
+- Data Science Methodoly :  ? 
+
+
+////W1 : From Problem to Approach///
+////W1 : From Requirements to Collection///
+
+
+Video: VideoWelcome
+. Duration: 4 minutes4 min
+. Click to resume
+Introduction to CRISP - DM
+. Duration: 15 minutes15 min
+From Problem to Approach
+Video: VideoBusiness Understanding
+. Duration: 5 minutes5 min
+Video: VideoAnalytic Approach
+. Duration: 3 minutes3 min
+Ungraded External Tool: Ungraded External ToolLab: From Problem to Approach
+. Duration: 1 hour1h
+Quiz: From Problem to Approach
+3 questions
+Overdue May 9, 8:59 AM CEST
+Reading: ReadingLesson Summary
+. Duration: 10 minutes10 min
+From Requirements to Collection
+Video: VideoData Requirements
+. Duration: 3 minutes3 min
+Video: VideoData Collection
+. Duration: 2 minutes2 min
+Ungraded External Tool: Ungraded External ToolFrom Requirements to Collection
+. Duration: 1 hour1h
+Quiz: From Requirements to Collection
+3 questions
+Overdue May 9, 8:59 AM CEST
+Reading: ReadingLesson Summary
+. Duration: 10 minutes10 min
+
 ///W2///
 ///W3///
 #########################################################################
