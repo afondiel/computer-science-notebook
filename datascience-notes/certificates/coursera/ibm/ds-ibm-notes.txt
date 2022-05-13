@@ -1183,44 +1183,87 @@ Module 3: From Deployment to Feedback
 9/ Can you put the model into practive ?
 10/ Can you get constructive feedback into answering the question ? 
  
+# Introduction to CRISP-DM
+- CRISP-DM (Cross Industry Process for Data Mining ) : DS methodology is widely used similarly to Foundational Methodology of John Rollins Methodology
+- Goal : increase the use of data mining over a wide variety of business applications and industries
+
+* CRISP-DM vs Foundational Methodology* 
+
+## 6 steps of CRISP-DM :  
+1. Business Understanding : where the intention of the project is outlined w/ the Stakeholders( Communication and clarity are important)
+2. Data Understanding : where the Data is Collected & relies on business understanding. 
+=> CRISP-DM combines the stages of Data Requirements, Data Collection, and Data Understanding
+3. Data Preparation( common to Foundational Methodology) : transformation of collected data into a useble subset.
+ => Check in any data is missing, or ambiguity cases 
+4. Modeling  : Choose the effient model based on the prepared data. 
+ => Data mining purpose :  create useful infos
+ => model  : reveals patterns and structures & insight into the features of interest.  
+5. Evaluation  : where the model is tested (with generated testing data) to see its effectiveness   
+6. Deployement :the model is used on new data outside of the scope of the dataset and by new stakeholders
+=> Reajustement  : new variables, needs for the dataset to the model 
+=> revision : business needs and actions // Model and data 
+
+- CRISP-DM : is flexible and cyclical model (AGILE !!!)
+
+# (1) Business Understanding
+- In methodology : Spending time to seek clarification for business understanding process
+
+* From (Business) understanding to approach ? *
+(Business understanding) => (Analytic approach) => (Data requirements) => (Data collection) => (Data understanding) => (Data preparation) => (Modeling) => (Evaluation) => (Deployement) => (Freeback)
+=> What's the problem that you are trying to solve ? 
+- understanding this stage is crucial to answer the CORE question : Which data needed to be used ? 
+- Understand problem == understanding the GOAL of who's asking the question
+- Goal leads to the objectives (Discussion amount stakeholders, priorities definition ..) 
+
+* Case study : 
+=> GOAL
+=> OBJECTIVE 
+=> identify the business requeriments
+	=> Predict the outcome
+	=> understanding the cause of the problem 
+	=> propose solution (narrative ? )
+
+# (2) Analytic Approach : 
+=> How can you use data to answer the question ? 
+
+- identify the type of pattern to address the questions most effectively
+=> Descriptive : current status
+=> Diagnostic (Statistical analysis) : what happened/happenning ?
+=> Predictive (Forecasting) : what if these trends continue?what will happen next ?
+=> Prescritive : how do we solve it ? 
+
+- the correct approach depends on business requirements for the model : 
+=> Predictive model : probability of an action 
+=> Descriptive model : question to show relationship
+=> Classification model : question YES/No  
+
+Machine learning when to use ? 
+- learn w/out explicitily programmed
+- identifies relationships and trends in data that might otherwise not be accessible or identified
+- Uses clustering association approach => human behaiviour
+
+## Case Study : 
+- Decision Tree classification ? 
+=> Predictive model : 
+	=>to predict the outcome
+=> Decision tree classification : 
+	=> Categorical outcome, 
+	=> Explicit "decision path" showing condition leading to high risk 
+	=> likelihood of classified outcome 
+	=> Easy to understand and apply 
+	
 
 
-
+Ungraded External Tool: Ungraded External ToolLab: From Problem to Approach
+From Problem to Approach
+From Requirements to Collection
+Data Requirements
+Data Collection
+Ungraded External Tool: Ungraded External Tool From Requirements to Collection
+From Requirements to Collection
 
 ////W1 : From Problem to Approach///
 ////W1 : From Requirements to Collection///
-
-
-Video: VideoWelcome
-. Duration: 4 minutes4 min
-. Click to resume
-Introduction to CRISP - DM
-. Duration: 15 minutes15 min
-From Problem to Approach
-Video: VideoBusiness Understanding
-. Duration: 5 minutes5 min
-Video: VideoAnalytic Approach
-. Duration: 3 minutes3 min
-Ungraded External Tool: Ungraded External ToolLab: From Problem to Approach
-. Duration: 1 hour1h
-Quiz: From Problem to Approach
-3 questions
-Overdue May 9, 8:59 AM CEST
-Reading: ReadingLesson Summary
-. Duration: 10 minutes10 min
-From Requirements to Collection
-Video: VideoData Requirements
-. Duration: 3 minutes3 min
-Video: VideoData Collection
-. Duration: 2 minutes2 min
-Ungraded External Tool: Ungraded External ToolFrom Requirements to Collection
-. Duration: 1 hour1h
-Quiz: From Requirements to Collection
-3 questions
-Overdue May 9, 8:59 AM CEST
-Reading: ReadingLesson Summary
-. Duration: 10 minutes10 min
-
 ///W2///
 ///W3///
 #########################################################################
