@@ -1160,16 +1160,21 @@ Course 3 : DATA SCIENCE METHODOLOGY
 Module 1: From Problem to Approach and from Requirements to Collection
 Module 2: From Understanding to Preparation and from Modeling to Evaluation
 Module 3: From Deployment to Feedback
-
+//////////////////////////////////////////////
 ////W1 : Welcome - Data Science Methodoly ///
+//////////////////////////////////////////////
+
 - Q&A Data Science ? 
 - Data is every where and increasing ?
 => Methodology : a system of methods in a particular area of study or activity
 - goal(in ds) : ensure that the data is used in problem solving is relevant and properly manipulated to address the question at handle
 - course by John Rollins (IBM Analytics)
 
-- 10 questions answered ds methodology (in netshell) : 
-## From problem to approach:
+//////////////////////////////////////////////
+// W1 : From problem to approach:
+//////////////////////////////////////////////
+
+-> 10 questions answered ds methodology (in netshell) : 
 1/ What is the problem that you are trying to solve ?
 2/ How can you use data to answer the question
 ## Working w/ data :
@@ -1205,11 +1210,17 @@ Module 3: From Deployment to Feedback
 
 - CRISP-DM : is flexible and cyclical model (AGILE !!!)
 
+***************************************
+** DATA SCIENCE  METHODOLOGY PROCESS **
+***************************************
++-------------------------+    +-------------------+ 	+------------------+	+-----------------+	   +-------------------+	+----------------+    +----------+	  +----------+   +------------+   +---------+
+| Business understanding  | => | Analytic approach | => | Data requirements| => | Data collection | => | Data understanding| => |Data preparation| => |Modeling  | => |Evaluation| =>| Deployement| =>| Freeback|
++-------------------------+	   +-------------------+ 	+------------------+	+-----------------+	   +-------------------+	+----------------+ 	  +----------+	  +----------+   +------------+   +---------+
+
 # (1) Business Understanding
 - In methodology : Spending time to seek clarification for business understanding process
 
 * From (Business) understanding to approach ? *
-(Business understanding) => (Analytic approach) => (Data requirements) => (Data collection) => (Data understanding) => (Data preparation) => (Modeling) => (Evaluation) => (Deployement) => (Freeback)
 => What's the problem that you are trying to solve ? 
 - understanding this stage is crucial to answer the CORE question : Which data needed to be used ? 
 - Understand problem == understanding the GOAL of who's asking the question
@@ -1251,21 +1262,49 @@ Machine learning when to use ?
 	=> Explicit "decision path" showing condition leading to high risk 
 	=> likelihood of classified outcome 
 	=> Easy to understand and apply 
-	
+
+/!\ Entropy is defined as the randomness or measuring the disorder of the information being processed in Machine Learning
+
+//////////////////////////////////////	
+//W1 : From Requirements to Collection
+//////////////////////////////////////
+
+# Data Requirements
+## Cooking with data : 
+- what ingredients are required ? 
+- how to understand/work with them (data ingredients)
+- how to prepare the data to meet the desired outcome ? 
+
+### ultime question  : what are data requirements ?
+- Answer the : WHO ? WHAT? WHERE ? WHEN ? WHY? HOW ?
+- the necessary data content 
+- formats, sources for initial datas 
+## Case study : 
+- Selecting the cohort  : type of sample, charateristics, specific conditions .. 
+- Define the data : contents, formats, representation for decision tree(X,Y - features) 
+
+# Data Collection
+- After the previous stage (data requirement) Collection needs more or less data ? 
+- Tehcniques like statistical analysis and data viz can be used to study the data collected 
+### ultime question  : what occurs during data collection?
+
+## Case study :  
+- Gathering available data ? 
+=> Available data sources ( data can come from different sources*)
+- Deferring inaccessible data  ? 
+=> Data Wanted but not available
+- Merging data ? 
+=> DBAs and dev work together to extract data from various sources and then merge it
+=> Data scientist and data analytics can discuss the better ways to manage the data
+	=> automating certains process in the database 
 
 
-Ungraded External Tool: Ungraded External ToolLab: From Problem to Approach
-From Problem to Approach
-From Requirements to Collection
-Data Requirements
-Data Collection
-Ungraded External Tool: Ungraded External Tool From Requirements to Collection
-From Requirements to Collection
+# Ungraded External Tool: Ungraded External Tool From Requirements to Collection
+# From Requirements to Collection
 
-////W1 : From Problem to Approach///
-////W1 : From Requirements to Collection///
 ///W2///
 ///W3///
+
 #########################################################################
 Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
 #########################################################################
