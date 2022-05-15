@@ -1,9 +1,6 @@
 == Machine Learning notes ===  
 
-- Intro : a field of AI Algorithms that learn from EXAMPLES and EXPERIENCES instead of traditional HARDCODE et 
-RULES
-
-
+- Definition a field of AI algorithms that learn from EXAMPLES and EXPERIENCES instead of traditional HARDCODE and RULES
 - Application  : Apple and oranges detection
 
 ==> Tradictional coding  : too much rules ? 
@@ -22,6 +19,7 @@ To TRAIN the Classifier : Supervised Learning or Non suspervised Learning
 * SL : it learns from examples/experiences
 * NSL : it learns from events ?   
 
+- The more the training data exists => the better the classifier Will be  
 
 |--------|			|-----------| 		|-----------|
 |Collect |          |Train 	 	|       |Make 		|
@@ -96,9 +94,6 @@ Each iteration it's called, a training steps.
 /!\ #Residus = Biais ( θ ^ ) ≡ E [ θ ^ ] − θ 
 	#Définition —  Si θ ^ est l'estimateur de θ 
 	
-	
-	
-
 
 5. EVALUATION : after the model is good time to evaluate
 
