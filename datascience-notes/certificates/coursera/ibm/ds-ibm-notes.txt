@@ -1331,8 +1331,26 @@ Machine learning when to use ?
 * Data quality process*  
 (Accuracy)=>(Relevance)=>(Accessibility)=>(Completiveness)=>(Clarity)=>(Timelines)
 
-
 ## reference : Descriptive stats : https://www.investopedia.com/terms/d/descriptive_statistics.asp
+
+# Data preparation - Concepts
+
+## cleansing data :
+- removes all unwanted elements : dirt or imperfections
+- most time consuming (70% - 90% of ds projects) => Automation collaction/prep process in the database=> reduce time to 50%
+- data become easier to work with
+- ultime question : What are the ways in which data is prepared ? 
+=> Classifying data : Invalid values, missing data, removed double, formating ..
+
+## USING domain knowledge : 
+- Feature engineering : Feature A,  Feature B,  Feature C ...
+## Text analysis : 
+-  to ensure that the proper grouping are set
+
+
+
+
+
 
 /////////////////////////////////////
 ///W3 : From Deployment to Feedback///
