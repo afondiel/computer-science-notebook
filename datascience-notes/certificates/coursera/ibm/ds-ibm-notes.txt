@@ -1155,8 +1155,12 @@ Reading: Reading IBM Digital Badge
 #########################################################################
 Course 3 : DATA SCIENCE METHODOLOGY
 #########################################################################
-////W1 : Syllabus///
 
+//////////////////////////////////////////////////////////////////////
+////W1 : From Problem to Approach and From Requirements to Collection
+///////////////////////////////////////////////////////////////////////
+
+////W1 : Syllabus///
 Module 1: From Problem to Approach and from Requirements to Collection
 Module 2: From Understanding to Preparation and from Modeling to Evaluation
 Module 3: From Deployment to Feedback
@@ -1298,12 +1302,41 @@ Machine learning when to use ?
 => Data scientist and data analytics can discuss the better ways to manage the data
 	=> automating certains process in the database 
 
-
 # Ungraded External Tool: Ungraded External Tool From Requirements to Collection
-# From Requirements to Collection
 
-///W2///
-///W3///
+/////////////////////////////////////////////////////////////////////////////
+///W2 : From Understanding to Preparation and From Modeling to Evaluation ///
+/////////////////////////////////////////////////////////////////////////////
+
+# Data Understanding : What means to prepare or clean data ? 
+- Encompasses all activities related to constructing the data
+- ultime question : Is the collected data representative of the problem to be solve ? 
+
+* Data preparation process * 
+(Data source) 	=>	 (Data cleared) 	=> 			(Prepared Data ) 		=> 		(Patterns) 		=>   (knowledge) 
+	(Cleaning/integration) 		(Selection/transformation)			(Data mining) 				(Evaluation)
+
+## Case Study : 
+- Descriptive statistics (meaningful data analysis) : 
+ => Univariate statistics
+ => Pairwise corrections
+ => histogram (to see how variables are distributed) : which data prep most efficient for the model
+- Data quality (veracity) : 
+ => Missing values ? 
+ => Invalid/misleading values
+- iterative process (cyclique) : 
+ => Interative data collection and understanding
+	=> Refined definition of "CHF admission"
+
+* Data quality process*  
+(Accuracy)=>(Relevance)=>(Accessibility)=>(Completiveness)=>(Clarity)=>(Timelines)
+
+
+## reference : Descriptive stats : https://www.investopedia.com/terms/d/descriptive_statistics.asp
+
+/////////////////////////////////////
+///W3 : From Deployment to Feedback///
+/////////////////////////////////////
 
 #########################################################################
 Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
