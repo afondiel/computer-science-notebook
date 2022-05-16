@@ -1389,7 +1389,7 @@ Machine learning when to use ?
 - Case study : 
 => Misclassification COST TUNING : 
 => Tune the relative Misclassification costs
-=> Balance true-positive reate / false-positive rate for best model 
+=> Balance true-positive rate / false-positive rate for best model 
 => Optimal model at maximum separation 
 => ROC (Receiver Operating charateristic Curve)
 
@@ -1425,16 +1425,73 @@ Machine learning when to use ?
 		=> Tracking / Monitoring  (developed w/ IT devs and database administration)
 			=> The results go then to FEEDBACK stage to refine the model over time
 
+# FEEDBACK
+- Once in play (deployement) users feedback helps to refine the model & asset it for perfo & impact
+- allows to adjust the model to meet the solution required
+- Methodology is a cyclical process : refinement takes place at each stage
+- Philosophy : "The more you know the mode you want to know"
 
+## From Deployement to Feedback
+- Once the model is evaluated and the data scientistis confident it will work, it is deployed and put to the ultimate test  
+	=> Actual real-time use in the field 
+
+## Case Study : Applying the Concepts
+- Assessment model performance : 
+ => To measure results of applying the "risk model" to the outcome
+
+* Assessment model performance*
+
+					=> (Data Quality)   \\
+(Domain Expertise)  => (Time)		    =>> Accuracy 
+				    => (Interpretation) //
+- Refinement
+	=> initialreview of the 1st year of implementation
+	=> Based on feedback data and knowledge
+	=> Participation in intervention program 
+	=> Other possible refinements as yet unknown 
+
+- Redeployement 
+	=> Review and refine intervention actions
+
+	=> Redeploy 
+		=> Continue modeling, deployement, feedback, and refinement throughout the life of the intervention program 
+
+Final Exam : Credit Card Fraud Detection  : 
+Description : Build a ML solution to detection if a particular transaction is fraudulent or Genuine ? 
+
+DS Methodology steps : 
+
+Business Understanding
+Analytic Approach
+Data requirements
+Data Collection
+Data Understanding
+Data Prep
+Modeling
+Eveluation
+Deployement
+Feedback
 
 
 #########################################################################
 Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
 #########################################################################
 
-////W1///
-///W2///
-///W3///
+/////////////////////////
+///W1 : Python Basics ///
+/////////////////////////
+
+About the course
+Types
+Expressions and Variables
+String Operations
+
+
+///W2 : Python Data Structures ///
+///W3 : Python Programming Fundamentals///
+///W4 : Working with Data in Python ///
+///W5 : APIs, and Data Collection///
+
 #########################################################################
 Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
 #########################################################################
