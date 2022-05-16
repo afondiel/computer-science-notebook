@@ -1482,7 +1482,14 @@ Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
 /////////////////////////
 
 About the course
+- This course is applicable to Data Science, Data Engineering, AI or Application Development
+
 Types
+- integer : 11
+- real : 21,213
+- string : "love" 
+
+
 Expressions and Variables
 String Operations
 
