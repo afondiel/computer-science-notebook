@@ -672,6 +672,9 @@ types of ml learning classes :
 	- clustering and anomaly detection
 => reinforcement : Conceptually similar to human learning processes
 	- a robot learning to walk, Go, Chess and other strategy games
+
+* List of ML Algorithms :https://www.newtechdojo.com/list-machine-learning-algorithms/
+
 ##########################
 # Deep Learning Models 
 ##########################
@@ -1347,14 +1350,83 @@ Machine learning when to use ?
 ## Text analysis : 
 -  to ensure that the proper grouping are set
 
+# Data Prep - Case Study : healthcare case 
 
+# Modeling - Concepts
+- In what way can the data be visualized to get to the answer that is required ? 
+## Predictive vs Descriptive Analytics? 
+- Descriptive(Optimization ) : choice, desire(if i did that i'll prefere that ? )
+- Predictive(Timming) : YEs/No, stop/go type outcomes 
 
+- Statistic driven
+- ML driven 
 
+## Calibration : Using training / test sets
+- training seta used in predictive modeling (outcome already known)
+- training sets : gauge to determine if any model calibration is needed
+- play w/ different algos to be sure that the variable in play are required
+- Understanding the question the follow is required : Constant refinement, adjustments and tweaking to ensure that the outcome is solid 
+
+- Was the question answered ? 
+
+# Modeling - Case study 
+ - Analyzing the 1st result of model 
+ - Analytical Decision tree classification model ? (Y/N=> Predictive )
+ - Adjust the parameters  : COST, ACCURACY SENSITIVITY, SPECIFICITY ?  
+
+# Evaluation  : Does the model used really answer the initial question or does it need to be adjusted ?
+
+- Hand-to-hand iterative stage w/ modeling 
+- perfomed during model dev and before model Deployement
+- requirements GOODS ? Outcome compliant w/ the custumer requeriments ? 
+- 2 big stages : 
+ * diagnostic measures 
+	=> Predictive model : decision tree is used to see if the output is aligned to the initial design (then adjust)  
+	=> Descriptive model : testing sets (known outcome) are applied, and model can be refined as needed
+ * Statistical significance testing : 
+ 	=> data is handled/ interpreted within the model 
+
+- Case study : 
+=> Misclassification COST TUNING : 
+=> Tune the relative Misclassification costs
+=> Balance true-positive reate / false-positive rate for best model 
+=> Optimal model at maximum separation 
+=> ROC (Receiver Operating charateristic Curve)
 
 
 /////////////////////////////////////
 ///W3 : From Deployment to Feedback///
 /////////////////////////////////////
+
+# Deployement  : Are Stakeholders familiar w/ the new tool  ? 
+- Solution ?
+=> Solution Owner 
+=> Marketing
+=> Application devs 
+=> IT administration 
+
+- the model is deployed for an ultime test
+- Limited user testers/ Test Environment
+
+- Case Study  : 
+=> Understand the results : 
+	-> Assimilate knowledge for business
+		=> Practical understand of the meaning of model results
+		=> Implications of model results for designing intervention actions
+=> Gathering Application requeriments : 
+	-> Application requirements 
+		=> Automated, near-real-time risk assessment of CHF inpatients
+		=> Easy to use 
+		=> Automated data preparation and scoring
+		=> Up-to-date risk assessment to help clinicians target high-risk patients
+=> additional requirements 
+	-> additional reqs : 
+		=> Training for clinical staff
+		=> Tracking / Monitoring  (developed w/ IT devs and database administration)
+			=> The results go then to FEEDBACK stage to refine the model over time
+
+
+
 
 #########################################################################
 Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
