@@ -1480,24 +1480,14 @@ Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
 /////////////////////////
 ///W1 : Python Basics ///
 /////////////////////////
-
-About the course
-- This course is applicable to Data Science, Data Engineering, AI or Application Development
-
-Types
-- integer : 11
-- real : 21,213
-- string : "love" 
-
-
-Expressions and Variables
-String Operations
-
-
 ///W2 : Python Data Structures ///
 ///W3 : Python Programming Fundamentals///
 ///W4 : Working with Data in Python ///
 ///W5 : APIs, and Data Collection///
+
+# LINK PYTHON NOTEBOOK(easier to practise and test)  : 
+- google drive :  https://colab.research.google.com/drive/1B46VwlBGv2Ajzy4zsoeifRysVOqHEKlV?authuser=1#scrollTo=dmV8TnfR5U98
+
 
 #########################################################################
 Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
