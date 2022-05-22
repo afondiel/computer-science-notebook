@@ -1479,15 +1479,23 @@ Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
 
 /////////////////////////
 ///W1 : Python Basics ///
-/////////////////////////
+////////////////////////////////
 ///W2 : Python Data Structures ///
+///////////////////////////////////////
 ///W3 : Python Programming Fundamentals///
+///////////////////////////////////////
 ///W4 : Working with Data in Python ///
+////////////////////////////////
 ///W5 : APIs, and Data Collection///
+/////
+
+
+///////////////////////////
+
 
 # LINK PYTHON NOTEBOOK(easier to practise and test)  : 
 - google drive :  https://colab.research.google.com/drive/1B46VwlBGv2Ajzy4zsoeifRysVOqHEKlV?authuser=1#scrollTo=dmV8TnfR5U98
-
+- every notebook : https://github.com/afondiel/research-notes/tree/master/programming/languages/python-notes/python-for-datascience-ibm/
 
 #########################################################################
 Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
