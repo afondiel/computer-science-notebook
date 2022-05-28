@@ -606,7 +606,7 @@ Apache Spark : general -purpose cluster computing framework to process data usin
 =>julia/Matlab/Scala/R<=> [API] <=> TF
 
 ## REST(REpresentation State Transport) APIs  : interact w/ web Services
-- Applications called throughthe internet (communication, input/request, Output/Ressources)
+- Applications called through the internet (communication, input/request, Output/Ressources)
 - (Client) <=> [API] <=> (Web services)
 - Client <=> [API] <=> Ressources(endpoint)
 ex : The Watson Speech to Text API / Watson language translator API
@@ -1487,15 +1487,13 @@ Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
 ///W4 : Working with Data in Python ///
 ////////////////////////////////
 ///W5 : APIs, and Data Collection///
-/////
-
-
-///////////////////////////
+////////////////////////////////
 
 
 # LINK PYTHON NOTEBOOK(easier to practise and test)  : 
 - google drive :  https://colab.research.google.com/drive/1B46VwlBGv2Ajzy4zsoeifRysVOqHEKlV?authuser=1#scrollTo=dmV8TnfR5U98
 - every notebook : https://github.com/afondiel/research-notes/tree/master/programming/languages/python-notes/python-for-datascience-ibm/
+- Python documentation :  https://docs.python.org/3/tutorial/index.html
 
 #########################################################################
 Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
