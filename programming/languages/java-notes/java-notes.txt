@@ -3,11 +3,12 @@
 
 # Definition : OOP (Object Orient Program) => variables/attributes + Operations/Functions
 
-## variables : 
+## variables/attributes : 
+
+attribute(vars of type private) = atomic!!!!
 
 
-
-## Operations : Getter vs setter
+## Operations/Functions : Getter vs setter
 
 way to access and modify an attribute:
         
@@ -26,7 +27,6 @@ I execute the object type method at runtime
 class: Student{}
 Student myStudent = new Student(); // instantiation
 
-attribute(vars of type private) = atomic!!!!
 
 
 # Abstraction
