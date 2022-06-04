@@ -1625,16 +1625,28 @@ Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
 Ex: select <table_id> , title from <tablename>
 	WHERE <table_id>='COLOMN_LABLE'
 
-SELECT statement examples
-Hands-on Lab: Simple SELECT Statements
-Ungraded External Tool
-COUNT, DISTINCT, LIMIT
+# SELECT statement examples
+- IBM Dev Lab notes 
+
+# Hands-on Lab: Simple SELECT Statements
+# Ungraded External Tool: ok 
+# COUNT, DISTINCT, LIMIT
+
+- COUNT :  retrieves the number of rows matching the query criteria
+statement(query)  : select COUNT(*) from tablename
+- DISTINCT:  remove duplicate values from a result set
+=> retrieve unique values in a columns :
+statement(query)  : select DISTINCT columnname from tablename
+- LIMIT: retrieves the number of rows retrieved from the database
+statement (query) : select * from tablename LIMIT 10 => like head function in pandas
+
 Hands-on Lab: COUNT, DISTINCT, LIMIT
 Ungraded External Tool
 INSERT Statement
 UPDATE and DELETE Statements
 Hands-on Lab: INSERT, UPDATE, and DELETE
 Ungraded External Tool
+
 Practice Quiz
 Practice Quiz
 Graded Quiz: Basic SQL
