@@ -1489,6 +1489,7 @@ Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
 ///W5 : APIs, and Data Collection///
 ////////////////////////////////
 
+ibm feature key : you need a subscription code to access this feature
 
 # LINK PYTHON NOTEBOOK(easier to practise and test)  : 
 - google drive :  https://colab.research.google.com/drive/1B46VwlBGv2Ajzy4zsoeifRysVOqHEKlV?authuser=1#scrollTo=dmV8TnfR5U98
@@ -1500,12 +1501,116 @@ Course 5 : PYTHON PROJECT FOR DATA SCIENCE
 #########################################################################
 
 ////W1///
-///W2///
-///W3///
+# Welcome
+# Optional: Intro to WebScraping
+
+## Html page structure : 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Intitulé de ma page</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Voici notre en‑tête principale utilisée dans toutes les pages de notre site web -->
+    <header>
+      <h1>En-tête</h1>
+    </header>
+    <!-- Ici nous mettons le contenu de la page -->
+    <main>
+      <!-- Il contient un article -->
+      <article>
+        <h2>En-tête d'article</h2>
+      </article>
+      <!-- Le contenu « à côté » peut aussi être intégré dans le contenu
+           principal -->
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+
+# Final Project: Analyzing Stock Performance and Building a Dashboard
+# Next Steps
+
+
 #########################################################################
 Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
 #########################################################################
-///!/W1///
+///W1 : Getting Started with SQL///
+///W1 : Basic SQL ///
+# Welcome to SQL for Data Science
+
+## Why SQL for Data Science
+- Median based salary(wage) : 110k
+- job satisfaction score : 4.4/5
+- Top spot on Glassoor's best jobs in America 
+- enables to communicate with databases
+- every app needs to store data sommewhere : 
+=> big data
+=> Table with a few rows
+=> Small start up
+=> Big Database
+
+* Advantages : 
+** Boost your professional profile
+** Good understanding of relation databases
+** SQL stataments are FAST
+
+# About Hands-on Labs in this course : OK
+
+# Introduction to Databases
+
+=> ref : Course 2 : TOOLS FOR DATA SCIENCE => SQL
+## data ? : 
+=> Facts (words, numbers)
+=> Pictures
+=> One of the most critical assets of any business
+=> /!\ need to be secure & STORE => DATABASE
+
+## Database(db) ? 
+- A repository of data
+- prodives the functionality for adding, modifying and querying the* data
+- differents kinds of db, sotres data in different forms
+
+## Relational database
+- Relational DB (collection of two dimmensional tables like row, column) : 
+=> relationship between table 
+
+## DBMS (Data Base Management Systems):
+- sw to manage dbs
+
+## RDBMS (Relational Data Base Management Systems):
+- controls : access, organization, storage ...
+- uses in many industries  :  bank, tansportation, health ...
+- tools : MySQL, Oracle DB, IBM Db2 ..
+
+## Basic SQL Commands (CRUD)
+- Create a table 
+- Insert
+- Select(read/retrieve)
+- Update 
+- Delete 
+
+
+SELECT Statement
+SELECT statement examples
+Hands-on Lab: Simple SELECT Statements
+Ungraded External Tool
+COUNT, DISTINCT, LIMIT
+Hands-on Lab: COUNT, DISTINCT, LIMIT
+Ungraded External Tool
+INSERT Statement
+UPDATE and DELETE Statements
+Hands-on Lab: INSERT, UPDATE, and DELETE
+Ungraded External Tool
+Practice Quiz
+Practice Quiz
+Graded Quiz: Basic SQL
+Quiz•3 questions
+
 ///W2///
 ///W3///
 ////W1///
