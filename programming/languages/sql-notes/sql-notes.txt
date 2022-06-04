@@ -1,0 +1,35 @@
+============ SQL Notes =============
+
+- SQL (Structured Query Language) : enable communicating/interacting with databases
+
+# Applications
+
+- Big Data 
+- Web dev
+- DB/DBMS
+
+
+# Tools/Frameworks/DBMS
+10 popular database management systems (DBMS)
+1 MySQL
+2 MariaDB
+3 Microsoft SQL Server
+4 Oracle DBMS
+5 PostgreSQL
+6 MongoDB
+7 Redis
+8 IBM DB2
+9 Elasticsearch
+10 SQLite
+
+
+# References
+wikipedia : https://en.wikipedia.org/wiki/SQL
+oracle : https://docs.oracle.com/cd/B25329_01/doc/appdev.102/b25108/xedev_sqlplus.htm#CJAGHDHG
+aws : https://docs.aws.amazon.com/cli/latest/reference/rds-data/execute-sql.html
+azure : https://docs.microsoft.com/en-us/sql/tools/sqlcmd-utility?view=sql-server-ver16
+ibm : https://www.ibm.com/docs/en/db2oc?topic=reference-statements
+DBMS : https://www.stackscale.com/blog/popular-database-management-systems/
+
+
+
