@@ -1594,8 +1594,37 @@ Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
 - Update 
 - Delete 
 
+## SQL Commands "groupe" classes?
 
-SELECT Statement
+### DATA DEFINITION LANGUAGE (DDL)
+=> Defining Database Objects : CREATE, ALTER, DROP, RENAME
+
+### DATA MANIPULATION LANGUAGE(DML)
+=> Updating database content : INSERT, UPDATE, DELETE
+=> Database searches : SELECT
+
+### DATA CONTROL LANGUAGE(DCL) 
+=> Assurance of data integrity and security : GRANT, REVOKE, COMMIT, ROLLBACK...
+
+
+# SELECT Statement (query)
+- See/Retrive row from a table
+- select statement : query
+- result from the query : Result set/table
+- cmd : 
+=> select* from <tablename>
+
+- retrieve subset or specific column
+=> SELECT <column 1>, <column 2> from <tablename> 
+
+## Restricting the result Set : WHERE Clause 
+- Restricts the result set
+- Always requires a Predicate : 
+	=> Evaluate to: True, False or unknown
+	=> Used in the search condition of the Where clause
+Ex: select <table_id> , title from <tablename>
+	WHERE <table_id>='COLOMN_LABLE'
+
 SELECT statement examples
 Hands-on Lab: Simple SELECT Statements
 Ungraded External Tool
