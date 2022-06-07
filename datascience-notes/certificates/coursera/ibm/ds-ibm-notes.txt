@@ -1600,7 +1600,7 @@ Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
 => Defining Database Objects : CREATE, ALTER, DROP, RENAME
 
 ### DATA MANIPULATION LANGUAGE(DML)
-=> Updating database content : INSERT, UPDATE, DELETE
+=> Updating database content(read and modify data) : INSERT, UPDATE, DELETE
 => Database searches : SELECT
 
 ### DATA CONTROL LANGUAGE(DCL) 
