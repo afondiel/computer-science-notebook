@@ -1688,7 +1688,80 @@ Practice Quiz
 Graded Quiz: Basic SQL
 Quiz•3 questions
 
-///W2///
+///W2 : Introduction to Relational Databases and Tables///
+
+# Relational Database Concepts
+- Most used data model
+- Allows for data independence (logical data, physical data physical storage)
+- Data is stored in a tables
+- Entity Relationship Diagram (ERD) :
+=> Entity : table (object) 
+=> Relationship : dependencies
+
+## Entity Relationship Model (ERM) :
+- collections of entities
+- tool to design relation databases : data type, dependencies... 
+- Entity : person, noun, place ...
+=> attributes : charateristics of the entity or data elements
+
+## Mapping Entity Diagrams to Tables
+- Table : combination of rows and columns
+- Entities => tables
+- attributes get translated into columns
+ => some data values to each of columns the completes the table form
+
+## Primary Keys and Foreign Keys
+Primary Keys : unique/id 
+Foreign Keys : to create a link w/ others tables/entities
+
+
+# How to create a Database instance on Cloud
+# Obtain an IBM Cloud Feature Code
+# Ungraded External Tool
+# Hands-on Lab: Create Db2 service instance and Get started with the Db2 console
+# 
+# Types of SQL statements (DDL vs. DML)
+
+# Video•. Duration: 2 minutes2 min
+# CREATE TABLE Statement
+# 
+# Video•. Duration: 4 minutes4 min
+# ALTER, DROP, and Truncate tables
+# 
+# Video•. Duration: 4 minutes4 min
+# Examples to CREATE and DROP tables
+# 
+# Hands-on Lab: CREATE, ALTER, TRUNCATE, DROP
+# 
+# (Optional) Hands-on Lab : CREATE, ALTER, TRUNCATE, DROP
+# 
+# Ungraded External Tool•. Duration: 1 hour1h
+# Hands-on Lab: Create and Load Tables using SQL Scripts
+# 
+# (Optional) Hands-on Lab: Create and Load Tables using SQL Scripts
+# 
+# Ungraded External Tool•. Duration: 1 hour1h
+# Summary & Highlights
+# 
+# Reading•. Duration: 5 minutes5 min
+# Practice Quiz
+# 
+# Practice Quiz•5 questions
+# Graded Quiz: Relational DB Concepts and Tables
+# 
+# Due, Jun 13, 8:59 AM CEST
+# Quiz•3 questions
+# •Grade: --
+# 
+# 
+# 
+# 
+
+
+
+
+
+
 ///W3///
 ////W1///
 ///W2///
