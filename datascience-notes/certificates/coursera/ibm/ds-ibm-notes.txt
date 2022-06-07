@@ -1653,7 +1653,10 @@ Ungraded External Tool : ok
 		VALUES([Value], ...)
 		...
 		([Value], ...) => Multiple rows
-
+--
+	INSERT INTO table_name (column1, column2, ... )
+	VALUES (value1, value2, ... );
+--
 
 # UPDATE and DELETE Statements (DML)
 - UPDATE : update a row value
@@ -1662,9 +1665,20 @@ Ungraded External Tool : ok
 		SET([Value], ...)
 		<WHERE [Condition]>
 
+--
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+--
+
 - DELETE :  remove a row value 
 	=> DELETE FROM [tablename]
 		<WHERE [Condition]>
+
+--
+DELETE FROM table_name
+WHERE condition;
+--
 
 Hands-on Lab: INSERT, UPDATE, and DELETE
 Ungraded External Tool
