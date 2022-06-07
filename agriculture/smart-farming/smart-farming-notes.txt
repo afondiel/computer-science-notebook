@@ -36,15 +36,15 @@ PREPARE > PLANT > GROW > HARVEST
 
 ### AgriTech
 
- - Management Information Systems:
+ - Management Information Systems
  - Precision Agriculture
  - Agricultural automation and robotics
  
-->Drones that plant rice seeds
-->Smart agriculture and the IoT: a ‘ball’ to keep grain fresh
-->The robot that looks after chickens
-->5G farming: helping salmon farmers to ‘see’ one million fish
-->Soil health in smart farming: machine learning gets its hands dirty
+-> Drones that plant rice seeds
+-> Smart agriculture and the IoT: a ‘ball’ to keep grain fresh
+-> The robot that looks after chickens
+-> 5G farming: helping salmon farmers to ‘see’ one million fish
+-> Soil health in smart farming: machine learning gets its hands dirty
 
 
 
@@ -59,5 +59,6 @@ https://www.thalesgroup.com/en/markets/digital-identity-and-security/iot/magazin
 https://easternpeak.com/blog/iot-in-agriculture-technology-use-cases-for-smart-farming-and-challenges-to-consider/
 - Elsevier : smart-agricultural-technology : https://www.journals.elsevier.com/smart-agricultural-technology
 - https://interestingengineering.com/9-robots-that-are-invading-the-agriculture-industry
+FARMWAVE : https://www.cadre-ai.com/agriculture
 
 
