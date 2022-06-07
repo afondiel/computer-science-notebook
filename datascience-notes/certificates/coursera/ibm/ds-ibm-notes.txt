@@ -1594,19 +1594,6 @@ Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
 - Update 
 - Delete 
 
-## SQL Commands "groupe" classes?
-
-### DATA DEFINITION LANGUAGE (DDL)
-=> Defining Database Objects : CREATE, ALTER, DROP, RENAME
-
-### DATA MANIPULATION LANGUAGE(DML)
-=> Updating database content(read and modify data) : INSERT, UPDATE, DELETE
-=> Database searches : SELECT
-
-### DATA CONTROL LANGUAGE(DCL) 
-=> Assurance of data integrity and security : GRANT, REVOKE, COMMIT, ROLLBACK...
-
-
 # SELECT Statement (query)
 - See/Retrive row from a table
 - select statement : query
@@ -1711,55 +1698,120 @@ Quiz•3 questions
  => some data values to each of columns the completes the table form
 
 ## Primary Keys and Foreign Keys
-Primary Keys : unique/id 
+Primary Keys : unique/id value to prevent duplication of data
 Foreign Keys : to create a link w/ others tables/entities
 
 
 # How to create a Database instance on Cloud
-# Obtain an IBM Cloud Feature Code
-# Ungraded External Tool
-# Hands-on Lab: Create Db2 service instance and Get started with the Db2 console
-# 
-# Types of SQL statements (DDL vs. DML)
+- Cloud databases : database server build / accessed throught a CLoud platform
+- ease of use and acess
+=> API
+=> Web Interface  
+=> Cloud ou Remote Applications
+- Scalability & Economics
+=> Expand/Shrink Storage & Compute resources
+=> Pay per use
 
-# Video•. Duration: 2 minutes2 min
+- Disaster Recovery
+=> Cloud Backups
+
+## Cloud databases
+- IBM Bd2
+- Databases for PostgresSQL
+- Oracle Database CLoud Service
+- MS Azure SQL Database
+- Amazon Relational Database Services (RDS)
+
+Available as : 
+=> VMs or Managed Service
+=> Single or Mini-tenant
+
+## Database service instances
+-  DBaaS provides users access to Database resources in cloud w/out setting up and installing sw
+- Database service instance holds data in data objects/tables
+- use web interface & API => to get the data once data is loaded
+
+(user API/web interface) ===(query)===> (CLoud DB)
+				||	<====== Resultset=====||
+
+## IBM Db2 database on cloud
+- On ibm cloud catalog => Db2 services
+
+# Ungraded External Tool : Obtain an IBM Cloud Feature Code
+# Hands-on Lab: Create Db2 service instance and Get started with the Db2 console
+
+# Types of SQL statements (DDL vs. DML)
+## SQL Commands "groupe" classes?
+
+### DATA DEFINITION LANGUAGE (DDL)
+=> Defining Database Objects(define, change, drop data) : CREATE, ALTER, DROP(delete tables), RENAME, TRUNCATE(donot delete the table)
+
+### DATA MANIPULATION LANGUAGE(DML) => CRUD operations
+=> Updating database content(read and modify data) : INSERT, UPDATE, DELETE
+=> Database searches : SELECT
+
+### DATA CONTROL LANGUAGE(DCL) 
+=> Assurance of data integrity and security : GRANT, REVOKE, COMMIT, ROLLBACK...
+ 
+
 # CREATE TABLE Statement
-# 
-# Video•. Duration: 4 minutes4 min
+DDL statement for creating entities(tables) in a relation db
+- Syntax : 
+
+CREATE TABLE table_name
+(
+	column_name_1 datatype optional_parameters,
+	column_name_2 datatype ,
+	...
+	column_name_n datatype ,
+);
+
+where : optional_parameters => constraints : Primary key, Foreign key ..
+
 # ALTER, DROP, and Truncate tables
-# 
-# Video•. Duration: 4 minutes4 min
+
+-- ALTER : 
+=> add or remove columns
+=> modify the datatype of the column
+=> add or remove a Keys
+=> add or remove a constraints 
+
+- Syntax :
+=> add a column
+ALTER TABLE <table_name>
+	ADD COLUMN <column_name_1> datatype 
+	...
+	ADD COLUMN <column_name_n> datatype
+
+=> modify a type
+ALTER TABLE <table_name>
+	ALTER COLUMN <column_name_1> set DATA TYPE 
+<new_datatype>
+
+=> delete a column
+ALTER TABLE table_name
+	DROP COLUMN telephone_number;
+
+=> delete a table
+ALTER TABLE table_name; 
+
+=> delete the row values of table without deleting the table 'object'
+TRUNCATE TABLE table_name
+	IMMEDIATE;
+
 # Examples to CREATE and DROP tables
-# 
 # Hands-on Lab: CREATE, ALTER, TRUNCATE, DROP
-# 
 # (Optional) Hands-on Lab : CREATE, ALTER, TRUNCATE, DROP
-# 
 # Ungraded External Tool•. Duration: 1 hour1h
 # Hands-on Lab: Create and Load Tables using SQL Scripts
-# 
 # (Optional) Hands-on Lab: Create and Load Tables using SQL Scripts
-# 
 # Ungraded External Tool•. Duration: 1 hour1h
 # Summary & Highlights
-# 
-# Reading•. Duration: 5 minutes5 min
 # Practice Quiz
-# 
 # Practice Quiz•5 questions
 # Graded Quiz: Relational DB Concepts and Tables
-# 
-# Due, Jun 13, 8:59 AM CEST
-# Quiz•3 questions
-# •Grade: --
-# 
-# 
-# 
-# 
-
-
-
-
+# # Quiz•3 questions
+# •Grade: --> All good
 
 
 ///W3///
