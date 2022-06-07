@@ -1641,9 +1641,31 @@ statement(query)  : select DISTINCT columnname from tablename
 statement (query) : select * from tablename LIMIT 10 => like head function in pandas
 
 Hands-on Lab: COUNT, DISTINCT, LIMIT
-Ungraded External Tool
-INSERT Statement
-UPDATE and DELETE Statements
+Ungraded External Tool : ok
+
+
+# INSERT Statement (DML)
+- Create the table (CREATE TABLE Statement)
+- Populate table w/ data
+	=> add new rows to a table (INSERT Statement)
+	=> INSERT INTO [tablename]
+		<([ColumnName], ...)>
+		VALUES([Value], ...)
+		...
+		([Value], ...) => Multiple rows
+
+
+# UPDATE and DELETE Statements (DML)
+- UPDATE : update a row value
+	=> UPDATE [tablename]
+		SET[[ColumnName]=[Value]]
+		SET([Value], ...)
+		<WHERE [Condition]>
+
+- DELETE :  remove a row value 
+	=> DELETE FROM [tablename]
+		<WHERE [Condition]>
+
 Hands-on Lab: INSERT, UPDATE, and DELETE
 Ungraded External Tool
 
