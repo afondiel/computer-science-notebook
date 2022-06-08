@@ -1813,8 +1813,71 @@ TRUNCATE TABLE table_name
 # # Quiz•3 questions
 # •Grade: --> All good
 
+///W3 : Refining your Results///
 
-///W3///
+# Using String Patterns and Ranges
+- Syntax :
+SELECT <COLUMN> from TABLE_NAME
+WHERE <columnname> LIKE <string pattern>  
+
+<string pattern>   : %(wild card charater) => use before/after the missing letter
+between ... and : intervals/range of numbers
+in ('values1', 'values2') : where valuesx => are columns
+
+# Sorting Result Sets
+## ORDER BY clause(column) => sort value in ascending order
+## ORDER BY clause(column) DESC => sort value in descending order
+## ORDER BY 2 => sort specific column
+
+# Grouping Result Sets
+- GROUP BY : 
+=> Syntax :
+		=> select country, count(country)
+			from table_name GROUP BY country
+		=> select country, count(country)
+			*as new_col_result_set* from table_name GROUP BY country
+
+
+- HAVING : 
+=> Syntax :
+		=> select country, count(country)
+			*as new_col_result_set* from table_name GROUP BY country
+				having count(country)>4
+
+
+# Hands-on Lab : String Patterns, Sorting & Grouping
+# (Optional) Hands-on Lab: String Patterns, Sorting and Grouping
+# Ungraded External Tool•. Duration: 1 hour1h
+# Summary & Highlights
+# Practice Quiz
+# Practice Quiz•5 questions
+# Graded Quiz: Refining Your Results => OKOK
+
+///w3: Functions, Multiple Tables, and Sub-queries///
+
+# Built-in Database Functions
+
+# Date and Time Built-in Functions
+# Hands-on Lab: Built-in functions
+# (Optional) Hands-on Lab: Built-in functions
+# Ungraded External Tool•. Duration: 1 hour1h
+# Sub-Queries and Nested Selects
+# Hands-on Lab: Sub-queries and Nested SELECTs 
+# (Optional) Hands-on Lab : Sub-queries and Nested SELECTS
+# Ungraded External Tool•. Duration: 1 hour1h
+# Working with Multiple Tables
+# Hands-on Lab: Working with Multiple Tables  
+# (Optional) Hands-on Lab: Working with Multiple Tables
+# Ungraded External Tool•. Duration: 1 hour1h
+# Summary & Highlights
+# Reading•. Duration: 5 minutes5 min
+# Practice Quiz
+# Practice Quiz•5 questions
+# Graded Quiz: Functions, Sub-Queries, Multiple Tables
+ 
+#########################################################################
+Course 7 : DATA ANALYSIS W/ PYTHON
+#########################################################################
 ////W1///
 ///W2///
 ///W3///
