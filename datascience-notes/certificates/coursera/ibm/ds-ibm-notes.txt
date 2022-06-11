@@ -1857,15 +1857,89 @@ in ('values1', 'values2') : where valuesx => are columns
 
 # Built-in Database Functions
 
+-  Most databases comme w/ built-in SQL functions
+- Build-in functions can be included as part of SQL statements
+- Database functions can significantly reduce the amount of data that needs to be retrieved
+- Can speed up data processing
+
+## Aggregate and Column Functions
+- INPUT : Collection of values(eg : entire column)
+- OUTPUT : Single value
+- Examples : SUM(), MIN(), MAX(), AVG(), etc 
+
+## SCALAR and STRING Functions
+- SCALAR :  ROUND(), 
+- STRING : LENGHT, UCASE, LCASE ...
+
 # Date and Time Built-in Functions
+- to extract day, month, year ...
+- DATE : YYYYMMDD
+- TIME : HHMMSS
+- TIMESTAMP (20 digits) : YYYYXXDDHHMMSSZZZZZZ
+	=> where Z ... : microseconds
+- Date / Time functions : 
+ 	=> YEAR(), MONTH(), DAY, DAYOFMONTH, DYOFWEEK, DAYOFYEAR, WEEK, HOUR, MINUTE, SECOND, ...
+
+=> Eg : Select DAY(RESCUEDATE) from PETRESCUE 
+		where ANIMAL='Cat'
+- Date and Time Arithmetic is also possible : CURENT_DATE, CURRENT_TIME
+=> Result : YMMDD
+
 # Hands-on Lab: Built-in functions
 # (Optional) Hands-on Lab: Built-in functions
 # Ungraded External Tool•. Duration: 1 hour1h
+
 # Sub-Queries and Nested Selects
+- Sub-Queries : A query inside another query
+- Form more powerful queries
+- eg : select COLUMN1 from TABLE
+		where COLUMN2 = (select MAX(COLUMN2) from TABLE)
+- 3 scenarios : 
+=> From the table
+=> From specific COLUMN (Column Expressions)
+=> From clause : Substitute TABLE name w/ a sub-query(Table Expressions)
+
+
 # Hands-on Lab: Sub-queries and Nested SELECTs 
 # (Optional) Hands-on Lab : Sub-queries and Nested SELECTS
 # Ungraded External Tool•. Duration: 1 hour1h
+
 # Working with Multiple Tables
+- Sub-queries
+- Implicit JOIN
+- JOIN Operators (INNER JOIN, OUTER JOIN, etc)
+	=> CROSS JOIN (also known as Cartesian Join)
+	-- syntax : 
+	SELECT column_name(s)
+	FROM table1, table2;
+
+	=> INNER JOIN
+	-- syntax : 
+	SELECT column_name(s)
+	FROM table1, table2
+	WHERE table1.column_name = table2.column_name;
+
+
+## Sub-queries SYNTAX :  
+SELECT * FROM EMPLOYEES
+WHERE DEP_ID IN
+(SELECT DEPT_ID_DEP FROM DEPARTMENTS);
+		WHERE LOC_ID = 'L0002' --> SPECIFIC Value
+
+## Implicit JOIN SYNTAX : 
+-- SELECT * FROM EMPLOYEES, DEPARTMENTS; 
+=> The result is a full join(or Cartesian join):
+	=> Every row in the first table is joined with every row in the 2 one.
+
+=> operations  : retrieving elements/records which matches from 2 tables
+-- SELECT * FROM EMPLOYEES, DEPARTMENTS
+--		WHERE EMPLOYEES.DEP_ID  = DEPARTMENTS.DEPT_ID_DEP
+
+=> Using Aliases : 
+-- SELECT * FROM EMPLOYEES E, DEPARTMENTS D 
+-- 		WHERE E.DEP_ID = D.DEPT_ID_DEP; 
+
+
 # Hands-on Lab: Working with Multiple Tables  
 # (Optional) Hands-on Lab: Working with Multiple Tables
 # Ungraded External Tool•. Duration: 1 hour1h
@@ -1873,7 +1947,7 @@ in ('values1', 'values2') : where valuesx => are columns
 # Reading•. Duration: 5 minutes5 min
 # Practice Quiz
 # Practice Quiz•5 questions
-# Graded Quiz: Functions, Sub-Queries, Multiple Tables
+# Graded Quiz: Functions, Sub-Queries, Multiple Tables : OK
  
 #########################################################################
 Course 7 : DATA ANALYSIS W/ PYTHON
