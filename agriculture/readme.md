@@ -42,3 +42,6 @@ https://www.appharvest.com/eat/
 https://www.appharvest.com/
 https://www.beyondmeat.com/fr-FR/
 https://www.novozymes.com/en
+
+- Data Science for Food and Agricultural Systems (DSFAS)
+https://www.nifa.usda.gov/grants/programs/data-science-food-agricultural-systems-dsfas
