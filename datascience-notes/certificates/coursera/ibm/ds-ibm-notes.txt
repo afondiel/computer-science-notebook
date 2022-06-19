@@ -2008,11 +2008,11 @@ Cursors methods
 - keep the program current position 
 
 ## Writing code using DB-API
-- import the dbmodule import connect 
-- create connection object
-- create a cursor object
-- run queries
-- free resources (Cursor.close, connection.close)
+1. import the dbmodule import connect 
+2. create connection object
+3. create a cursor object
+4. run queries
+5. free resources (Cursor.close, connection.close)
 
 # Connecting to a database using ibm_db API
 - provides a variety of useful Python functions for acessing and manipulating data an IBM data server Database 
@@ -2021,27 +2021,82 @@ Cursors methods
 # Lab: Create Database Credentials
 
 # Hands-on Lab: Connecting to a database instance
-# Ungraded External Tool•. Duration: 20 minutes20 min
+# Ungraded External Tool => OK
+
 # Creating tables, loading data and querying data
+## Creating tables
+- using the python db api 
+- ibm_db.exec_immediate(conn_obj, "sql_queries") =>
+## Insert data into the table
+- ibm_db.exec_immediate(conn_obj, "sql_queries") =>
+## Querying data
+- ibm_db.fetching(stmt)
+- Using pandas
+	=> read_sql("sql_queries", conn_obj )
+
 # Hands-on Lab: Creating tables, inserting and querying Data
 # Ungraded External Tool•. Duration: 30 minutes30 min
 # (Optional) Hands-on Lab: Creating tables, inserting and querying Data
-# Ungraded External Tool•. Duration: 1 hour1h
+# Ungraded External Tool
+
 # Introducing SQL Magic
+
 # Hands-on Tutorial: Accessing Databases with SQL magic
 # Ungraded External Tool•. Duration: 20 minutes20 min
 # (Optional) Hands-on Tutorial: Accessing Databases with SQL magic
-# Ungraded External Tool•. Duration: 1 hour1h
+# Ungraded External Tool
+
 # Analyzing data with Python
+
 # Hands-on Lab: Analyzing a real World Data Set
 # Ungraded External Tool•. Duration: 45 minutes45 min
 # (Optional) Hands-on Lab: Analyzing a real World Data Set
-# Ungraded External Tool•. Duration: 1 hour1h
+# Ungraded External Tool
+
 # Summary & Highlights
-# Reading•. Duration: 5 minutes5 min
 # Practice Quiz
 # Practice Quiz•5 questions
 # Graded Quiz: Database access from Python
+
+///W5: Assignment Preparation: Working with real-world data sets and built-in SQL functions///
+
+# Working with Real World Datasets
+- Working with CSV files (.CSV : COMMA SEPARATED VALUES)
+- the first corresponds of the name of columns  
+- Data is non-sensitive (low != upper case) => SOLUTION "Id" == ID
+- Spaces => Under_cores
+- \ backslash are great to scape characters and go to the next line in case of long queries
+
+# Getting Table and Column Details
+- Getting the List of tables in the database 
+=> DB2 : SYSCAT.TABLES
+=> SQL Server : INFORMATION_SCHEMA.TABLES
+=> Oracle : ALL_TABLES or USER_TABLES
+
+- syntax : 
+ SELECT * FROM SYSCAT.TABLES 
+ or
+ SELECT TABSCHEMA, TABNAME, CREATE_TIME
+	FROM SYSCAT.TABLES
+	WHERE TABSCHEMA = 'DB2_USERNAME'
+
+## Getting a list of columns in the database
+SELECT * FROM SYSCAT.COLUMNS
+	WHERE TABNAME = 'TABLE_NAME'
+
+or 
+SELECT DISTINCT(NAME), COLTYPE, LENGHT
+	FROM SYSIBM.SYSCOLUMNS
+	WHERE TBNAME = 'TABLE_NAME'
+
+# LOADing Data => OK
+
+
+/////////////////////////////////////////////
+/// W5 : Accessing Databases using Python ///
+/////////////////////////////////////////////
+Assignment => OK
+
 
 #########################################################################
 Course 7 : DATA ANALYSIS W/ PYTHON
