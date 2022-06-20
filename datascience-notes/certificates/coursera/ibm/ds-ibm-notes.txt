@@ -2114,8 +2114,32 @@ As a next step, you can explore other courses in these programs, starting with:
 #########################################################################
 Course 7 : DATA ANALYSIS W/ PYTHON
 #########################################################################
-///W1///
-///W2///
+////W1 : Importing Databases ///
+
+# The Problem
+## Why Data Analysis ? 
+- Data is eveywhere
+- Data analysis/data science help us answer questions from data
+- Dataa analysis plays an important role in : 
+	=> Discovering useful information
+	=> Answering questions
+	=> Predicting future or the unknown
+
+## Define a Data Analysis problem ? 
+- Problem : Estimate used car prices
+	=> Is there data on the prices of other cars their characteristics ? 
+	=> What features of cars affect their prices ? 
+		-> Color? Brand ? Horsepower ? Something else ?
+	=> Asking the right questions in terms of data 
+
+# Understanding the Data
+# Python Packages for Data Science
+# Importing and Exporting Data in Python
+# Getting Started Analyzing Data in Python
+# Accessing Databases with Python
+
+# Lab 
+# Graded Quiz///W2///
 ///W3///
 #########################################################################
 Course 8 : DATA VISUALIZATION W/ PYTHON 
