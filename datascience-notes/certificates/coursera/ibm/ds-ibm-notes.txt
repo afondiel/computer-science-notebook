@@ -2091,17 +2091,46 @@ SELECT DISTINCT(NAME), COLTYPE, LENGHT
 
 # LOADing Data => OK
 
-
 /////////////////////////////////////////////
 /// W5 : Accessing Databases using Python ///
 /////////////////////////////////////////////
 Assignment => OK
+# Course Wrapup 
+
+This course is part of:
+-IBM Data Analyst Professional Certificate
+-Applied Data Science Specialization
+-IBM Data Science Professional Certificate
+-IBM Data Engineering Foundations Specialization
+-IBM Data Engineering Professional Certificate
+ (Coming in the Future)
+
+As a next step, you can explore other courses in these programs, starting with: 
+-Data Engineering and Data Analytics tracks: Data Analysis with Python
+-Data Engineering track: NoSQL Fundamentals (Coming soon...)
+
+/////////////////////////////////////////////
+/// W6 : Advanced SQL For DataScience Engineer///
+/////////////////////////////////////////////
+
+/// Views, stored procedures and transactions ///
+# Views
+# Stored Procedures
+# ACID Transactions
+
+/// Joins statements ///
+# Join Overview
+# Inner Join
+# Outer Joins
+
+///Lab///
+///Quiz///
 
 
 #########################################################################
 Course 7 : DATA ANALYSIS W/ PYTHON
 #########################################################################
-////W1///
+///W1///
 ///W2///
 ///W3///
 #########################################################################
