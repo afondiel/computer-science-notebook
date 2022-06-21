@@ -2133,14 +2133,73 @@ Course 7 : DATA ANALYSIS W/ PYTHON
 	=> Asking the right questions in terms of data 
 
 # Understanding the Data
+- source data (1985) : 
+	=> dataset automobile : 'https://archive.ics.uci.edu/ml/machine-learning-databases/autos'
+- data available is row data/no proper/ untructure data 
+	=> Need to be clean and prepare ( Header, delete empty data ...)
+	=> The description the data : data attributes (names, range ... of each column)
+
+- input attributes (x : independent var) => features ... / Predictors
+- output attribute (y : dependent var) => Target/label/ value to be predicted
+
 # Python Packages for Data Science
+
+## Group I : Scientif Computing Libraries 
+- Pandas : Data structures & tools
+- NumPy : Array & Matrices
+- SciPy : integrals, solving differential eq, optimization
+
+## Group II : Visualization Lib
+- Matplotlib : plots & graphs, most popular
+- seaborn  : plots (heat maps, time series, violin plots ..) 
+
+## Group III : Algorithms Lib
+- Scikit-learn : Machine Learning  : regression, classification ...)
+- Statsmodels : Explore data, estimate statistical models, and perform statistical tests...) 
+
 # Importing and Exporting Data in Python
+- process of loading and reading data into Python from various resources 
+- Two main propreties : 
+	=> Format : .cvs, .json, .xlsx, .hdf ... 
+	=> File Path of dataset  : 
+		=>computer (/Desktop/ maydat.csv)
+		=>internet : https://archive.ics.uci.edu/ml/machine-learning-databases/autos'
+- getting Data : using 'pandas' lib  
+- printing data to make sure everything ok  : df.head(n), df.tail(n) => n : nb of rows
+	=> replace a default row : df.column = ['a', 'b' ....]
+
+
+- exporting different data format in python w/ pandas 
+=> read : pd.read_formatdata() 
+=> save : df.to_formatdata()
+where => formatdata: csv, json, excel ...
+
 # Getting Started Analyzing Data in Python
+- Understand the data before you begin any analysis
+	=> Things to check : Data types, Data distribution
+	=> Locate potential issues w/ the data
+- df.dtypes : to check if data type make are coherent
+- df.describe()/describe(include ="all") : statistical summary/distribution 
+- df.info() : shows the botton 23 rows and top 23 rows
+
+
 # Accessing Databases with Python
+- see sql database course => course 6
 
 # Lab 
-# Graded Quiz///W2///
+# Graded Quiz
+
+# sum-up 
+
+Define the Business Problem: Look at the data and make some high-level decision on what kind of analysis should be done
+Import and Export Data in Python: How to import data from multiple data sources using the Pandas library and how to export files into different formats.
+Analyze Data in Python: How to do some introductory analysis in Python using functions like dataframe.head() to view the first few lines of the dataset, dataframe.info() to view the column names and data types.
+
+///W2///
 ///W3///
+///W4///
+///W5///
+///W6///
 #########################################################################
 Course 8 : DATA VISUALIZATION W/ PYTHON 
 #########################################################################
