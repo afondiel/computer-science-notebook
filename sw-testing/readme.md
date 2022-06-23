@@ -4,3 +4,4 @@
 
 
 
+#### Credit => [Bug Thiking]](https://bugthinking.com/best-organizational-best-practices-software-testing/)
