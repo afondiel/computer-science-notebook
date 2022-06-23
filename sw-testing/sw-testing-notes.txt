@@ -1,7 +1,5 @@
 =========== sw testing notes =========
 
-src :https://bugthinking.com/best-organizational-best-practices-software-testing/
-
 Activity performed to identify errors so that errors can 
 be removed to obtain a product with greater quality. 
 
