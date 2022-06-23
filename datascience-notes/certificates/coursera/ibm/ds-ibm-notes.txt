@@ -2182,11 +2182,12 @@ where => formatdata: csv, json, excel ...
 - df.describe()/describe(include ="all") : statistical summary/distribution 
 - df.info() : shows the botton 23 rows and top 23 rows
 
-
 # Accessing Databases with Python
 - see sql database course => course 6
 
 # Lab 
+- dataset : https://archive.ics.uci.edu/ml/datasets/Automobile?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDA0101ENSkillsNetwork20235326-2021-01-01
+
 # Graded Quiz
 
 # sum-up 
@@ -2195,7 +2196,65 @@ Define the Business Problem: Look at the data and make some high-level decision 
 Import and Export Data in Python: How to import data from multiple data sources using the Pandas library and how to export files into different formats.
 Analyze Data in Python: How to do some introductory analysis in Python using functions like dataframe.head() to view the first few lines of the dataset, dataframe.info() to view the column names and data types.
 
-///W2///
+///W2 : Data Wrangling/Munging ///
+
+# Pre-processing Data in Python (Data Cleaning/ Data wrangling)
+- Process of converting/mapping data from the initial "raw" form into another format
+	=>preparing the data for data analysis 
+- Operation are done along the columns of the DataFrame.
+- Each column is a Pandas series 
+	=> addiction of 1 for each row of the col a  : df['a'] = df ['a'] + 1  
+
+# Dealing with Missing Values in Python
+- occurs when no data value is tored for a variable (feture) in an observation
+- Missing values can be : 0, ?, N/A, empty/blank cell ...
+## Dealing w/ missing data ?
+- Check w/ the data collection source
+- Drop the missing values
+	=> drop the variable
+	=> drop the data Entry 
+- Replace the missing values
+	=> replace it with an average (of similar datapoints) => to avoid waste
+	=> replace it by the frequency (data that appears more often) 
+	=> replace it based on other functions 
+- Leave it as missing data 
+
+## Drop missing values 
+- df.dropna() => df.drona(subset=["price"], axis=0, inplace=True) : inplace to be taken immediatly
+- df.replace(df['a'], missing values, new)
+- high quality data or source 
+- ## Replace data with mean (for numerical values)
+/*mean = sum(df['a'])/nb of values)
+mean = df.replace(df['a'], np.nan, mean)*/
+
+# Data Formatting in Python
+- data are collected from different places and stored in different formats
+- bringing data into common stardand of expression allows users to make meaning comparisoon 
+- abreviation, synonyms, local words, data types => convert to a classical and understandble format. 
+- clean data for strong model 
+- check data type if not ok => convert to the wanted format
+
+# Data Normalization in Python
+## Methods : 
+- Simple Feature scaling : Xnew = Xold/Xmax => range[0:1]
+- Min-Max : Xnew = Xold = (Xold - Xmin)/(Xmax - Xmin)) => range[0:1]
+- Z-score : Xnew = (Xold - µ ) / sigma => range[0:0]
+
+# Binning in Python
+- Grouping of values into "bins"
+- Converts numeric into categorical variables
+- group a set of numerical values into a set of bins$
+
+# Turning categorical variables into quantitative variables in Python
+- using dummies methods
+
+# Data Wrangling
+- Data wrangling is the process of converting data from the initial 
+format to a format that may be better for analysis.
+
+# Lab 
+# Quiz
+
 ///W3///
 ///W4///
 ///W5///
