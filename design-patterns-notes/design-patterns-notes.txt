@@ -3,12 +3,11 @@
 
 ### Fundamentals OOP ####
 
-1/ Encapsulation
-2/ Message
-Messaging passing execution time)
-3/ Polymorphism
-4/ Inheritance
-5/ Abstraction ? 
+1/ Encapsulation : data + procedures/functions
+2/ Message : different from static binding (where is the compiler responsible for compilation + final link), in message passing the objects are responsible for executing the code themselves (internally) : methods and attributes (dynamic binding) in (execution time)
+3/ Polymorphism : a caller(method/function/calls w/ the same) can create/replace any object in different way
+4/ Inheritance : create an object from an existing one (parent) with the same propreties (attributs and methods)
+5/ Abstraction : concept of hiding the internal implementation details and only focus on inputs and outputs (ex: a coffee machine ..)
 
 # Reference & Classes
 
@@ -18,7 +17,7 @@ Attribute w/ a reference (memory adress) : a name, reference, object
 -> Class : 
 - Var + methods for future instance
 - type a variable or a return type
-- mould type ?   : A factory
+- mold type ?   : A factory
 
 * Interface : 
 Abstract type (abstract class) w/ methodes signatures (prototypes)
