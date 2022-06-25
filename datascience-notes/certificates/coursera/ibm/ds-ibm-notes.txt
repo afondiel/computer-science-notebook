@@ -1190,7 +1190,7 @@ Module 3: From Deployment to Feedback
 5/ Is the data that you collected representative and work with the data ?
 6/ what additional work is required to manipulate and work with the data ?
 ## Deriving the answer : 
-7/ In what way can the data be vizaulized to get to the answer that is required ?
+7/ In what way can the data be visualized to get to the answer that is required ?
 8/ Does the model used really answer the initial question or does it need to be adjusted
 9/ Can you put the model into practive ?
 10/ Can you get constructive feedback into answering the question ? 
@@ -2224,7 +2224,7 @@ Analyze Data in Python: How to do some introductory analysis in Python using fun
 - df.replace(df['a'], missing values, new)
 - high quality data or source 
 - ## Replace data with mean (for numerical values)
-/*mean = sum(df['a'])/nb of values)
+/*mean = df['a'].mean()
 mean = df.replace(df['a'], np.nan, mean)*/
 
 # Data Formatting in Python
@@ -2235,6 +2235,10 @@ mean = df.replace(df['a'], np.nan, mean)*/
 - check data type if not ok => convert to the wanted format
 
 # Data Normalization in Python
+- Uniforms the features value with different ranges
+- to make easier comparison btw two or more values
+- correlation ? 
+- similar intrisec influence on analytic model  
 ## Methods : 
 - Simple Feature scaling : Xnew = Xold/Xmax => range[0:1]
 - Min-Max : Xnew = Xold = (Xold - Xmin)/(Xmax - Xmin)) => range[0:1]
@@ -2243,7 +2247,8 @@ mean = df.replace(df['a'], np.nan, mean)*/
 # Binning in Python
 - Grouping of values into "bins"
 - Converts numeric into categorical variables
-- group a set of numerical values into a set of bins$
+- group a set of numerical values into a set of bins =>[low, medium, high]
+- value great categorization 
 
 # Turning categorical variables into quantitative variables in Python
 - using dummies methods
@@ -2255,25 +2260,136 @@ format to a format that may be better for analysis.
 # Lab 
 # Quiz
 
-///W3///
-///W4///
+/////////////////////////////////////////////
+/// W3 : Exploratory Data Analysis (EDA) ///
+////////////////////////////////////////////
+
+# Exploratory Data Analysis
+- Preliminary step in data analysis to
+	=> Summarize main characteristics of the data
+	=> Gain better understand of the dataset
+	=> Uncover relationships between variables
+	=> Extract import variables
+
+Question : 
+	What are the characteristics which have the most impact on the car?  
+
+# Descriptive Statistics (course 3)
+- Describe basic features of data 
+- Giving short summaries about the sample and measures of the data 
+- Help to describe basic features of a dataset and obtain a short summary about the sample and measures of the data 
+
+## Descriptive statistics functions :
+- pandas df.describe() : Summarize statistics
+- pandas Value_Counts() : Summarize the categorical data
+- seaborn sns.boxplots() : visualize numeric data (various distributions)
+	=> Upper Extreme 
+	=> Upper Quartile
+	=> Median
+	=> Lower Quartille
+	=> Whisker
+	=> Lower Extreme
+- scatter plot() : to visualize continue data (bunches of points) 
+	=> Each observation represent as a point
+	=> Scatter plot show the relationship between two variables
+	1. Predictor/independent variables on x-axis
+	2. Target/dependent variables on y-axis
+
+# GroupBy in Python
+- Relationship btw two or more variables (df['a'], df['b'] ...) 
+- Can be applied on categorical variables 
+- Group data into Categories
+- Single or multiple variables 
+## pandas Pivot() => One variable displayed along the columns and the other variable displayed along the rows 
+## Heatmap  : Plot target variable over multiple variables
+
+# Correlation
+- Measures to what extent different variables are interdependent
+ex : Smoking => Lung Cancer 
+ex : Rain => Umbrella
+- Correlation doesn't imply causation 
+types of correlation : 
+	=> positive correlation
+	=> negative correlation 
+	=> weak correlation
+
+# Correlation - Statistics
+## Pearson Correlation : 
+- Measure the strenght of the correlation between two features
+	=> Correlation coefficient
+	=> P-value
+
+- Correlation coefficient
+	=> close to +1: Large Positive relationship 
+	=> close to -1: Large Negative relationship 
+	=> close to 0: No relationship 
+- P-value 
+	=> P-value < 0.001 : Strong certainty in the result
+	=> P-value < 0.05 : Moderate certainty in the result
+	=> P-value < 0.1 : Weak certainty in the result 
+	=> P-value > 0.1 : No certainty in the result
+
+- Strong Correlation : 
+	=> Correlation coefficient close to 1 or -1
+	=> P value less than 0.001 
+
+# Association between two categorical variables: Chi-Square
+
+## Categorical variables 
+- We use Chi-square Test for Association (denoted as X^2)
+- The test is intended to test how likely it is that an observed distribution is due to chance
+## Chi-square Test for association 
+- The Chi-square tests a null hypothesis that the variables are independent
+- The Chi-square does not tell you the type relationship that exists btw both variables; but only that a relationship exists
+
+------------------------------
+|| X^2 = Sum (Oi - Ei)^2/Ei ||
+------------------------------
+ - O : observed values
+ - E : Expected values
+
+=>   Row total*Column total 
+	-----------------------
+		 Grand total 
+------------------------------------------------
+|| Defree of freedom = (row - 1)*(column - 1) ||
+------------------------------------------------
+
+# Summary  : 
+Describe Exploratory Data Analysis: By summarizing the main characteristics of the data and extracting valuable insights.
+Compute basic descriptive statistics: Calculate the mean, median, and mode using python and use it as a basis in understanding the distribution of the data.
+Create data groups: How and why you put continuous data in groups and how to visualize them.
+Define correlation as the linear association between two numerical variables: Use Pearson correlation as a measure of the correlation between two continuous variables
+Define the association between two categorical variables: Understand how to find the association of two variables using the Chi-square test for association and how to interpret them.
+
+# Lab
+# Grade
+# Reference : https://en.wikipedia.org/wiki/Exploratory_data_analysis
+
+///W4:///
 ///W5///
 ///W6///
+
 #########################################################################
 Course 8 : DATA VISUALIZATION W/ PYTHON 
 #########################################################################
-////W1///-
+
+///W1///
 ///W2///
 ///W3///
+
 #########################################################################
 Course 9 : MACHINE LEARNING W/ PYTHON
 #########################################################################
+
 ////W1///
 ///W2///
 ///W3///
+
 #########################################################################
 Course 10 : APPLIED DATA SCIENCE CAPSTONE
 #########################################################################
+
 ////W1///
 ///W2///
 ///W3///
