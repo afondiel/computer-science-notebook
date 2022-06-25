@@ -2318,7 +2318,7 @@ types of correlation :
 	=> Correlation coefficient
 	=> P-value
 
-- Correlation coefficient
+- Correlation coefficient (r)
 	=> close to +1: Large Positive relationship 
 	=> close to -1: Large Negative relationship 
 	=> close to 0: No relationship 
@@ -2329,10 +2329,10 @@ types of correlation :
 	=> P-value > 0.1 : No certainty in the result
 
 - Strong Correlation : 
-	=> Correlation coefficient close to 1 or -1
+	=> Correlation coefficient close to 1 or -1 (range [-1,1]
 	=> P value less than 0.001 
 
-# Association between two categorical variables: Chi-Square
+# Association between two categorical variables: Chi-Square(X^2)
 
 ## Categorical variables 
 - We use Chi-square Test for Association (denoted as X^2)
@@ -2344,15 +2344,20 @@ types of correlation :
 ------------------------------
 || X^2 = Sum (Oi - Ei)^2/Ei ||
 ------------------------------
- - O : observed values
- - E : Expected values
+ - Oi : observed values
+ - Ei : Expected values
 
-=>   Row total*Column total 
+=> To get expected values(From observed values/table) : 
+
+   Row total*Column total 
 	-----------------------
 		 Grand total 
+
 ------------------------------------------------
 || Defree of freedom = (row - 1)*(column - 1) ||
 ------------------------------------------------
+
+- deviation == difference (btw two values)
 
 # Summary  : 
 Describe Exploratory Data Analysis: By summarizing the main characteristics of the data and extracting valuable insights.
@@ -2363,7 +2368,9 @@ Define the association between two categorical variables: Understand how to find
 
 # Lab
 # Grade
-# Reference : https://en.wikipedia.org/wiki/Exploratory_data_analysis
+# Reference : 
+Exploratory data analysis : https://en.wikipedia.org/wiki/Exploratory_data_analysis
+pandas functions : https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm
 
 ///W4:///
 ///W5///
