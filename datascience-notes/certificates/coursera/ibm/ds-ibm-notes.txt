@@ -2236,8 +2236,7 @@ mean = df.replace(df['a'], np.nan, mean)*/
 
 # Data Normalization in Python
 - Uniforms the features value with different ranges
-- to make easier comparison btw two or more values
-- correlation ? 
+- to make easier comparison btw two or more values(correlation ?) 
 - similar intrisec influence on analytic model  
 ## Methods : 
 - Simple Feature scaling : Xnew = Xold/Xmax => range[0:1]
