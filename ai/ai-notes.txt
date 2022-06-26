@@ -33,6 +33,7 @@ https://en.wikipedia.org/wiki/Machine_learning
 https://en.wikipedia.org/wiki/Deep_learning
 
 Quantum computing : https://en.wikipedia.org/wiki/Quantum_computing
+Stochastic process : https://en.wikipedia.org/wiki/Stochastic_process
 
 Games : 
 https://en.wikipedia.org/wiki/Chess
