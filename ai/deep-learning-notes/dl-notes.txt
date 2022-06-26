@@ -1,0 +1,17 @@
+# Deep Learning Notes
+
+
+## Application
+
+## Tools / frameworks
+
+
+# References : 
+https://en.wikipedia.org/wiki/Deep_learning
+https://en.wikipedia.org/wiki/Supervised_learning
+https://en.wikipedia.org/wiki/Unsupervised_learning
+https://en.wikipedia.org/wiki/Reinforcement_learning
+
+https://en.wikipedia.org/wiki/Artificial_neural_network
+https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
+
