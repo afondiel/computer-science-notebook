@@ -2372,7 +2372,164 @@ Define the association between two categorical variables: Understand how to find
 Exploratory data analysis : https://en.wikipedia.org/wiki/Exploratory_data_analysis
 pandas functions : https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm
 
-///W4:///
+///W4: MODEL DEVELOPMENT///
+
+# Model Development
+- Simple and multiple Linear Regression 
+- Model Evaluation using Visualization
+- Polynomial Regression and Pipelines
+- R-squared and MSE for In-Sample Evaluation
+- Prediction and Decision Making 
+
+/!\ Question  : 
+ => How can you determine a fair value for a used car ?
+
+## Model Development 
+- A model can be thought of as a mathematical equation used to predict a value given one or more other values
+- Relation one or more independent variables(features) to dependent variables(target) 
+|features| => |Model| => |target|
+- Usually the more *relevant data* you have the more accurate your model is
+
+# Linear Regression and Multiple Linear Regression
+- Linear regression will refer to one independent variable to make a prediction
+- Multiple regression will refer to multiple independent variables to make a prediction 
+## Simple Linear Regression
+- The predictor(independent) variable: x 
+- The target (dependent) variable: y 
+---------------
+|y = bo + b1*x|
+---------------
+where => bo : the intercept 
+		 b1 : the slope 
+## Simple Linear Regression : Prediction 
+- Chose some "hypothetical" inputs value that best match w/ the regression line to fit the model
+## Simple Linear Regression : Fit 
+- training the model 
+- Predictor and target are storage in two Numpy Arrays X[predictors] = Y[Target]
+- Noise : random value added to the model to increase the accuracy 
+
+--------------- 	--------- 		--------
+|Input values | => |	Fit	 | => | Predict | (y^ = bo+b1*x) => estimated model
+---------------		----------		---------
+		||<============================||
+			Retrain the estimatedd values
+
+- To fit the model we use *scikit-learn* library 
+1. Import linear model
+2 Create Linear Regression Object Using the constructor
+=> We define the predictor variable (X = df[['highway-mpg']]) and target variable(Y=[['price']])
+=> Then : lm.fit(X, Y) also parameters bo, b1
+=> Predict  : lm.predict(X)
+
+SLR - Estimated Linear Model 
+=> bo, b1 ...
+
+## MLR - Estimated Linear Model 
+ ---------------------------------------
+|y = bo + b1*x1 + b2*x2 + b3*x3 + ...+ |
+----------------------------------------
+- Same step as the SLM !!!!
+
+# Model Evaluation using Visualization
+## Why use Regression plot ? 
+- The relationship btw 2 variables
+- the strength of the correlation
+- The direction of the relationship (positive or negative) 
+- Combination of : 
+	=> The scatterplot : where each point represebts a different Y	
+	=> The fitted linear regression line (y)
+
+- sns.Regplot() => to viz the regression
+## Residual plot 
+- Randomly spread out around x-axis which means the linear model is appropriate
+- Expected behaiviour : results have mean btw the same VARIANCE
+- no curvature (values changes w/ axis) => FOR LINEAR REGRESSION!!!!
+- sns.residplot() => to display plot
+
+- predicted values  are discret values => pandas converted into distribution (Gaussian)
+
+## Distrubution plots  : 
+- The fitted values that result from the model
+- The actual values 
+
+Predicted values shall be much closer to the TARGET VALUES!!!! 
+
+# Polynomial Regression and Pipelines
+- Used when linear model is not the best fit for our data 
+- A special case of the general linear regression model 
+- Useful for describing curvilinear relationships
+	=> Curvilineat relationships
+	=> By squaring or setting higher-order terms of the predictor variables
+- Quadratic - 2nd order
+------------------------------
+|Y^ = bo + b1*x1 + b2*(x1)^2 | (square model)
+------------------------------
+- Cubic - 3rd order
+-----------------------------------------
+|Y^ = bo + b1*x1 + b2*(x1)^2 + b3(x1)^3  | (Cubic model)
+-----------------------------------------
+- Higher order (when a good fit hasn't been achived by the lower order)
+------------------------------------------------
+|Y^ = bo + b1*x1 + b2*(x1)^2 + b3(x1)^3 +...+  | (Cubic model)
+-----------------------------------------------
+- The relationship btw the variables and parameters is always linear 
+- function to train the model  : np.polyfit(x, y, n) => n : order
+- for more complex polynom better user scikit-learn lib
+
+## pipelines
+
+- way to simply the code
+---------------- 	---------------------	  -------------------
+|Normalization | => |Polynomial transform| => |Linear Regression |
+----------------    ----------------------	  --------------------
+- pipeline lib => Create pipeline Object (pipe = Pipe())
+- Pipe.fit()
+- Pipe.predict()
+
+# Measures for In-Sample Evaluation
+- A way to numeriaclly determine how good the model fits on dataset 
+- Two import measures to determine the fit of the a model
+	=> Mean Square Error (MSE) 
+	=> R-squared (R^2)
+## Mean Square Error
+- difference(deviation) btw the actual value y and the predicted value Y^ squared
+- add every error(difference) and divide by the number of the samples
+- to define the function we can import it from  : sklearn.metrics lib (y, y^)
+
+## R-squared (R^2)
+- The coef of determination or R squared(R^2)
+- Is a measure to determine how close the data is to the fitted regression line
+- R^2 : the percentage of variation of the target variable (Y) taht is explained by the linear model 
+- Think about as comparing a regression model to a simple model i.e the mean pf the data points 
+- If the variable x is a good predictor our model should perform much better than the mean 
+-----------------------------------------------------------------
+| R^2 = (1 - MSE of regression line/MSE of the avg of the data ) |
+-----------------------------------------------------------------
+=> MSE of regression line > MSE of the avg of the data
+=> (MSE of the avg of the data) != 0  
+=> R^2 ~ [0, 1] => the line is a good fit fo the data
+	=> lm.fit(X, y) 
+	=> lm.score(X, y) 
+
+# Prediction and Decision Making
+- How can we measure that model is corrected  ?
+## Determining a Good Model Fit
+- To determine final best fit, we look at a combination of :
+=> Do the predicted values make sense 
+=> Visualization 
+=> Numerical measures for evalueation
+=> Comparing Models
+
+Summary : 
+Define the explanatory variable and the response variable: Define the response variable (y) as the focus of the experiment and the explanatory variable (x) as a variable used to explain the change of the response variable. Understand the differences between Simple Linear Regression because it concerns the study of only one explanatory variable and Multiple Linear Regression because it concerns the study of two or more explanatory variables.
+Evaluate the model using Visualization: By visually representing the errors of a variable using scatterplots and interpreting the results of the model.
+Identify alternative regression approaches: Use a Polynomial Regression when the Linear regression does not capture the curvilinear relationship between variables and how to pick the optimal order to use in a model.
+Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as the percentage of the variation in the response variable y  that is explained by the variation in explanatory variable(s) x. The Mean Squared Error tells you how close a regression line is to a set of points. It does this by taking the average distances from the actual points to the predicted points and squaring them.
+
+# Lab 
+# Quiz 
+
+
 ///W5///
 ///W6///
 
