@@ -2496,6 +2496,10 @@ Predicted values shall be much closer to the TARGET VALUES!!!!
 - add every error(difference) and divide by the number of the samples
 - to define the function we can import it from  : sklearn.metrics lib (y, y^)
 
+-------------------------
+| MSE = 1/N*Sum(Y-Y^)^2 | => Derived(MSE) = Gradient Descent !!!
+--------------------------
+
 ## R-squared (R^2)
 - The coef of determination or R squared(R^2)
 - Is a measure to determine how close the data is to the fitted regression line
@@ -2529,8 +2533,80 @@ Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as 
 # Lab 
 # Quiz 
 
+//////////////////////////////////////////
+///W5 : MODEL EVALUATION AND REFINEMENT///
+//////////////////////////////////////////
 
-///W5///
+# Model Evaluation and Refinement
+- Tell how the model performs in the real world 
+- In-sample evaluation tell how well the model will fit the data used to train it
+	=> Problem ?
+		> It does not tell how the trained model can be used to predict new data
+	=> Solution ? 
+		> In-sample data or training data 
+		> Out-of-sample evaluationor test set
+- Split the dataset into : 
+	=> Training dataset (70%)
+	=> Test dataset (30%)
+- Build and train the model w/ a training set
+- Use testing set to assess the performance of a predictive model
+- When we have comp;eted testing the model we should use all the data to train the model to get the best performance
+
+- Function for splitting sets  : train_test-split() from scikit pkg
+
+## Cross validation
+- Most common out-of-sample evaluations metrics
+- More effective use data (each observation is used for both training and testing)
+- We split dataset into pieces either for training and testing (70%/30% and vice-versa)
+	=> Then we take the average results as the estimate of out-of-sample error 
+- the validation result depend on the type of MODEL
+- To apply cross validation => cross_val_score() from scikit-learn pkg 
+
+- cross_val_predict()
+- It returns the prediction that was obtained for each element when it was in the test set 
+- Has a similar interface to cross_val_score() 
+
+
+# Overfitting, Underfitting and Model Selection
+- Study case : Polynomial Model n-order
+-  Overfitting : Model too complex(order higher ) VS Less dataset 
+
+-  Underfitting :To many errors => model too simple to fit the datan 
+		=> Solution  : Increase the oder of the polynomial order 
+		=> Too much data VS simple model
+
+- Test error (parabola curve) > Training Error(negative exponentiel curve) 
+- Optimal capacity  : (center)point btw under and over fitting.
+- The difference btw test error and training error = generalisation gap 
+
+- irreducible error == Noise (can't be reduced)
+
+# Ridge Regression Introduction
+# Ridge Regression
+- Just like Polynomial reg but w/ a Parametrable coef called Alpha
+- Rigle() is imported from sklearn.linear_model 
+
+/!\ The model that exhibits  overfitting is usually the model with the lowest parameter value for alpha
+
+# Grid Search
+- Allows to scan trough multiple free parameters w/ few lines of code
+- Alpha == HYPERPARAMETER
+- skilearn => Grid Search : iterating over HYPERPARAMETER using cross-validation 
+
+- split data into 3 sets : 
+ => Training (MSE / R^2)
+ => Validation (HYPERPARAMETER)
+ => Test (MSE / R^2)
+
+ ## Grid Search CV
+ - takes scoring methods,nb of folds(R^2), the model and free parameters ...   
+# Lesson Summary
+-tting and under-fitting in a predictive model: Overfitting occurs when a function is too closely fit to the training data points and captures the noise of the data. Underfitting refers to a model that can't model the training data or capture the trend of the data.
+-Apply Ridge Regression to linear regression models: Ridge regression is a regression that is employed in a Multiple regression model when Multicollinearity occurs.
+-Tune hyper-parameters of an estimator using Grid search: Grid search is a time-efficient tuning technique that exhaustively computes the optimum values of hyperparameters performed on specific parameter values of estimators.
+
+#Lab 
+#Quiz
 ///W6///
 
 #########################################################################
