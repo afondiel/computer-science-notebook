@@ -2543,16 +2543,16 @@ Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as 
 	=> Problem ?
 		> It does not tell how the trained model can be used to predict new data
 	=> Solution ? 
-		> In-sample data or training data 
-		> Out-of-sample evaluationor test set
+		> In-sample data or training set 
+		> Out-of-sample evaluation or test set
 - Split the dataset into : 
 	=> Training dataset (70%)
 	=> Test dataset (30%)
 - Build and train the model w/ a training set
 - Use testing set to assess the performance of a predictive model
-- When we have comp;eted testing the model we should use all the data to train the model to get the best performance
+- When we have completed testing the model we should use all the data to train the model to get the best performance
 
-- Function for splitting sets  : train_test-split() from scikit pkg
+- Function for splitting sets  : train_test_split() from scikit pkg
 
 ## Cross validation
 - Most common out-of-sample evaluations metrics
