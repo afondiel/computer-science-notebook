@@ -424,7 +424,7 @@ File based:
 - Also called : Data Refinery and cleansing 
 ### Tools : 
 - Apache Airflow :  created by RBNB
-- Kubeflow : high level ds pipeline layer on the top of Kubernetes
+- Kubeflow : high level datascience pipeline layer on the top of Kubernetes
 - Apache Kafka : created by Linkedin
 - Apache NIFI : data viz editor
 - Apache Spark SQL : scalable sql for cluster of multi-nodes
@@ -2372,7 +2372,9 @@ Define the association between two categorical variables: Understand how to find
 Exploratory data analysis : https://en.wikipedia.org/wiki/Exploratory_data_analysis
 pandas functions : https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm
 
+///////////////////////////
 ///W4: MODEL DEVELOPMENT///
+//////////////////////////
 
 # Model Development
 - Simple and multiple Linear Regression 
@@ -2503,8 +2505,8 @@ Predicted values shall be much closer to the TARGET VALUES!!!!
 ## R-squared (R^2)
 - The coef of determination or R squared(R^2)
 - Is a measure to determine how close the data is to the fitted regression line
-- R^2 : the percentage of variation of the target variable (Y) taht is explained by the linear model 
-- Think about as comparing a regression model to a simple model i.e the mean pf the data points 
+- R^2 : the percentage of variation of the target variable (Y) that is explained by the linear model 
+- Think about as comparing a regression model to a simple model i.e the mean of the data points 
 - If the variable x is a good predictor our model should perform much better than the mean 
 -----------------------------------------------------------------
 | R^2 = (1 - MSE of regression line/MSE of the avg of the data ) |
