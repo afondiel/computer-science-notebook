@@ -2701,12 +2701,9 @@ Course 8 : DATA VISUALIZATION W/ PYTHON
 - to check the imported data : df.head, df.describe ...
 
 # Line Plots
-- plot which displys information as series of data points called "markers" connected by the straight line segments
 - continuos dataset  
-
-# Introduction to Matplotlib and Line Plots
-# Introduction to Data Visualization Tools
-# [Optional] Download Jupyter Notebook
+- plot which displys information as series of data points called "markers" connected by the straight line segments
+- using pandas dataframe, map function to create an iterative point per axis value 
 
 # Lab
 # Quiz
