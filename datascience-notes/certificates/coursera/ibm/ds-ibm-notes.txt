@@ -2618,7 +2618,9 @@ Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as 
 Course 8 : DATA VISUALIZATION W/ PYTHON 
 #########################################################################
 
-///W1///
+//////////////////////////////////////////////
+///W1 : Introduction to Data Visualization ///
+//////////////////////////////////////////////
 
 # Syllabus
 # Welcome
@@ -2708,7 +2710,39 @@ Course 8 : DATA VISUALIZATION W/ PYTHON
 # Lab
 # Quiz
 
-///W2///
+///////////////////////////////////////////////////
+///W2 : Basic & Specialized Visualization Tools ///
+///////////////////////////////////////////////////
+
+# Area Plots
+- Also known as 'area chart / graph'
+- commonly used to represent cumulated totals using numbers or percentages over time
+- based on the 'line plot'
+- Dataset-processing steps : 
+=> index : country (since we want to know/focus on canada)
+	=> now each represents a country
+=> add a 'total() column (number of total(sum of population/immigrants) per country)
+	=> sorting by descending or order allows to get highest population per country
+=> df_canada (Dataframes Canada specified )
+=> Fix index problems : transposition axis, sort_values ...
+- generate "area plot"  : plot(kind='area')
+
+# Histograms
+- way of representing the frequency distribution of a variable 
+- 
+
+# Bar Charts
+# Lab
+# Quiz
+ 
+# Specialized Visualization Tools
+# Pie Charts
+# Box Plots
+# Scatter Plots
+
+# Lab
+# Quiz
+
 ///W3///
 ///W4///
 ///W5///
