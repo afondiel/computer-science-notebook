@@ -2729,9 +2729,14 @@ Course 8 : DATA VISUALIZATION W/ PYTHON
 
 # Histograms
 - way of representing the frequency distribution of a variable 
-- 
+- To generate "histogram"  : plot(kind='hist')
+- To correct horizontal axis problem : split the bins(ticks) with numpy (np.histogram())
+	=> then use theses bins(values) to generate the histogram w/ matplotlib 
 
 # Bar Charts
+- Unlike a histogram, a bar chart is commnly used to compare the values of a variable at given point in time.
+- generate "bar plot"  : plot(kind='bar')
+
 # Lab
 # Quiz
  
