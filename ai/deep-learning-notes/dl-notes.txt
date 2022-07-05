@@ -1,19 +1,27 @@
 ============ Deep Learning Notes==============
 
-## Neural Network(NN): simulates the way humans learn. 
+Deep learning : is Machine Learning (ML) subset based on artificial *neural networks* to perform sophisticated computations on large amounts of data
 
-### NN types : 
-- Perceptron = biological neuron 
-- Deep Neural Network 
-- MNIST
-- Recurrent Neural Network (RNN) 
-- Transformer 
-- BERT 
-- Convolution Neural Network (CNN)
+## Neural Network(NN): simulates the way humans learn. 
+- NN allows to build model/algorithms 
+
+## Application
+- computer vision 
+- Object detection 
+- nlp 
+- Virtual assistant 
+- Autonomous vehicles 
+- Face recognition 
+- Chatbots
+- Sound addition to silent films
+- colorization of black and white images ...
  ...
+- eveywhere since data is everywhere in modern world and taking part of daily life ...
+
+
 ### Deep Learning Train/process
 +-------+    +-----------+    +----------+
-|Dataset| => |Build Model| => |Prediction|
+|Dataset| => | Modeling  | => |Prediction|
 +-------+    +-----------+    +----------+
    ||                             ||
    ||                             ||
@@ -22,26 +30,38 @@
             | (W, b)      |
             +-------------+
 
-### learning Technics : 
-- back propagation : allows NN figure out patterns that are convoluted(complex) for huùan to extract
-### Error/cost functions : 
-- R^2, gradient descent  
-### Prediction function: 
-- SoftMAx
-- Sigmnoid 
-- Heaveside
+### Deep learning algorithms/model : 
+- Perceptron = biological neuron 
+- Deep Neural Network 
+- MNIST
+- Recurrent Neural Network (RNN) 
+- Transformer 
+- BERT 
+- Convolution Neural Network (CNN)
+- Long Short Term Memory Networks (LSTMs)
+- Recurrent Neural Networks (RNNs)
+- Generative Adversarial Networks (GANs)
+- Radial Basis Function Networks (RBFNs)
+- Multilayer Perceptrons (MLPs)
+- Self Organizing Maps (SOMs)
+- Deep Belief Networks (DBNs)
+- Restricted Boltzmann Machines( RBMs)
 
-### Machine Learning technics 
-- Regression 
-- Polinomial regression 
-- Classification
+## Training/learning Technics : 
 
-## Application
-- computer vision 
-- Object detection 
-- nlp 
- ...
-- eveywhere since data is everywhere in modern world and taking part of daily life ...
+    ### Machine Learning technics 
+    - Supervisedvlearning 
+    - UnSupervised learning 
+    - reinforcement learning 
+
+- backpropagation : allows NN figure out patterns that are convoluted(complex) for huùan to extract
+- Error/cost functions : 
+    - R^2, gradient descent ... 
+- Prediction function: 
+    - SoftMAx
+    - Sigmoid 
+    - Heaveside
+
 
 ## Tools / frameworks
 - Keras : deeplearning tool running on the top of TF, CNTK and Theano ... 
@@ -51,6 +71,7 @@
 
 
 # References : 
+
 https://en.wikipedia.org/wiki/Deep_learning
 https://en.wikipedia.org/wiki/Supervised_learning
 https://en.wikipedia.org/wiki/Unsupervised_learning
