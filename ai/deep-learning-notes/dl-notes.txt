@@ -1,9 +1,53 @@
-# Deep Learning Notes
+============ Deep Learning Notes==============
 
+## Neural Network(NN): simulates the way humans learn. 
+
+### NN types : 
+- Perceptron = biological neuron 
+- Deep Neural Network 
+- MNIST
+- Recurrent Neural Network (RNN) 
+- Transformer 
+- BERT 
+- Convolution Neural Network (CNN)
+ ...
+### Deep Learning Train/process
++-------+    +-----------+    +----------+
+|Dataset| => |Build Model| => |Prediction|
++-------+    +-----------+    +----------+
+   ||                             ||
+   ||                             ||
+            +-------------+
+    <=      |Test & Update|   <=
+            | (W, b)      |
+            +-------------+
+
+### learning Technics : 
+- back propagation : allows NN figure out patterns that are convoluted(complex) for huùan to extract
+### Error/cost functions : 
+- R^2, gradient descent  
+### Prediction function: 
+- SoftMAx
+- Sigmnoid 
+- Heaveside
+
+### Machine Learning technics 
+- Regression 
+- Polinomial regression 
+- Classification
 
 ## Application
+- computer vision 
+- Object detection 
+- nlp 
+ ...
+- eveywhere since data is everywhere in modern world and taking part of daily life ...
 
 ## Tools / frameworks
+- Keras : deeplearning tool running on the top of TF, CNTK and Theano ... 
+- TensoFlow (Google)
+- CNTK(Microsoft) 
+- Theano(Mila institute - Quebec)
 
 
 # References : 
@@ -14,4 +58,9 @@ https://en.wikipedia.org/wiki/Reinforcement_learning
 
 https://en.wikipedia.org/wiki/Artificial_neural_network
 https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
+
+- dl crash course : https://www.youtube.com/watch?v=VyWAvY2CF9c
+- Neural Network(3Blue1Brown) :
+ https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
+- our machine learns : https://www.youtube.com/watch?v=IHZwWFHWa-w
 
