@@ -2739,11 +2739,26 @@ Course 8 : DATA VISUALIZATION W/ PYTHON
 
 # Lab
 # Quiz
- 
-# Specialized Visualization Tools
+
 # Pie Charts
+- graphs divided into slices to illustrated numerical proportion
+- generate "pie plot"  : df.plot(kind='pie')
+- Cons : fail to represent data in a consistent way and getting the data accros(presentable, understandble, clear, visible ...)  
+
 # Box Plots
-# Scatter Plots
+- Way of statistically representing the distribution of given data 
+through 5 main dimensions : 
+	1. min == (IQR - IQR*1.5) (Inter Quartile Range)
+	2. 25% (1st IQR)
+	3 50% = median
+	4. 75% (3/4 of sorted data)
+	5. max (75% + IQR*1.5)
+- display outliers as individuals dots that occur outside the upper and lower extremes
+- generate "pie plot"  : df.plot(kind='box')
+
+# Scatter Plots (nuage des points)
+- displays relationship datas btw 2 variables (x, y) to determine if any correlation exists
+- generate "scatter plot"  : df.plot(kind='scatter', x='df_x', y='df_y')  
 
 # Lab
 # Quiz
