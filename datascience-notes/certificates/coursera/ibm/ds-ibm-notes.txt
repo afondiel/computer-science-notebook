@@ -2763,7 +2763,39 @@ through 5 main dimensions :
 # Lab
 # Quiz
 
-///W3///
+////////////////////////////////////////////////////
+///W3 : Advanced Visualization & Geospatial data ///
+////////////////////////////////////////////////////
+
+# Waffle Charts
+- interesting visualization that is normally created to display progress toward goals
+- the more the contribution the more tiles(visibility) 
+- matplotlib doesn't have a built-in function to generate waffle charts 
+
+# Word Clouds
+- A depiction of the frequency of different words in some textual data 
+- the more specific the word appears in the source of textual data the bigger/bolder in word cloud 
+- Matplotlib doesn't have a function/module to generate word clouds but Python does! 
+- Andreas Mueller (created a python lib for cloud word generation)
+- usage => Lab session
+
+# Seaborn and Regression Plots
+- Python visualization library based on matplotlib
+- provides high level interface for drawing attractive statisticals graphics : regression plots, box plots ...
+- less lines of codes to plot than matplotlib
+
+# Lab
+# Quiz
+
+# Introduction to Folium
+# Maps with Markers
+# Choropleth Maps
+# Creating Maps and Visualizing Geospatial Data
+# Visualizing Geospatial Data
+
+# Lab
+# Quiz
+
 ///W4///
 ///W5///
 
