@@ -2790,7 +2790,7 @@ through 5 main dimensions :
 # Introduction to Folium
 - Powerful Python library that helps you create several types of Leaflet maps 
 - First created to visualize Geospatial data 
-- locate any word based on : latitude and longitude values 
+- locate any word based on : [latitude, longitude] values 
 - It enables both the binding of data to map for choropleth visualizations as well as passing visualizations as markers on the map
 - The library has a number of built-in tilesets from OpenStreetMap, Mapbox, and Stamen, and supports custom tilesets with Mapbox API keys. 
 ## Creating a World Map
