@@ -2788,10 +2788,29 @@ through 5 main dimensions :
 # Quiz
 
 # Introduction to Folium
+- Powerful Python library that helps you create several types of Leaflet maps 
+- First created to visualize Geospatial data 
+- locate any word based on : latitude and longitude values 
+- It enables both the binding of data to map for choropleth visualizations as well as passing visualizations as markers on the map
+- The library has a number of built-in tilesets from OpenStreetMap, Mapbox, and Stamen, and supports custom tilesets with Mapbox API keys. 
+## Creating a World Map
+- word_map = folium.Map()
+- It's possible to get a specific map place/location(latitude/longitude)
+- Also possible to add different styles of maps ...
+
 # Maps with Markers
+- create a feature group
+	=> add children (w/ the location of the place you want to show)
+	=> add markers 
+	=> markers can be labeled 
+
 # Choropleth Maps
-# Creating Maps and Visualizing Geospatial Data
-# Visualizing Geospatial Data
+- Thematic map in which areas are shaded or patterned i proportion to the measurement of the statistical variable being displayed on the map : 
+	=>  poplulation density or per capita income ...
+	=> The higher the *measurement* the darker the color 
+- this graph required : Geojson to be setup (json file with some metadatas)
+## Creating the Map : 
+- world_map.choropleth() + world_geo_json_path
 
 # Lab
 # Quiz
