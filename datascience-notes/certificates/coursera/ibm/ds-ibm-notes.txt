@@ -2815,14 +2815,108 @@ through 5 main dimensions :
 # Lab
 # Quiz
 
-///W4///
+/////////////////////////////////////////////////////
+///W4 : Creating a Dashborad with Plotly and Dash ///
+/////////////////////////////////////////////////////
+
+# Module Overview and Learning Objectives
+# Dashboarding Overview
+- Interactive Data Application (IDA) can help improve business performance
+## Dashborad : 
+=> Realtime visuals
+=> Understand business moving parts
+=> Visual track, analyze, and display key performance indicators(KPI)
+=> Take informed decisions and improve performance 
+=> Reduced hours of analyzing
+- Best dashboards answer important business questions
+## (Practical) Scenario
+- Monitor and report US airline performance 
+=> Requested report items 
+1. Top 10 airline carrier in year 2019 in terms of number of flights 
+2. Number of flights in 2019 split by month 
+3. Nb of travelers from California (CA) to other states split by distance group
+- Presenting results in Table and Documents is time consumming, less visual, and difficult to understand ...
+- A datascientist should be able to create and deliver a story around the *finding* in a way a stakeholders can easily understand 
+	=> Datashboards are the way to go !!! 
+## Tools : Web-based Dashboarding
+- Dash from Plotly 
+	=> Python framework for web analytic applications
+	=> written in the top of Flask, Plotly.js and React.js 
+	=> data viz apps with highly custom UI 
+- Panel 
+	=> works with visualizations from Brokeh, Matplotlib, HoloViews ... 
+- Voilà : turns jupyter nb into standalone web app 
+	=> jupyter-flex 
+	=> template : voila-vuetify
+- Streamlit : datascripts into shareable web apps w/ 3 rules 
+	=> embrace python scripting 
+	=> treat widgets variables
+	=> reuse data and computation
+
+## Tools : Dashboarding
+- Bokeh
+- ipywidgets 
+- matplotlib
+- Bowtie
+- Flask (dashboard)
+
+# Additional Resources for Dashboards
+https://pyviz.org/dashboarding/index.html
+https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map
+
+# Introduction to Plotly
+- Interactive, open-source plotting library
+- Supports over 40 unique chart types 
+- Includes chart types like statistical, financial, maps, scientific, and 3-dimensional 
+- Visualizations can be displayed in Jupyter notebook, saved to HTML files, 
+or can be used in developing Python-built web applications
+
+## Plotly Sub-modules
+- Plotly Graph Objects : Low-level interface to figures, traces, and layout
+	=>plotly.graph_objects.Figure (high level)
+
+- Plotly Express : High-level wrapper
+	=> More simple syntax
+	=> uses graph objects internally
+## usage : 
+- fig = go.Figure(data=go.Scatter(x=x, y=y)) // go :graph_objects
+- fig = px.line(x=x, y=y, title='Simple Line Plot', labels=dict(x='Month', y'Sales')) // px : plotly.express
+
+# Additional Resources for Plotly
+https://plotly.com/python/getting-started/
+https://plotly.com/python/graph-objects/
+https://plotly.com/python/plotly-express/
+https://plotly.com/python-api-reference/
+https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf
+https://community.plotly.com/c/plotly-python/5
+https://plotlygraphs.medium.com/
+https://developer.ibm.com/exchanges/data/
+
+# Lab : Plotly basics: scatter, line, bar, bubble, histogram, pie, sunburst
+
+# Introduction to Dash
+- ??
+
+# Theia Labs Overview
+# Dash basics: HTML and core components
+# Additional Resources for Dash
+# Make dashboards interactive
+# Additional Resources for Interactive Dashboards
+# Add interactivity: user input and callbacks
+# Flight Delay Time Statistics Dashboard
+
+# Lab
+# Quiz 
+
+////////
 ///W5///
+////////
 
 #########################################################################
 Course 9 : MACHINE LEARNING W/ PYTHON
 #########################################################################
 
-////W1///
+///W1///
 ///W2///
 ///W3///
 
