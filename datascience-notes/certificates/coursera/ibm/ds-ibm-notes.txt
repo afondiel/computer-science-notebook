@@ -2895,17 +2895,46 @@ https://developer.ibm.com/exchanges/data/
 # Lab : Plotly basics: scatter, line, bar, bubble, histogram, pie, sunburst
 
 # Introduction to Dash
-- ??
+- Open source user interface Python libray from Plotly 
+- interactive web based apps 
+- web server running Flask and communicating JSON packets over HTTP requests 
+- Dash frontend renders uses React.js 
+- Easy to build GUI 
+- Declarative and Reactive 
+- Rendered in web browser and can be deployed to servers 
+- Inherently cross-platform and mobile ready 
+## Dash components
+- Core components
+	=> import dash_core_components as dcc
+- HTML Components 
+	=> import dash_html_components as html
 
 # Theia Labs Overview
 # Dash basics: HTML and core components
 # Additional Resources for Dash
+https://dash.plotly.com/
+https://dash.plotly.com/dash-core-components
+https://dash.plotly.com/dash-html-components
+https://community.plotly.com/c/dash/16
+https://medium.com/plotly/tagged/dash
+
 # Make dashboards interactive
+- connect core and html components 
+	=> Dash - Callbacks : python function that are automatically called by Dash whenever an input component's property changes 
+	=> Callback function: is decorated @app.callback decorator 
+	=> when the input component value changes the callback function wrapped by the decorator update the output 
+	=> Callback w/ 1,2 ... inputs 
 # Additional Resources for Interactive Dashboards
-# Add interactivity: user input and callbacks
-# Flight Delay Time Statistics Dashboard
+https://realpython.com/primer-on-python-decorators/
+https://peps.python.org/pep-0318/#current-syntax
+https://dash.plotly.com/basic-callbacks
+https://dash.gallery/Portal/
+https://plotly.com/dash-community-components/
+
 
 # Lab
+## Add interactivity: user input and callbacks
+## Flight Delay Time Statistics Dashboard
 # Quiz 
 
 ////////
