@@ -391,7 +391,7 @@ Rladies : www.rladies.com
 
 - Data Management : is the process of persisting and retrieving data
 - Data Integration and Transformation : (ETL : Extract - Transform - Load) is the process of retrieving data from remote data management systems
-- Data visualization : data Exploratio process, final deliverable
+- Data visualization : data Exploration process, final deliverable
 - Model building : create a ml or dl models using appropriate algo w/ lots of data
 - Model Deployment : makes ml/dl models accessible to a 3rd part application
 - Model Monitoring and Assessment : continious perfomance qlity checks of deployed models (accuracy,fairness, adversial robustness )  
@@ -2959,6 +2959,8 @@ Course 9 : MACHINE LEARNING W/ PYTHON
 #########################################################################
 
 ///W1///
+
+
 ///W2///
 ///W3///
 
