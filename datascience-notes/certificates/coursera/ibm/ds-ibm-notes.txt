@@ -589,7 +589,7 @@ PaaS : Platform as a Service
 => Scikit-learn  : ML algorithms like regression,classification, clustering ...)
 => Keras : DL and NN 
 4. Deep Learning Lib
-=> TensorFlow ; build for production & Deployement
+=> TensorFlow : build for production & Deployement
 => Pytorch  : build for experimentation 
 
 Apache Spark : general -purpose cluster computing framework to process data using compute-cluster(computing data from multiple computer)
@@ -2957,12 +2957,56 @@ https://plotly.com/dash-community-components/
 #########################################################################
 Course 9 : MACHINE LEARNING W/ PYTHON
 #########################################################################
+////////////////////////////////////////////
+///W1 : Introduction to Machine Learning ///
+///////////////////////////////////////////
+# Welcome
+- used in many key field industries
+	=> healthcare : 
+		=> predict cancer level of severity
+		=> predict the right drug for a patient according to his age 
+	=> Bank : loan application acceptance 
+	=> Custumer segmentation 
+	=> Recommendation systems (amazon, netflix , googele ..)
+	=> Telecommunication : to predict customer churn (?) ...
 
-///W1///
+- Python libs to build ML models
+- Jupyter Lab
+- Jupyter Notebook for coding/modeling ...
+## Skills Insights : 
+- Regression
+- Classification
+- Clustering
+- Scikit Learn
+- Scipy ... 
+## Projects : 
+- Cancer detection,
+- Predicting economic trends
+- Predicting customer churn
+- Recommendation engines ...
 
+# Introduction to Machine Learning
+- (By Arthur Samuel) Subfield of computer science that gives "computer the ability to learn without being explicitly programmed"
 
-///W2///
-///W3///
+- ML helps with predictions 
+- ML process : 
+	=> dataset (data gathering=), 
+	=> data cleaning
+	=> select the proper algorithm
+	=> building model
+	=> training 
+	=> make predict
+- 
+
+# Python for Machine Learning
+# Supervised vs Unsupervised
+# Quiz : Intro to Machine Learning
+
+/// W2 ///
+/// W3 ///
+/// W4 ///
+/// W5 ///
+/// W6 ///
 
 #########################################################################
 Course 10 : APPLIED DATA SCIENCE CAPSTONE
