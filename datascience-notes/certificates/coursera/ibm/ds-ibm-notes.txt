@@ -2986,8 +2986,8 @@ Course 9 : MACHINE LEARNING W/ PYTHON
 - Recommendation engines ...
 
 # Introduction to Machine Learning
-- (By Arthur Samuel) Subfield of computer science that gives "computer the ability to learn without being explicitly programmed"
-
+- Def (By Arthur Samuel) : Subfield of computer science that gives "computer the ability to learn 
+without being explicitly programmed" 
 - ML helps with predictions 
 - ML process : 
 	=> dataset (data gathering=), 
@@ -2995,10 +2995,70 @@ Course 9 : MACHINE LEARNING W/ PYTHON
 	=> select the proper algorithm
 	=> building model
 	=> training 
-	=> make predict
-- 
+	=> make predict (based on high accuracy)
+
+## How ML works ?
+- Solving Problem with tradictinal approach  : Animal face detection 
+(Input dataset) => (Feature Extraction : vector features ) => (A set of rules) => Prediction ? 
+	=> Consequences : LOTS of rules => highly dependent on current dataset/too specific not generalized
+	=> Not generalized enough to detect out of sample cases 
+
+- ML APPROACH : 
+	=> Allows to build a model that looks at all the feature sets and their corresponding type of objects(animals) and learns the pattern of each target object(animal)
+	=> The model is built by machine learning algorithms
+	=> The goal is to detect without explicitily being programmed to do so  
+- machine learning follow the same process that a 4ys old child uses to LEARN !!!
+- Inspired by the human learning process iteratively 
+- Learn from data => allow computers to find *hidden insights*
+- The model help us in variety of tasks : 
+	=> object recognition 
+	=> object summarization 
+	=> object recommendation ...
+## ML Application (real life examples) : 
+- Welcome Chapiter!!!
+## ML techniques : 
+- Regression/Estimation :
+	=> Predicting continuous values (house prices, CO2 emission of car engine ...)
+- Classification
+	=> Predicting the item classy/category of a case  (true/False cases ? )
+- Clustering : groups of similar cases (find similar patients, or customer segmentation in the bank)
+	=> Finding the structure of data;summarization ... 
+- Associations 
+	=> Associating frequence co-occuring items/events (grocery items bought together by a customer)
+- Anomaly detection :
+	=> Discovering abnormal and unusual cases (credict vard detection ...)
+- Sequence mining : 
+	=> Predicting next events; click-stream (Markov Model, HMM)
+- Dimension Reduction
+	=> Reducing the size of data (PCA)
+- Recommendation sytems 
+	=> Recommendation items 
+
+## AI vs ML vs DL 
+AI  : try to make computer intelligent trying to mimic the cognitive functions of human
+- Computer Vision (cv)
+- Language Processing 
+- Creativity
+...
+
+ML : branch of AI that covers the statistical side of AI ...
+- Classification
+- Clustering
+- Neural Network
+...
+
+DL : THE REVOLUTION in ML !!!
+- allows computer to make decision by the own  
 
 # Python for Machine Learning
+- General language for writing ML algorithms
+## Python Library : 
+- NumPy : math library to work w/ N-dimensional arrays in Python 
+	=> make computation effeciently and effectivily 
+	=> powerful than regular python(arrays, dicts, functions, datatypes, images ...)
+- Scipy : collection of numerical algorithms and domain specific toolboxes : signal processing, optimization, statistics and much more ...
+- Matplotlib : 
+
 # Supervised vs Unsupervised
 # Quiz : Intro to Machine Learning
 
