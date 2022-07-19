@@ -3056,10 +3056,46 @@ DL : THE REVOLUTION in ML !!!
 - NumPy : math library to work w/ N-dimensional arrays in Python 
 	=> make computation effeciently and effectivily 
 	=> powerful than regular python(arrays, dicts, functions, datatypes, images ...)
-- Scipy : collection of numerical algorithms and domain specific toolboxes : signal processing, optimization, statistics and much more ...
-- Matplotlib : 
+- Scipy : collection of numerical algorithms and domain specific toolboxes : 
+	=> scientific and high perfomance computation
+	=> signal processing 
+	=> optimization 
+	=> statistics ...
+- Matplotlib : data visualization (plotting) package
+	=> 2D and 3D plotting   	
+- Pandas : High level python lib for data processing 
+	=> datastructure + (built) functions for manipulating numerical tables, timeseries
+
+- Scikit learn  : set of algorithms and tools for ML 
+	=> Free sw machine learning library
+	=> Classification, Regression adn Clustering algorithms
+	=> Works with Numpy and SciPy
+	=> Great documentation 
+	=> Easy to implement (model)
+
+The full Machine leaning pipelines is already implemented in Scikit learn 
++-----------------+	 +-----------------+	+------------------+	+-------------+	   +-----------+	+----------+	+------------+
+| Data Processing |=>| Train/test split| => | Algorithms setup | => |Model fitting| => |Predictions| => |Evaluation| => |Model export|
++-----------------+	 +-----------------+	+------------------+	+-------------+		+----------+	+----------+	+------------+
+
+Ref : course 7 : data analysis w/ python
 
 # Supervised vs Unsupervised
+- Supervised learning  : teach the model, then w/ that knowledge, ti can predict unknown or future instances 
+	=> numerical data
+	=> categorical data (target data)
+	=> Classification & Regression are two types of SP
+	=> controlled Environment
+
+- Unsupervised learning : the model works on its own to discover information
+	=> learn from a giving dataset and draws conclusion on unlabled data. 
+	=> Techniques : 
+		=> Dimension Reduction
+		=> Density estimation 
+		=> Market basket analysis
+		=> Clustering (most common) 
+	=> Uncontrolled env
+
 # Quiz : Intro to Machine Learning
 
 /// W2 ///
