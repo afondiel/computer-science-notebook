@@ -3098,11 +3098,133 @@ Ref : course 7 : data analysis w/ python
 
 # Quiz : Intro to Machine Learning
 
-/// W2 ///
+////////////////////////
+/// W2 : Regression ///
+//////////////////////////////////////////
+Ref : DATA ANALYIS W/ PYTHON => MODEL 
+//////////////////////////////////////////
+# Introduction to Regression
+- Process of predicting a continuous value
+- 2 types of variables in regresssion : 
+	=> X : independent (explanatory var) - cause of state/target
+	=> Y : dependent(state, target, final goal to study/predict)
+- Y : shall be continuous not be discrete value
+- X[i] : can be measured on either a categorical ou continuous
+## Regression Model : 
+(Historical data:one/more features) => (Modeling) => (Prediction)
+(new data:) --------------------------------^
+
+## Types of regression models 
+- Simple Regression :  single independent var => estimate single dependent variable
+	=> Simple Linear Regression (ex: Predict 'co2emission' vs 'EngineSize' of all cars)
+	=> Simple Non-Linear Regression (depending on relationship btw X & Y)
+- Multiple Regression : more than one independent variables 
+	=> Multiple Linear Regression  (ex: Predict 'co2emission' vs 'EngineSize' & 'Cylinders' of all cars)
+	=> Multiple Non-Linear Regression depending on relationship btw X & Y
+## Applications of Regression 
+- Sales forecasting
+- Satisfaction analysis 
+- Price estimation
+- Employement income
+
+## Regression Algorithms : 
+- Ordinal regression
+- Poisson regression
+- Fast forest quantile regression
+- Linear, Polynomial, Lasso, Stepwise, Ridge regression
+- Bayesian linear regression
+- Neural network regression
+- Decision forest regression
+- Boosted decision tree regression
+- KNN(K-nearest neighbors) 
+
+# Simple Linear Regression
+- Using linear regression to predict continuous values
+## How does linear regression work 
+- Linear regression : you can model the relationship of the these variables
+- A good model can be used to predict what the approximate Y of each X
+
+## Linear regression model representation
+- the regression line represents a good fit of the data 
+- can be used to predite an approximated values
+
+- fitting line = polynomial 
+------------------------
+| ^y = a*x + b (model) |
+------------------------
+ ^y : response variable 
+ x  : predictor variable 
+ ## Adjustable parameters 
+ a : slope / gradient of fitting line / coedf of linear equation
+ b  : intercept
+
+## How to find the best fit ? 
+- To calculate the fitting line : 
+- calculate a, b that best fit for the data 
+
+y : a*x + b => real value => i.e for x = value => y = result  ?
+^y : estimated depend of fitting line 
++-----------------+
+| Error = y - ^y  |
++-----------------+
+
+- Error : distance from data point to the fitted regression line 
+- The mean of all residual errors shows how poorly the line fit with the whole dataset mathematically shown by : 
+MSE : Mean Square Error 
++-------------------------+
+|MSE = 1/n*Sum(Yi - ^Yi)^2| where  : i = 1 ...n
++-------------------------+
+
+- Goal : Find a line where the mean of all these errors is minimized
+	=> The mean error of the prediction using the fit line should be minimized
+- The objective of linear regression is to minimize this MSE eq. 
+	=> by finding the best parameters (a, b)
+	=> mathematical approach
+	=> Optimization approach
+## Estimating the parameters :
+- mathematical approach
+	^y: a*x + b 
+	a ? 
+	b ? 
+	=> this parameters can be calculated using python lib, R, ou scala ... 
+	=> rebuild the polynom
+
+- Optimization approach ?
+
+## Pros of linear regression 
+- very fast 
+- No parameter tunning 
+- Easy to understand, and highly interpretable
+
+# Model Evaluation in Regression Models
+# Evaluation Metrics in Regression Models
+# Lab: Simple Linear Regression
+# Ungraded External Tool•. Duration: 1 hour1h
+# Multiple Linear Regression
+# Lab: Multiple Linear Regression
+# Ungraded External Tool•. Duration: 1 hour1h
+# Non-Linear Regression
+# Lab: Polynomial Regression
+# Ungraded External Tool•. Duration: 1 hour1h
+# Lab: Non-linear Regression
+Ungraded External Tool•. Duration: 1 hour1h
+Regression
+Quiz
+Grade
+
 /// W3 ///
 /// W4 ///
 /// W5 ///
 /// W6 ///
+
+
+
+
+
+
+
+
+
 
 #########################################################################
 Course 10 : APPLIED DATA SCIENCE CAPSTONE
