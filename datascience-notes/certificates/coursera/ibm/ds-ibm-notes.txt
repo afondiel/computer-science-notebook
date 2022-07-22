@@ -3197,20 +3197,88 @@ MSE : Mean Square Error
 - Easy to understand, and highly interpretable
 
 # Model Evaluation in Regression Models
+- The goal of regression is to build a model to accurately predict an unknown case 
+- For that regression evaluation has to be done after building the model
+## Model evaluation approaches
+1/ Train and Test on the Same Dataset 
+2/ Train/Test split
+- Regression Evaluation metrics
+
+1/ Train and Test on the Same Dataset : How to calculate the accuracy of a model ??
+- 70% of dataset for training => training set(feature set) 
+- 30% of dataset for testing => testing set 
+	=>the labels of test set are called actual value of the test set
+	=> actual values are used for 'ground truth'
+- At the end we compare the Predict values VS actual values => give the accuracy
+- One of the Metrics to calculate the accuracy : 
++--------------------------+
+|Error = 1/n*Sum(yi - ^yi) |
++--------------------------+
+- where : i = 1 .. n 
+## Training and out-of-sample accuracy? 
+- Training Accuracy : percetange of the correct prediction that the model makes when using the test dataset 
+	=>(-) High training accuracy isn't necessarily a good thing
+	=>(-) Result of over-fitting : the model is overly trained to the dataset, which may capture noise and produce a non-generalized moodel
+	=>  
+- Out-of-sample(OOS) : percetange of the correct prediction that the model makes on the data the model has not been trained on. 
+	=> it's important that our models have a high OOS accuracy (model main goal is to make great prediction mostly on unknown datas)
+	=> How can we improve OOS accuracy ? 
+		=> Using train/test split approach
+
+2/ Train/Test split : 
+- splits the dataset into training/testing data "mutually exclusive"
+- train with training set 
+- test with testing set
+- (+) More accurate evaluation on OOS accuracy (because the testing dataset is not part of the dataset that has been used to train the data)
+- training the model with testing data afterwords avoid loosing valuable data
+(-) Highly dependent on which datasets the data is trained and tested
+	=> Ex. K-fold cross validation solves the issue above
+	=> by *averaging the high variation that results from a dependency *
+
 # Evaluation Metrics in Regression Models
+- Used to explain the performance of the model 
+- Error (regression) : measure of how far the data is from the fitted regression line.
++--------------------------+
+|Error = 1/n*Sum(yi - ^yi) |
++--------------------------+
+- Most common Model evaluation metrics :
+	=> MAE : Mean Absolute Error 
++--------------------------+
+|MAE = 1/n*Sum(|yi - ^yi|) |
++--------------------------+
+	=> MSE : Mean Squared error 
++--------------------------+
+|MSE = 1/n*Sum(yi - ^yi)2  |
++--------------------------+
+	=> RMSE : Root Mean Squared error 
++--------------------------+
+|RMSE^2 = 1/n*Sum(yi - ^yi)|
++--------------------------+
+
+	=> RAE : Relative Absolute Error/Residual sum of square 
++---------------------------+
+|RAE = n*MAE/Sum(|yi - ÿi|) | where ÿ : mean of y 
++---------------------------+
+
+	=> RSE : Relative Squared error : (very similar to MAE, is used for Normalization) => used to calculate R^2
++--------------------------------------+
+|RSE = Sum(yi - ^yi)^2 / Sum(yi - ÿ)^2 |
++--------------------------------------+
+
+- R squared  : represents how close the data values are to the fitted regression line 
+=> the more R^2 is higher the more the model fitted the data  
+
+[R^2 = 1 - RSE]  
+
 # Lab: Simple Linear Regression
-# Ungraded External Tool•. Duration: 1 hour1h
 # Multiple Linear Regression
 # Lab: Multiple Linear Regression
-# Ungraded External Tool•. Duration: 1 hour1h
+
+
 # Non-Linear Regression
-# Lab: Polynomial Regression
-# Ungraded External Tool•. Duration: 1 hour1h
-# Lab: Non-linear Regression
-Ungraded External Tool•. Duration: 1 hour1h
-Regression
-Quiz
-Grade
+# Lab1: Polynomial Regression
+# Lab2: Non-linear Regression
+Final Quiz
 
 /// W3 ///
 /// W4 ///
