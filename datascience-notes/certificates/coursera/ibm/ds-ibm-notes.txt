@@ -3271,9 +3271,42 @@ MSE : Mean Square Error
 [R^2 = 1 - RSE]  
 
 # Lab: Simple Linear Regression
-# Multiple Linear Regression
-# Lab: Multiple Linear Regression
 
+# Multiple Linear Regression
+- more than one independent variables 
+- ex: Predict 'co2emission' with 'EngineSize' & 'Cylinders' of all cars
+- extension of linear regression model  
+## Examples of multiple linear regression
+- independent variables effectiveness on prediction ( the strengh of the effect of that the independent vars have on the dependent variable)
+	=> Does revision time, test anxiety, lecture attendance and gender have any effect on the exam perfomance of students ?
+- Predicting impact of changes (independent impact on the dependent vars)
+	=> How much does blood pressure go up (or down) for every unit increase (or decrease) i the BMI of a patient
+## Predicting continuous values with multiple linear regression
+- uses multiple independent variables(predictors) to that best predict the value of the target(dependent) 
+- X: independent variables
+- Y: dependent variable
+- MODEL
++------------------------------------+
+| Y = b + a1*x1 + a2*x2 + ...+ an*xn |
++------------------------------------+
+OR
++------------------------------------------------------+
+| ^Y = theta0 + theta1*x1 + theta2*x2 + ...+ thetan*xn |
++------------------------------------------------------+
+- mathematically vector form : multidimensional space
++--------------------+
+| ^y = (theta^T)^X | 
++--------------------+
+	=> ^: vectorial product 
+	=> T : transpose
+	=> X : vector of features 
+	=>(theta^T) : [theta0, theta1, theta2...]
+	=> theta : the parameters/weight vector of the regression equation
+
+- enable to evaluate which (independent)variable is significant predictores of the outcome variable
+	=> how eah feature impact the outcome variable
+
+# Lab: Multiple Linear Regression
 
 # Non-Linear Regression
 # Lab1: Polynomial Regression
