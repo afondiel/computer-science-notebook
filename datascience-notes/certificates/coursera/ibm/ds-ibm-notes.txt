@@ -3276,39 +3276,71 @@ MSE : Mean Square Error
 - more than one independent variables 
 - ex: Predict 'co2emission' with 'EngineSize' & 'Cylinders' of all cars
 - extension of linear regression model  
+
 ## Examples of multiple linear regression
 - independent variables effectiveness on prediction ( the strengh of the effect of that the independent vars have on the dependent variable)
 	=> Does revision time, test anxiety, lecture attendance and gender have any effect on the exam perfomance of students ?
-- Predicting impact of changes (independent impact on the dependent vars)
-	=> How much does blood pressure go up (or down) for every unit increase (or decrease) i the BMI of a patient
+- Predicting impacts of changes (how dependent variables changes when independent variable changes)
+	=> How much does blood pressure go up (or down) for every unit increase (or decrease) in the BMI-'Body Mass Index' of a patient
+
 ## Predicting continuous values with multiple linear regression
 - uses multiple independent variables(predictors) to that best predict the value of the target(dependent) 
 - X: independent variables
-- Y: dependent variable
-- MODEL
-+------------------------------------+
-| Y = b + a1*x1 + a2*x2 + ...+ an*xn |
-+------------------------------------+
-OR
+- Y: dependent variable (linear combination of X)
+	=> MODEL : 
 +------------------------------------------------------+
 | ^Y = theta0 + theta1*x1 + theta2*x2 + ...+ thetan*xn |
 +------------------------------------------------------+
-- mathematically vector form : multidimensional space
+	=> mathematically vector form : multidimensional space
 +--------------------+
-| ^y = (theta^T)^X | 
+| ^y = (theta^T)^X   | 
 +--------------------+
-	=> ^: vectorial product 
-	=> T : transpose
-	=> X : vector of features 
+	=> theta : vector of coeficients - the parameters/weight vector of the regression equation
+		=> dim(theta) = n by 1
 	=>(theta^T) : [theta0, theta1, theta2...]
-	=> theta : the parameters/weight vector of the regression equation
+	=> T : transpose
+	=> ()^(): vectorial product 
+	=> X : vector of featured sets
+		[1]
+		[x1]
+	X = [x2]
+		[..]
+	=> the first element of the X vector is : 1 => it turns that theta0 into the intercept/biased
 
 - enable to evaluate which (independent)variable is significant predictores of the outcome variable
 	=> how eah feature impact the outcome variable
+- (theta^T)^X : also called plane /hyperplane for multiple regression
+- GOAL : find the best fit hyperplane for input data
+	=> minimize the error of the prediction
+	=> find the optimized parameters
+## Using MSE to explose the errors in the model 
+- sum of residual errors (actual value - predicted values(from the model))
+## Estimating multiple linear regression parameters
+- estimate theta ? 
+	=> Ordinary Least Squares
+		=> Linear algebra operations
+		=> Takes a long time for large datasets (10K + rows)
+	=> An optimization algorithm
+		=> Gradient Descent (starts the optimization w/ randoms values for each coef and compute the errors and try minimize it through Y^s changing of the coef in multiple iterations)
+		=> proper approach for very large dataset
+
+## Making prediction w/ multiple linear regression
+- making predictions is as simple as solving the equation for specific set of inputs
+- from the model : ^y = (theta^T)^X
+- compute the coefs [theta0 ... n]
+- plug the parameters into the linear model	
+	=> replace the independent varibles & the coefs => gives the new dependent value predicted
+
+## Q&A - on multiple linear regression : 
+- How to determine whether to use simple or multiple linear regression?
+- How many independent variables should you use ? 
+- Should the indepent varible be continuous
+- What are linear relationships btw the depent variable and the independent variables
 
 # Lab: Multiple Linear Regression
 
 # Non-Linear Regression
+
 # Lab1: Polynomial Regression
 # Lab2: Non-linear Regression
 Final Quiz
