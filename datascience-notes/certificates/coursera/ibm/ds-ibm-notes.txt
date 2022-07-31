@@ -3341,6 +3341,37 @@ MSE : Mean Square Error
 
 # Non-Linear Regression
 
+- behavior is not described by a straight line
+- the goal still to estimate the parameters of the model the use the fitted model to predict the target/labal for unknown/future cases 
+
+## Different types of regression 
+- Linear Regression
+- Quadratic (Parabolic) Regression 
+- Cubic Regression 
+...
+- all these type of regressions can be called Polynomial regression : Y is modeled as Nth degree polynomial in X.
+- Polynomial regression fits a curve line to your data
+- a normal polynomial regression can be converted as Multiple linear regression and fit w/ Least Squares
+	=> Minimizing the sum of the squares of the differences btw y and ^y
+## Non-linear regression features ?
+- To model non-linear relationship btw the dependent variable and a set of independent variables 
+- ^y must be a non-linear function of the parameters (theta), not necessarily the feature x
+- Mathematically : exponential, logarithmic, and logistic etc 
+- The model (^y) depends not only on the x values but alson on the coefficients (theta0...thetaN)
+- Ordinary Least squares cannot be used to fit the data 
+
+
+## Check lineat vs Non linear regression 
+- inspect visually
+- based on accuracy 
+	=> if theta > 0.7 ==> linear
+
+- Modeling :
+=> Polynomial regression
+=> Non-linear regression model 
+=> Transform your data 
+ 
+
 # Lab1: Polynomial Regression
 # Lab2: Non-linear Regression
 Final Quiz
