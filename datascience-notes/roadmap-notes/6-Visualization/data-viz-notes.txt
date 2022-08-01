@@ -11,8 +11,13 @@ Spatial Charts
 Survey Plot
 Timeline
 Decision Tree
-D3.js
+- D3.js
 InfoVis
 IBM ManyEyes
 Tableau
 
+
+
+# References : 
+
+- D3.js : https://www.youtube.com/watch?v=_8V5o2UHG0E

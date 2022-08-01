@@ -21,3 +21,12 @@ Manipulate Data Frames
 Functions
 Factor Analysis
 Install Pkgs
+
+
+# References
+
+freeCodeCamp : https://www.youtube.com/watch?v=rfscVS0vtbw
+Mosh : https://www.youtube.com/watch?v=kqtD5dpn9C8
+Data analysis : https://www.youtube.com/watch?v=WcDaZ67TVRo
+
+
