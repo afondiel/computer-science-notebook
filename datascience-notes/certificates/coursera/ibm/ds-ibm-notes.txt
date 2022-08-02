@@ -3384,25 +3384,21 @@ Introduction to Classification
 K-Nearest Neighbours
 Evaluation Metrics in Classification
 Lab: KNN
-Ungraded External Tool•. Duration: 45 minutes45 min
 
 *Decision Trees*
 Introduction to Decision Trees
 Building Decision Trees
 Lab: Decision Trees
-Ungraded External Tool•. Duration: 45 minutes45 min
 
 *Logistic Regression*
 Intro to Logistic Regression
 Logistic regression vs Linear regression
 Logistic Regression Training
 Lab: Logistic Regression
-Ungraded External Tool•. Duration: 45 minutes45 min
 
 *Support Vector Machine*
 Support Vector Machine
 Lab: SVM (Support Vector Machines)
-Ungraded External Tool•. Duration: 45 minutes45 min
 Quiz
 
 /// W4 ///
