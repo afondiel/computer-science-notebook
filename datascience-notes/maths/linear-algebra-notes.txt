@@ -1,1 +1,32 @@
 ============ Linear algebra notes ============
+
+- Linear algebra is the branch of mathematics concerning linear equations and linear maps and their representations in 
+=> vector spaces
+=> through matrices
+
+- vector spaces ?
+    => vector : length(magnitude), direction(angle) ...
+    => operation : sum, product ...
+        => scalar (dot"."product) 
+        => cross (x product)
+- matrix 
+    => transposed
+    => identity matrix
+    => reversibility condition ?
+    => dimension, kernel, image,range ...
+    => matrices operation : 
+        => sum
+        => product 
+
+- polynomial equation : 
+    => System of linear equations
+        => 2nd , 3rd ... n degre
+    => linear 
+    => non linear 
+
+# References : 
+Linear Algebra : 
+https://en.wikipedia.org/wiki/Linear_algebra
+
+System of linear equations : 
+https://en.wikipedia.org/wiki/System_of_linear_equations
