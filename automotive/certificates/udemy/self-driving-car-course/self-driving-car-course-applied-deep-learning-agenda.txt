@@ -1,0 +1,25 @@
+The complete self-driving car 'crash' course applied deep learning by Udemy
+
+
+# Table of Contents 
+
+1. Why this course ? 
+hours : 18h
+numbers of lesson : 170
+Certificate : YES
+
+2. Additional Free contents
+3. Section 2 : Installation tools
+4. Section 3 : Python crash course
+5. Section 4 : Numpy Crash course  
+6. Section 5 : Computer Vision - Finding Lane Lines
+7. Section 6: The Perceptron
+8. Section 7: Keras 
+9. Section 8: Deep Neural Network
+10. Section 9: Multiclass Classification 
+11. Section 10: MNIST Image recognition
+12. Section 11: Convolutional Neural Network
+13. Section 12 : Classifying Road Symbols
+14. Section 13 : Polynomial Regression
+15. Section 14 : behavior Cloning 
+
