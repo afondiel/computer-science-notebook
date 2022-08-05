@@ -1,0 +1,44 @@
+/////////////////////////////////
+////Section 6 : The Perceptron //
+////////////////////////////////
+
+# Neural network (NN)
+- inspired from biological neural
+- it simulates the way the human (brain) learns
+
+## The perceptron : 
+    => 1 input layer
+        => input nodes : x1*w1 + x2*w2 ...+ b
+            where : 
+            x : input signals
+            b : bias 
+            w : weights
+    => Neuron 
+        => Summation function
+        => activation function (binary : 0/1)
+
+    => 1 output layer 
+
+- The multilayer perceptron forms fully connected NN 
+    => 1 input layer 
+    => multiple hidden layers
+    => Neuron 
+        => Summation function
+        => activation functions (step, tanh, sigmoid, RELU...)
+
+    => 1 output layer
+
+    => learning/working Technics : 
+    - Forward propagation : input data is fed in the forward direction through the network 
+        => feed forward => input + hidden + output
+    - Back propagation : allows NN figure out patterns that are convoluted complex for human to extract
+        => feed forward + calculate error + back propagation
+
+## MACHINE LEARNING ##
+... to be continue 
+
+# References 
+The perceptron : 
+https://en.wikipedia.org/wiki/Perceptron
+Neural Network
+https://www.youtube.com/watch?v=aircAruvnKk
