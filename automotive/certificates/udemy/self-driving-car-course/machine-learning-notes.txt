@@ -15,7 +15,7 @@
             w : weights
     => Neuron 
         => Summation function
-        => activation function (binary : 0/1)
+        => activation function (step : 0/1)
 
     => 1 output layer 
 
@@ -35,10 +35,25 @@
         => feed forward + calculate error + back propagation
 
 ## MACHINE LEARNING ##
-... to be continue 
+
+- Learning technics 
+    - Supervised learning (SP)
+    - UnSupervised learning (NSP)
+    - reinforcement learning (RL)
+
+=> Supervised learning (SP) algorithms/model
+    - Regression
+        => Linear 
+        => Non-Linear 
+    - Classification 
+        => Linear model
+        => Non-Linear 
+
 
 # References 
 The perceptron : 
 https://en.wikipedia.org/wiki/Perceptron
 Neural Network
 https://www.youtube.com/watch?v=aircAruvnKk
+SP vs USP vs RL
+https://www.aitude.com/supervised-vs-unsupervised-vs-reinforcement/
