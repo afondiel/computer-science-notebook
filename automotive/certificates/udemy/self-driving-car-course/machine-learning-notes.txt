@@ -30,10 +30,18 @@
 
 ## MACHINE LEARNING ##
 
+- ML is the concept of building computational systems that learn overtime based on experience
+=> ML : the ability to learn w/ data 
+
+- ML workflow 
++------------+    +----------+     +----------+    +----------+
+| Algorithms | => |  Learn   | =>  | Improve  | => | Predict  |
++------------+    +----------+     +----------+    +----------+
+
 - ML Model types
-    - Supervised learning (SP)
-    - UnSupervised learning (NSP)
-    - reinforcement learning (RL)
+    - Supervised learning (SP) : teach algo based on dataset(feature/label)
+    - UnSupervised learning (USP) : large dataset, no label, find simularity/differency act in the info w/ (pre)training
+    - Reinforcement learning (RL) : conceptually similar to human learning processes (ex : robot learn to walk, talk...)
 
 => Supervised learning (SP) algorithms/model
     - Regression
@@ -113,7 +121,7 @@
     => step () : 
         => 0 if score < 0
         => 1 if score >= 0 
-    => sigmoid
+    => sigmoid (logistic function)
     => tanh
     => SoftMax
     => RELU
