@@ -61,3 +61,13 @@ ibm intro : https://www.youtube.com/watch?v=5ctbvkAMQO4&t=9s
 eureka : https://www.youtube.com/watch?v=5ctbvkAMQO4
 rasa : https://www.youtube.com/watch?v=PBzGxFxMCuA&list=PL75e0qA87dlFJiNMeKltWImhQxfFwaxvv
 frameworks : https://odsc.medium.com/10-notable-frameworks-for-nlp-ce8c4196bfd6
+
+research papers : 
+- analyticsindiamag :
+https://analyticsindiamag.com/10-must-read-technical-papers-on-nlp-for-2020/
+- slator :
+https://slator.com/here-are-the-best-natural-language-processing-papers-from-acl-2022/
+- paperdigest:
+https://www.paperdigest.org/category/nlp/
+- paper with code:
+https://paperswithcode.com/task/language-modelling
