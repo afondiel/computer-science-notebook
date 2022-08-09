@@ -1,25 +1,27 @@
-== Machine Learning notes ===  
+== Machine Learning (ML) notes ===  
 
-- Definition a field of AI algorithms that learn from EXAMPLES and EXPERIENCES instead of traditional HARDCODE and RULES
-- Application  : Apple and oranges detection
+- ML is a field of AI algorithms that learn from EXAMPLES and EXPERIENCES instead of traditional HARDCODE and RULES
 
-==> Tradictional coding  : too much rules ? 
+Ex : Apple and oranges detection
 
-Solution ML : Model / Classifier and train it to generate the RULES instead of writing them
+# ML vs Tradictional coding : 
 
-==> classifier (as function) : takes a data as input (FEATURES) and signs LABEL to it as output(LABELS) 
+- Tradictional coding  : too much rules 
+- ML : Model / Classifier and train it to generate the RULES instead of writing them
+
+- classifier (as function) : takes a data as input (FEATURES) and signs LABEL to it as output(LABELS) 
 
 i.e : input  : Fruit(apple or orange?) => Classifier => apple (if apple chose)
 	  ====> : email (spam/mail_ok) => Classifier => spam (if mail_nok)
 
-- Training the Model (CLassifier) 
+# Training the Model (CLassifier) 
 
-To TRAIN the Classifier : Supervised Learning or Non suspervised Learning	
+To Train the Classifier we use  : 
 
-* SL : it learns from examples/experiences
-* NSL : it learns from events ?   
+- Supervised Learning(SL) : it learns from examples/experiences
+- Non-Suspervised Learning(NSL) :  it learns from events ?  
 
-- The more the training data exists => the better the classifier Will be  
+- The more the training data exists => the better the classifier Will be 
 
 |--------|			|-----------| 		|-----------|
 |Collect |          |Train 	 	|       |Make 		|
@@ -27,9 +29,21 @@ To TRAIN the Classifier : Supervised Learning or Non suspervised Learning
 |	Data |          |			|       |			|
 |--------|          |-----------|       |-----------|
 
+# ML algorithms
+- Regression : Predicting a continuous-valued attribute associated with an object
+- Classification : Identifying which category an object belongs to
+- Clustering : Automatic grouping of similar objects into sets.
 
-===========  ML PIPELINE :  in 7 steps ======== 
+# ML Frameworks/tools : 
+- TensorFlow
+- PyTorch
+- Scikit-learn
+- Spark ML
+- Torch
+- Huggingface
+- Keras
 
+===========  ML Problem solving in 7 steps ======== 
 
 1. GATHERING / COLLECTING DATA : The more data we collect the more accurate will the model.
 - we collect datas to train the model of the system we want to deploy
@@ -98,12 +112,11 @@ Each iteration it's called, a training steps.
 5. EVALUATION : after the model is good time to evaluate
 
 
-
-|--------|			|-----------| 		|-----------|
-|        |          |   Model 	|       | 		    |
-|EVALUATION|    =>    |   (W,b)   |	=>  |Prediction |
-|	Data |          |			|       |			|
-|--------|          |-----------|       |-----------|
+|----------|		 |-----------| 		 |------------|
+|          |         |   Model 	 |       | 		      |
+|EVALUATION|  =>     |   (W,b)   |	=>   | Prediction |
+|	Data   |         |			 |       |			  |
+|----------|         |-----------|       |------------|
 
 					|-----------|			||
 	/\				| 		    |			\/
@@ -134,9 +147,26 @@ Output : Labels
 
 # References
 
-Josh gordon : https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
+Scikit learn :
+https://scikit-learn.org/stable/#
 
-Yufeng Guo/Google Cloud Plateform: https://www.youtube.com/watch?v=nKW8Ndu7Mjw
+TensorFlow : 
+https://www.tensorflow.org/resources/learn-ml
 
+Spark ML  : 
+https://spark.apache.org/docs/latest/ml-guide.html
+
+PyTorch : 
+https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html
+https://docs.microsoft.com/en-us/learn/paths/pytorch-fundamentals/
+
+Google course/ Josh gordon : 
+https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
+
+Google Cloud Plateform / Yufeng Guo: 
+https://www.youtube.com/watch?v=nKW8Ndu7Mjw
+
+IBM Cloud : 
 https://www.ibm.com/cloud/blog/supervised-vs-unsupervised-learning
+
 
