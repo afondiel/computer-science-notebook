@@ -3293,13 +3293,13 @@ MSE : Mean Square Error
 +------------------------------------------------------+
 	=> mathematically vector form : multidimensional space
 +--------------------+
-| ^y = (theta^T)^X   | 
+| ^y = (theta^T) x (X) | 
 +--------------------+
 	=> theta : vector of coeficients - the parameters/weight vector of the regression equation
 		=> dim(theta) = n by 1
 	=>(theta^T) : [theta0, theta1, theta2...]
 	=> T : transpose
-	=> ()^(): vectorial product 
+	=> ()x(): cross product 
 	=> X : vector of featured sets
 		[1]
 		[x1]
@@ -3317,7 +3317,7 @@ MSE : Mean Square Error
 - sum of residual errors (actual value - predicted values(from the model))
 ## Estimating multiple linear regression parameters
 - estimate theta ? 
-	=> Ordinary Least Squares
+	=> Ordinary Least Squares(Moindre au carré)
 		=> Linear algebra operations
 		=> Takes a long time for large datasets (10K + rows)
 	=> An optimization algorithm
@@ -3370,36 +3370,71 @@ MSE : Mean Square Error
 => Polynomial regression
 => Non-linear regression model 
 => Transform your data 
-
+ 
 # Lab1: Polynomial Regression
 # Lab2: Non-linear Regression
 Final Quiz
 
-/////////////////////////////
-/// W3 : Classification /////
-/////////////////////////////
+///////////////////////////
+/// W3 : Classification ///
+///////////////////////////
 
-*K-Nearest Neighbours*
-Introduction to Classification
-K-Nearest Neighbours
-Evaluation Metrics in Classification
-Lab: KNN
+/// K-Nearest Neighbours
 
-*Decision Trees*
-Introduction to Decision Trees
-Building Decision Trees
-Lab: Decision Trees
+# Introduction to Classification
+- A supervided learning approach
+- Categoring some unknown items into a discrete set of Categories or "classes"
+- learn the relationship btw a set of feature variable of interest 
+- The target attribute is a categorical variable
 
-*Logistic Regression*
-Intro to Logistic Regression
-Logistic regression vs Linear regression
-Logistic Regression Training
-Lab: Logistic Regression
+## How does classification work ? 
+- classification determines the class label for an unlabeled test case
 
-*Support Vector Machine*
-Support Vector Machine
-Lab: SVM (Support Vector Machines)
+- Modeling Binary Classifier : 
+						+------------+
+	Prediction 		=>	| Classifier | => Predicted Labels (0/1)
+(new input values)		+------------+
+- Same example for multi-classification except we'll have multiple labels
+
+## Applications : 
+- email filtering 
+- speech recognition
+- handwriting recognition
+- biometric identification
+- document classification ...
+
+## Classification algorithms in ML 
+- Decision Trees(ID3, C4.5, C5.0)
+- Naïve Bayes
+- Linear Discriminant Analysis
+- k-Nearest neighbor
+- Neural Networks
+- Support Vector Machines (SVM)
+...
+
+# K-Nearest Neighbours (KNN)
+- 
+
+# Evaluation Metrics in Classification
+# Lab: KNN
+
+/// Decision Trees
+# Introduction to Decision Trees
+# Building Decision Trees
+# Lab: Decision Trees
+
+/// Logistic Regression
+# Intro to Logistic Regression
+# Logistic regression vs Linear regression
+# Logistic Regression Training
+# Lab: Logistic Regression
+
+/// Support Vector Machine
+# Support Vector Machine
+# Lab: SVM (Support Vector Machines)
+
 Quiz
+
 
 /// W4 ///
 /// W5 ///
