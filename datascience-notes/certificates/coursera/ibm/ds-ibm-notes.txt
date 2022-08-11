@@ -3412,10 +3412,137 @@ Final Quiz
 - Support Vector Machines (SVM)
 ...
 
-# K-Nearest Neighbours (KNN)
-- 
+# K-Nearest Neighbours (k-NN)
+- Dataset example : 
+	=> A Telecommunication provider company has segmented his custumer base by service usage patterns
+	=> Categorizing the customers into four groups (1, 2, 3, 4...)
+	=> If demografic data can be used to predict group membership 
+	=> The company can cutomize offers for individual perperctive customers
+
+- Goal : to predict the new unknown case based on predefined labels ? 
+- Dataset structure : 
+	=> Xi : independent variables
+	=> Yi : dependent variables (groups of classes/labels)
+- find the closest cases and assign the same case label to the new values/features
+
+## What i K-Nearest Neighbors - KNN ? 
+- classification algorithm that takes a bunch of labeled points and uses them to learn how to label other points
+- A method for classifying cases based on their similarity to other cases 
+- Cases that are near each other are said to be "neighbors" 
+- Based on similar cases w/ same class labels are near each other
+- The distance btw two cases is a measure of their dissimilarity
+- the distance /dissimilarity btw Two data points be calculated  : 
+	=> Euclidean distance 
+
+## How it works ? 
+=> the algorithm look for the k-nearest neighbors (class) and do a majority vote among them to define the class of the new value (next case)
+=> the k-class is defined based on the number of nearest neighbors class around the case
+	1. Pick a value for K 
+	2. Calculate the distance of unknown case from all cases.
+	3. Select the K-observations in the training data that are "nearest" to the unknown data point
+	4. Predict the response of the unknown data point using the most popular response value from the K-nearest neighbors 
+
+## Calculating the similarity/distance in a K-dimensional space 
+- calculate the distance of two customers : Euclidean distance using Minkowski distance
++--------------------------------------+
+| Dis(x1, x2) = (Sum(x1i - x2i)^2)^1/2 |		=> where : i=0 ...n, and n is the number of feature
++--------------------------------------+
+- 2 customers have only one feature : their ages
+if n=1, feature1(x1 = 34), feature2(x2 = 30) 
+Dis = ((34 - 30)^2)^1/2 = 4 => Class/group : 4
+if n=2 ... same approach
+
+## What is the best value of K for KNN ? 
+- K and KNN, is the number of nearest neighbors to examine (specified by the user) 
+- Choosing the right K ?
+	=> the algorithm look for the k-nearest neighbors (class) around the new case and do a majority vote among them to define the class of the new value (new case)
+	=> in cas we capture the less voted class => our data is noisy 
+	=> low value of K causes a highly complex model (overfitting)
+- General solution ?
+	=> separate data for testing the accuracy of the model 
+	=> choose K=1 use the training part for modeling and calculate the accuracy of prediction using all samples in the testset
+	=> the process is repeated increasing the K and see which K is best for the model
+## Computing continuous target using KNN
+- KNN can also be used for regresion 
+- we use the average/median of the NN is used to predicted value for the new case 
 
 # Evaluation Metrics in Classification
+- How accurate is the model ? 
+	=> y - yhat = ? 
+	=> where - y : actual labels
+			 - yhat : predicted labels
+- Model evaluation helps up improve the model 
+=> Jaccard index
+=> F1-score
+=> Log Loss 
+
+## Jaccard index (Jaccard Similarity coefficient)
+- y : actual labels
+- yhat : predicted labels
++------------------------------------------------------+
+| J(y , yhat) = |y intersection yhat| / |y union yhat| |
++------------------------------------------------------+
+				or
++-------------------------------------------------------------------------------+
+| J(y , yhat) = |y intersection yhat| / (|y| + |yhat| - |y intersection yhat|)  |
++-------------------------------------------------------------------------------+
+Ex: labels values 
+y :    [0,0,0,0,0,1,1,1,1,1]
+yhat : [1,1,0,0,0,1,1,1,1,1]
+
+J(y, yhat) = 8/(10 + 10 - 8) = 0.66
+
+- high vs low accuracy 
+hight  : J(y, yhat) = 1,0, if all labels matches 
+low : J(y, yhat) = 0, othewise  
+
+## F1-score(confusion matrix/heatmap):
+- Confusion matrix shows the model ability to correctly predict or separate the classes 
+		  +-------+------+
+churn =1  |	  TP  | FN   |
+		  +-------+------+
+churn = 0 |   FP  | TN   |
+		  +-------+------+
+		  churn=1  churn=0
+
+- in case of Binary classification : the number inside the matrix boxes indicates the count of predicted label 
+	=> TP : True Positive 
+	=> FN : False Negative 
+	=> TN : True Negative 
+	=> FP : False Positive   
++---------------------------+
+| Precision  = TP/(TP + FP)	|
++---------------------------+
+=> true positive rate
++-----------------------+
+| Recall = TP/(TP + FN) |
++-----------------------+
+F1-score : 
++------------------------------------+
+|F1-score = 2x(prc x rec)/(prc + rec)|
++------------------------------------+
+=>where F1-score range [0 ...1], 
+0 : closest to 0 low accuracy/worst 
+1 : closest to 1 high accuracy/best
+
+## Log loss 
+- measures the performance of a classifier where predict output is a probability value btw 0 and 1
++--------------------------------------+
+|y x log(yhat) + (1 - y)xlog(1 - yhat) |
++--------------------------------------+
+
+- measures how far the prediction is from actual label 
++-----------------------------------------------------------+
+| LogLoss = -1/n[Sum(y x log(yhat) + (1 - y)xlog(1 - yhat))] |
++------------------------------------------------------------+
+LogLoss => Low => Better accuracy 
+
+=>where LogLoss range [0 ...1], 
+0 : closest to 0 high accuracy/best 
+1 : closest to 1 low accuracy/worst 
+
+/!\ The classifier with lower log loss has better accuracy 
+
 # Lab: KNN
 
 /// Decision Trees
