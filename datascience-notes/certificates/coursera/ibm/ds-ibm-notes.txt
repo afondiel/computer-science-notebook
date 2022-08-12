@@ -3547,7 +3547,67 @@ LogLoss => Low => Better accuracy
 
 /// Decision Trees
 # Introduction to Decision Trees
+- example : Medical Dataset about patients suffering from the same illness and each patient was treated different medication : drugs A, B
+	=> The dataset has set of feature about the patient : age , sex, BP(Blood Pressure), Cholesterol level, Drug (A, B)
+	=> Problem trying to guess which medication(drug) to prescribe to new Patient with the same illness
+	=> Class : Drug A, Drug B => binary classification scenario
+
+- Modeling Decision Tree : 
+						+----------------+
+	Prediction 		=>	|  Decision Tree | => Predicted Labels
+(new input values)		+----------------+
+
+## Building a decision tree with the training set 
+- Decision trees are built by splitting the training set into distinct nodes
+		+-------+
+	 	|  Age  |
+		+-------+ 
+		/   |   \
+	  /     |     \ 
+ Young 	 mid-age Senior
+ 	 |		|		  |
+	 Sex 	B		Cholesterol
+	 / \  	 		 / \
+    /   \   		/   \
+   F  	 M    	   high Normal
+   | 	 |			|	 |
+   A 	 B			B	 B
+- DT is about testing an attribute and branching the cases based on the result of the test 
+- Each internal node corresponds to a test (*sex)
+- each branch corresponds to a result of the test(*M)
+- Each leaf node assigns a classification
+
+## Decision tree learning algorithm
+- A decision tree can be constructed by considering the attributes one by one 
+1. Choose an attribute from your dataset 
+2. Calculate the significance of attribute in splitting of data 
+3. Split data based on the value of the best attribute
+4. Go to step 1. (repeat)
+
 # Building Decision Trees
+- DT are built using recursive partitioning to classify the data 
+- The algorithm choose the most predictive feature to split the data on
+## Which attribute is the best ? 
+	=> More predictiveness
+	=> Less Impurity
+	=> Lower Entropy 
+- Impurity of nodes is calculated by entropy of data in the node 
+- Entropy : is the amount of information disorder or the amount of randomness in the data 
+	=> The lower the Entropy, the less uniform the distribution, the purer the node
+ 			+-------------------------------------------+
+ 			| Entropy = - p(A)log(p(A)) - p(B)log(p(B)) |
+ 			+-------------------------------------------+ 
+- calculate by the python library 
+/!\ The tree with the higher *Information Gain* after splitting 
+
+##  Information Gain
+- IG - information that can increase the level of certainty after splitting
+- IG opposite of entropy
+ 	+---------------------------------------------------------------------+
+ 	| IG = (Entropy before split) - (weighted Entropy before after split) |
+ 	+---------------------------------------------------------------------+ 
+- We start the decision tree with the best attribute
+
 # Lab: Decision Trees
 
 /// Logistic Regression
