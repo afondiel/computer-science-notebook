@@ -3612,8 +3612,150 @@ LogLoss => Low => Better accuracy
 
 /// Logistic Regression
 # Intro to Logistic Regression
+- Classification algorithm for categorical variables
+- Ex : predict customer churn  
+- analogous to linear regression but tries to predict a categorical or discrete target field instead of a numeric one
+- Predict a variable which is binary such as yes/no, true/false, successful/not successful, pregnant/not pregnant=> 0/1
+- independent variables should be continuous 
+	=> for categorical case : dummy/Indicator coded => has to be transformed to some continiuous values
+
+## Application  : 
+- use Binary or multi-class classification
+	=> Predicting the probability of a person having a heart attack  
+	=> Predicting the mortality in injured patients
+	=> Predicting a customer's propensity to purchase a product or halt a subscription
+	=> Predicting the probability of a failure of a given process or product
+	=> Predicting the likelihood of a homeowner defaulting on a mortgage
+
+## When to use  ? 
+- If the data is binary (0/1, YES/NO, True/False...)
+- If a probabilistic results is needed 
+- When a linear decision boundary is needed 
+- To understand the impact of a feature 
+
+## Modeling 
+- predict the class of each sample ...
+
+- X : independent variable => X E |R ^(mxn) 
+- Y : dependent variable => y E {0, 1}
+
++-----------------+
+|yhat = P(y=1|x)  |		=> P : probability
++-----------------+
+- Predicting y = 1 given x
+
++--------------------------+
+| P(y=0|x) = 1 - P(y=1|x)  |
++--------------------------+
+
 # Logistic regression vs Linear regression
+- Linear regression : Y = a*X + b = (theta^T x X) 
+	=> not good enough for categorical cases 
+	=> too error !!!
+- Logistic regression
+
+## Sigmoid function 
+- Like a step function but less error and gives more information in probability form 
++------------------------------------------------+
+| Sigma(theta^T x X) = 1/(1 + e^-(theata^T x X)) |
++------------------------------------------------+
+
+P(y=1|x) => proba increases close to 1 => Sigma(theta^T x X) = 1	 
+P(y=1|x) => proba decreases close to 0	=> Sigma(theta^T x X) = 0 
+
+Sigma(theta^T x X) = [0, 1]
+
+## Classifying an specific model 
+- Churn case : 
+	=> P(y=1|x)
+	=> P(y=0|x) = 1 - P(y=1|x)
+
+P(y=1|income, age) = 0.8 
+P(y=1|income, age) = 1 - 0.8 = 0.2 
+
+Sigma(theta^T x X) 	   => P(y=1 | x) 
+1 - Sigma(theta^T x X) => P(y=0 | x) 
+
+## Training process 
+
+1. Initialize Theta 
+	=> Theta = [-1, 2]
+2. Calculate yhat = Sigma(theta^T x X) for a customer
+	=> yhat  = Sigma([-1, 2] x [2,2]) = 0.7
+3. Compare the output of yhat with actual output of customer, y, and record it as error 
+	=> Error = 1 - 0.7 = 0.3
+4. Calculate the error for all customers
+	=> Cost = J(Theta)
+5. Change the Theta to reduce the cost 
+	=> NEW Theta
+6. Go back to step 2
+
+- when stop training => When the model is satifactory
+
 # Logistic Regression Training
+- Goal : change the parameter of the model to be the best estimation of the labels of the samples in the dataset 
+
+Sigma(theta^T x X) 	=> P(y=1 | x) 
+- Change the weight => Reduce the cost
+- Cost function 
+	=> Cost(yhat, y) = 1/2(Sigma(theta^T X) - y)^2 ... ^2 : to avoid negative value 
+
+- Total cost/Mean Squere Error:  
++------------------------------------+
+| J(Theta) = 1/m*Sum(Cost(yhat, y)   | ... where i = 1 ... m 
++------------------------------------+
+- Find the minimum error value close to desirable estimated value 
+- (-log) function fits best  
+
+## Cost function : 
+
+Cost(yhat, y) = | -log(yhat) 	 => if y = 1 
+				| -log(1 - yhat) => if y = 0 
+
++------------------------------------------------------------------+
+| J(Theta) = -1/m*Sum[y^i*log(yhat^i) + (1 - y^i)*log(1 - yhat^i)] |
++------------------------------------------------------------------+
+
+## Minimizing the cost function of the model 
+- How to find the best parameters for our model ? 
+	=> Minimize the cost function 
+- How to minimize the cost function  ?
+	=> Using Gradient Descent 
+- What is gradient descent ? 
+	=> A technique to use the derivative of a cost function to change the parameter values, in order to minimize the cost 
+
+## Gradient Descent 
+- Main goal : change the parameter values so as to minimize the cost 
+- Calculate the gradient of the cost function 
+	=> The slope of the surface ate every point and the direction of the gradient is the direction of the greatest uphill 
+- Gradient descent takes smaller steps toward the minimum function 
+- derivative of J(Theta)
+
++-----------------------------------------+
+| dJ/dTheta1 = -1/m*Sum[y^i - yhat^i)x1^i | ... for theta1  
++-----------------------------------------+
++-----------------------------------+
+| NewTheta = OldTheta - Niu*DeltaJ |
++----------------------------------+
+
+Where : 
+- Niu : Learning rate (lenght of step until the minimum value)
+- DeltaJ : Vector of the derivative of J(Theta1, Theta2, Theta3 ... )
+
+## Training algorithm recap 
+1. initialize the parameters Randomly 
+	=> Theta^T = [Theta0, Theta1, Theta2, ...] 
+2. Feed the cost function with training set, and calculate the error 
+	=> J(Theta)
+3. Calculate the gradient of cost function 
+	=> DeltaJ = [dJ/dTheta1, dJ/dTheta2, dJ/dTheta3 ...]
+4. Update weights with new values 
+	=> NewTheta = OldTheta - Niu*DeltaJ
+5. Go to step 2 until cost is small enough 
+	=>
+6. Predict the new customer X 
+	=> P(y=1 | x) = Sigma(Theta^T X) 
+
 # Lab: Logistic Regression
 
 /// Support Vector Machine
@@ -3637,7 +3779,7 @@ Course 10 : APPLIED DATA SCIENCE CAPSTONE
 ///W3///
 
 
-
+ 
 ##########################################################################
 
 # ToolBox
