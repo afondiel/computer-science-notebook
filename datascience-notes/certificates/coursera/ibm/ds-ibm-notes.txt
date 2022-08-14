@@ -3759,11 +3759,48 @@ Where :
 # Lab: Logistic Regression
 
 /// Support Vector Machine
-# Support Vector Machine
-# Lab: SVM (Support Vector Machines)
+# Support Vector Machine (SVM)
+- Supervised algorithm that classified cases by finding a separator
+1. Mapping data to a high-dimensional feature space 
+2. Finding a separator (by hyperplane)
+
+## Data transformation
+- 1D => 2D => 3D ....
+- using kernelling  : 
+	=> Linear 
+	=> Polynomial
+	=> RBF 
+	=> Sigmoid 
+	...
++---------------------+
+| Phi(x) = [x, x^2]	  |
++----------------------+
+## Find hyperplane 
+- SVM is absed on the idea of find a hyperplane that best devide the dataset int two classes
+ w^T x + b = -1
+ w^T x + b = 0 
+ w^T x + b = 1
+
+ ## Pros and Cons 
+ Pros : 
+ - Accurate in high-dimmensional
+ - Memory efficient 
+Cons : 
+- Prone to over-fitting
+- No probability estimation 
+- Small datasets (<1000 rows )
+
+## Applications 
+- Image recognition
+- Text category assignement
+- Detecting spam 
+- Sentiment analysis 
+- Gene Expression Classification 
+- Regression, Outlier detection and clustering 
+
+# Lab: SVM 
 
 Quiz
-
 
 /// W4 ///
 /// W5 ///
