@@ -4000,6 +4000,32 @@ time it is run due to random initialization of centroids
 
 //// Density-based Clustering
 # DBSCAN
+- used for spatial data analysis
+- locates regions of high density, and separates outliers (or region of low density)
+- density : numbers of points withing a specified radius 
+- Most popular : DBSCAN !!!
+
+## DBSCAN for class identification
+- find out any arbitrary shaped cluster without getting effected by noise 
+- how it works ? 
+	DBSCAN (Density Based Spatial Clustering of Applications with Noise)
+	- Is one of the most common clustering algorithms
+	- Works based on density of objects  
+	=> R(Radius of neighborhood)
+		=> Radius(R) that if includes enough number of points within, we call it a dense area 
+	=> M(Min number of neighbors)
+		=> The minimum
+identify the type of point : 
+	=> core point : in the neighborhood are at least M points
+	=> border point : neighborhood contains less than M points/it's reachable from some core point
+	=> outlier point : not core point neither reachable from core point 
+group the point as cluster 
+
+## Advantages
+1. arbitrarily shaped cluters 
+2. Robust to outliers 
+3. Does not require specification of the number of clusters 
+
 # Lab: DBSCAN Clustering
 
 /// W5 ///
