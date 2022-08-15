@@ -1258,7 +1258,7 @@ Module 3: From Deployment to Feedback
 Machine learning when to use ? 
 - learn w/out explicitily programmed
 - identifies relationships and trends in data that might otherwise not be accessible or identified
-- Uses clustering association approach => human behaiviour
+- Uses clustering association approach => human behaviour
 
 ## Case Study : 
 - Decision Tree classification ? 
@@ -3802,7 +3802,149 @@ Cons :
 
 Quiz
 
-/// W4 ///
+///////////////////////////
+/// W4 : Clustering     ///
+//////////////////////////
+
+//// k-Means Clustering
+# Intro to Clustering
+- Dataset example : Custumer data for segmentation study 
+- finding clusters in a dataset unsupervised
+- cluster : group of objects that are similar to other objects in the cluster, and dissimilar to data points in other clusters 
+
+## Clustering vs Classification
+- Classification algorithms predict categorical classed labels
+	=> assigns instances to predefined classes such as defaulted/not defaulted 
+	=> model/algo : kNN, Decision Tree, logistic regression ...
+- Clustering : the data is unlabeled and the process is unsupervised
+
+## Clustering applications 
+- RETAIL/MARKETING : 
+	=> Identifying buying patterns of customers (based on geographic location ...)
+	=> Recommendation new books/movies to new customers  
+- BANKING : 
+	=> Fraud detection in credict card use 
+	=> Identifying clusters of customers(e.g., loyal)
+- INSURANCE : 
+	=> Fraud detection in claims analysis 
+	=> Insurance risk of customers 
+- PUBLICATION : 
+	=> Auto-categorizing news based on their content 
+	=> Recommending similar news articles 
+- MEDECINE : 
+	=> Characterizing patient behavior 
+- BIOLOGY : 
+	=> Clustering genetic markers to identify family ties 
+## Usage : 
+- Exploratory data analysis
+- Summary generation 
+- Outlier detection 
+- Finding duplicates 
+- Pre-processing step 
+
+## Clustering algorithms
+- partitioned-based clustering : produces sphere-like clusters ... (medium large sized db)
+	=> Relatively efficient 
+	=> Ex : k-Means, k-Median, Fuzzy c-Means
+- Hierarchical clustering : produces tree clusters ... (small sized data)
+	=> Produces trees of clusters 
+	=> Eg : Agglomerative, Divisive ... 
+- Density-based Clustering 
+	=> Produces arbitrary shaped clusters 
+	=> Eg : DBSCAN 
+
+# Intro to k-Means
+- application : 
+	=> customer segmentation 
+- k-Means algorithms : 
+	=> partitioning clustering 
+	=> k-means divides the data into non-overlapping subsets(clusters) without any cluster-internal structure 
+- Examples within a cluster are very similar 
+- Examples across diffrent clusters are very different 
+
+- calculate similarity/dissimilarity
+- k-means : intra-cluster distances are minimized and maximized
+## calculate similarity : 
+- Euclidean distance, cosine similarity, average distance and so on ... 
+
+## k-Means algorithm
+1. Initialize k=3, 
+- centroids randomly 
+	=> choose randomly 3 observations from the dataset and use these observations as the inital means 
+	=> create 3 random point as centroids : C1[x1, y1], C1[x1, y1], C3[x3, y3] (for k=3) in the plan (2D)
+2. Distance calculation 
+- using matrix of distance (Distance Matrix)
+- each row represents the distance of a customer from each centroid 
+
+	C1			C2 		  C3
+ [d(p1, c1) d(p1, c2) d(p1, c3)]
+ [d(p2, c1) d(p2, c2) d(p2, c3)]
+ [d(p3, c1) d(p3, c2) d(p3, c3)]
+ [d(pn, c1) d(pn, c2) d(pn, c3)]
+
+- Main objective of k-Means : is to minimize the distance of data points from the centroid of this cluster and maximize the distance from other cluster centroids. 
+
+3. Assign each point to the closest centroid
+- find the closest centroid to each data point
+	=> how using DISTANCE MATRIX 
+
+- SSE = the sum of the squared difference btw each point and its centroid 
+		+----------------------+
+	=>  | SSE = Sum(xi - Cj)^2 | ... where i = 1 ... n 
+		+----------------------+
+- To minimize the error : total distance of all members of a cluster from its centroid be minimized 
+	=> move centroids!!!!
+
+4. Compute the new centroid for each cluster 
+- How ? 
+	=> Change the centroid position
+	=> each of the three cluster becomes the new mean
+	=> recluster again and again  
+
+5. Repeat until there are no more changes 
+- each iteration moves the centroid 
+- calculate the distance from new centroid and assign data points to the nearest centroid 
+- The clusters with minimum error or the moste dense cluster 
+Cons : no garantee to a global coverage 
+=> rechoose the initial random centroid 
+=> repeat the calculation again until the outcome be the optimum 
+
+# More on k-Means
+1. Randomly placing k centroids, one for each cluster 
+2. Calculate the distance of each point from each centroid 
+3. Assign each data point(object) to its closest centroid, creating a cluster 
+4. Recalculate the position of the k centroids 
+5. Repeat the steps 2-4, until the centroids no longer move
+
+## k-Means accuracy 
+- External approach
+	=> Compare the clusters with the ground truth, if it is available
+	=> we don't use this approach in real world problems because k-Means is unsupervised
+- Internal approach 
+	=> Average the distance btw data points within a cluster
+## Choosing k 
+- number of cluster in the dataset 
+- it depends on the shape and scale of the distribution of points in a dataset 
+	=> General approach : run the cluster with different value of k  and the matrix od accuracy for clustering
+	=> Generally increse the k will always reduce the error
+	=> The elbow point is determined where the rate of decrease sharply shifts.
+
+## Recap 
+- Med and Large sized databases (Relatively efficient)
+- Produces sphere-like clusters 
+- Needs number od cluster(k)
+
+# Lab: k-Means
+
+//// Hierarchical Clustering
+# Intro to Hierarchical Clustering
+# More on Hierarchical Clustering
+# Lab: Agglomerative clustering
+
+//// Density-based Clustering
+# DBSCAN
+# Lab: DBSCAN Clustering
+
 /// W5 ///
 /// W6 ///
 
