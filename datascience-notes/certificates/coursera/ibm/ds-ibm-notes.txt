@@ -3936,9 +3936,66 @@ Cons : no garantee to a global coverage
 
 # Lab: k-Means
 
-//// Hierarchical Clustering
+//// Hierarchical Clustering (HC)
 # Intro to Hierarchical Clustering
+- build a hierarchy of clusters where each node is a cluster consists of clusters of its daughter nodes
+- two types : 
+	=> Divisive (top-down) :  starts all observations in a large cluster and break it down into smaller pieces 
+		=> Divisive : Dividing the clusters 
+	=> Agglomerative (botton-top) : opposite to Divisive. Each observation start in its own cluster and pairs of clusters are merged together as they move up the hierarchy  
+		=> Amass/collect things ...
+		=> Most popular among Data Scientist 
+
+## Agglomerative clustering
+- builds the hierarchy from the individual elements by progressively merging clusters 
+- visualize as Dendrogram 
+	=> x: Each merge is represented by horizontal line 
+	=> Y : two or more cluster merged (viewed as singleton clusters) 
+	=> by moving from down-up, we can reconstruct the history of merges
+
 # More on Hierarchical Clustering
+1. Create n clusters, one for each data point 
+2. Compute the proximity Matrix 
+3. Repeat
+	3.1 Merge the two closest clusters 
+	3.2 Update the proximity matrix 
+4 Until only a single cluster remains
+
+## Distance btw clusters
+- the distance of a single data point(one feature) can be calculated using the Similarity/dissimilarity matrix 
+	=> however the distance btw two datapoint(more than two features) within the a cluster look more complicated
+- it depends on the nature of dataset, size  ... 
+
+### General creterial ####
+- Single-Linkage Clustering 
+	=> Minimum distance btw cluster
+- Complete-Linkage Clustering 
+	=> Maximum distance btw clusters
+- Avg Linkage Clustering
+	=> Avg distance btw clusters 
+- Centroid Linkage Clustering 
+	=> Distance btw cluster centroids 
+
+## PROS VS CONS 
+PROS : 
+- Doesnt required numer of cluster to be specified 
+- easy to implement 
+- Produces a dendrogram, which helps with understanding the data 
+
+CONS : 
+- Can never undo any previous steps throughout the algorithm 
+- Generally has long runtimes 
+- Sometimes difficult to identify the number of clusters by the dendrogram 
+
+## Hierarchical clustering Vs k-Means 
+K-Means --------------------- Hierarchical clustering
+1. Much more efficient ----- Can be slow for large datasets 
+2. required the number of clusters to be specified ---- Doesnot require the number of clusters to run 
+3. Gives only one partitioning of the data based ----- Gives more than one partitioning depending on the resolution 
+on the predefined number of clusters 
+4. Potentially returns different clusters each ------------- Always generates tha same clusters 
+time it is run due to random initialization of centroids 
+
 # Lab: Agglomerative clustering
 
 //// Density-based Clustering
