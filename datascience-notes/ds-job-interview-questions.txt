@@ -1,4 +1,4 @@
-======= Data Science Interview Questions Ressources =========
+======= Data Science Interview Questions Resources =========
 
 - interview preparation 
 
