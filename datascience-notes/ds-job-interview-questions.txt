@@ -1,0 +1,56 @@
+======= Data Science Interview Questions Ressources =========
+
+- interview preparation 
+
+Data interview pro  : 
+https://www.youtube.com/watch?v=yhjK6fC68eU
+
+# References 
+simplilearn : 
+https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions
+YT : https://www.youtube.com/watch?v=EGLw-Oht48E 
+
+interviewbit : 
+https://www.interviewbit.com/data-science-interview-questions/
+
+Python : 
+https://www.youtube.com/watch?v=eNt-IvCi7a0
+
+
+Joma Agenda : 
+https://www.youtube.com/watch?v=4Z6lxfglvUU
+- Technical interview : SQL, Python ...
+- Quantitative/Maths interview : Descriptive Statistic, probability, optimization ...
+- Product Interview : metrics(in the data) to improve the products ...
+Getting DS job : 
+https://www.youtube.com/watch?v=MfP-P8EHGBo
+
+Glassdoor : 
+https://www.glassdoor.fr/Entretien/%C3%A9tats-unis-data-scientist-questions-entretien-d-embauche-SRCH_IL.0,10_IN1_KO11,25.htm
+
+Nextdoor : 
+https://nextdoor.com/pages/neil-kiz-los-altos-ca/
+
+Udemy : 
+https://www.udemy.com/course/data-science-interview-preparation-guide/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879424134_._ad_535397245863_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_9056265_._pd__._&matchtype=&gclid=Cj0KCQjwgO2XBhCaARIsANrW2X16YsC2TClV0bzUHRRd5CsqZDqAYCt93D-4PMU6dzJj80OnxOmuQtsaAvojEALw_wcB
+
+Coursera : 
+https://www.coursera.org/learn/career-guide-and-interview-prep-for-data-science-pc
+
+Udacity : 
+https://www.udacity.com/course/data-science-interview-prep--ud944
+
+Eureka :
+https://www.youtube.com/watch?v=tTAieUcNHdY
+
+Google : 
+https://www.youtube.com/watch?v=3qcnfThYNcg
+
+amazon : 
+https://www.youtube.com/watch?v=M9W23ulRTdw
+
+Facebook : 
+https://www.youtube.com/watch?v=SuFBqXK270w
+
+Apple : 
+https://www.youtube.com/watch?v=Fd7A4bi6d_o
