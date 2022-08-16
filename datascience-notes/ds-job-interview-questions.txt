@@ -25,6 +25,9 @@ https://www.youtube.com/watch?v=4Z6lxfglvUU
 Getting DS job : 
 https://www.youtube.com/watch?v=MfP-P8EHGBo
 
+Kaggle feed : 
+https://www.kaggle.com/questions-and-answers/181481
+
 Glassdoor : 
 https://www.glassdoor.fr/Entretien/%C3%A9tats-unis-data-scientist-questions-entretien-d-embauche-SRCH_IL.0,10_IN1_KO11,25.htm
 
@@ -54,3 +57,4 @@ https://www.youtube.com/watch?v=SuFBqXK270w
 
 Apple : 
 https://www.youtube.com/watch?v=Fd7A4bi6d_o
+
