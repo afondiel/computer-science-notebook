@@ -1,19 +1,76 @@
 == Agenda == 
 
-MS Excel with Analysis ToolPack
-Java, Python
-R, R-studio, Rattle
-Weka, Knime, RapidMiner
-Hadoop Dist of Choice
-Spark, Storm
-Flume, Scribe, Chukwa
-Nutch, Talend, ScraperWiki
-WebScrapper, Flume, Sqoop
-tm, RWeka, NLTK
-RHIPE
-D3.js, ggplot2, Shiny
-IBM LanguageWare
-Cassandra, MongoDB
+# MS Excel with Analysis ToolPack
+# Java, Python
+# R, R-studio, Rattle
+# Weka, Knime, RapidMiner
+# Hadoop Dist of Choice
+# Spark, Storm
+# Flume, Scribe, Chukwa
+# Nutch, Talend, ScraperWiki
+# WebScrapper, Flume, Sqoop
+# tm, RWeka, NLTK
+# RHIPE
+# D3.js, ggplot2, Shiny
+# IBM LanguageWare
+# Cassandra, MongoDB
+
+=== Notes ====
+
+# MS Excel with Analysis ToolPack
+# Java, Python
+# R, R-studio, Rattle
+# Weka, Knime, RapidMiner
+# Hadoop Dist of Choice
+# Spark, Storm
+# Flume, Scribe, Chukwa
+# Nutch, Talend, ScraperWiki
+# WebScrapper, Flume, Sqoop
+# tm, RWeka, NLTK
+# RHIPE
+# D3.js, ggplot2, Shiny
+# IBM LanguageWare
+# Cassandra, MongoDB
+
+
+
+# References 
+
+# MS Excel with Analysis ToolPack
+https://www.youtube.com/watch?v=B60rozw34Sc
+https://www.youtube.com/watch?v=I1XeDS-GLbg
+
+# Python, C++, Java, SQL 
+Python : https://github.com/afondiel/research-notes/tree/master/programming/languages/python-notes
+C++ : https://github.com/afondiel/research-notes/tree/master/programming/languages/cpp-notes
+Java : https://github.com/afondiel/research-notes/tree/master/programming/languages/java-notes
+SQL : https://github.com/afondiel/research-notes/tree/master/programming/languages/sql-notes
+    Mosh : https://www.youtube.com/watch?v=7S_tz1z_5bA
+
+# R, R-studio, Rattle
+R : https://github.com/afondiel/research-notes/tree/master/programming/languages/r-notes
+
+# Tableau, Power BI 
+Tableau : https://www.youtube.com/watch?v=TPMlZxRRaBQ
+Power BI: https://www.youtube.com/watch?v=3u7MQz1EyPY
+        https://www.youtube.com/watch?v=glA5eG8s0Pw
+# Weka, Knime, RapidMiner
+# Hadoop Dist of Choice
+https://www.youtube.com/watch?v=1vbXmCrkT3Y
+
+# Spark, Storm
+    PySpark : https://www.youtube.com/watch?v=_C8kWso4ne4
+
+# Flume, Scribe, Chukwa
+# Nutch, Talend, ScraperWiki
+# WebScrapper, Flume, Sqoop
+# tm, RWeka, NLTK
+# RHIPE
+# D3.js, ggplot2, Shiny
+# IBM LanguageWare
+# Cassandra, MongoDB
+
+
 
 
 
