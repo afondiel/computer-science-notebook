@@ -31,9 +31,8 @@ CAN = Control Area Network : standards that define how ECUs communicate to each 
 +------------------------+--------------------------+
  
 * Physical Laye(bit level): wire canh/canL, resistance,  baud, timing bit, package of 0/1
-* DataLink Layer(frame level) : frame id, lenght, Tx : CN4 Telemetry / Rx : SRC
-* Transport Layer : J1939 ? => 
-* Application Layer : Machine/Tractor
+* DataLink Layer(frame level) : frame id, lenght, Tx Node / Rx Node
+* Application Layer : Machine/Tractor/Automobile ..
 
 * CAN PROTOCOL *
 
