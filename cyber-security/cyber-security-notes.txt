@@ -1,0 +1,10 @@
+============ cyber-security Notes =============
+
+
+# References 
+Computer security : 
+https://en.wikipedia.org/wiki/Computer_security
+Cryptography
+https://en.wikipedia.org/wiki/Cryptography
+Turing_machine
+https://en.wikipedia.org/wiki/Turing_machine
