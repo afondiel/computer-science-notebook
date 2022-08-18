@@ -1,21 +1,27 @@
-============ Maths for DS ============
+============ Maths for Data Science Notes ============
 
 - Statistics & Probability 
 - Linear Algebra 
 - Mathematical Optimization 
 - Calculus
 
-* Application
+# Application
 
-- Specific data Science tasks & math you need to know for them
- 
+- Specific data Science tasks & math : 
  => Experimental design : commonly applied as A/B testing
  => Data processing : for model preparation or analysis
- =W Modeling : Building/Optimizing/ Performance Evaluation  
-
+ => Modeling : Building/Optimizing/ Performance Evaluation  
 
 
 # references :
 
 https://www.youtube.com/watch?v=eJtHzkMy_1k
 https://www.youtube.com/watch?v=AycMp7X9Z20
+
+FreeCodeCamp : Maths for programmers 
+https://www.youtube.com/watch?v=2SpuBqvNjHI
+
+A/B testing : 
+https://www.youtube.com/watch?v=DUNk4GPZ9bw
+https://www.youtube.com/watch?v=X8u6kr4fxXc
+https://en.wikipedia.org/wiki/A/B_testing
