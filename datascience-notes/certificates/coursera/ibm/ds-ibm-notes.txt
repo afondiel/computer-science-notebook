@@ -3808,7 +3808,7 @@ Quiz
 
 //// k-Means Clustering
 # Intro to Clustering
-- Dataset example : Custumer data for segmentation study 
+- Dataset example : Customer data for segmentation study 
 - finding clusters in a dataset unsupervised
 - cluster : group of objects that are similar to other objects in the cluster, and dissimilar to data points in other clusters 
 
@@ -3860,7 +3860,7 @@ Quiz
 	=> partitioning clustering 
 	=> k-means divides the data into non-overlapping subsets(clusters) without any cluster-internal structure 
 - Examples within a cluster are very similar 
-- Examples across diffrent clusters are very different 
+- Examples across different clusters are very different 
 
 - calculate similarity/dissimilarity
 - k-means : intra-cluster distances are minimized and maximized
@@ -4028,8 +4028,176 @@ group the point as cluster
 
 # Lab: DBSCAN Clustering
 
-/// W5 ///
-/// W6 ///
+/// W5 : Recommender Systems ///
+# Intro to Recommender Systems
+- Recommender systems capture the pattern of peoples behavior and use it to predict what else they might want or like. 
+- people tend to like things in the same category/things that share the same characteristics 
+
+## Applications :
+- What to buy ? 
+	=> E-commerce, books, movies, beer, shoes ...
+	=> Amazon : 
+
+- Netflix : everything is driven by customer selection
+	=> if a movie gets viewed frequently or not.
+	=> Its recommendation systems ensures that movie get an increasing number of recommendation
+- The recommender engine is used to recommend anything from where to eat/ what job to applys to. 
+- Where to eat ? 
+	=> UberEats
+- Which job to apply to ?
+	=> Linkedin : 
+- Who you should be friends with ? 
+	=> Facebook, instagram, Twitter ...
+- Personalize your experience on the web 
+	=> News platforms, news personalization ...
+	=> News platform website, a recommender system makes note of : types of stories that you clicked on/make recommendation on which types of stories you might be interested in reading in future ...
+## Some advantages : 
+- Broader exposure
+- Possibility of continual usage or purchase of products 
+- Provides better experience 
+
+## Types recommender systems
+1. Content-Based : Show me more of the same of what I've liked before(visually browsing...) => Similar items"
+	=> User's favorite aspects of an items are, and then make recommendations on items that shares thoses aspects  
+2. Collaborative Filtering : "Tell me what's popular among my neighbors, I also might like it => Similar preferences"
+	=> based on trends of what other people like 
+3. Hybrid recommendations systems : combines both 
+
+## Implementing recommender systems
+1. Memory-based 
+	- Uses the entire user-item dataset to generate a recommendation 
+	- Uses statistical techniques to approximate users or items 
+		e.g : Pearson Correlation, Cosine Similarity, Euclidean Distance, etc 
+
+2. Model-based 
+	- Develops a model of users in an attempt to learn their preferences 
+	- Models can be created using Machine Learning technoques like regression, clustering, classification, etc ...
+
+# Content-based Recommender Systems : 
+- Try to recommend items to users based on their profile 
+- The user's profile revolves around that users preferences and tastes
+- it's shaped based on : 
+	=> user ratings 
+	=> number of times that user has clicked on different items or perhaps even liked those items
+- The recommendation process is based on the similarity between those items 
+	=> similarity is measured based on the similarity in the content of those items 
+- Contents means : category, tag, genre, ...
+
+## How it works ? 
+- Dataset shows movies that our user has watched and also the genre of each of the movies ...
+- To make the recommendation based on the movies watched by the users : 
+1. Create user profile : 
+	- Weighing the genres 
+	- User's rating for the movies that he's already watched 
+		=> mv1 : 2
+		=> mv2 : 10
+		=> mv3 : 8  ... where mv : movies watched 
+			=> Input User Ratings (vector )
+	- encode the movies through the one-hot encoding approach 
+		=> create a feature set matrix with 3 movies (rows) => dim(3,1)
+		=> genre : comedy, adventure, super hero, scifi (col) => dim(4,4)
+
++---------------------------------------------------------------------+
+| Input User Ratings (vector ) x Movie Matrix = Weighted Genre Matrix | => dim(4, 4)
++---------------------------------------------------------------------+
+=> aggragate the user profile => new matrix dim (1, 4)
+=> Normalization to refind what's the use likes to what the most 
+
+2. Finding the recomendation : 
+=> Movie Matrix <=> new weighted movies matrix => Weight average matrix (for final recommendation...)
+
+# Collaborative Filtering
+- Relationship exists btw product and people's interests 
+- two types of Collaborative Filtering
+1. User-based collaborative filtering
+2. Item-based collaborative filtering 
+
+
+1. User-based collaborative filtering
+	- Based on on users similarity/neighbordhood 
+	- Collaborative Filtering engine first looks for users who are similar 
+		=> users who share the active users rating patterns : 
+		=> these similarities are based on things like : history, preference, and choices that users make when enjoying, watching, or enjoying something ...
+		=> uses the rating from these similar users to PREDICT the possible ratings by the active user for a movie that she had NOT previously watched 
+
+Ex : User ratings matrix : 
+- 4 users (u1 ...n)
+- 5 different movies (mv1 ... m => movies categories ) 
+
+			mv1  mv2 mv3 mv4 mv5
+			+---+---+---+---+---+
+		u4	|9	|6	|8	|4	|	|
+			+---+---+---+---+---+
+		u3	|2	|10	|6	|	|8	|
+			+---+---+---+---+---+
+		u2	|5	|9	|	|10	|7	|
+			+---+---+---+---+---+
+Active =>u1	| ?	|10	|7	|8	|?	|x
+user  		+-------------------+
+			Rating Matrix
+=> where : 
+	=> u1 : Active users
+	=> ?  : Movies which the active user hasn't watched yet
+	=> Goal : Recommend the unwatched movies to the user !!!
+	1. Calculate the similarity of active among other users (who have already watched the movies)
+		- Tools : Distance/similarity measurements : Euclidean Distance, Pearson Correlation, Cosine Similarity...
+		- To calculate the level of similarity btw 2 users: 
+			=> look at the movies rated by all the users in the past 
+			=> ex : u1 vs u2 = 0.7 | u2 vs u3 = 0.9 | u3 vs u4 =0.4
+	2. Create a Weighted rating Matrix : user's neighbors opinion based on the numbers of candidate movies for recommendation 
+		- Ratings Matrix Subset x Similarity Matrix = Weighted ratings matrix  
+		- This gives more weight to the ratings of those users who are more similar to the active user 
+	=> Based on items similarity
+- Recommendation matrix based on all of the weighted rated  :
+		     mvx| mvy| weight sum
+			+---+----+-----------+
+u2 + u3		|	|12.1|0.9+0.7
+			+---+----+-----------+
+(u2+u3+u4)	|8.9|	 |0.4+0.9+0.7|
+			+---+----+-----------+ 
+- sum of similarity Index btw users (u'2 + u'3) then (u'2 + u'3+u'4= 
+- sum of weighted rating (u2 + u3) then u2 + u3+u4 then divided by the their respective similarity index for normaization 
+
+	mx         	 				my
+			 			 (u2 + u3)/(u'2 + u'3)
+(u2+u3+u4)/(u'2+u'3+u'4)
+
+Normalized recommendation matrix 
+		     mv1| mv2 
+			+---+----+
+u1(target)	|4.4|7.5
+			+---+----+
+
+- The result is the potential rating that our active user will give to theses movies based on her similarity to other users 
+
+## Collaborative Filtering (User based vs Items-based ) : 
+
+- User based  :
+	=> the recommendation is based on users of the same nighborhood with whom he or she shares common preferences
+	=> if a u1 and u2 both liked the same items, they considered as similar/neighbor user 
+	=> we can recommend these items to another potential users based on positive rating by u1 and u3 
+
+- Items-based :
+	=> similar items build neighborhoods on behavior of users 
+	=> However that is not based on their contents 
+	=> two items are considered as similar/neighbor if they are liked by two different users
+
+## Challenges of collaborative filtering 
+- Data sparsity : 
+	=> Users in general rate only a limited number of items 
+- Cold start :  
+	=> Difficulty in recommendation to new users or new items 
+- Scalability : 
+	=> Increase in number of users or items
+
+/!\ Solution : Hybrid based recommender systems 
+
+# Lab: Content-based Recommendation Systems
+# Lab: Collaborative Filtering on Movies
+
+Final Quiz 
+
+/// W6 : Final Project ///
 
 
 #########################################################################
