@@ -16,7 +16,6 @@ https://www.interviewbit.com/data-science-interview-questions/
 Python : 
 https://www.youtube.com/watch?v=eNt-IvCi7a0
 
-
 Joma Agenda : 
 https://www.youtube.com/watch?v=4Z6lxfglvUU
 - Technical interview : SQL, Python ...
