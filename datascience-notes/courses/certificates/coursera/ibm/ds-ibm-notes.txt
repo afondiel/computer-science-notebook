@@ -1,0 +1,4235 @@
+============== DATASCIENCE IBM CERTIFICATE NOTES =================
+
+
+== AGENDA ==
+
+COURSE 1 : WHAT'S A DATA SCIENCE ? 
+Course 2 : TOOLS FOR DATA SCIENCE
+Course 3 : DATA SCIENCE METHODOLOGY
+Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
+Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
+Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
+Course 7 : DATA ANALYSIS W/ PYTHON
+Course 8 : DATA VISUALIZATION W/ PYTHON 
+Course 9 : MACHINE LEARNING W/ PYTHON
+Course 10 : APPLIED DATA SCIENCE CAPSTONE
+
+========================================================
+
+#########################################################################
+Course 1 : WHAT'S A DATA SCIENCE ? 
+#########################################################################
+
+//// W1 ///
+***********************
+What's a Data Science ? 
+***********************
+
+/!\ Data Science is a process to understand data and do differents things
+- keywords : trends, insights, data structured and unstructured, expore, manipulation, find answers, recommendation
+
+# Fundamentals of Data Scienstis : 
+- Data Analysis (question problem ? => Find Answers => Create Value)
+- Data Science (Deal with different type of datas) : log files, social medias, email, sales data, patient info files, sports perfomance data, sensor data, security camera ...
+- !!! Be curious !!!
+- Data visualization => to explain => trends, to tell history, to detect a pattern, new behaiviour ...
+
+# Many path to Data Science
+
+- Maths : statistics
+- Business Analysis & strategies
+- SW Engineer
+/!\ Soft skills/Qualities : Cusiosity, Take Position => Confidence, Story teller
+
+# What do Data Scientists do ?
+- recomendation algorithm
+- Prediction Model
+- Find patterns 
+- unstructured vs strutured data
+
+# A day in life of Data Scientist ?
+- > /!\ Find solution by analyzing datas
+- > Curious, fluency in analysis, good communication=>story teller
+
+# Old vs new problems ? 
+- old => Predict congestion (uber taxi)
+- new => Environment, Climate Changes
+- Find (new) solution  : 
+		=> Identify the problem  \
+		=> Gather datas     	  \ BUILD A MODEL !!!!
+		=> Identify 			  /
+		=> Tools				 /
+
+# Topics algorithms
+- list : regression, data viz, neural net, nearest neighbour, classification ...
+- strutured data : ranged /organized data (EXCEL row,colomns) 
+- unstructured data :  comes from sensors(video, audio...), web not in row /colomns
+
+
+# Clouds for Data Scientist ?
+- Cloud : Cloud allows to access to data, collaborate easy
+- Cloud : storage data, high performance computing, save physical space in own computer, simulations work in the same data
+=> IBM : IBM Cloud
+=> Amazon : Amazon Web Services(AWS)
+=> Google  : Google Cloud Platform
+=> Tools : Hadloop, stata ...
+
+# Big Data and Data Mining 
+
+* def *
+1st/ approach (traditional) : Statistical analysis
+2nd/ Approach : unsupervised + machine-learning algorithms.
+
+* Goal * : to explore hitherto unknown trends and insights by subjecting data to analysis
+
+- Big Data and Data Mining ?
+- Foundations of Big Data ?
+- What is Hadoop ?
+
+Big Data(BD) : Dynamic, large, Disperate volume of data, created(apps, machine, tools ...)
+
+* 5Vs : 
+	=> Velocity : Speed data (quick RT)
+	=> Volume :	 Scalable (2,5 quintillons bytes => 10 millions DVDS)
+	=> Variety :	Diversity => data come from diffrent Sources (audio, video, img ...) 
+	=> Veracity : qlity / origin of data (Releablity, accuracy)
+	=> Value : turns data to value (Solution, profits..)
+
+Data scientist extract/drives data from big data
+ Tools : 
+	=> Apache sparks
+	=> Hadoop (created by Dong Cutting ) => based on Data Cluster, splits data into a pieces to computing a large amount of data (gain speed, performance ...)
+ 
+- How Big Data is Driving Digital Transformation?
+		    CEO => working w/ them and the financial department to adapt the needs
+
+	/ 					\
+  CDO						CIO 
+(Chief Data Officer)		(Chief Information Officer)
+
+- Data Science Skills & Big Data ?
+- Cloud
+- Programming Skills
+- Python (panda for data viz)
+- R
+- Unix/Lunix
+- Maths(Algebra Statistics)
+- Jupyter note book + AWS (Virtual Account)
+- BIG DATA (concept created by Google, Statistical technics to handle large data)
+
+- Data Scientists at New York University ?
+
+- Data Mining ?
+
+7 Steps Down the Data Mining : 
+
+1. Establish data mining goals
+ - set up goals for the exercise.
+ - identify the key questions that need to be answered
+ - costs and benefits of exercise
+ - Define expected exercise resultats and accuracy
+ - High levels of accuracy from data mining would cost more and vice versa.
+ 
+2. Select data
+
+ - The output of a data mining exercise largely depends upon the quality of data being used.
+ - Data might be available 
+ - If Data not available then go to  : plan new data collection initiatives, including surveys 
+ - The type of data, its size, and frequency of collection have a direct bearing on the cost
+ - Datas come from differents Databases
+ 
+ 
+3. Preprocess data
+ - clean
+ - identify relevant attributes
+ - identify the irrelevant attributes of data
+ 
+4. Transform data
+ - determine the appropriate format in which data must be stored
+ - data mining is to reduce the number of attributes needed to explain the phenomena
+  --- using Data reduction algorithms
+ - store data in the variables
+ 
+5. Store data
+ - Storing Data into the right/good Data mining format for immediate read/write
+ - new variables can be created to store data and temporary write/read back into the database
+ - store data on servers or storage media that keeps the data secure
+ - Data safety and privacy should be a prime concern for storing data.
+
+
+6. Mine data
+ - After data is appropriately processed, transformed, and stored, it is subject to data mining
+ - data analysis methods
+ - including parametric
+ - non-parametric methods, and machine-learning algorithms.
+ /!\ - data visualization : good starting point for data mining
+ - Multidimensional views of the data
+ - data mining software
+ - FIND  : HIDDEN trends in the data se
+ 
+7. Evaluate data mining results
+ - Extract the result 
+ - Do a formal evaluation 
+ - > Testing the predictative capabilities of the model
+ - > efficiency & of the algorithms in the producing data
+ 
+ /!\ in-sample forecast
+ 
+ -> Share the result w/ Stakeholders
+ -> improve the quality of the resultat from the shared feedback
+ 
+/// W2////
+*****************************************
+## Deep Learning and Machine Learning ? 
+*****************************************
+ML => Algorithms
+DL => Model based on Neural Network 
+DS => Extracting knowledge/insights of large volume of (disparated) data 
+=> Maths Technics : statistical analysis, data viz, ML/DL algo/ Models
+AI => everything allows the computer to learn, to solve problems and make intelligent decision  
+
+Application ML : 
+=> Recommendation systems (Decision tree, naive bayes, bayesian analysis)
+=> Classification
+=> Predict Analysis
+=> Fraud Detection
+
+
+## Hands-on Exercise: Data Science Exploration 
+- Chap.7 : Book by Murtaza Haider
+
+
+## The Final Deliverable
+
+Analytics = comunicate findings (set of insights in the data) using Tables & plots.
+
+1. define the ingredients and requirements  ? 
+2. how to search for background information ?
+3. Tools needed to generate the deliverable ?
+
+*tools : grabber
+
+* working w/ Data Scientists : 
+
+- Data Scientists work at the same level as the CIO (Chief Information Officer)
+- Passion / DNA / curiosity / sens of humor/ Story teller  
+- Communication skills / relatable (relationship esaier)
+- Good analysis / Driven - data / Analytics skills ? 
+- Company needs : Engineer/Architecture/ Design/ Team expansion
+- Technical skills : Statistical, algo, ml, bigdata : datastoring ...
+
+///W3///
+
+### What Analytical Techniques/Methods Do You Need?
+
+- identify the type of data for analysis
+- bias vs compensation ?
+Ex: Gender Wages(salary) between Men and Women => REGRESSION MODEL !!! 
+ 
+#### The Narrative
+
+ ??
+##### The structure of narrative
+
+* Two types of deliverable
+- brief
+- detailed
+
+* The deliverable Contents: 
+
+ - Tables (row, columns)
+ - Plot graphics
+
+#########################################################################
+* The deliverable template : 
+#########################################################################
+cover page
+Table of figures
+Table of graphics ??
+table of contents(ToC)
+executive summary//abstract
+(Introduction)
+detailed contents
+-Literature review
+-Methodology sections ??
+-Results section??
+-Discussion section ?? (POWER OF NARRATIVE//STORYTELLING)
+Conclusion
+acknowledgments
+references, and appendices (if needed).
+#########################################################################
+
+#########################################################################
+Course 2 : TOOLS FOR DATA SCIENCE
+#########################################################################
+
+////W1 : Languages of Data Science ///
+
+# Intro : 
+Data Science requires programming languages & frameworks
+Automation w/ Data Science tooling  : save time, uncovered inspiration
+Visual programming & model
+Open Sources tool vs Commercial sw
+Cloud Computing
+
+# The languages of Data Science : 
+/!\ Kaggle 2019 survey : learning new language plus 1Ok of wage increase /!\ 
+
+- Recommended : Python, R, SQL
+- Optional : Scala, Java, C++, julia
+- Others : JS, PHP, Go, Ruby, Visual Basics
+Usage : Depend on the problem to be solved / or the company you in
+
+## Roles in Data Science : 
+- Business Analyst
+- Database Engineer
+- Data Analyst
+- Data Engineer
+- Data Scientist
+- Research Scientist
+- Sw Engineer
+- Statician
+- Product Manager 
+- Project Manager
+
+# Introduction to Python 
+- Most popular DS language
+- easy to learn
+- great community 
+- 80% DS use Python 
+- Usage : AI, ML, WEB, IoT
+- Organization : IBM, Wikepedia, Google, Yahoo, cern, FB ..
+
+=> What's python great for ? 
+- General Purpose language
+- Large standard library 
+
+=> For Data Science : 
+- Scientific computing lib : Panda, NumPy, SciPy and Matplotlib
+- For AI : PyTorch, TensorFlow, Keras, and Scikit-learn
+- Natural Language Processing (NLP) : Natural Language TooKit (NLTK)
+
+=> Diversity and Inclusion Efforts : 
+Code of Conduct : https://www.python.org/psf/conduct/
+
+# Introduction to R 
+
+- Open Source (OSI) vs Free SW (SFS) ? (different LIcense )
+OSI : Business Focused
+FSF : Values Focused
+
+- R is a FSF !
+
+=> Who's R For ? 
+- Statistician, mathematicians, data miners (for statistical sw, graphing and data analysis )
+- Array-oriented synthax : easy conversion 'maths => Code'
+- ease to learn
+- Organizations love it : IBM, Google, FB, TechCrunch, UBER, Trulia.. 
+
+=> What R makes great ? 
+- world largest repository of Statistical knowledge 
+- More than 15000 release packages truns complex compository analysis
+- R integrates well w/ C++, PYTHON, Java ..
+- R is OOP 
+- common maths operation (matrix are ease to do)
+
+=> Large Community : 
+useR : user2020.r-project.com
+WhyR : www.whyr.foundation.com
+SataRdays : www.satarday.com
+Rladies : www.rladies.com
+
+# Introduction to SQL
+
+- SQL : Structured Query Language
+- No procedure language
+- 20y older than Python and R (creted on 1974 by IBM)
+- useful to handle structured data 
+=> Relational DB (collection of two dimmensional tables like row, column) : 
+- ex : datasets, Microsoft Excel spread sheet  
+
+=> SQL elements : 
+- clause
+- expression
+- statement
+- predicate
+- query
+ 
+=> What makes SQL Great : 
+- job opportunnities in data engineering
+- mandatory for Data Analyst and Data Science
+- direct access to data when performing sql op (w/out copying the data in beforehand)
+- interpreter between the user and the DB
+- ANSI standard (scable : one db and multiple dbs)
+
+=> SQL Databases  : 
+- MySQM
+- PostgreSQL
+- Access
+- SQLite
+- Oracle DB
+- MariaDB
+- Microsoft SQL Server
+
+# Others Data Science Language
+- Scala : Apache Spark 
+- Java : Weka (data mining), Java-ML(ml lib), Apache MLlib, Deeplearning4j
+- C++ : TensoFlow, MongoDB, Caffe (Deeplearning)
+- Julia : (create at MIT) Numerical analysis; complied language
+- JS : Java Script : TensorFlow.js , R-js (Algebra)
+- PHP, Go, Ruby, Visual Basics
+
+////W1 : Categories of Data Science Tools ///
+
+# Intro : 
++----------++------------++--------++----------++----------++----------+
+|  Data    || Data Transf|| Data   || 		   || 		   || 		   |
+|Management|| Integration||	Viz	   ||		   ||		   ||		   |
+|		   ||		     ||		   ||		   ||		   ||		   |
++----------++------------++--------++----------++----------++----------+
+
+
+- Data Management : is the process of persisting and retrieving data
+- Data Integration and Transformation : (ETL : Extract - Transform - Load) is the process of retrieving data from remote data management systems
+- Data visualization : data Exploration process, final deliverable
+- Model building : create a ml or dl models using appropriate algo w/ lots of data
+- Model Deployment : makes ml/dl models accessible to a 3rd part application
+- Model Monitoring and Assessment : continious perfomance qlity checks of deployed models (accuracy,fairness, adversial robustness )  
+- Code Asset Management : visionning, collaborative features to facilite teamwork 
+- Data Asset Management : dublication, backups, acess right management
+- Development Environment : tools to implement, execute, test, and deploy
+- Execution Environment : where data processing, model training, Deployment take places
+- Fully INTEGRATED Visual Tools : integrates all
+
+# Open Source Tools for Data Science - Part 1 : 
+
+## Data Management tools: 
+ 
+Relational tool : 
+- MySQL 
+- PostgreSQL 
+NoSQL : 
+- MongoDB
+- Cassandra
+- CouchDB 
+File based:
+- Hadoop File System
+- Cloud File systems : Ceph
+- Elasticsearch : text data storage & Data retrievement
+
+## Data Integration and transformation(ETL) tools : 
+
+- Extraction - Transform - Load or ELT because Data is dumped somewhere (i.e : Comes from some sources...)
+- Data Scientist is responsible for Data
+- Also called : Data Refinery and cleansing 
+### Tools : 
+- Apache Airflow :  created by RBNB
+- Kubeflow : high level datascience pipeline layer on the top of Kubernetes
+- Apache Kafka : created by Linkedin
+- Apache NIFI : data viz editor
+- Apache Spark SQL : scalable sql for cluster of multi-nodes
+- NodeRED : (very low ressources) data viz editor (runs on RaspberryPi)
+
+## Data visualization tools : 
+
+- Programming libs code + tools (covers on the next vid) 
+- Hue : creates visualization from SQL queries
+- Kibana : data viz for web application based on Elasticsearch
+- superset : data exploration & viz for web application
+
+## Model Deployment tools : 
+After a model is built => API consummable to another apps
+
+- PredictionIO : Apache Spark ML models
+- SELDON : supports lots of frameworks (TF, SparkML, R, sci-kitlearn) runs on top of Kubernetes, RedHat OpenShift
+- mleap : creates SparkML
+- TensorFlow (TF Lite : embedded systems (RPi, Smartphone); TF.JS : Web)
+
+## Model Monitoring and Assessment Tools : 
+
+- ModelDB : a system to manage ML models (storage, quering ), supports : SparkML pipelines and scikit-learn
+- Prometheus : multi-purpose tool
+/!\ Model perfomance is not EXLUSIVELLY measured through Accuracy & Model bias 
+- IBM AI fairness 360 OS Toolkit : detects bias and ml models 
+- IBM Adversarial robustness 360 ToolBox : protect model against hacking and covers vulnabilities
+- IBM Explanability 360 Toolkit : model description
+
+## Code Asset Management tools (version mgt) : 
+
+- git 
+- GitHub
+- GitLab
+- BitBucket
+
+## Data Asset Mgt tools: 
+
+- Apache Atlas : 
+- ODPA EGERIA : exchange data
+- Kylo
+
+# Open Source Tools for Data Science - Part 2 : 
+
+## Development Environment : 
+
+- Jupyter : notebook for python programming (data science ide : code, interpreter, results viz)
+- JupyterLab : next generation of jupyter nb
+- Apache Zeppilin : uses integrated lib for ploting opposite to jupyter nb
+- R-Studio  : IDE for data viz for R language, dev in python also possible
+- SPYDER : like E-Studio but for Python world
+
+
+## Execution Environments (Data Clustering) : to execute a large amount of data
+
+- Apache Spark :  scalable execution performance (mostly used)
+- Apache Flink : batch processing engine for RT data streaming
+- RAY (riselab) : deeplearning training on a large scale
+
+## Fully INTEGRATED Visual Tools :
+- No programming skills necessary
+=> Data Int - Data Viz - Model Building
+
+- KNIME (open innovation) : created by University of Konstanz in 2004 
+- ORANGE
+
+# Commercial Tools For Data Science : 
+- Data Mgt : 
+=> Oracle DB
+=> MS SQL Server
+=> IBM DB2
+
+- Data int & Transformation (ETL)
+=> Informatica 
+=> IBM InfoSphere DataStage
+=> Talend
+=> IBM Watson Studio Desktop
+
+- Data visualization
+=> Tableau
+=> MS Power BI 
+=> IBM Cognos Analyst
+
+- Model Building 
+=> SPSS 
+=> SAS 
+
+- Data Deployment 
+=> IBM SPSS (IBM Watson Studio Desktop)
+=> PMLM ? 
+
+- Model Monitoring & Code Asset Mgt : USE OPENSOURCES TOOLS
+=> Git & GitHub
+
+- Dev Env : 
+=> IBM Watson Studio (Desktop
+
+- Fully Integrated Visual Tools : 
+=> IBM Watson Studio (Desktop : Jupyter + graphic tools )
+=> IBM Watson Open Scale
+/!\ Can be deployed on the top of Kubernetes and RedHat OpenShift
+
+=> H2O Driveless AI : covers the completed data science cycle
+
+# CLOUD BASED TOOLS FOR DATA SCIENCE : take operations task away from the user
+
+SaaS : Software as a Service - cloud provider operates the tool for the client in the cloud (storage, configuration and updates...) 
+PaaS : Platform as a Service
+
+- Data Management : 
+=> Amazon DynamoDB : NoSQL db for data storage and retrieval  in key-value/document store format(like JSON) 
+=> Cloudant : database as a service offering (based on Apache CouchDB)
+=> IBM Db2
+
+- Data Integration and Transformation(ETL/ELT) : 
+=> Informatica
+=> IBM Data Refinery (Part of IBM Watson Studio)
+
+- Data visualization :
+=> Datameer
+=> IBM Cognos Analytics
+=> IBM Data Refinery : data exploration and Viz
+	* Word cloud :  document corpus
+
+- Model building :
+=> IBM Watson Machine Learning
+=> Google Cloud : AI Platform Training 
+
+- Model Deployment : make
+=> IBM SPSS Collaboration & Deployement Services : PMML language
+=> IBM Watson Machine Learning
+
+- Model Monitoring and Assessment
+=> AWS : Amazon SageMaker Model Monitor
+=> Watson openScale
+
+- Code Asset Management :
+- Development Environment
+- Execution Environment :
+
+- Fully INTEGRATED Visual Tools and Platform : 
+=> IBM Watson Studio + Open Scale (ML + AI Tasks)
+=> MS Azure Machine Learning
+=> H2O AI
+
+
+*******************************************
+// W1 : PACKAGES, APIs, DATA SETS and Models
+*******************************************
+
+# Libraries for Data Science : 
+- Libraries(frameworks) : collection of functions and methods that enable to perform a wide variety of actions without writing any code
+
+- Python most useful libs: 
+1. Scientific Computing lib
+=> Pandas : Data stuctures and Tools - cleaning, manipulation, analysis ( data is represeting in row and col model called : DATAFRAME)
+=> NumPy : Arrays & matrices : (pandas is built on top of NumPy) 
+2. Visualization lib 
+=> Matplotlib : plots & graphs, most popular
+=> Seaborn :  plots (heatmaps, time series, violin plots ...)
+3. high level ML & DL
+=> Scikit-learn  : ML algorithms like regression,classification, clustering ...)
+=> Keras : DL and NN 
+4. Deep Learning Lib
+=> TensorFlow : build for production & Deployement
+=> Pytorch  : build for experimentation 
+
+Apache Spark : general -purpose cluster computing framework to process data using compute-cluster(computing data from multiple computer)
+- pandas, Numpy, scikit-learning   
+- languages : python, R, scala, SQL 
+- Scala libs : Vegas(statical & viz), Big DL (dl)
+- R libs(ml & data viz): ggplot2, others (use w/ Keras & TF)   => R is being superseded by python
+
+# Application Programming Interfaces(API)
+- API : lets two pieces of software talk to each other (part of library) 
+- things to know : input/output 
+(program <=> |API| => Other sw components)
+- interface between two differents programs/sws (Python => [API] => TF(written in c++))
+=>julia/Matlab/Scala/R<=> [API] <=> TF
+
+## REST(REpresentation State Transport) APIs  : interact w/ web Services
+- Applications called through the internet (communication, input/request, Output/Ressources)
+- (Client) <=> [API] <=> (Web services)
+- Client <=> [API] <=> Ressources(endpoint)
+ex : The Watson Speech to Text API / Watson language translator API
+
+# Data Sets- Powering Data Science
+- Data Sets : structured collection of data ( text, numbers, or media such as images, audio, or video files)
+## Data Structured :
+- Tabular data :  row, col (csv files)
+- Hierarchical data, Network data (graph, nodes...)
+- Raw files (imgs, audios ..)
+
+## Data Owenership 
+- Private Data
+=> Confidential
+=> Private or personal information
+=> Commercial sensitive
+- Open Data : 
+=> Scientific institutions 
+=> Governments
+=> Organizations (UN, OMS)
+=> Companies
+=> Publicly available
+## Where to find open data
+- Open data list 
+=> datacalogs.org
+- Governmental, intergovernmental & Organizations websites
+=> data.un.org
+=> data.Governmental
+=> europeandataportal.europeandataportal
+- Kaggle : 
+=> kaggle.com/datasets
+- Google data set search : 
+datasetsearch.research.google.com
+
+## Community Data License Agreement
+- cdla.io : Linux Foundation
+- CDLA-Sharing
+- CDLA-permissive
+
+# Sharing Enterprise Data - Data Asset exchange
+
+- IBM Data Asset eXchange(DAX) : Curated collection of data sets, from IBM Research and 3rd party
+=> Diverse data types (imgs, text files) & high level of curation for data set quality
+=> Friendly license & use terms
+=> notebooks examples (charts, timeseries, ml model)
+=> DAX projects on ibm.develpper websites
+## Get Stated w/ DAX
+- download dataset or explore w/ notebook on Watson Studio 
+
+##########################
+# Machine Learning Models - Learning from data to make predictions
+##########################
+- Data can contain a wealth of information
+- traditional programming approach reaches its computer limit due to the alarge amount size of data
+=> Solution : Machine Learning Model : algorithms which learn from experiences by identifying patterns and predicts the result  
+- A model must be trained on data before it can be used to make predicts 
+types of ml learning classes : 
+=> Supervised (most commun) : Data is labeled and model trained to make correct predictions (input data(X), corrected output (y))
+	examples : 
+	- regression : predict real numerical values (home sales prices, stock market)
+	- classifications : classify things into Categories (email spams filters, fraud detection, image classification)
+=> unsupervised : data is not labeled. Model tries to identify patterns w/out external help
+	- clustering and anomaly detection
+=> reinforcement : Conceptually similar to human learning processes
+	- a robot learning to walk, Go, Chess and other strategy games
+
+* List of ML Algorithms :https://www.newtechdojo.com/list-machine-learning-algorithms/
+
+##########################
+# Deep Learning Models 
+##########################
+- Tries to loosely emulate how human brain works
+Applications : 
+=> Natural Language Processing
+=> Image,Audio, and video analysis
+=> Time Series forecasting
+=> Much more
+=> LARGE datasets of labeled data and compute intensive
+
+- Build from scratch / download from public model repos
+- frameworks : TensoFlow, PyTorch, Keras
+- populars model repos : 
+=> model zoo
+=> ONNX model zoo 
+
+ML /DL Pipeline-process
+--------------+--------------+----------------+		+-----------
+Prepare Data => Build Model => Training model				  ... => Deploy model
+---------------+---------------++--------------+		+-------------
+=> Prepare Data  : (collect data , clean, label)  
+=> Build Model : from scratch/ zoo model that fits to the problem
+=> Training Model(iterative process ) : requires (more) data, time, expertise, ressources
+=> Deploy model : make available for the application
+
+
+################################
+# The Model Asset Exchange (MAX)
+################################
+
+- Model build 'Time to value' is a long process and need to be optimized  : MAX does that!!!
+- free open source dl microservices
+=> pre-trained / custom trainable state of art models 
+=> fully tested, deploy 
+=> approved personal/commercial use
+- Vailable for variety of domains
+=> object detection
+=> image, audio, text classification(what is in this...)
+=> named entity recognition
+=> img to Text (generate image caption)
+=> human pose detection
+
+### MAX model serving microservices
+-----------------------------------------------------------------------------------------
+Data 				   + 	Model  +	Compute ressources 		+ 		Domain expertise
+(Input/output and			(	Pretrained	 model	) 					(REST API)	
+model processing code)
+-----------------------------------------------------------------------------------------
+	model serving container (Docker images ) => deploy in production w/ Kubernetes
+----------------------------------------------------------------------------------------
+HW : Local Machine/Private cloud / Hybrid cloud / Public cloud
+-----------------------------------------------------------------------------------------
+
+### Model serving microservices API 
+- REST API 
+- developer.ibm.com/exchange/models
+
+#########################################
+# Reading: Explore Data Sets and Models 
+#########################################
+
+Model Asset Exchange and the Data Asset Exchange
+
+- Model Asset Exchange (MAX) and the Data Asset Exchange (DAX) 
+- open source Data Science resources on IBM Developer.
+
+## Exercise 1: ex ref : https://colab.research.google.com/drive/1ijvJh9FRhmfQzHgtPexnQMPNlowfluwz?authuser=1#scrollTo=Mo60qFIu7pHl
+Where to find open data sets on IBM Developer
+How to explore those data sets
+
+
+## Exercise 2: http://ml-exchange.org/models
+Find ready-to-use deep learning models on the Model Asset Exchange
+Explore the deep learning model-serving detecting the image 
+
+*******************************************
+// W2 : Jupyter Notebook and JupyterLab //
+*******************************************
+# Introduction to Jupyter Notebook  : 
+- Jupyter : Julia-Python-R
+- jupyter created from ipython 
+- A tool for recording Data Science experimentation
+- It allows Data Scientist to combine text and code block in a signle file
+- It generates plots and tables within the file
+- Notebooks can be exported as pdf and html files
+
+JupyterLab : open multiple jupyter files
+
+Jupyte Environment
+- Google Collab
+- IBM 
+
+## Installation : 
+
+```pip install JupyterLab ``` or from ANACONDA 
+
+SKILLS NETWORK : virtual jupyter notebook nothing to be installed
+
+virtual jupyter notebook : https://labs.cognitiveclass.ai/tools/jupyterlite/lab/tree/labs/DS0105EN/Jupyter_Notebook.ipynb?lti=true
+
+# Getting Started w/ Jupyter
+- open on SKILLS NETWORK
+- slide mode to deliver the work
+- terminate the session (before leaving the jupyterlab ? ) 
+
+# Jupyter Kernels
+- A notebook kernel : computational engine that excutes the code contained in a Notebook file
+- Jupyter Kernels for many other languages exist
+- the kernel perfoms the computational and produces results, when the notebook is executed
+- Other notebook languages can be need based on the Environment
+
+# Jupyter Architecture
+- implements a 2 process model : kernel - client
+- client : interface enabling the user to send code to the kernel
+- Kernel : execute the code and returns to the client for display
+- the client is the browser when using jupyter notebook
+
+(user) -> (browser) -> (Notebook server) -> (Kernel) 
+						|
+					(Notebook file)
+
+NB Converts : Converts notebook to the new file format (pdf, html)	
+
+
+# Hands-on Lab: Jupyter Notebook - The Basics
+
+# Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - The Basics
+# Lab - Jupyter Notebook - More Features
+# Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - More Features
+# Hands-on Lab: Jupyter Notebook - Advanced Features
+# Ungraded External Tool: Ungraded External ToolLab - Jupyter Notebook - Advanced Features
+
+# Jupyter Notebooks on the Internet
+First you start with exploratory data analysis, so this notebook is highly recommended to have a look at:
+ https://nbviewer.jupyter.org/github/Tanu-N-Prabhu/Python/blob/master/Exploratory_data_Analysis.ipynb
+
+For data integration / cleansing at a smaller scale, the python library pandas is often used. Please have a look at this notebook: 
+https://towardsdatascience.com/data-cleaning-with-python-using-pandas-library-c6f4a68ea8eb
+
+If you want to already experience what clustering is, have a look at this: 
+https://nbviewer.jupyter.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb
+
+And finally, if you want to go for a more in-depth notebook on the iris dataset have a look here:
+ https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+
+# Practice Quiz: Practice Quiz - Jupyter Notebook
+# 3 questions
+
+**********************
+# RStudio IDE
+**********************
+# Introduction to R and RStudio
+- Statistical programming Language
+- Used for data processing and manipulation
+- Statistical, Data Analysis and Machine Learning
+- R is used ùost academics, healthcare and the gouvernment
+- R supports importing data from different sources : 
+=> Flat files
+=> Databases 
+=> Web
+=> statistical sw : SPSS, STATA ...
+
+## R capabilities : 
+- ease to use
+- great for data viz
+- Basics analysis doesnt need any packages tobe installed
+
+## RStudio IDE 
+
+- Code editor
+- Console
+- Workspace/History tabs 
+- Plots, files , helps, packages ....
+
+## R libs : 
+
+- dplyr : Data Manipulation
+- stringr : String Manipulation 
+- ggplot : Data Visualization 
+- caret : Machine Learning 
+
+## RStudio Virtual Environment  : 
+- https://labs.cognitiveclass.ai/login/lti
+- https://labs.cognitiveclass.ai/tools/rstudio-ide/?md_instructions_url=https%3A%2F%2Fcf-courses-data.s3.us.cloud-object-storage.appdomain.cloud%2FIBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork%2Flabs%2FModule2%2FDS0105EN-2-Lab-RStudio%2520%25E2%2580%2593%2520The%2520Basics.md&lis_outcome_service_url=https%3A%2F%2Fapi.coursera.org%2Fapi%2FonDemandLtiOutcomes.v1&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY3Rpb24iOiJsdGkvcmVzdWx0cyIsInVzZXJuYW1lIjoidHJhaW5pbmcxMjM0Iiwib3B0aW9ucyI6eyJsaXNfb3V0Y29tZV9zZXJ2aWNlX3VybCI6Imh0dHBzOi8vYXBpLmNvdXJzZXJhLm9yZy9hcGkvb25EZW1hbmRMdGlPdXRjb21lcy52MSIsImxpc19yZXN1bHRfc291cmNlZGlkIjoib25kZW1hbmR-ZDg4ZmE0MWUzOGE2MDUxYzc0M2YyN2M0ZTRjNzljZTYhfm9DQlU1X1ZZRWVlQlFBN1NHMG5JTEEhfjJnTDZpIX5iVGJjUzh3RUVleVBpZzRRdXhrU0l3Iiwib2F1dGhfY29uc3VtZXJfa2V5IjoidG9vbHNfZm9yX2hhbmRzX29uX2RhdGFfc2NpZW5jZSIsInNjb3JlIjoiMS4wIn0sImlhdCI6MTY1MTcwODAxNywiZXhwIjoxNjUxNzI5NjE3fQ.u_wsr_rTdwflpOtIOeVZPQ6eQVsLz5MOpEunbi3t1uE&lti=true
+
+# Plotting within RStudio
+- ggplot :histograms, charts, scatterplots
+- plotly : web
+- Lattice : complex, multivariables datasets  
+- Leaflet : interatives plots
+
+## installing lib  : 
+install.packages("package name")
+## using a lib 
+ex : library(ggplot)
+
+# Ungraded External Tool: Ungraded External Tool : Getting started with RStudio and Installing packages
+- https://labs.cognitiveclass.ai/tools/rstudio-ide/?md_instructions_url=https%3A%2F%2Fcf-courses-data.s3.us.cloud-object-storage.appdomain.cloud%2FIBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork%2Flabs%2FModule2%2FDS0105EN-2-Lab-RStudio%2520%25E2%2580%2593%2520The%2520Basics.md&lis_outcome_service_url=https%3A%2F%2Fapi.coursera.org%2Fapi%2FonDemandLtiOutcomes.v1&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY3Rpb24iOiJsdGkvcmVzdWx0cyIsInVzZXJuYW1lIjoidHJhaW5pbmcxMjM0Iiwib3B0aW9ucyI6eyJsaXNfb3V0Y29tZV9zZXJ2aWNlX3VybCI6Imh0dHBzOi8vYXBpLmNvdXJzZXJhLm9yZy9hcGkvb25EZW1hbmRMdGlPdXRjb21lcy52MSIsImxpc19yZXN1bHRfc291cmNlZGlkIjoib25kZW1hbmR-ZDg4ZmE0MWUzOGE2MDUxYzc0M2YyN2M0ZTRjNzljZTYhfm9DQlU1X1ZZRWVlQlFBN1NHMG5JTEEhfjJnTDZpIX5iVGJjUzh3RUVleVBpZzRRdXhrU0l3Iiwib2F1dGhfY29uc3VtZXJfa2V5IjoidG9vbHNfZm9yX2hhbmRzX29uX2RhdGFfc2NpZW5jZSIsInNjb3JlIjoiMS4wIn0sImlhdCI6MTY1MTcwODAxNywiZXhwIjoxNjUxNzI5NjE3fQ.u_wsr_rTdwflpOtIOeVZPQ6eQVsLz5MOpEunbi3t1uE&lti=true
+- 
+
+
+# Getting started with RStudio and Installing packages
+- install.packages("package name")
+- # install.packages("GGally", repos = "https://cran.r-project.org", type= "source") 
+- the packages are located at  : '/usr/local/lib/R/site-library'
+
+# Ungraded External Tool: Ungraded External ToolPlotting within RStudio
+- Practice
+
+# Plotting within RStudio
+
+# get details of dataset : '?mtcars'
+
+# Ungraded External Tool: Ungraded External ToolPlotting within RStudio (Advanced)
+
+# Practice Quiz: Practice Quiz - RStudio IDE	
+# 3 questions
+
+*****************************
+# GitHub
+******************************
+# Overview of Git/GitHub
+- Git is a Version Control System tool
+- Version Control System  : keep track of changes of a document and make collaboration much easier
+- Git : Free and open source sw (GPL)
+- Distributed version control system
+- Accessible anywhere in the world 
+- Most popular vcs outthere
+
+## Git (client) + GitHub (server : web-hosted) : 
+- GitLab
+- GitBucket 
+- Beanstalk 
+
+## SHORT Glossay : 
+- SSH protocol : A method for secure remote login from one computer to another
+- repository : folders of a project that are set up for version control
+- Fork : a copy of a repo
+- Pull request : The process to request someone reviews and approves your changes before they become final
+- Working directory : A directory on your file system, including its files and subdir, that is associated with a git repo
+
+## Git commands : https://git-scm.com/docs
+## GitHub : https://try.github.io
+
+# GitHub - Getting Started
+# Lab 1: GitHub Lab - Getting Started
+- done
+# GitHub - Working with Branches
+- snapshot of a repo
+- main branch(revied and tested code) vs child (experiment, new features) branch
+
+# Lab: Branching, Merging and Pull Requests on GitHub (Optional)
+- done 
+# Git and GitHub via command line (Optional)
+- git init, git status, git add, git commit ...
+# Pre-requisites for command line interface (Optional)
+# Configuring SSH access to repository (Optional)
+# Git and GitHub via command line instructions (Optional)
+# Branching and merging via command line (Optional)
+# Lab 2: Branching and merging via command line (Optional)
+# Contributing to repositories via pull request (Optional)
+# Lab 3: Contributing to repositories via pull request (Optional)
+# Practice Quiz: Practice Quiz - GitHub
+# 3 questions
+
+
+////////////////////////////////////
+///W3 : Watson Studio
+////////////////////////////////////
+
+# What is IBM Watson Studio?
+- DATA : greater ressources of every smart Organization
+- IBM IDE for DATASCIENCE and DATA PROJECTS
+- data analysis, model building, data viz, open sources and collaborative  framework 
+
+- Applications : 
+=> innovation
+=> Data Refinery
+=> Dev and traniing of ML/DL models 
+
+# Watson Studio Introduction
+
+ - A effecient Data driven Team : 
+ => Data Engineer
+ => Data Scientist
+ => Data Steward
+ => Business Analyst
+ => Developer
+
+ - collaborative and easy to create a project (feature) : 
+ => Overview, Asset, Env, Jobs ...
+
+
+# Creating an Account on IBM Watson Studio
+- need to use the bank account to finish the registration - it sucks ! 
+
+# Jupyter Notebook in Watson Studio - Part 1
+* ASSET *
+- Add a notebook to the project (*.ipyn file)
+- add a dataset to work with and open the data as pandas dataframe
+- Add a description : add cells etc ... & run the code 
+- Create a Job so that the nbs run in different time
+
+# Jupyter Notebook in Watson Studio - Part 2
+* ENVIRONMENT SET UP * 
+- sw & hw configuration 
+- Default or Spark (for additional infos)
+- Choose the sw version (Python, R, Scala ..) 
+- Stop the Kernel to start the new env, associate w/ nb
+- Publish the nb to the GitHub
+
+# Ungraded External Tool: Ungraded External ToolObtain an IBM Cloud Feature Code
+- created new account and added a new code
+
+# Hands-on Lab: Creating a Watson Studio Project with Jupyter Notebook
+- Task 1: Create Watson Studio Service:
+- Task 2: Open Watson Studio
+- Task 3: Create a Project
+- Task 4: Adding a Notebook to the Project
+ => Add assets => JNB editor
+
+Linking GitHub to Watson Studio
+- create a Github token 
+- generate a token 
+- settings : Integration => Github Working Repo
+
+# Practice Quiz: Practice Quiz - Watson Studio
+
+/////////////////////////////
+// Other IBM Tools
+////////////////////////////
+
+# Other IBM Tools for Data Science : intro
+
+# IBM Watson Knowledge Catalog 
+=> Catalog and manage all data ressources <= 
+- unites all Catalogs in a single metadata-rich Catalog
+- corresponds  : Data Asset Mgt, Code Asset Mgt, Data Mgt, Data Integration & Transformation
+- Main features : Find data, Catalog data, Govern, Understand, Power data science, Prepare and Connect, Deploy Data 
+- build on the top of RedHat OpenShift
+- DC : protects data from misuse and enables sharing of assets automatically and dynamically masking sensitive data
+- runs on the private or public cloud
+- Catalog  : metadata about contents of assets and their access
+- A metadata is encrypted and store in the secure cloud location 
+- Storage places : IBM Cloudant, Db2, Db2 Warehouse, AWS, Azure, twitter, pdf ...
+- Need a permission to access a specific/sensitive catalog 
+- IBM Watson Studio  : There are some public Catalog 
+
+
+# Data Refinery
+=> graphical tools for analyzing and preparing data <=
+- Power tool for data preparation and analysis
+- Simplifying Data Preparation 
+- Interative visual interface that enables self-service preparation
+- available in Watson Studio
+- analyse the data and run at the end in th real dataset
+- relational operators  : left join, inner join etc
+- automation (from database ) => (Data refinerey) => Target table
+
+
+# SPSS Modeler Flows in Watson Studio
+=> easy to use graphical interfaces for statistics, ML and ETL <=
+- Data Mgt, Data Int & Trans, Data Viz and Model Building
+- build ML and pipeliness (SPSS Modeler)
+- Model objects : data sources(inputs), type, agregate, filter, merge 
+
+## Types of nodes :
+- Palettes(menu on the left) and canavas(main part o fthe screen)
+- Data sources are located in the import
+- After the model setup and configuration => RUN => Generate Model (in Nuggets)
+
+## SPSS Modeler Flows : 
+- Each flow starts w/ data sources located in the import group
+=> Ex: AI dataset (drugs from Watson Studio env)
+- Target(label) => Categorical field
+- Predictive variables 
+
+## Examing models
+- Predict values (Categories)
+- Model accuracy
+- Confusion matrix
+## Network Diagram 
+- NN represent of the built model ( input layers, hidden layers and output layers)
+- weights and theirs values, and nn connections  ...
+
+## Auto-Classifer and Auto-NUmeric Nodes: 
+- Categories and continuos target perspective
+- build severals models and pick the best one based on a certain criterion 
+
+# Lab: Modeler Flows in Watson Studio : assumed as done due to the access problem
+
+# IBM SPSS Modeler 
+- create by Clementine 1994
+- acquired by SPSS in 1998 
+- SPSS acquired by IBM 2009
+- Building model w/ coding (Boxes and objects, graphics)
+- Data Mgt, Data Int & Trans, Data Viz and Model Building + Model Deployement
+
+## Prediction a CHURN (from telecommunication database)
+- round node
+- hexagone node (data sources)
+- feature selection node => build to generate a yellow nugget 
+- Super Node (special node created by the user) 
+## Build and Examine
+- run the flow
+##  Examine output (on trained data)
+- input and target
+- classification table which resumes the model features
+## Training and test
+- Partition node : records for testing and validation 
+- partitioned data ( to avoid Overfitting - high accuracy)
+## Model prediction(scoring) & evaluation (confusion matrix and Accuracy) 
+- introduction to IBM SPSS Modeler:  https://www.youtube.com/watch?v=bJfe9C9_hjY
+
+# SPSS Statistics (1968 )
+- IBM SPSS Statistics & ML application
+- build predictive model, statistical analysis of data
+- build statistical & Data mining algos w/out coding 
+- file format (*.sav)
+- Load dataset are presented as structured data table (excel )
+## useful MENUS : 
+- DATA : 
+- TRANSFORMATION : 
+- ANALYZE : Chose the type of model to be applied : ex: Tree Model
+- show model detailed after building (classification table)
+- GRAPHS  : data viz : chart builder
+- SPSS Synthax : special programing language used by others tools
+
+Learn SPSS : https://www.youtube.com/watch?v=TZPyOJ8tFcI
+
+# Model Deployment with Watson Machine Learning
+- The return of investment is obtained when the model/pipeline is put into production
+- To make prediction, scores and new cases ..
+## standard for model Deployement : 
+- Sage Maker (Amazon)
+- MLFlow (Databricks)
+- AirFlow (Airbnb)
+- Kubeflow (Google)
+## PMML : Predictive Markup Model Language
+=> created by Data Mining Group(DMG) in 1990s
+- Generated from : Watson Studio & SPSS
+-> PFA Portable Format for Analytics from DMG
+-> JSON => the revolution !!! (2013)
+## ONNX : Open Source DL project from MS & FB
+- models are built for very specific Environment (embedded device : GPU, CPU, FPGA ..)
+## IBM  Watson ML
+- support  : SPSS Modeler, PMML & ONNNx
+
+# Auto AI in Watson Studio
+- create ML Pipelines !!!
+- Help to simplify an AI lifecycle management, AutoAI automates : 
+- AutoAI Process/pipeline : 
+(Raw labeled Dataset)=>(Preparation)=>(Model selection)=>(HPO)=> (Feature engineering)=>(HPO)
+- Build pipelines, comparing them according to the adverses experiments...
+- Classification & regression ONLY 
+- Pipelines are saved as ML assets in Watson Studio
+
+# IBM Watson OpenScale (create ML Pipelines)
+- Fairness 
+- Explanability : Enhances compliance w/ regulation  
+	=> Fair Credit Reporting Act 
+	=> GDPR
+- Model Monitoring (bais in the prediction (%) ...)
+	=> control and increase Accuracy and fix inconsitency
+- Business Impact   
+
+# Practice Quiz: Practice Quiz - Other IBM Tools : 12 questions
+
+/////////////////////////////////////////////////
+///W4 : Create and Share Your Jupyter Notebook
+///////////////////////////////////////////////////
+
+Instructions: Create and Share Your Jupyter Notebook
+- My Project link : https://eu-de.dataplatform.cloud.ibm.com/analytics/notebooks/v2/7ca3c478-e3f7-4bbe-9ddb-4da5bdb3dfb2/view?access_token=bca88978829370aace11414003eca738683d4e720317bde195d1752d867860e8
+
+Peer-graded Assignment: Submit Your Work and Grade Your Peers
+Review Your Peers: Submit Your Work and Grade Your Peers
+Reading: Reading IBM Digital Badge
+
+#########################################################################
+Course 3 : DATA SCIENCE METHODOLOGY
+#########################################################################
+
+//////////////////////////////////////////////////////////////////////
+////W1 : From Problem to Approach and From Requirements to Collection
+///////////////////////////////////////////////////////////////////////
+
+////W1 : Syllabus///
+Module 1: From Problem to Approach and from Requirements to Collection
+Module 2: From Understanding to Preparation and from Modeling to Evaluation
+Module 3: From Deployment to Feedback
+//////////////////////////////////////////////
+////W1 : Welcome - Data Science Methodoly ///
+//////////////////////////////////////////////
+
+- Q&A Data Science ? 
+- Data is every where and increasing ?
+=> Methodology : a system of methods in a particular area of study or activity
+- goal(in ds) : ensure that the data is used in problem solving is relevant and properly manipulated to address the question at handle
+- course by John Rollins (IBM Analytics)
+
+//////////////////////////////////////////////
+// W1 : From problem to approach:
+//////////////////////////////////////////////
+
+-> 10 questions answered ds methodology (in netshell) : 
+1/ What is the problem that you are trying to solve ?
+2/ How can you use data to answer the question
+## Working w/ data :
+3/ What data do you need to answer the question ? 
+4/ Where is the data comming from (identify all sources) and how will you get it ? 
+5/ Is the data that you collected representative and work with the data ?
+6/ what additional work is required to manipulate and work with the data ?
+## Deriving the answer : 
+7/ In what way can the data be visualized to get to the answer that is required ?
+8/ Does the model used really answer the initial question or does it need to be adjusted
+9/ Can you put the model into practive ?
+10/ Can you get constructive feedback into answering the question ? 
+ 
+# Introduction to CRISP-DM
+- CRISP-DM (Cross Industry Process for Data Mining ) : DS methodology is widely used similarly to Foundational Methodology of John Rollins Methodology
+- Goal : increase the use of data mining over a wide variety of business applications and industries
+
+* CRISP-DM vs Foundational Methodology* 
+
+## 6 steps of CRISP-DM :  
+1. Business Understanding : where the intention of the project is outlined w/ the Stakeholders( Communication and clarity are important)
+2. Data Understanding : where the Data is Collected & relies on business understanding. 
+=> CRISP-DM combines the stages of Data Requirements, Data Collection, and Data Understanding
+3. Data Preparation( common to Foundational Methodology) : transformation of collected data into a useble subset.
+ => Check in any data is missing, or ambiguity cases 
+4. Modeling  : Choose the effient model based on the prepared data. 
+ => Data mining purpose :  create useful infos
+ => model  : reveals patterns and structures & insight into the features of interest.  
+5. Evaluation  : where the model is tested (with generated testing data) to see its effectiveness   
+6. Deployement :the model is used on new data outside of the scope of the dataset and by new stakeholders
+=> Reajustement  : new variables, needs for the dataset to the model 
+=> revision : business needs and actions // Model and data 
+
+- CRISP-DM : is flexible and cyclical model (AGILE !!!)
+
+***************************************
+** DATA SCIENCE  METHODOLOGY PROCESS **
+***************************************
++-------------------------+    +-------------------+ 	+------------------+	+-----------------+	   +-------------------+	+----------------+    +----------+	  +----------+   +------------+   +---------+
+| Business understanding  | => | Analytic approach | => | Data requirements| => | Data collection | => | Data understanding| => |Data preparation| => |Modeling  | => |Evaluation| =>| Deployement| =>| Freeback|
++-------------------------+	   +-------------------+ 	+------------------+	+-----------------+	   +-------------------+	+----------------+ 	  +----------+	  +----------+   +------------+   +---------+
+
+# (1) Business Understanding
+- In methodology : Spending time to seek clarification for business understanding process
+
+* From (Business) understanding to approach ? *
+=> What's the problem that you are trying to solve ? 
+- understanding this stage is crucial to answer the CORE question : Which data needed to be used ? 
+- Understand problem == understanding the GOAL of who's asking the question
+- Goal leads to the objectives (Discussion amount stakeholders, priorities definition ..) 
+
+* Case study : 
+=> GOAL
+=> OBJECTIVE 
+=> identify the business requeriments
+	=> Predict the outcome
+	=> understanding the cause of the problem 
+	=> propose solution (narrative ? )
+
+# (2) Analytic Approach : 
+=> How can you use data to answer the question ? 
+
+- identify the type of pattern to address the questions most effectively
+=> Descriptive : current status
+=> Diagnostic (Statistical analysis) : what happened/happenning ?
+=> Predictive (Forecasting) : what if these trends continue?what will happen next ?
+=> Prescritive : how do we solve it ? 
+
+- the correct approach depends on business requirements for the model : 
+=> Predictive model : probability of an action 
+=> Descriptive model : question to show relationship
+=> Classification model : question YES/No  
+
+Machine learning when to use ? 
+- learn w/out explicitily programmed
+- identifies relationships and trends in data that might otherwise not be accessible or identified
+- Uses clustering association approach => human behaviour
+
+## Case Study : 
+- Decision Tree classification ? 
+=> Predictive model : 
+	=>to predict the outcome
+=> Decision tree classification : 
+	=> Categorical outcome, 
+	=> Explicit "decision path" showing condition leading to high risk 
+	=> likelihood of classified outcome 
+	=> Easy to understand and apply 
+
+/!\ Entropy is defined as the randomness or measuring the disorder of the information being processed in Machine Learning
+
+//////////////////////////////////////	
+//W1 : From Requirements to Collection
+//////////////////////////////////////
+
+# Data Requirements
+## Cooking with data : 
+- what ingredients are required ? 
+- how to understand/work with them (data ingredients)
+- how to prepare the data to meet the desired outcome ? 
+
+### ultime question  : what are data requirements ?
+- Answer the : WHO ? WHAT? WHERE ? WHEN ? WHY? HOW ?
+- the necessary data content 
+- formats, sources for initial datas 
+## Case study : 
+- Selecting the cohort  : type of sample, charateristics, specific conditions .. 
+- Define the data : contents, formats, representation for decision tree(X,Y - features) 
+
+# Data Collection
+- After the previous stage (data requirement) Collection needs more or less data ? 
+- Tehcniques like statistical analysis and data viz can be used to study the data collected 
+### ultime question  : what occurs during data collection?
+
+## Case study :  
+- Gathering available data ? 
+=> Available data sources ( data can come from different sources*)
+- Deferring inaccessible data  ? 
+=> Data Wanted but not available
+- Merging data ? 
+=> DBAs and dev work together to extract data from various sources and then merge it
+=> Data scientist and data analytics can discuss the better ways to manage the data
+	=> automating certains process in the database 
+
+# Ungraded External Tool: Ungraded External Tool From Requirements to Collection
+
+/////////////////////////////////////////////////////////////////////////////
+///W2 : From Understanding to Preparation and From Modeling to Evaluation ///
+/////////////////////////////////////////////////////////////////////////////
+
+# Data Understanding : What means to prepare or clean data ? 
+- Encompasses all activities related to constructing the data
+- ultime question : Is the collected data representative of the problem to be solve ? 
+
+* Data preparation process * 
+(Data source) 	=>	 (Data cleared) 	=> 			(Prepared Data ) 		=> 		(Patterns) 		=>   (knowledge) 
+	(Cleaning/integration) 		(Selection/transformation)			(Data mining) 				(Evaluation)
+
+## Case Study : 
+- Descriptive statistics (meaningful data analysis) : 
+ => Univariate statistics
+ => Pairwise corrections
+ => histogram (to see how variables are distributed) : which data prep most efficient for the model
+- Data quality (veracity) : 
+ => Missing values ? 
+ => Invalid/misleading values
+- iterative process (cyclique) : 
+ => Interative data collection and understanding
+	=> Refined definition of "CHF admission"
+
+* Data quality process*  
+(Accuracy)=>(Relevance)=>(Accessibility)=>(Completiveness)=>(Clarity)=>(Timelines)
+
+## reference : Descriptive stats : https://www.investopedia.com/terms/d/descriptive_statistics.asp
+
+# Data preparation - Concepts
+
+## cleansing data :
+- removes all unwanted elements : dirt or imperfections
+- most time consuming (70% - 90% of ds projects) => Automation collaction/prep process in the database=> reduce time to 50%
+- data become easier to work with
+- ultime question : What are the ways in which data is prepared ? 
+=> Classifying data : Invalid values, missing data, removed double, formating ..
+
+## USING domain knowledge : 
+- Feature engineering : Feature A,  Feature B,  Feature C ...
+## Text analysis : 
+-  to ensure that the proper grouping are set
+
+# Data Prep - Case Study : healthcare case 
+
+# Modeling - Concepts
+- In what way can the data be visualized to get to the answer that is required ? 
+## Predictive vs Descriptive Analytics? 
+- Descriptive(Optimization ) : choice, desire(if i did that i'll prefere that ? )
+- Predictive(Timming) : YEs/No, stop/go type outcomes 
+
+- Statistic driven
+- ML driven 
+
+## Calibration : Using training / test sets
+- training seta used in predictive modeling (outcome already known)
+- training sets : gauge to determine if any model calibration is needed
+- play w/ different algos to be sure that the variable in play are required
+- Understanding the question the follow is required : Constant refinement, adjustments and tweaking to ensure that the outcome is solid 
+
+- Was the question answered ? 
+
+# Modeling - Case study 
+ - Analyzing the 1st result of model 
+ - Analytical Decision tree classification model ? (Y/N=> Predictive )
+ - Adjust the parameters  : COST, ACCURACY SENSITIVITY, SPECIFICITY ?  
+
+# Evaluation  : Does the model used really answer the initial question or does it need to be adjusted ?
+
+- Hand-to-hand iterative stage w/ modeling 
+- perfomed during model dev and before model Deployement
+- requirements GOODS ? Outcome compliant w/ the custumer requeriments ? 
+- 2 big stages : 
+ * diagnostic measures 
+	=> Predictive model : decision tree is used to see if the output is aligned to the initial design (then adjust)  
+	=> Descriptive model : testing sets (known outcome) are applied, and model can be refined as needed
+ * Statistical significance testing : 
+ 	=> data is handled/ interpreted within the model 
+
+- Case study : 
+=> Misclassification COST TUNING : 
+=> Tune the relative Misclassification costs
+=> Balance true-positive rate / false-positive rate for best model 
+=> Optimal model at maximum separation 
+=> ROC (Receiver Operating charateristic Curve)
+
+
+/////////////////////////////////////
+///W3 : From Deployment to Feedback///
+/////////////////////////////////////
+
+# Deployement  : Are Stakeholders familiar w/ the new tool  ? 
+- Solution ?
+=> Solution Owner 
+=> Marketing
+=> Application devs 
+=> IT administration 
+
+- the model is deployed for an ultime test
+- Limited user testers/ Test Environment
+
+- Case Study  : 
+=> Understand the results : 
+	-> Assimilate knowledge for business
+		=> Practical understand of the meaning of model results
+		=> Implications of model results for designing intervention actions
+=> Gathering Application requeriments : 
+	-> Application requirements 
+		=> Automated, near-real-time risk assessment of CHF inpatients
+		=> Easy to use 
+		=> Automated data preparation and scoring
+		=> Up-to-date risk assessment to help clinicians target high-risk patients
+=> additional requirements 
+	-> additional reqs : 
+		=> Training for clinical staff
+		=> Tracking / Monitoring  (developed w/ IT devs and database administration)
+			=> The results go then to FEEDBACK stage to refine the model over time
+
+# FEEDBACK
+- Once in play (deployement) users feedback helps to refine the model & asset it for perfo & impact
+- allows to adjust the model to meet the solution required
+- Methodology is a cyclical process : refinement takes place at each stage
+- Philosophy : "The more you know the mode you want to know"
+
+## From Deployement to Feedback
+- Once the model is evaluated and the data scientistis confident it will work, it is deployed and put to the ultimate test  
+	=> Actual real-time use in the field 
+
+## Case Study : Applying the Concepts
+- Assessment model performance : 
+ => To measure results of applying the "risk model" to the outcome
+
+* Assessment model performance*
+
+					=> (Data Quality)   \\
+(Domain Expertise)  => (Time)		    =>> Accuracy 
+				    => (Interpretation) //
+- Refinement
+	=> initialreview of the 1st year of implementation
+	=> Based on feedback data and knowledge
+	=> Participation in intervention program 
+	=> Other possible refinements as yet unknown 
+
+- Redeployement 
+	=> Review and refine intervention actions
+
+	=> Redeploy 
+		=> Continue modeling, deployement, feedback, and refinement throughout the life of the intervention program 
+
+Final Exam : Credit Card Fraud Detection  : 
+Description : Build a ML solution to detection if a particular transaction is fraudulent or Genuine ? 
+
+DS Methodology steps : 
+
+Business Understanding
+Analytic Approach
+Data requirements
+Data Collection
+Data Understanding
+Data Prep
+Modeling
+Eveluation
+Deployement
+Feedback
+
+
+#########################################################################
+Course 4 : PYTHON FOR DATA SCIENCE, AI, & DEVELOPPER
+#########################################################################
+
+/////////////////////////
+///W1 : Python Basics ///
+////////////////////////////////
+///W2 : Python Data Structures ///
+///////////////////////////////////////
+///W3 : Python Programming Fundamentals///
+///////////////////////////////////////
+///W4 : Working with Data in Python ///
+////////////////////////////////
+///W5 : APIs, and Data Collection///
+////////////////////////////////
+
+ibm feature key : you need a subscription code to access this feature
+
+# LINK PYTHON NOTEBOOK(easier to practise and test)  : 
+- google drive :  https://colab.research.google.com/drive/1B46VwlBGv2Ajzy4zsoeifRysVOqHEKlV?authuser=1#scrollTo=dmV8TnfR5U98
+- every notebook : https://github.com/afondiel/research-notes/tree/master/programming/languages/python-notes/python-for-datascience-ibm/
+- Python documentation :  https://docs.python.org/3/tutorial/index.html
+
+#########################################################################
+Course 5 : PYTHON PROJECT FOR DATA SCIENCE 
+#########################################################################
+
+////W1///
+# Welcome
+# Optional: Intro to WebScraping
+
+## Html page structure : 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Intitulé de ma page</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Voici notre en‑tête principale utilisée dans toutes les pages de notre site web -->
+    <header>
+      <h1>En-tête</h1>
+    </header>
+    <!-- Ici nous mettons le contenu de la page -->
+    <main>
+      <!-- Il contient un article -->
+      <article>
+        <h2>En-tête d'article</h2>
+      </article>
+      <!-- Le contenu « à côté » peut aussi être intégré dans le contenu
+           principal -->
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+
+# Final Project: Analyzing Stock Performance and Building a Dashboard
+# Next Steps
+
+
+#########################################################################
+Course 6 : DATABASES and SQL for DATA SCIENCE W/ PYTHON
+#########################################################################
+///W1 : Getting Started with SQL///
+///W1 : Basic SQL ///
+# Welcome to SQL for Data Science
+
+## Why SQL for Data Science
+- Median based salary(wage) : 110k
+- job satisfaction score : 4.4/5
+- Top spot on Glassoor's best jobs in America 
+- enables to communicate with databases
+- every app needs to store data sommewhere : 
+=> big data
+=> Table with a few rows
+=> Small start up
+=> Big Database
+
+* Advantages : 
+** Boost your professional profile
+** Good understanding of relation databases
+** SQL stataments are FAST
+
+# About Hands-on Labs in this course : OK
+
+# Introduction to Databases
+
+=> ref : Course 2 : TOOLS FOR DATA SCIENCE => SQL
+## data ? : 
+=> Facts (words, numbers)
+=> Pictures
+=> One of the most critical assets of any business
+=> /!\ need to be secure & STORE => DATABASE
+
+## Database(db) ? 
+- A repository of data
+- prodives the functionality for adding, modifying and querying the* data
+- differents kinds of db, sotres data in different forms
+
+## Relational database
+- Relational DB (collection of two dimmensional tables like row, column) : 
+=> relationship between table 
+
+## DBMS (Data Base Management Systems):
+- sw to manage dbs
+
+## RDBMS (Relational Data Base Management Systems):
+- controls : access, organization, storage ...
+- uses in many industries  :  bank, tansportation, health ...
+- tools : MySQL, Oracle DB, IBM Db2 ..
+
+## Basic SQL Commands (CRUD)
+- Create a table 
+- Insert
+- Select(read/retrieve)
+- Update 
+- Delete 
+
+# SELECT Statement (query)
+- See/Retrive row from a table
+- select statement : query
+- result from the query : Result set/table
+- cmd : 
+=> select* from <tablename>
+
+- retrieve subset or specific column
+=> SELECT <column 1>, <column 2> from <tablename> 
+
+## Restricting the result Set : WHERE Clause 
+- Restricts the result set
+- Always requires a Predicate : 
+	=> Evaluate to: True, False or unknown
+	=> Used in the search condition of the Where clause
+Ex: select <table_id> , title from <tablename>
+	WHERE <table_id>='COLOMN_LABLE'
+
+# SELECT statement examples
+- IBM Dev Lab notes 
+
+# Hands-on Lab: Simple SELECT Statements
+# Ungraded External Tool: ok 
+# COUNT, DISTINCT, LIMIT
+
+- COUNT :  retrieves the number of rows matching the query criteria
+statement(query)  : select COUNT(*) from tablename
+- DISTINCT:  remove duplicate values from a result set
+=> retrieve unique values in a columns :
+statement(query)  : select DISTINCT columnname from tablename
+- LIMIT: retrieves the number of rows retrieved from the database
+statement (query) : select * from tablename LIMIT 10 => like head function in pandas
+
+Hands-on Lab: COUNT, DISTINCT, LIMIT
+Ungraded External Tool : ok
+
+
+# INSERT Statement (DML)
+- Create the table (CREATE TABLE Statement)
+- Populate table w/ data
+	=> add new rows to a table (INSERT Statement)
+	=> INSERT INTO [tablename]
+		<([ColumnName], ...)>
+		VALUES([Value], ...)
+		...
+		([Value], ...) => Multiple rows
+--
+	INSERT INTO table_name (column1, column2, ... )
+	VALUES (value1, value2, ... );
+--
+
+# UPDATE and DELETE Statements (DML)
+- UPDATE : update a row value
+	=> UPDATE [tablename]
+		SET[[ColumnName]=[Value]]
+		SET([Value], ...)
+		<WHERE [Condition]>
+
+--
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+--
+
+- DELETE :  remove a row value 
+	=> DELETE FROM [tablename]
+		<WHERE [Condition]>
+
+--
+DELETE FROM table_name
+WHERE condition;
+--
+
+Hands-on Lab: INSERT, UPDATE, and DELETE
+Ungraded External Tool
+
+Practice Quiz
+Practice Quiz
+Graded Quiz: Basic SQL
+Quiz•3 questions
+
+///W2 : Introduction to Relational Databases and Tables///
+
+# Relational Database Concepts
+- Most used data model
+- Allows for data independence (logical data, physical data physical storage)
+- Data is stored in a tables
+- Entity Relationship Diagram (ERD) :
+=> Entity : table (object) 
+=> Relationship : dependencies
+
+## Entity Relationship Model (ERM) :
+- collections of entities
+- tool to design relation databases : data type, dependencies... 
+- Entity : person, noun, place ...
+=> attributes : charateristics of the entity or data elements
+
+## Mapping Entity Diagrams to Tables
+- Table : combination of rows and columns
+- Entities => tables
+- attributes get translated into columns
+ => some data values to each of columns the completes the table form
+
+## Primary Keys and Foreign Keys
+Primary Keys : unique/id value to prevent duplication of data
+Foreign Keys : to create a link w/ others tables/entities
+
+
+# How to create a Database instance on Cloud
+- Cloud databases : database server build / accessed throught a CLoud platform
+- ease of use and acess
+=> API
+=> Web Interface  
+=> Cloud ou Remote Applications
+- Scalability & Economics
+=> Expand/Shrink Storage & Compute resources
+=> Pay per use
+
+- Disaster Recovery
+=> Cloud Backups
+
+## Cloud databases
+- IBM Bd2
+- Databases for PostgresSQL
+- Oracle Database CLoud Service
+- MS Azure SQL Database
+- Amazon Relational Database Services (RDS)
+
+Available as : 
+=> VMs or Managed Service
+=> Single or Mini-tenant
+
+## Database service instances
+-  DBaaS provides users access to Database resources in cloud w/out setting up and installing sw
+- Database service instance holds data in data objects/tables
+- use web interface & API => to get the data once data is loaded
+
+(user API/web interface) ===(query)===> (CLoud DB)
+				||	<====== Resultset=====||
+
+## IBM Db2 database on cloud
+- On ibm cloud catalog => Db2 services
+
+# Ungraded External Tool : Obtain an IBM Cloud Feature Code
+# Hands-on Lab: Create Db2 service instance and Get started with the Db2 console
+
+# Types of SQL statements (DDL vs. DML)
+## SQL Commands "groupe" classes?
+
+### DATA DEFINITION LANGUAGE (DDL)
+=> Defining Database Objects(define, change, drop data) : CREATE, ALTER, DROP(delete tables), RENAME, TRUNCATE(donot delete the table)
+
+### DATA MANIPULATION LANGUAGE(DML) => CRUD operations
+=> Updating database content(read and modify data) : INSERT, UPDATE, DELETE
+=> Database searches : SELECT
+
+### DATA CONTROL LANGUAGE(DCL) 
+=> Assurance of data integrity and security : GRANT, REVOKE, COMMIT, ROLLBACK...
+ 
+
+# CREATE TABLE Statement
+DDL statement for creating entities(tables) in a relation db
+- Syntax : 
+
+CREATE TABLE table_name
+(
+	column_name_1 datatype optional_parameters,
+	column_name_2 datatype ,
+	...
+	column_name_n datatype ,
+);
+
+where : optional_parameters => constraints : Primary key, Foreign key ..
+
+# ALTER, DROP, and Truncate tables
+
+-- ALTER : 
+=> add or remove columns
+=> modify the datatype of the column
+=> add or remove a Keys
+=> add or remove a constraints 
+
+- Syntax :
+=> add a column
+ALTER TABLE <table_name>
+	ADD COLUMN <column_name_1> datatype 
+	...
+	ADD COLUMN <column_name_n> datatype
+
+=> modify a type
+ALTER TABLE <table_name>
+	ALTER COLUMN <column_name_1> set DATA TYPE 
+<new_datatype>
+
+=> delete a column
+ALTER TABLE table_name
+	DROP COLUMN telephone_number;
+
+=> delete a table
+ALTER TABLE table_name; 
+
+=> delete the row values of table without deleting the table 'object'
+TRUNCATE TABLE table_name
+	IMMEDIATE;
+
+# Examples to CREATE and DROP tables
+# Hands-on Lab: CREATE, ALTER, TRUNCATE, DROP
+# (Optional) Hands-on Lab : CREATE, ALTER, TRUNCATE, DROP
+# Ungraded External Tool•. Duration: 1 hour1h
+# Hands-on Lab: Create and Load Tables using SQL Scripts
+# (Optional) Hands-on Lab: Create and Load Tables using SQL Scripts
+# Ungraded External Tool•. Duration: 1 hour1h
+# Summary & Highlights
+# Practice Quiz
+# Practice Quiz•5 questions
+# Graded Quiz: Relational DB Concepts and Tables
+# # Quiz•3 questions
+# •Grade: --> All good
+
+///W3 : Refining your Results///
+
+# Using String Patterns and Ranges
+- Syntax :
+SELECT <COLUMN> from TABLE_NAME
+WHERE <columnname> LIKE <string pattern>  
+
+<string pattern>   : %(wild card charater) => use before/after the missing letter
+between ... and : intervals/range of numbers
+in ('values1', 'values2') : where valuesx => are columns
+
+# Sorting Result Sets
+## ORDER BY clause(column) => sort value in ascending order
+## ORDER BY clause(column) DESC => sort value in descending order
+## ORDER BY 2 => sort specific column
+
+# Grouping Result Sets
+- GROUP BY : 
+=> Syntax :
+		=> select country, count(country)
+			from table_name GROUP BY country
+		=> select country, count(country)
+			*as new_col_result_set* from table_name GROUP BY country
+
+
+- HAVING : 
+=> Syntax :
+		=> select country, count(country)
+			*as new_col_result_set* from table_name GROUP BY country
+				having count(country)>4
+
+
+# Hands-on Lab : String Patterns, Sorting & Grouping
+# (Optional) Hands-on Lab: String Patterns, Sorting and Grouping
+# Ungraded External Tool•. Duration: 1 hour1h
+# Summary & Highlights
+# Practice Quiz
+# Practice Quiz•5 questions
+# Graded Quiz: Refining Your Results => OKOK
+
+///w3: Functions, Multiple Tables, and Sub-queries///
+
+# Built-in Database Functions
+
+-  Most databases comme w/ built-in SQL functions
+- Build-in functions can be included as part of SQL statements
+- Database functions can significantly reduce the amount of data that needs to be retrieved
+- Can speed up data processing
+
+## Aggregate and Column Functions
+- INPUT : Collection of values(eg : entire column)
+- OUTPUT : Single value
+- Examples : SUM(), MIN(), MAX(), AVG(), etc 
+
+## SCALAR and STRING Functions
+- SCALAR :  ROUND(), 
+- STRING : LENGHT, UCASE, LCASE ...
+
+# Date and Time Built-in Functions
+- to extract day, month, year ...
+- DATE : YYYYMMDD
+- TIME : HHMMSS
+- TIMESTAMP (20 digits) : YYYYXXDDHHMMSSZZZZZZ
+	=> where Z ... : microseconds
+- Date / Time functions : 
+ 	=> YEAR(), MONTH(), DAY, DAYOFMONTH, DYOFWEEK, DAYOFYEAR, WEEK, HOUR, MINUTE, SECOND, ...
+
+=> Eg : Select DAY(RESCUEDATE) from PETRESCUE 
+		where ANIMAL='Cat'
+- Date and Time Arithmetic is also possible : CURENT_DATE, CURRENT_TIME
+=> Result : YMMDD
+
+# Hands-on Lab: Built-in functions
+# (Optional) Hands-on Lab: Built-in functions
+# Ungraded External Tool•. Duration: 1 hour1h
+
+# Sub-Queries and Nested Selects
+- Sub-Queries : A query inside another query
+- Form more powerful queries
+- eg : select COLUMN1 from TABLE
+		where COLUMN2 = (select MAX(COLUMN2) from TABLE)
+- 3 scenarios : 
+=> From the table
+=> From specific COLUMN (Column Expressions)
+=> From clause : Substitute TABLE name w/ a sub-query(Table Expressions)
+
+
+# Hands-on Lab: Sub-queries and Nested SELECTs 
+# (Optional) Hands-on Lab : Sub-queries and Nested SELECTS
+# Ungraded External Tool•. Duration: 1 hour1h
+
+# Working with Multiple Tables
+- Sub-queries
+- Implicit JOIN
+- JOIN Operators (INNER JOIN, OUTER JOIN, etc)
+	=> CROSS JOIN (also known as Cartesian Join)
+	-- syntax : 
+	SELECT column_name(s)
+	FROM table1, table2;
+
+	=> INNER JOIN
+	-- syntax : 
+	SELECT column_name(s)
+	FROM table1, table2
+	WHERE table1.column_name = table2.column_name;
+
+
+## Sub-queries SYNTAX :  
+SELECT * FROM EMPLOYEES
+WHERE DEP_ID IN
+(SELECT DEPT_ID_DEP FROM DEPARTMENTS);
+		WHERE LOC_ID = 'L0002' --> SPECIFIC Value
+
+## Implicit JOIN SYNTAX : 
+-- SELECT * FROM EMPLOYEES, DEPARTMENTS; 
+=> The result is a full join(or Cartesian join):
+	=> Every row in the first table is joined with every row in the 2 one.
+
+=> operations  : retrieving elements/records which matches from 2 tables
+-- SELECT * FROM EMPLOYEES, DEPARTMENTS
+--		WHERE EMPLOYEES.DEP_ID  = DEPARTMENTS.DEPT_ID_DEP
+
+=> Using Aliases : 
+-- SELECT * FROM EMPLOYEES E, DEPARTMENTS D 
+-- 		WHERE E.DEP_ID = D.DEPT_ID_DEP; 
+
+
+# Lab 
+# Quiz 
+
+/////////////////////////////////////////////
+/// W4 : Accessing Databases using Python ///
+/////////////////////////////////////////////
+
+- Python power & efficiency
+- Matlab notebook vs Jupyter notebook vs Apache Zeppelin, apache Spark, Databricks cloud .. 
+- Python communication w/ DBMS
+(Client) => (Notebook) => (API calls) => (DBMS)
+
+## SQL API : 
+- Contains functions and operators to communicate w/ DBMS
+- requests, errors handling 
+## API used by popular SQL-based DBMS systems
+		(SQL-based DBMS )		(SQL API)
+---------	MySQL		-------- MySQL C API
+---------	PostgreSQL	-------- psyscopg2
+---------	IBM DB2		-------- ibm_db 
+---------	SQL Server	-------- dblib API 
+---------	Database acces for MS -------- ODBC
+---------	Oracle		-------- OCI
+---------	Java		-------- JDBC
+
+# Writing code using DB-API
+- Python'q standard API for accessing relational databases (RDB)
+- Allows a single program that to work with multiple kinds of RDB 
+- Learn DB-API functions once, use them w/ any database
+
+## Applications
+- Easy to implement and understand
+- Encourages similarity between the Python modules used to access db
+- Achieve consistency
+- Portable acress databases 
+- Broad reach of database connectivity from Python 
+			(DB)				(DB API)
+---------	IBM Db2		-------- ibm_db 
+---------	MySQL		-------- MySQL Connector/Python 
+---------	PostgreSQL	-------- psyscopg2
+---------	MongoDB		-------- PyMongo
+
+## Concepts of the Python DB API 
+
+- Connection Objects
+=> Database connections
+=> Manage transactions
+- Curso Objects 
+=> Database Queries
+=> Scroll trough result set 
+=> Retrieve results
+
+Connection methods
+- cursor, commit, roobacj, close ...
+Cursors methods
+- callproc, execute, executemany, fetchone ...
+
+[App] = [Cursor object] => [Database]
+- cursor sees a db records as list of files ...
+- keep the program current position 
+
+## Writing code using DB-API
+1. import the dbmodule import connect 
+2. create connection object
+3. create a cursor object
+4. run queries
+5. free resources (Cursor.close, connection.close)
+
+# Connecting to a database using ibm_db API
+- provides a variety of useful Python functions for acessing and manipulating data an IBM data server Database 
+- uses IBM Data Server Driver for ODBC and CLI APIs to connect to IBM DB2 and Informix 
+
+# Lab: Create Database Credentials
+
+# Hands-on Lab: Connecting to a database instance
+# Ungraded External Tool => OK
+
+# Creating tables, loading data and querying data
+## Creating tables
+- using the python db api 
+- ibm_db.exec_immediate(conn_obj, "sql_queries") =>
+## Insert data into the table
+- ibm_db.exec_immediate(conn_obj, "sql_queries") =>
+## Querying data
+- ibm_db.fetching(stmt)
+- Using pandas
+	=> read_sql("sql_queries", conn_obj )
+
+# Lab
+
+# Introducing SQL Magic
+
+# Hands-on Tutorial: Accessing Databases with SQL magic
+# Ungraded External Tool•. Duration: 20 minutes20 min
+# (Optional) Hands-on Tutorial: Accessing Databases with SQL magic
+# Ungraded External Tool
+
+# Analyzing data with Python
+
+# Lab 
+# Quiz 
+
+///W5: Assignment Preparation: Working with real-world data sets and built-in SQL functions///
+
+# Working with Real World Datasets
+- Working with CSV files (.CSV : COMMA SEPARATED VALUES)
+- the first corresponds of the name of columns  
+- Data is non-sensitive (low != upper case) => SOLUTION "Id" == ID
+- Spaces => Under_cores
+- \ backslash are great to scape characters and go to the next line in case of long queries
+
+# Getting Table and Column Details
+- Getting the List of tables in the database 
+=> DB2 : SYSCAT.TABLES
+=> SQL Server : INFORMATION_SCHEMA.TABLES
+=> Oracle : ALL_TABLES or USER_TABLES
+
+- syntax : 
+ SELECT * FROM SYSCAT.TABLES 
+ or
+ SELECT TABSCHEMA, TABNAME, CREATE_TIME
+	FROM SYSCAT.TABLES
+	WHERE TABSCHEMA = 'DB2_USERNAME'
+
+## Getting a list of columns in the database
+SELECT * FROM SYSCAT.COLUMNS
+	WHERE TABNAME = 'TABLE_NAME'
+
+or 
+SELECT DISTINCT(NAME), COLTYPE, LENGHT
+	FROM SYSIBM.SYSCOLUMNS
+	WHERE TBNAME = 'TABLE_NAME'
+
+# LOADing Data => OK
+
+/////////////////////////////////////////////
+/// W5 : Accessing Databases using Python ///
+/////////////////////////////////////////////
+Assignment => OK
+# Course Wrapup 
+
+This course is part of:
+-IBM Data Analyst Professional Certificate
+-Applied Data Science Specialization
+-IBM Data Science Professional Certificate
+-IBM Data Engineering Foundations Specialization
+-IBM Data Engineering Professional Certificate
+ (Coming in the Future)
+
+As a next step, you can explore other courses in these programs, starting with: 
+-Data Engineering and Data Analytics tracks: Data Analysis with Python
+-Data Engineering track: NoSQL Fundamentals (Coming soon...)
+
+/////////////////////////////////////////////
+/// W6 : Advanced SQL For DataScience Engineer///
+/////////////////////////////////////////////
+
+/// Views, stored procedures and transactions ///
+# Views
+# Stored Procedures
+# ACID Transactions
+
+/// Joins statements ///
+# Join Overview
+# Inner Join
+# Outer Joins
+
+///Lab///
+///Quiz///
+
+
+#########################################################################
+Course 7 : DATA ANALYSIS W/ PYTHON
+#########################################################################
+////W1 : Importing Databases ///
+
+# The Problem
+## Why Data Analysis ? 
+- Data is eveywhere
+- Data analysis/data science help us answer questions from data
+- Dataa analysis plays an important role in : 
+	=> Discovering useful information
+	=> Answering questions
+	=> Predicting future or the unknown
+
+## Define a Data Analysis problem ? 
+- Problem : Estimate used car prices
+	=> Is there data on the prices of other cars their characteristics ? 
+	=> What features of cars affect their prices ? 
+		-> Color? Brand ? Horsepower ? Something else ?
+	=> Asking the right questions in terms of data 
+
+# Understanding the Data
+- source data (1985) : 
+	=> dataset automobile : 'https://archive.ics.uci.edu/ml/machine-learning-databases/autos'
+- data available is row data/no proper/ untructure data 
+	=> Need to be clean and prepare ( Header, delete empty data ...)
+	=> The description the data : data attributes (names, range ... of each column)
+
+- input attributes (x : independent var) => features ... / Predictors
+- output attribute (y : dependent var) => Target/label/ value to be predicted
+
+# Python Packages for Data Science
+
+## Group I : Scientif Computing Libraries 
+- Pandas : Data structures & tools
+- NumPy : Array & Matrices
+- SciPy : integrals, solving differential eq, optimization
+
+## Group II : Visualization Lib
+- Matplotlib : plots & graphs, most popular
+- seaborn  : plots (heat maps, time series, violin plots ..) 
+
+## Group III : Algorithms Lib
+- Scikit-learn : Machine Learning  : regression, classification ...)
+- Statsmodels : Explore data, estimate statistical models, and perform statistical tests...) 
+
+# Importing and Exporting Data in Python
+- process of loading and reading data into Python from various resources 
+- Two main propreties : 
+	=> Format : .cvs, .json, .xlsx, .hdf ... 
+	=> File Path of dataset  : 
+		=>computer (/Desktop/ maydat.csv)
+		=>internet : https://archive.ics.uci.edu/ml/machine-learning-databases/autos'
+- getting Data : using 'pandas' lib  
+- printing data to make sure everything ok  : df.head(n), df.tail(n) => n : nb of rows
+	=> replace a default row : df.column = ['a', 'b' ....]
+
+
+- exporting different data format in python w/ pandas 
+=> read : pd.read_formatdata() 
+=> save : df.to_formatdata()
+where => formatdata: csv, json, excel ...
+
+# Getting Started Analyzing Data in Python
+- Understand the data before you begin any analysis
+	=> Things to check : Data types, Data distribution
+	=> Locate potential issues w/ the data
+- df.dtypes : to check if data type make are coherent
+- df.describe()/describe(include ="all") : statistical summary/distribution 
+- df.info() : shows the botton 23 rows and top 23 rows
+
+# Accessing Databases with Python
+- see sql database course => course 6
+
+# Lab 
+- dataset : https://archive.ics.uci.edu/ml/datasets/Automobile?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDA0101ENSkillsNetwork20235326-2021-01-01
+
+# Graded Quiz
+
+# sum-up 
+
+Define the Business Problem: Look at the data and make some high-level decision on what kind of analysis should be done
+Import and Export Data in Python: How to import data from multiple data sources using the Pandas library and how to export files into different formats.
+Analyze Data in Python: How to do some introductory analysis in Python using functions like dataframe.head() to view the first few lines of the dataset, dataframe.info() to view the column names and data types.
+
+///W2 : Data Wrangling/Munging ///
+
+# Pre-processing Data in Python (Data Cleaning/ Data wrangling)
+- Process of converting/mapping data from the initial "raw" form into another format
+	=>preparing the data for data analysis 
+- Operation are done along the columns of the DataFrame.
+- Each column is a Pandas series 
+	=> addiction of 1 for each row of the col a  : df['a'] = df ['a'] + 1  
+
+# Dealing with Missing Values in Python
+- occurs when no data value is tored for a variable (feture) in an observation
+- Missing values can be : 0, ?, N/A, empty/blank cell ...
+## Dealing w/ missing data ?
+- Check w/ the data collection source
+- Drop the missing values
+	=> drop the variable
+	=> drop the data Entry 
+- Replace the missing values
+	=> replace it with an average (of similar datapoints) => to avoid waste
+	=> replace it by the frequency (data that appears more often) 
+	=> replace it based on other functions 
+- Leave it as missing data 
+
+## Drop missing values 
+- df.dropna() => df.drona(subset=["price"], axis=0, inplace=True) : inplace to be taken immediatly
+- df.replace(df['a'], missing values, new)
+- high quality data or source 
+- ## Replace data with mean (for numerical values)
+/*mean = df['a'].mean()
+mean = df.replace(df['a'], np.nan, mean)*/
+
+# Data Formatting in Python
+- data are collected from different places and stored in different formats
+- bringing data into common stardand of expression allows users to make meaning comparisoon 
+- abreviation, synonyms, local words, data types => convert to a classical and understandble format. 
+- clean data for strong model 
+- check data type if not ok => convert to the wanted format
+
+# Data Normalization in Python
+- Uniforms the features value with different ranges
+- to make easier comparison btw two or more values(correlation ?) 
+- similar intrisec influence on analytic model  
+## Methods : 
+- Simple Feature scaling : Xnew = Xold/Xmax => range[0:1]
+- Min-Max : Xnew = Xold = (Xold - Xmin)/(Xmax - Xmin)) => range[0:1]
+- Z-score : Xnew = (Xold - µ ) / sigma => range[0:0]
+
+# Binning in Python
+- Grouping of values into "bins"
+- Converts numeric into categorical variables
+- group a set of numerical values into a set of bins =>[low, medium, high]
+- value great categorization 
+
+# Turning categorical variables into quantitative variables in Python
+- using dummies methods
+
+# Data Wrangling
+- Data wrangling is the process of converting data from the initial 
+format to a format that may be better for analysis.
+
+# Lab 
+# Quiz
+
+/////////////////////////////////////////////
+/// W3 : Exploratory Data Analysis (EDA) ///
+////////////////////////////////////////////
+
+# Exploratory Data Analysis
+- Preliminary step in data analysis to
+	=> Summarize main characteristics of the data
+	=> Gain better understand of the dataset
+	=> Uncover relationships between variables
+	=> Extract import variables
+
+Question : 
+	What are the characteristics which have the most impact on the car?  
+
+# Descriptive Statistics (course 3)
+- Describe basic features of data 
+- Giving short summaries about the sample and measures of the data 
+- Help to describe basic features of a dataset and obtain a short summary about the sample and measures of the data 
+
+## Descriptive statistics functions :
+- pandas df.describe() : Summarize statistics
+- pandas Value_Counts() : Summarize the categorical data
+- seaborn sns.boxplots() : visualize numeric data (various distributions)
+	=> Upper Extreme 
+	=> Upper Quartile
+	=> Median
+	=> Lower Quartille
+	=> Whisker
+	=> Lower Extreme
+- scatter plot() : to visualize continue data (bunches of points) 
+	=> Each observation represent as a point
+	=> Scatter plot show the relationship between two variables
+	1. Predictor/independent variables on x-axis
+	2. Target/dependent variables on y-axis
+
+# GroupBy in Python
+- Relationship btw two or more variables (df['a'], df['b'] ...) 
+- Can be applied on categorical variables 
+- Group data into Categories
+- Single or multiple variables 
+## pandas Pivot() => One variable displayed along the columns and the other variable displayed along the rows 
+## Heatmap  : Plot target variable over multiple variables
+
+# Correlation
+- Measures to what extent different variables are interdependent
+ex : Smoking => Lung Cancer 
+ex : Rain => Umbrella
+- Correlation doesn't imply causation 
+types of correlation : 
+	=> positive correlation
+	=> negative correlation 
+	=> weak correlation
+
+# Correlation - Statistics
+## Pearson Correlation : 
+- Measure the strenght of the correlation between two features
+	=> Correlation coefficient
+	=> P-value
+
+- Correlation coefficient (r)
+	=> close to +1: Large Positive relationship 
+	=> close to -1: Large Negative relationship 
+	=> close to 0: No relationship 
+- P-value 
+	=> P-value < 0.001 : Strong certainty in the result
+	=> P-value < 0.05 : Moderate certainty in the result
+	=> P-value < 0.1 : Weak certainty in the result 
+	=> P-value > 0.1 : No certainty in the result
+
+- Strong Correlation : 
+	=> Correlation coefficient close to 1 or -1 (range [-1,1]
+	=> P value less than 0.001 
+
+# Association between two categorical variables: Chi-Square(X^2)
+
+## Categorical variables 
+- We use Chi-square Test for Association (denoted as X^2)
+- The test is intended to test how likely it is that an observed distribution is due to chance
+## Chi-square Test for association 
+- The Chi-square tests a null hypothesis that the variables are independent
+- The Chi-square does not tell you the type relationship that exists btw both variables; but only that a relationship exists
+
+------------------------------
+|| X^2 = Sum (Oi - Ei)^2/Ei ||
+------------------------------
+ - Oi : observed values
+ - Ei : Expected values
+
+=> To get expected values(From observed values/table) : 
+
+   Row total*Column total 
+	-----------------------
+		 Grand total 
+
+------------------------------------------------
+|| Defree of freedom = (row - 1)*(column - 1) ||
+------------------------------------------------
+
+- deviation == difference (btw two values)
+
+# Summary  : 
+Describe Exploratory Data Analysis: By summarizing the main characteristics of the data and extracting valuable insights.
+Compute basic descriptive statistics: Calculate the mean, median, and mode using python and use it as a basis in understanding the distribution of the data.
+Create data groups: How and why you put continuous data in groups and how to visualize them.
+Define correlation as the linear association between two numerical variables: Use Pearson correlation as a measure of the correlation between two continuous variables
+Define the association between two categorical variables: Understand how to find the association of two variables using the Chi-square test for association and how to interpret them.
+
+# Lab
+# Grade
+# Reference : 
+Exploratory data analysis : https://en.wikipedia.org/wiki/Exploratory_data_analysis
+pandas functions : https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm
+
+///////////////////////////
+///W4: MODEL DEVELOPMENT///
+//////////////////////////
+
+# Model Development
+- Simple and multiple Linear Regression 
+- Model Evaluation using Visualization
+- Polynomial Regression and Pipelines
+- R-squared and MSE for In-Sample Evaluation
+- Prediction and Decision Making 
+
+/!\ Question  : 
+ => How can you determine a fair value for a used car ?
+
+## Model Development 
+- A model can be thought of as a mathematical equation used to predict a value given one or more other values
+- Relation one or more independent variables(features) to dependent variables(target) 
+|features| => |Model| => |target|
+- Usually the more *relevant data* you have the more accurate your model is
+
+# Linear Regression and Multiple Linear Regression
+- Linear regression will refer to one independent variable to make a prediction
+- Multiple regression will refer to multiple independent variables to make a prediction 
+## Simple Linear Regression
+- The predictor(independent) variable: x 
+- The target (dependent) variable: y 
+---------------
+|y = bo + b1*x|
+---------------
+where => bo : the intercept 
+		 b1 : the slope 
+## Simple Linear Regression : Prediction 
+- Chose some "hypothetical" inputs value that best match w/ the regression line to fit the model
+## Simple Linear Regression : Fit 
+- training the model 
+- Predictor and target are storage in two Numpy Arrays X[predictors] = Y[Target]
+- Noise : random value added to the model to increase the accuracy 
+
+--------------- 	--------- 		--------
+|Input values | => |	Fit	 | => | Predict | (y^ = bo+b1*x) => estimated model
+---------------		----------		---------
+		||<============================||
+			Retrain the estimatedd values
+
+- To fit the model we use *scikit-learn* library 
+1. Import linear model
+2 Create Linear Regression Object Using the constructor
+=> We define the predictor variable (X = df[['highway-mpg']]) and target variable(Y=[['price']])
+=> Then : lm.fit(X, Y) also parameters bo, b1
+=> Predict  : lm.predict(X)
+
+SLR - Estimated Linear Model 
+=> bo, b1 ...
+
+## MLR - Estimated Linear Model 
+ ---------------------------------------
+|y = bo + b1*x1 + b2*x2 + b3*x3 + ...+ |
+----------------------------------------
+- Same step as the SLM !!!!
+
+# Model Evaluation using Visualization
+## Why use Regression plot ? 
+- The relationship btw 2 variables
+- the strength of the correlation
+- The direction of the relationship (positive or negative) 
+- Combination of : 
+	=> The scatterplot : where each point represebts a different Y	
+	=> The fitted linear regression line (y)
+
+- sns.Regplot() => to viz the regression
+## Residual plot 
+- Randomly spread out around x-axis which means the linear model is appropriate
+- Expected behaiviour : results have mean btw the same VARIANCE
+- no curvature (values changes w/ axis) => FOR LINEAR REGRESSION!!!!
+- sns.residplot() => to display plot
+
+- predicted values  are discret values => pandas converted into distribution (Gaussian)
+
+## Distrubution plots  : 
+- The fitted values that result from the model
+- The actual values 
+
+Predicted values shall be much closer to the TARGET VALUES!!!! 
+
+# Polynomial Regression and Pipelines
+- Used when linear model is not the best fit for our data 
+- A special case of the general linear regression model 
+- Useful for describing curvilinear relationships
+	=> Curvilineat relationships
+	=> By squaring or setting higher-order terms of the predictor variables
+- Quadratic - 2nd order
+------------------------------
+|Y^ = bo + b1*x1 + b2*(x1)^2 | (square model)
+------------------------------
+- Cubic - 3rd order
+-----------------------------------------
+|Y^ = bo + b1*x1 + b2*(x1)^2 + b3(x1)^3  | (Cubic model)
+-----------------------------------------
+- Higher order (when a good fit hasn't been achived by the lower order)
+------------------------------------------------
+|Y^ = bo + b1*x1 + b2*(x1)^2 + b3(x1)^3 +...+  | (Cubic model)
+-----------------------------------------------
+- The relationship btw the variables and parameters is always linear 
+- function to train the model  : np.polyfit(x, y, n) => n : order
+- for more complex polynom better user scikit-learn lib
+
+## pipelines
+
+- way to simply the code
+---------------- 	---------------------	  -------------------
+|Normalization | => |Polynomial transform| => |Linear Regression |
+----------------    ----------------------	  --------------------
+- pipeline lib => Create pipeline Object (pipe = Pipe())
+- Pipe.fit()
+- Pipe.predict()
+
+# Measures for In-Sample Evaluation
+- A way to numeriaclly determine how good the model fits on dataset 
+- Two import measures to determine the fit of the a model
+	=> Mean Square Error (MSE) 
+	=> R-squared (R^2)
+## Mean Square Error
+- difference(deviation) btw the actual value y and the predicted value Y^ squared
+- add every error(difference) and divide by the number of the samples
+- to define the function we can import it from  : sklearn.metrics lib (y, y^)
+
+-------------------------
+| MSE = 1/N*Sum(Y-Y^)^2 | => Derived(MSE) = Gradient Descent !!!
+--------------------------
+
+## R-squared (R^2)
+- The coef of determination or R squared(R^2)
+- Is a measure to determine how close the data is to the fitted regression line
+- R^2 : the percentage of variation of the target variable (Y) that is explained by the linear model 
+- Think about as comparing a regression model to a simple model i.e the mean of the data points 
+- If the variable x is a good predictor our model should perform much better than the mean 
+-----------------------------------------------------------------
+| R^2 = (1 - MSE of regression line/MSE of the avg of the data ) |
+-----------------------------------------------------------------
+=> MSE of regression line > MSE of the avg of the data
+=> (MSE of the avg of the data) != 0  
+=> R^2 ~ [0, 1] => the line is a good fit fo the data
+	=> lm.fit(X, y) 
+	=> lm.score(X, y) 
+
+# Prediction and Decision Making
+- How can we measure that model is corrected  ?
+## Determining a Good Model Fit
+- To determine final best fit, we look at a combination of :
+=> Do the predicted values make sense 
+=> Visualization 
+=> Numerical measures for evalueation
+=> Comparing Models
+
+Summary : 
+Define the explanatory variable and the response variable: Define the response variable (y) as the focus of the experiment and the explanatory variable (x) as a variable used to explain the change of the response variable. Understand the differences between Simple Linear Regression because it concerns the study of only one explanatory variable and Multiple Linear Regression because it concerns the study of two or more explanatory variables.
+Evaluate the model using Visualization: By visually representing the errors of a variable using scatterplots and interpreting the results of the model.
+Identify alternative regression approaches: Use a Polynomial Regression when the Linear regression does not capture the curvilinear relationship between variables and how to pick the optimal order to use in a model.
+Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as the percentage of the variation in the response variable y  that is explained by the variation in explanatory variable(s) x. The Mean Squared Error tells you how close a regression line is to a set of points. It does this by taking the average distances from the actual points to the predicted points and squaring them.
+
+# Lab 
+# Quiz 
+
+//////////////////////////////////////////
+///W5 : MODEL EVALUATION AND REFINEMENT///
+//////////////////////////////////////////
+
+# Model Evaluation and Refinement
+- Tell how the model performs in the real world 
+- In-sample evaluation tell how well the model will fit the data used to train it
+	=> Problem ?
+		> It does not tell how the trained model can be used to predict new data
+	=> Solution ? 
+		> In-sample data or training set 
+		> Out-of-sample evaluation or test set
+- Split the dataset into : 
+	=> Training dataset (70%)
+	=> Test dataset (30%)
+- Build and train the model w/ a training set
+- Use testing set to assess the performance of a predictive model
+- When we have completed testing the model we should use all the data to train the model to get the best performance
+
+- Function for splitting sets  : train_test_split() from scikit pkg
+
+## Cross validation
+- Most common out-of-sample evaluations metrics
+- More effective use data (each observation is used for both training and testing)
+- We split dataset into pieces either for training and testing (70%/30% and vice-versa)
+	=> Then we take the average results as the estimate of out-of-sample error 
+- the validation result depend on the type of MODEL
+- To apply cross validation => cross_val_score() from scikit-learn pkg 
+
+- cross_val_predict()
+- It returns the prediction that was obtained for each element when it was in the test set 
+- Has a similar interface to cross_val_score() 
+
+
+# Overfitting, Underfitting and Model Selection
+- Study case : Polynomial Model n-order
+-  Overfitting : Model too complex(order higher ) VS Less dataset 
+
+-  Underfitting :To many errors => model too simple to fit the datan 
+		=> Solution  : Increase the oder of the polynomial order 
+		=> Too much data VS simple model
+
+- Test error (parabola curve) > Training Error(negative exponentiel curve) 
+- Optimal capacity  : (center)point btw under and over fitting.
+- The difference btw test error and training error = generalisation gap 
+
+- irreducible error == Noise (can't be reduced)
+
+# Ridge Regression Introduction
+# Ridge Regression
+- Just like Polynomial reg but w/ a Parametrable coef called Alpha
+- Rigle() is imported from sklearn.linear_model 
+
+/!\ The model that exhibits  overfitting is usually the model with the lowest parameter value for alpha
+
+# Grid Search
+- Allows to scan trough multiple free parameters w/ few lines of code
+- Alpha == HYPERPARAMETER
+- skilearn => Grid Search : iterating over HYPERPARAMETER using cross-validation 
+
+- split data into 3 sets : 
+ => Training (MSE / R^2)
+ => Validation (HYPERPARAMETER)
+ => Test (MSE / R^2)
+
+ ## Grid Search CV
+ - takes scoring methods,nb of folds(R^2), the model and free parameters ...   
+
+# Lesson Summary
+-Identify over-fitting and under-fitting in a predictive model: Overfitting occurs when a function is too closely fit to the training data points and captures the noise of the data. Underfitting refers to a model that can't model the training data or capture the trend of the data.
+-Apply Ridge Regression to linear regression models: Ridge regression is a regression that is employed in a Multiple regression model when Multicollinearity occurs.
+-Tune hyper-parameters of an estimator using Grid search: Grid search is a time-efficient tuning technique that exhaustively computes the optimum values of hyperparameters performed on specific parameter values of estimators.
+
+#Lab 
+#Quiz
+
+///W6///
+- Final Exam 
+
+#########################################################################
+Course 8 : DATA VISUALIZATION W/ PYTHON 
+#########################################################################
+
+//////////////////////////////////////////////
+///W1 : Introduction to Data Visualization ///
+//////////////////////////////////////////////
+
+# Syllabus
+# Welcome
+# Introduction to Data Visualization (Module 1)
+## Main reason why data viz is important :  
+	=> For exploratory data analysis
+	=> Communicate data clearly
+	=> Share unbiased representation of data
+	=> Use them to support recommendation to different stakeholders
+## Best practices : 
+- Darkhorse Analytics : created in 2008 in (university of alberta)
+- quantitative data consulting
+- data viz & geo spatial analysis 
+- data viz approach : a plot is meant to get accross NOT distractive
+	1. Less is more effective
+	2. Less is more attractive
+	3. Less is more impactive 
+- Goal : have a graphic easier to read, cleaner, less distractive, better to understand ..  
+## References : https://www.darkhorseanalytics.com/
+
+# Introduction to Matplotlib
+- Most popular data viz library 
+- Created by John Hunter(Neurobiologist)
+- Initially created for EEG/ECoG Visualization Tool 
+- Inspired from MATLAB 
+
+## Matplotlib Architecture 
++--------------------------+
+| Scripting Layer(pyplot)  |
++--------------------------+
++--------------------------+
+| Artist Layer(artist)     |
++--------------------------+
++--------------------------+
+| Backend Layer(FigCanvas..|
++--------------------------+
+
+### Backend Layer(FigCanvas, renderer, events ...)
+1. FigureCanvas : matplotlib.backend_bases.FigureCanvas 
+	=> Encompasses the area onto which the figure is drawn
+2. Renderer :  matplotlib.backend_bases.Renderer
+	=> Knows how to draw on the FigureCanvas
+3. Event : matplotlib.backend_bases.Event 
+	=> Handles user inputs such as keyboards strokes and mouse clicks
+
+### Artist Layer(artist)
+- Comprised of one main object - *Artist*
+	=> Know how to use the Renderer to draw on the Canvas
+- Responsible for : Title, lines, tock labals, and images, all correspond to individuals Artist instances 
+- 2 types of artist objects : 
+	=> 1. Primitive : Line2D, Rectangle, Circle, and Text 
+	=> 2. Composite : Axis, Tick, Axes, and Figure
+- Each composite artist may contain other composite artists as well as primitive artists
+
+### Scripting Layer
+- Comprised mainly of pyplot, a scripting interface that is lighter that the Artist layer 
+- Let's see how we can generate the same histogram of 10000 random values using the pyplot interface 
+
+### References : aosabook.org/en/matplotlib.html 
+
+# Basic Plotting with Matplotlib
+- Support by differents env : Python scripts, iPython shell, web app & servers ... jupyter nb
+- "Dynamic" ploting using BACKENDS : modify plot, costomize ...
+- use magic functions(%) to execute backend objects 
+	=> magic function starts w/ % sign
+- Some backends : 
+	=>%matplotlib inline : plot window within the browser and not in separeted window
+	=>%matplotlib notebook : allows to modify figure once is RENDERED !
+- Matplotlib - PANDAS 
+	=> df.plot(kind="line")
+	=> df["x"].plot(kind="hist")
+
+# Dataset on Immigration to Canada
+- Dataset : 
+	=> src : United Nations (45 countries)
+	=> annual data on the flows of international migrants
+	=> migrants to canada dataset 
+
+- Import the dataset with pandas
+- to check the imported data : df.head, df.describe ...
+
+# Line Plots
+- continuos dataset  
+- plot which displys information as series of data points called "markers" connected by the straight line segments
+- using pandas dataframe, map function to create an iterative point per axis value 
+
+# Lab
+# Quiz
+
+///////////////////////////////////////////////////
+///W2 : Basic & Specialized Visualization Tools ///
+///////////////////////////////////////////////////
+
+# Area Plots
+- Also known as 'area chart / graph'
+- commonly used to represent cumulated totals using numbers or percentages over time
+- based on the 'line plot'
+- Dataset-processing steps : 
+=> index : country (since we want to know/focus on canada)
+	=> now each represents a country
+=> add a 'total() column (number of total(sum of population/immigrants) per country)
+	=> sorting by descending or order allows to get highest population per country
+=> df_canada (Dataframes Canada specified )
+=> Fix index problems : transposition axis, sort_values ...
+- generate "area plot"  : plot(kind='area')
+
+# Histograms
+- way of representing the frequency distribution of a variable 
+- To generate "histogram"  : plot(kind='hist')
+- To correct horizontal axis problem : split the bins(ticks) with numpy (np.histogram())
+	=> then use theses bins(values) to generate the histogram w/ matplotlib 
+
+# Bar Charts
+- Unlike a histogram, a bar chart is commnly used to compare the values of a variable at given point in time.
+- generate "bar plot"  : plot(kind='bar')
+
+# Lab
+# Quiz
+
+# Pie Charts
+- graphs divided into slices to illustrated numerical proportion
+- generate "pie plot"  : df.plot(kind='pie')
+- Cons : fail to represent data in a consistent way and getting the data accros(presentable, understandble, clear, visible ...)  
+
+# Box Plots
+- Way of statistically representing the distribution of given data 
+through 5 main dimensions : 
+	1. min == (IQR - IQR*1.5) (Inter Quartile Range)
+	2. 25% (1st IQR)
+	3 50% = median
+	4. 75% (3/4 of sorted data)
+	5. max (75% + IQR*1.5)
+- display outliers as individuals dots that occur outside the upper and lower extremes
+- generate "pie plot"  : df.plot(kind='box')
+
+# Scatter Plots (nuage des points)
+- displays relationship datas btw 2 variables (x, y) to determine if any correlation exists
+- generate "scatter plot"  : df.plot(kind='scatter', x='df_x', y='df_y')  
+
+# Lab
+# Quiz
+
+////////////////////////////////////////////////////
+///W3 : Advanced Visualization & Geospatial data ///
+////////////////////////////////////////////////////
+
+# Waffle Charts
+- interesting visualization that is normally created to display progress toward goals
+- the more the contribution the more tiles(visibility) 
+- matplotlib doesn't have a built-in function to generate waffle charts 
+
+# Word Clouds
+- A depiction of the frequency of different words in some textual data 
+- the more specific the word appears in the source of textual data the bigger/bolder in word cloud 
+- Matplotlib doesn't have a function/module to generate word clouds but Python does! 
+- Andreas Mueller (created a python lib for cloud word generation)
+- usage => Lab session
+
+# Seaborn and Regression Plots
+- Python visualization library based on matplotlib
+- provides high level interface for drawing attractive statisticals graphics : regression plots, box plots ...
+- less lines of codes to plot than matplotlib
+
+# Lab
+# Quiz
+
+# Introduction to Folium
+- Powerful Python library that helps you create several types of Leaflet maps 
+- First created to visualize Geospatial data 
+- locate any word based on : [latitude, longitude] values 
+- It enables both the binding of data to map for choropleth visualizations as well as passing visualizations as markers on the map
+- The library has a number of built-in tilesets from OpenStreetMap, Mapbox, and Stamen, and supports custom tilesets with Mapbox API keys. 
+## Creating a World Map
+- word_map = folium.Map()
+- It's possible to get a specific map place/location(latitude/longitude)
+- Also possible to add different styles of maps ...
+
+# Maps with Markers
+- create a feature group
+	=> add children (w/ the location of the place you want to show)
+	=> add markers 
+	=> markers can be labeled 
+
+# Choropleth Maps
+- Thematic map in which areas are shaded or patterned i proportion to the measurement of the statistical variable being displayed on the map : 
+	=>  poplulation density or per capita income ...
+	=> The higher the *measurement* the darker the color 
+- this graph required : Geojson to be setup (json file with some metadatas)
+## Creating the Map : 
+- world_map.choropleth() + world_geo_json_path
+
+# Lab
+# Quiz
+
+/////////////////////////////////////////////////////
+///W4 : Creating a Dashborad with Plotly and Dash ///
+/////////////////////////////////////////////////////
+
+# Module Overview and Learning Objectives
+# Dashboarding Overview
+- Interactive Data Application (IDA) can help improve business performance
+## Dashborad : 
+=> Realtime visuals
+=> Understand business moving parts
+=> Visual track, analyze, and display key performance indicators(KPI)
+=> Take informed decisions and improve performance 
+=> Reduced hours of analyzing
+- Best dashboards answer important business questions
+## (Practical) Scenario
+- Monitor and report US airline performance 
+=> Requested report items 
+1. Top 10 airline carrier in year 2019 in terms of number of flights 
+2. Number of flights in 2019 split by month 
+3. Nb of travelers from California (CA) to other states split by distance group
+- Presenting results in Table and Documents is time consumming, less visual, and difficult to understand ...
+- A datascientist should be able to create and deliver a story around the *finding* in a way a stakeholders can easily understand 
+	=> Datashboards are the way to go !!! 
+## Tools : Web-based Dashboarding
+- Dash from Plotly 
+	=> Python framework for web analytic applications
+	=> written in the top of Flask, Plotly.js and React.js 
+	=> data viz apps with highly custom UI 
+- Panel 
+	=> works with visualizations from Brokeh, Matplotlib, HoloViews ... 
+- Voilà : turns jupyter nb into standalone web app 
+	=> jupyter-flex 
+	=> template : voila-vuetify
+- Streamlit : datascripts into shareable web apps w/ 3 rules 
+	=> embrace python scripting 
+	=> treat widgets variables
+	=> reuse data and computation
+
+## Tools : Dashboarding
+- Bokeh
+- ipywidgets 
+- matplotlib
+- Bowtie
+- Flask (dashboard)
+
+# Additional Resources for Dashboards
+https://pyviz.org/dashboarding/index.html
+https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map
+
+# Introduction to Plotly
+- Interactive, open-source plotting library
+- Supports over 40 unique chart types 
+- Includes chart types like statistical, financial, maps, scientific, and 3-dimensional 
+- Visualizations can be displayed in Jupyter notebook, saved to HTML files, 
+or can be used in developing Python-built web applications
+
+## Plotly Sub-modules
+- Plotly Graph Objects : Low-level interface to figures, traces, and layout
+	=>plotly.graph_objects.Figure (high level)
+
+- Plotly Express : High-level wrapper
+	=> More simple syntax
+	=> uses graph objects internally
+## usage : 
+- fig = go.Figure(data=go.Scatter(x=x, y=y)) // go :graph_objects
+- fig = px.line(x=x, y=y, title='Simple Line Plot', labels=dict(x='Month', y'Sales')) // px : plotly.express
+
+# Additional Resources for Plotly
+https://plotly.com/python/getting-started/
+https://plotly.com/python/graph-objects/
+https://plotly.com/python/plotly-express/
+https://plotly.com/python-api-reference/
+https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf
+https://community.plotly.com/c/plotly-python/5
+https://plotlygraphs.medium.com/
+https://developer.ibm.com/exchanges/data/
+
+# Lab : Plotly basics: scatter, line, bar, bubble, histogram, pie, sunburst
+
+# Introduction to Dash
+- Open source user interface Python libray from Plotly 
+- interactive web based apps 
+- web server running Flask and communicating JSON packets over HTTP requests 
+- Dash frontend renders uses React.js 
+- Easy to build GUI 
+- Declarative and Reactive 
+- Rendered in web browser and can be deployed to servers 
+- Inherently cross-platform and mobile ready 
+## Dash components
+- Core components
+	=> import dash_core_components as dcc
+- HTML Components 
+	=> import dash_html_components as html
+
+# Theia Labs Overview
+# Dash basics: HTML and core components
+# Additional Resources for Dash
+https://dash.plotly.com/
+https://dash.plotly.com/dash-core-components
+https://dash.plotly.com/dash-html-components
+https://community.plotly.com/c/dash/16
+https://medium.com/plotly/tagged/dash
+
+# Make dashboards interactive
+- connect core and html components 
+	=> Dash - Callbacks : python function that are automatically called by Dash whenever an input component's property changes 
+	=> Callback function: is decorated @app.callback decorator 
+	=> when the input component value changes the callback function wrapped by the decorator update the output 
+	=> Callback w/ 1,2 ... inputs 
+# Additional Resources for Interactive Dashboards
+https://realpython.com/primer-on-python-decorators/
+https://peps.python.org/pep-0318/#current-syntax
+https://dash.plotly.com/basic-callbacks
+https://dash.gallery/Portal/
+https://plotly.com/dash-community-components/
+
+
+# Lab
+## Add interactivity: user input and callbacks
+## Flight Delay Time Statistics Dashboard
+# Quiz 
+
+# Lesson Summary 
+- Best dashboards answer critical business questions. It will help business make informed decisions, thereby improving performance. 
+- Dashboards can produce real-time visuals. 
+- Plotly is an interactive, open-source plotting library that supports over 40 chart types. 
+- The web based visualizations created using Plotly python can be displayed in Jupyter notebook, saved to standalone HTML files, or served as part of pure Python-built web applications using Dash. 
+- Plotly Graph Objects is the low-level interface to figures, traces, and layout whereas plotly express is a high-level wrapper for Plotly. 
+- Dash is an Open-Source User Interface Python library for creating reactive, web-based applications. It is both enterprise-ready and a first-class member of Plotly’s open-source tools. 
+- Core and HTML are the two components of dash. 
+- The dash_html_components library has a component for every HTML tag. 
+- The dash_core_components describe higher-level components that are interactive and are generated with JavaScript, HTML, and CSS through the React.js library. 
+- A callback function is a python function that is automatically called by Dash whenever an input component's property changes. Callback function is decorated with `@app.callback` decorator. 
+- Callback decorator function takes two parameters: Input and Output. Input and Output to the callback function will have component id and component property. Multiple inputs or outputs should be enclosed inside either a list or tuple. 
+
+///////////////////////////////
+///W5 : Practice Assignment ///
+///////////////////////////////
+
+#########################################################################
+Course 9 : MACHINE LEARNING W/ PYTHON
+#########################################################################
+////////////////////////////////////////////
+///W1 : Introduction to Machine Learning ///
+///////////////////////////////////////////
+# Welcome
+- used in many key field industries
+	=> healthcare : 
+		=> predict cancer level of severity
+		=> predict the right drug for a patient according to his age 
+	=> Bank : loan application acceptance 
+	=> Custumer segmentation 
+	=> Recommendation systems (amazon, netflix , googele ..)
+	=> Telecommunication : to predict customer churn (?) ...
+
+- Python libs to build ML models
+- Jupyter Lab
+- Jupyter Notebook for coding/modeling ...
+## Skills Insights : 
+- Regression
+- Classification
+- Clustering
+- Scikit Learn
+- Scipy ... 
+## Projects : 
+- Cancer detection,
+- Predicting economic trends
+- Predicting customer churn
+- Recommendation engines ...
+
+# Introduction to Machine Learning
+- (By @Arthur Samuel) : Subfield of computer science that gives "computer the ability to learn without being explicitly programmed" 
+- ML helps with predictions 
+- ML process : 
+	=> dataset (data gathering=), 
+	=> data cleaning
+	=> select the proper algorithm
+	=> building model
+	=> training 
+	=> make predict (based on high accuracy)
+
+## How ML works ?
+- Solving Problem with tradictinal approach  : Animal face detection 
+(Input dataset) => (Feature Extraction : vector features ) => (A set of rules) => (Prediction) ? 
+	=> Consequences : LOTS of rules => highly dependent on current dataset/tool specific not generalized
+	=> Not generalized enough to detect out of sample cases 
+
+- ML APPROACH : 
+	=> Allows to build a model that looks at all the feature sets and their corresponding type of objects(animals) and learns the pattern of each target object(animal)
+	=> The model is built by machine learning algorithms
+	=> The goal is to detect without explicitily being programmed to do so  
+- machine learning follow the same process that a 4ys old child uses to LEARN !!!
+- Inspired by the human learning process iteratively 
+- Learn from data => allow computers to find *hidden insights*
+- The model help us in variety of tasks : 
+	=> object recognition 
+	=> object summarization 
+	=> object recommendation ...
+## ML Application (real life examples) : 
+- Welcome Chapiter!!!
+## ML techniques : 
+- Regression/Estimation :
+	=> Predicting continuous values (house prices, CO2 emission of car engine ...)
+- Classification
+	=> Predicting the item classy/category of a case  (true/False cases ? )
+- Clustering : groups of similar cases (find similar patients, or customer segmentation in the bank)
+	=> Finding the structure of data;summarization ... 
+- Associations 
+	=> Associating frequence co-occuring items/events (grocery items bought together by a customer)
+- Anomaly detection :
+	=> Discovering abnormal and unusual cases (credict vard detection ...)
+- Sequence mining : 
+	=> Predicting next events; click-stream (Markov Model, HMM)
+- Dimension Reduction
+	=> Reducing the size of data (PCA)
+- Recommendation sytems 
+	=> Recommendation items 
+
+## AI vs ML vs DL 
+AI  : try to make computer intelligent trying to mimic the cognitive functions of human
+- Computer Vision (cv)
+- Language Processing 
+- Creativity
+...
+
+ML : branch of AI that covers the statistical side of AI ...
+- Regression
+- Classification
+- Clustering
+- Neural Network
+...
+
+DL : THE REVOLUTION in ML !!!
+- allows computers to make decision by their own  
+
+# Python for Machine Learning
+- General language for writing ML algorithms
+## Python Library : 
+- NumPy : math library to work w/ N-dimensional arrays in Python 
+	=> make computation effeciently and effectivily 
+	=> powerful than regular python(arrays, dicts, functions, datatypes, images ...)
+	=> /!\ Linear algebra /!\ 
+- Scipy : collection of numerical algorithms and domain specific toolboxes : 
+	=> scientific and high perfomance computation
+	=> signal processing 
+	=> optimization 
+	=> statistics ...
+- Matplotlib : data visualization (plotting) package
+	=> 2D and 3D plotting   	
+- Pandas : High level python lib for data processing 
+	=> datastructure + (built) functions for manipulating numerical tables, timeseries
+	=> /!\ Data Exploratory /!\ 
+
+- Scikit learn  : set of algorithms and tools for ML 
+	=> Free sw machine learning library
+	=> Classification, Regression adn Clustering algorithms
+	=> Works with Numpy and SciPy
+	=> Great documentation 
+	=> Easy to implement (model)
+
+The full Machine leaning pipelines is already implemented in Scikit learn 
++-----------------+	 +-----------------+	+------------------+	+-------------+	   +-----------+	+----------+	+------------+
+| Data Processing |=>| Train/test split| => | Algorithms setup | => |Model fitting| => |Predictions| => |Evaluation| => |Model export|
++-----------------+	 +-----------------+	+------------------+	+-------------+		+----------+	+----------+	+------------+
+
+Ref : course 7 : data analysis w/ python
+
+# Supervised vs Unsupervised
+- Supervised learning  : teach the model, then w/ that knowledge, ti can predict unknown or future instances 
+	=> numerical data
+	=> categorical data (target data)
+	=> Classification & Regression are two types of SP
+	=> controlled Environment
+
+- Unsupervised learning : the model works on its own to discover information
+	=> learn from a giving dataset and draws conclusion on unlabled data. 
+	=> Techniques : 
+		=> Dimension Reduction
+		=> Density estimation 
+		=> Market basket analysis
+		=> Clustering (most common) 
+	=> Uncontrolled env
+
+# Quiz : Intro to Machine Learning
+
+////////////////////////
+/// W2 : Regression ///
+//////////////////////////////////////////
+Ref : DATA ANALYIS W/ PYTHON => MODEL 
+//////////////////////////////////////////
+# Introduction to Regression
+- Process of predicting a continuous value
+- 2 types of variables in regresssion : 
+	=> X : independent (explanatory var) - cause of state/target
+	=> Y : dependent(state, target, final goal to study/predict)
+- Y : shall be continuous not be discrete value
+- X[i] : can be measured on either a categorical ou continuous
+## Regression Model : 
+(Historical data:one/more features) => (Modeling) => (Prediction)
+(new data:) --------------------------------^
+
+## Types of regression models 
+- Simple Regression :  single independent var => estimate single dependent variable
+	=> Simple Linear Regression (ex: Predict 'co2emission' vs 'EngineSize' of all cars)
+	=> Simple Non-Linear Regression (depending on relationship btw X & Y)
+- Multiple Regression : more than one independent variables 
+	=> Multiple Linear Regression  (ex: Predict 'co2emission' vs 'EngineSize' & 'Cylinders' of all cars)
+	=> Multiple Non-Linear Regression depending on relationship btw X & Y
+## Applications of Regression 
+- Sales forecasting
+- Satisfaction analysis 
+- Price estimation
+- Employement income
+
+## Regression Algorithms : 
+- Ordinal regression
+- Poisson regression
+- Fast forest quantile regression
+- Linear, Polynomial, Lasso, Stepwise, Ridge regression
+- Bayesian linear regression
+- Neural network regression
+- Decision forest regression
+- Boosted decision tree regression
+- KNN(K-nearest neighbors) 
+
+# Simple Linear Regression
+- Using linear regression to predict continuous values
+## How does linear regression work 
+- Linear regression : you can model the relationship of the these variables
+- A good model can be used to predict what the approximate Y of each X
+
+## Linear regression model representation
+- the regression line represents a good fit of the data 
+- can be used to predite an approximated values
+
+- fitting line = polynomial 
+------------------------
+| ^y = a*x + b (model) |
+------------------------
+ ^y : response variable 
+ x  : predictor variable 
+ ## Adjustable parameters 
+ a : slope / gradient of fitting line / coedf of linear equation
+ b  : intercept
+
+## How to find the best fit ? 
+- To calculate the fitting line : 
+- calculate a, b that best fit for the data 
+
+y : a*x + b => real value => i.e for x = value => y = result  ?
+^y : estimated depend of fitting line 
++-----------------+
+| Error = y - ^y  |
++-----------------+
+
+- Error : distance from data point to the fitted regression line 
+- The mean of all residual errors shows how poorly the line fit with the whole dataset mathematically shown by : 
+MSE : Mean Square Error 
++-------------------------+
+|MSE = 1/n*Sum(Yi - ^Yi)^2| where  : i = 1 ...n
++-------------------------+
+
+- Goal : Find a line where the mean of all these errors is minimized
+	=> The mean error of the prediction using the fit line should be minimized
+- The objective of linear regression is to minimize this MSE eq. 
+	=> by finding the best parameters (a, b)
+	=> mathematical approach
+	=> Optimization approach
+## Estimating the parameters :
+- mathematical approach
+	^y: a*x + b 
+	a ? 
+	b ? 
+	=> this parameters can be calculated using python lib, R, ou scala ... 
+	=> rebuild the polynom
+
+- Optimization approach ?
+
+## Pros of linear regression 
+- very fast 
+- No parameter tunning 
+- Easy to understand, and highly interpretable
+
+# Model Evaluation in Regression Models
+- The goal of regression is to build a model to accurately predict an unknown case 
+- For that regression evaluation has to be done after building the model
+## Model evaluation approaches
+1/ Train and Test on the Same Dataset 
+2/ Train/Test split
+- Regression Evaluation metrics
+
+1/ Train and Test on the Same Dataset : How to calculate the accuracy of a model ??
+- 70% of dataset for training => training set(feature set) 
+- 30% of dataset for testing => testing set 
+	=>the labels of test set are called actual value of the test set
+	=> actual values are used for 'ground truth'
+- At the end we compare the Predict values VS actual values => give the accuracy
+- One of the Metrics to calculate the accuracy : 
++--------------------------+
+|Error = 1/n*Sum(yi - ^yi) |
++--------------------------+
+- where : i = 1 .. n 
+## Training and out-of-sample accuracy? 
+- Training Accuracy : percetange of the correct prediction that the model makes when using the test dataset 
+	=>(-) High training accuracy isn't necessarily a good thing
+	=>(-) Result of over-fitting : the model is overly trained to the dataset, which may capture noise and produce a non-generalized moodel
+	=>  
+- Out-of-sample(OOS) : percetange of the correct prediction that the model makes on the data the model has not been trained on. 
+	=> it's important that our models have a high OOS accuracy (model main goal is to make great prediction mostly on unknown datas)
+	=> How can we improve OOS accuracy ? 
+		=> Using train/test split approach
+
+2/ Train/Test split : 
+- splits the dataset into training/testing data "mutually exclusive"
+- train with training set 
+- test with testing set
+- (+) More accurate evaluation on OOS accuracy (because the testing dataset is not part of the dataset that has been used to train the data)
+- training the model with testing data afterwords avoid loosing valuable data
+(-) Highly dependent on which datasets the data is trained and tested
+	=> Ex. K-fold cross validation solves the issue above
+	=> by *averaging the high variation that results from a dependency *
+
+# Evaluation Metrics in Regression Models
+- Used to explain the performance of the model 
+- Error (regression) : measure of how far the data is from the fitted regression line.
++--------------------------+
+|Error = 1/n*Sum(yi - ^yi) |
++--------------------------+
+- Most common Model evaluation metrics :
+	=> MAE : Mean Absolute Error 
++--------------------------+
+|MAE = 1/n*Sum(|yi - ^yi|) |
++--------------------------+
+	=> MSE : Mean Squared error 
++--------------------------+
+|MSE = 1/n*Sum(yi - ^yi)2  |
++--------------------------+
+	=> RMSE : Root Mean Squared error 
++--------------------------+
+|RMSE^2 = 1/n*Sum(yi - ^yi)|
++--------------------------+
+
+	=> RAE : Relative Absolute Error/Residual sum of square 
++---------------------------+
+|RAE = n*MAE/Sum(|yi - ÿi|) | where ÿ : mean of y 
++---------------------------+
+
+	=> RSE : Relative Squared error : (very similar to MAE, is used for Normalization) => used to calculate R^2
++--------------------------------------+
+|RSE = Sum(yi - ^yi)^2 / Sum(yi - ÿ)^2 |
++--------------------------------------+
+
+- R squared  : represents how close the data values are to the fitted regression line 
+=> the more R^2 is higher the more the model fitted the data  
+
+[R^2 = 1 - RSE]  
+
+# Lab: Simple Linear Regression
+
+# Multiple Linear Regression
+- more than one independent variables 
+- ex: Predict 'co2emission' with 'EngineSize' & 'Cylinders' of all cars
+- extension of linear regression model  
+
+## Examples of multiple linear regression
+- independent variables effectiveness on prediction ( the strengh of the effect of that the independent vars have on the dependent variable)
+	=> Does revision time, test anxiety, lecture attendance and gender have any effect on the exam perfomance of students ?
+- Predicting impacts of changes (how dependent variables changes when independent variable changes)
+	=> How much does blood pressure go up (or down) for every unit increase (or decrease) in the BMI-'Body Mass Index' of a patient
+
+## Predicting continuous values with multiple linear regression
+- uses multiple independent variables(predictors) to that best predict the value of the target(dependent) 
+- X: independent variables
+- Y: dependent variable (linear combination of X)
+	=> MODEL : 
++------------------------------------------------------+
+| ^Y = theta0 + theta1*x1 + theta2*x2 + ...+ thetan*xn |
++------------------------------------------------------+
+	=> mathematically vector form : multidimensional space
++--------------------+
+| ^y = (theta^T) x (X) | 
++--------------------+
+	=> theta : vector of coeficients - the parameters/weight vector of the regression equation
+		=> dim(theta) = n by 1
+	=>(theta^T) : [theta0, theta1, theta2...]
+	=> T : transpose
+	=> ()x(): cross product 
+	=> X : vector of featured sets
+		[1]
+		[x1]
+	X = [x2]
+		[..]
+	=> the first element of the X vector is : 1 => it turns that theta0 into the intercept/biased
+
+- enable to evaluate which (independent)variable is significant predictores of the outcome variable
+	=> how eah feature impact the outcome variable
+- (theta^T)^X : also called plane /hyperplane for multiple regression
+- GOAL : find the best fit hyperplane for input data
+	=> minimize the error of the prediction
+	=> find the optimized parameters
+## Using MSE to explose the errors in the model 
+- sum of residual errors (actual value - predicted values(from the model))
+## Estimating multiple linear regression parameters
+- estimate theta ? 
+	=> Ordinary Least Squares(Moindre au carré)
+		=> Linear algebra operations
+		=> Takes a long time for large datasets (10K + rows)
+	=> An optimization algorithm
+		=> Gradient Descent (starts the optimization w/ randoms values for each coef and compute the errors and try minimize it through Y^s changing of the coef in multiple iterations)
+		=> proper approach for very large dataset
+
+## Making prediction w/ multiple linear regression
+- making predictions is as simple as solving the equation for specific set of inputs
+- from the model : ^y = (theta^T)^X
+- compute the coefs [theta0 ... n]
+- plug the parameters into the linear model	
+	=> replace the independent varibles & the coefs => gives the new dependent value predicted
+
+## Q&A - on multiple linear regression : 
+- How to determine whether to use simple or multiple linear regression?
+- How many independent variables should you use ? 
+- Should the indepent varible be continuous
+- What are linear relationships btw the depent variable and the independent variables
+
+# Lab: Multiple Linear Regression
+
+# Non-Linear Regression
+
+- behavior is not described by a straight line
+- the goal still to estimate the parameters of the model the use the fitted model to predict the target/labal for unknown/future cases 
+
+## Different types of regression 
+- Linear Regression
+- Quadratic (Parabolic) Regression 
+- Cubic Regression 
+...
+- all these type of regressions can be called Polynomial regression : Y is modeled as Nth degree polynomial in X.
+- Polynomial regression fits a curve line to your data
+- a normal polynomial regression can be converted as Multiple linear regression and fit w/ Least Squares
+	=> Minimizing the sum of the squares of the differences btw y and ^y
+## Non-linear regression features ?
+- To model non-linear relationship btw the dependent variable and a set of independent variables 
+- ^y must be a non-linear function of the parameters (theta), not necessarily the feature x
+- Mathematically : exponential, logarithmic, and logistic etc 
+- The model (^y) depends not only on the x values but alson on the coefficients (theta0...thetaN)
+- Ordinary Least squares cannot be used to fit the data 
+
+
+## Check lineat vs Non linear regression 
+- inspect visually
+- based on accuracy 
+	=> if theta > 0.7 ==> linear
+
+- Modeling :
+=> Polynomial regression
+=> Non-linear regression model 
+=> Transform your data 
+ 
+# Lab1: Polynomial Regression
+# Lab2: Non-linear Regression
+Final Quiz
+
+///////////////////////////
+/// W3 : Classification ///
+///////////////////////////
+
+/// K-Nearest Neighbours
+
+# Introduction to Classification
+- A supervided learning approach
+- Categoring some unknown items into a discrete set of Categories or "classes"
+- learn the relationship btw a set of feature variable of interest 
+- The target attribute is a categorical variable
+
+## How does classification work ? 
+- classification determines the class label for an unlabeled test case
+
+- Modeling Binary Classifier : 
+						+------------+
+	Prediction 		=>	| Classifier | => Predicted Labels (0/1)
+(new input values)		+------------+
+- Same example for multi-classification except we'll have multiple labels
+
+## Applications : 
+- email filtering 
+- speech recognition
+- handwriting recognition
+- biometric identification
+- document classification ...
+
+## Classification algorithms in ML 
+- Decision Trees(ID3, C4.5, C5.0)
+- Naïve Bayes
+- Linear Discriminant Analysis
+- k-Nearest neighbor
+- Neural Networks
+- Support Vector Machines (SVM)
+...
+
+# K-Nearest Neighbours (k-NN)
+- Dataset example : 
+	=> A Telecommunication provider company has segmented his custumer base by service usage patterns
+	=> Categorizing the customers into four groups (1, 2, 3, 4...)
+	=> If demografic data can be used to predict group membership 
+	=> The company can cutomize offers for individual perperctive customers
+
+- Goal : to predict the new unknown case based on predefined labels ? 
+- Dataset structure : 
+	=> Xi : independent variables
+	=> Yi : dependent variables (groups of classes/labels)
+- find the closest cases and assign the same case label to the new values/features
+
+## What i K-Nearest Neighbors - KNN ? 
+- classification algorithm that takes a bunch of labeled points and uses them to learn how to label other points
+- A method for classifying cases based on their similarity to other cases 
+- Cases that are near each other are said to be "neighbors" 
+- Based on similar cases w/ same class labels are near each other
+- The distance btw two cases is a measure of their dissimilarity
+- the distance /dissimilarity btw Two data points be calculated  : 
+	=> Euclidean distance 
+
+## How it works ? 
+=> the algorithm look for the k-nearest neighbors (class) and do a majority vote among them to define the class of the new value (next case)
+=> the k-class is defined based on the number of nearest neighbors class around the case
+	1. Pick a value for K 
+	2. Calculate the distance of unknown case from all cases.
+	3. Select the K-observations in the training data that are "nearest" to the unknown data point
+	4. Predict the response of the unknown data point using the most popular response value from the K-nearest neighbors 
+
+## Calculating the similarity/distance in a K-dimensional space 
+- calculate the distance of two customers : Euclidean distance using Minkowski distance
++--------------------------------------+
+| Dis(x1, x2) = (Sum(x1i - x2i)^2)^1/2 |		=> where : i=0 ...n, and n is the number of feature
++--------------------------------------+
+- 2 customers have only one feature : their ages
+if n=1, feature1(x1 = 34), feature2(x2 = 30) 
+Dis = ((34 - 30)^2)^1/2 = 4 => Class/group : 4
+if n=2 ... same approach
+
+## What is the best value of K for KNN ? 
+- K and KNN, is the number of nearest neighbors to examine (specified by the user) 
+- Choosing the right K ?
+	=> the algorithm look for the k-nearest neighbors (class) around the new case and do a majority vote among them to define the class of the new value (new case)
+	=> in cas we capture the less voted class => our data is noisy 
+	=> low value of K causes a highly complex model (overfitting)
+- General solution ?
+	=> separate data for testing the accuracy of the model 
+	=> choose K=1 use the training part for modeling and calculate the accuracy of prediction using all samples in the testset
+	=> the process is repeated increasing the K and see which K is best for the model
+## Computing continuous target using KNN
+- KNN can also be used for regresion 
+- we use the average/median of the NN is used to predicted value for the new case 
+
+# Evaluation Metrics in Classification
+- How accurate is the model ? 
+	=> y - yhat = ? 
+	=> where - y : actual labels
+			 - yhat : predicted labels
+- Model evaluation helps up improve the model 
+=> Jaccard index
+=> F1-score
+=> Log Loss 
+
+## Jaccard index (Jaccard Similarity coefficient)
+- y : actual labels
+- yhat : predicted labels
++------------------------------------------------------+
+| J(y , yhat) = |y intersection yhat| / |y union yhat| |
++------------------------------------------------------+
+				or
++-------------------------------------------------------------------------------+
+| J(y , yhat) = |y intersection yhat| / (|y| + |yhat| - |y intersection yhat|)  |
++-------------------------------------------------------------------------------+
+Ex: labels values 
+y :    [0,0,0,0,0,1,1,1,1,1]
+yhat : [1,1,0,0,0,1,1,1,1,1]
+
+J(y, yhat) = 8/(10 + 10 - 8) = 0.66
+
+- high vs low accuracy 
+hight  : J(y, yhat) = 1,0, if all labels matches 
+low : J(y, yhat) = 0, othewise  
+
+## F1-score(confusion matrix/heatmap):
+- Confusion matrix shows the model ability to correctly predict or separate the classes 
+		  +-------+------+
+churn =1  |	  TP  | FN   |
+		  +-------+------+
+churn = 0 |   FP  | TN   |
+		  +-------+------+
+		  churn=1  churn=0
+
+- in case of Binary classification : the number inside the matrix boxes indicates the count of predicted label 
+	=> TP : True Positive 
+	=> FN : False Negative 
+	=> TN : True Negative 
+	=> FP : False Positive   
++---------------------------+
+| Precision  = TP/(TP + FP)	|
++---------------------------+
+=> true positive rate
++-----------------------+
+| Recall = TP/(TP + FN) |
++-----------------------+
+F1-score : 
++------------------------------------+
+|F1-score = 2x(prc x rec)/(prc + rec)|
++------------------------------------+
+=>where F1-score range [0 ...1], 
+0 : closest to 0 low accuracy/worst 
+1 : closest to 1 high accuracy/best
+
+## Log loss 
+- measures the performance of a classifier where predict output is a probability value btw 0 and 1
++--------------------------------------+
+|y x log(yhat) + (1 - y)xlog(1 - yhat) |
++--------------------------------------+
+
+- measures how far the prediction is from actual label 
++-----------------------------------------------------------+
+| LogLoss = -1/n[Sum(y x log(yhat) + (1 - y)xlog(1 - yhat))] |
++------------------------------------------------------------+
+LogLoss => Low => Better accuracy 
+
+=>where LogLoss range [0 ...1], 
+0 : closest to 0 high accuracy/best 
+1 : closest to 1 low accuracy/worst 
+
+/!\ The classifier with lower log loss has better accuracy 
+
+# Lab: KNN
+
+/// Decision Trees
+# Introduction to Decision Trees
+- example : Medical Dataset about patients suffering from the same illness and each patient was treated different medication : drugs A, B
+	=> The dataset has set of feature about the patient : age , sex, BP(Blood Pressure), Cholesterol level, Drug (A, B)
+	=> Problem trying to guess which medication(drug) to prescribe to new Patient with the same illness
+	=> Class : Drug A, Drug B => binary classification scenario
+
+- Modeling Decision Tree : 
+						+----------------+
+	Prediction 		=>	|  Decision Tree | => Predicted Labels
+(new input values)		+----------------+
+
+## Building a decision tree with the training set 
+- Decision trees are built by splitting the training set into distinct nodes
+		+-------+
+	 	|  Age  |
+		+-------+ 
+		/   |   \
+	  /     |     \ 
+ Young 	 mid-age Senior
+ 	 |		|		  |
+	 Sex 	B		Cholesterol
+	 / \  	 		 / \
+    /   \   		/   \
+   F  	 M    	   high Normal
+   | 	 |			|	 |
+   A 	 B			B	 B
+- DT is about testing an attribute and branching the cases based on the result of the test 
+- Each internal node corresponds to a test (*sex)
+- each branch corresponds to a result of the test(*M)
+- Each leaf node assigns a classification
+
+## Decision tree learning algorithm
+- A decision tree can be constructed by considering the attributes one by one 
+1. Choose an attribute from your dataset 
+2. Calculate the significance of attribute in splitting of data 
+3. Split data based on the value of the best attribute
+4. Go to step 1. (repeat)
+
+# Building Decision Trees
+- DT are built using recursive partitioning to classify the data 
+- The algorithm choose the most predictive feature to split the data on
+## Which attribute is the best ? 
+	=> More predictiveness
+	=> Less Impurity
+	=> Lower Entropy 
+- Impurity of nodes is calculated by entropy of data in the node 
+- Entropy : is the amount of information disorder or the amount of randomness in the data 
+	=> The lower the Entropy, the less uniform the distribution, the purer the node
+ 			+-------------------------------------------+
+ 			| Entropy = - p(A)log(p(A)) - p(B)log(p(B)) |
+ 			+-------------------------------------------+ 
+- calculate by the python library 
+/!\ The tree with the higher *Information Gain* after splitting 
+
+##  Information Gain
+- IG - information that can increase the level of certainty after splitting
+- IG opposite of entropy
+ 	+---------------------------------------------------------------------+
+ 	| IG = (Entropy before split) - (weighted Entropy before after split) |
+ 	+---------------------------------------------------------------------+ 
+- We start the decision tree with the best attribute
+
+# Lab: Decision Trees
+
+/// Logistic Regression
+# Intro to Logistic Regression
+- Classification algorithm for categorical variables
+- Ex : predict customer churn  
+- analogous to linear regression but tries to predict a categorical or discrete target field instead of a numeric one
+- Predict a variable which is binary such as yes/no, true/false, successful/not successful, pregnant/not pregnant=> 0/1
+- independent variables should be continuous 
+	=> for categorical case : dummy/Indicator coded => has to be transformed to some continiuous values
+
+## Application  : 
+- use Binary or multi-class classification
+	=> Predicting the probability of a person having a heart attack  
+	=> Predicting the mortality in injured patients
+	=> Predicting a customer's propensity to purchase a product or halt a subscription
+	=> Predicting the probability of a failure of a given process or product
+	=> Predicting the likelihood of a homeowner defaulting on a mortgage
+
+## When to use  ? 
+- If the data is binary (0/1, YES/NO, True/False...)
+- If a probabilistic results is needed 
+- When a linear decision boundary is needed 
+- To understand the impact of a feature 
+
+## Modeling 
+- predict the class of each sample ...
+
+- X : independent variable => X E |R ^(mxn) 
+- Y : dependent variable => y E {0, 1}
+
++-----------------+
+|yhat = P(y=1|x)  |		=> P : probability
++-----------------+
+- Predicting y = 1 given x
+
++--------------------------+
+| P(y=0|x) = 1 - P(y=1|x)  |
++--------------------------+
+
+# Logistic regression vs Linear regression
+- Linear regression : Y = a*X + b = (theta^T x X) 
+	=> not good enough for categorical cases 
+	=> too error !!!
+- Logistic regression
+
+## Sigmoid function 
+- Like a step function but less error and gives more information in probability form 
++------------------------------------------------+
+| Sigma(theta^T x X) = 1/(1 + e^-(theata^T x X)) |
++------------------------------------------------+
+
+P(y=1|x) => proba increases close to 1 => Sigma(theta^T x X) = 1	 
+P(y=1|x) => proba decreases close to 0	=> Sigma(theta^T x X) = 0 
+
+Sigma(theta^T x X) = [0, 1]
+
+## Classifying an specific model 
+- Churn case : 
+	=> P(y=1|x)
+	=> P(y=0|x) = 1 - P(y=1|x)
+
+P(y=1|income, age) = 0.8 
+P(y=1|income, age) = 1 - 0.8 = 0.2 
+
+Sigma(theta^T x X) 	   => P(y=1 | x) 
+1 - Sigma(theta^T x X) => P(y=0 | x) 
+
+## Training process 
+
+1. Initialize Theta 
+	=> Theta = [-1, 2]
+2. Calculate yhat = Sigma(theta^T x X) for a customer
+	=> yhat  = Sigma([-1, 2] x [2,2]) = 0.7
+3. Compare the output of yhat with actual output of customer, y, and record it as error 
+	=> Error = 1 - 0.7 = 0.3
+4. Calculate the error for all customers
+	=> Cost = J(Theta)
+5. Change the Theta to reduce the cost 
+	=> NEW Theta
+6. Go back to step 2
+
+- when stop training => When the model is satifactory
+
+# Logistic Regression Training
+- Goal : change the parameter of the model to be the best estimation of the labels of the samples in the dataset 
+
+Sigma(theta^T x X) 	=> P(y=1 | x) 
+- Change the weight => Reduce the cost
+- Cost function 
+	=> Cost(yhat, y) = 1/2(Sigma(theta^T X) - y)^2 ... ^2 : to avoid negative value 
+
+- Total cost/Mean Squere Error:  
++------------------------------------+
+| J(Theta) = 1/m*Sum(Cost(yhat, y)   | ... where i = 1 ... m 
++------------------------------------+
+- Find the minimum error value close to desirable estimated value 
+- (-log) function fits best  
+
+## Cost function : 
+
+Cost(yhat, y) = | -log(yhat) 	 => if y = 1 
+				| -log(1 - yhat) => if y = 0 
+
++------------------------------------------------------------------+
+| J(Theta) = -1/m*Sum[y^i*log(yhat^i) + (1 - y^i)*log(1 - yhat^i)] |
++------------------------------------------------------------------+
+
+## Minimizing the cost function of the model 
+- How to find the best parameters for our model ? 
+	=> Minimize the cost function 
+- How to minimize the cost function  ?
+	=> Using Gradient Descent 
+- What is gradient descent ? 
+	=> A technique to use the derivative of a cost function to change the parameter values, in order to minimize the cost 
+
+## Gradient Descent 
+- Main goal : change the parameter values so as to minimize the cost 
+- Calculate the gradient of the cost function 
+	=> The slope of the surface ate every point and the direction of the gradient is the direction of the greatest uphill 
+- Gradient descent takes smaller steps toward the minimum function 
+- derivative of J(Theta)
+
++-----------------------------------------+
+| dJ/dTheta1 = -1/m*Sum[y^i - yhat^i)x1^i | ... for theta1  
++-----------------------------------------+
++-----------------------------------+
+| NewTheta = OldTheta - Niu*DeltaJ |
++----------------------------------+
+
+Where : 
+- Niu : Learning rate (lenght of step until the minimum value)
+- DeltaJ : Vector of the derivative of J(Theta1, Theta2, Theta3 ... )
+
+## Training algorithm recap 
+1. initialize the parameters Randomly 
+	=> Theta^T = [Theta0, Theta1, Theta2, ...] 
+2. Feed the cost function with training set, and calculate the error 
+	=> J(Theta)
+3. Calculate the gradient of cost function 
+	=> DeltaJ = [dJ/dTheta1, dJ/dTheta2, dJ/dTheta3 ...]
+4. Update weights with new values 
+	=> NewTheta = OldTheta - Niu*DeltaJ
+5. Go to step 2 until cost is small enough 
+	=>
+6. Predict the new customer X 
+	=> P(y=1 | x) = Sigma(Theta^T X) 
+
+# Lab: Logistic Regression
+
+/// Support Vector Machine
+# Support Vector Machine (SVM)
+- Supervised algorithm that classified cases by finding a separator
+1. Mapping data to a high-dimensional feature space 
+2. Finding a separator (by hyperplane)
+
+## Data transformation
+- 1D => 2D => 3D ....
+- using kernelling  : 
+	=> Linear 
+	=> Polynomial
+	=> RBF 
+	=> Sigmoid 
+	...
++---------------------+
+| Phi(x) = [x, x^2]	  |
++----------------------+
+## Find hyperplane 
+- SVM is absed on the idea of find a hyperplane that best devide the dataset int two classes
+ w^T x + b = -1
+ w^T x + b = 0 
+ w^T x + b = 1
+
+ ## Pros and Cons 
+ Pros : 
+ - Accurate in high-dimmensional
+ - Memory efficient 
+Cons : 
+- Prone to over-fitting
+- No probability estimation 
+- Small datasets (<1000 rows )
+
+## Applications 
+- Image recognition
+- Text category assignement
+- Detecting spam 
+- Sentiment analysis 
+- Gene Expression Classification 
+- Regression, Outlier detection and clustering 
+
+# Lab: SVM 
+
+Quiz
+
+///////////////////////////
+/// W4 : Clustering     ///
+//////////////////////////
+
+//// k-Means Clustering
+# Intro to Clustering
+- Dataset example : Customer data for segmentation study 
+- finding clusters in a dataset unsupervised
+- cluster : group of objects that are similar to other objects in the cluster, and dissimilar to data points in other clusters 
+
+## Clustering vs Classification
+- Classification algorithms predict categorical classed labels
+	=> assigns instances to predefined classes such as defaulted/not defaulted 
+	=> model/algo : kNN, Decision Tree, logistic regression ...
+- Clustering : the data is unlabeled and the process is unsupervised
+
+## Clustering applications 
+- RETAIL/MARKETING : 
+	=> Identifying buying patterns of customers (based on geographic location ...)
+	=> Recommendation new books/movies to new customers  
+- BANKING : 
+	=> Fraud detection in credict card use 
+	=> Identifying clusters of customers(e.g., loyal)
+- INSURANCE : 
+	=> Fraud detection in claims analysis 
+	=> Insurance risk of customers 
+- PUBLICATION : 
+	=> Auto-categorizing news based on their content 
+	=> Recommending similar news articles 
+- MEDECINE : 
+	=> Characterizing patient behavior 
+- BIOLOGY : 
+	=> Clustering genetic markers to identify family ties 
+## Usage : 
+- Exploratory data analysis
+- Summary generation 
+- Outlier detection 
+- Finding duplicates 
+- Pre-processing step 
+
+## Clustering algorithms
+- partitioned-based clustering : produces sphere-like clusters ... (medium large sized db)
+	=> Relatively efficient 
+	=> Ex : k-Means, k-Median, Fuzzy c-Means
+- Hierarchical clustering : produces tree clusters ... (small sized data)
+	=> Produces trees of clusters 
+	=> Eg : Agglomerative, Divisive ... 
+- Density-based Clustering 
+	=> Produces arbitrary shaped clusters 
+	=> Eg : DBSCAN 
+
+# Intro to k-Means
+- application : 
+	=> customer segmentation 
+- k-Means algorithms : 
+	=> partitioning clustering 
+	=> k-means divides the data into non-overlapping subsets(clusters) without any cluster-internal structure 
+- Examples within a cluster are very similar 
+- Examples across different clusters are very different 
+
+- calculate similarity/dissimilarity
+- k-means : intra-cluster distances are minimized and maximized
+## calculate similarity : 
+- Euclidean distance, cosine similarity, average distance and so on ... 
+
+## k-Means algorithm
+1. Initialize k=3, 
+- centroids randomly 
+	=> choose randomly 3 observations from the dataset and use these observations as the inital means 
+	=> create 3 random point as centroids : C1[x1, y1], C1[x1, y1], C3[x3, y3] (for k=3) in the plan (2D)
+2. Distance calculation 
+- using matrix of distance (Distance Matrix)
+- each row represents the distance of a customer from each centroid 
+
+	C1			C2 		  C3
+ [d(p1, c1) d(p1, c2) d(p1, c3)]
+ [d(p2, c1) d(p2, c2) d(p2, c3)]
+ [d(p3, c1) d(p3, c2) d(p3, c3)]
+ [d(pn, c1) d(pn, c2) d(pn, c3)]
+
+- Main objective of k-Means : is to minimize the distance of data points from the centroid of this cluster and maximize the distance from other cluster centroids. 
+
+3. Assign each point to the closest centroid
+- find the closest centroid to each data point
+	=> how using DISTANCE MATRIX 
+
+- SSE = the sum of the squared difference btw each point and its centroid 
+		+----------------------+
+	=>  | SSE = Sum(xi - Cj)^2 | ... where i = 1 ... n 
+		+----------------------+
+- To minimize the error : total distance of all members of a cluster from its centroid be minimized 
+	=> move centroids!!!!
+
+4. Compute the new centroid for each cluster 
+- How ? 
+	=> Change the centroid position
+	=> each of the three cluster becomes the new mean
+	=> recluster again and again  
+
+5. Repeat until there are no more changes 
+- each iteration moves the centroid 
+- calculate the distance from new centroid and assign data points to the nearest centroid 
+- The clusters with minimum error or the moste dense cluster 
+Cons : no garantee to a global coverage 
+=> rechoose the initial random centroid 
+=> repeat the calculation again until the outcome be the optimum 
+
+# More on k-Means
+1. Randomly placing k centroids, one for each cluster 
+2. Calculate the distance of each point from each centroid 
+3. Assign each data point(object) to its closest centroid, creating a cluster 
+4. Recalculate the position of the k centroids 
+5. Repeat the steps 2-4, until the centroids no longer move
+
+## k-Means accuracy 
+- External approach
+	=> Compare the clusters with the ground truth, if it is available
+	=> we don't use this approach in real world problems because k-Means is unsupervised
+- Internal approach 
+	=> Average the distance btw data points within a cluster
+## Choosing k 
+- number of cluster in the dataset 
+- it depends on the shape and scale of the distribution of points in a dataset 
+	=> General approach : run the cluster with different value of k  and the matrix od accuracy for clustering
+	=> Generally increse the k will always reduce the error
+	=> The elbow point is determined where the rate of decrease sharply shifts.
+
+## Recap 
+- Med and Large sized databases (Relatively efficient)
+- Produces sphere-like clusters 
+- Needs number od cluster(k)
+
+# Lab: k-Means
+
+//// Hierarchical Clustering (HC)
+# Intro to Hierarchical Clustering
+- build a hierarchy of clusters where each node is a cluster consists of clusters of its daughter nodes
+- two types : 
+	=> Divisive (top-down) :  starts all observations in a large cluster and break it down into smaller pieces 
+		=> Divisive : Dividing the clusters 
+	=> Agglomerative (botton-top) : opposite to Divisive. Each observation start in its own cluster and pairs of clusters are merged together as they move up the hierarchy  
+		=> Amass/collect things ...
+		=> Most popular among Data Scientist 
+
+## Agglomerative clustering
+- builds the hierarchy from the individual elements by progressively merging clusters 
+- visualize as Dendrogram 
+	=> x: Each merge is represented by horizontal line 
+	=> Y : two or more cluster merged (viewed as singleton clusters) 
+	=> by moving from down-up, we can reconstruct the history of merges
+
+# More on Hierarchical Clustering
+1. Create n clusters, one for each data point 
+2. Compute the proximity Matrix 
+3. Repeat
+	3.1 Merge the two closest clusters 
+	3.2 Update the proximity matrix 
+4 Until only a single cluster remains
+
+## Distance btw clusters
+- the distance of a single data point(one feature) can be calculated using the Similarity/dissimilarity matrix 
+	=> however the distance btw two datapoint(more than two features) within the a cluster look more complicated
+- it depends on the nature of dataset, size  ... 
+
+### General creterial ####
+- Single-Linkage Clustering 
+	=> Minimum distance btw cluster
+- Complete-Linkage Clustering 
+	=> Maximum distance btw clusters
+- Avg Linkage Clustering
+	=> Avg distance btw clusters 
+- Centroid Linkage Clustering 
+	=> Distance btw cluster centroids 
+
+## PROS VS CONS 
+PROS : 
+- Doesnt required numer of cluster to be specified 
+- easy to implement 
+- Produces a dendrogram, which helps with understanding the data 
+
+CONS : 
+- Can never undo any previous steps throughout the algorithm 
+- Generally has long runtimes 
+- Sometimes difficult to identify the number of clusters by the dendrogram 
+
+## Hierarchical clustering Vs k-Means 
+K-Means --------------------- Hierarchical clustering
+1. Much more efficient ----- Can be slow for large datasets 
+2. required the number of clusters to be specified ---- Doesnot require the number of clusters to run 
+3. Gives only one partitioning of the data based ----- Gives more than one partitioning depending on the resolution 
+on the predefined number of clusters 
+4. Potentially returns different clusters each ------------- Always generates tha same clusters 
+time it is run due to random initialization of centroids 
+
+# Lab: Agglomerative clustering
+
+//// Density-based Clustering
+# DBSCAN
+- used for spatial data analysis
+- locates regions of high density, and separates outliers (or region of low density)
+- density : numbers of points withing a specified radius 
+- Most popular : DBSCAN !!!
+
+## DBSCAN for class identification
+- find out any arbitrary shaped cluster without getting effected by noise 
+- how it works ? 
+	DBSCAN (Density Based Spatial Clustering of Applications with Noise)
+	- Is one of the most common clustering algorithms
+	- Works based on density of objects  
+	=> R(Radius of neighborhood)
+		=> Radius(R) that if includes enough number of points within, we call it a dense area 
+	=> M(Min number of neighbors)
+		=> The minimum
+identify the type of point : 
+	=> core point : in the neighborhood are at least M points
+	=> border point : neighborhood contains less than M points/it's reachable from some core point
+	=> outlier point : not core point neither reachable from core point 
+group the point as cluster 
+
+## Advantages
+1. arbitrarily shaped cluters 
+2. Robust to outliers 
+3. Does not require specification of the number of clusters 
+
+# Lab: DBSCAN Clustering
+
+/// W5 : Recommender Systems ///
+# Intro to Recommender Systems
+- Recommender systems capture the pattern of peoples behavior and use it to predict what else they might want or like. 
+- people tend to like things in the same category/things that share the same characteristics 
+
+## Applications :
+- What to buy ? 
+	=> E-commerce, books, movies, beer, shoes ...
+	=> Amazon : 
+
+- Netflix : everything is driven by customer selection
+	=> if a movie gets viewed frequently or not.
+	=> Its recommendation systems ensures that movie get an increasing number of recommendation
+- The recommender engine is used to recommend anything from where to eat/ what job to applys to. 
+- Where to eat ? 
+	=> UberEats
+- Which job to apply to ?
+	=> Linkedin : 
+- Who you should be friends with ? 
+	=> Facebook, instagram, Twitter ...
+- Personalize your experience on the web 
+	=> News platforms, news personalization ...
+	=> News platform website, a recommender system makes note of : types of stories that you clicked on/make recommendation on which types of stories you might be interested in reading in future ...
+## Some advantages : 
+- Broader exposure
+- Possibility of continual usage or purchase of products 
+- Provides better experience 
+
+## Types recommender systems
+1. Content-Based : Show me more of the same of what I've liked before(visually browsing...) => Similar items"
+	=> User's favorite aspects of an items are, and then make recommendations on items that shares thoses aspects  
+2. Collaborative Filtering : "Tell me what's popular among my neighbors, I also might like it => Similar preferences"
+	=> based on trends of what other people like 
+3. Hybrid recommendations systems : combines both 
+
+## Implementing recommender systems
+1. Memory-based 
+	- Uses the entire user-item dataset to generate a recommendation 
+	- Uses statistical techniques to approximate users or items 
+		e.g : Pearson Correlation, Cosine Similarity, Euclidean Distance, etc 
+
+2. Model-based 
+	- Develops a model of users in an attempt to learn their preferences 
+	- Models can be created using Machine Learning technoques like regression, clustering, classification, etc ...
+
+# Content-based Recommender Systems : 
+- Try to recommend items to users based on their profile 
+- The user's profile revolves around that users preferences and tastes
+- it's shaped based on : 
+	=> user ratings 
+	=> number of times that user has clicked on different items or perhaps even liked those items
+- The recommendation process is based on the similarity between those items 
+	=> similarity is measured based on the similarity in the content of those items 
+- Contents means : category, tag, genre, ...
+
+## How it works ? 
+- Dataset shows movies that our user has watched and also the genre of each of the movies ...
+- To make the recommendation based on the movies watched by the users : 
+1. Create user profile : 
+	- Weighing the genres 
+	- User's rating for the movies that he's already watched 
+		=> mv1 : 2
+		=> mv2 : 10
+		=> mv3 : 8  ... where mv : movies watched 
+			=> Input User Ratings (vector )
+	- encode the movies through the one-hot encoding approach 
+		=> create a feature set matrix with 3 movies (rows) => dim(3,1)
+		=> genre : comedy, adventure, super hero, scifi (col) => dim(4,4)
+
++---------------------------------------------------------------------+
+| Input User Ratings (vector ) x Movie Matrix = Weighted Genre Matrix | => dim(4, 4)
++---------------------------------------------------------------------+
+=> aggragate the user profile => new matrix dim (1, 4)
+=> Normalization to refind what's the use likes to what the most 
+
+2. Finding the recomendation : 
+=> Movie Matrix <=> new weighted movies matrix => Weight average matrix (for final recommendation...)
+
+# Collaborative Filtering
+- Relationship exists btw product and people's interests 
+- two types of Collaborative Filtering
+1. User-based collaborative filtering
+2. Item-based collaborative filtering 
+
+
+1. User-based collaborative filtering
+	- Based on on users similarity/neighbordhood 
+	- Collaborative Filtering engine first looks for users who are similar 
+		=> users who share the active users rating patterns : 
+		=> these similarities are based on things like : history, preference, and choices that users make when enjoying, watching, or enjoying something ...
+		=> uses the rating from these similar users to PREDICT the possible ratings by the active user for a movie that she had NOT previously watched 
+
+Ex : User ratings matrix : 
+- 4 users (u1 ...n)
+- 5 different movies (mv1 ... m => movies categories ) 
+
+			mv1  mv2 mv3 mv4 mv5
+			+---+---+---+---+---+
+		u4	|9	|6	|8	|4	|	|
+			+---+---+---+---+---+
+		u3	|2	|10	|6	|	|8	|
+			+---+---+---+---+---+
+		u2	|5	|9	|	|10	|7	|
+			+---+---+---+---+---+
+Active =>u1	| ?	|10	|7	|8	|?	|x
+user  		+-------------------+
+			Rating Matrix
+=> where : 
+	=> u1 : Active users
+	=> ?  : Movies which the active user hasn't watched yet
+	=> Goal : Recommend the unwatched movies to the user !!!
+	1. Calculate the similarity of active among other users (who have already watched the movies)
+		- Tools : Distance/similarity measurements : Euclidean Distance, Pearson Correlation, Cosine Similarity...
+		- To calculate the level of similarity btw 2 users: 
+			=> look at the movies rated by all the users in the past 
+			=> ex : u1 vs u2 = 0.7 | u2 vs u3 = 0.9 | u3 vs u4 =0.4
+	2. Create a Weighted rating Matrix : user's neighbors opinion based on the numbers of candidate movies for recommendation 
+		- Ratings Matrix Subset x Similarity Matrix = Weighted ratings matrix  
+		- This gives more weight to the ratings of those users who are more similar to the active user 
+	=> Based on items similarity
+- Recommendation matrix based on all of the weighted rated  :
+		     mvx| mvy| weight sum
+			+---+----+-----------+
+u2 + u3		|	|12.1|0.9+0.7
+			+---+----+-----------+
+(u2+u3+u4)	|8.9|	 |0.4+0.9+0.7|
+			+---+----+-----------+ 
+- sum of similarity Index btw users (u'2 + u'3) then (u'2 + u'3+u'4= 
+- sum of weighted rating (u2 + u3) then u2 + u3+u4 then divided by the their respective similarity index for normaization 
+
+	mx         	 				my
+			 			 (u2 + u3)/(u'2 + u'3)
+(u2+u3+u4)/(u'2+u'3+u'4)
+
+Normalized recommendation matrix 
+		     mv1| mv2 
+			+---+----+
+u1(target)	|4.4|7.5
+			+---+----+
+
+- The result is the potential rating that our active user will give to theses movies based on her similarity to other users 
+
+## Collaborative Filtering (User based vs Items-based ) : 
+
+- User based  :
+	=> the recommendation is based on users of the same nighborhood with whom he or she shares common preferences
+	=> if a u1 and u2 both liked the same items, they considered as similar/neighbor user 
+	=> we can recommend these items to another potential users based on positive rating by u1 and u3 
+
+- Items-based :
+	=> similar items build neighborhoods on behavior of users 
+	=> However that is not based on their contents 
+	=> two items are considered as similar/neighbor if they are liked by two different users
+
+## Challenges of collaborative filtering 
+- Data sparsity : 
+	=> Users in general rate only a limited number of items 
+- Cold start :  
+	=> Difficulty in recommendation to new users or new items 
+- Scalability : 
+	=> Increase in number of users or items
+
+/!\ Solution : Hybrid based recommender systems 
+
+# Lab: Content-based Recommendation Systems
+# Lab: Collaborative Filtering on Movies
+
+Final Quiz 
+
+/// W6 : Final Project ///
+
+
+#########################################################################
+Course 10 : APPLIED DATA SCIENCE CAPSTONE
+#########################################################################
+
+////W1///
+///W2///
+///W3///
+
+
+ 
+##########################################################################
+
+# ToolBox
+
+- Data mining : togaware/rattle :
+
+# References : 
+ 
+* Data mining : 
+ 
+togaware/rattle :
+https://www.togaware.com/
+https://rattle.togaware.com/
+
+Books : Getting Started with Data Science: Making Sense of Data with Analytics
+https://www.informit.com/store/getting-started-with-data-science-making-sense-of-data-9780133991024
+
+
+ 
+ 
+
