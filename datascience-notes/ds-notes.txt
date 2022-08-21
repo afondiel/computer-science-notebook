@@ -8,11 +8,34 @@ AGENDA & MOTIVATIONS
 - Understanding Different Types of Data
 - Analyzing and Visualizaing Data
 - Preprocessing and Feature Engineering
-- Modelling + Algorithms and Evaluation
+- Modeling + Algorithms and Evaluation
 - Deployment and Integration
 - Domain Expertise and Soft Skills
+- Data Engineer v Data Analyst vs Data Scientist 
 
+# References 
 
- 
- 
+Data Science : 
+https://en.wikipedia.org/wiki/Data_science
+Data : 
+https://en.wikipedia.org/wiki/Data_(computing)
 
+Data Science courses : 
+
+FreeCodeCamp : 
+https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1
+Course I : FreeCodeCamp - Intro to Data Science - Crash Course for Beginners - 1H30
+link : https://www.youtube.com/watch?v=N6BghzuFLIg
+Course 2 : Learn Data Science Tutorial - Full Course for Beginners - 5H
+FreeCodeCamp : https://www.youtube.com/watch?v=ua-CiDNNj30
+
+Edureka : Data Science Full Course | Learn Data Science in 3 Hours | Data Science for Beginners | 
+https://www.youtube.com/watch?v=aGu0fbkHhek
+
+- Data Flair - Data science vs AI : 
+ https://data-flair.training/blogs/data-science-vs-artificial-intelligence/
+
+-research papers : 
+analyticsinsight : https://www.analyticsinsight.net/top-10-must-read-data-science-research-papers-in-2022/
+Science gate : https://www.sciencegate.app/keyword/40688
+Harvard Data Science Review : https://hdsr.mitpress.mit.edu/
