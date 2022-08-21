@@ -7,7 +7,7 @@
 
 *WaterFall Model(old)
 *V-Cycles Model
-*Agile Model (/!\) : 
+*/!\ Agile Model /!\ : 
 
  PIPELINE : 
  

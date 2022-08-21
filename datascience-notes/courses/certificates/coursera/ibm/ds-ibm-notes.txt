@@ -3070,7 +3070,7 @@ DL : THE REVOLUTION in ML !!!
 
 - Scikit learn  : set of algorithms and tools for ML 
 	=> Free sw machine learning library
-	=> Classification, Regression adn Clustering algorithms
+	=> Regression, Classification and Clustering algorithms
 	=> Works with Numpy and SciPy
 	=> Great documentation 
 	=> Easy to implement (model)
@@ -3078,12 +3078,12 @@ DL : THE REVOLUTION in ML !!!
 The full Machine leaning pipelines is already implemented in Scikit learn 
 +-----------------+	 +-----------------+	+------------------+	+-------------+	   +-----------+	+----------+	+------------+
 | Data Processing |=>| Train/test split| => | Algorithms setup | => |Model fitting| => |Predictions| => |Evaluation| => |Model export|
-+-----------------+	 +-----------------+	+------------------+	+-------------+		+----------+	+----------+	+------------+
++-----------------+	 +-----------------+	+------------------+	+-------------+	   +-----------+	+----------+	+------------+
 
 Ref : course 7 : data analysis w/ python
 
 # Supervised vs Unsupervised
-- Supervised learning  : teach the model, then w/ that knowledge, ti can predict unknown or future instances 
+- Supervised learning  : teach the model, then w/ that knowledge, it can predict unknown or future instances 
 	=> numerical data
 	=> categorical data (target data)
 	=> Classification & Regression are two types of SP

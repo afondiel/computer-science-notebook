@@ -54,7 +54,7 @@ Deep learning : is Machine Learning (ML) subset based on artificial *neural netw
     - UnSupervised learning 
     - reinforcement learning 
 
-- backpropagation : allows NN figure out patterns that are convoluted(complex) for huùan to extract
+- backpropagation : allows NN figure out patterns that are convoluted(complex) for human to extract
 - Error/cost functions : 
     - R^2, gradient descent ... 
 - Prediction function: 

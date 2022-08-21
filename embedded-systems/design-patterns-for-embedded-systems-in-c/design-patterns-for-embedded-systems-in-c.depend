@@ -1,13 +1,14 @@
 # depslib dependency file v1.0
-1637624516 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
+1639639354 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdint.h>
 	<stdbool.h>
-	"ch3\Accessing Hardware\main_hw.h"
-	"ch3\Accessing Hardware\HW_ProxyPattern\include\HWProxyExample.h"
-	"ch3\Accessing Hardware\HW_ProxyPattern\include\MotorData.h"
-	"ch3\Accessing Hardware\HW_ProxyPattern\include\MotorProxy.h"
+	"ch3\3-1 - HW accessing concept\hw_test.h"
+	"ch3\3-2 - HW_ProxyPattern\include\HWProxyExample.h"
+	"ch3\3-2 - HW_ProxyPattern\include\MotorData.h"
+	"ch3\3-2 - HW_ProxyPattern\include\MotorProxy.h"
+	"ch4\Embedding Concurrency and Resource Management\ECRM_main.h"
 
 1634047060 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch1\sensor.h
 
@@ -121,4 +122,35 @@
 	<stdbool.h>
 	"HWProxyExample.h"
 	"MotorData.h"
+
+1639089968 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\3-1 - hw accessing concept\hw_test.h
+
+1637624322 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\3-2 - hw_proxypattern\include\hwproxyexample.h
+
+1638476330 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\3-2 - hw_proxypattern\include\motordata.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	"HWProxyExample.h"
+
+1638475136 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\3-2 - hw_proxypattern\include\motorproxy.h
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<stdbool.h>
+	"HWProxyExample.h"
+	"MotorData.h"
+
+1639090564 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch3\3-1 - hw accessing concept\hw_test.c
+	<stdio.h>
+	<stdlib.h>
+	"hw_test.h"
+
+1639639244 source:d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch4\embedding concurrency and resource management\ecrm_main.c
+	<stdio.h>
+	<stdlib.h>
+	"ECRM_main.h"
+
+1639634894 d:\lab\research-notes\embedded-systems\design-patterns-for-embedded-systems-in-c\ch4\embedding concurrency and resource management\ecrm_main.h
 

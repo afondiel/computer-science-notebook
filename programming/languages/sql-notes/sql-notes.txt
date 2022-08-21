@@ -11,14 +11,14 @@
 
 # Tools/Frameworks/DBMS
 10 popular database management systems (DBMS)
-1 MySQL
+1 MySQL - ??
 2 MariaDB
-3 Microsoft SQL Server
-4 Oracle DBMS
+3 Microsoft SQL Server - OK 
+4 Oracle DBMS - OK (ensea)
 5 PostgreSQL
-6 MongoDB
+6 MongoDB - ??
 7 Redis
-8 IBM DB2
+8 IBM DB2 - OK
 9 Elasticsearch
 10 SQLite
 

@@ -53,9 +53,9 @@ class Teacher(IPersonFactory):
 # 
 if __name__ == '__main__':
 
-    # create/manufactorying student object  
+    # create/manufacturing" student object  
     student = PersonFactory.CreatePerson(PersonEnum.STUDENT)
-    # create/manufactorying teacher object  
+    # create/manufacturing" teacher object  
     teacher = PersonFactory.CreatePerson(PersonEnum.TEACHER)
     
     # objects usage

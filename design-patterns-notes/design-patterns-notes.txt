@@ -118,7 +118,7 @@ by Christopher Alexander. Form the book, "A pattern language" (1977)
 ##################################
 
 What is NOT a pattern : 
-- a reusable or parametrizable componant.
+- a reusable or parametrizable componant
 - an algorithm.
 - a framework.
 
@@ -230,6 +230,7 @@ case 3 : Parameterized factory methods => create multiple products
 
 
 // srcs : 
+- https://refactoring.guru/design-patterns
 - https://en.wikipedia.org/wiki/Software_design_pattern
 - https://www.codingame.com/playgrounds/503/design-patterns/uml-basics
 - https://www.amazon.fr/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612

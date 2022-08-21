@@ -31,19 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="ch3/Accessing Hardware/HW_ProxyPattern/include/HWProxyExample.h" />
-		<Unit filename="ch3/Accessing Hardware/HW_ProxyPattern/include/MotorData.h" />
-		<Unit filename="ch3/Accessing Hardware/HW_ProxyPattern/include/MotorProxy.h" />
-		<Unit filename="ch3/Accessing Hardware/HW_ProxyPattern/src/HWProxyExample.c">
+		<Unit filename="ch3/3-4 - HW_MediatorPattern/include/RobotArmManager.h" />
+		<Unit filename="ch3/3-4 - HW_MediatorPattern/src/RobotArmManager.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ch3/Accessing Hardware/HW_ProxyPattern/src/MotorProxy.c">
+		<Unit filename="ch3/main_hw.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ch3/Accessing Hardware/main_hw.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="ch3/Accessing Hardware/main_hw.h" />
+		<Unit filename="ch3/main_hw.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

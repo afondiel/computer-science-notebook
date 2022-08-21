@@ -105,7 +105,7 @@ small apps
 - round-robin schedulers : infinite loop only run task to specific points then go back to scheduling loop?
 
 larger embedded apps
-- preemptive scheduling : priority task (wait-ready-run)
+- preemptive scheduling : priority task (wait-(blocked)-ready-run)
 - time-slicing scheduler (also known as time-driven multitasking executive or TDME) : each task has a specific completion time
 
 // => Cyclic Executive Pattern – Schedule threads in an infinite loop

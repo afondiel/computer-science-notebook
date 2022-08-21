@@ -77,3 +77,4 @@ python frameworks : https://www.softwaretestinghelp.com/python-testing-framework
 
 pytest vs cunit
 https://pytest-c-testrunner.readthedocs.io/
+https://p403n1x87.github.io/running-c-unit-tests-with-pytest.html

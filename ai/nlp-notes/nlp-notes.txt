@@ -61,7 +61,12 @@ ibm intro : https://www.youtube.com/watch?v=5ctbvkAMQO4&t=9s
 eureka : https://www.youtube.com/watch?v=5ctbvkAMQO4
 rasa : https://www.youtube.com/watch?v=PBzGxFxMCuA&list=PL75e0qA87dlFJiNMeKltWImhQxfFwaxvv
 frameworks : https://odsc.medium.com/10-notable-frameworks-for-nlp-ce8c4196bfd6
-YT course Stanford : 
+NLP w/ python & nltk : 
+https://www.youtube.com/watch?v=U8m5ug9Q54M
+nlp with spy : 
+https://www.youtube.com/watch?v=dIUTsFT2MeQ
+YT course Stanford :
+https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6 
 https://www.youtube.com/watch?v=OQQ-W_63UgQ
 
 Research papers : 
