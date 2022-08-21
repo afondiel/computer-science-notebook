@@ -26,7 +26,7 @@ FreeCodeCamp :
 https://www.youtube.com/playlist?list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1
 Course I : FreeCodeCamp - Intro to Data Science - Crash Course for Beginners - 1H30
 link : https://www.youtube.com/watch?v=N6BghzuFLIg
-Course 2 : Learn Data Science Tutorial - Full Course for Beginners - 5H
+Course 2 : Learn Data Science Tutorial - Full Course for Beginners - 6H
 FreeCodeCamp : https://www.youtube.com/watch?v=ua-CiDNNj30
 
 Edureka : Data Science Full Course | Learn Data Science in 3 Hours | Data Science for Beginners | 
