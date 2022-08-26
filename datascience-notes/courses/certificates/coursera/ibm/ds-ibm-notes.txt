@@ -3500,12 +3500,12 @@ low : J(y, yhat) = 0, othewise
 
 ## F1-score(confusion matrix/heatmap):
 - Confusion matrix shows the model ability to correctly predict or separate the classes 
-		  +-------+------+
-churn =1  |	  TP  | FN   |
-		  +-------+------+
-churn = 0 |   FP  | TN   |
-		  +-------+------+
-		  churn=1  churn=0
+		   +-------+------+
+churn =1   |   TP  | FN   |
+		   +-------+------+
+churn = 0  |   FP  | TN   |
+(predicted)+-------+------+
+   values  churn=1  churn=0 (actual values)
 
 - in case of Binary classification : the number inside the matrix boxes indicates the count of predicted label 
 	=> TP : True Positive 
@@ -4205,12 +4205,17 @@ Final Quiz
 #########################################################################
 Course 10 : APPLIED DATA SCIENCE CAPSTONE
 #########################################################################
-
-////W1///
-///W2///
-///W3///
-
-
+/////////////////////////////////
+////W1 : Project Introduction ///
+///////////////////////////////////////////
+# ///W2: EXploratory Data Analysis (EDA ///
+///////////////////////////////////////////////////////////
+# ///W3 : Interactive and Visual Analytics and Dashboard///
+/////////////////////////////////////////////////
+# ///W4 : Predictive Analysis (Classification)///
+//////////////////////////////////////////////////
+# ///W5 : Present Your Data Driven Insights///
+//////////////////////////////////////////////
  
 ##########################################################################
 
