@@ -20,4 +20,16 @@ Tableau
 
 # References : 
 
-- D3.js : https://www.youtube.com/watch?v=_8V5o2UHG0E
+- D3.js : https://www.youtube.com/watch?v=_8V5o2UHG0Ea
+- ggplot2 : 
+https://ggplot2.tidyverse.org/
+
+- SAS : https://www.sas.com/en_us/home.html
+
+- Tableau 
+Tableau : https://www.youtube.com/watch?v=TPMlZxRRaBQ
+
+Power BI:
+Power BI: https://www.youtube.com/watch?v=3u7MQz1EyPY
+        https://www.youtube.com/watch?v=glA5eG8s0Pw
+
