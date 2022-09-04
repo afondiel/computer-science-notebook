@@ -2118,9 +2118,9 @@ Course 7 : DATA ANALYSIS W/ PYTHON
 
 # The Problem
 ## Why Data Analysis ? 
-- Data is eveywhere
+- Data is everywhere
 - Data analysis/data science help us answer questions from data
-- Dataa analysis plays an important role in : 
+- Data analysis plays an important role in : 
 	=> Discovering useful information
 	=> Answering questions
 	=> Predicting future or the unknown
@@ -2205,7 +2205,7 @@ Analyze Data in Python: How to do some introductory analysis in Python using fun
 - Each column is a Pandas series 
 	=> addiction of 1 for each row of the col a  : df['a'] = df ['a'] + 1  
 
-# Dealing with Missing Values in Python
+
 - occurs when no data value is tored for a variable (feture) in an observation
 - Missing values can be : 0, ?, N/A, empty/blank cell ...
 ## Dealing w/ missing data ?
@@ -2225,11 +2225,11 @@ Analyze Data in Python: How to do some introductory analysis in Python using fun
 - high quality data or source 
 - ## Replace data with mean (for numerical values)
 /*mean = df['a'].mean()
-mean = df.replace(df['a'], np.nan, mean)*/
+df.replace(df['a'], np.nan, mean)*/
 
 # Data Formatting in Python
 - data are collected from different places and stored in different formats
-- bringing data into common stardand of expression allows users to make meaning comparisoon 
+- bringing data into common stardand of expression allows users to make meaning comparison 
 - abreviation, synonyms, local words, data types => convert to a classical and understandble format. 
 - clean data for strong model 
 - check data type if not ok => convert to the wanted format
