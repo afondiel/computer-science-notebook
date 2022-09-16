@@ -681,7 +681,7 @@ types of ml learning classes :
 - Tries to loosely emulate how human brain works
 Applications : 
 => Natural Language Processing
-=> Image,Audio, and video analysis
+=> Image, Audio, and video analysis
 => Time Series forecasting
 => Much more
 => LARGE datasets of labeled data and compute intensive
@@ -689,13 +689,13 @@ Applications :
 - Build from scratch / download from public model repos
 - frameworks : TensoFlow, PyTorch, Keras
 - populars model repos : 
-=> model zoo
-=> ONNX model zoo 
+	=> model zoo
+	=> ONNX model zoo 
 
-ML /DL Pipeline-process
+ML/DL Pipeline-process
 --------------+--------------+----------------+		+-----------
 Prepare Data => Build Model => Training model				  ... => Deploy model
----------------+---------------++--------------+		+-------------
+---------------+-------------+----------------+		+-------------
 => Prepare Data  : (collect data , clean, label)  
 => Build Model : from scratch/ zoo model that fits to the problem
 => Training Model(iterative process ) : requires (more) data, time, expertise, ressources
@@ -1332,7 +1332,7 @@ Machine learning when to use ?
 	=> Refined definition of "CHF admission"
 
 * Data quality process*  
-(Accuracy)=>(Relevance)=>(Accessibility)=>(Completiveness)=>(Clarity)=>(Timelines)
+(Accuracy)=>(Relevance)=>(Accessibility)=>(Completiveness)=>(Clarity)=>(Timeliness)
 
 ## reference : Descriptive stats : https://www.investopedia.com/terms/d/descriptive_statistics.asp
 
@@ -1429,7 +1429,7 @@ Machine learning when to use ?
 - Once in play (deployement) users feedback helps to refine the model & asset it for perfo & impact
 - allows to adjust the model to meet the solution required
 - Methodology is a cyclical process : refinement takes place at each stage
-- Philosophy : "The more you know the mode you want to know"
+- Philosophy : "The more you know the more you want to know"
 
 ## From Deployement to Feedback
 - Once the model is evaluated and the data scientistis confident it will work, it is deployed and put to the ultimate test  
@@ -1857,7 +1857,7 @@ in ('values1', 'values2') : where valuesx => are columns
 
 # Built-in Database Functions
 
--  Most databases comme w/ built-in SQL functions
+- Most databases comme w/ built-in SQL functions
 - Build-in functions can be included as part of SQL statements
 - Database functions can significantly reduce the amount of data that needs to be retrieved
 - Can speed up data processing
@@ -2591,7 +2591,7 @@ Interpret the R-square and the Mean Square Error: Interpret R-square (x 100) as 
 /!\ The model that exhibits  overfitting is usually the model with the lowest parameter value for alpha
 
 # Grid Search
-- Allows to scan trough multiple free parameters w/ few lines of code
+- Allows to scan through multiple free parameters w/ few lines of code
 - Alpha == HYPERPARAMETER
 - skilearn => Grid Search : iterating over HYPERPARAMETER using cross-validation 
 
@@ -2734,7 +2734,7 @@ Course 8 : DATA VISUALIZATION W/ PYTHON
 	=> then use theses bins(values) to generate the histogram w/ matplotlib 
 
 # Bar Charts
-- Unlike a histogram, a bar chart is commnly used to compare the values of a variable at given point in time.
+- Unlike a histogram, a bar chart is commonly used to compare the values of a variable at given point in time.
 - generate "bar plot"  : plot(kind='bar')
 
 # Lab
