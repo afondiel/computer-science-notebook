@@ -5,10 +5,10 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 ## How a self-driving car works ? (by David Silver from Udacity)
 
-+----------+    +--------------+    +------------+ +----------+
-|  Computer|    | Localization |    | Path  	 | | Control  |
-|  vision  |    |		       |    | Planning	 | |		  |
-+----------+    +--------------+    +------------+ +----------+
++----------+    +--------------+    +------------+      +----------+
+|  Computer|    | Localization |    | Path  	 |      | Control  |
+|  vision  |    |		       |    | Planning	 |      |		   |
++----------+    +--------------+    +------------+      +----------+
 
 +----------+
 | Sensor   |
@@ -32,26 +32,6 @@ Applications :
 - autonomous taxis (waymo, uber ...)
 ...
 
-# Companies building self-driving car : 
-
-- Velodyne
-- Aurora
-- Waymo
-- Autoliv
-- Nuro
-- Cyngn, Faction
-- Mobileye
-- Beep
-- ElectraMeccanica
-- Black Sesame
-- Tesla
-- nvidia
-
-
-## Tools / Frame works : 
-- The open NVIDIA DRIVE Software stack
-- Automotive Data and Time-Triggered Framework(ADTF) audi 
-- Tesla FSD Chip (full self-driving)
 
 ## Architecture : 
 - Hardware
@@ -89,6 +69,29 @@ Applications :
 => Samsung 
 
 
+# Companies building self-driving car : 
+
+- Velodyne
+- Aurora
+- Waymo
+- Autoliv
+- Nuro
+- Cyngn, Faction
+- Mobileye
+- Beep
+- ElectraMeccanica
+- Black Sesame
+- Tesla
+- nvidia
+
+
+## Tools / Frame works : 
+- The open NVIDIA DRIVE Software stack
+- Automotive Data and Time-Triggered Framework(ADTF) audi 
+- Tesla FSD Chip (full self-driving)
+- CARLA Simulator
+
+
 # Reference :
 
 https://en.wikipedia.org/wiki/Self-driving_car
@@ -119,5 +122,18 @@ https://www.sae.org/blog/sae-j3016-update
 
 Udacity sensor systems : 
 https://www.udacity.com/blog/2021/03/how-self-driving-cars-work-sensor-systems.html
+
+Applying of Reinforcement Learning for Self-Driving Cars :
+https://towardsdatascience.com/applying-of-reinforcement-learning-for-self-driving-cars-8fd87b255b81
+
+CARLA Simulator  : 
+https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg
+
+ML/DL libraries : 
+Opencv 
+CNN
+
+research papers : 
+https://paperswithcode.com/task/autonomous-driving
 
 
