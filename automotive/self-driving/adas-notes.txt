@@ -1,10 +1,17 @@
 === ADAS notes ===
 
-ADAS (Advanced driver assistance system) 
+ADAS (Advanced driver assistance system)  : is any of a groups of electronic technologies that assist drivers in driving and parking functions
 
+## SAE J3016 : Autonomy Level(6)
 
-SAE J3016 : Autonomy Level
+L0: No Automation
+L1: Driver assistance
+L2: Partial automation
+L3: conditional Operation
+L4: High Automation
+L5: Full Automation
 
+## Applications : 
 - L0: No Automation
 
 - L1: Driver assistance
@@ -60,13 +67,17 @@ Lane centering
 
 - L5: Full Automation
 
-## Applications : 
 
 # Standards
+SAE J3016
+ISO 26262
 
 # tools/frameworks
+- Automotive Data and Time-Triggered Framework(ADTF) audi 
+
 
 # References :
 
 Adas : 
 https://en.wikipedia.org/wiki/Advanced_driver-assistance_system
+
