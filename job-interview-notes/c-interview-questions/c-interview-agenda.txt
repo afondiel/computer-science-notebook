@@ -1,0 +1,81 @@
+========= C Language interview question =========
+# Agenda 
+- Programming paradigm
+- Design patterns
+- Robust code recipe : 
+	=> Safe/Secure - Maitenable/flexible - reliable - portable
+	=> To prevent : 
+		=> user errors, when invalid input is passed to the program.
+		=> exhaustions, when the program tries to acquire shared resources.
+		=> internal errors, due to bugs (e.g. dangling pointers).
+
+- Programming Language : 
+=> Data types
+=> Variables
+=> Conditions
+=> Functions 
+=> Advanced types : struct, union, pointer, volatile, static...
+=> Modular programming
+=> Object based programming
+
+//## Data structure
+//- Linked Lists
+//- Stack
+//- Queue
+//- Sets
+//- Hash tables
+//- Trees
+//- Heaps and Priority Queues
+//- Graphs
+// ## Algorithms
+// - Sorting
+// - searching
+// - Numerical Methods
+// - Data Compression
+// - Data Encryption
+// - Graph Algorithms
+// - Geometric Algorithms
+
+## Error Handling & Debugging
+=> Syntax error (compilation) 
+=> segmentation error (runtime)
+=> Overflow (stack and heap)
+	=> buffer
+	=> integer
+=> string format (%d, %x, %n ...)
+=> NULL pointer
+=> divide by zero
+=> Dangling pointer
+=> barfing garbage
+=> memory leaks
+=> stackover flow (int  <= float)
+
+### Solution  : check, check ....check
+	=> Assortion : detect constraints
+	=> Array indexing : whenever possible
+	=> embedding magic numbers  : within objects, to check their type quickly.
+	=> results : system call, library function  ...
+
+
+
+# References & resources
+books:
+https://github.com/afondiel/research-notes/tree/master/books/computer-science
+
+C Programming/Error handling
+https://en.wikibooks.org/wiki/C_Programming/Error_handling
+
+Robust Design Techniques for C Programs
+https://freetype.sourceforge.net/david/reliable-c.html
+
+Error Handling in C++ or: Why You Should Use Eithers in Favor of Exceptions and Error-codes : 
+https://hackernoon.com/error-handling-in-c-or-why-you-should-use-eithers-in-favor-of-exceptions-and-error-codes-f0640912eb45
+
+
+Modern C++ best practices for exceptions and error handling
+https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-170
+https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp
+
+MISRA :
+https://ldra.com/misra/
+
