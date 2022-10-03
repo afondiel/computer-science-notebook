@@ -1,7 +1,123 @@
 ====== Self-driving-notes ======
 
-* Applications : 
-* Tools : 
+A "self-driving car", also known as an "autonomous car", driver-less car, or "robotic car" (robo-car),is a car incorporating vehicular automation, 
+that is, a ground vehicle that is capable of sensing its environment and moving safely with little or no human input.
 
-* Reference : 
+## How a self-driving car works ? (by David Silver from Udacity)
+
++----------+    +--------------+    +------------+ +----------+
+|  Computer|    | Localization |    | Path  	 | | Control  |
+|  vision  |    |		       |    | Planning	 | |		  |
++----------+    +--------------+    +------------+ +----------+
+
++----------+
+| Sensor   |
+| Fusion   |
++----------+
+
+- Computer vision : how the car sees the world and its environement
+- Sensor Fusion : how the car understands the world and its environement
+- Localization : how the car figure it out where it is in the world(its location)
+- Path Planning : how the car decides to navige the world(its brain/decision making)
+- Control (drive) : how the car turns the steering wheel/accelates/brakes based on the planning phase
+
+
+Applications :
+- increase road Safety 
+- Vehicle automation in different fields
+- Landmark assistance in local positioning systems
+- Control of the automated vehicle
+- Automated vehicle path planning
+- Obstacle avoidance
+- autonomous taxis (waymo, uber ...)
+...
+
+# Companies building self-driving car : 
+
+- Velodyne
+- Aurora
+- Waymo
+- Autoliv
+- Nuro
+- Cyngn, Faction
+- Mobileye
+- Beep
+- ElectraMeccanica
+- Black Sesame
+- Tesla
+- nvidia
+
+
+## Tools / Frame works : 
+- The open NVIDIA DRIVE Software stack
+- Automotive Data and Time-Triggered Framework(ADTF) audi 
+- Tesla FSD Chip (full self-driving)
+
+## Architecture : 
+- Hardware
+    => Sensors : 
+        => thermo-Cameras
+        => Radar(radio detection and ranging) : Macro objects
+            => Long range
+            => Short range 
+        => Lidar(light detection and ranging) : Micro objects (more precision)
+        => Sonar(Sound) 
+        => GPS (Global Positioning System :lat, log)
+        => Odometry
+
+- Software
+    => Computer vision
+    => Deep learning (CNN ...)
+
+- Suppilers 
+=> NVIDIA : ECU/GPUs
+=> DENSO 
+=> CONTINENTAL
+=> DELPHI
+
+- OEMS : 
+=> Tesla 
+=> Mercedes-Benz
+=> Toyota
+=> Ford 
+=> Ford 
+
+
+- Tech
+=> waymo 
+=> Apple 
+=> Samsung 
+
+
+# Reference :
+
 https://en.wikipedia.org/wiki/Self-driving_car
+
+Applications & technologies self-driving vehicles 
+http://www.freelancerobotics.com.au/technological-articles/overview-techniques-applications-autonomous-vehicles/
+
+Autonomous Driving Software in Europe
+https://sourceforge.net/software/autonomous-driving/europe/
+
+Online ressources to get started : 
+https://analyticsindiamag.com/top-8-online-resources-to-get-started-with-self-driving-vehicles-in-2021/
+
+An intro to self-driving cars with David Silver
+https://www.youtube.com/watch?v=lz8nrj44ifk
+
+ADAS dev env elektrobit
+https://www.elektrobit.com/products/automated-driving/eb-assist/adtf/
+
+Solutions for Self-Driving Cars and Autonomous Vehicles : 
+https://www.nvidia.com/en-us/self-driving-cars/
+
+NVDIA parteners : 
+https://www.nvidia.com/en-us/self-driving-cars/partners/
+
+Standard-j3016: 
+https://www.sae.org/blog/sae-j3016-update
+
+Udacity sensor systems : 
+https://www.udacity.com/blog/2021/03/how-self-driving-cars-work-sensor-systems.html
+
+
