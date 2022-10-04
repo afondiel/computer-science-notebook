@@ -9,16 +9,88 @@
 		=> exhaustions, when the program tries to acquire shared resources.
 		=> internal errors, due to bugs (e.g. dangling pointers).
 
-- Programming Language : 
+## Programming Language : 
 => Data types
+the size of some data type depends on the target/platform (windows, iOS, linux, mcu, raspberryPi...) to get the size => sizeof(type)
+basic type 
+- bool : 1 bit
+- char : 1 byte
+- int : 2/4 bytes (depends on the target)
+- long : 4/8 bytes 
+- long int : 8 bytes (depends on the target)
+
+- float : 4/8 bytes 
+- double : 8 bytes 
+- long double : 8 bytes 
+
+derived containers
+- Array : numerical data type 
+- str_array: string data type 
+- pointer 
+- functions 
+
+advanced types/user-defined : 
+- struct
+- union
+- enum
+- volatile
+- static...
+
 => Variables
 => Conditions
 => Functions 
-=> Advanced types : struct, union, pointer, volatile, static...
 => Modular programming
 => Object based programming
 
-//## Data structure
+## Data structure
+ 
+### Big(O) notation : Time & Space complexity
+ time => speed
+ space => Memory
+
+family : 
+- Accessing : O(n)
+- Searching: O(logn)
+- Inserting: O(n2) 
+- Deleting: O(n2)
+
+# Linked list : 
+Functions : 
+=>Node
+=>Pointer
+Applications :
+
+# Stack: LIFO
+Functions  : 
+=>push
+=>pop
+=>delete
+Applications : DFS
+
+# Queue: FIFO
+Functions:
+=>Enqueue
+=>Dequeue
+=>Delete
+Applications : BDS
+
+# Hash:
+=>Pair : (key , value)
+Applications :
+
+# Tree: 
+=>edge
+=>Left
+=>Right
+Applications :
+
+# Graph: 
+Functions : 
+=>graph search 
+=>binary search...
+Applications :
+
+### Algorithms
 //- Linked Lists
 //- Stack
 //- Queue
@@ -79,3 +151,5 @@ https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-c
 MISRA :
 https://ldra.com/misra/
 
+Big_O_notation
+https://en.m.wikipedia.org/wiki/Big_O_notation
