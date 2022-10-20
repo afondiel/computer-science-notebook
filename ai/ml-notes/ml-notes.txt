@@ -19,7 +19,10 @@ i.e : input  : Fruit(apple or orange?) => Classifier => apple (if apple chose)
 To Train the Classifier we use  : 
 
 - Supervised Learning(SL) : it learns from examples/experiences
-- Non-Suspervised Learning(NSL) :  it learns from events ?  
+- Unsuspervised Learning(USL) :  it learns from events ?
+- Reinforcement Learning (RL): : Conceptually similar to human learning processes
+=> ex : a robot learning to walk, Go, Chess and other strategy games
+	 
 
 - The more the training data exists => the better the classifier Will be 
 
