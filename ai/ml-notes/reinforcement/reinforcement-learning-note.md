@@ -9,7 +9,7 @@ Statistical model that learns a patterns from a data with/without a label
 - Self-driving cars 
 - Strategy games
 
-# Tools / frameworks 
+## Tools / frameworks 
 - Markov Chain/Markov Decision Process (MDP)
 - TensorFlow
 
