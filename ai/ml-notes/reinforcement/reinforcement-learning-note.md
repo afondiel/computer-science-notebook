@@ -2,7 +2,7 @@
 
 ## Intro : machine learning paradigm/subset
 
-Statistical model that learns a patterns from a data with/without a label
+Statistical model that learns patterns from data with/without labels
 
 ## Applications : 
 - Robotics 
