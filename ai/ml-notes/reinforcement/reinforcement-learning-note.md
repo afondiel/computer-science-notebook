@@ -6,6 +6,7 @@ A machine learning approach/paradigm which enables a model to learning patterns 
 - A simple RL is modeled by Markov Decision Process (MDP)
 
 RL provides a statistical framework based on two components :
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Reinforcement_learning_diagram.svg/800px-Reinforcement_learning_diagram.svg.png" width="400">
 - Agent(a) : takes actions that changes an existing state(S) of the environment
 - Environment (b) : transites to a new/future state based on changes taken by the agent and provides feedback to the agent
@@ -14,7 +15,8 @@ RL provides a statistical framework based on two components :
     - represented as Q-learning
 
  Q-function : uses Bellman equation Q(s,a)
-![Q-function](https://cdn-media-1.freecodecamp.org/images/s39aVodqNAKMTcwuMFlyPSy76kzAmU5idMzk)
+ 
+ ![Q-function](https://cdn-media-1.freecodecamp.org/images/s39aVodqNAKMTcwuMFlyPSy76kzAmU5idMzk)
 
 Learning strategy : 
 - Value-based RL
