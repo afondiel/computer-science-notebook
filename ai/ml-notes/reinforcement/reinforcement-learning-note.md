@@ -10,7 +10,7 @@ RL provides a statistical framework based on two components :
 - feedback : can either be positive(+) or negative(-), after set of feedbacks or iterations the agent tries to learn and optimize the future actions in order to get a maxime of (+) feedbacks => reward (function) 
 
 Reward function : Q(s,a)
-![Q(s,a)](.\q-function.PNG)
+![Q(s,a)](q-function.PNG)
 
 Learning strategy : 
 - Value-based RL
