@@ -6,7 +6,7 @@ A machine learning approach/paradigm which enables a model to learning patterns 
 - A simple RL is modeled by Markov Decision Process (MDP)
 
 RL provides a statistical framework based on two components :
-![alt text](https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg)
+![MDP](https://en.wikipedia.org/wiki/Reinforcement_learning#/media/File:Reinforcement_learning_diagram.svg)
 - Agent(a) : takes actions that changes an existing state(S) of the environment
 - Environment (b) : transites to a new/future state based on changes taken by the agent and provides feedback to the agent
 - feedback : can either be positive(+) or negative(-), after set of feedbacks or iterations the agent tries to learn and optimize the future actions in order to get a maxime of (+) feedbacks => reward (function)
