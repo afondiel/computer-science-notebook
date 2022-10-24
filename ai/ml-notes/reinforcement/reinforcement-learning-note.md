@@ -22,6 +22,8 @@ Learning strategy :
 - Value-based RL
 - Policy search-based RL
 - Actor-critic-based RL
+
+for a high dimensinal environment a [Deep Reinforcement Learning](https://www.youtube.com/watch?v=zR11FLZ-O9M) is required
 ## Applications 
 - Robotics 
 - Self-driving cars 
