@@ -7,14 +7,14 @@
 - It's the best time to be in AI ! 
 - Applications : Self-driving cars, medicine, heavy machanery, customer service ...
 - Moore's Law : computer power will double every 2yrs 
-    => Strategy games :
-        => Chess : DeepMind vs Gary Kasparov (1997)
-        => Go : AlphaGo vs Lee Sedol (2016)
-- Game to train AI => confined environment then apply that to solve the real world problems/business
+    - Strategy games :
+        - Chess : DeepMind vs Gary Kasparov (1997)
+        - Go : AlphaGo vs Lee Sedol (2016)
+- Game to train AI : confined environment then apply that to solve the real world problems/business
 
 ### 2. Course structure : OK
-- course resources :  https://www.tfcertification.com/pages/artificial-intelligence
-    2.1 BONUS : Learning Paths
+- course resources & code template :  https://www.tfcertification.com/pages/artificial-intelligence
+- 2.1 BONUS - Learning Paths :  https://sdsclub.com/learning-paths/ai-engineer/
 ### 4. Anaconda installation : OK 
 ### 5. Extra Materials : sdsclub.com/artificial-intelligence-a-z-learn-how-to-build-an-ai
     5.1 - QA : https://datascience.stackexchange.com/
@@ -72,6 +72,20 @@ Pre-programmed learning vs reinforcement learning
 - Addictional reading : 
     - [research paper by Richard Sutton et al. (1998)](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.7692)
 
+### 9. The Bellman Equation
+
+Invented by Richard Ernest Bellman, a Mathematician who came up w/ the Dynamic programing concept (today called RL) in 1953
+
+Concepts : 
+- s - State (where the agent is )
+- a - Action (taken by the agent)
+- R - Reward (got by the agent for entering into a certain state)
+- Y - Discount factor
+
+Actions/List of actions are often associated with states.
+
+
+
 ## Section 4: Q-Learning Visualization
 ## Section 5: - Part 1 - Deep Q-Learning
 ## Section 6: Deep Q-Learning Intuition
@@ -103,3 +117,5 @@ https://www.deepmind.com/tags/reinforcement-learning?fc63e648_page=8
 - Reinforcement learning Implementation with TensorFlow : 
 https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
 
+- IBM - What Is an AI Engineer? (And How to Become One)
+https://www.coursera.org/articles/ai-engineer
