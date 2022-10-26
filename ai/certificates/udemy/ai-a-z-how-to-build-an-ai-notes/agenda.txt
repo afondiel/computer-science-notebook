@@ -1,0 +1,35 @@
+
+Course highlights : 
+# Build an AI
+# Understand the theory behind Artificial Intelligence
+# Make a virtual Self Driving Car
+# Make an AI to beat games
+# Solve Real World Problems with AI
+# Master the State of the Art AI models
+# Q-Learning
+# Deep Q-Learning
+# Deep Convolutional Q-Learning
+# A3C
+
+Course Content
+
+# Section 1: Welcome to the coursel
+# Section 2: - Part 0 - Fundamentals Of Reinforcement Learning
+# Section 3: Q-Learning intuition
+# Section 4: Q-Learning Visualization
+# Section 5: - Part 1 - Deep Q-Learning
+# Section 6: Deep Q-Learning Intuition
+# Section 7: Deep Q-Learning Implementation
+# Section 8: Deep Q-Learning Visualization
+# Section 9:  Part 2 - Deep Convolutional Q-Learning
+# Section 10: Deep Convolutional Q-Learning Intuition
+# Section 11: Deep Convolutional Q-Learning Implementation
+# Section 12: Deep Convolutional Q-Learning Visualization
+# Section 13: - Part 3 - A3C 
+# Section 14: A3C Intuition
+# Section 15: A3C Implementation
+# Section 16: ASC Visualization
+# Section 17: Annex 1: Artificial Neural Networks
+# Section 18: Annex 2: Convolutional Neural Networks
+# Section 19: Bonus Lectures
+
