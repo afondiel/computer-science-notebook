@@ -80,9 +80,80 @@ Concepts :
 - s - State (where the agent is )
 - a - Action (taken by the agent)
 - R - Reward (got by the agent for entering into a certain state)
-- Y - Discount factor
+- Y(gamma) - Discount factor
 
 Actions/List of actions are often associated with states.
+
+How it works ? 
+
+|      |       |       |Target | 
+|------|-------|-------|-------|
+|      |       |       |  Fire |
+|      |   X   |       |       |
+|   A  |       |       |       |
+
+if A get reach the target => R = +1
+If A == X => R=-1 
+If A == Fire => R=-1 
+
+each time the Agend(A) takes an action the state also change. 
+The challenge is to make the Agent take the actions that lead to a positive reward based on previous states results(valuables state). 
+
+How to calculate Valuable States (V)? 
+- the idea is to go a backward from the target where a R=+1 and create pathway to the starting point. Then, detect every adjacent square or state that lead to target and value it V=1, and repeat the process until the full path is recreated from the starting point.
+- Build the equation that helps the agent go through the maze:
+    - look at reward, then the preceding state give a value of equal reward and so on to create a pathway.
+    - the problem with approach is that if the Agent starts from any other state than the starting point it doesnot know anymore how to reach the target(Reward)
+
+**Solution : dynamique programming the Bellman Equation**
+
+    V(s) = max[R(s, a) + Y*V(s')]
+
+where : s' - the next/future state
+- Y : solve the situation where the agent doesn't know which way to go.
+- The value of Y is chosen under certain conditions(ex: 0.9)
+- Also we calculate the maximum value in each state until the starting point. 
+- The pattern is that the preceding state < than the actual state. The closer you are to the finish line the more valuable that state is.
+- With this concept it's easier to know which direction the agent must go.
+
+### 10. The "Plan"
+
+- create a navigation map of AI.
+- we can replace the state value with the arrow indicating the direction to the finish line
+- plan different from "policy"
+
+### 11. Markov Decision Process (MDP)
+
+The navigation map is not that simple that's where MDP comes to play.
+
+- Deterministic search : always produce the same output from a given starting condition or initial state (ex : if the agent is told to go up there's a probability of 100% it goes in this direction)
+- Non-deterministic search(stochastic process) : multiple possible outcomes from a given starting condition or initial state (ex : if the agent is told to go up there's a probability of 80% it goes up, 10% left or 10% right)  
+    - How randomness affects an environment and how to deal w/ it 
+    - Using Markov Decision Process
+
+What's Markov Process ?
+>A stochastic process has the Markov property if the conditional probability distribution of future states of the process (conditional on both past and present states) depends only upon the present state. not on the sequence of events that preceded it. A process with this property is called a **Markov process** (src : wikipedia)
+
+What's Markov Decision Processes?
+> Markov Decision Processes (MDPs) provide a mathematical framework for modeling decision making in situations where outcomes are partly random and partly under the control of a decision maker.(src: wikipedia)
+
+- A MDP is a version of Bellman equation but sophisticated
+
+        V(s) = max[R(s, a) + Y*Sum(P(s,a, s')*V(s'))]
+
+where : 
+- P(s,a,s') : is the Probability of the action to go the actual state to a future state
+- Sum : sum of the probability of different actions available for every new state possibility
+- s' : the new/future state
+
+Addictional resources :
+- A survey of Applications of Markov Decision Processes by D. J. White(1993)
+- Link : http://www.it.uu.se/edu/course/homepage/aism/st11/MDPApplications3.pdf
+
+
+
+
+
 
 
 
