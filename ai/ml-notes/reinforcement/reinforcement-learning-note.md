@@ -3,11 +3,26 @@
 ## Intro 
 
 A machine learning approach/paradigm which enables a model to learning patterns from data with/without labels based on reward (if the model correctly learns a pattern) or a penalty otherwise.
-- A simple RL is modeled by Markov Decision Process (MDP)
+## Applications - RL 
 
-RL provides a statistical framework based on two components :
+- Robotics 
+- Self-driving cars 
+- Strategy games : chess/Go/FrozenLake/Atari ...
+
+## Tools / frameworks 
+- OpenAI Gym
+- TensorFlow
+- Keras
+- DeepMind Lab
+- Pytorch
+- Markov Chain/Markov Decision Process (MDP)
+
+
+### A simple RL is modeled by Markov Decision Process (MDP)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Reinforcement_learning_diagram.svg/800px-Reinforcement_learning_diagram.svg.png" width="300" style="border:2px solid #FFFFFF; padding:5px; margin:2px">
+
+RL provides a statistical framework based on two components : 
 
 - Agent(a) : takes actions that changes an existing state(S) of the environment
 - Environment (b) : transites to a new/future state based on changes taken by the agent and provides feedback to the agent
@@ -23,21 +38,55 @@ Q-funtion/Q-Learning strategy :
 2. Policy search-based RL : search for an optimal policy that's able to achiieve a maximum future reward
 3. Actor-critic-based RL : hybrid strategy which combines value-based + policy-based to solve RL learning problems
 
-for a high dimensinal environment a [Deep Reinforcement Learning](https://www.youtube.com/watch?v=zR11FLZ-O9M) is required
-## Applications 
-- Robotics 
-- Self-driving cars 
-- Strategy games : chess/Go/FrozenLake ...
+### The limit of Q-learning 
+- Curse of dimensionality : when dealing with a large number of samples
+- Sample correlation : successive samples are often correlated whe it comes to online updates.
 
-## Tools / frameworks 
-- OpenAI Gym
-- TensorFlow
-- Keras
-- DeepMind Lab
-- Pytorch
-- Markov Chain/Markov Decision Process (MDP)
+**Solution : deep reinforcement learning (DRL)**
 
+DRL : increases performance of model and solves Curse fo dimensionality and Sample Correlation. 
 
+Model Deep Q-Network (DQN) : 
+
+|Q-value1|Q-value2   |Q-value k | 
+|:--------:|:---------:|----------|
+|  ^      |    ^      |     ^    |
+|     \   |    I      |    /     |
+|         |   CNN     |          |
+|         |   State   |          |
+|         |           |          |
+
+*Deep Q-Network (DQN) high level architecture*
+
+| Layer | Input Size | Filter Size| Number of Filter| Stride Length |Activation Unit | Output Size |
+|------ |------ | ------ | ------  | ------ | ------| ------|
+| Conv-1 |84x84x4 | 8x8 | 32  | 4 | Rectified Linear | 20 x 20 x 32|
+| Conv-2 |20x20x32 | 4x4 | 64  | 2 | Rectified Linear | 9 x 9 x 64|
+| Conv-3 |9x9x64 | 3x3 | 64  | 1 | Rectified Linear | 7 x 7 x 64|
+| fc4 |7x7x64 | N/A | 512  | N/A | Rectified Linear | 512|
+| fc5 |512 | N/A | 18  | N/A | Linear | 18|
+|     |    |     |     |     |       |    | |
+
+Where CNN has: 
+- 3 cnn layers
+- 2 fcs (fully connected layers) 
+
+Convolution Neural Network(CNN) - DQN solves curse dimensionality but not the unstable learning issues due to high correlation in the input sequence data.
+
+    Ex: In cases of Atari Games supporting iterative actions comming Joysticks
+
+#### DQN Techniques : 
+- Experience replay :  stores past experience in memory and use these samples during the learning stage or every time step *t* (iteration) to reduce correlation of sequence of data and avoiding overffiting  
+- Target network : fixes the parameter of the target function Q(s,a, teta*t*) 
+- reward clipping : allows to normalize the rewards, if they are not in the same scale 
+
+#### DQN approaches/Process
+- Single-DQN : Recursive target Q(s,a, teta*t*) => Overestimate the values, can be costful if working with large sample => accumulate lots of errors!!!
+- Double-DQN : to avoid the previous approach we divide the Q(s,a, teta*t*) into 2 functions : Q1 and Q2.
+- Dueling-DQN : splits Q(s,a ) = V(s) + A(a) => for robustness modeling
+
+## Implementation 
+- check notebook example in this same folder
 ## References 
 
 - [Reinforcement learning wiki](https://en.wikipedia.org/wiki/Reinforcement_learning)
@@ -50,6 +99,7 @@ for a high dimensinal environment a [Deep Reinforcement Learning](https://www.yo
 - [Finite-state machine](https://en.wikipedia.org/wiki/Finite-state_machine)
 - [Dynamical_system](https://en.wikipedia.org/wiki/Dynamical_system)
 - [implementing the a3c algorithm](https://medium.com/@shagunm1210/implementing-the-a3c-algorithm-to-train-an-agent-to-play-breakout-c0b5ce3b3405)
+- for a high dimensinal environment a [Deep Reinforcement Learning](https://www.youtube.com/watch?v=zR11FLZ-O9M) is required
 
 
 
