@@ -150,11 +150,63 @@ Addictional resources :
 - A survey of Applications of Markov Decision Processes by D. J. White(1993)
 - Link : http://www.it.uu.se/edu/course/homepage/aism/st11/MDPApplications3.pdf
 
+### 12. Policy vs Plan
 
+- Policy : Applied in the non-deterministic world also known as Stochastic (random signals/ unpredictable events in the system)
+    - the agent can have more than one action to execute in the same state based on the number of possibilities(probabilities)
+    - then if the next state has a value of 0% or -1 reward we move onto the next state/obstacle based on the other neighbour state  
+    - due to the randomness we can see a same action executed in different states  
 
+- Plan : when you know what you need to do next (predictible actions)
+    - We take the value of value function straghtforward compares if is less than current reward to move back/forward (create a plan)
 
+### 13. Living Penalty
+- Negative reward or the probability to get a reward (-1)
+- build a strategy to check when the agent reach a negative reward 
+- the bigger the value(closed to -1) the more the agent will get straight to the negative reward state
+- The reward is given in every given states
 
+### 14. Q-Learning intuition
+- V(s) represents the value of the action
+- Q(s,a) represents the quality of the action
+- a state can have multiple actions
+- actions leads to (future)states
 
+        Q(s,a) = R(s, a) + Y*Sum(P(s,a, s')*V(s'))
+
+then, 
+
+        V(s) = max(Q(s,a)) => V function is the maximum of all of possible Q-values
+Normalizing according to Q-value : 
+
+        Q(s,a) = R(s, a) + Y*Sum[P(s,a, s')*max(Q(s', a'))]
+
+Additionnal resources : 
+- Markov Decision Processes : Concepts and algorithms by Martijn van Otterlo(2009) 
+    - Link : http://pdfs.semanticscholar.org/968b/ab78e52faf0f7957ca0f38b9e9078454afe.pdf
+
+### 15. Temporal Difference
+- the heart and soul of Q-learning intuition
+- mechanism which allows the agent to calculate the probability values(V-values) during the each state
+- How the Q-value is updates 
+
+Q-value in a determinist forme : 
+
+    Q(s,a) = R(s, a) + Y*max(Q(s', a'))
+
+Temporal difference :
+
+    TD(s,a) =  R(s, a) + Y*max(Q(s', a')) - Q(s,a)
+
+ where : (current Q-value minus previous Q-value) // (future Q-value minus the current Q-value) 
+- the computation occurs every t time iteration
+
+        Qt(s,a) =  Qt-1(s,a) + alpha*TDt(s,a)
+
+- where *alpha* is the learning rate(how quick the algorithm is learning)
+
+        Qt(s,a) =  Qt-1(s,a) + alpha*[R(s, a) + Y*max(Q(s', a')) - Qt-1(s,a)]
+- if *alpha* = 0, **Qt(s,a) =  Qt-1(s,a)** no learning is done
 
 
 ## Section 4: Q-Learning Visualization
