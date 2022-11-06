@@ -1,9 +1,50 @@
-============ Deep Learning Notes==============
+============ Deep Learning Notes ==============
 
 Deep learning : is Machine Learning (ML) subset based on artificial *neural networks* to perform sophisticated computations on large amounts of data
 
 ## Neural Network(NN): simulates the way humans learn. 
 - NN allows to build model/algorithms 
+- inspired from biological neuron : 
+
+synapse => (dendrite) => (cell body) ==> axon  .... (next synapse => ... )
+
+biological neuron  vs artificial neuron 
+ (neuron)               (perceptron)
+--------------------+--------------------+
+| electrical signals|   data samples     |
+--------------------+---------------------
+|   synapse(node)   | input node(x, w, b)|
+--------------------+---------------------
+|     dendrite      |      summation     |
+|-------------------+---------------------
+|  cell-body(soma)  |      activation    |
+--------------------+---------------------
+|       axon        |    output node     |
+--------------------+--------------------+
+
+*new connexion : axon + synapse => next dendrite 
+
+## The perceptron: first model invented by Mc Culloch-Pitts 
+    => 1 input layer
+        => input nodes : x1*w1 + x2*w2 ...+ b
+            where : 
+            x : input signals
+            b : bias 
+            w : weights
+    => Neuron 
+        => Summation function
+        => activation function (step : 0/1) 
+
+    => 1 output layer 
+
+- The multilayer perceptron forms fully connected NN 
+    => 1 input layer 
+    => multiple hidden layers
+    => Neuron 
+        => Summation function
+        => activation functions (step, tanh, sigmoid, RELU...)
+
+    => 1 output layer
 
 ## Application
 - computer vision 
@@ -33,7 +74,7 @@ Deep learning : is Machine Learning (ML) subset based on artificial *neural netw
 ### Deep learning algorithms/model : 
 - Perceptron = biological neuron 
 - Deep Neural Network 
-- MNIST
+- MNIST Image Recognition 
 - Recurrent Neural Network (RNN) 
 - Transformer 
 - BERT 
