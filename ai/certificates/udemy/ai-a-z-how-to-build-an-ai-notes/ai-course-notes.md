@@ -208,10 +208,77 @@ Temporal difference :
         Qt(s,a) =  Qt-1(s,a) + alpha*[R(s, a) + Y*max(Q(s', a')) - Qt-1(s,a)]
 - if *alpha* = 0, **Qt(s,a) =  Qt-1(s,a)** no learning is done
 
+Additional resources : 
+- Learning to predict by the Methods of temporal Differences by Richard Sutton (1998)
 
 ## Section 4: Q-Learning Visualization
+
+### 16. Gridworld set up
+- Reinforcement learning project with code from Berkeley University, California 
+    - Link : http://ai.berkeley.edu/reinforcement.html 
+### 17. Q-Learning Visualization 
+- AI course & projects 
+    - link :  http://ai.berkeley.edu/home.html
+- UC Berkeley Lab : 
+    - lab : https://bair.berkeley.edu/
+
+
 ## Section 5: - Part 1 - Deep Q-Learning
+### 18. Intro part 1 
+- Deep Q-Learning = Q-Learning + Artificial Neural Network
+- Self-driving cars application 
 ## Section 6: Deep Q-Learning Intuition
+### 19. Plan of attack 
+- Deep Q-Learning Intuition (Learning)
+- Deep Q-Learning Intuition (Acting)
+- Experience Replay
+- Action Selection Policies
+### 20. Deep Q-Learning Intuition (Learning)
+- Q-learning + deep learning
+- for more complex environments like self-driving cars
+- a state in now represented as a pair input values (x1, x2)
+- deep learning predicts the future Q(s,a) value by comparing with previous predicted target
+    - Qx - Qtarget(estimator) = newQ
+    - we adjust the weights of NN to get a better result
+
+Loss function of NN:
+
+    L (mse) = Sum(Qtarget - Q)^2
+
+why not cross-entropy ? 
+
+- we want the loss to be small as possible(close to zero ? ) by using backprogagation(updates weight & bias) during fitting with gradient descent 
+    - Optmizer : Gradient descent (derivative of L)
+
+### 21. Deep Q-Learning Intuition (Acting)
+- output of the deep NN (Q) is passed to a softmax function for prediction
+- a Softmax function(a generalization form of sigmoid) the highest score gets is passed to output and gets the highest propability(%)
+- Softmax calculate the best action possible
+
+### 22. Experience Replay
+- in the case of a self-driving car
+    - the state is the steering angle, speed, throtle...
+    - every time the the car ends up in a new state NN inputs states gets updated this causes dependency btw old state and new one and correlation
+- Unstable learning issues due to high correlation in the input sequence data(large number of samples)
+- Experience replay :  stores past experience in memory and use these samples during the learning stage or every time step *t* (iteration) to reduce correlation of sequence of data and avoiding overffiting  
+- saves different experiences in a batch and then reused them whenever we want 
+
+additional reading : 
+    - Prioritized Experience replay : Tom Schaul et al - DeepMind (2016) 
+    - link : https://arxiv.org/pdf/1511.05952.pdf
+
+### 23. Action Selection Policies
+- we have different action selection because of **Exploration** vs **Exploitation** problems
+- a good/great action can produce a bad reward (-1) then all the network as to be revaluate again to provide even a better action therefore a bette reward(+1)=> Policy!!!
+- most common *action selection* : 
+    - e-greedy : selects the action with the best Q-value all time exception eplson(e)% of the time => ex : (Q-value 95% and e = 5% random action)
+    - e-soft(1-e) : opposite of e-greedy  
+    - Softmax : selects the highest action possible, the higher the Q-value the best the action 
+
+
+Additional reading: 
+- Adaptive e-greedy Exploration in Reinforcement Learning Based on Value differences by Michel tokic (2010)
+
 ## Section 7: Deep Q-Learning Implementation
 ## Section 8: Deep Q-Learning Visualization
 ## Section 9:  Part 2 - Deep Convolutional Q-Learning
