@@ -33,9 +33,31 @@ To Train the Classifier we use  :
 |--------|          |-----------|       |-----------|
 
 # ML algorithms
-- Regression : Predicting a continuous-valued attribute associated with an object
-- Classification : Identifying which category an object belongs to
-- Clustering : Automatic grouping of similar objects into sets.
+- Supervised : 
+	- Regression : Predicting a continuous-valued attribute associated with an object
+		=> Multiple Linear Regression(MLR)
+		=> Polynomial Regression (PR)
+	- Classification : Identifying which category an object belongs to
+		=> k-Nearest Neighbor
+		=> Decision Trees(ID3, C4.5, C5.0)
+		=> logistic regression
+		=> Naïve Bayes
+		=> Linear Discriminant Analysis
+		=> Neural Networks
+		=> Support Vector Machines (SVM)
+		=> Random Forest(RF)
+
+- Unsupervised : 
+	- Clustering : Automatic grouping of similar objects into sets.
+		=> k-Means
+		=> Mean-shift
+		=> Hierarchical Clustering (HC)
+		=> Density-based Clustering (DBSCAN)
+		=> Gaussian Mixture Models(GMM)
+- Reinforcement : 
+	- Q-Learning
+	- Deep Q-Network (DQN)
+	- A3C
 
 # ML Frameworks/tools : 
 - TensorFlow
