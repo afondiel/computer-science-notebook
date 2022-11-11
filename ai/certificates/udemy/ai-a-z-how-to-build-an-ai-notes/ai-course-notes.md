@@ -280,6 +280,16 @@ Additional reading:
 - Adaptive e-greedy Exploration in Reinforcement Learning Based on Value differences by Michel tokic (2010)
 
 ## Section 7: Deep Q-Learning Implementation
+### 24. Plan of Attack
+- In this Module we are going to build a Self Driving Car... from scratch !
+1. First, we will build the environment containing the map, the car and all the features that go with it.
+2. Then, we will build the AI, which will be the Deep Q-Learning model.
+3. And eventually, we will have our exciting demo. 
+### 25. Project resources
+ok
+### 26. Getting started
+check this link for the implementation : https://github.com/afondiel/my-lab/tree/master/automotive/self-driving-cars/project/self-driving-car-rl
+
 ## Section 8: Deep Q-Learning Visualization
 ## Section 9:  Part 2 - Deep Convolutional Q-Learning
 ## Section 10: Deep Convolutional Q-Learning Intuition
