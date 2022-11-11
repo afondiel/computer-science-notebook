@@ -22,7 +22,7 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 - Control (drive) : how the car turns the steering wheel/accelates/brakes based on the planning phase
 
 
-Applications :
+Applications : 
 - increase road Safety 
 - Vehicle automation in different fields
 - Landmark assistance in local positioning systems
@@ -48,6 +48,7 @@ Applications :
 - Software
     => Computer vision
     => Deep learning (CNN ...)
+    => NVIDIA :https://www.nvidia.com/en-us/self-driving-cars/drive-platform/software/
 
 - Suppilers 
 => NVIDIA : ECU/GPUs
@@ -129,11 +130,18 @@ https://towardsdatascience.com/applying-of-reinforcement-learning-for-self-drivi
 CARLA Simulator  : 
 https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg
 
+[Udacity online program](https://www.youtube.com/watch?v=ICKBWIkfeJ8&list=PLAwxTw4SYaPkQXg8TkVdIvYv4HfLG7SiH)
+
+[deepmind and Waymo](https://www.deepmind.com/blog/how-evolutionary-selection-can-train-more-capable-self-driving-cars)
+
+[How DeepMind and Waymo Train Self-Driving Car Models](https://medium.com/dataseries/how-deepmind-and-waymo-train-self-driving-car-models-bad071a4f64f)
+
 ML/DL libraries : 
 Opencv 
 CNN
 
 research papers : 
-https://paperswithcode.com/task/autonomous-driving
+    https://paperswithcode.com/task/autonomous-driving
 
-
+Highway Environment Model for Reinforcement Learning  : 
+    https://www.sciencedirect.com/science/article/pii/S2405896318333032
