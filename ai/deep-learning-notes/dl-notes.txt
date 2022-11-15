@@ -91,9 +91,14 @@ biological neuron  vs artificial neuron
 ## Training/learning Technics : 
 
     ### Machine Learning technics 
-    - Supervisedvlearning 
-    - UnSupervised learning 
-    - reinforcement learning 
+    - Supervised learning
+		- https://github.com/afondiel/research-notes/tree/master/ai/ml-notes/supervised
+	- Semi-supervised learning (Weak supervision) 
+		- https://github.com/afondiel/research-notes/tree/master/ai/ml-notes/semi-supervised
+    - Unsupervised learning
+		- https://github.com/afondiel/research-notes/tree/master/ai/ml-notes/unsupervised
+    - Reinforcement learning 
+		- https://github.com/afondiel/research-notes/tree/master/ai/ml-notes/reinforcement
 
 - backpropagation : allows NN figure out patterns that are convoluted(complex) for human to extract
 - Error/cost functions : 
@@ -105,16 +110,19 @@ biological neuron  vs artificial neuron
 
 
 ## Tools / frameworks
-- Keras : deeplearning tool running on the top of TF, CNTK and Theano ... 
 - TensoFlow (Google)
-- CNTK(Microsoft) 
-- Theano(Mila institute - Quebec)
+- Microsoft Cognitive Toolkit (CNTK) 
+- Theano (LISA Lab - Mila institute - University of Montreal)
+- torch (Facebook)
+- Keras : deeplearning tool running on the top of TF, CNTK and Theano ... 
+
 
 
 # References : 
 
 https://en.wikipedia.org/wiki/Deep_learning
 https://en.wikipedia.org/wiki/Supervised_learning
+https://en.wikipedia.org/wiki/Weak_supervision#Semi-supervised_learning
 https://en.wikipedia.org/wiki/Unsupervised_learning
 https://en.wikipedia.org/wiki/Reinforcement_learning
 
