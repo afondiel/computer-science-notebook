@@ -9,6 +9,10 @@ Machine learning paradigm  where noisy, limited, or imprecise sources are used t
 ## Tools/Framework
 - scikit-learn
 
+## Implementation
+link scikit learn : 
+https://scikit-learn.org/stable/modules/semi_supervised.html#id4
+
 
 # References
 
