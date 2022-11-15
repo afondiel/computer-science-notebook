@@ -115,7 +115,8 @@ biological neuron  vs artificial neuron
 - Theano (LISA Lab - Mila institute - University of Montreal)
 - torch (Facebook)
 - Keras : deeplearning tool running on the top of TF, CNTK and Theano ... 
-
+- MXNet
+- Caffe
 
 
 # References : 
