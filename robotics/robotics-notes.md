@@ -64,3 +64,8 @@ NVIDIA CNN course :
 https://developer.nvidia.com/discover/convolutional-neural-network
 
 
+
+>**"Three Laws of Robotics" by the Great Isaac Asimov**
+>1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+>2. A robot must obey orders given it by human beings except where such orders would conflict with the First Law.
+>3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
