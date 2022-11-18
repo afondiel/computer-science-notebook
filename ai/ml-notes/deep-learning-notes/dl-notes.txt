@@ -135,3 +135,5 @@ https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
  https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
 - our machine learns : https://www.youtube.com/watch?v=IHZwWFHWa-w
 
+NVIDIA Deep Learning Institute : 
+https://www.nvidia.com/en-us/training/
