@@ -269,10 +269,10 @@ additional reading :
 
 ### 23. Action Selection Policies
 - we have different action selection because of **Exploration** vs **Exploitation** problems
-- a good/great action can produce a bad reward (-1) then all the network as to be revaluate again to provide even a better action therefore a bette reward(+1)=> Policy!!!
+- a good/great action can produce a bad reward (-1) then all the network as to be revaluated again to provide even a better action therefore a bette reward(+1)=> Policy!!!
 - most common *action selection* : 
-    - e-greedy : selects the action with the best Q-value all time exception eplson(e)% of the time => ex : (Q-value 95% and e = 5% random action)
-    - e-soft(1-e) : opposite of e-greedy  
+    - epslon-greedy : selects the action with the best Q-value all time exception epslon(e)% of the time => ex : (Q-value 95% and e = 5% random action => if value > e -> good action, bad action otherwise )
+    - epslon-soft(1-e) : opposite of epslon-greedy  
     - Softmax : selects the highest action possible, the higher the Q-value the best the action 
 
 
@@ -288,9 +288,36 @@ Additional reading:
 ### 25. Project resources
 ok
 ### 26. Getting started
-check this link for the implementation : https://github.com/afondiel/my-lab/tree/master/automotive/self-driving-cars/project/self-driving-car-rl
+from #27 to #42 Implementation/demo : 
+link : https://github.com/afondiel/my-lab/tree/master/automotive/self-driving-cars/project/self-driving-car-rl
 
 ## Section 8: Deep Q-Learning Visualization
+### 43. Self-Driving Car - Level 1
+- Going from A to B destination 
+  - example : DOWNTOWN(A) to the AEROPORT(B)
+  - then we save the model
+    - In the beginning the Agent is exploring the env and learning through punishements(negative reward) then when it finally learn, it gets positive rewards   
+### 44. Self-Driving Car - Level 2
+- A drawn road : 
+  - Straight road with lane in both sides and the car shall be able to stay on the track between the lanes
+### 45. Self-Driving Car - Level 3
+
+- A drawn road + Obstacles : 
+  - same goal as the level 2 but with some obstacles in the road and the car has to be able to avoid them
+
+### 46. Self-Driving Car - Level 4
+- Challenge road : zigzag shape, ... and yet the car has to be able to reach its goal
+### 47. Challenges Solutions
+**Problem setup :** 
+- when the car goes way from the goal, the error/punishment increase and it get stuck. The idea is to pusnish less when the car get further from the goal
+  
+*Improvements tips  :* 
+  - change NN
+  - change game strategy
+  - Q-learning algo  ? find a better one
+  - change reward computing  strategy ... 
+  - try different graphs (high-ways, traffic-circle, intersection...parking lot )
+  
 ## Section 9:  Part 2 - Deep Convolutional Q-Learning
 ## Section 10: Deep Convolutional Q-Learning Intuition
 ## Section 11: Deep Convolutional Q-Learning Implementation
