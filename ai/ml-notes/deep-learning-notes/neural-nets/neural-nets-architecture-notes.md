@@ -8,7 +8,6 @@ Agenda
 - [RECURRENT NEURAL NETWORK(RNN)](#recurrent-neural-networkrnn)
 - [LONG SHORT-TERM MEMORY (LSTM)](#long-short-term-memory-lstm)
 - [CONVOLUTIONAL NEURAL NETWORK (CNN)](#convolutional-neural-network-cnn)
-- [Application](#application)
 - [DEEP CONVOLUTIONAL NETWORK (DCN)](#deep-convolutional-network-dcn)
 - [HOPFIELD NETWORK](#hopfield-network)
 - [BOLTZMANN MACHINE](#boltzmann-machine)
