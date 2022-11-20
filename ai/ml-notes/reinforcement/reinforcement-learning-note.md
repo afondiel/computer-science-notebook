@@ -1,8 +1,30 @@
 # Reinforcement learning (RL) - notes :robot:
 
+## Agenda
+
+- [Intro](#intro)
+- [RL characteristics](#rl-characteristics)
+- [Applications - RL](#applications---rl)
+- [Tools / frameworks](#tools--frameworks)
+- [A simple RL is modeled by Markov Decision Process (MDP)](#a-simple-rl-is-modeled-by-markov-decision-process-mdp)
+- [The limit of Q-learning](#the-limit-of-q-learning)
+    - [DQN Techniques :](#dqn-techniques-)
+    - [DQN approaches/Process](#dqn-approachesprocess)
+- [Models/Algorithms](#modelsalgorithms)
+- [Implementation](#implementation)
+- [References](#references)
+
+  
 ## Intro 
 
 A machine learning approach/paradigm which enables a model to learning patterns from data with/without labels based on reward (if the model correctly learns a pattern) or a penalty otherwise.
+
+## RL characteristics
+- No supervision, only *reward* signal
+- Feedback can be delayed, non instantaneous
+- Time matters
+- Earlier decisions affect later interactions
+
 ## Applications - RL 
 
 - Robotics 
@@ -17,26 +39,27 @@ A machine learning approach/paradigm which enables a model to learning patterns 
 - Pytorch
 - Markov Chain/Markov Decision Process (MDP)
 
-
 ### A simple RL is modeled by Markov Decision Process (MDP)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Reinforcement_learning_diagram.svg/800px-Reinforcement_learning_diagram.svg.png" width="300" style="border:2px solid #FFFFFF; padding:5px; margin:2px">
+<img src="https://perfectial.com/wp-content/uploads/2018/07/img2-7.jpg" width="600" style="border:0px solid #FFFFFF; padding:5px; margin:2px">
+
+Src : [perfectial.com/rl-applications](https://perfectial.com/blog/reinforcement-learning-applications/)
 
 RL provides a statistical framework based on two components : 
 
-- Agent(a) : takes actions that changes an existing state(S) of the environment
-- Environment (b) : transites to a new/future state based on changes taken by the agent and provides feedback to the agent
-- feedback : can either be positive(+) or negative(-), after set of feedbacks or iterations the agent tries to learn and optimize the future actions in order to get a maxime of (+) feedbacks => reward (function)
-- Quality/Q-function : a given action that produces a future reward based on current state
+- **Agent(a)** : takes actions that changes an existing state(S) of the environment
+- **Environment (b)** : transites to a new/future state based on changes taken by the agent and provides feedback to the agent
+    - feedback : can either be positive(+) or negative(-), after set of feedbacks or iterations the agent tries to learn and optimize the future actions in order to get a maxime of (+) feedbacks => reward (function)
+    - Quality/Q-function : a given action that produces a future reward based on current state
 
- Q-function : uses Bellman equation Q(s,a)
+ **Q-function** : uses Bellman equation Q(s,a)
  
  ![Q-function](https://cdn-media-1.freecodecamp.org/images/s39aVodqNAKMTcwuMFlyPSy76kzAmU5idMzk)
 
 Q-funtion/Q-Learning strategy : 
 1. Value-based RL : Optimizes the maximum value function for a given action-state pair
 2. Policy search-based RL : search for an optimal policy that's able to achiieve a maximum future reward
-3. Actor-critic-based RL : hybrid strategy which combines value-based + policy-based to solve RL learning problems
+3. Actor-critic-based RL: hybrid strategy which combines value-based + policy-based to solve RL learning problems
 
 ### The limit of Q-learning 
 - Curse of dimensionality : when dealing with a large number of samples
@@ -73,7 +96,7 @@ Where CNN has:
 
 Convolution Neural Network(CNN) - DQN solves curse dimensionality but not the unstable learning issues due to high correlation in the input sequence data.
 
-    Ex: In cases of Atari Games supporting iterative actions comming Joysticks
+    Ex: In case of Atari Games supporting iteractive actions coming from Joysticks
 
 #### DQN Techniques : 
 - Experience replay :  stores past experience in memory and use these samples during the learning stage or every time step *t* (iteration) to reduce correlation of sequence of data and avoiding overffiting  
@@ -85,10 +108,23 @@ Convolution Neural Network(CNN) - DQN solves curse dimensionality but not the un
 - Double-DQN : to avoid the previous approach we divide the Q(s,a, teta*t*) into 2 functions : Q1 and Q2.
 - Dueling-DQN : splits Q(s,a ) = V(s) + A(a) => for robustness modeling
 
-## Implementation 
-- check notebook example in this same folder
-## References 
+## Models/Algorithms
 
+ ![Q-function](https://spinningup.openai.com/en/latest/_images/rl_algorithms_9_15.svg)
+
+[Source : OpenAI - A non-exhaustive, but useful taxonomy of algorithms in modern RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)
+
+
+## Implementation
+
+List of a NON-exaustive RL algorithms : 
+- [Notes](https://github.com/afondiel/research-notes/commit/ae02f5c76a268f708615755ca7fa9a2555f80868)
+- [Implementations](#)
+  - [RL application for self-driving cars](https://github.com/afondiel/my-lab/tree/master/automotive/self-driving-cars/project/self-driving-car-rl-a-z)
+## References 
+- [DeepMind - course by Hado Van Hasselt - 2018](https://www.youtube.com/watch?v=ISk80iLhdfU&list=RDCMUCP7jMXSY2xbc3KCAE0MHQ-A)
+- [Deep Learning Essentials - Wei Di, Anurag Bhardwaj, Jianing Wei](https://github.com/afondiel/research-notes/blob/d81a21daac22c624722bba1557d56cc328f79814/books/ai/Deep%20Learning%20Essentials%20-%20Wei%20Di,%20Anurag%20Bhardwaj,%20Jianing%20Wei.pdf)
+- [Welcome to Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/index.html)
 - [Reinforcement learning wiki](https://en.wikipedia.org/wiki/Reinforcement_learning)
 - [Markov Chain](https://en.wikipedia.org/wiki/Markov_chain)
 - [MDP](https://en.wikipedia.org/wiki/Markov_decision_process)
