@@ -1,38 +1,57 @@
-== Machine Learning (ML) notes ===  
+# Machine Learning (ML) notes
 
-- ML is a field of AI algorithms that learn from EXAMPLES and EXPERIENCES instead of traditional HARDCODE and RULES
+ <img src="https://miro.medium.com/max/720/1*iWJWMeOQmI5kmPMGZ3tovA.jpeg
+" width="600" style="border:0px solid #FFFFFF; padding:5px; margin:2px">
+
+Src : [towardsdatascience - Hunter Heidenreich](https://towardsdatascience.com/the-future-with-reinforcement-learning-877a17187d54)
+
+## Agenda
+- [Agenda](#agenda)
+- [Intro](#intro)
+- [ML vs Traditional coding ](#ml-vs-traditional-coding)
+- [Training the Model (CLassifier)](#training-the-model-classifier)
+- [ML algorithms](#ml-algorithms)
+- [ML Frameworks/tools ](#ml-frameworkstools)
+- [ML Problem solving in 7 steps](#ml-problem-solving-in-7-steps)
+- [References](#references)
+
+## Intro
+
+ML is a field of AI algorithms that learn from EXAMPLES and EXPERIENCES instead of traditional HARDCODE and RULES
 
 Ex : Apple and oranges detection
 
-# ML vs Tradictional coding : 
+## ML vs Traditional coding  
 
 - Tradictional coding  : too much rules 
 - ML : Model / Classifier and train it to generate the RULES instead of writing them
 
 - classifier (as function) : takes a data as input (FEATURES) and signs LABEL to it as output(LABELS) 
+  - Fruit(apple or orange?) => Classifier => apple (if apple chose)
+  - email (spam/mail_ok) => Classifier => spam (if mail_nok)
 
-i.e : input  : Fruit(apple or orange?) => Classifier => apple (if apple chose)
-	  ====> : email (spam/mail_ok) => Classifier => spam (if mail_nok)
-
-# Training the Model (CLassifier) 
+## Training the Model (CLassifier) 
 
 To Train the Classifier we use  : 
 
 - Supervised Learning(SL) : it learns from examples/experiences
 - Unsuspervised Learning(USL) :  it learns from events ?
-- Reinforcement Learning (RL): : Conceptually similar to human learning processes
-=> ex : a robot learning to walk, Go, Chess and other strategy games
+- Reinforcement Learning (RL): Conceptually similar to human learning processes 
+  - ex: a robot learning to walk
+  - Strategy games : Go, Chess etc
 	 
+The more the training data exists => the better the classifier Will be 
 
-- The more the training data exists => the better the classifier Will be 
+ML train 
 
-|--------|			|-----------| 		|-----------|
-|Collect |          |Train 	 	|       |Make 		|
-|Training|    =>    |Classifier |	=>  |Predictions|
-|	Data |          |			|       |			|
-|--------|          |-----------|       |-----------|
+	|--------|			|-----------| 		|-----------|
+	|Collect |          |Train 	 	|       |Make 		|
+	|Training|    =>    |Classifier |	=>  |Predictions|
+	|	Data |          |			|       |			|
+	|--------|          |-----------|       |-----------|
 
-# ML algorithms
+
+## ML algorithms
 - Supervised : 
 	- Regression : Predicting a continuous-valued attribute associated with an object
 		=> Multiple Linear Regression(MLR)
@@ -59,7 +78,7 @@ To Train the Classifier we use  :
 	- Deep Q-Network (DQN)
 	- A3C
 
-# ML Frameworks/tools : 
+## ML Frameworks/tools 
 - TensorFlow
 - PyTorch
 - Scikit-learn
@@ -68,7 +87,7 @@ To Train the Classifier we use  :
 - Huggingface
 - Keras
 
-===========  ML Problem solving in 7 steps ======== 
+## ML Problem solving in 7 steps
 
 1. GATHERING / COLLECTING DATA : The more data we collect the more accurate will the model.
 - we collect datas to train the model of the system we want to deploy
@@ -78,16 +97,16 @@ To Train the Classifier we use  :
 	- Features ? : the input of the system
 	- Labels ? : the output of the system 
 	
-	----------------------------------
-	| 		Features 	    | Labels|	
-	----------------------------------
-	|	x1	|	x2	|	xn	|	y1	|
-	----------------------------------
-	|	..	|	..	|	..	|	..	|
-	----------------------------------
-	| xn,m |		|		|	yn,m|
-	----------------------------------
-	
+			----------------------------------
+			| 		Features 	    | Labels|	
+			----------------------------------
+			|	x1	|	x2	|	xn	|	y1	|
+			----------------------------------
+			|	..	|	..	|	..	|	..	|
+			----------------------------------
+			| xn,m |		|		|	yn,m|
+			----------------------------------
+			
 	- visualization of datas
 	- balances, relationship between datas
 	- split : training/evaluation(performance of the model)
@@ -104,27 +123,27 @@ To Train the Classifier we use  :
 	- X : input
 	- b : Y-intercept
 	
-			 [m1,1 m1,2] 
-	Weight = [m2,1 m2,2] 
-			 [m3,1 m3,2]
-			 
-			 [b1,1 b1,2] 
-	biases = [b2,1 b2,2] 
-			 [b3,1 b3,2] 
+					[m1,1 m1,2] 
+			Weight = [m2,1 m2,2] 
+					[m3,1 m3,2]
+					
+					[b1,1 b1,2] 
+			biases = [b2,1 b2,2] 
+					[b3,1 b3,2] 
 			 
 	Training process
 	
-|--------|			|-----------| 		|-----------|
-|        |          |   Model 	|       | 		    |
-|Training|    =>    |   (W,b)   |	=>  |Prediction |
-|	Data |          |			|       |			|
-|--------|          |-----------|       |-----------|
+		|--------|			|-----------| 		|-----------|
+		|        |          |   Model 	|       | 		    |
+		|Training|    =>    |   (W,b)   |	=>  |Prediction |
+		|	Data |          |			|       |			|
+		|--------|          |-----------|       |-----------|
 
-					|-----------|			||
-	/\				| 		    |			\/
-	||		<=		|Test/update|	<=
-					| (W,b)	    |	
-					|-----------|	
+							|-----------|			||
+			/\				| 		    |			\/
+			||		<=		|Test/update|	<=
+							| (W,b)	    |	
+							|-----------|	
 
 
 Each iteration it's called, a training steps.
@@ -137,17 +156,17 @@ Each iteration it's called, a training steps.
 5. EVALUATION : after the model is good time to evaluate
 
 
-|----------|		 |-----------| 		 |------------|
-|          |         |   Model 	 |       | 		      |
-|EVALUATION|  =>     |   (W,b)   |	=>   | Prediction |
-|	Data   |         |			 |       |			  |
-|----------|         |-----------|       |------------|
+		|----------|		 |-----------| 		 |------------|
+		|          |         |   Model 	 |       | 		      |
+		|EVALUATION|  =>     |   (W,b)   |	=>   | Prediction |
+		|	Data   |         |			 |       |			  |
+		|----------|         |-----------|       |------------|
 
-					|-----------|			||
-	/\				| 		    |			\/
-	||		<=		|Test       |	<=
-					| (W,b)	    |	
-					|-----------|	
+							|-----------|			||
+			/\				| 		    |			\/
+			||		<=		|Test       |	<=
+							| (W,b)	    |	
+							|-----------|	
 
 
 This metric allows the model to see the data that has not yet seen.
@@ -170,7 +189,7 @@ Input : features
 Output : Labels 
 
 
-# References
+## References
 
 Scikit learn :
 https://scikit-learn.org/stable/#
