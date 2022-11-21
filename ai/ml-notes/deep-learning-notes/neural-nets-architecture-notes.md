@@ -111,6 +111,7 @@ Where :
 
 
 Links : 
+- [great article by Jiwon Jeong](https://towardsdatascience.com/the-most-intuitive-and-easiest-guide-for-convolutional-neural-network-3607be47480)
 - [Implementation CNN - @afondiel](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/convolutional-neural-network.ipynb) 
 - [pytorch-artificial-intelligence-book](https://github.com/afondiel/research-notes/blob/master/books/ai/pytorch-artificial-intelligence-fundamentals-2020-Jibin-Mathew.pdf)
 - [Building Model with Pytorch](https://pytorch.org/tutorials/beginner/introyt/modelsyt_tutorial.html)
