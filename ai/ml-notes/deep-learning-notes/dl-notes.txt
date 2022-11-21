@@ -109,8 +109,14 @@ biological neuron  vs artificial neuron
     - Heaveside
 
 # Modeling process
-epoch : 
-batch size :
+- hyperparameters
+- learning rate (lr)
+- epoch : 
+- batch size :
+- loss functions
+    - loss:
+- optimizer
+    - accuracy ? 
 
 dataset : 
 - training data : dataset
@@ -123,7 +129,7 @@ error vs capacity
   - the deeper the NN the higher the capacity to learn
 - error : ? 
   - train error : ? 
-  - train error : ? 
+  - test error : ? 
 - generalization gap : he gap btw train error and test error 
   
 Evaluation : 
