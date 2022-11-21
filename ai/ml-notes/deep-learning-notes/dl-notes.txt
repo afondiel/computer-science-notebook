@@ -108,6 +108,33 @@ biological neuron  vs artificial neuron
     - Sigmoid 
     - Heaveside
 
+# Modeling process
+epoch : 
+batch size :
+
+dataset : 
+- training data : dataset
+- training set :  new dataset (generalization)
+- validation set: evaluate the performance of the model based on diffrent hyperparameters
+- test set : final evaluation
+
+error vs capacity 
+- capacity : ? 
+  - the deeper the NN the higher the capacity to learn
+- error : ? 
+  - train error : ? 
+  - train error : ? 
+- generalization gap : he gap btw train error and test error 
+  
+Evaluation : 
+- condition of good model : test error > train error ? 
+  - underfitting : small model high capacity (larger dataset) 
+  - overfitting : big model low capacity (smalller dataset)
+    - by tuning the hyperparameters we can configure the the complexity of the model
+      - learning rate
+      - number of layers 
+      - numbers of hidden layers
+      - the depth of NN
 
 ## Tools / frameworks
 - TensoFlow (Google)
