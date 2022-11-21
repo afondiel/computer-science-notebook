@@ -45,22 +45,30 @@ Link :
 - input layer size : 28x28 = 784 pixels
 - hidden layer size : ??
 - ouput layer size : 10 classes
+**Learning Process**
+- by tuning the hyperparameters we can configure the the complexity of the model
+- the deeper the NN the higher the capacity to learn
   
 Link : 
 - [MNIST](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/MNIST%20Image%20Recognition.ipynb)
 ## CONVOLUTIONAL NEURAL NETWORK (CNN)
 Overview : 
 - extract features from image
+- fast computation comparing to a regular NN
+  - No limitation and high accuracy
 - Ideal for image classification
-- for complex images/informations ? 
+- for complex images
+
   
 Application :
 - Face recognition
 - object detection
+- NLP
 - sign traffic/self-driving cars
 - correlation problems : cross correlation/auto correlation issues
+- used as linear filter ? 
 
-Architecture
+### Architecture
 
 - CNN process:
 
@@ -75,22 +83,32 @@ Where :
 1. Input : img (2D-Grayscale or 3D-RGB)
    - 2D-Grayscale : 1 x kernel => 28x28=784 px 
    - 3D-RGB: 3 x kernel => 72x72=(5184 * 3) = 15552px
-2. Extraction : conv + pool
+2. Extraction operation: conv + pool
    
-- *Convolution* : extract and learn some specific feature
-  - convolution filter (kernel matrix 3x3) : slides  the matrix along the img pixel(stride)
-  - convolution operation : `img pixel * kernel matrix` = feature of map/interest? (ready to be pooled) 
-    - The more feature the bigger the accuracy 
+   - *Convolution* : extract and learn some specific feature
+     - convolution operation/filter :  `img pixel matrix * kernel matrix` => (feature map)
+       - stride: the action of sliding the matrix kernel along the img pixel
+         - high stride => low feature
+         - The more feature => the higher the accuracy 
+       - padding : 
 
-- *Pooling* : help to avoid overfitting in convoluted feature map (by reducing the number of params)
-  - functions used for pooling : *sum*, *average*, *Max* (get the max value of 2x2 matrix neighbor)
-- the deeper the resulting map the more features we extract and improving network
+   - *Pooling* : help to avoid overfitting in convoluted feature map (by reducing the number of params)
+     - functions used for pooling : *sum*, *average*, *Max* (get the max value of 2x2 matrix neighbor)
+   - translation environment : detect same feature elsewhere in the image
+   - the deeper the resulting map the more features we extract and improving network
 3. Fully Connected (fc) : Multilayer perceptron
-1. Activation : Softmax (linear), ReLU (Non linear) ...
-2. Output : class
+4. Activation : Softmax (linear), ReLU (Non linear) ...
+5. Output : class
 
-Link : 
-- [Implementation CNN](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/convolutional-neural-network.ipynb) 
+### Learning Process
+- @TODO
+
+
+
+Links : 
+- [Implementation CNN - @afondiel](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/convolutional-neural-network.ipynb) 
+- [pytorch-artificial-intelligence-book](https://github.com/afondiel/research-notes/blob/master/books/ai/pytorch-artificial-intelligence-fundamentals-2020-Jibin-Mathew.pdf)
+- [Building Model with Pytorch](https://pytorch.org/tutorials/beginner/introyt/modelsyt_tutorial.html)
 ## DEEP CONVOLUTIONAL NETWORK (DCN)
 Link : 
 - [DCN](#)
