@@ -77,7 +77,7 @@ Application :
 
 - CNN train :
 
-        Input => CNN => pooling => ... => FC => FC => activation => Output
+        Input => CNN => pooling => ... => Flattening FC => FC => activation => Output
 
 Where : 
 1. Input : img (2D-Grayscale or 3D-RGB)
@@ -86,18 +86,23 @@ Where :
 2. Extraction operation: conv + pool
    
    - *Convolution* : extract and learn some specific feature
-     - convolution operation/filter :  `img pixel matrix * kernel matrix` => (feature map)
+     - convolution operation :  `img pixel matrix * filter(kernel matrix)` => (feature map)
        - stride: the action of sliding the matrix kernel along the img pixel
-         - high stride => low feature
-         - The more feature => the higher the accuracy 
-       - padding : 
-
-   - *Pooling* : help to avoid overfitting in convoluted feature map (by reducing the number of params)
-     - functions used for pooling : *sum*, *average*, *Max* (get the max value of 2x2 matrix neighbor)
-   - translation environment : detect same feature elsewhere in the image
-   - the deeper the resulting map the more features we extract and improving network
-3. Fully Connected (fc) : Multilayer perceptron
-4. Activation : Softmax (linear), ReLU (Non linear) ...
+         - high stride => low feature (decrese pixels)
+       - padding : the action of adding pixels around the input image (based on kernel size?)
+         - the more feature => the higher the accuracy 
+     feature od interest : special feature repeated
+     - the deeper the resulting map the more features we extract and improving network
+   - *Pooling* : is the process of merging the feature map
+     - help to avoid overfitting in convoluted feature map (by reducing the number of params)
+     - the result of pooling a matrix size of (N x N ) ?  
+     - functions used for pooling : 
+       - *sum* : get the avg value of 2x2 matrix neighbor
+       - *average* : get the avg value of 2x2 matrix neighbor
+       - *Max* :  get the max value of 2x2 matrix neighbor
+3. Flattening : converting the data(from pooling) into a 1-dimensional array for inputting it to the next layer(fully connected layer)
+4. Fully Connected (fc) : Multilayer perceptron
+   - Activation : Softmax (linear), ReLU (Non linear) ...
 5. Output : class
 
 ### Learning Process
