@@ -58,7 +58,7 @@ RL provides a statistical framework based on two components :
 
 Q-funtion/Q-Learning strategy : 
 1. Value-based RL : Optimizes the maximum value function for a given action-state pair
-2. Policy search-based RL : search for an optimal policy that's able to achiieve a maximum future reward
+2. Policy search-based RL : search for an optimal policy that's able to ach ieve a maximum future reward
 3. Actor-critic-based RL: hybrid strategy which combines value-based + policy-based to solve RL learning problems
 
 ### The limit of Q-learning 
@@ -77,7 +77,6 @@ Model Deep Q-Network (DQN) :
 |     \   |    I      |    /     |
 |         |   CNN     |          |
 |         |   State   |          |
-|         |           |          |
 
 *Deep Q-Network (DQN) high level architecture*
 
@@ -88,7 +87,6 @@ Model Deep Q-Network (DQN) :
 | Conv-3 |9x9x64 | 3x3 | 64  | 1 | Rectified Linear | 7 x 7 x 64|
 | fc4 |7x7x64 | N/A | 512  | N/A | Rectified Linear | 512|
 | fc5 |512 | N/A | 18  | N/A | Linear | 18|
-|     |    |     |     |     |       |    | |
 
 Where CNN has: 
 - 3 cnn layers
