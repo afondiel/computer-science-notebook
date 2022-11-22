@@ -1,4 +1,4 @@
-# A NON-exaustive list of RL algorithms
+# A NON-exhaustive list of RL algorithms
 
 ![rl algorithms_](https://spinningup.openai.com/en/latest/_images/rl_algorithms_9_15.svg)
 
