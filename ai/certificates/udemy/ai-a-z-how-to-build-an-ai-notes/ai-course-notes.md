@@ -319,13 +319,86 @@ link : https://github.com/afondiel/my-lab/tree/master/automotive/self-driving-ca
   - try different graphs (high-ways, traffic-circle, intersection...parking lot )
   
 ## Section 9:  Part 2 - Deep Convolutional Q-Learning
+### 48. Welcome to Part 2 - Deep Convolutional Q-Learning
+- Ok 
 ## Section 10: Deep Convolutional Q-Learning Intuition
+### 49. Plan of Attack
+- Deep Convolution Q-Learning Intuition
+- Eligibility Trace (N-Step Q-Learning)
+- Annex 2 : CNN 
+### 50. Deep Convolutional Q-Learning Intuition
+- applied when the environment is an image (vectors/signals)
+- The image is sent to the CNN (convolution + pooling)
+  - we extract the image features (pixels by pixels) 
+  - after flattened we send the results to the Deep Neural Net like before
+  - More input signals/states
+- Then the Q-Learning algo come to play
+  
+Ex : Game of Doom
+
+- resources: CNN + Deep Q-Learning
+
+### 51. Eligibility trace
+
+A technic that enables to compute a sets of rewards in advanced and judge them if the cumulative result is good enough
+- we keep a **trace** of each reward (negative/positive) in case of a future update 
+- the algorithm tracks what action needs to be update
+  
+Additional resources : 
+- Book : "Reinforcement Learning : An Introduction by Richard S. Sutton and Andrew G. Barto (1998)" 
+- Chapter 7 : Eligibility trace
+  - Temporal differences
+  - Monte Carlo Methods
+Link : https://mitpress.mit.edu/books/reinforcement-learning
+
+- Book 2: Volodymyr Mnih et al., 2016, Asynchronous Methods for Deep Reinforcement Learning
+Link: https://arxiv.org/pdf/1602.01783.pdf
+
 ## Section 11: Deep Convolutional Q-Learning Implementation
+### 52. Plan of Attack 
+```Welcome to the Practical Activity of Part 2!
+
+In this part we are going to build and train an AI to play the game of Doom!
+
+1. First, we will build an AI, which will be the Deep Convolutional Q-Learning model combined to Eligibility Trace.
+
+2. Then, we will train it to play the game of Doom.
+
+3. And finally, we will watch a video of our AI playing Doom after it was trained.
+
+The three essential pieces of info you need to know about the environment are the following:
+
+1. The input states are the frames of the game.
+
+2. The possible output actions are: ATTACK, MOVE_RIGHT, MOVE_LEFT, MOVE_FORWARD, MOVE_BACKWARD, TURN_RIGHT and TURN_LEFT. Thus 7 actions in total.
+
+3. The rewards are:
+- Plus distance for getting closer to the vest (which is at the end of the corridor).
+- Minus distance for getting further from the vest.
+- Minus 100 points for getting killed.
+```
+### 54. to 69 : Deep Q-Learning Implementation for game of Doom
+
 ## Section 12: Deep Convolutional Q-Learning Visualization
+### 69 - 73
+- see the notebook implementation : 
+  - Link : https://colab.research.google.com/drive/1Z8JmCbl-ZMzumYcgyLjWUVNvjtS1ugjz#scrollTo=SXtPVCUGwSfY
 ## Section 13: - Part 3 - A3C
+### 74. Welcome to Part3 - A3C
+```Welcome to Part 3!
+
+- built an AI that has a brain (Deep Q-Learning) 
+- and that can see (Deep Convolutional Q-Learning)
+- we will add to it a memory and a critic sense (LSTM-A3C) : 
+    - This model is closer to the human brain. 
+    - one of the most powerful models in the AI ecosystem. 
+```
+
 ## Section 14: A3C Intuition
 ## Section 15: A3C Implementation
 ## Section 16: ASC Visualization
+
+
 ## Section 17: Annex 1: Artificial Neural Networks
 ## Section 18: Annex 2: Convolutional Neural Networks
 ## Section 19: Bonus Lectures
