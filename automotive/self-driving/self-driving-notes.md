@@ -1,19 +1,34 @@
-====== Self-driving-notes ======
+# Self-driving - notes
+
+## Table of Contents
+
+- [Intro](#intro)
+- [How a self-driving car works ?](#how-a-self-driving-car-works-)
+- [Applications](#applications)
+- [Architecture](#architecture)
+- [Companies building self-driving car](#companies-building-self-driving-car)
+- [Tools / Frame works](#tools--frame-works)
+- [Reference](#reference)
+
+
+## Intro
+
+![Autonomy solutions](http://ww1.prweb.com/prfiles/2016/06/08/13472308/Source_Vision_Systems_Intelligence_Infographic.JPG) 
 
 A "self-driving car", also known as an "autonomous car", driver-less car, or "robotic car" (robo-car),is a car incorporating vehicular automation, 
 that is, a ground vehicle that is capable of sensing its environment and moving safely with little or no human input.
 
-## How a self-driving car works ? (by David Silver from Udacity)
+## How a self-driving car works ?
 
-+----------+    +--------------+    +------------+      +----------+
-|  Computer|    | Localization |    | Path  	 |      | Control  |
-|  vision  |    |		       |    | Planning	 |      |		   |
-+----------+    +--------------+    +------------+      +----------+
+    +----------+    +--------------+    +------------+      +----------+
+    |  Computer|    | Localization |    | Path  	 |      | Control  |
+    |  vision  |    |		       |    | Planning	 |      |		   |
+    +----------+    +--------------+    +------------+      +----------+
 
-+----------+
-| Sensor   |
-| Fusion   |
-+----------+
+    +----------+
+    | Sensor   |
+    | Fusion   |
+    +----------+
 
 - Computer vision : how the car sees the world and its environement
 - Sensor Fusion : how the car understands the world and its environement
@@ -22,7 +37,7 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 - Control (drive) : how the car turns the steering wheel/accelates/brakes based on the planning phase
 
 
-Applications : 
+## Applications
 - increase road Safety 
 - Vehicle automation in different fields
 - Landmark assistance in local positioning systems
@@ -33,44 +48,44 @@ Applications :
 ...
 
 
-## Architecture : 
+## Architecture 
 - Hardware
-    => Sensors : 
-        => thermo-Cameras
-        => Radar(radio detection and ranging) : Macro objects
-            => Long range
-            => Short range 
-        => Lidar(light detection and ranging) : Micro objects (more precision)
-        => Sonar(Sound) 
-        => GPS (Global Positioning System :lat, log)
-        => Odometry
+    - Sensors : 
+        - thermo-Cameras
+        - Radar(radio detection and ranging) : Macro objects
+            - Long range
+            - Short range 
+        - Lidar(light detection and ranging) : Micro objects (more precision)
+        - Sonar(Sound) 
+        - GPS (Global Positioning System :lat, log)
+        - Odometry
 
 - Software
-    => Computer vision
-    => Deep learning (CNN ...)
-    => NVIDIA :https://www.nvidia.com/en-us/self-driving-cars/drive-platform/software/
+  - Computer vision
+  - Deep learning (CNN ...)
+  - NVIDIA :https://www.nvidia.com/en-us/self-driving-cars/drive-platform/software/
 
 - Suppilers 
-=> NVIDIA : ECU/GPUs
-=> DENSO 
-=> CONTINENTAL
-=> DELPHI
+  - NVIDIA : ECU/GPUs
+  - DENSO 
+  - CONTINENTAL
+  - DELPHI
 
 - OEMS : 
-=> Tesla 
-=> Mercedes-Benz
-=> Toyota
-=> Ford 
-=> Ford 
+  - Tesla 
+  - Mercedes-Benz
+  - Toyota
+  - Ford 
+  - Ford 
 
 
 - Tech
-=> waymo 
-=> Apple 
-=> Samsung 
+  - waymo 
+  - Apple 
+  - Samsung 
 
 
-# Companies building self-driving car : 
+## Companies building self-driving car
 
 - Velodyne
 - Aurora
@@ -86,14 +101,14 @@ Applications :
 - nvidia
 
 
-## Tools / Frame works : 
+## Tools / Frame works 
 - The open NVIDIA DRIVE Software stack
 - Automotive Data and Time-Triggered Framework(ADTF) audi 
 - Tesla FSD Chip (full self-driving)
 - CARLA Simulator
 
 
-# Reference :
+# Reference
 
 https://en.wikipedia.org/wiki/Self-driving_car
 
@@ -140,8 +155,10 @@ ML/DL libraries :
 Opencv 
 CNN
 
-research papers : 
-    https://paperswithcode.com/task/autonomous-driving
+research papers
 
-Highway Environment Model for Reinforcement Learning  : 
-    https://www.sciencedirect.com/science/article/pii/S2405896318333032
+[Autonomous Driving from paperwithcode](https://paperswithcode.com/task/autonomous-driving)
+
+- [Highway Environment Model for Reinforcement Learning](https://www.sciencedirect.com/science/article/pii/S2405896318333032)
+
+- [Comparing driving behavior of humans and autonomous driving in a professional racing simulator](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7857611/pdf/pone.0245320.pdf)
