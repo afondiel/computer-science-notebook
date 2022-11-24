@@ -17,8 +17,14 @@
 - State–action–reward–state–action
 ### Q-learning - Lambda	
 - State–action–reward–state with eligibility traces
-### SARSA - Lambda	
-- State–action–reward–state–action with eligibility traces
+### SARSA - Lambda
+
+SARSA - State–action–reward–state–action with eligibility traces
+
+![sarsa-algo](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/reinforcement/rl-algorithms-implementation/sarsa/asynchronous-n-steps-q-learning-for-actor-learn%20thread-SORSA.png)
+	
+[Implementation on Colab notebook](https://colab.research.google.com/drive/1Z8JmCbl-ZMzumYcgyLjWUVNvjtS1ugjz#scrollTo=qVGjrv8O43uK) 
+
 ### DQN	Deep 
 - Q Network
 ### DDPG	
