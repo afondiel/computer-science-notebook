@@ -23,7 +23,8 @@ SARSA - State–action–reward–state–action with eligibility traces
 
 ![sarsa-algo](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/reinforcement/rl-algorithms-implementation/sarsa/asynchronous-n-steps-q-learning-for-actor-learn%20thread-SORSA.png)
 	
-[Implementation on Colab notebook](https://colab.research.google.com/drive/1Z8JmCbl-ZMzumYcgyLjWUVNvjtS1ugjz#scrollTo=qVGjrv8O43uK) 
+[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/](https://colab.research.google.com/drive/1Z8JmCbl-ZMzumYcgyLjWUVNvjtS1ugjz#scrollTo=qVGjrv8O43uK) 
+
 
 ### DQN	Deep 
 - Q Network
@@ -47,8 +48,7 @@ SARSA - State–action–reward–state–action with eligibility traces
 
 ![RL comparison](https://www.researchgate.net/profile/James-Graham-28/publication/285598007/figure/fig8/AS:391462261936131@1470343284078/Comparison-of-Reinforcement-Learning-algorithms-average-reward-performance-to-Motivated.png)
 
-Src : [RG - James T. Graham](https://www.researchgate.net/figure/Comparison-of-Reinforcement-Learning-algorithms-average-reward-performance-to-Motivated_fig8_285598007)
-
+Src : [RG - James T. Graham](https://www.researchgate.net/profile/James-Graham-28)
 # Resources 
 
 - [OpenAI](#)
