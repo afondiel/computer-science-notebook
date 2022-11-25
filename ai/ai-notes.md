@@ -1,7 +1,6 @@
 # AI notes 
 
 ## Table Of contents
-- [Table Of contents](#table-of-contents)
 - [Intro](#intro)
 - [Applications](#applications)
 - [Tools/frameworks](#toolsframeworks)
@@ -10,7 +9,7 @@
 
 ## Intro
 
-Intelligence demonstrated by machines, as opposed to the natural intelligence (src : wikipedia)
+Intelligence demonstrated by machines, as opposed to the natural intelligence
 
 ## Applications
 
@@ -56,9 +55,13 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence (s
   - https://en.wikipedia.org/wiki/Egyptian_mythology
   - https://en.wikipedia.org/wiki/Roman_mythology
 
-Courses :
+- Courses :
 
-- [UC Berkeley CS188 Intro to AI -- Course Materials](http://ai.berkeley.edu/lecture_slides.html) 
-- [Overview Artificial Intelligence Course | Stanford CS221: Learn AI (Autumn 2019)](https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
+  - [UC Berkeley - CS188 Intro to AI -- Course Materials](http://ai.berkeley.edu/lecture_slides.html) 
+  - [Stanford CS221 - Overview Artificial Intelligence Course | Stanford CS221: Learn AI (Autumn 2019)](https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
 
+- School work : 
+  - [Strong AI - 2016](https://github.com/afondiel/research-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
+  
 - [Papers](#)
+  
