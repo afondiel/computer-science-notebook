@@ -356,7 +356,7 @@ Link: https://arxiv.org/pdf/1602.01783.pdf
 
 ## Section 11: Deep Convolutional Q-Learning Implementation
 ### 52. Plan of Attack 
-```Welcome to the Practical Activity of Part 2!
+Welcome to the Practical Activity of Part 2!
 
 In this part we are going to build and train an AI to play the game of Doom!
 
@@ -376,7 +376,6 @@ The three essential pieces of info you need to know about the environment are th
 - Plus distance for getting closer to the vest (which is at the end of the corridor).
 - Minus distance for getting further from the vest.
 - Minus 100 points for getting killed.
-```
 ### 54. to 69 : Deep Q-Learning Implementation for game of Doom
 
 ## Section 12: Deep Convolutional Q-Learning Visualization
@@ -385,19 +384,92 @@ The three essential pieces of info you need to know about the environment are th
   - Link : https://colab.research.google.com/drive/1Z8JmCbl-ZMzumYcgyLjWUVNvjtS1ugjz#scrollTo=SXtPVCUGwSfY
 ## Section 13: - Part 3 - A3C
 ### 74. Welcome to Part3 - A3C
-```Welcome to Part 3!
+Welcome to Part 3!
 
 - built an AI that has a brain (Deep Q-Learning) 
 - and that can see (Deep Convolutional Q-Learning)
 - we will add to it a memory and a critic sense (LSTM-A3C) : 
     - This model is closer to the human brain. 
     - one of the most powerful models in the AI ecosystem. 
-```
+- we build an AI to play Breakout
+
 
 ## Section 14: A3C Intuition
+### 75. Plan of Attack 
+- The 3 A's of A3C
+- Actor-Critic
+- Asynchronous
+- Advantage
+- Long Short-Term Memory (LSTM)
+
+### 76. The 3 A's of A3C
+A3C - Asynchronous Adavantage Actor-Critic
+- Developed by Google DeepMind - 2016
+
+```A3C = Value function + Policy function```
+
+- A3C maintains a policy Pi(at|st;Theta) and an estimate of the value function V (st;Thetav)
+- The policy and the value function are updated after every *tmax* actions or when a terminal state is reached
+
+Additional Reading : 
+- Asynchronous Methods for Deep Reinforcement Learning by DeepMind - 2016
+  - Link : https://arxiv.org/abs/1602.01783
+### 77. Actor-Critic
+- The output is split into two sets(functions):
+  - Actor (Policy function : which action to take or the probality to take an action)
+  - Critic (Value function: predicts the value of the state)
+
+### 78. Asynchronous
+- several agents attacking the same environment
+- the agents have different starting points, therefore they're going to explore the environment in different ways
+- they share the experience among each other(they pass knowledge tp each other)
+- this methods allow to get the solution faster
+- the agents share their experiences through the `Critic-function` which is the same for all of them(allows them to see what's going on in the env)
+- From pytorch architecture there is a global NN for all the agents 
+
+Additional reading : 
+- Let's make an A3C: Implementation by Jaromir Janish(2017)
+  - Link : https://jaromiru.com/2017/02/16/lets-make-an-a3c-theory/
+  
+### 79. Advantage
+
+`A = Q(s, a) - V(s)`
+
+  - if Q = V  => A ? 
+  - if Q > V => A ? 
+  - if Q < V => A ? 
+  
+`A(st, at, Theta, Thetav)` from A3C paper
+- Theta : parameter that minimizes the loss function
+
+- tries to minimize the Policy loss based on the Value loss provided by the Critic 
+- uses backpropagation to correct the losses
+
+
+### 80. Long Short-Term Memory (LSTM)
+- allows the NN to have a memory of what happen in the previous situation 
+
+- why do we need a memory ? 
+  - to store the previous state/action (st-1, at-1)
+  - increase output accuracy/prediction (in case of Breakout, guess the preview state of the ball in order to compute the new/present state )
+
+Additional reading : 
+- Understanding LSTM Networks : https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+
 ## Section 15: A3C Implementation
+
+### 81 to 96
+requirements : 
+- conda install -c pytorch pytorch - ok
+- conda install -c akode gym => 
+- conda install -c menpo ffmpeg - ok
+- conda install -c conda-forge opencv ?
+  - instead : pip install opencv-python 
+  
 ## Section 16: ASC Visualization
 
+### 97 - 98
 
 ## Section 17: Annex 1: Artificial Neural Networks
 ## Section 18: Annex 2: Convolutional Neural Networks
