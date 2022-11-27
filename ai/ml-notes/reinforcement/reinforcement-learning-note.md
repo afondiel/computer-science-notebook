@@ -137,5 +137,5 @@ List of a NON-exaustive RL algorithms :
 
 
 
-> *"It is difficult to free fools from the chains they revere." ~ Voltaire*
+> ### "It is difficult to free fools from the chains they revere." ~ Voltaire
 
