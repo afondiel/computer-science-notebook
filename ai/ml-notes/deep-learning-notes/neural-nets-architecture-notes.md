@@ -77,7 +77,7 @@ Application :
 
 - CNN train :
 
-        Input => CNN => pooling => ... => Flattening FC => FC => activation => Output
+        Input => CNN => pooling => ... => Flattening => FC => FC => activation => Output
 
 Where : 
 1. Input : img (2D-Grayscale or 3D-RGB)
