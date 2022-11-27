@@ -55,9 +55,15 @@ Src : [RG - James T. Graham](https://www.researchgate.net/profile/James-Graham-2
   - [Welcome to Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/index.html#welcome-to-spinning-up-in-deep-rl)
 
   - [Source : OpenAI - A non-exhaustive, but useful taxonomy of algorithms in modern RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)
+	- [ACKTR & A2C](https://openai.com/blog/baselines-acktr-a2c/)
+
 - [DeepMind](#)
 - [Google AI](#)
 - [Meta-AI](#)
+- [Huggingface](#)
+	- [A2C](https://huggingface.co/blog/deep-rl-a2c#advantage-actor-critic-a2c)
+- [Blog](#)
+	- [A2C - towardsdatascience](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f)
 
 - [Reinforcement Learning algorithms — an intuitive overview by Robert Moni - Great Link](https://smartlabai.medium.com/reinforcement-learning-algorithms-an-intuitive-overview-904e2dff5bbc)
   
