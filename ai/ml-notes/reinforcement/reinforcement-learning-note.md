@@ -71,12 +71,14 @@ DRL : increases performance of model and solves Curse fo dimensionality and Samp
 
 Model Deep Q-Network (DQN) : 
 
-|Q-value1|Q-value2   |Q-value k | 
-|:--------:|:---------:|----------|
-|  ^      |    ^      |     ^    |
-|     \   |    I      |    /     |
-|         |   CNN     |          |
-|         |   State   |          |
+
+```mermaid
+graph TD;
+    CNN-->Q-value1;
+    CNN-->Q-value2;
+    CNN-->Q-value3;
+    State-->CNN;
+```
 
 *Deep Q-Network (DQN) high level architecture*
 
