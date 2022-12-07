@@ -23,7 +23,7 @@ SARSA - State–action–reward–state–action with eligibility traces
 
 ![sarsa-algo](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/reinforcement/rl-algorithms-implementation/sarsa/asynchronous-n-steps-q-learning-for-actor-learn%20thread-SORSA.png)
 	
-[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/](https://colab.research.google.com/drive/1Z8JmCbl-ZMzumYcgyLjWUVNvjtS1ugjz#scrollTo=qVGjrv8O43uK) 
+[![Open notebook in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z8JmCbl-ZMzumYcgyLjWUVNvjtS1ugjz?usp=sharing) 
 
 
 ### DQN	Deep 
