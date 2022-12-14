@@ -8,15 +8,15 @@ A MDP is a mathematical models used to make decisions in situations where outcom
 
 ## The MDP Model
 
-- `Agent` :   observes a state, St, from the environment at time t and interacts with the environment, by taking an action A(t). This action causes the Environment to transition to a new state, S(t+1),
-- `Environment` : transites to a new/future state based on changes taken by the agent and provides feedback to the agent
-- `State` : sets of state (S(t) : present state, R(t+1) : next state)
-- `Action` : sets of actions perform by the agent
-
-- `Reward` : success/penality (R(t) : present reward, R(t+1) : next reward)
-- `Transition funtion - T[s,a,s']` : environment condition to the next state
-- ` Policy function - Pi(s)` : function that computes the reward 
-- `Optimal Policy function - Pi*(s)` : policy that maximizes the reward 
+- `Agent` :   observes a state, S(t), from the environment at time t and interacts with the environment by taking an action A(t). 
+- `Environment` : transitions to a new state S(t+1), at time t+1 based on action taken by the Agent and producing a next/future Reward while being on the current state 
+- `State - S(t)` : sets of state (S(t) : present state, S(t+1) : next state)
+- `Action - A(t)` : This action causes the Environment to transition to a new state `S(t+1)`
+- `Reward - R(t)` : an scalar value sent by the environment,  **+1 : success** and **-1 : penality** and R(t+1) : next reward)
+- `Transition funtion - T[s,a,s']` : environment conditions to go the next state
+- ` Policy function - Pi(s)` : strategy used by the Agent to compute/judge the next 'best' Action to be taken A(t+1) that produces a better reward 
+  - The policy maps a given state `s`, to a particular action `A(t)` : A(t) = Pi(s)
+- `Optimal Policy function - Pi*(s)` : the policy that maximizes the expected reward received from the environment over a long period of time
 
 
 ## The MDP Proprieties
