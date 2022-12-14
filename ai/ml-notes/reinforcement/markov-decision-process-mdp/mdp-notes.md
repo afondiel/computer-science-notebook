@@ -1,10 +1,11 @@
 # Markov Decision Process(MDP) - notes
  
+## Introduction
+A MDP is a mathematical model used to make decisions in situations where outcomes are partly random and partly under the control of a decision maker ( Ex: *An Agent* ).
+
 ![MDP model](mdp.png)
 
-[MDP Framework](https://en.wikipedia.org/wiki/Markov_decision_process)
-
-A MDP is a mathematical models used to make decisions in situations where outcomes are partly random and partly under the control of a decision maker.
+[MDP Model](https://en.wikipedia.org/wiki/Markov_decision_process)
 
 ## The MDP Model
 
