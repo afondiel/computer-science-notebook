@@ -3,13 +3,11 @@
 # Research notes
 
 Software Engineering documentation from requirements, design, programming language to testing.
-
 There is also some research papers and notebook about AI, ML, DL, NLP, IoT, robotics and much more.
-
 
 ## Table of Contents
 - [Overview](#overview)
-- [Notes topics](#usage)
+- [Subjects](#usage)
   - [agriculture](#agriculture)
   - [ai](#ai)
   - [automotive](#automotive)
@@ -37,8 +35,9 @@ There is also some research papers and notebook about AI, ML, DL, NLP, IoT, robo
 
 ## Overview
 
-This is be a crash notes about quick knowledge or useful tools required to understand the subject. 
-## Notes Topics
+The main goal of this project is to build a `Hello World` resource for any of the [subjects](#subjects) listed below, for every software developer and engineer who wants to get a quick start and understand of any of these topics around computer science.
+
+## Subjects
 - ## [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 - ## [ai](https://github.com/afondiel/research-notes/tree/master/ai)
 - ## [automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
