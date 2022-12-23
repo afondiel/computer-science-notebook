@@ -7,7 +7,7 @@ Software Engineering documentation from requirements, design, programming langua
 There is also some research papers and notebook about AI, ML, DL, NLP, IoT, robotics and much more.
 
 
-## Tables of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Notes topics](#usage)
   - [agriculture](#agriculture)
@@ -38,7 +38,7 @@ There is also some research papers and notebook about AI, ML, DL, NLP, IoT, robo
 ## Overview
 
 This is be a crash notes about quick knowledge or useful tools required to understand the subject. 
-
+## Notes Topics
 - ## [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 - ## [ai](https://github.com/afondiel/research-notes/tree/master/ai)
 - ## [automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
@@ -65,7 +65,7 @@ This is be a crash notes about quick knowledge or useful tools required to under
 
 ## Contributions
 
-Feel free to leave any suggestion, the goal is to make any subject around sw engineering and tech understandable for anyone.
+Feel free to leave any suggestion, the goal is to make any subject around sw engineering and computer science understandable for anyone.
 
 
 > ## "Anyone who keeps learning stays young." - Henry Ford
