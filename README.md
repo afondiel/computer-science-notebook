@@ -1,13 +1,10 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/afondiel/research-notes)
 
 # Research notes
-## Overview
 
 Software Engineering documentation from requirements, design, programming language to testing.
 
 There is also some research papers and notebook about AI, ML, DL, NLP, IoT, robotics and much more.
-
-This is be a crash notes about quick knowledge or useful tools required to understand the subject. 
 
 
 ## Tables of Contents
@@ -37,6 +34,10 @@ This is be a crash notes about quick knowledge or useful tools required to under
   - [vcs](#vcs)
   - [web](#web)
 - [Contributions](#Contributions)
+
+## Overview
+
+This is be a crash notes about quick knowledge or useful tools required to understand the subject. 
 
 - ## [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 - ## [ai](https://github.com/afondiel/research-notes/tree/master/ai)
