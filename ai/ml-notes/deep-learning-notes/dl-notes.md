@@ -93,7 +93,7 @@ graph TD;
     Dataset-->Modeling;
     Modeling-->Prediction;
     Prediction-->Test & Update(W, b);    
-    Dataset<|--Test & Update(W, b);
+    Dataset<--Test & Update(W, b);
 ```
 
 
