@@ -92,6 +92,8 @@ Check the [Neural Networks architecture notes](neural-nets-architecture-notes.md
 graph TD;
     Dataset-->Modeling;
     Modeling-->Prediction;
+    Prediction-->Test and Update;    
+    Dataset<--Test and Update;
 ```
 
 
