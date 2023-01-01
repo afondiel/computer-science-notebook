@@ -92,7 +92,7 @@ Check the [Neural Networks architecture notes](neural-nets-architecture-notes.md
 graph LR;
     A[Dataset]-->B[Modeling];
     B-->C[Prediction];
-    C-->D[Test and Update (W, b)];    
+    C-->D[Test and Update "W, b")];    
     D-->A;
 ```
 
