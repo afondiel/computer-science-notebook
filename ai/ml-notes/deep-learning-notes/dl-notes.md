@@ -89,11 +89,11 @@ Check the [Neural Networks architecture notes](neural-nets-architecture-notes.md
 ### Deep Learning Modeling Pipeline
 
 ```mermaid
-graph TD;
-    Dataset-->Modeling;
-    Modeling-->Prediction;
-    Prediction-->Test-and-Update-W-b;    
-    Test-and-Update-W-b-->Dataset;
+graph LR;
+    A[Dataset]-->B[Modeling];
+    B-->C[Prediction];
+    C-->D[Test and Update (W, b)];    
+    D-->A;
 ```
 
 
