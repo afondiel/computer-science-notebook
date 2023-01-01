@@ -14,7 +14,7 @@ Neural Network (NN) simulates the way humans learn.
     B-->C((cell body));
     C-->D(axon);    
     D-->E(synapse of current neuron);
-    style A fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5;
+    style A fill:#fff,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5;
 ```
 
 
