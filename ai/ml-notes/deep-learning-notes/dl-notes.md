@@ -7,8 +7,15 @@ Deep learning : is Machine Learning (ML) subset based on artificial *neural netw
 Neural Network (NN) simulates the way humans learn. 
 - NN allows to build model/algorithms 
   - inspired from biological neuron : 
-      
-        synapse => (dendrite) => (cell body) ==> axon  .... (next synapse => ... )
+  
+```mermaid
+  graph LR;
+    A(synapse of previous neuron)-->B(dendrites);
+    B-->C(cell body);
+    C-->D(axon);    
+    D-->(synapse of current neuron);
+```
+
 
 biological neuron  vs artificial neuron 
 
