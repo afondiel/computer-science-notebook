@@ -13,7 +13,7 @@ Neural Network (NN) simulates the way humans learn.
     A(synapse of previous neuron)-->B(dendrites);
     B-->C(cell body);
     C-->D(axon);    
-    D-->(synapse of current neuron);
+    D-->E(synapse of current neuron);
 ```
 
 
