@@ -11,7 +11,7 @@ Neural Network (NN) simulates the way humans learn.
 ```mermaid
   graph LR;
     A(synapse of previous neuron)-->B(dendrites);
-    B-->C(cell body);
+    B-->C((cell body));
     C-->D(axon);    
     D-->E(synapse of current neuron);
 ```
