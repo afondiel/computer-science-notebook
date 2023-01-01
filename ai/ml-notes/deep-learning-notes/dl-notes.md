@@ -107,8 +107,8 @@ graph LR;
 
 ### Model configuration / Parameters 
 - learning rate (lr)
-- epoch : 
-- batch size :
+- epoch  
+- batch size 
 
 - backpropagation : allows NN figure out patterns that are convoluted(complex) for human to extract
   - Error/cost function : 
@@ -118,11 +118,13 @@ graph LR;
     - gradient descent ... 
  
 - Prediction 
-  - accuracy ? 
-  - function: 
-      - SoftMAx
-      - Sigmoid 
-      - Heaveside
+  - activation function:      
+    - Heaveside
+    - Sigmoid       
+    - SoftMAx
+    - relu
+    - Tanh
+  - error vs accuracy(prediction w/ test data) ? 
 
 ### Model Evaluation & fitting Metrics
 
@@ -152,7 +154,7 @@ Evaluation :
 dataset : 
 - training data : dataset
 - training set :  new dataset (generalization)
-- validation set: evaluate the performance of the model based on diffrent hyperparameters
+- validation set: evaluate the performance of the model based on diffrent hyperparameters :
 - test set : final evaluation
 
 error vs capacity 
@@ -161,18 +163,18 @@ error vs capacity
 - error : ? 
   - train error : ? 
   - test error : ? 
-- generalization gap : he gap btw train error and test error 
+- generalization gap : the gap btw train error and test error 
   
 
 # References : 
-
-- https://en.wikipedia.org/wiki/Deep_learning
-- https://en.wikipedia.org/wiki/Supervised_learning
-- https://en.wikipedia.org/wiki/Weak_supervision#Semi-supervised_learning
-- https://en.wikipedia.org/wiki/Unsupervised_learning
-- https://en.wikipedia.org/wiki/Reinforcement_learning
-- https://en.wikipedia.org/wiki/Artificial_neural_network
-- https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
+- Wikipedia : 
+  - https://en.wikipedia.org/wiki/Deep_learning
+  - https://en.wikipedia.org/wiki/Supervised_learning
+  - https://en.wikipedia.org/wiki/Weak_supervision#Semi-supervised_learning
+  - https://en.wikipedia.org/wiki/Unsupervised_learning
+  - https://en.wikipedia.org/wiki/Reinforcement_learning
+  - https://en.wikipedia.org/wiki/Artificial_neural_network
+  - https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
 
 - dl crash course : 
   - https://www.youtube.com/watch?v=VyWAvY2CF9c
@@ -183,3 +185,4 @@ error vs capacity
 
 - NVIDIA Deep Learning Institute : 
   - https://www.nvidia.com/en-us/training/
+
