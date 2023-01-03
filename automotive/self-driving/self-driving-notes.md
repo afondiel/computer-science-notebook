@@ -110,8 +110,8 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 # Reference
 
-- wikipedia : 
-[Self-driving_car](https://en.wikipedia.org/wiki/Self-driving_car)
+- Wikipedia : 
+  - [Self-driving_car](https://en.wikipedia.org/wiki/Self-driving_car)
 
 - [Applications & technologies self-driving vehicles](http://www.freelancerobotics.com.au/technological-articles/overview-techniques-applications-autonomous-vehicles/)
 
@@ -125,33 +125,27 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 - [Solutions for Self-Driving Cars and Autonomous Vehicles](https://www.nvidia.com/en-us/self-driving-cars/)
 
-
 - [NVDIA parteners](https://www.nvidia.com/en-us/self-driving-cars/partners/)
 
 - [Standard-j3016](https://www.sae.org/blog/sae-j3016-update)
 
-Udacity sensor systems : 
-https://www.udacity.com/blog/2021/03/how-self-driving-cars-work-sensor-systems.html
+- [Udacity sensor systems](https://www.udacity.com/blog/2021/03/how-self-driving-cars-work-sensor-systems.html)
 
-Applying of Reinforcement Learning for Self-Driving Cars :
-https://towardsdatascience.com/applying-of-reinforcement-learning-for-self-driving-cars-8fd87b255b81
+- [Applying of Reinforcement Learning for Self-Driving Cars](https://towardsdatascience.com/applying-of-reinforcement-learning-for-self-driving-cars-8fd87b255b81)
 
-CARLA Simulator  : 
-https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg
+- [CARLA Simulator](https://carla.org/) 
 
-[Udacity online program](https://www.youtube.com/watch?v=ICKBWIkfeJ8&list=PLAwxTw4SYaPkQXg8TkVdIvYv4HfLG7SiH)
+- [Opencv](https://www.youtube.com/channel/UC1llP9ekCwt8nEJzMJBQekg)
 
-[deepmind and Waymo](https://www.deepmind.com/blog/how-evolutionary-selection-can-train-more-capable-self-driving-cars)
+- [Udacity online program](https://www.youtube.com/watch?v=ICKBWIkfeJ8&list=PLAwxTw4SYaPkQXg8TkVdIvYv4HfLG7SiH)
 
-[How DeepMind and Waymo Train Self-Driving Car Models](https://medium.com/dataseries/how-deepmind-and-waymo-train-self-driving-car-models-bad071a4f64f)
+- [deepmind and Waymo](https://www.deepmind.com/blog/how-evolutionary-selection-can-train-more-capable-self-driving-cars)
 
-ML/DL libraries : 
-Opencv 
-CNN
+- [How DeepMind and Waymo Train Self-Driving Car Models](https://medium.com/dataseries/how-deepmind-and-waymo-train-self-driving-car-models-bad071a4f64f)
 
 research papers
 
-[Autonomous Driving from paperwithcode](https://paperswithcode.com/task/autonomous-driving)
+- [Autonomous Driving from paperwithcode](https://paperswithcode.com/task/autonomous-driving)
 
 - [Highway Environment Model for Reinforcement Learning](https://www.sciencedirect.com/science/article/pii/S2405896318333032)
 
