@@ -110,31 +110,25 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 # Reference
 
-https://en.wikipedia.org/wiki/Self-driving_car
+- wikipedia : 
+[Self-driving_car](https://en.wikipedia.org/wiki/Self-driving_car)
 
-Applications & technologies self-driving vehicles 
-http://www.freelancerobotics.com.au/technological-articles/overview-techniques-applications-autonomous-vehicles/
+- [Applications & technologies self-driving vehicles](http://www.freelancerobotics.com.au/technological-articles/overview-techniques-applications-autonomous-vehicles/)
 
-Autonomous Driving Software in Europe
-https://sourceforge.net/software/autonomous-driving/europe/
+- [Autonomous Driving Software in Europe](https://sourceforge.net/software/autonomous-driving/europe/)
 
-Online ressources to get started : 
-https://analyticsindiamag.com/top-8-online-resources-to-get-started-with-self-driving-vehicles-in-2021/
+- [Online ressources to get started](https://analyticsindiamag.com/top-8-online-resources-to-get-started-with-self-driving-vehicles-in-2021/)
 
-An intro to self-driving cars with David Silver
-https://www.youtube.com/watch?v=lz8nrj44ifk
+- [An intro to self-driving cars with David Silver](https://www.youtube.com/watch?v=lz8nrj44ifk)
 
-ADAS dev env elektrobit
-https://www.elektrobit.com/products/automated-driving/eb-assist/adtf/
+- [ADAS dev env elektrobit](https://www.elektrobit.com/products/automated-driving/eb-assist/adtf/)
 
-Solutions for Self-Driving Cars and Autonomous Vehicles : 
-https://www.nvidia.com/en-us/self-driving-cars/
+- [Solutions for Self-Driving Cars and Autonomous Vehicles](https://www.nvidia.com/en-us/self-driving-cars/)
 
-NVDIA parteners : 
-https://www.nvidia.com/en-us/self-driving-cars/partners/
 
-Standard-j3016: 
-https://www.sae.org/blog/sae-j3016-update
+- [NVDIA parteners](https://www.nvidia.com/en-us/self-driving-cars/partners/)
+
+- [Standard-j3016](https://www.sae.org/blog/sae-j3016-update)
 
 Udacity sensor systems : 
 https://www.udacity.com/blog/2021/03/how-self-driving-cars-work-sensor-systems.html
