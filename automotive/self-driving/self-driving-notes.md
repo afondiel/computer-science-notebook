@@ -13,9 +13,7 @@
 
 ## Overview
 
-![Autonomy solutions](http://ww1.prweb.com/prfiles/2016/06/08/13472308/Source_Vision_Systems_Intelligence_Infographic.JPG) 
-
-A "self-driving car", also known as an "autonomous car", driver-less car, or "robotic car" (robo-car),is a car incorporating vehicular automation, 
+A self-driving car, also known as an autonomous car, driver-less car, or "robotic car" (robo-car),is a car incorporating vehicular automation, 
 that is, a ground vehicle that is capable of sensing its environment and moving safely with little or no human input.
 
 ## How a self-driving car works ?
@@ -52,17 +50,16 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 - **Hardware**
   - Sensors : each sensor operates in a different frequency based on EM spectrum.
+    - There are two categories of sensors: `active sensors` and `passive sensors`
 
 ![EM spectrum](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png)
 EM spectrum
 
 The electromagnetic wave is characterized by its `frequency` (F) and its `wavelength` ($\lambda$).
 
-F = $\frac{1}{T}$ = F = $\frac{\omega}{(2 * pi)}$ = $\frac{c}{(\lambda)}$
+  >## F = $\frac{1}{T}$ = $\frac{\omega}{2 * pi}$ = $\frac{c}{\lambda}$
 
 Where : 
-- F : < 300GHz
-- $\lambda$ : >= 1mm
 - **c** : the speed of light ( $3.10^8$ m/s)
 
 Sensors family : 
@@ -70,7 +67,11 @@ Sensors family :
 - Thermo-Cameras
 - Radar(radio detection and ranging) : Macro objects
     - Long range
-    - Short range 
+    - Short range
+  - Frequency range : 
+    - F : < 300GHz
+    - $\lambda$ : >= 1mm
+
 - Lidar(light detection and ranging) : Micro objects (more precision)
 - Sonar(Sound) 
 - GPS (Global Positioning System :lat, log)
