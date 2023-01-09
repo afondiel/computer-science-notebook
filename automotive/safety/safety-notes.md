@@ -1,9 +1,13 @@
 # Automotive safety Notes
 
-Study and practice of design, construction, equipment and regulation to minimize the occurrence and consequences of traffic collisions involving motor vehicles. 
+## Overview 
 
-Road traffic safety more broadly includes roadway design.
+- Automotive safety : study and practice of design, construction, equipment and regulation to minimize the occurrence and consequences of traffic collisions involving motor vehicles. 
+- Road traffic safety more broadly includes roadway design.
 
+![ASIL level - funtions](./ASIL-CarGraphic.jpg.imgw.850.x.jpg) 
+
+Automotive safety functions classification based on [ISO26262](https://en.wikipedia.org/wiki/ISO_26262)
 ## Automotive Safety Functions
 
 ```mermaid
