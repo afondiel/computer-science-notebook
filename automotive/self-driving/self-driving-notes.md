@@ -48,8 +48,8 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 ## Architecture 
 
-- **Hardware**
-  - Sensors : each sensor operates in a different frequency based on EM spectrum.
+### **Hardware**
+- Sensors : each sensor operates in a different frequency based on EM spectrum.
     - There are two categories of sensors: `active sensors` and `passive sensors`
 
 ![EM spectrum](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png)
@@ -62,7 +62,7 @@ The electromagnetic wave is characterized by its `frequency` (F) and its `wavele
 Where : 
 - **c** : the speed of light ( $3.10^8$ m/s)
 
-Sensors family : 
+**Sensors family** : 
 
 - Thermo-Cameras
 - Radar(radio detection and ranging) : Macro objects
@@ -77,30 +77,30 @@ Sensors family :
 - GPS (Global Positioning System :lat, log)
 - Odometry
 
-- **Software**
+### **Software**
   - Computer vision
   - Deep learning (CNN ...)
   - NVIDIA 
     - [self-driving platform software](https://www.nvidia.com/en-us/self-driving-cars/drive-platform/software/)
 
-- **Suppilers** 
+## **Suppilers** 
   - NVIDIA : ECU/GPUs
   - DENSO 
   - CONTINENTAL
   - DELPHI
 
-- **OEMS** : 
+## **OEMS** : 
   - Tesla 
   - Mercedes-Benz
   - Toyota
   - Ford 
   - Ford 
 
-
-- **Tech**
+## **Tech**
   - waymo 
   - Apple 
-  - Samsung 
+  - Samsung
+  - ... 
 
 
 ## Companies building self-driving car
