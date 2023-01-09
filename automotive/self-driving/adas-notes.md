@@ -1,15 +1,14 @@
 # ADAS notes 
 
 ## Table Of Contents
-- [Table Of Contents](#table-of-contents)
-- [Intro](#intro)
+- [Overview](#overview)
 - [SAE J3016 : Autonomy Level(6)](#sae-j3016--autonomy-level6)
 - [Applications :](#applications-)
 - [Standards](#standards)
 - [tools/frameworks](#toolsframeworks)
 - [References](#references)
 
-## Intro
+## Overview
 
 ADAS (Advanced driver assistance system)  : is any of a groups of electronic technologies that assist drivers in driving and parking functions
 
@@ -23,14 +22,14 @@ ADAS (Advanced driver assistance system)  : is any of a groups of electronic tec
 - L5: Full Automation
 
 ## Applications : 
-- L0: No Automation
+- `L0`: No Automation
 
-- L1: Driver assistance
-Adaptive cruise control (ACC)
-Electronic stability control
-Lane centering
+- `L1`: Driver assistance
+- Adaptive cruise control (ACC)
+- Electronic stability control
+- Lane centering
 
-- L2: Partial automation
+- `L2`: Partial automation
 
   - Steering and brake/acceleration
   - Adaptive cruise control (ACC)  + Lane centering
@@ -65,18 +64,19 @@ Lane centering
   - Turning assistant
   - Vehicular communication systems
 
-- L3: conditional Operation
+- `L3`: conditional Operation
   - Intelligent cockpit ??
   - Autopilot (TESLA )
 
-- L4: High Automation
+- `L4`: High Automation
 
-    - https://en.wikipedia.org/wiki/Wrong-way_driving_warning
-    - Waymo ? (Google/Alphabet)
-    - Cruise ? (GM)
-    - Zoox ? (Amazon)
+  - https://en.wikipedia.org/wiki/Wrong-way_driving_warning
+  - Waymo ? (Google/Alphabet)
+  - Cruise ? (GM)
+  - Zoox ? (Amazon)
 
-- L5: Full Automation
+- `L5`: Full Automation
+  - No commercial product yet (09/01/2023 - last update, for future viewers)
 
 
 ## Standards
