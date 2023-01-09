@@ -6,14 +6,12 @@ Road traffic safety more broadly includes roadway design.
 
 ## Automotive Safety Functions
 
-                            +------------+
-                            |   Safety   |
-                            +------------+
-                                   |
-                                   v
-       +------------------+    +------------+      +-----------+
-       | comfort Occupant | => |   Warning  |  =>  |  Urgency  |
-       +------------------+    +------------+      +-----------+  
+```mermaid
+   graph TD;
+      A[Safety]-->B[comfort Occupant]
+      A-->C[Warning]
+      A-->D[Urgency]
+```                        
 
 # Standards : 
 - IEC 61508
