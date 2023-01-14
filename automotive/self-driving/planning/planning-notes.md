@@ -27,7 +27,7 @@ Planning multiple dimensions :
 - Robotics
 
 ## Tools and Frameworks
-Senors : 
+Sensors : 
 - GPS
 - IMU
 - Lidar
