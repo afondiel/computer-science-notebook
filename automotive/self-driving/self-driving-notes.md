@@ -20,7 +20,7 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 ```mermaid
  graph TD
          a1-->a2
-         subgraph 
+         subgraph three
          c1
          c2
          end
