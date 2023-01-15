@@ -18,11 +18,11 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 ## How a self-driving car works ?
 ```mermaid
- graph TB
+ graph LR
          a1-->a2
          b1-->b2
          subgraph three
-         c1-->c2
+         c1--c2
          end
          c1-->a2
 ```
