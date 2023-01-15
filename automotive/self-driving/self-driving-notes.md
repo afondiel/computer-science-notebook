@@ -22,8 +22,7 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
          a1[Localization]-->a2[Path Planning]
          b1[Control1]-->b2[Control1]
          subgraph Perception
-         c1[Computer vision]
-         c2[Sensor Fusion]
+         c1[Computer vision]--c2[Sensor Fusion]
          end
 ```
 
