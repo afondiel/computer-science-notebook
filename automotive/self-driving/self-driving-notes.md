@@ -23,9 +23,6 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
   B-->C
   C-->D[Path Planning]
   D-->E[Control]
-  subgraph Perception
-    A[Computer Vision]--B[Sensor Fusion]
-  end
 ```
 
 - Computer vision : how the car sees the world and its environement
