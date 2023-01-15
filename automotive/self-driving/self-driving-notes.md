@@ -78,7 +78,7 @@ Where :
  graph LR
 
          a1[Sensor]-->|T|a2[Object]
-         a2-->|R|a1
+         a2-R->a1
 ```
 
 - `Lidar`(light detection and ranging) : Micro objects (more precision)
@@ -86,7 +86,7 @@ Where :
  graph LR
 
          a1[Sensor]-->|T-Laser Beam|a2[Object]
-         a2-->|R|a1
+         a2-R->a1
 ```
   - based on laser
   - detector
@@ -118,7 +118,7 @@ Where :
  graph LR
 
          a1[sensor]-->|T|a2[Object]
-         a2-->|R|a1
+         a2-R->a1
 ```
 
 > ## D = $\frac{V*T}{2}$
