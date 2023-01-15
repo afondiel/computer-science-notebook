@@ -101,14 +101,16 @@ Where :
     - c : the speed of light
     - t : time
   
-    `RADAR vs LIDAR`
-    - Radar : the detection of the object increases as the size of this one
-      - Range  : 10^-3m
-      - very good in case of bad wheather
-    - Lidar : detect objects in the dimensions more smaller 
-      - Range : 10^-3m
-      - not very good in bad wheather
-> ## Range : $\lambda R > 3*\lambda L$ (three times less than the wavelength of Radar sensor )
+`RADAR vs LIDAR`
+  - Radar : the detection of the object increases as the size of this one
+    - Range  : 10^-3m
+    - very good in case of bad wheather
+  - Lidar : detect objects in the dimensions more smaller 
+    - Range : 10^-3m
+    - not very good in bad wheather
+> Radar wavelength is three times greater than Lidar :
+> ## $\lambda R > 3*\lambda L$ 
+> Therefore intended for much biger objects(macro-dimension)
 
 
 - `Sonar` (Sound waves) 
