@@ -77,7 +77,7 @@ Where :
 ```mermaid
  graph LR
 
-         a1[Sensor]-->a2|T|[Object]
+         a1[Sensor]-->|T|a2[Object]
          a2-->|R|a1
 ```
 
@@ -85,7 +85,7 @@ Where :
 ```mermaid
  graph LR
 
-         a1[Sensor]-->a2|T-Laser Beam|[Object]
+         a1[Sensor]-->|T-Laser Beam|a2[Object]
          a2-->|R|a1
 ```
   - based on laser
@@ -117,7 +117,7 @@ Where :
 ```mermaid
  graph LR
 
-         a1[sensor]-->a2|T|[Object]
+         a1[sensor]-->|T|a2[Object]
          a2-->|R|a1
 ```
 
