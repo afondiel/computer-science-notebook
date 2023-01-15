@@ -74,11 +74,20 @@ Where :
   - Range : 
     - F : < 300GHz
     - $\lambda$ : >= 1mm
+```mermaid
+ graph LR
+
+         a1[Sensor]-->a2|T|[Object]
+         a2-->|R|a1
+```
 
 - `Lidar`(light detection and ranging) : Micro objects (more precision)
+```mermaid
+ graph LR
 
-(sensor) ----------- Laser beam ----------------> (Object)
-
+         a1[Sensor]-->a2|T-Laser Beam|[Object]
+         a2-->|R|a1
+```
   - based on laser
   - detector
   - rotational and optical system
@@ -105,7 +114,12 @@ Where :
 
 - `Sonar` (Sound waves) 
   
-  (sensor) ----------- Laser beam ----------------> (Object)
+```mermaid
+ graph LR
+
+         a1[sensor]-->a2|T|[Object]
+         a2-->|R|a1
+```
 
 > ## D = $\frac{V*T}{2}$
     where  : 
