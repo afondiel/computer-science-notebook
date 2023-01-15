@@ -20,7 +20,7 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 ```mermaid
  graph LR;
   subgraph Perception
-    A[Computer Vision] -- B[Sensor Fusion]
+    A -- B
   end
 ```
 
