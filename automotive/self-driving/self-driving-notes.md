@@ -18,10 +18,17 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 ## How a self-driving car works ?
 ```mermaid
- graph LR;
-  subgraph Perception
-    A -- B
-  end
+ graph TB
+         subgraph one
+         a1-->a2
+         end
+         subgraph two
+         b1-->b2
+         end
+         subgraph three
+         c1-->c2
+         end
+         c1-->a2
 ```
 
 - Computer vision : how the car sees the world and its environement
