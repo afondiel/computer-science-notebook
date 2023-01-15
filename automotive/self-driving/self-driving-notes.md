@@ -17,16 +17,16 @@ A self-driving car, also known as an autonomous car, driver-less car, or "roboti
 that is, a ground vehicle that is capable of sensing its environment and moving safely with little or no human input.
 
 ## How a self-driving car works ?
-
-    +----------+    +--------------+    +------------+      +----------+
-    |  Computer|    | Localization |    | Path  	 |      | Control  |
-    |  vision  |    |		       |    | Planning	 |      |		   |
-    +----------+    +--------------+    +------------+      +----------+
-
-    +----------+
-    | Sensor   |
-    | Fusion   |
-    +----------+
+```mermaid
+ graph TD;
+    subgraph Perception
+          A[Computer Vision]--B[Sensor Fusion]
+          end
+    A-->C[Localization]
+    B-->C
+    C-->D[Path Planning]
+    D-->E[Control]
+```
 
 - Computer vision : how the car sees the world and its environement
 - Sensor Fusion : how the car understands the world and its environement
@@ -65,17 +65,53 @@ Where :
 **Sensors family** : 
 
 - Thermo-Cameras
-- Radar(radio detection and ranging) : Macro objects
+- `Radar`(radio detection and ranging) : Macro objects
     - Long range
     - Short range
-  - Frequency range : 
+  - Range : 
     - F : < 300GHz
     - $\lambda$ : >= 1mm
 
-- Lidar(light detection and ranging) : Micro objects (more precision)
-- Sonar(Sound) 
-- GPS (Global Positioning System :lat, log)
-- Odometry
+- `Lidar`(light detection and ranging) : Micro objects (more precision)
+
+(sensor) ----------- Laser beam ----------------> (Object)
+
+  - based on laser
+  - detector
+  - rotational and optical system
+  - timing electronic (detection speed)
+  - 3D mapping
+  - scan of the environment
+
+
+>## D = $\frac{c*t}{2}$
+    where  : 
+    - D : the distance btw the sensor and the Object
+    - c : the speed of light
+    - t : time
+  
+    `RADAR vs LIDAR`
+    - Radar : the detection of the object increases as the size of this one
+      - Range  : 10^-3m
+      - good for bad wheather
+    - Lidar : detect objects in the dimensions more smaller 
+      - Range : 10^-3m
+      - bad for bad wheather
+> ## Range : $\lambda$R > 3*$\lambda$L (three times less than the wavelength of Radar sensor )
+
+
+- `Sonar` (Sound waves) 
+  
+  (sensor) ----------- Laser beam ----------------> (Object)
+
+> ## D = $\frac{V*T}{2}$
+    where  : 
+    - D : the distance btw the sensor and the Object
+    - V : the speed of sound
+    - T : time
+
+- `GPS` (Global Positioning System : lat, log)
+- `Odometry`
 
 ### **Software**
   - Computer vision
@@ -130,6 +166,7 @@ Where :
 
 - Wikipedia : 
   - [Self-driving_car](https://en.wikipedia.org/wiki/Self-driving_car)
+  - [Robotaxi](https://en.wikipedia.org/wiki/Robotaxi)
 
 - [Applications & technologies self-driving vehicles](http://www.freelancerobotics.com.au/technological-articles/overview-techniques-applications-autonomous-vehicles/)
 
@@ -161,6 +198,9 @@ Where :
 
 - [How DeepMind and Waymo Train Self-Driving Car Models](https://medium.com/dataseries/how-deepmind-and-waymo-train-self-driving-car-models-bad071a4f64f)
 
+Sensors : 
+- [Maxbotix - Understanding How Ultrasonic Sensors Work](https://www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm#:~:text=Ultrasonic%20sensors%20work%20by%20sending,and%20to%20receive%20the%20echo.)
+
 research papers
 
 - [Autonomous Driving from paperwithcode](https://paperswithcode.com/task/autonomous-driving)
@@ -168,3 +208,4 @@ research papers
 - [Highway Environment Model for Reinforcement Learning](https://www.sciencedirect.com/science/article/pii/S2405896318333032)
 
 - [Comparing driving behavior of humans and autonomous driving in a professional racing simulator](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7857611/pdf/pone.0245320.pdf)
+  
