@@ -19,10 +19,10 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 ## How a self-driving car works ?
 ```mermaid
  graph TD
-         Localization-->Path Planning
+         a1-->a2
          subgraph Perception
-         Computer vision
-         Sensor Fusion 
+         c1
+         c2
          end
 ```
 
