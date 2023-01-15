@@ -88,10 +88,9 @@ Where :
          a1[Lidar]-->|T-Laser Beam|a2[Object]
          a2-.->|R|a1
 ```
-  - based on laser
-  - detector
+  - based on laser detector
   - rotational and optical system
-  - timing electronic (detection speed)
+  - great electronic timing (detection speed)
   - 3D mapping
   - scan of the environment
 
@@ -105,11 +104,11 @@ Where :
     `RADAR vs LIDAR`
     - Radar : the detection of the object increases as the size of this one
       - Range  : 10^-3m
-      - good for bad wheather
+      - very good in case of bad wheather
     - Lidar : detect objects in the dimensions more smaller 
       - Range : 10^-3m
-      - bad for bad wheather
-> ## Range : $\lambda$R > 3*$\lambda$L (three times less than the wavelength of Radar sensor )
+      - not very good in bad wheather
+> ## Range : $\lambda R > 3*\lambda L$ (three times less than the wavelength of Radar sensor )
 
 
 - `Sonar` (Sound waves) 
