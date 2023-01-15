@@ -1,0 +1,24 @@
+# Odemetry - Notes 
+
+## Overview 
+
+- Estimate the robot position relative to a starting location
+
+## Applications
+
+## Tools & frameworks
+
+# References 
+- en :
+  - Odometry :
+    - https://en.wikipedia.org/wiki/Odometry
+  - Differential wheeled robot :
+    - https://en.wikipedia.org/wiki/Differential_wheeled_robot
+  - Robo-Rats Locomotion Page: 
+    - https://groups.csail.mit.edu/drl/courses/cs54-2001s/locomotion.html
+
+- fr 
+  - wiki : https://fr.wikipedia.org/wiki/Odom%C3%A9trie
+  - Positionnement du robot (OLIVIER COCHELIN (COCO) : 
+    - http://manubatbat.free.fr/doc/positionning/Positionning.html
+  - http://manubatbat.free.fr/doc/positionning/node5.html
