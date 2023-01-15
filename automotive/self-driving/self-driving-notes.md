@@ -20,12 +20,11 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 ```mermaid
  graph TD
          a1-->a2
-         b1-->b2
-         subgraph three
+         subgraph 
          c1
          c2
          end
-         c1-->a2
+         three-->a2
 ```
 
 - Computer vision : how the car sees the world and its environement
