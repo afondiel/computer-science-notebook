@@ -12,9 +12,9 @@
 ROS : set of software libraries and tools that help you build robot applications
 
 ## Applications 
-- Robotics
-- Self-driving Cars
+![Ros applications](https://img.directindustry.fr/images_di/photo-g/192516-16646354.webp)
 
+Src : [Automationware](https://automationware.it/ros-eng/?lang=en)
 ## Tools and Frameworks
 - Autoware
 
