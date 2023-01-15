@@ -24,7 +24,8 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
          a2-->b1[Control]
 
          subgraph Perception
-         c1[Computer vision]-->c2[Sensor Fusion]
+         c1[Computer vision]
+         c2[Sensor Fusion]
          end
          c1-->a1
          c2-->a1
