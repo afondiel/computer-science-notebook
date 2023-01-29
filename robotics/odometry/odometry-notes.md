@@ -9,7 +9,9 @@
   - [Inverse Model](#inverse-model)
   - [Calculation of Odometry](#calculation-of-odometry)
 - [Applications](#applications)
+  - [Example of Model Implementation in Matlab - Control Law](#example-of-model-implementation-in-matlab---control-law)
   - [Example of Model Implementation in C language](#example-of-model-implementation-in-c-language)
+  - [Example Machine Learning Modeling of Kinematic Model](#example-machine-learning-modeling-of-kinematic-model)
 - [Tools \& frameworks](#tools--frameworks)
 - [References](#references)
 
@@ -96,7 +98,11 @@ Update the position of the robot :
 - Self-Driving Cars
 - Trains
 - ...
+### Example of Model Implementation in Matlab - Control Law
 
+```matlab
+fprintf('@TODO\n');
+```
 ### Example of Model Implementation in C language 
 
 - Position
@@ -108,6 +114,9 @@ printf("the new position is : x=%d m and y=%d m\n", x, y);
 ```c
 printf("the new orientation is : Theta=%d degree\n", theta);
 ```
+@TODO
+
+### Example Machine Learning Modeling of Kinematic Model
 @TODO
 
 ## Tools & frameworks
