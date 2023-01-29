@@ -6,7 +6,7 @@ Estimates the robot position relative to a starting location.
 
 <img src="./odos-resources/MobileRobotOdometry.png" width="200" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
-##### [Odometry of a robot; the distance traveled by each of the wheels is identical, but the final positions are different.](#)
+##### [Odometry of a robot - the distance traveled by each of the wheels is identical, but the final positions are different.](#)
 
 ### How it works ? 
 
@@ -43,36 +43,40 @@ Where :
 - $d$  : the movement of the robot
 - $v$ : the speed of the robot
 - $e$ : the gap between the two wheels;
-- ${\displaystyle x_{O}}, {\displaystyle y_{O}}$ and $R$ : center coordinates $O$ of the trajectory circle and its radius. 
+- ${\displaystyle x_{0}}, {\displaystyle y_{0}}$ and $R$ : center coordinates $O$ of the trajectory circle and its radius. 
 
 
 
 ### Direct Model
-- If we assume that the trajectory of the robot is a circle of radius
-$R$ traveled at angular rate $\omega = {\displaystyle \textstyle {\frac {\mathrm {d} \theta }{\mathrm {d} t}}} ( R > 0$,  if the circle is traversed counterclockwise), then we have:
+If we assume that the trajectory of the robot is a circle of radius
+$R$ traveled at angular rate $\omega$ :
 
-${\displaystyle v=R\;{\frac {\mathrm {d} \theta }{\mathrm {d} t}}}$
+$\omega = \frac {\mathrm {d} \theta }{\mathrm {d} t}$ ($R > 0$,  if the circle is traversed counterclockwise) 
+
+Notice :  $v = R\omega$ , then we have:
+
+$\displaystyle v=R{\frac {\mathrm {d} \theta }{\mathrm {d} t}}$
 
 then wheel speeds : 
 
-${\displaystyle \left\{{\begin{matrix}v_{g}&=&\displaystyle (R-{\frac {e}{2}})\;{\frac {\mathrm {d} \theta } {\mathrm {d} t}}&=&\displaystyle (R-{\frac {e}{2}}){\frac {v}{R}}\\v_{d}&=&\displaystyle ( R+{\frac {e}{2}})\;{\frac {\mathrm {d} \theta }{\mathrm {d} t}}&=&\displaystyle (R+{\frac {e}{2 }}){\frac {v}{R}}\end{matrix}}\right.}$
+$\displaystyle \left\{{\begin{matrix}v_{l}&=&\displaystyle (R-{\frac {e}{2}})\;{\frac {\mathrm {d} \theta } {\mathrm {d} t}}&=&\displaystyle (R-{\frac {e}{2}}){\frac {v}{R}}\\v_{r}&=&\displaystyle ( R+{\frac {e}{2}})\;{\frac {\mathrm {d} \theta }{\mathrm {d} t}}&=&\displaystyle (R+{\frac {e}{2 }}){\frac {v}{R}}\end{matrix}}\right.$
 
 
 ### Inverse Model
 
 - The inversion of the previous system gives:
 
-$\left\{{\begin{matrix}v&=&\displaystyle {\frac {v_{g}+v_{d}}{2}}\\R&=&\displaystyle {\frac {e}{2}} \,{\frac {v_{d}+v_{g}}{v_{d}-v_{g}}}\end{matrix}}\right.$
+$\displaystyle \left \{{\begin{matrix}v&=&\displaystyle {\frac {v_{l}+v_{r}}{2}}\\R&=&\displaystyle {\frac {e}{2}} \,{\frac {v_{r}+v_{l}}{v_{r}-v_{l}}}\end{matrix}}\right.$
 
-### Calculation of Odemetry
+### Calculation of Odometry
 
-${\displaystyle \mathrm {d} \theta={\frac {d}{R}}}$
+$\displaystyle \mathrm {d} \theta={\frac {d}{R}}$
 
-${\displaystyle \left\{{\begin{matrix}x_{O}&=&x-R\,\cos(\theta -{\frac {\pi }{2}})\\y_{O}&= &y-R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}}\right.}$
+$\displaystyle \left \{{\begin{matrix}x_{O}&=&x-R\,\cos(\theta -{\frac {\pi }{2}})\\y_{O}&= &y-R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}}\right.$
 
 Update the position of the robot : 
 
-${\displaystyle \left\{{\begin{matrix}\theta &\leftarrow &\theta +\mathrm {d} \theta \\x&\leftarrow &x_{O}+R\,\cos(\theta -{\ frac {\pi }{2}})\\y&\leftarrow &y_{O}+R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}}\right. }$
+$\displaystyle \left \{{\begin{matrix}\theta &\leftarrow &\theta +\mathrm {d} \theta \\x&\leftarrow &x_{O}+R\,\cos(\theta -{\ frac {\pi }{2}})\\y&\leftarrow &y_{O}+R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}}\right. $
 
 ## Applications
 - Robotics
@@ -80,7 +84,13 @@ ${\displaystyle \left\{{\begin{matrix}\theta &\leftarrow &\theta +\mathrm {d} \t
 - Trains
 - ...
 ## Tools & frameworks
-
+- https://en.wikipedia.org/wiki/Classical_mechanics
+- https://en.wikipedia.org/wiki/Kinematics
+- https://en.wikipedia.org/wiki/Rotation_around_a_fixed_axis
+- https://en.wikipedia.org/wiki/Coordinate_system
+- https://en.wikipedia.org/wiki/Algebra
+- https://en.wikipedia.org/wiki/Mathematical_analysis
+- https://en.wikipedia.org/wiki/Trigonometry
 # References 
 - en :
   - Odometry :
