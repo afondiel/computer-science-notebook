@@ -71,24 +71,24 @@ $\displaystyle v=R{\frac {\mathrm {d} \theta }{\mathrm {d} t}}$
 
 then wheel speeds : 
 
-$\displaystyle \left\{{\begin{matrix}v_{l}&=&\displaystyle (R-{\frac {e}{2}})\;{\frac {\mathrm {d} \theta } {\mathrm {d} t}}&=&\displaystyle (R-{\frac {e}{2}}){\frac {v}{R}}\\v_{r}&=&\displaystyle ( R+{\frac {e}{2}})\;{\frac {\mathrm {d} \theta }{\mathrm {d} t}}&=&\displaystyle (R+{\frac {e}{2 }}){\frac {v}{R}}\end{matrix}}\right.$
+>$\displaystyle \begin{matrix} v_{l}&=&\displaystyle (R-{\frac {e}{2}})\;{\frac {\mathrm {d} \theta } {\mathrm {d} t}}&=&\displaystyle (R-{\frac {e}{2}}){\frac {v}{R}} \\v_{r}&=&\displaystyle ( R+{\frac {e}{2}})\;{\frac {\mathrm {d} \theta }{\mathrm {d} t}}&=&\displaystyle (R+{\frac {e}{2 }}){\frac {v}{R}}\end{matrix}$
 
 
 ### Inverse Model
 
 - The inversion of the previous system gives:
 
-$\displaystyle \left \{{\begin{matrix}v&=&\displaystyle {\frac {v_{l}+v_{r}}{2}}\\R&=&\displaystyle {\frac {e}{2}} \,{\frac {v_{r}+v_{l}}{v_{r}-v_{l}}}\end{matrix}}\right.$
+>$\displaystyle \begin{matrix}v&=&\displaystyle {\frac {v_{l}+v_{r}}{2}}\\R&=&\displaystyle {\frac {e}{2}} \,{\frac {v_{r}+v_{l}}{v_{r}-v_{l}}}\end{matrix}$
 
 ### Calculation of Odometry
 
-$\displaystyle \mathrm {d} \theta={\frac {d}{R}}$
+>$\displaystyle \mathrm {d} \theta={\frac {d}{R}}$
 
-$\displaystyle \left \{{\begin{matrix}x_{O}&=&x-R\,\cos(\theta -{\frac {\pi }{2}})\\y_{O}&= &y-R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}}\right.$
+>$\displaystyle \begin{matrix}x_{O}&=&x-R\,\cos(\theta -{\frac {\pi }{2}})\\y_{O}&= &y-R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}$
 
 Update the position of the robot : 
 
-$\displaystyle \left \{{\begin{matrix}\theta &\leftarrow &\theta +\mathrm {d} \theta \\x&\leftarrow &x_{O}+R\,\cos(\theta -{\ frac {\pi }{2}})\\y&\leftarrow &y_{O}+R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}}\right. $
+>$\displaystyle \begin{matrix}\theta &\leftarrow &\theta +\mathrm {d} \theta \\x&\leftarrow &x_{O}+R\,\cos(\theta -{\ frac {\pi }{2}})\\y&\leftarrow &y_{O}+R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}$
 
 ## Applications
 - Robotics
