@@ -17,7 +17,7 @@
 
 Estimates the robot position relative to a starting location.
 
-<img src="./odos-resources/MobileRobotOdometry.png" width="200" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
+<img src="./odo-resources/MobileRobotOdometry.png" width="200" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
 ##### [Odometry of a robot - the distance traveled by each of the wheels is identical, but the final positions are different.](#)
 
