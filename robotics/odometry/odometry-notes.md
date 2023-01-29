@@ -1,5 +1,16 @@
 # Odemetry - Notes 
 
+**Table Of Contents**
+- [What is Odometry ?](#what-is-odometry-)
+  - [How it works ?](#how-it-works-)
+- [Kinematic Model](#kinematic-model)
+  - [Direct Model](#direct-model)
+  - [Inverse Model](#inverse-model)
+  - [Calculation of Odometry](#calculation-of-odometry)
+- [Applications](#applications)
+- [Tools \& frameworks](#tools--frameworks)
+- [References](#references)
+
 ## What is Odometry ?
 
 Estimates the robot position relative to a starting location.
