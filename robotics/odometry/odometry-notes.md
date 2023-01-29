@@ -1,6 +1,7 @@
 # Odemetry - Notes 
 
 **Table Of Contents**
+
 - [What is Odometry ?](#what-is-odometry-)
   - [How it works ?](#how-it-works-)
 - [Kinematic Model](#kinematic-model)
