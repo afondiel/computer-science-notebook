@@ -9,6 +9,7 @@
   - [Inverse Model](#inverse-model)
   - [Calculation of Odometry](#calculation-of-odometry)
 - [Applications](#applications)
+  - [Example of Model Implementation in C language](#example-of-modelimplementation-in-c-language)
 - [Tools \& frameworks](#tools--frameworks)
 - [References](#references)
 
@@ -95,29 +96,52 @@ Update the position of the robot :
 - Self-Driving Cars
 - Trains
 - ...
+
+### Example of Model Implementation in C language 
+
+- Position
+
+```c
+printf("the new position is : x=%d m and y=%d m\n", x, y);
+```
+- Orientation
+```c
+printf("the new orientation is : Theta=%d degree\n", theta);
+```
+@TODO
+
 ## Tools & frameworks
+
+- [kitti](https://www.cvlibs.net/datasets/kitti/eval_odometry.php)
+- [OdoViz: A 3D Odometry Visualization and Processing Tool](https://arxiv.org/pdf/2107.07557.pdf)
+  
+# References 
+en :
+- Odometry :
+  - https://en.wikipedia.org/wiki/Odometry
+- Differential wheeled robot :
+  - https://en.wikipedia.org/wiki/Differential_wheeled_robot
+- Robo-Rats Locomotion Page: 
+  - https://groups.csail.mit.edu/drl/courses/cs54-2001s/locomotion.html
+
+fr 
+- wiki : 
+  - https://fr.wikipedia.org/wiki/Odom%C3%A9trie
+  - https://fr.wikipedia.org/wiki/Portail:Robotique
+  - 
+
+- Positionnement du robot (OLIVIER COCHELIN (COCO) : 
+  - http://manubatbat.free.fr/doc/positionning/Positionning.html
+- http://manubatbat.free.fr/doc/positionning/node5.html
+
+Additional reading and tools
+
 - https://en.wikipedia.org/wiki/Classical_mechanics
 - https://en.wikipedia.org/wiki/Kinematics
 - https://en.wikipedia.org/wiki/Rotation_around_a_fixed_axis
 - https://en.wikipedia.org/wiki/Coordinate_system
+- https://en.wikipedia.org/wiki/Control_engineering
+- https://en.wikipedia.org/wiki/Dynamical_system
 - https://en.wikipedia.org/wiki/Algebra
 - https://en.wikipedia.org/wiki/Mathematical_analysis
 - https://en.wikipedia.org/wiki/Trigonometry
-# References 
-- en :
-  - Odometry :
-    - https://en.wikipedia.org/wiki/Odometry
-  - Differential wheeled robot :
-    - https://en.wikipedia.org/wiki/Differential_wheeled_robot
-  - Robo-Rats Locomotion Page: 
-    - https://groups.csail.mit.edu/drl/courses/cs54-2001s/locomotion.html
-
-- fr 
-  - wiki : 
-    - https://fr.wikipedia.org/wiki/Odom%C3%A9trie
-    - https://fr.wikipedia.org/wiki/Portail:Robotique
-    - 
-  
-  - Positionnement du robot (OLIVIER COCHELIN (COCO) : 
-    - http://manubatbat.free.fr/doc/positionning/Positionning.html
-  - http://manubatbat.free.fr/doc/positionning/node5.html
