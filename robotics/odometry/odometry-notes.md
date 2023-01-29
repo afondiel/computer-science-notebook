@@ -9,7 +9,7 @@
   - [Inverse Model](#inverse-model)
   - [Calculation of Odometry](#calculation-of-odometry)
 - [Applications](#applications)
-  - [Example of Model Implementation in C language](#example-of-modelimplementation-in-c-language)
+  - [Example of Model Implementation in C language](#example-of-model-implementation-in-c-language)
 - [Tools \& frameworks](#tools--frameworks)
 - [References](#references)
 
