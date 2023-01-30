@@ -36,7 +36,7 @@ Estimates the robot position relative to a starting location.
     A[Initial position/location]-->B[Integration of <br>velocity measurements]
     B-->C[Computing of <br> new position/location]
 ```
-
+> This method is sensitive to **errors** due to the integration of velocity measurements over time. But we can use dynamic control model to reduce the errors (Ex : inner-loop technique etc)
 ```
   where : 
     - Initial position/location : O(x_0, y_0, theta_0), center coordinates
