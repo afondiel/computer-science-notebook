@@ -154,3 +154,6 @@ Additional reading and tools
 - https://en.wikipedia.org/wiki/Algebra
 - https://en.wikipedia.org/wiki/Mathematical_analysis
 - https://en.wikipedia.org/wiki/Trigonometry
+
+YT
+- [Configuration and Velocity Constraints - Holonomic vs Nonholonomic](https://www.youtube.com/watch?v=A14ArEZ47LE)
