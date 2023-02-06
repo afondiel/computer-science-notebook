@@ -53,6 +53,8 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 
 https://en.wikipedia.org/wiki/Robotics
 
+https://www.mecharithm.com/holonomic-nonholonomic-constraints-robots/
+
 https://www.ros.org/
 
 https://fr.wikipedia.org/wiki/Robot_Operating_System
