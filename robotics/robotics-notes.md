@@ -33,6 +33,26 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 	- ASIMOV
 	..
 
+## Robots types
+- Mobile : 
+  - AMRs  
+  - AGVs
+  - Humanoids
+  - Hybrids
+
+- Statinary(Fixe) : 
+  - Articulated robots
+  - Cobots
+- Others
+  - Automated vehicles
+    - Differential robots
+    - Unicylce (One road)
+    - Bicycle (two roads and one direction)
+    - self-driving cars ?	
+
+  - Military 
+  - ...
+  
 ## Applications
 - Herding tasks
 - Military robots
@@ -42,6 +62,12 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 - Domestic
 - Nano
 - Swarm
+
+## Robotics companies
+- [Boston Dynamics](https://www.bostondynamics.com/)
+- [Tesla](tesla.com/AI)
+- ...
+
 
 
 ## Tools/frameworks
