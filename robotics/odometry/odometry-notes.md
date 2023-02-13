@@ -44,7 +44,7 @@ Estimates the robot position relative to a starting location.
 ```
 ## Kinematic Model
 
-![Robot Kinematic modeling](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course1-Introduction-to-Self-Driving-Cars/resources/w4/two-wheeled-robot-k-modeling.png)
+<img src="https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course1-Introduction-to-Self-Driving-Cars/resources/w4/two-wheeled-robot-k-modeling.png" width="400" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
 - Allows describe the movement of the robot
 - calculate the global movement of the robot from the odometric measurements
@@ -74,24 +74,47 @@ $\displaystyle v=R{\frac {\mathrm {d} \theta }{\mathrm {d} t}}$
 
 then wheel speeds : 
 
->$\displaystyle \begin{matrix} v_{l}&=&\displaystyle (R-{\frac {e}{2}})\;{\frac {\mathrm {d} \theta } {\mathrm {d} t}}&=&\displaystyle (R-{\frac {e}{2}}){\frac {v}{R}} \\v_{r}&=&\displaystyle ( R+{\frac {e}{2}})\;{\frac {\mathrm {d} \theta }{\mathrm {d} t}}&=&\displaystyle (R+{\frac {e}{2 }}){\frac {v}{R}}\end{matrix}$
+$$
+\begin{matrix}
+v_{l}&=&\displaystyle (R-{\frac {e}{2}})\;{\frac {\mathrm {d} \theta } {\mathrm {d} t}}&=&\displaystyle (R-{\frac {e}{2}}){\frac {v}{R}} \\ 
+v_{r}&=&\displaystyle ( R+{\frac {e}{2}})\;{\frac {\mathrm {d} \theta }{\mathrm {d} t}}&=&\displaystyle (R+{\frac {e}{2 }}){\frac {v}{R}}
+\end{matrix}
+$$
 
 
 ### Inverse Model
 
 - The inversion of the previous system gives:
 
->$\displaystyle \begin{matrix}v&=&\displaystyle {\frac {v_{l}+v_{r}}{2}}\\R&=&\displaystyle {\frac {e}{2}} \,{\frac {v_{r}+v_{l}}{v_{r}-v_{l}}}\end{matrix}$
+$$
+\begin{matrix}
+v&=&\displaystyle {\frac {v_{l}+v_{r}}{2}} \\
+R&=&\displaystyle {\frac {e}{2}} \,{\frac {v_{r}+v_{l}}{v_{r}-v_{l}}}
+\end{matrix}
+$$
 
 ### Calculation of Odometry
 
->$\displaystyle \mathrm {d} \theta={\frac {d}{R}}$
+$$
+\displaystyle \mathrm {d} \theta={\frac {d}{R}}
+$$
 
->$\displaystyle \begin{matrix}x_{O}&=&x-R\,\cos(\theta -{\frac {\pi }{2}})\\y_{O}&= &y-R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}$
+$$
+\begin{matrix}
+x_{O}&=&x-R\,\cos(\theta -{\frac {\pi }{2}}) \\ 
+y_{O}&= &y-R\,\sin(\theta -{\frac {\pi }{2}})
+\end{matrix}
+$$
 
 Update the position of the robot : 
 
->$\displaystyle \begin{matrix}\theta &\leftarrow &\theta +\mathrm {d} \theta \\x&\leftarrow &x_{O}+R\,\cos(\theta -{\ frac {\pi }{2}})\\y&\leftarrow &y_{O}+R\,\sin(\theta -{\frac {\pi }{2}})\end{matrix}$
+$$
+\begin{matrix}
+\theta & \leftarrow &\theta +\mathrm {d} \theta \\
+x&\leftarrow &x_{O}+R\,\cos(\theta -{\ frac {\pi }{2}}) \\
+y&\leftarrow &y_{O}+R\,\sin(\theta -{\frac {\pi }{2}})
+\end{matrix}
+$$
 
 ## Applications
 - Robotics
