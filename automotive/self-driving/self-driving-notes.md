@@ -195,7 +195,15 @@ where  :
 - The open NVIDIA DRIVE Software stack
 - Automotive Data and Time-Triggered Framework(ADTF) audi 
 - [Tesla FSD (Full Self-Driving)](https://www.youtube.com/watch?v=FwT4TSRsiVw)
-- CARLA Simulator
+
+- Self-Driving Car Simulators : 
+  - [CARLA Simulator](https://carla.org/)
+  - [NVIDIA DRIVE Sim - Powered by Omniverse](https://www.youtube.com/watch?v=UoPXzzK_g1Q&embeds_euri=https%3A%2F%2Fdeveloper.nvidia.com%2F&feature=emb_title)
+  - [Udacity self-driving-car simulator with Unity](https://github.com/udacity/self-driving-car-sim)
+  - [OpenAI Gym for RL training](https://gymnasium.farama.org/)
+    - [Deep Reinforcement Learning for autonomous vehicles with OpenAI Gym, Keras-RL in AirSim simulator](https://medium.com/analytics-vidhya/deep-reinforcement-learning-for-autonomous-vehicles-with-openai-gym-keras-rl-in-airsim-simulator-196b51f148e4)
+  - [Microsoft AirSim](https://microsoft.github.io/AirSim/using_car/) 
+
 
 
 # Reference
