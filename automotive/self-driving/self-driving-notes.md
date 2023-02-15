@@ -46,7 +46,7 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 - Automated vehicle path planning
 - Obstacle avoidance
 - autonomous taxis (waymo, uber ...)
-...
+- ...
 
 
 ## Architecture 
@@ -58,16 +58,21 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 ![EM spectrum](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png)
 EM spectrum
 
-The electromagnetic wave is characterized by its `frequency` (F) and its `wavelength` ($\lambda$).
+The electromagnetic wave is characterized by its `frequency` ( $F$ ) and its `wavelength` ( $\lambda$ ).
 
-  >## F = $\frac{1}{T}$ = $\frac{\omega}{2 * pi}$ = $\frac{c}{\lambda}$
+$$
+F = 
+\frac{c}{\lambda}
+$$
 
+```
 Where : 
-- **c** : the speed of light ( $3.10^8$ m/s)
+- c : the speed of light ( $3.10^8$ m/s)
+```
 
-**Sensors family** : 
+**Sensors types for SD** 
 
-- Thermo-Cameras
+- [Thermo-Cameras](#)
 - `Radar`(radio detection and ranging) : Macro objects
     - Long range
     - Short range
@@ -81,7 +86,7 @@ Where :
          a2-.->|R|a1
 ```
 
-- `Lidar`(light detection and ranging) : Micro objects (more precision)
+- `Lidar` (light detection and ranging) : Micro objects (more precision)
 ```mermaid
  graph LR
 
@@ -95,7 +100,9 @@ Where :
   - scan of the environment
 
 
->## D = $\frac{c*t}{2}$
+$$
+D_{L} = \frac{c*t}{2}
+$$
     where  : 
     - D : the distance btw the sensor and the Object
     - c : the speed of light
@@ -108,9 +115,11 @@ Where :
   - Lidar : detect objects in the dimensions more smaller 
     - Range : 10^-3m
     - not very good in bad wheather
-> Radar wavelength is three times greater than Lidar :
-> ## $\lambda R > 3*\lambda L$ 
-> Therefore intended for much biger objects(macro-dimension)
+  - Radar wavelength is three times greater than Lidar : 
+$$
+\displaystyle \lambda_{R} > 3*\lambda_{L}
+$$
+- better for macro-dimension detection or bigger objects 
 
 
 - `Sonar` (Sound waves) 
@@ -122,14 +131,23 @@ Where :
          a2-.->|R|a1
 ```
 
-> ## D = $\frac{V*T}{2}$
-    where  : 
-    - D : the distance btw the sensor and the Object
-    - V : the speed of sound
-    - T : time
+$$
+D_{S} = 
+\frac{V*T}{2}
+$$
+```
+where  : 
+- D : the distance btw the sensor and the Object
+- V : the speed of sound
+- T : time
+```
 
 - `GPS` (Global Positioning System : lat, log)
 - `Odometry`
+
+### Summary of strenght and weakness btw sensors 
+
+![](https://i0.wp.com/semiengineering.com/wp-content/uploads/Ansys_choose-right-sensors-for-AV-table1.png?ssl=1)
 
 ### **Software**
   - Computer vision
