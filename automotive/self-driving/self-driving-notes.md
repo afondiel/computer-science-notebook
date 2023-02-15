@@ -176,7 +176,7 @@ Where :
 ## Tools / Frame works 
 - The open NVIDIA DRIVE Software stack
 - Automotive Data and Time-Triggered Framework(ADTF) audi 
-- Tesla FSD Chip (full self-driving)
+- [Tesla FSD (Full Self-Driving)](https://www.youtube.com/watch?v=FwT4TSRsiVw)
 - CARLA Simulator
 
 
@@ -220,6 +220,8 @@ Sensors :
 - [Maxbotix - Understanding How Ultrasonic Sensors Work](https://www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm#:~:text=Ultrasonic%20sensors%20work%20by%20sending,and%20to%20receive%20the%20echo.)
 
 research papers
+
+- [Self-driving papers](https://www.semanticscholar.org/paper/DARPA-Urban-Challenge-Technical-Paper-Reinholtz-Alberi/c10acd8c64790f7d040ea6f01d7b26b1d9a442db?p2df#related-papers)
 
 - [Autonomous Driving from paperwithcode](https://paperswithcode.com/task/autonomous-driving)
 
