@@ -9,6 +9,9 @@
 
 ## Overview
 
+![signal proc](https://en.wikipedia.org/wiki/Signal_processing#/media/File:Signal_processing_system.png)
+
+
 ```
 Signal processing is an electrical engineering subfield that focuses on analyzing, modifying and synthesizing signals, such as sound, images, potential fields, seismic signals, altimetry processing, and scientific measurement
 ```
