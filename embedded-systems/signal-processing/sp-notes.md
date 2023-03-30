@@ -9,7 +9,7 @@
 
 ## Overview
 
-![signal proc](https://en.wikipedia.org/wiki/Signal_processing#/media/File:Signal_processing_system.png)
+<img src=".\resources\Signal_processing_system.png" width="800" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
 
 ```
