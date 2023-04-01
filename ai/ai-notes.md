@@ -18,12 +18,23 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
 - understanding human speech (such as Siri and Alexa), 
 - self-driving cars (e.g., Tesla), 
 - strategic game systems (such as chess and Go).
+- AI Art
+- Chatbots
 
 ## Tools/frameworks
-
+- Large Language Models (LLM)
+- GPT Models
 - Search algorithm
 - Mathematical optimization 
 - Evolutionary computation ...
+
+## Companies Shaping the AI fields
+- OpenAI
+- DeepMind
+- Google
+- MS
+- Meta 
+- ...
 
 # References 
 
