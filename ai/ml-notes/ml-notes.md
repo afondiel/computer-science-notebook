@@ -1,7 +1,6 @@
-# Machine Learning (ML) notes
+# Machine Learning (ML) - Notes
 
- <img src="https://miro.medium.com/max/720/1*iWJWMeOQmI5kmPMGZ3tovA.jpeg
-" width="600" style="border:0px solid #FFFFFF; padding:5px; margin:2px">
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*iWJWMeOQmI5kmPMGZ3tovA.jpeg)
 
 Src : [towardsdatascience - Hunter Heidenreich](https://towardsdatascience.com/the-future-with-reinforcement-learning-877a17187d54)
 
@@ -52,28 +51,28 @@ ML train
 
 
 ## ML algorithms
-- Supervised : 
-	- Regression : Predicting a continuous-valued attribute associated with an object
-		=> Multiple Linear Regression(MLR)
-		=> Polynomial Regression (PR)
-	- Classification : Identifying which category an object belongs to
-		=> k-Nearest Neighbor
-		=> Decision Trees(ID3, C4.5, C5.0)
-		=> logistic regression
-		=> Naïve Bayes
-		=> Linear Discriminant Analysis
-		=> Neural Networks
-		=> Support Vector Machines (SVM)
-		=> Random Forest(RF)
+- `Supervised` : 
+  - **Regression** : Predicting a continuous-valued attribute associated with an object
+    - Multiple Linear Regression(MLR)
+    - Polynomial Regression (PR)
+  - **Classification** : Identifying which category an object belongs to
+	- k-Nearest Neighbor
+	- Decision Trees(ID3, C4.5, C5.0)
+	- logistic regression
+	- Naïve Bayes
+	- Linear Discriminant Analysis
+	- Neural Networks
+	- Support Vector Machines (SVM)
+	- Random Forest(RF)
 
-- Unsupervised : 
-	- Clustering : Automatic grouping of similar objects into sets.
-		=> k-Means
-		=> Mean-shift
-		=> Hierarchical Clustering (HC)
-		=> Density-based Clustering (DBSCAN)
-		=> Gaussian Mixture Models(GMM)
-- Reinforcement : 
+- `Unsupervised` : 
+	- **Clustering** : Automatic grouping of similar objects into sets.
+		- k-Means
+		- Mean-shift
+		- Hierarchical Clustering (HC)
+		- Density-based Clustering (DBSCAN)
+		- Gaussian Mixture Models(GMM)
+- `Reinforcement` : 
 	- Q-Learning
 	- Deep Q-Network (DQN)
 	- A3C
@@ -90,23 +89,23 @@ ML train
 ## ML Problem solving in 7 steps
 
 1. GATHERING / COLLECTING DATA : The more data we collect the more accurate will the model.
-- we collect datas to train the model of the system we want to deploy
+- We collect datas to train the model of the system we want to deploy
 
 2. DATA PREPARATION : 
 
 	- Features ? : the input of the system
 	- Labels ? : the output of the system 
-	
-			----------------------------------
-			| 		Features 	    | Labels|	
-			----------------------------------
-			|	x1	|	x2	|	xn	|	y1	|
-			----------------------------------
-			|	..	|	..	|	..	|	..	|
-			----------------------------------
-			| xn,m |		|		|	yn,m|
-			----------------------------------
-			
+	```
+		----------------------------------
+		| 		Features 	    | Labels|	
+		----------------------------------
+		|	x1	|	x2	|	xn	|	y1	|
+		----------------------------------
+		|	..	|	..	|	..	|	..	|
+		----------------------------------
+		| xn,m |		|		|	yn,m|
+		----------------------------------
+	```		
 	- visualization of datas
 	- balances, relationship between datas
 	- split : training/evaluation(performance of the model)
@@ -122,17 +121,17 @@ ML train
 	- m : SLope (many m possible, as many features)
 	- X : input
 	- b : Y-intercept
-	
-					[m1,1 m1,2] 
-			Weight = [m2,1 m2,2] 
-					[m3,1 m3,2]
-					
-					[b1,1 b1,2] 
-			biases = [b2,1 b2,2] 
-					[b3,1 b3,2] 
-			 
+	```
+				[m1,1 m1,2] 
+		Weight = [m2,1 m2,2] 
+				[m3,1 m3,2]
+				
+				[b1,1 b1,2] 
+		biases = [b2,1 b2,2] 
+				[b3,1 b3,2] 
+	```		 
 	Training process
-	
+	```
 		|--------|			|-----------| 		|-----------|
 		|        |          |   Model 	|       | 		    |
 		|Training|    =>    |   (W,b)   |	=>  |Prediction |
@@ -144,7 +143,7 @@ ML train
 			||		<=		|Test/update|	<=
 							| (W,b)	    |	
 							|-----------|	
-
+	```
 
 Each iteration it's called, a training steps.
 
@@ -155,7 +154,7 @@ Each iteration it's called, a training steps.
 
 5. EVALUATION : after the model is good time to evaluate
 
-
+```
 		|----------|		 |-----------| 		 |------------|
 		|          |         |   Model 	 |       | 		      |
 		|EVALUATION|  =>     |   (W,b)   |	=>   | Prediction |
@@ -167,7 +166,7 @@ Each iteration it's called, a training steps.
 			||		<=		|Test       |	<=
 							| (W,b)	    |	
 							|-----------|	
-
+```
 
 This metric allows the model to see the data that has not yet seen.
 This is to test how the model might act in the real world
