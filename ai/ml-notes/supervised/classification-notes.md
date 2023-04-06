@@ -1,17 +1,22 @@
-//////// Classification Notes //////////
+# Classification Notes
 
+## Overview
 - Predictive modeling approximates a mapping function which predicts the class or category far a given observation. 
 
-# Linear Model
-                +-----------+        
-X(xi,xi') ====> |    Model  | ====> Classified(xi, xi')  
-                +-----------+        features   
+## Linear Model
 
+```
+                +-----------+        
+X(x1,x2) ====> |    Model  | ====> Classified(x1, x2)  
+                +-----------+        features   
+```
 - where : 
-    =>xi : classe1/label1
-    =>xi' : classe2/label2
+  - x1 : classe1/label1/target1
+  - x2 : classe2/label2/target2
 
 Ex:  Diabet classification model
+
+```
 - high bloods sugar levels  <=> old age
         |                           |
         v                           v
@@ -20,10 +25,11 @@ Ex:  Diabet classification model
         v                           v
 - diabet task               <=> diabetic risk 
 
-- labels to classify : no disease, disease 
+```
+- labels to classify : [no disease, disease] 
 
-## Prediction(scoring)
-- if new person (classified input) is below the line (model) then we estmated it its "no disease" class according to previous data locationn
+**Prediction(scoring)**
+- if new person (classified input) is below the line (model) then we estimated it its `no disease` class according to previous data locationn
 
 
 ## Type of classification models
@@ -35,6 +41,10 @@ Ex:  Diabet classification model
 
 
 # References
-https://en.wikipedia.org/wiki/Statistical_classification
-https://machinelearningmastery.com/types-of-classification-in-machine-learning/
-https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501?gi=560bc277d5fd
+
+Notes From : [The Complete Self-Driving Car Course Applied Deep-Learning - Udemy - Notes](https://github.com/afondiel/The-Complete-Self-Driving-Car-Course-Udemy/blob/main/self-driving-cars-dl-notes.md)
+
+- [Classification - wikipedia](https://en.wikipedia.org/wiki/Statistical_classification)
+- [Types of classification in machine-learning](https://machinelearningmastery.com/types-of-classification-in-machine-learning/)
+- [Top machine-learning algorithms for classification](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501?gi=560bc277d5fd)
+
