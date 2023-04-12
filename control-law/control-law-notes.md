@@ -13,8 +13,9 @@ Control theory is a field of control engineering and applied mathematics that de
 - Vehicle Control Dynamics
 
 
-## Control system design overview
+## Control system design
 
+![](https://slideplayer.com/slide/15695839/88/images/18/5.+Control+System+Design+6+Steps.jpg)
 
 ## Tools & Frameworks
 - Matlab
