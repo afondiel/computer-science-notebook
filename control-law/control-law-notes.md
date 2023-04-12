@@ -16,7 +16,6 @@ Control theory is a field of control engineering and applied mathematics that de
 ## Control system design overview
 
 
-
 ## Tools & Frameworks
 - Matlab
 - Walfram
@@ -30,9 +29,13 @@ Control theory is a field of control engineering and applied mathematics that de
 
 # References
 
-
 - Wikipedia: 
+  - [Control Engineering](https://en.wikipedia.org/wiki/Category:Control_engineering)
   - [Control Theory](https://en.wikipedia.org/wiki/Control_theory)
+  - [Model Based Design (MBD)](https://en.wikipedia.org/wiki/Model-based_design)
+
 - [Control Law from Predictive Control book by Daniel Lequesne](https://www.sciencedirect.com/topics/engineering/control-law)
 - [Vehicle Dynamics Control books by Rajesh Rajamani 2012](https://github.com/afondiel/cs-books/blob/main/automotive/self-driving-cars/vehicle-dynamics-and-control-2nd-edition-rajesh-rajamani-2012.pdf)
 - [A Control Law Design Method by NASA](./resources/A%20Control%20Law%20Design%20Method%20Facilitating-CRAFT-NASA.pdf)
+
+
