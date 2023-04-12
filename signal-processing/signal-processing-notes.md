@@ -45,6 +45,8 @@ Signal processing is an electrical engineering subfield that focuses on analyzin
 
 ## State estimation
 
+- [State Estimation and Localization for Self-Driving Cars](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/tree/main/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars)
+
 ## Tools & frameworks
 
 - Matlab
