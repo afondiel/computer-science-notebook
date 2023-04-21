@@ -39,7 +39,7 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 
 ## Applications
-- increase road Safety 
+- Increase road Safety 
 - Vehicle automation in different fields
 - Landmark assistance in local positioning systems
 - Control of the automated vehicle
@@ -51,11 +51,12 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 ## Architecture 
 
-### **Hardware**
+### Hardware
 - Sensors : each sensor operates in a different frequency based on EM spectrum.
     - There are two categories of sensors: `active sensors` and `passive sensors`
 
 ![EM spectrum](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png)
+
 EM spectrum
 
 The electromagnetic wave is characterized by its `frequency` ( $F$ ) and its `wavelength` ( $\lambda$ ).
@@ -99,10 +100,11 @@ Where :
   - 3D mapping
   - scan of the environment
 
+$$
+\displaystyle D_{L} = 
+\frac{c*t}{2}
+$$
 
-$$
-D_{L} = \frac{c*t}{2}
-$$
     where  : 
     - D : the distance btw the sensor and the Object
     - c : the speed of light
@@ -145,31 +147,31 @@ where  :
 - `GPS` (Global Positioning System : lat, log)
 - `Odometry`
 
-### Summary of strenght and weakness btw sensors 
+### Sensors strenght and weakness  
 
 ![](https://i0.wp.com/semiengineering.com/wp-content/uploads/Ansys_choose-right-sensors-for-AV-table1.png?ssl=1)
 
-### **Software**
+### Software
   - Computer vision
   - Deep learning (CNN ...)
   - NVIDIA 
     - [self-driving platform software](https://www.nvidia.com/en-us/self-driving-cars/drive-platform/software/)
 
-## **Suppilers** 
+## Suppilers
   - NVIDIA : ECU/GPUs
   - DENSO 
   - CONTINENTAL
   - DELPHI
 
-## **OEMS** : 
+## OEMS: 
   - Tesla 
   - Mercedes-Benz
   - Toyota
   - Ford 
   - Ford 
 
-## **Tech**
-  - waymo 
+## Tech
+  - Waymo 
   - Apple 
   - Samsung
   - ... 
@@ -188,10 +190,10 @@ where  :
 - ElectraMeccanica
 - Black Sesame
 - Tesla
-- nvidia
+- Nvidia
 
 
-## Tools / Frame works 
+## Tools & Frameworks 
 - The open NVIDIA DRIVE Software stack
 - Automotive Data and Time-Triggered Framework(ADTF) audi 
 - [Tesla FSD (Full Self-Driving)](https://www.youtube.com/watch?v=FwT4TSRsiVw)
@@ -203,8 +205,6 @@ where  :
   - [OpenAI Gym for RL training](https://gymnasium.farama.org/)
     - [Deep Reinforcement Learning for autonomous vehicles with OpenAI Gym, Keras-RL in AirSim simulator](https://medium.com/analytics-vidhya/deep-reinforcement-learning-for-autonomous-vehicles-with-openai-gym-keras-rl-in-airsim-simulator-196b51f148e4)
   - [Microsoft AirSim](https://microsoft.github.io/AirSim/using_car/) 
-
-
 
 # Reference
 
@@ -245,7 +245,7 @@ where  :
 Sensors : 
 - [Maxbotix - Understanding How Ultrasonic Sensors Work](https://www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm#:~:text=Ultrasonic%20sensors%20work%20by%20sending,and%20to%20receive%20the%20echo.)
 
-research papers
+Research papers: 
 
 - [Self-driving papers](https://www.semanticscholar.org/paper/DARPA-Urban-Challenge-Technical-Paper-Reinholtz-Alberi/c10acd8c64790f7d040ea6f01d7b26b1d9a442db?p2df#related-papers)
 
