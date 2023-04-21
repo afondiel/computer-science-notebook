@@ -10,7 +10,7 @@ An embedded system is a computer system—a combination of a computer processor,
 
 - Robotics
 - Automotive
-- Telecommunitions
+- Telecommunications
 - Electronic devices (Smart-phone, washing machines ...)
 
 ## Tools and Frameworks
