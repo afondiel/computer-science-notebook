@@ -29,7 +29,7 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 	- Marge (university of Oxiford)
 	- ELIZA
 - Medecine : 
-	- human desibility assitance (help users with limited arms/legs do 
+	- human desibility assitance (help users with limited arms/legs do)
 	- ASIMOV
 	..
 
@@ -77,19 +77,21 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 
 ## References 
 
-https://en.wikipedia.org/wiki/Robotics
+Wikipedia :  
+- [Robotics](https://en.wikipedia.org/wiki/Robotics)
 
-https://www.mecharithm.com/holonomic-nonholonomic-constraints-robots/
+ROS : 
 
-https://www.ros.org/
+- https://www.ros.org/
+- https://fr.wikipedia.org/wiki/Robot_Operating_System
 
-https://fr.wikipedia.org/wiki/Robot_Operating_System
+NVIDIA : 
+- [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/training/)
+- [NVIDIA CNN course](https://developer.nvidia.com/discover/convolutional-neural-network)
 
-NVIDIA Deep Learning Institute : 
-https://www.nvidia.com/en-us/training/
+[Holonomic-nonholonomic-constraints-robot](https://www.mecharithm.com/holonomic-nonholonomic-constraints-robots/)
 
-NVIDIA CNN course : 
-https://developer.nvidia.com/discover/convolutional-neural-network
+[STATE ESTIMATION FOR ROBOTICS by Timothy D. Barfoot](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/31b9199a9fb46fac5dc1c68af0702ae8e1cd233c/Course2-State-Estimation-and-Localization-for-Self-Driving-Cars/resources/w3/doc/STATE-ESTIMATION-FOR-ROBOTICS-Timothy-D.-Barfoot.pdf)
 
 
 
