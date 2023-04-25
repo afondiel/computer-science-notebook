@@ -51,7 +51,7 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 ## Architecture 
 
-![VA archi]("./resources/A-typical-autonomous-vehicle-system-overview-highlighting-core-competencies-Based-on.png")
+![VA archi](./resources/A-typical-autonomous-vehicle-system-overview-highlighting-core-competencies-Based-on.png)
 
 ### Hardware
 - Sensors : each sensor operates in a different frequency based on EM spectrum.
