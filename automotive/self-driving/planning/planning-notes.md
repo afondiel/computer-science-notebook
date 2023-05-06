@@ -11,14 +11,16 @@
 
 ![planning](https://media.licdn.com/dms/image/C5612AQGM2cTqtwJuIg/article-inline_image-shrink_1000_1488/0/1521484871946?e=1688601600&v=beta&t=-QnQ14zWi4LA3MWEWb6np9qu-6QFJbhhXlaU7ChRmYY)
 
-Planning Layers : 
+## Planning Architecture Pipeline
+
 - `Mission planning` : which street to take to achieve a mission goal. 
 - `Behavioral planning` : when to change lanes and precedence at intersections and performs error recovery maneuvers.
 - `Motion planning` : selects actions to avoid obstacles while making progress
 toward local goals
 
 
-Planning multiple dimensions : 
+**Planning multiple dimensions**
+
 - Location
 - Orientation
 - Direction of travel (DoT)
@@ -29,6 +31,7 @@ Planning multiple dimensions :
 - Robotics
 
 ## Tools and Frameworks
+
 Sensors : 
 - GPS
 - IMU
@@ -105,8 +108,10 @@ algorithm Kruskal(G) is
 
 ![bfs](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course4-Motion-Planning-for-Self-Driving-Cars/resources/w3/img/l1-bfs0.png?raw=true)
 
-- Others Algorithms 
-  - Suboptimal A* search.
+**Others Algorithms** 
+- **Depth-First Search (DFS)** uses a last-in-first-out (LIFO) stack instead of a queue for the open set. 
+- Suboptimal A* search.
+- ...
 
 # References
 
