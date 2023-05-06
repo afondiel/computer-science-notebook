@@ -8,21 +8,23 @@
 
 
 ## What's planning ? 
-![](https://media.licdn.com/dms/image/C5612AQGM2cTqtwJuIg/article-inline_image-shrink_1000_1488/0/1521484871946?e=1678924800&v=beta&t=pkrKCMAM76QDzEgzLKn-acdrjFGivPKiW158OEJUqgQ)
+
+![planning](https://media.licdn.com/dms/image/C5612AQGM2cTqtwJuIg/article-inline_image-shrink_1000_1488/0/1521484871946?e=1688601600&v=beta&t=-QnQ14zWi4LA3MWEWb6np9qu-6QFJbhhXlaU7ChRmYY)
 
 Planning Layers : 
-- mission planning : which street to take to achieve a mission goal. 
-- behavioral planning : when to change lanes and precedence at intersections and performs error recovery maneuvers.
-- motion planning : selects actions to avoid obstacles while making progress
+- `Mission planning` : which street to take to achieve a mission goal. 
+- `Behavioral planning` : when to change lanes and precedence at intersections and performs error recovery maneuvers.
+- `Motion planning` : selects actions to avoid obstacles while making progress
 toward local goals
 
 
 Planning multiple dimensions : 
 - Location
 - Orientation
-- Direction of travel
+- Direction of travel (DoT)
   
 ## Applications
+
 - Self-driving vehicles
 - Robotics
 
@@ -30,12 +32,13 @@ Planning multiple dimensions :
 Sensors : 
 - GPS
 - IMU
-- Lidar
+- LiDAR
 ... 
 
 ### Motion Planning algorithms
 
-- A* (star) search 
+**A\* (star) Search**
+
 ```
 OPEN<-{1}
 past_cost[1]<-0, past_cost[node]<-infinity for node €{2,...,N} 
@@ -57,7 +60,8 @@ while OPEN is not empty do
 end while
 return FAILURE
 ```
-- Dijkstra
+
+**Dijkstra**
 
 ```
  1  function Dijkstra(Graph, source):
@@ -82,8 +86,8 @@ return FAILURE
 ```
   - [C-Implementation](https://github.com/afondiel/research-notes/tree/master/programming/data%20structures/graph)
 
+**Kruskal's algorithm ?**
 
-- Kruskal's algorithm ? 
 ```
 algorithm Kruskal(G) is
     F:= ∅
@@ -95,15 +99,19 @@ algorithm Kruskal(G) is
             UNION(FIND-SET(u), FIND-SET(v))
     return F
 ```
-  - [C implementation](https://github.com/afondiel/research-notes/tree/master/programming/data%20structures/graph)
+- [C implementation](https://github.com/afondiel/research-notes/tree/master/programming/data%20structures/graph)
   
+**Breadth First Search (BFS)**
+
+![bfs](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course4-Motion-Planning-for-Self-Driving-Cars/resources/w3/img/l1-bfs0.png?raw=true)
+
 - Others Algorithms 
-  - Breadth-first search(BFS)
   - Suboptimal A* search.
-  - 
+
 # References
 
-- [Machine planning](https://en.wikipedia.org/wiki/Machine_planning)
+- [Motion planning](https://en.wikipedia.org/wiki/Motion_planning)
+- [Motion Planning - Self-Driving Cars Specialization of University of Toronto](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/tree/main/Course4-Motion-Planning-for-Self-Driving-Cars)
 - [Boss Autonomous Driving](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course1-Introduction-to-Self-Driving-Cars/resources/Boss-autonomous-driving-pres-DARPA-Urban-Challenge-2007-by-journal-of-robotics-2008.pdf)
 
  - [Perception Planning and Control for Self-Driving System Based on On-board Sensors](https://www.researchgate.net/publication/344734310_Perception_Planning_and_Control_for_Self-Driving_System_Based_on_On-board_Sensors/link/609c9edd299bf1259ece7fe0/download)
