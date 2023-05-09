@@ -54,14 +54,20 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 ![VA archi](./resources/A-typical-autonomous-vehicle-system-overview-highlighting-core-competencies-Based-on.png)
 
 ### Hardware
-- Sensors : each sensor operates in a different frequency based on EM spectrum.
-    - There are two categories of sensors: `active sensors` and `passive sensors`
 
-![EM spectrum](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png)
+#### Sensors
+
+- Each sensor operates in a different frequency based on EM spectrum.
+
+- There are two categories of sensors: `active sensors` and `passive sensors`
+
+![passive-and-active-sensors](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png)
 
 EM spectrum
 
-The electromagnetic wave is characterized by its `frequency` ( $F$ ) and its `wavelength` ( $\lambda$ ).
+![EM spectrum](./resources/EM_spectrum_full.jpg)
+
+The electromagnetic radiation (EMR) is characterized by its `frequency` ( $F$ ) and its `wavelength` ( $\lambda$ ).
 
 $$
 F = 
@@ -73,15 +79,33 @@ Where :
 - c : the speed of light ( $3.10^8$ m/s)
 ```
 
-**Sensors types for SD** 
+**Sensors category** 
 
-- [Thermo-Cameras](#)
+- `Cameras`: passive & light-collecting sensors that are used for capturing rich detailed information about a scene. Also essential for correctly perceiving.
+    - Comparison metrics:
+      - `Resolution` (quality of the image) : number of pixels that create the image (l x w)
+      - `Field of view (FOV)` : the horizontal and vertical angular extent that is *visible* to the camera (depending lens selection and zoom)
+      - `Dynamic Range` : the difference btw the **darkest** and **lightest** tones in an image
+        - High Dynamic range (HDR) is essential for self-driving vehicles to navigate in variable lighting conditions, particularly at night.
+    - Trade-off btw resolution and FOV ?
+      - Wilder `field of view` allows a larger viewing region in the environment but fewer pixels that absorb light from one particular object
+      - FOV increases, the resolution needs to be increases as well, to still be able to perceive with the same quality
+      - other properties that affect perception : 
+        - focal length, depth of field and frame rate
+        - further explanation **on course 3 : visual perception**
+    - Cameras types :
+      - Exteroceptive STEREO Camera: the combination of two cameras with overlapping FOVs and aligned image planes.
+      - enables depth estimation from image data (synchronized image pairs)
+      - Pixel values from image can be matched to the other image producing a disparity map of the scene then be used to estimate depth at each pixel
+
+
 - `Radar`(radio detection and ranging) : Macro objects
     - Long range
     - Short range
-  - Range : 
-    - F : < 300GHz
-    - $\lambda$ : >= 1mm
+  - Metrics :
+    - Range : 
+      - F : < 300GHz
+      - $\lambda$ : >= 1mm
 ```mermaid
  graph LR
 
@@ -111,19 +135,6 @@ $$
     - D : the distance btw the sensor and the Object
     - c : the speed of light
     - t : time
-  
-`RADAR vs LIDAR`
-  - Radar : the detection of the object increases as the size of this one
-    - Range  : 10^-3m
-    - very good in case of bad wheather
-  - Lidar : detect objects in the dimensions more smaller 
-    - Range : 10^-3m
-    - not very good in bad wheather
-  - Radar wavelength is three times greater than Lidar : 
-$$
-\displaystyle \lambda_{R} > 3*\lambda_{L}
-$$
-- better for macro-dimension detection or bigger objects 
 
 
 - `Sonar` (Sound waves) 
@@ -151,7 +162,20 @@ where  :
 
 ### Sensors strenght and weakness  
 
-![](https://i0.wp.com/semiengineering.com/wp-content/uploads/Ansys_choose-right-sensors-for-AV-table1.png?ssl=1)
+![sensor for AV](https://i0.wp.com/semiengineering.com/wp-content/uploads/Ansys_choose-right-sensors-for-AV-table1.png?ssl=1)
+
+`RADAR vs LIDAR`
+  - Radar : the detection of the object increases as the size of this one
+    - Range  : 10^-3m
+    - very good in case of bad wheather
+  - Lidar : detect objects in the dimensions more smaller 
+    - Range : 10^-3m
+    - not very good in bad wheather
+  - Radar wavelength is three times greater than Lidar : 
+$$
+\displaystyle \lambda_{R} > 3*\lambda_{L}
+$$
+- better for macro-dimension detection or bigger objects 
 
 ### Software
   - Computer vision
@@ -246,6 +270,7 @@ where  :
 
 Sensors : 
 - [Maxbotix - Understanding How Ultrasonic Sensors Work](https://www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm#:~:text=Ultrasonic%20sensors%20work%20by%20sending,and%20to%20receive%20the%20echo.)
+- [Self-Driving Hardware and Software Architectures](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course1-Introduction-to-Self-Driving-Cars/course1-w2-notes.md)
 
 Research papers: 
 
