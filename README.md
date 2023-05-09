@@ -13,7 +13,7 @@ As `Henry Ford` once said : "Anyone who keeps learning stays young." Therefore, 
 
 The motivation behind this project is to build a kind of `Whole "Software Engineering" Catalogue` for any industry.
 
-The main idea is to create a `Hello World` resources input for any Software Engineer or Computer Scientist either newbies or advanced and most exprienced programmers. 
+The main idea is to create a `Hello World` input resource for any Software Engineer or Computer Scientist either a newbie or an advanced and more exprienced programmer. 
 
 ## Notes 
 
