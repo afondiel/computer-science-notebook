@@ -1,17 +1,25 @@
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/afondiel/research-notes)
-
+![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/research-notes) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/afondiel/research-notes) 
 # Research Notes
 
 ## Overview
 
-Software Engineering & Computer Science resources documentation from requirements, design, programming language to testing.
-There is also some research papers and notebooks about AI, ML, DL, NLP, IoT, robotics and much more.
+Throughout my consulting job as Software Engineer I had a chance to work with many clients from different industries such as Automobile safety & comfort, electrification and sustainable innovations to Agriculture, etc. 
 
-## Goal
+There I decided to take some notes of skills needed but also the drawbacks I encontered as Software Engineering & Computer Science resources. 
 
-The main goal of this project is to build a `Hello World` resource for any of the [Topics](#popics) below and make it fun & ease to understand for every Software Engineer or Computer Scientist who wants to start a computer science exploration around fun subjects.
+As `Henry Ford` once said : "Anyone who keeps learning stays young." Therefore, I strongly believe Knowledge and Education should be `Free` for anyone if we want to build a better and more equitable world. 
 
-## Topics
+## Motivation
+
+The motivation behind this project is to build a kind of `Whole "Software Engineering" Catalogue` for any industry.
+
+The main idea is to create a `Hello World` resources input for any Software Engineer or Computer Scientist either newbies or advanced and most exprienced programmers. 
+
+## Notes 
+
+From requirements, design, programming language to testing. You also find some research papers and notebooks about AI, ML, DL, NLP, IoT, robotics and much more.
+
+## Topics & Industries
 - [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 - [ai](https://github.com/afondiel/research-notes/tree/master/ai)
 - [automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
@@ -39,11 +47,8 @@ The main goal of this project is to build a `Hello World` resource for any of th
 
 ## Contributions
 
-Feel free to PR or to leave any suggestion
+There are still more topics and industry to be added, so feel free to PR or leave any suggestion
 
-Cheers and See you there or somewhere! 
+Cheers! 
 
 @afondiel
-
-
-> "Anyone who keeps learning stays young." - Henry Ford
