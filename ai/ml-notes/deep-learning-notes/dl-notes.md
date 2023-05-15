@@ -139,15 +139,16 @@ Evaluation :
       - the depth of NN
 
 
-## Tools / frameworks
+## Tools & frameworks
 
 - TensoFlow (Google)
+- Pytorch (Facebook)
 - Microsoft Cognitive Toolkit (CNTK) 
 - Theano (LISA Lab - Mila institute - University of Montreal)
-- torch (Facebook)
 - Keras : deeplearning tool running on the top of TF, CNTK and Theano ... 
 - MXNet (Apache)
 - Caffe (Berkeley Artificial Intelligence Research (BAIR))
+- [Fastai](https://www.fast.ai/)
 
 ## DL Glossary
 
