@@ -51,4 +51,4 @@ There are still more topics and industry to be added, so feel free to PR or leav
 
 Cheers! 
 
-@afondiel
+[@afondiel](https://github.com/afondiel)
