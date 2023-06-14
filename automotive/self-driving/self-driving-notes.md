@@ -238,6 +238,7 @@ $$
   - [Self-driving_car](https://en.wikipedia.org/wiki/Self-driving_car)
   - [Robotaxi](https://en.wikipedia.org/wiki/Robotaxi)
 
+- [self-driving car engineer roadmap from thinkautonomous](https://courses.thinkautonomous.ai/self-driving-cars)
 - [Applications & technologies self-driving vehicles](http://www.freelancerobotics.com.au/technological-articles/overview-techniques-applications-autonomous-vehicles/)
 
 - [Autonomous Driving Software in Europe](https://sourceforge.net/software/autonomous-driving/europe/)
