@@ -13,13 +13,15 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
 
 ## Applications
 
-- AI applications include advanced web search engines (e.g., Google), 
+- Advanced web search engines (e.g., Google), 
 - recommendation systems (used by YouTube, Amazon and Netflix), 
 - understanding human speech (such as Siri and Alexa), 
 - self-driving cars (e.g., Tesla), 
 - strategic game systems (such as chess and Go).
 - AI Art
 - Chatbots
+- Healthcare
+- ...
 
 ## Tools/frameworks
 - Large Language Models (LLM)
@@ -38,7 +40,7 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
 
 # References 
 
-- wikipedia
+- Wikipedia resources
   - https://en.wikipedia.org/wiki/Cognitive_science
   - https://en.wikipedia.org/wiki/Artificial_intelligence
   - https://en.wikipedia.org/wiki/Cognitive_psychology#Neisser
@@ -71,8 +73,10 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
   - [UC Berkeley - CS188 Intro to AI -- Course Materials](http://ai.berkeley.edu/lecture_slides.html) 
   - [Stanford CS221 - Overview Artificial Intelligence Course | Stanford CS221: Learn AI (Autumn 2019)](https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
 
-- School work : 
+  - [AI Esssentials - IBM youtube videos](https://www.youtube.com/watch?v=9gGnTQTYNaE&list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF)
+  
+
+- Research School Work : 
   - [Strong AI - 2016](https://github.com/afondiel/research-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
   
 - [Papers](#)
-  
