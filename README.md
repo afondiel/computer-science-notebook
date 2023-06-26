@@ -1,23 +1,24 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/research-notes) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/afondiel/research-notes) 
+![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/research-notes) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/research-notes/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/research-notes.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/research-notes.svg) 
+
 # Research Notes
 
 ## Overview
 
 Throughout my consulting job as Software Engineer I had a chance to work with many clients from different industries such as Automobile safety & comfort, electrification and sustainable innovations to Agriculture, etc. 
 
-There I decided to take some notes of skills needed but also the drawbacks I encontered as Software Engineering & Computer Science resources. 
-
-As `Henry Ford` once said : "Anyone who keeps learning stays young." Therefore, I strongly believe Knowledge and Education should be `Free` for anyone if we want to build a better and more equitable world. 
+I decided to gather some notes from my personal experiences and projects about those essential resources that any Software Engineer should have when working in any industry. This includes : skills, tools, drawbacks, etc. 
 
 ## Motivation
 
 The motivation behind this project is to build a kind of `Whole "Software Engineering" Catalogue` for any industry.
 
-The main idea is to create a `Hello World` input resource for any Software Engineer or Computer Scientist either a newbie or an advanced and more exprienced programmer. 
+The main idea behind this project is to an "hello world" documentation for anyone who want to start a career in Computer Science & Software Engineering either you are a newbie or an advanced programmer. 
+
+As a Lifelong-Learner and someone who supports Free Knowledge/Education, I hope you may find this helpful as I do.
 
 ## Notes 
 
-From requirements, design, programming language to testing. You also find some research papers and notebooks about AI, ML, DL, NLP, IoT, robotics and much more.
+From requirements, design, programming language to testing. You also find some research papers and notebooks about AI, [LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics and much more.
 
 ## Topics & Industries
 - [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
@@ -45,9 +46,21 @@ From requirements, design, programming language to testing. You also find some r
 - [vcs](https://github.com/afondiel/research-notes/tree/master/vcs)
 - [web](https://github.com/afondiel/research-notes/tree/master/web)
 
-## Contributions
 
-There are still more topics and industry to be added, so feel free to PR or leave any suggestion
+## Contributing
+
+There are still lots of topics and industry to be added, so feel free to submit a PR if you have any suggestion or any kind of idea that may help this project to grow.
+
+Please refer to [contributing guidelines](./CONTRIBUTING.md) for more infos how to contribute.
+
+`@TODO-List: `
+
+```
+- add guidelines of "essential resources to get into a specific any industry/company"
+- add MIT LICENSE
+- add more Industies : Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...   
+```
+
 
 Cheers! 
 
