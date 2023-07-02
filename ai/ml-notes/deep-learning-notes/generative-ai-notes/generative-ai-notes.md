@@ -19,7 +19,8 @@ Generative artificial intelligence or generative AI is a type of artificial inte
 
 
 ## Tool & Frameworks
-
+- Autoencoder Variational Autoencoder (VAE)
+- Generative Adversarial Network (GAN)
 - ChatGPT 
 - Bing Chat (OpenAI using their GPT-3 and GPT-4 based on large language models)
 - Bard chatbot (Google using their LaMDA foundation model) 
@@ -74,3 +75,6 @@ NVIDIA :
 
 IBM - AI Essentials : 
 - https://www.youtube.com/watch?v=9gGnTQTYNaE&list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF
+
+Lectures : 
+  - [Lecture 13 | Generative Models - Fei-Fei Li & Justin Johnson & Serena Yeung - 2017](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf)
