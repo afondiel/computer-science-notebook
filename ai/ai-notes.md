@@ -75,7 +75,12 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
 
   - [AI Esssentials - IBM youtube videos](https://www.youtube.com/watch?v=9gGnTQTYNaE&list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF)
   
+- Certificates : 
+	- Code Spaces : https://www.codespaces.com/best-artificial-intelligence-courses-certifications.html
 
+	- Geektonight : https://www.geektonight.com/best-artificial-intelligence-courses/
+	- Javin Paul medium article : https://medium.com/javarevisited/10-best-coursera-certifications-courses-for-machine-learning-and-artificial-intelligence-256d9a125822
+ 
 - Research School Work : 
   - [Strong AI - 2016](https://github.com/afondiel/research-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
   
