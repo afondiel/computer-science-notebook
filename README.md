@@ -4,9 +4,9 @@
 
 ## Overview
 
-Throughout my consulting job as Software Engineer I had a chance to work with many clients from different industries such as Automobile, safety & comfort, electrification & sustainable innovations to Agriculture, etc. 
+Throughout my consulting job as Software Engineer I had a chance to work with many clients from different industries such as Automotive, safety & comfort, electrification & sustainable innovations to Agriculture, etc. 
 
-I decided to gather some notes from my personal experiences and projects about some essential resources that any Software Engineer should have while working in any industry. This includes skills, tools, drawbacks, etc. 
+I decided to gather some valuable resources from my personal experiences and projects that any Software Engineer looking to get into any tech industry. Even for those who are already working these resources might also be useful. This includes skills, tools, drawbacks, etc. 
 
 ## Motivation
 
