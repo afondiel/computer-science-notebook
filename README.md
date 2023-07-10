@@ -4,13 +4,13 @@
 
 ## Overview
 
-Throughout my consulting job as Software Engineer I had a chance to work with many clients from different industries such as Automobile safety & comfort, electrification and sustainable innovations to Agriculture, etc. 
+Throughout my consulting job as Software Engineer I had a chance to work with many clients from different industries such as Automobile, safety & comfort, electrification & sustainable innovations to Agriculture, etc. 
 
-I decided to gather some notes from my personal experiences and projects about those essential resources that any Software Engineer should have when working in any industry. This includes : skills, tools, drawbacks, etc. 
+I decided to gather some notes from my personal experiences and projects about some essential resources that any Software Engineer should have while working in any industry. This includes skills, tools, drawbacks, etc. 
 
 ## Motivation
 
-The motivation behind this project is to build a kind of [Whole "Software Engineering"](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) Catalogue for any industry.
+The motivation behind this project is to build a kind of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for any industry.
 
 The main idea behind this project is to an "hello world" documentation for anyone who want to start a career in Computer Science & Software Engineering either you are a newbie or an advanced programmer. 
 
