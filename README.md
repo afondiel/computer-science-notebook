@@ -10,7 +10,7 @@ I decided to gather some notes from my personal experiences and projects about t
 
 ## Motivation
 
-The motivation behind this project is to build a kind of `Whole "Software Engineering" Catalogue` for any industry.
+The motivation behind this project is to build a kind of [Whole "Software Engineering"](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) Catalogue for any industry.
 
 The main idea behind this project is to an "hello world" documentation for anyone who want to start a career in Computer Science & Software Engineering either you are a newbie or an advanced programmer. 
 
@@ -20,7 +20,7 @@ As a Lifelong-Learner and someone who supports Free Knowledge/Education, I hope 
 
 From requirements, design, programming language to testing. You also find some research papers and notebooks about AI, [LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics and much more.
 
-## Topics & Industries
+## Table of Contents
 - [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 - [ai](https://github.com/afondiel/research-notes/tree/master/ai)
 - [automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
@@ -65,3 +65,23 @@ Please refer to [contributing guidelines](./CONTRIBUTING.md) for more infos how 
 Cheers! 
 
 [@afondiel](https://github.com/afondiel)
+
+
+## References
+
+
+Company/Industry : 
+
+- Google 
+- Meta 
+- Microsoft : 
+  - [Software Engineering Resources - Microsoft research](https://www.youtube.com/watch?v=5YeRcGVpKVY&list=PLD7HFcN7LXRcwWXvffYmEnG67lE_sxL5W)
+
+- Amazon 
+- Apple 
+- OpenAI 
+- NVIDIA
+- Tesla
+
+@TODO
+
