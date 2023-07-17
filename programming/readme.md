@@ -14,6 +14,5 @@ Please refer to this [file](../../CONTRIBUTING.md).
 
 ## References
 
-- Collaborative Browser-based online IDE : 
-- [Google Colab vs. Jupyter Notebook vs. Kaggle vs. Replit Comparison Chart - SOURCEFORGE](https://sourceforge.net/software/compare/Google-Colab-vs-Jupyter-Notebook-vs-Kaggle-vs-Replit/)
+- Collaborative Browser-based online IDE : [Google Colab vs. Jupyter Notebook vs. Kaggle vs. Replit Comparison Chart - SOURCEFORGE](https://sourceforge.net/software/compare/Google-Colab-vs-Jupyter-Notebook-vs-Kaggle-vs-Replit/)
 
