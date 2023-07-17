@@ -71,13 +71,15 @@ fn function_name(){
 
 ## Hello World !
 
-Save the chunck of code below in a file : `main.rs`
 
 ```rs
 fn main(){
 	println!("Hello World!");
 }
 ```
+
+
+Try out yourself on [replit playground](https://replit.com/@afondiel/rust-notes#src/main.rs) and see more examples! 
 
 ## References
 
@@ -103,3 +105,5 @@ Courses :
 - [Rust For Undergrads - Udemy Free Course](https://www.udemy.com/course/rust-for-undergrads/)
 - Rust crash courses by [MS Reactor](https://www.youtube.com/watch?v=wHDYReCysVY) - C# Applications
 
+Projects : 
+- CLI calculator :  https://www.youtube.com/watch?v=MsocPEZBd-M
