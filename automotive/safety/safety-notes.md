@@ -17,11 +17,11 @@ Automotive safety functions classification based on [ISO26262](https://en.wikipe
       A-->D[Urgency]
 ```                        
 
-# Standards : 
+## Standards : 
 - IEC 61508
 - ISO 26262
 
-# Companies working on safety : 
+## Companies working on safety : 
 
 - Velodyne
 - Aurora
@@ -37,7 +37,12 @@ Automotive safety functions classification based on [ISO26262](https://en.wikipe
 - nvidia
 
 
-# References 
+
+## Contributing
+
+Please refer to this [CONTRIBUTING.md](../../CONTRIBUTING.md).
+
+## References 
 
 - [Automotive safety](https://en.wikipedia.org/wiki/Automotive_safety)
   
@@ -59,7 +64,14 @@ Automotive safety functions classification based on [ISO26262](https://en.wikipe
   
 - [volvo & autoliv & nvidia](https://www.media.volvocars.com/ch/fr-ch/media/pressreleases/207309/volvo-cars-and-autoliv-autonomous-driving-joint-venture-zenuity-starts-operations)
 
+NHTSA’s Automated Driving Systems (ADSs – SAE International Automation Levels 3-5) 
+
+- NHTSA - Voluntary Safety Self-Assessment (VSSA)
+  - Company VSSA Disclosures : https://www.nhtsa.gov/automated-driving-systems/voluntary-safety-self-assessment
 
 
+SAE - Levels of Driving Automation Refined for Clarity and International Audience - 2021: 
+   - https://www.sae.org/blog/sae-j3016-update
+   - https://www.sae.org/standards/content/j3016_202104
 
 
