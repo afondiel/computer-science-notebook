@@ -69,6 +69,26 @@ fn function_name(){
 - Raspberry Pi (embedded applications)
 - Linux
 
+## Compilation
+
+1. Run `Cargo` :  
+
+```sh
+cargo run
+``` 
+
+2. Create a binary
+
+```rs
+rustc main.rs
+```
+
+This compiles the code and creates a binary in your current working dir `main` , then run it by executing 
+
+```sh
+./main
+```
+
 ## Hello World !
 
 
