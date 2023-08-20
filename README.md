@@ -4,21 +4,19 @@
 
 ## Overview
 
-Throughout my consulting job as Software Engineer I had a chance to work with many clients from different industries such as Automotive, safety & comfort, electrification & sustainable innovations to Agriculture, etc. 
+Throughout my consulting job as a Software Engineer, I had the chance to work with many clients from different industries, such as automotive, safety and comfort, electrification and sustainable innovations, and agriculture.
 
-I decided to gather some valuable resources from my personal experiences and projects that any Software Engineer looking to get into any tech industry. Even for those who are already working these resources might also be useful. This includes skills, tools, drawbacks, etc. 
+I decided to gather some valuable resources from my personal experiences and projects that any Software Engineer looking to get into any tech industry might find useful. These resources include skills, tools, and drawbacks.
 
 ## Motivation
 
-The motivation behind this project is to build a kind of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for any industry.
+The motivation behind this project is to create a kind of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for any industry. The big picture is to create an "Hello World" documentation for anyone who wants to start a career in Computer Science & Software Engineering subfields, weither you are a newbie or an advanced programmer. 
 
-The main idea behind this project is to an "hello world" documentation for anyone who want to start a career in Computer Science & Software Engineering either you are a newbie or an advanced programmer. 
-
-As a Lifelong-Learner and someone who supports Free Knowledge/Education, I hope you may find this helpful as I do.
+As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful.
 
 ## Notes 
 
-From requirements, design, programming language to testing. You also find some research papers and notebooks about AI, [LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics and much more.
+From requirements, design, programming language to testing. You may also find some research papers and notebooks about AI, [LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics and much more.
 
 ## Table of Contents
 - [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
@@ -49,7 +47,7 @@ From requirements, design, programming language to testing. You also find some r
 
 ## Contributing
 
-There are still lots of topics and industry to be added, so feel free to submit a PR if you have any suggestion or any kind of idea that may help this project to grow.
+There are still many topics and industry to be added, so feel free to submit a pull request if you have any suggestions or cool ideas that may help this project grow.
 
 Please refer to [contributing guidelines](./CONTRIBUTING.md) for more infos how to contribute.
 
@@ -58,30 +56,12 @@ Please refer to [contributing guidelines](./CONTRIBUTING.md) for more infos how 
 ```
 - add guidelines of "essential resources to get into a specific any industry/company"
 - add MIT LICENSE
-- add more Industies : Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...   
+- sort notes based on tech industries : Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...   
 ```
 
 
 Cheers! 
 
-[@afondiel](https://github.com/afondiel)
+[@Muntu](https://github.com/afondiel)
 
-
-## References
-
-
-Company/Industry : 
-
-- Google 
-- Meta 
-- Microsoft : 
-  - [Software Engineering Resources - Microsoft research](https://www.youtube.com/watch?v=5YeRcGVpKVY&list=PLD7HFcN7LXRcwWXvffYmEnG67lE_sxL5W)
-
-- Amazon 
-- Apple 
-- OpenAI 
-- NVIDIA
-- Tesla
-
-@TODO
 
