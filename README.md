@@ -4,7 +4,7 @@
 
 ## Overview
 
-As a Software Engineer Consultant, I've had the chance to work in **automotive industry** in diverse subjects such as electrification and sustainability, safety and comfort, but also in Agriculture Industry.
+As a Software Engineer Consultant, I've had the chance to work in **automotive industry** in diverse subjects such as electrification and sustainability, safety and comfort, but also in **agriculture industry**.
 
 So, I decided to gather some resources from my work experiences and projects that any Software Engineer looking to get into any tech industry might find useful. These resources include core skills, tools, and projects.
 
