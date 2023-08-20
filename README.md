@@ -4,15 +4,13 @@
 
 ## Overview
 
-Throughout my consulting job as a Software Engineer, I had the chance to work with many clients from different industries, such as automotive, safety and comfort, electrification and sustainable innovations, and agriculture.
+As a Software Engineer Consultant, I've had the chance to work in **automotive industry** in diverse subjects such as electrification and sustainability, safety and comfort, but also in Agriculture Industry.
 
-I decided to gather some valuable resources from my personal experiences and projects that any Software Engineer looking to get into any tech industry might find useful. These resources include skills, tools, and drawbacks.
+So, I decided to gather some resources from my work experiences and projects that any Software Engineer looking to get into any tech industry might find useful. These resources include core skills, tools, and projects.
 
 ## Motivation
 
-The motivation behind this project is to create a kind of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for any industry. The big picture is to create an "Hello World" documentation for anyone who wants to start a career in Computer Science & Software Engineering subfields, weither you are a newbie or an advanced programmer. 
-
-As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful.
+The big picture behind this project is to create an "Hello World" documentation, a sort of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for anyone who wants to start a career as Software Engineer or in a particular Computer Science subfield, weither he's a newbie or a more experienced programmer. 
 
 ## Notes 
 
@@ -60,8 +58,10 @@ Please refer to [contributing guidelines](./CONTRIBUTING.md) for more infos how 
 ```
 
 
-Cheers! 
-
-[@Muntu](https://github.com/afondiel)
+>As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful.
+>
+>Cheers,
+>
+>[@Muntu](https://github.com/afondiel)
 
 
