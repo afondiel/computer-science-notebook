@@ -49,7 +49,13 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 - ...
 
 
-## Architecture 
+## HW and SW Architecture
+
+![](./resources/HW-and-SW-of-autonomous-driving-platform.png)
+
+Src : [An Overview about Emerging Technologies of Autonomous Driving - 2023 paper](https://arxiv.org/ftp/arxiv/papers/2306/2306.13302.pdf) 
+
+### High Level SW Archictecture
 
 ![VA archi](./resources/A-typical-autonomous-vehicle-system-overview-highlighting-core-competencies-Based-on.png)
 
