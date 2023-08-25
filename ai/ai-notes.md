@@ -1,4 +1,4 @@
-# AI notes 
+# AI Notes 
 
 ## Table Of contents
 - [Intro](#intro)
@@ -7,7 +7,7 @@
 - [References](#references)
 
 
-## Intro
+## Overview
 
 Intelligence demonstrated by machines, as opposed to the natural intelligence
 
@@ -38,7 +38,7 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
 - Meta 
 - ...
 
-# References 
+## References
 
 - Wikipedia resources
   - https://en.wikipedia.org/wiki/Cognitive_science
@@ -54,6 +54,24 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
   - https://en.wikipedia.org/wiki/Brain
   - https://en.wikipedia.org/wiki/Machine_learning
   - https://en.wikipedia.org/wiki/Deep_learning
+
+  - [What's AI ?](https://en.wikipedia.org/wiki/Artificial_intelligence)
+  - [Category](https://en.wikipedia.org/wiki/Category:Artificial_intelligence)
+  - [path finding](https://en.wikipedia.org/wiki/Pathfinding)
+  - [odemetry](https://en.wikipedia.org/wiki/Odometry)
+  - [Turing machine](https://en.wikipedia.org/wiki/Turing_machine)
+
+
+- Notes
+  - [Machine Learning](https://github.com/afondiel/research-notes/tree/master/datascience-notes/ml-notes)
+  - [Neural Network](https://github.com/afondiel/research-notes/tree/master/datascience-notes/deep-learning-notes)
+  - [NLP](https://github.com/afondiel/research-notes/tree/master/datascience-notes/nlp-notes)
+  - [Computer Vision ](https://github.com/afondiel/research-notes/tree/master/computer-vision-notes)
+  - [robotics](https://github.com/afondiel/research-notes/tree/master/robotics)
+
+- Projects : 
+    - https://github.com/afondiel/my-lab/tree/master/projects/ai 
+    - https://github.com/afondiel/my-lab/tree/master/projects
 
 - Quantum computing : https://en.wikipedia.org/wiki/Quantum_computing
 - Stochastic process : https://en.wikipedia.org/wiki/Stochastic_process
