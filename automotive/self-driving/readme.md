@@ -6,7 +6,7 @@ This is a "Hello World" resources for Self-Driving Cars.
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to [CONTRIBUTING.md](../../CONTRIBUTING.md) file.
 
 
 ## ADAS & Self-Driving "War"
