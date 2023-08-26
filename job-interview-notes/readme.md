@@ -1,6 +1,10 @@
-# This a quick note on software engineering job interview most common questions
+# Job Interview Notes
 
-From preparation & study to real time situation.
+## Overview
 
-Also, some of these tips can be applied into another fieds/jobs.
-  
+Software Engineering job interview resources.
+
+## Contributing
+
+Please refer to [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+
