@@ -1,14 +1,30 @@
 # Self-driving - notes
 
 ## Table of Contents
-
 - [Overview](#overview)
 - [How a self-driving car works ?](#how-a-self-driving-car-works-)
 - [Applications](#applications)
-- [Architecture](#architecture)
+- [HW and SW Architecture](#hw-and-sw-architecture)
+  - [Hardware](#hardware)
+    - [Sensors](#sensors)
+      - [`Cameras`](#cameras)
+      - [`Radar (Radio Detection and Ranging)`](#radar-radio-detection-and-ranging)
+      - [`Lidar` (Light Detection and Ranging)](#lidar-light-detection-and-ranging)
+      - [`Sonar`: Sound Waves](#sonar-sound-waves)
+      - [GPS (Global Positioning System : lat, log)](#gps-global-positioning-system--lat-log)
+      - [GNSS(Global Navigation Satellite System )](#gnssglobal-navigation-satellite-system-)
+      - [Odometry](#odometry)
+      - [InfraRed (IR)](#infrared-ir)
+    - [Sensors strenght and weakness](#sensors-strenght-and-weakness)
+    - [Computing](#computing)
+  - [Software](#software)
+    - [High Level SW Archictecture](#high-level-sw-archictecture)
 - [Companies building self-driving car](#companies-building-self-driving-car)
-- [Tools / Frame works](#tools--frame-works)
-- [Reference](#reference)
+  - [OEMS:](#oems)
+  - [Suppilers](#suppilers)
+- [Startups](#startups)
+- [Tools \& Frameworks](#tools--frameworks)
+- [References](#references)
 
 
 ## Overview
@@ -55,57 +71,58 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 Src : [An Overview about Emerging Technologies of Autonomous Driving - 2023 paper](https://arxiv.org/ftp/arxiv/papers/2306/2306.13302.pdf) 
 
-### High Level SW Archictecture
-
-![VA archi](./resources/A-typical-autonomous-vehicle-system-overview-highlighting-core-competencies-Based-on.png)
 
 ### Hardware
 
 #### Sensors
 
-- Each sensor operates in a different frequency based on EM spectrum.
+![passive-and-active-sensors](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png?raw=true)
 
 - There are two categories of sensors: `active sensors` and `passive sensors`
-
-![passive-and-active-sensors](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png)
-
-EM spectrum
+- Each sensor operates in a different frequency range based on electromagnetic spectrum or radiation.
 
 ![EM spectrum](./resources/EM_spectrum_full.jpg)
 
-The electromagnetic radiation (EMR) is characterized by its `frequency` ( $F$ ) and its `wavelength` ( $\lambda$ ).
+The electromagnetic radiation (EMR) consists of a `frequency` ( $f$ ) and a `wavelength` ( $\lambda$ ).
 
 $$
-F = 
+f = 
 \frac{c}{\lambda}
 $$
 
 ```
-Where : 
-- c : the speed of light ( $3.10^8$ m/s)
+Where, c is the speed of light ( $3.10^8$ m/s)
 ```
 
-**Sensors category** 
-
-- `Cameras`: passive & light-collecting sensors that are used for capturing rich detailed information about a scene. Also essential for correctly perceiving.
-    - Comparison metrics:
-      - `Resolution` (quality of the image) : number of pixels that create the image (l x w)
-      - `Field of view (FOV)` : the horizontal and vertical angular extent that is *visible* to the camera (depending lens selection and zoom)
-      - `Dynamic Range` : the difference btw the **darkest** and **lightest** tones in an image
-        - High Dynamic range (HDR) is essential for self-driving vehicles to navigate in variable lighting conditions, particularly at night.
-    - Trade-off btw resolution and FOV ?
-      - Wilder `field of view` allows a larger viewing region in the environment but fewer pixels that absorb light from one particular object
-      - FOV increases, the resolution needs to be increases as well, to still be able to perceive with the same quality
-      - other properties that affect perception : 
-        - focal length, depth of field and frame rate
-        - further explanation **on course 3 : visual perception**
-    - Cameras types :
-      - Exteroceptive STEREO Camera: the combination of two cameras with overlapping FOVs and aligned image planes.
-      - enables depth estimation from image data (synchronized image pairs)
-      - Pixel values from image can be matched to the other image producing a disparity map of the scene then be used to estimate depth at each pixel
+**Sensors types** 
 
 
-- `Radar`(radio detection and ranging) : Macro objects
+##### `Cameras`
+
+Passive & light-collecting sensors that are used for capturing rich detailed information about a scene. Also essential for correctly perceiving.
+- Comparison metrics:
+  - `Resolution` (quality of the image) : number of pixels that create the image (l x w)
+  - `Field of view (FOV)` : the horizontal and vertical angular extent that is *visible* to the camera (depending lens selection and zoom)
+  - `Dynamic Range` : the difference btw the **darkest** and **lightest** tones in an image
+    - High Dynamic range (HDR) is essential for self-driving vehicles to navigate in variable lighting conditions, particularly at night.
+- Trade-off btw resolution and FOV ?
+  - Wilder `field of view` allows a larger viewing region in the environment but fewer pixels that absorb light from one particular object
+  - FOV increases, the resolution needs to be increases as well, to still be able to perceive with the same quality
+  - other properties that affect perception : 
+    - focal length, depth of field and frame rate
+    - further explanation **on course 3 : visual perception**
+- **Cameras types** :
+  - `Stereo Camera`: the combination of two cameras with overlapping FOVs and aligned image planes.
+    - enables depth estimation from image data (synchronized image pairs)
+    - Pixel values from image can be matched to the other image producing a disparity map of the scene then be used to estimate depth at each pixel
+  - `Monocular camera`
+  - `fisheye camera (360)`
+  - [Thermal Cameras](https://www.flir.com/oem/adas/)
+
+
+##### `Radar (Radio Detection and Ranging)`
+
+Radar : detects Macro and moving objects
     - Long range
     - Short range
   - Metrics :
@@ -119,18 +136,22 @@ Where :
          a2-.->|R|a1
 ```
 
-- `Lidar` (light detection and ranging) : Micro objects (more precision)
+
+##### `Lidar` (Light Detection and Ranging) 
+
+Lidar detects small objects, more precise than radars, and good for bad weahter
+
 ```mermaid
  graph LR
 
          a1[Lidar]-->|T-Laser Beam|a2[Object]
          a2-.->|R|a1
 ```
-  - based on laser detector
-  - rotational and optical system
-  - great electronic timing (detection speed)
+  - Based on laser detector
+  - Rotational and optical system
+  - Great electronic timing (detection speed)
   - 3D mapping
-  - scan of the environment
+  - Scan of the environment
 
 $$
 \displaystyle D_{L} = 
@@ -142,8 +163,7 @@ $$
     - c : the speed of light
     - t : time
 
-
-- `Sonar` (Sound waves) 
+##### `Sonar`: Sound Waves 
   
 ```mermaid
  graph LR
@@ -163,54 +183,72 @@ where  :
 - T : time
 ```
 
-- `GPS` (Global Positioning System : lat, log)
-- `Odometry`
+##### [GPS (Global Positioning System : lat, log)](https://en.wikipedia.org/wiki/Global_Positioning_System)
 
-### Sensors strenght and weakness  
+##### [GNSS(Global Navigation Satellite System )](https://en.wikipedia.org/wiki/Satellite_navigation)
+
+##### [Odometry](https://en.wikipedia.org/wiki/Odometry)
+
+##### InfraRed (IR)
+#### Sensors strenght and weakness  
 
 ![sensor for AV](https://i0.wp.com/semiengineering.com/wp-content/uploads/Ansys_choose-right-sensors-for-AV-table1.png?ssl=1)
 
 `RADAR vs LIDAR`
   - Radar : the detection of the object increases as the size of this one
-    - Range  : 10^-3m
+    - Range  : < 1 mm*
     - very good in case of bad wheather
-  - Lidar : detect objects in the dimensions more smaller 
-    - Range : 10^-3m
-    - not very good in bad wheather
-  - Radar wavelength is three times greater than Lidar : 
+    - Radar wavelength is three times greater than Lidar : 
+    - better for macro-dimension detection or bigger objects 
 $$
 \displaystyle \lambda_{R} > 3*\lambda_{L}
 $$
-- better for macro-dimension detection or bigger objects 
+
+- Lidar : detect objects in the dimensions more smaller 
+    - Range : 1 nm < wavelenght < 1um 
+    - not very good in bad wheather
+
+
+#### Computing
+
+- NVIDIA DRIVE PX, AGX ... 
+- Intel & Mobileye EyeQ
+- ...
 
 ### Software
-  - Computer vision
-  - Deep learning (CNN ...)
-  - NVIDIA 
-    - [self-driving platform software](https://www.nvidia.com/en-us/self-driving-cars/drive-platform/software/)
+#### High Level SW Architecture
 
-## Suppilers
-  - NVIDIA : ECU/GPUs
-  - DENSO 
-  - CONTINENTAL
-  - DELPHI
+![VA archi](./resources/A-typical-autonomous-vehicle-system-overview-highlighting-core-competencies-Based-on.png)
 
-## OEMS: 
-  - Tesla 
-  - Mercedes-Benz
-  - Toyota
-  - Ford 
-  - Ford 
+- [NVIDIA Software for Self-Driving Cars](https://www.nvidia.com/en-us/self-driving-cars/drive-platform/software/)
 
-## Tech
-  - Waymo 
-  - Apple 
-  - Samsung
-  - ... 
+#### AI Solution for self-driving
 
+- Sensing
+- Perception
+- Mapping and Localization
+- Motion Planning
+- Control
 
 ## Companies building self-driving car
 
+### OEMS: 
+- Tesla 
+- Mercedes-Benz
+- Toyota
+- Ford 
+
+### Suppilers
+- NVIDIA : [NVIDIA DRIVE End-to-End Platform for Software-Defined Vehicles](https://www.nvidia.com/en-us/self-driving-cars/) 
+- DENSO 
+- CONTINENTAL
+- DELPHI
+- VALEO
+
+## Startups
+- Waymo 
+- Apple 
+- Samsung 
 - Velodyne
 - Aurora
 - Waymo
@@ -224,8 +262,8 @@ $$
 - Tesla
 - Nvidia
 
-
 ## Tools & Frameworks 
+
 - The open NVIDIA DRIVE Software stack
 - Automotive Data and Time-Triggered Framework(ADTF) audi 
 - [Tesla FSD (Full Self-Driving)](https://www.youtube.com/watch?v=FwT4TSRsiVw)
@@ -238,7 +276,7 @@ $$
     - [Deep Reinforcement Learning for autonomous vehicles with OpenAI Gym, Keras-RL in AirSim simulator](https://medium.com/analytics-vidhya/deep-reinforcement-learning-for-autonomous-vehicles-with-openai-gym-keras-rl-in-airsim-simulator-196b51f148e4)
   - [Microsoft AirSim](https://microsoft.github.io/AirSim/using_car/) 
 
-# Reference
+## References
 
 - Wikipedia : 
   - [Self-driving_car](https://en.wikipedia.org/wiki/Self-driving_car)
@@ -278,6 +316,7 @@ $$
 Sensors : 
 - [Maxbotix - Understanding How Ultrasonic Sensors Work](https://www.maxbotix.com/articles/how-ultrasonic-sensors-work.htm#:~:text=Ultrasonic%20sensors%20work%20by%20sending,and%20to%20receive%20the%20echo.)
 - [Self-Driving Hardware and Software Architectures](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course1-Introduction-to-Self-Driving-Cars/course1-w2-notes.md)
+- [Thermal Cameras Gain Acceptance For ADAS And Autonomous Cars](https://www.forbes.com/sites/sabbirrangwala/2022/10/28/thermal-cameras-gain-acceptance-for-adas-and-autonomous-cars/)
 
 Research papers: 
 
