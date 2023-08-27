@@ -22,22 +22,24 @@ This is a Software Engineer Common Interview Questions resources and tips.
 ## Topics
 
 - AI 
-- Machine Learning
-- Deep Learning
-- Generative and LLMs
-- Computer Vision
+  - Machine Learning
+  - Deep Learning
+  - Generative AI and LLMs
+  - Computer Vision
 - Data Science
+- Data structure and Algorithms (DSA)
 - Programming 
-- Python,
-- C/C++
-- Rust
+  - Python
+  - C/C++
+  - Rust
 
-## Online Practice Tools & Tutorial
+## Online Practice Tools, Playground & Tutorial
 
 - [LeetCode](https://leetcode.com/)
-- [Codigame - france](https://www.codingame.com/)
 - [codewars](https://www.codewars.com/)
+- [replit](replit.com)
 - [Codecademy](https://www.codecademy.com/)
+- [Codigame - france](https://www.codingame.com/)
 - [hackerrank](https://www.hackerrank.com/)
 - [w3schools](https://www.w3schools.com/)
 
