@@ -1,15 +1,24 @@
-# Planning - Notes
+# Motion Planning - Notes
 
 **Agenda**
-- [What's planning ?](#whats-planning-)
+- [What's Planning?](#whats-planning)
+- [Planning Architecture Pipeline](#planning-architecture-pipeline)
 - [Applications](#applications)
 - [Tools and Frameworks](#tools-and-frameworks)
+- [Motion Planning algorithms](#motion-planning-algorithms)
+- [Mission Planner](#mission-planner)
+- [Behaviour Planner](#behaviour-planner)
+- [Local Planner](#local-planner)
+- [Motion Planning Datasets \& Libraries](#motion-planning-datasets--libraries)
 - [References](#references)
 
 
-## What's planning ? 
 
-![planning](https://media.licdn.com/dms/image/C5612AQGM2cTqtwJuIg/article-inline_image-shrink_1000_1488/0/1521484871946?e=1688601600&v=beta&t=-QnQ14zWi4LA3MWEWb6np9qu-6QFJbhhXlaU7ChRmYY)
+## What's Planning? 
+
+![planning](https://1.bp.blogspot.com/-SkP0AfhlI9w/YEgQjwDgaSI/AAAAAAAAE_c/xCPqIwl23Yk7vcSijM4mrkS-55WmJ7IFwCNcBGAsYHQ/s16000/busy_street_3.png)
+
+Src: @[Waymo](https://waymo.com/blog/2021/03/expanding-waymo-open-dataset-with-interactive-scenario-data-and-new-challenges.html)
 
 ## Planning Architecture Pipeline
 
@@ -25,10 +34,16 @@ toward local goals
 - Orientation
 - Direction of travel (DoT)
   
+**State-of-the-art planning Architecture**
+- Pipeline planning 
+- End-to-end planning
+
+
 ## Applications
 
 - Self-driving vehicles
 - Robotics
+- Drones
 
 ## Tools and Frameworks
 
@@ -38,7 +53,9 @@ Sensors :
 - LiDAR
 ... 
 
-### Motion Planning algorithms
+## Motion Planning algorithms
+
+### Mission Planner
 
 **A\* (star) Search**
 
@@ -113,9 +130,29 @@ algorithm Kruskal(G) is
 - Suboptimal A* search.
 - ...
 
-# References
+### Behaviour Planner
 
-- [Motion planning](https://en.wikipedia.org/wiki/Motion_planning)
+- Rule Based Planning
+- Reactive planning
+- Predictive planning 
+
+### Local Planner
+
+- Imitation learning
+- Reinforcement learning 
+- Parallel learning
+
+
+## Motion Planning Datasets & Libraries
+- [Waymo open dataset](https://waymo.com/open/about)
+- [nuPlan - Motional](https://www.nuscenes.org/nuplan)
+- [The Open Motion Planning Library](https://ompl.kavrakilab.org/)
+
+
+## References
+
+- [Motion planning - Wikipedia](https://en.wikipedia.org/wiki/Motion_planning)
+
 - [Motion Planning - Self-Driving Cars Specialization of University of Toronto](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/tree/main/Course4-Motion-Planning-for-Self-Driving-Cars)
 - [Boss Autonomous Driving](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course1-Introduction-to-Self-Driving-Cars/resources/Boss-autonomous-driving-pres-DARPA-Urban-Challenge-2007-by-journal-of-robotics-2008.pdf)
 
