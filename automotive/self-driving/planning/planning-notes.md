@@ -20,24 +20,21 @@
 
 Src: @[Waymo](https://waymo.com/blog/2021/03/expanding-waymo-open-dataset-with-interactive-scenario-data-and-new-challenges.html)
 
+The motion planning problem is the task of navigating the ego vehicle to its destination in a safe and comfortable manner while following the rules of the road.
+
+
 ## Planning Architecture Pipeline
+
+![](https://github.com/afondiel/Self-Driving-Cars-Specialization/blob/main/Course1-Introduction-to-Self-Driving-Cars/resources/w2/img/l3-sw-archi-motion-planning2.png?raw=true)
 
 - `Mission planning` : which street to take to achieve a mission goal. 
 - `Behavioral planning` : when to change lanes and precedence at intersections and performs error recovery maneuvers.
-- `Motion planning` : selects actions to avoid obstacles while making progress
-toward local goals
+- `Motion planning` : selects actions to avoid obstacles while making progress toward local goals
 
-
-**Planning multiple dimensions**
-
+### Planning multiple dimensions**
 - Location
 - Orientation
 - Direction of travel (DoT)
-  
-**State-of-the-art planning Architecture**
-- Pipeline planning 
-- End-to-end planning
-
 
 ## Applications
 
@@ -53,9 +50,35 @@ Sensors :
 - LiDAR
 ... 
 
-## Motion Planning algorithms
+## State-of-the-art Motion Planning Approaches
 
-### Mission Planner
+- **Global planner (Long-term planner)** : map + local obstacles 
+  - Rule Based Planning (pipeline method)
+  - Predictive planning 
+    - Imitation learning
+    - Reinforcement learning 
+    - Parallel learning
+  - Trajectory planning
+  - Graph Based Planning
+  - Probabilistic Graph Based Planning
+  - Optimization Based Planning
+    - Linear Programming
+    - NonLinear Programming 
+
+- **Local planner (Short-term planner)** : dynamic obstacles
+  - Reactive planning
+
+
+## Motion Planning Algorithms
+
+## Categories
+
+- Grid-based search
+- Interval-based search
+- Geometric algorithms
+- Artificial potential fields
+- Sampling-based algorithms
+- ...
 
 **A\* (star) Search**
 
@@ -125,22 +148,12 @@ algorithm Kruskal(G) is
 
 ![bfs](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course4-Motion-Planning-for-Self-Driving-Cars/resources/w3/img/l1-bfs0.png?raw=true)
 
-**Others Algorithms** 
+- **D* (D-star)**: @TODO
 - **Depth-First Search (DFS)** uses a last-in-first-out (LIFO) stack instead of a queue for the open set. 
-- Suboptimal A* search.
-- ...
+- **Suboptimal A* search**
+- **Rapidly-exploring random tree**
+- **Probabilistic roadmap**
 
-### Behaviour Planner
-
-- Rule Based Planning
-- Reactive planning
-- Predictive planning 
-
-### Local Planner
-
-- Imitation learning
-- Reinforcement learning 
-- Parallel learning
 
 
 ## Motion Planning Datasets & Libraries
