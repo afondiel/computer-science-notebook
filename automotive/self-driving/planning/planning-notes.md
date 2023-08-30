@@ -52,6 +52,18 @@ Sensors :
 
 ## State-of-the-art Motion Planning Approaches
 
+```
+- Global Planner
+  |
+  |- Long-Term Planner
+  |
+  |- Short-Term Planner
+      |
+      |- Local Planner
+          |
+          |- Control Stack
+```
+
 - **Global planner (Long-term planner)** : map + local obstacles 
   - Rule Based Planning (pipeline method)
   - Predictive planning 
@@ -155,7 +167,6 @@ algorithm Kruskal(G) is
 - **Probabilistic roadmap**
 
 
-
 ## Motion Planning Datasets & Libraries
 - [Waymo open dataset](https://waymo.com/open/about)
 - [nuPlan - Motional](https://www.nuscenes.org/nuplan)
@@ -170,4 +181,10 @@ algorithm Kruskal(G) is
 - [Boss Autonomous Driving](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course1-Introduction-to-Self-Driving-Cars/resources/Boss-autonomous-driving-pres-DARPA-Urban-Challenge-2007-by-journal-of-robotics-2008.pdf)
 
  - [Perception Planning and Control for Self-Driving System Based on On-board Sensors](https://www.researchgate.net/publication/344734310_Perception_Planning_and_Control_for_Self-Driving_System_Based_on_On-board_Sensors/link/609c9edd299bf1259ece7fe0/download)
+
+MathWorks - MATLAB
+- [Motion Planning with MATLAB](https://www.mathworks.com/campaigns/offers/motion-planning-with-matlab.html)
+
+- [Choose Path Planning Algorithms for Navigation](https://www.mathworks.com/help/nav/ug/choose-path-planning-algorithms-for-navigation.html)
+- [Motion Planning](https://www.mathworks.com/help/nav/motion-planning.html)
 
