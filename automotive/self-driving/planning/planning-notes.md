@@ -31,7 +31,7 @@ The motion planning problem is the task of navigating the ego vehicle to its des
 - `Behavioral planning` : when to change lanes and precedence at intersections and performs error recovery maneuvers.
 - `Motion planning` : selects actions to avoid obstacles while making progress toward local goals
 
-### Planning multiple dimensions**
+### Planning multiple dimensions
 - Location
 - Orientation
 - Direction of travel (DoT)
@@ -64,7 +64,7 @@ Sensors :
           |- Control Stack
 ```
 
-- **Global planner (Long-term planner)** : map + local obstacles 
+- **Global planner (Long-term planner)** : map + static obstacles 
   - Rule Based Planning (pipeline method)
   - Predictive planning 
     - Imitation learning
