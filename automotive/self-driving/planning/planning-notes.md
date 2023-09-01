@@ -13,7 +13,6 @@
 - [References](#references)
 
 
-
 ## What's Planning? 
 
 ![planning](https://1.bp.blogspot.com/-SkP0AfhlI9w/YEgQjwDgaSI/AAAAAAAAE_c/xCPqIwl23Yk7vcSijM4mrkS-55WmJ7IFwCNcBGAsYHQ/s16000/busy_street_3.png)
@@ -44,10 +43,9 @@ The motion planning problem is the task of navigating the ego vehicle to its des
 
 ## Tools and Frameworks
 
-Sensors : 
-- GPS
-- IMU
-- LiDAR
+- networkx
+- osmnx
+- [CVPR 2021: Forecasting for Motion Planning](https://www.youtube.com/watch?v=bnmrXt1g3aQ)
 ... 
 
 ## State-of-the-art Motion Planning Approaches
@@ -172,15 +170,21 @@ algorithm Kruskal(G) is
 - [nuPlan - Motional](https://www.nuscenes.org/nuplan)
 - [The Open Motion Planning Library](https://ompl.kavrakilab.org/)
 
+## Hello World!
+@TODO
 
 ## References
 
-- [Motion planning - Wikipedia](https://en.wikipedia.org/wiki/Motion_planning)
+Wikipedia:
 
-- [Motion Planning - Self-Driving Cars Specialization of University of Toronto](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/tree/main/Course4-Motion-Planning-for-Self-Driving-Cars)
+- [Motion planning](https://en.wikipedia.org/wiki/Motion_planning)
+- [Navigation](https://en.wikipedia.org/wiki/Navigation)
+
+Courses:
+- [Motion Planning Course- Self-Driving Cars Specialization of University of Toronto](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/tree/main/Course4-Motion-Planning-for-Self-Driving-Cars)
+
+DARPA Challenge:
 - [Boss Autonomous Driving](https://github.com/afondiel/Self-Driving-Cars-Specialization-Coursera/blob/main/Course1-Introduction-to-Self-Driving-Cars/resources/Boss-autonomous-driving-pres-DARPA-Urban-Challenge-2007-by-journal-of-robotics-2008.pdf)
-
- - [Perception Planning and Control for Self-Driving System Based on On-board Sensors](https://www.researchgate.net/publication/344734310_Perception_Planning_and_Control_for_Self-Driving_System_Based_on_On-board_Sensors/link/609c9edd299bf1259ece7fe0/download)
 
 MathWorks - MATLAB
 - [Motion Planning with MATLAB](https://www.mathworks.com/campaigns/offers/motion-planning-with-matlab.html)
@@ -188,3 +192,8 @@ MathWorks - MATLAB
 - [Choose Path Planning Algorithms for Navigation](https://www.mathworks.com/help/nav/ug/choose-path-planning-algorithms-for-navigation.html)
 - [Motion Planning](https://www.mathworks.com/help/nav/motion-planning.html)
 
+Academia:
+
+- [6 Trajectory Generation - Clemson University](https://opentextbooks.clemson.edu/wangrobotics/chapter/trajectory-generation/)
+
+- [Perception Planning and Control for Self-Driving System Based on On-board Sensors](https://www.researchgate.net/publication/344734310_Perception_Planning_and_Control_for_Self-Driving_System_Based_on_On-board_Sensors/link/609c9edd299bf1259ece7fe0/download)
