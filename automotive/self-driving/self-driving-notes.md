@@ -209,7 +209,7 @@ $$
     - not very good in bad wheather
 
 
-#### Computing
+#### Computing Hardware
 
 - NVIDIA DRIVE PX, AGX ... 
 - Intel & Mobileye EyeQ
@@ -236,45 +236,52 @@ $$
 - Tesla 
 - Mercedes-Benz
 - Toyota
-- Ford 
+- Ford
+- GM
 
 ### Suppilers
 - NVIDIA : [NVIDIA DRIVE End-to-End Platform for Software-Defined Vehicles](https://www.nvidia.com/en-us/self-driving-cars/) 
 - DENSO 
 - CONTINENTAL
 - DELPHI
-- VALEO
+- [VALEO.AI](https://www.valeo.com/en/valeo-ai/)
+- Autoliv/Veoner
+- Velodyne
 
-## Startups
-- Waymo 
+## Startups & Tech Companies
+- Waymo (Google/Alphabet) 
+- Cruise (former Voyage)
+- Zoox 
+- Motional (JV Hyundai + Aptiv)
 - Apple 
 - Samsung 
-- Velodyne
-- Aurora
-- Waymo
-- Autoliv
+- Aurora (former Uber Advanced Technologies, ATG)
 - Nuro
 - Cyngn, Faction
 - Mobileye
 - Beep
 - ElectraMeccanica
 - Black Sesame
-- Tesla
 - Nvidia
 
 ## Tools & Frameworks 
 
-- The open NVIDIA DRIVE Software stack
-- Automotive Data and Time-Triggered Framework(ADTF) audi 
+- [The open NVIDIA DRIVE Software stack](https://www.nvidia.com/en-us/self-driving-cars/drive-platform/software/)
+- Automotive Data and Time-Triggered Framework (ADTF) audi 
 - [Tesla FSD (Full Self-Driving)](https://www.youtube.com/watch?v=FwT4TSRsiVw)
 
 - Self-Driving Car Simulators : 
-  - [CARLA Simulator](https://carla.org/)
-  - [NVIDIA DRIVE Sim - Powered by Omniverse](https://www.youtube.com/watch?v=UoPXzzK_g1Q&embeds_euri=https%3A%2F%2Fdeveloper.nvidia.com%2F&feature=emb_title)
-  - [Udacity self-driving-car simulator with Unity](https://github.com/udacity/self-driving-car-sim)
+  - [CARLA Simulator - Unreal Engine4 (UE4)](https://carla.org/)
+  - [Udacity self-driving car simulator NDP - Unity](https://github.com/udacity/self-driving-car-sim)
+  - [Gazebo Simulator by Autoware](https://github.com/autowarefoundation/autoware) 
+  - [Microsoft AirSim - UE4 & Unity](https://microsoft.github.io/AirSim/using_car/) 
+  - [TORCS (The Open Racing Car Simulator) - OpenGL](https://en.wikipedia.org/wiki/TORCS)
   - [OpenAI Gym for RL training](https://gymnasium.farama.org/)
     - [Deep Reinforcement Learning for autonomous vehicles with OpenAI Gym, Keras-RL in AirSim simulator](https://medium.com/analytics-vidhya/deep-reinforcement-learning-for-autonomous-vehicles-with-openai-gym-keras-rl-in-airsim-simulator-196b51f148e4)
-  - [Microsoft AirSim](https://microsoft.github.io/AirSim/using_car/) 
+    - [Donkey Simulator - Unity](https://docs.donkeycar.com/guide/deep_learning/simulator/)
+    - [Kivy - Drawing Your Own Map](https://kivy.org/doc/stable/gettingstarted/drawing.html)
+      - [Example, Self-driving car - based on reinforcement learning](https://github.com/diesimo-ai/reinforced-self-driving-car)
+  - [NVIDIA DRIVE Sim - Powered ](https://www.youtube.com/watch?v=UoPXzzK_g1Q&embeds_euri=https%3A%2F%2Fdeveloper.nvidia.com%2F&feature=emb_title) - [Omniverse](https://www.nvidia.com/en-us/omniverse/)
 
 ## References
 
