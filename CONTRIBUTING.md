@@ -1,6 +1,6 @@
 # Guidelines
 
-The main idea behind this project is to an "hello world" documentation for anyone who want to start a career in Computer Science & Software Engineering.
+The main idea behind this project is to build a "hello world" documentation for anyone who want to start a career in Software Engineering & Computer Science sub-field.
 
 You can contribute in many ways :
 
@@ -8,10 +8,10 @@ You can contribute in many ways :
 
 - Create a new ./{topic}/topic-notes.md
 
-### Notes Content
+### Note Contents
 
 ```
-# TITLE - Notes
+# Title - Notes
 ## Overview
 ## Applications
 ## Tools & FrameWorks
