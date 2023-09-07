@@ -5,7 +5,7 @@
 ![programming-languages-genealogical-tree](./resources/diagram.png)
 [Credit to rigaux.org](http://rigaux.org/)
 
-This a "Hello World" resources for programming languages and data structures.
+This is a "Hello World" resources for programming languages and data structures.
 
 
 ## Contributing
