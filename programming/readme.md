@@ -7,6 +7,29 @@
 
 This is a "Hello World" resources for programming languages and data structures.
 
+## Lab & Playground
+
+`Compiler-Interpreter:`
+
+- [Sololearn](https://www.sololearn.com/compiler-playground/cpp)
+- Replit
+- Codesandbox
+- [Online IDE - Beta](https://www.online-ide.com/)
+- Github IDE
+- VS Code Online
+- Geeks for Geeks
+- [CodinGame](https://www.codingame.com/home)
+
+`Jupyter Notebook`:
+
+- Google Colab
+- MyBinder
+- CoCalc
+- Kaggle Kernels
+- Deepnote
+- JupyterLite
+- Mercury
+- Noteable
 
 ## Contributing
 
