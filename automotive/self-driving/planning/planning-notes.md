@@ -75,8 +75,8 @@ The motion planning problem is the task of navigating the ego vehicle to its des
     - Linear Programming
     - NonLinear Programming 
 
-- **Local planner (Short-term planner)** : dynamic obstacles
-  - Reactive planning
+- **Local planner (Short-term planner)**: dynamic obstacles
+  - Reactive planning (trajectory roll-out planner)
 
 
 ## Motion Planning Algorithms
