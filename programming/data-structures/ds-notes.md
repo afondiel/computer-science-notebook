@@ -13,7 +13,7 @@ Credit: [GeeksForGeeks](https://www.geeksforgeeks.org/data-structure-meaning/)
 
 ## Time complexity
 
-![](https://github.com/afondiel/research-notes/blob/master/programming/algorithms/time_complexity.png?raw=true)
+![](https://github.com/afondiel/research-notes/blob/master/programming/algorithms/docs/time_complexity.png?raw=true)
 
 
 ## Big O vs big Omega vs Big Theta
