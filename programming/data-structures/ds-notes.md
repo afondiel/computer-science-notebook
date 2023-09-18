@@ -11,7 +11,7 @@
 
 Credit: [GeeksForGeeks](https://www.geeksforgeeks.org/data-structure-meaning/)
 
-## Time complexity
+## Time & Space Complexity
 
 ![](https://github.com/afondiel/research-notes/blob/master/programming/algorithms/docs/time_complexity.png?raw=true)
 
