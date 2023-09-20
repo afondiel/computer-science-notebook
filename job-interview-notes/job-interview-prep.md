@@ -80,6 +80,19 @@ What are you ideas on salary?
 
 ## References 
 
+**LeetCode Patterns - Valuable resources:**
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
+- [New Year Gift - Curated List of Top 75 LeetCode Questions to Save Your Time - Yangshun Tay](https://www.teamblind.com/postNew-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+- [Problems pattern frequency](https://seanprashad.com/leetcode-patterns/)
+- [Blind 75 leetcode](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-)
+- [krishnadey30/LeetCodeQuestions.md](https://gist.github.com/krishnadey30/88c4e2f601e96597974c00185e479532)
+- [Coding interview study plan - what to study and practice based on time left](https://www.techinterviewhandbook.org/coding-interview-study-plan/)
+- [Blind 75 Must Do Leetcode](https://leetcode.com/list/xi4ci4ig/)
+- [Grind 75 questions](https://www.techinterviewhandbook.org/grind75)
+- [Best practice questions](https://www.techinterviewhandbook.org/best-practice-questions/)
+- [NeetCode : A better way to prepare for coding interviews](https://neetcode.io/)
+- [Leetcode 75 Questions (NeetCode on yt) - spreadsheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
+
 Data interview pro :
 - https://www.youtube.com/watch?v=yhjK6fC68eU
 
