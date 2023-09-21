@@ -4,19 +4,19 @@
 
 ## Overview
 
-As a Software Engineer Consultant, I've had the chance to work in **automotive industry** in diverse subjects such as electrification and sustainability, safety and comfort, but also in **agriculture industry**.
+As a Software Engineer Consultant, I have had the opportunity to work on a variety of topics in the **automotive** and **agriculture** industries, including electrification and sustainability, safety and comfort, and more.
 
-So, I decided to gather some resources from my work experiences and projects that any Software Engineer looking to get into any tech industry might find useful. These resources include core skills, tools, and projects.
+So, I decided to compile some resources from my previous and ongoing work that software engineers looking to get into any tech industry might find useful, including core skills, projects, and tools.
 
 ## Motivation
 
-The big picture behind this project is to create an "Hello World" documentation, a sort of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for anyone who wants to start a career as Software Engineer or in a particular Computer Science subfield, weither he's a newbie or a more experienced programmer. 
+The big picture behind this project is to create a "Hello World" Notebook, sort of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), that Software Engineers, Developers and Computer Science Students can use as an aide-memoire or a "prompt" for their daily work, interview preps and study checklist, etc.
 
-## Notes 
+## Topics 
 
-From requirements, design, programming language to testing. You may also find some research papers and notebooks about AI, [LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics and much more.
+Topics covered include requirements, design, programming languages, and testing. You may also find some research papers and notebooks about AI, [Prompt Engineering & LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics, and more.
 
-## Table of Contents
+## Table of Contents (ToC)
 - [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 - [ai](https://github.com/afondiel/research-notes/tree/master/ai)
 - [automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
@@ -55,13 +55,13 @@ Please refer to [contributing guidelines](./CONTRIBUTING.md) for more infos how 
 `@TODO-List: `
 
 ```
-- add guidelines of "essential resources to get into a specific any industry/company"
+- add guidelines of "essential resources to get into a specific industry/company"
 - add MIT LICENSE
 - sort notes based on tech industries : Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...   
 ```
 
 
->As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful.
+>As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful and inspiring as I do.
 >
 >Cheers,
 >
