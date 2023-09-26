@@ -67,9 +67,11 @@ that is, a ground vehicle that is capable of sensing its environment and moving 
 
 ## HW and SW Architecture
 
+There are currently two software architecture approaches commonly used in the autonomous industry: Modular and [End-to-End](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) approach.
+
 ![](./resources/HW-and-SW-of-autonomous-driving-platform.png)
 
-Src : [An Overview about Emerging Technologies of Autonomous Driving - 2023 paper](https://arxiv.org/ftp/arxiv/papers/2306/2306.13302.pdf) 
+Self-Driving Car Modular Architecture. Src : [An Overview about Emerging Technologies of Autonomous Driving - 2023 paper](https://arxiv.org/ftp/arxiv/papers/2306/2306.13302.pdf) 
 
 
 ### Hardware
@@ -250,19 +252,20 @@ $$
 
 ## Startups & Tech Companies
 - Waymo (Google/Alphabet) 
-- Cruise (former Voyage)
-- Zoox 
+- Cruise (former Voyage - GM)
+- Zoox (Amazon)
 - Motional (JV Hyundai + Aptiv)
-- Apple 
-- Samsung 
+- Mobileye
 - Aurora (former Uber Advanced Technologies, ATG)
 - Nuro
+- Apple 
+- Samsung 
 - Cyngn, Faction
-- Mobileye
 - Beep
 - ElectraMeccanica
 - Black Sesame
 - Nvidia
+- Wayve (Microsoft backed startup)
 
 ## Tools & Frameworks 
 
