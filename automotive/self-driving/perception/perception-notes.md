@@ -5,8 +5,8 @@
 - [Perception Architecture Pipeline](#perception-architecture-pipeline)
 - [Applications](#applications)
 - [Tools and Frameworks](#tools-and-frameworks)
-- [Computer Vision Open Datasets](#computer-vision-open-datasets)
 - [Perception Approaches](#perception-approaches)
+- [Datasets](#datasets)
 - [Perception Algorithms](#perception-algorithms)
 - [References](#references)
 
@@ -22,25 +22,33 @@
 
 ## Applications
 
-- Self-Driving Cars
-- Robotaxi 
 - Robotics
   - Humanoid robots
   - Mobile & stationary robots
 - Autonomous Transportation
+  - Self-Driving Cars
+  - Robotaxi 
 
 ## Tools and Frameworks
 
 - [Point Cloud Library - PCL](https://pointclouds.org/)
 
-## Computer Vision Open Datasets
-
-- [ Waymo Open Dataset](https://waymo.com/open/)
 ## Perception Approaches
 
 - Computer Vision - Based 
 - Machine Learning - Based
 - Deep Learning - Based
+
+## Datasets
+
+- [Waymo Open Dataset](https://waymo.com/open/)
+- [KITTI Vision](https://www.cvlibs.net/datasets/kitti/)
+
+Lane Detection
+- [Lane detection](https://paperswithcode.com/datasets?task=lane-detection&page=1)
+
+Semantic Segmentation
+- [Segmentation](https://paperswithcode.com/datasets?task=semantic-segmentation)
  
 ## Perception Algorithms
 
