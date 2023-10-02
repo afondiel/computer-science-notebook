@@ -2,7 +2,7 @@
 
 ## Overview
 
-High-level, general-purpose programming language created by Danish computer scientist [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup).
+High-level, general-purpose programming language created by [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup).
 
 **Brief History**
 - `1985`: First released as an extension of the C programming language
