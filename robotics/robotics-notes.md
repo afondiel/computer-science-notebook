@@ -1,12 +1,14 @@
-# :robot: Robotics notes :robot:
+# :robot: Robotics Notes :robot:
 
 ## Agenda
-- [What's Robotics?](#whats-robotics-)
-- [What's Robots Do?](#whats-robots-do-)
-- [Robots types](#robots-types)
+- [What's Robotics?](#whats-robotics)
+- [What does Robots do?](#what-does-robots-do)
+- [Types of Robots](#types-of-robots)
 - [Applications](#applications)
-- [Robotics companies](#robotics-companies)
+- [Robot Architecture](#robot-architecture)
+- [Robotics Companies](#robotics-companies)
 - [Tools/frameworks](#toolsframeworks)
+- [Robot Datasets](#robot-datasets)
 - [Robotics Conferences](#robotics-conferences)
 - [References](#references)
 
@@ -14,7 +16,7 @@
 
 Interdisciplinary branch of engineering and computer science. Robotics involves design, construction, operation, and use of robots.
 
-## What's Robots Do?
+## What does Robots do?
 
 - Work in extreme environments too dangerous for people : 
 	- war or nuclear zones
@@ -36,7 +38,7 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 	- ASIMOV
 	..
 
-## Robots types
+## Types of Robots
 - Mobile : 
   - AMRs  
   - AGVs
@@ -66,7 +68,12 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 - Nano
 - Swarm
 
-## Robotics companies
+## Robot Architecture
+
+![](https://cs.brown.edu/people/tdean/courses/cs148/02/images/paradigms.gif)
+
+Src: [Brown University Cs lectures](https://cs.brown.edu/people/tdean/courses/cs148/02/architectures.html)
+## Robotics Companies
 - [Boston Dynamics](https://www.bostondynamics.com/)
 - [Tesla](tesla.com/AI)
 - ...
@@ -78,6 +85,19 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 - [Webots by Cyberbotics](https://cyberbotics.com/)
 - [awesome-robotframework - Great Resources!](https://github.com/fkromer/awesome-robotframework)
 
+## Robot Datasets
+
+- Robot Arm Pushing Dataset
+- Robot Arm Grasping Dataset
+- Dataset Of Daily Interactive Manipulation
+- Fukuoka Datasets For Place Categorisation
+- MultiDrone Public DataSet
+- Complex Urban Dataset With Multi-Level Sensors From Highly Diverse Urban
+- ...
+
+Src: 
+- [10 Open-Source Datasets To Learn Robotics](https://analyticsindiamag.com/10-open-source-datasets-to-learn-robotics/)
+- [Paper with code - BAIR Robot Pushing - 220 dataset](https://paperswithcode.com/datasets?q=BAIR%20Robot%20Pushing)
 ## Robotics Conferences
 
 - [2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)](https://www.ieee-ras.org/conferences-workshops/technical-committees/robot-human-interactive-communication/ro-man)
@@ -125,6 +145,9 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 
 Wikipedia :  
 - [Robotics](https://en.wikipedia.org/wiki/Robotics)
+
+Jornal of field of robotics
+- https://onlinelibrary.wiley.com/journal/15564967
 
 ROS : 
 
