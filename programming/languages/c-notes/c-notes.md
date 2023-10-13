@@ -2,9 +2,7 @@
 
 ## Overview
 
-- Created by richie & in 19
-- Programming paradigm
-- Design patterns
+C is a general-purpose computer programming language created by Dennis Ritchie in the 1970s and it remains very widely used and influential. 
 
 ## Applications
 
@@ -25,16 +23,30 @@ Src: [Most Useful Applications of C Programming Language 2023 - Interviewbit](ht
 - Assembler 
 - Linker
 
-[awesome-c: A curated list of awesome C frameworks, libraries and software.](https://github.com/uhub/awesome-c)
+[Awesome-c: A curated list of awesome C frameworks, libraries and software.](https://github.com/uhub/awesome-c)
 
 ## The C Programming Language
+
+**What's C?**
+- C allows a sw enginer to communicate w/ a computer
+- C is a highly flexible and adaptable language
+  
+**C vs C++ battle**
+- C++ was added class and facilitate code reuse
+- C++ used for automation
+- C better for embedded control applications (back in 1997)
+
+**HOW PROGRAMMING WORKS ?**
+
+- Machines “think” in numbers, people don’t.
+- Assembly => Translation => Machine Language- Programming paradigm
 
 **HISTORY**
 
 - Before C were : FORTRAN, COBOL, PASCAL, B....
-- created in 1970 by Denis Richie => Goal Writing OS
+- Created in 1970 by Denis Richie => Goal Writing OS
 - 1980 Bjarne Stroustrup created C++
-- the JAVA was born from C++ to handle bugs.
+- The JAVA was born from C++ to handle bugs.
 
 **HOW C Works?**
 
@@ -52,7 +64,7 @@ C LANGUAGE => COMPILER => Assembler => LINKER => Machine Language
 - comments helps to organize thoughts even before writing CODE/PROGRAM
 - Think portability
 
-### Compliation Process
+### Complition Process
 
 1. Pre-processing
 2. Compilation
@@ -115,8 +127,9 @@ To get the size => sizeof(type)
 ### Conditions
 ### Functions 
 
-### Modular programming
-### Object based programming
+### Programming Paradigm
+#### Modular programming
+#### Object based programming
 
 ## Data structure & Algorithms (DSA)
 
@@ -157,10 +170,10 @@ For more insights check out the [data structures notes](../../data-structures/ds
 
 ## Debugging & Error Handling
 
-**Two common errors**
+**The two common errors**
 
-- Syntax error: occurs during the `compilation` 
-- Segmentation error: occurs during the `runtime`
+- Syntax error: occurs during the `compilation` process. 
+- Segmentation error: occurs during the `runtime` process.
 
 
 A Non-exhaustive List of errors in c programming:
@@ -188,6 +201,9 @@ Robust code recipe:
 - Maintenable/flexible
 - reliable
 - portable
+  
+**Error Handling**
+
 - Assortion : detect constraints
 - Array indexing : whenever possible
 - embedding magic numbers  : within objects, to check their type quickly.
@@ -211,6 +227,10 @@ Output:
 ```
 Hello, World!
 ``` 
+
+## C DSA Implementation
+
+For Data structures & algorithms implementation check the [Lab](./lab/) repo.
 
 ## References
 
