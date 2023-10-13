@@ -1,20 +1,23 @@
 # C - Notes 
 
-## Agenda
-
 ## Overview
 
 - Created by richie & in 19
 - Programming paradigm
 - Design patterns
-- Robust code recipe : 
-	=> Safe/Secure - Maintenable/flexible - reliable - portable
-	=> To prevent : 
-		=> user errors, when invalid input is passed to the program.
-		=> exhaustions, when the program tries to acquire shared resources.
-		=> internal errors, due to bugs (e.g. dangling pointers).
+
 ## Applications
 
+- Operating Systems (The UNIX, Windows and OSX kernels  ...)
+- Embedded Systems
+- GUI (Graphical User Interface)
+- Google
+- Design of a Compiler
+- Mozilla Firefox and Thunderbird
+- Gaming and animation
+- MySQL
+
+Src: [Most Useful Applications of C Programming Language 2023 - Interviewbit](https://www.interviewbit.com/blog/applications-of-c-programming-language/)
 
 ## Tools & frameworks
 
@@ -22,6 +25,7 @@
 - Assembler 
 - Linker
 
+[awesome-c: A curated list of awesome C frameworks, libraries and software.](https://github.com/uhub/awesome-c)
 
 ## The C Programming Language
 
@@ -34,19 +38,53 @@
 
 **HOW C Works?**
 
--  Programs are divided : `Data + instrucions`
+Programs are divided : `Data + instrucions`
 
-- Compiler => REVOLUTION
+- Compiler => REVOLUTION!!!
 
 ```
 C LANGUAGE => COMPILER => Assembler => LINKER => Machine Language
 ```
+**HOW TO LEARN C?**
+
+- only way : write program + Debbuging
+- Keep good programming style
+- comments helps to organize thoughts even before writing CODE/PROGRAM
+- Think portability
+
+### Compliation Process
+
+1. Pre-processing
+2. Compilation
+3. Assembling
+4. Linkage
+
+To compile a c program using command line:
+
+Linux: 
+
+```sh
+gcc file.c -g –o file.o
+```
+
+Windows: 
+
+```bat
+gcc file.c -g –o file.exe
+```
+
+Options/flags
+- g : enables debugging
+- Wall : enables warning
 
 ### Data types
 
+The size of some data type depends on the target/platform (windows, iOS, linux, mcu, raspberryPi...) 
 
-the size of some data type depends on the target/platform (windows, iOS, linux, mcu, raspberryPi...) to get the size => sizeof(type)
-basic type 
+To get the size => sizeof(type)
+
+**Basic types** 
+
 - bool : 1 bit
 - char : 1 byte
 - int : 2/4 bytes (depends on the target)
@@ -57,24 +95,28 @@ basic type
 - double : 8 bytes 
 - long double : 8 bytes 
 
-derived containers
+**Derived containers**
+
 - Array : numerical data type 
 - str_array: string data type 
 - pointer 
 - functions 
 
-advanced types/user-defined : 
+**Advanced types/user-defined** 
+
 - struct
 - union
 - enum
 - volatile
 - static...
 
-=> Variables
-=> Conditions
-=> Functions 
-=> Modular programming
-=> Object based programming
+
+### Variables
+### Conditions
+### Functions 
+
+### Modular programming
+### Object based programming
 
 ## Data structure & Algorithms (DSA)
 
@@ -113,23 +155,39 @@ For more insights check out the [data structures notes](../../data-structures/ds
 - Geometric Algorithms
 
 
-
 ## Debugging & Error Handling
 
-=> Syntax error (compilation) 
-=> segmentation error (runtime)
-=> Overflow (stack and heap)
-	=> buffer
-	=> integer
-=> string format (%d, %x, %n ...)
-=> NULL pointer
-=> divide by zero
-=> Dangling pointer
-=> barfing garbage
-=> memory leaks
-=> stackover flow (int  <= float)
+**Two common errors**
 
-### Solution  : check, check ....check
+- Syntax error: occurs during the `compilation` 
+- Segmentation error: occurs during the `runtime`
+
+
+A Non-exhaustive List of errors in c programming:
+
+- Overflow (stack and heap)
+	- buffer
+	- integer
+- string format (%d, %x, %n ...)
+- NULL pointer
+- divide by zero
+- Dangling pointer
+- barfing garbage
+- memory leaks
+- stackover flow (int  <= float)
+
+- user errors, when invalid input is passed to the program.
+- exhaustions, when the program tries to acquire shared resources.
+- internal errors, due to bugs (e.g. dangling pointers).
+
+## Good Practice: check, check ... check
+
+Robust code recipe: 
+
+- Safe/Secure 
+- Maintenable/flexible
+- reliable
+- portable
 - Assortion : detect constraints
 - Array indexing : whenever possible
 - embedding magic numbers  : within objects, to check their type quickly.
@@ -138,21 +196,29 @@ For more insights check out the [data structures notes](../../data-structures/ds
 
 ## Hello World! 
 
+Program to Display "Hello, World!"
+
 ```c
-main( ) {
-        printf("hello, world");
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
 }
 ```
+Output:
 
+```
+Hello, World!
+``` 
 
 ## References
 
 Wikipedia:
 - [C Programming](https://en.wikibooks.org/wiki/Category:Book:C_Programming) 
 
-
-- https://github.com/afondiel/research-notes/tree/master/books/computer-science
-
+WikiBooks:
+- [C Programming](https://en.wikibooks.org/wiki/Category:Book:C_Programming) 
 
 
 Courses & Tutorials:
