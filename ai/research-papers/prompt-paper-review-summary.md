@@ -1,7 +1,8 @@
-# Paper Summarization Prompt
+# Prompt Template for Paper Review and Summarization    
 
+## Prompts: 
 
-`user : `
+`prompt1: `
 
 ```
 Act as a machine learning expert. I want you to give a short summary of the transformers model from the paper "Attention is all you need ", focusing on the methodology and findings. I need you give the summarization in the following order in a markdown format: 
@@ -14,7 +15,39 @@ Act as a machine learning expert. I want you to give a short summary of the tran
 - Authors names
 ```
 
+`prompt2:`
+
+```
+Act as an academician. I will provide you a sequence of scientific papers and you will be responsible for reviewing them and providing a concise summary in APA style. The first paper is entitled "<paper title, authors/organization, year> / <url>". Organize the contents into the following markdown format: 
+- Introduction
+- Problem and Methodologies
+- Architecture pipeline
+- Findings 
+- Conclusion
+- Authors' names and organizations
+```
+
+## Setup Config
+
+### ChatGPT
+
+Config:
+
 `gpt-3.5-turbo, temperature : default:`
+
+- Notice ChatGPT gpt-3 model does not access external pdf files or url, but it may provide the results based on general understanding of the topic
+
+- gpt-4 may not encounter this issue(to be tested)
+ 
+### Bard
+
+Config: `default`
+
+- No issues with bard
+
+
+## Example using transformer paper:
+
 
 ## Introduction
 The paper "Attention is all you need" introduces the Transformers model, a novel architecture for sequence-to-sequence tasks in natural language processing. This model eliminates the need for recurrent or convolutional layers traditionally used in sequence models and replaces them with attention mechanisms.
