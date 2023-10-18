@@ -12,11 +12,18 @@ So, I decided to compile some resources from my previous and ongoing work that s
 
 The big picture behind this project is to create a "Hello World" Notebook, sort of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), that Software Engineers, Developers and Computer Science Students can use as an aide-memoire or a "prompt" for their daily work, interview preps and study checklist, etc.
 
+## Why Use This Notebook?
+
+- 🚀 Accelerate Your Learning: Dive into a treasure trove of knowledge curated by passionate software engineers for fellow developers.
+- 📦 Wide-Ranging Resources: From algorithms to data structures, design patterns to coding best practices, our notebook covers it all.
+- 📝 Interactive Learning: Discover engaging code examples, real-world applications, and interactive challenges to solidify your understanding.
+- 🌐 Community-Driven: Join a vibrant community of developers like yourself, all working together to shape the future of this invaluable resource.
+
+
 ## Topics 
 
 Topics covered include requirements, design, programming languages, and testing. You may also find some research papers and notebooks about AI, [Prompt Engineering & LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics, and more.
 
-## Table of Contents (ToC)
 - [agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 - [ai](https://github.com/afondiel/research-notes/tree/master/ai)
 - [automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
@@ -50,7 +57,8 @@ Topics covered include requirements, design, programming languages, and testing.
 
 There are still many topics and industry to be added, so feel free to submit a pull request if you have any suggestions or cool ideas that may help this project grow.
 
-Please refer to [contributing guidelines](./CONTRIBUTING.md) for more infos how to contribute.
+Please refer to [contributing guidelines](./CONTRIBUTING.md) to see how you can help this project grow and make learning accessible to all.
+
 
 `@TODO-List: `
 
