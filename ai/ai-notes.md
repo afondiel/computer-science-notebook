@@ -38,6 +38,18 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
 - Meta 
 - ...
 
+## How to Build AI from Zero to Hero
+
+- [Build Artificial Intelligence from A to Z using reinforcement learning](https://github.com/afondiel/AI-a-Z-Learn-How-To-Build-An-AI-certificate-Udemy)
+## Weak (Narrow) vs Strong AI 
+
+- [Research Work - Strong AI - 2016](https://github.com/afondiel/research-notes/blob/master/ai/docs/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf)
+
+
+## AI Hello World!
+
+@todo
+
 ## References
 
 - Wikipedia resources
