@@ -52,12 +52,17 @@ Topics covered include requirements, design, programming languages, and testing.
 - [vcs](https://github.com/afondiel/research-notes/tree/master/vcs)
 - [web](https://github.com/afondiel/research-notes/tree/master/web)
 
+## Industry
+
+- [Automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
+- [Agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
+
 
 ## Contributing
 
 There are still many topics and industry to be added, so feel free to submit a pull request if you have any suggestions or cool ideas that may help this project grow.
 
-Please refer to [contributing guidelines](./CONTRIBUTING.md) to see how you can help this project grow and make learning accessible to all.
+Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help this project grow and make learning accessible to all.
 
 
 `@TODO-List: `
@@ -68,6 +73,10 @@ Please refer to [contributing guidelines](./CONTRIBUTING.md) to see how you can 
 - sort notes based on tech industries : Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...   
 ```
 
+## LICENSE
+
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
+--
 
 >As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful and inspiring as I do.
 >
