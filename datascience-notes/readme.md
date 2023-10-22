@@ -7,5 +7,5 @@
 - Credit: [Pramod R](https://medium.com/@getpramod.r/my-journey-path-from-a-software-engg-to-bi-specialist-to-a-data-scientist-21be40095e5)
 
 
-> ## "Life, at its best, is a flowing, changing process in which nothing is fixed." ~ Carl Rogers
+> ## "Data is the Oil of information age, AI is the engine, Data Science is the laws of Physics that cause the combustion to occur and piston to move" ~ Bernard Marr
 
