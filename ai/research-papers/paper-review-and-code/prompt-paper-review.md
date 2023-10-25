@@ -1,4 +1,4 @@
-# Prompt Template for Paper Review and Summarization    
+# Prompt for Paper Review and Summarization    
 
 ## Prompts: 
 
