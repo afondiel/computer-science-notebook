@@ -14,14 +14,27 @@ You can contribute in many ways :
 
 ## Documentation & Notes
 
-To add a new topic:
+**Note Template**
+
+Two ways you may generate/create your first note:
+
+**Using [hello_world.py](hello_world.py) tool**
+
+By running the command below:
+
+```python
+python hello_world.py topic-name
+```
+
+**Customize your note nanually**
 
 - Create a new folder with the <topic name>
 - Inside the root folder <topic-name>, create: 
   - 1 markdown file entitled: `topic-notes.md`
   - 2 other folders: `docs`, `lab`
 
-Your final root folder should have the following structure:
+Your final note folder should have the following structure:
+
 ```
 E:.
 │   topic-notes.md
@@ -41,7 +54,6 @@ E:.
 ## Hello World!
 ## References
 ```
-
 
 ## Lab Content
 
