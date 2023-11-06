@@ -1,6 +1,10 @@
 # Rust Notes
 
-## What's Rust ? 
+## Overview
+
+This is "Hello World" resources for Rust Programming Languages.
+
+## Rust in a Nutshell
 
 - Statically typed
 	- everything is known at compile time
@@ -99,11 +103,21 @@ fn main(){
 ```
 
 
-Try out yourself on [replit playground](https://replit.com/@afondiel/rust-notes#src/main.rs) and see more examples! 
+Try out yourself on [replit playground](https://replit.com/@afondiel/rust-notes#src/main.rs) and see more examples!
+
+## Rust & Machine Learning
+
+- [Rust ML tools](https://www.arewelearningyet.com/)
+- [rustlearn - a machine learning API by @maciejkula (Maciej Kula)](https://github.com/maciejkula/rustlearn)
+
+## Rust & Computer Vision
+
+- [Rust Computer Vision Project](https://github.com/rust-cv)
+
 
 ## References
 
-Documentation : 
+Documentation: 
 - Wikipedia : https://en.wikipedia.org/wiki/Rust_(programming_language)
 - [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html) 
 - installation guide :  
@@ -113,17 +127,21 @@ Documentation :
 - MSVC prerequistes : https://rust-lang.github.io/rustup/installation/windows-msvc.html
 - [Embedded Rust documentation](https://docs.rust-embedded.org/)
 
-Books : 
+Books: 
 
 - [Programming Rust - Jim Blandy, Jason Orendorff - 1st-edition-2017](https://github.com/afondiel/cs-books/blob/main/computer-science/programming/rust/programmingrust-1st-edition-2017-Jim%20Blandy%2C%20Jason%20Orendorff.pdf)
 
 - [The Embedded Rust Book](https://docs.rust-embedded.org/book/index.html)
 
 
-Courses : 
+Courses & Tutorials: 
 
 - [Rust For Undergrads - Udemy Free Course](https://www.udemy.com/course/rust-for-undergrads/)
 - Rust crash courses by [MS Reactor](https://www.youtube.com/watch?v=wHDYReCysVY) - C# Applications
 
 Projects : 
 - CLI calculator :  https://www.youtube.com/watch?v=MsocPEZBd-M
+
+
+> ## "Keep up your bright swords, for the dew will rust them." - William Shakespeare
+
