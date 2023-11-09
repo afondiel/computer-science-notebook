@@ -65,13 +65,12 @@ There are still many topics and industry to be added, so feel free to submit a p
 Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help this project grow and make learning accessible to all.
 
 
-`@TODO-List: `
+`Some to-do tasks:`
 
-```
-- add guidelines of "essential resources to get into a specific industry/company"
-- add MIT LICENSE
-- sort notes based on tech industries : Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...   
-```
+- Add guidelines of "essential resources to get into a specific industry/company"
+- Add MIT LICENSE
+- Sort notes based on tech industries : Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...
+- Create a pipeline to generate a 'minimum' note content using [hello_world_prompt.md](./hello_world_prompt.md) + [OpenAI API](https://openai.com/blog/openai-api) / [Bard API ](https://www.googlecloudcommunity.com/gc/AI-ML/Google-Bard-API/m-p/538517#M1526)  
 
 ## LICENSE
 
