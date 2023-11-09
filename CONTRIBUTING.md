@@ -12,11 +12,11 @@ Join us in shaping the future of software engineering education and be a part of
 
 You can contribute in many ways :
 
-## Documentation & Notes
+## Notes Structure
 
 **Note Template**
 
-Two ways you may generate/create your first note:
+Two ways you can generate/create your first note:
 
 **Using [hello_world.py](hello_world.py) tool**
 
@@ -43,7 +43,7 @@ E:.
 └───lab
 ```
 
-### `topic-notes.md` Content Structure
+### `topic-notes.md` Format
 
 ```
 # Title - Notes
@@ -55,7 +55,43 @@ E:.
 ## References
 ```
 
-## Lab Content
+### ChatGPT/Bard Prompt for Content Generation
+
+```
+I'm going to train you write to a short-form summarization.
+
+The summarization has the following format: 
+`
+# {Topic} - Notes
+## Table of Contents (ToC)
+## Overview
+## Applications
+## Tools & Frameworks
+## Hello World!
+## References
+`
+Here are the rules: 
+- The `##Overview` heading has to be one line sentence
+- Organize the following headings in a list of 5-6 succinct bullets 
+- Do not use hashtags and emojis. Ever.
+- The `## Hello World! ` has to be a code
+- replace `{Topic}` by the topic name 
+
+I am going to give you a topic and you will summarize the topic, and output the summarization in markdown format.
+
+Do you understand?
+```
+
+Transition: 
+
+```
+Topic={Topic}
+```
+
+Magic !
+
+
+### `Lab` Content
 
 Notebooks, source code, coding playground link such: leetcode, replit ...
 
@@ -64,7 +100,7 @@ If you are submiting a source code refer to the file below :
 - [CODING_CONVENTIONS.md](./sw-documentation-convention/CODING_CONVENTIONS.md)
 - [CODING_CONVENTIONS_C++.md](./sw-documentation-convention/CODING_CONVENTIONS_C++.md)
 
-## Docs Content
+### `Docs` Content
 
 Documentation, research papers ...
 
