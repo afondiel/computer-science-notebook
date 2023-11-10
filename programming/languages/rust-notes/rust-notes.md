@@ -2,7 +2,9 @@
 
 ## Overview
 
-This is "Hello World" resources for Rust Programming Languages.
+This is a "Hello World" resource for Rust Programming Languages.
+
+![](https://marketsplash.com/content/images/2023/09/rust-machine-learning.png)
 
 ## Rust in a Nutshell
 
@@ -93,7 +95,7 @@ This compiles the code and creates a binary in your current working dir `main` ,
 ./main
 ```
 
-## Hello World !
+## Hello World!
 
 
 ```rs

@@ -2,7 +2,7 @@
 
 ##  Overview
 
-Rust "Hello World" resources
+This is a "Hello World" resource for Rust Programming Languages.
 
 ## Requirements & Prerequisites
 
