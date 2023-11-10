@@ -6,6 +6,8 @@ This is a "Hello World" resource for Rust Programming Languages.
 
 ![](https://marketsplash.com/content/images/2023/09/rust-machine-learning.png)
 
+Src: [Rust For Machine Learning: Algorithms And Implementation - Market Splash](https://marketsplash.com/tutorials/rust/rust-machine-learning/)
+
 ## Rust in a Nutshell
 
 - Statically typed
