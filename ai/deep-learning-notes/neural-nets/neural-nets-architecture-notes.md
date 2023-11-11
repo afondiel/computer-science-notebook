@@ -15,6 +15,13 @@ Agenda
 - [GPT-3](#gpt-3)
 
 
+## Overview
+
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*n16lj3lSkz2miMc_5cvkrA.jpeg)
+
+Src: [Benchmark Analysis of Representative Deep Neural Network Architectures - Luigi Celona (@CeLuigi) - 2018](https://arxiv.org/pdf/1810.00736.pdf)
+
+
 ## PERCEPTRON (P)
 - Link1 : 
   
@@ -131,3 +138,10 @@ Link :
 Link : 
 - [GPT-3](https://en.wikipedia.org/wiki/GPT-3)
 
+## Datasets
+
+- [Performance on ImageNet validation set](https://github.com/CeLuigi/models-comparison.pytorch/wiki/Performance-on-ImageNet-validation-set)
+
+## References
+
+- [Neural Network Architectures](https://towardsdatascience.com/neural-network-architectures-156e5bad51ba)
