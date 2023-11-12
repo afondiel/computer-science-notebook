@@ -95,6 +95,19 @@ def create_repo(repo_name):
 def note_gen(topic_name):
     pass
 ```
+**Usage**
+```
+Usage: python hello_world.py [options] [<NotePath>] [<NoteName>]
+
+[<NotePath>]
+        Specify a path if you want to generate the note in a different location
+[<NoteName>]
+        Note/Topic name
+Options:
+        -v, --verbose: print debug informationn
+        -a, --all: display the list of current notes
+        -h, --help: see usage
+```
 
 Try it out! by running the command below. Choose a `topic`, and create your first note:
 
