@@ -57,6 +57,86 @@ Topics covered include requirements, design, programming languages, and testing.
 - [Automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
 - [Agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 
+## Note & Content Generation
+
+**Generate template files and folders with [hello_world.py](hello_world.py) tool**. 
+
+The tool generate the note structure in 3 steps:
+
+1. create a note template 
+
+```python
+def note_content_template(topic):
+    pass
+```
+2. Then creates the repos `docs` & `lab` 
+
+```python
+def create_repo(repo_name):
+    pass
+```
+3. Finally, it generates the entire template files
+
+```python
+def note_gen(topic_name):
+    pass
+```
+
+Try it out! by running the command below. Choose a `topic`, and create your first note:
+
+```python
+python hello_world.py topic-name
+```
+
+output:
+
+```
+E:.
+│   topic-notes.md
+│
+├───docs
+└───lab
+```
+
+**ChatGPT/Bard Prompt for Content Generation**
+
+After generating your first (empty) note you can fill it out the content by using the prompt below (if you're using Copilot, It might do trick as well)
+
+```
+I'm going to train you write to a short-form summarization.
+
+The summarization has the following format: 
+`
+# {Topic} - Notes
+## Table of Contents (ToC)
+## Overview
+## Applications
+## Tools & Frameworks
+## Hello World!
+## References
+`
+Here are the rules: 
+- The `##Overview` heading has to be one line sentence
+- Organize the following headings in a list of 5-6 succinct bullets 
+- Do not use hashtags and emojis. Ever.
+- The `## Hello World! ` has to be a code
+- replace `{Topic}` by the topic name 
+
+I am going to give you a topic and you will summarize the topic, and output the summarization in markdown format.
+
+Do you understand?
+
+```
+
+Transition:
+
+```
+Topic={Topic}
+``` 
+
+The final output should be a something like [this](#)!
+
+Notice: this prompt might not work in the attempt depending on the what AI chat you're using. Just hit `regenerate` to the LLM the time to "think" if that the case
 
 ## Contributing
 
