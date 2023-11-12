@@ -1,6 +1,10 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/research-notes) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/research-notes/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/research-notes.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/research-notes.svg) 
+<p align="center" width="100%">
+    <img src="./outro/logo.jpg" width="200" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
+</p>
 
-# Research Notes
+<h1 align="center" width="100%"> Research Notes</h1>
+
+![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/research-notes) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/research-notes/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/research-notes.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/research-notes.svg) 
 
 ## Overview
 
