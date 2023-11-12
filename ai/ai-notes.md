@@ -1,54 +1,74 @@
 # AI Notes 
 
 ## Table Of contents
-- [Intro](#intro)
+
+- [Overview](#overview)
 - [Applications](#applications)
 - [Tools/frameworks](#toolsframeworks)
+- [Companies Shaping the AI fields](#companies-shaping-the-ai-fields)
+- [How to Build AI from Zero to Hero](#how-to-build-ai-from-zero-to-hero)
+- [Weak (Narrow) vs Strong AI](#weak-narrow-vs-strong-ai)
+- [Artificial General Intelligence (AGI)](#artificial-general-intelligence-agi)
+- [AI Hello World!](#ai-hello-world)
 - [References](#references)
 
 
 ## Overview
 
-Intelligence demonstrated by machines, as opposed to the natural intelligence
+Artificial Intelligence (AI) is the intelligience demonstrated by machines, as opposed to the human intelligence. AI allows computers to think
 
 ## Applications
 
-- Advanced web search engines (e.g., Google), 
-- recommendation systems (used by YouTube, Amazon and Netflix), 
-- understanding human speech (such as Siri and Alexa), 
-- self-driving cars (e.g., Tesla), 
-- strategic game systems (such as chess and Go).
+- Advanced web search engines (Google, Bing..), 
+- Recommendation systems (used by YouTube, Amazon and Netflix), 
+- Understanding human speech (such as Siri and Alexa), 
+- Self-driving cars 
+- Strategic game systems (such as chess and Go).
 - AI Art
-- Chatbots
+- AI Chatbots
 - Healthcare
 - ...
 
-## Tools/frameworks
-- Large Language Models (LLM)
+## Tools & Frameworks
+
+- Large Language Models (LLMs)
 - GPT Models
 - Search algorithm
 - Mathematical optimization 
 - Evolutionary computation ...
 
-## Companies Shaping the AI fields
-- OpenAI
-- DeepMind
-- Google
-- MS
-- Meta 
-- ...
 
-## How to Build AI from Zero to Hero
-
-- [Build Artificial Intelligence from A to Z using reinforcement learning](https://github.com/afondiel/AI-a-Z-Learn-How-To-Build-An-AI-certificate-Udemy)
 ## Weak (Narrow) vs Strong AI 
 
 - [Research Work - Strong AI - 2016](https://github.com/afondiel/research-notes/blob/master/ai/docs/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf)
 
 
+## Artificial General Intelligence (AGI)
+
+- [@OpenAI Planning for AGI and beyond](https://openai.com/blog/planning-for-agi-and-beyond)
+- [@DeepMind AGI](http://deepmindagi.com/)
+  - [@DeepMind Vision on AGI](https://deepmind.google/about/)
+- [Richard Feynman on Artificial General Intelligence](https://www.cantorsparadise.com/richard-feynman-on-artificial-general-intelligence-2c1b9d8aae31)
+
+## How to Build AI from Zero to Hero
+
+- [Build Artificial Intelligence from A to Z using reinforcement learning](https://github.com/afondiel/AI-a-Z-Learn-How-To-Build-An-AI-certificate-Udemy)
+
 ## AI Hello World!
 
-@todo
+@TODO
+
+## Companies Shaping the AI fields
+
+- OpenAI
+- DeepMind
+- Google
+- MS
+- Meta
+- NVIDIA
+- AMD
+- Intel
+- ...
 
 ## References
 
@@ -98,7 +118,7 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
   - https://en.wikipedia.org/wiki/Egyptian_mythology
   - https://en.wikipedia.org/wiki/Roman_mythology
 
-- Courses :
+- Lectures & Tutorial & Online Free Courses:
 
   - [UC Berkeley - CS188 Intro to AI -- Course Materials](http://ai.berkeley.edu/lecture_slides.html) 
   - [Stanford CS221 - Overview Artificial Intelligence Course | Stanford CS221: Learn AI (Autumn 2019)](https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
@@ -111,7 +131,11 @@ Intelligence demonstrated by machines, as opposed to the natural intelligence
 	- Geektonight : https://www.geektonight.com/best-artificial-intelligence-courses/
 	- Javin Paul medium article : https://medium.com/javarevisited/10-best-coursera-certifications-courses-for-machine-learning-and-artificial-intelligence-256d9a125822
  
-- Research School Work : 
+- School Work: 
   - [Strong AI - 2016](https://github.com/afondiel/research-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
-  
+
+Books
+- @ADD
+
 - [Papers](#)
+  - 
