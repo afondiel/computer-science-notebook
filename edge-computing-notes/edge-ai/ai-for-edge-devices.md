@@ -1,4 +1,4 @@
-# AI For Edge Devices Notes
+# Edge AI Notes
 
 ## Overview
 
@@ -26,6 +26,7 @@ Src: [Microsoft AI@Edge Community](https://microsoft.github.io/ai-at-edge/assets
 - [Microsoft Open Source ](https://opensource.microsoft.com/)
 - [What Is Edge AI and How Does It Work?](https://blogs.nvidia.com/blog/2022/02/17/what-is-edge-ai/)
 - Free no-coding AI development tools for embedded devices
+- [On-Device Machine Learning - Google Developers](https://developers.google.com/learn/topics/on-device-ml)
 
 
 
