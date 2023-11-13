@@ -97,16 +97,17 @@ def note_gen(topic_name):
 ```
 **Usage**
 ```
-Usage: python hello_world.py [options] [<NotePath>] [<NoteName>]
+Usage: python hello_world.py [options] <NotePath> <NoteName>
 
-[<NotePath>]
+<NotePath>
         Specify a path if you want to generate the note in a different location
-[<NoteName>]
+<NoteName>
         Note/Topic name
 Options:
         -v, --verbose: print debug informationn
         -a, --all: display the list of current notes
         -h, --help: see usage
+        -f, --file: add new file
 ```
 
 Try it out! by running the command below. Choose a `topic`, and create your first note:
@@ -120,6 +121,7 @@ output:
 ```
 E:.
 │   topic-notes.md
+│   readme.md
 │
 ├───docs
 └───lab
