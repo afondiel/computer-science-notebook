@@ -144,15 +144,16 @@ def note_gen(topic_name):
         note_readme(topic_name)
 
 def gen_helper():
-    print("Usage: python hello_world.py [options] [<NotePath>] [<NoteName>]\n")        
-    print("[<NotePath>]")
+    print("Usage: python hello_world.py [options] <NotePath> <NoteName>\n")        
+    print("<NotePath>")
     print("\tSpecify a path if you want to generate the note in a different location")
-    print("[<NoteName>]")
+    print("<NoteName>")
     print("\tNote/Topic name")
     print("Options:")
     print("\t-v, --verbose: print debug informationn")
     print("\t-a, --all: display the list of current notes")
     print("\t-h, --help: see usage")
+    print("\t-f, --file: add new file")
 
 # main
 if __name__ == '__main__':
@@ -162,6 +163,7 @@ if __name__ == '__main__':
             -v, --verbose: print debug information
             -a, --all: display the list of current notes
             -h, --help: see usage
+            -f, --file: add new file
     """ 
     # args options 
     options=['-a', '-h', '-v']
