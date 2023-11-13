@@ -60,10 +60,10 @@ E:.
 ### ChatGPT/Bard Prompt for Content Generation
 
 ```
-I'm going to train you write to a short-form summarization.
+I'm going to train you write a short-form summary.
 
-The summarization has the following format: 
-`
+The summary has the following format: 
+"""
 # {Topic} - Notes
 ## Table of Contents (ToC)
 ## Overview
@@ -71,15 +71,17 @@ The summarization has the following format:
 ## Tools & Frameworks
 ## Hello World!
 ## References
-`
+"""
 Here are the rules: 
-- The `##Overview` heading has to be one line sentence
-- Organize the following headings in a list of 5-6 succinct bullets 
+- replace `{Topic}` by the name of the topic I will give you 
+- The `ToC` has to be link-based to each heading
+- The `## Overview` heading has to be one-line sentence
+- Organize the headings in a list of 5-6 succinct bullets except for `Overview`  
+- The `## Hello World! ` has to be a code snippet
 - Do not use hashtags and emojis. Ever.
-- The `## Hello World! ` has to be a code
-- replace `{Topic}` by the topic name 
+- output the summary in markdown format including the `## References`
 
-I am going to give you a topic and you will summarize the topic, and output the summarization in markdown format.
+I am going to give you a topic name and you will summarize the topic.
 
 Do you understand?
 ```
@@ -124,6 +126,41 @@ If you are submiting a source code refer to the file below :
 ### `Docs` Content
 
 Documentation, research papers ...
+
+## Your Contribution 
+
+For this example I suppose you already performed the followng tasks
+```
+- git clone https://github.com/afondiel/research-notes.git
+- git branch -b <branch-name> 
+``` 
+After made some changes  and finally have your note ready. Let's say your first note is ready and it's called: `agi-notes`.   
+
+**First Commit!**
+
+1. Add your current files/changes & cd
+
+```
+E:\research-notes\agi-notes> git add .
+```
+
+3. Commit them
+
+```
+E:\research-notes\agi-notes> git commit -m"agi-notes: Hello World!"
+``` 
+
+4. Push to remote
+
+```
+E:\research-notes\agi-notes> git push origin <branch-name> 
+``` 
+
+5. Open PR on github
+
+It's done! 
+
+PS : Your `first commit message` doesn't need to be boring like "initial commit" or "first commit", instead make it look funny:  git commit -m"agi-notes: Hello World!"
 
 ## References
 
