@@ -94,6 +94,21 @@ def note_readme(topic):
         note_file_name.write(line)
         # print(line, end='')
 
+def create_file(file_name):
+    """
+    @brief create new file
+        - file_name: file name add in the project
+    """
+    try:
+        # Add your desired file extension, for example, ".txt", ".md"
+        file_extension = ".md"
+        full_filename = filename + file_extension
+
+        with open(full_filename, 'w') as file:
+            print(f"# File '{full_filename}' created successfully.")
+    except Exception as e:
+        print(f"Error: {e}")
+
 def create_repo(repo_name):
     """
     @brief create repo
