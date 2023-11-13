@@ -1,10 +1,10 @@
 # Hello World Prompt
 
 ```
-I'm going to train you write to a short-form summarization.
+I'm going to train you write a short-form summary.
 
-The summarization has the following format: 
-`
+The summary has the following format: 
+"""
 # {Topic} - Notes
 ## Table of Contents (ToC)
 ## Overview
@@ -12,17 +12,20 @@ The summarization has the following format:
 ## Tools & Frameworks
 ## Hello World!
 ## References
-`
+"""
 Here are the rules: 
-- The `##Overview` heading has to be one line sentence
-- Organize the following headings in a list of 5-6 succinct bullets 
+- replace `{Topic}` by the name of the topic I will give you 
+- The `ToC` has to be link-based to each heading
+- The `## Overview` heading has to be one-line sentence
+- Organize the headings in a list of 5-6 succinct bullets except for `Overview`  
+- The `## Hello World! ` has to be a code snippet
 - Do not use hashtags and emojis. Ever.
-- The `## Hello World! ` has to be a code
-- replace `{Topic}` by the topic name 
+- output the summary in markdown format including the `## References`
 
-I am going to give you a topic and you will summarize the topic, and output the summarization in markdown format.
+I am going to give you a topic name and you will summarize the topic.
 
 Do you understand?
+
 ```
 
 Transition: 
