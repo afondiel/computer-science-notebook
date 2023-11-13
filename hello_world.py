@@ -71,6 +71,29 @@ def note_content_template(topic):
         note_file_name.write(line)
         # print(line, end='')
 
+def note_readme(topic):
+    """
+    @brief Note contents
+        # Title - Notes
+        ## Overview
+        ## Contributing
+    """
+    note_name_path = topic
+    Title = topic.title()
+    # Note Headlines
+    line = ""
+    line += str(f"# {Title} - Notes" + "\n")
+    line += str(f"## Overview"+ "\n")
+    line += str(f"## Contributing"+ "\n")
+
+    # TODO: check if file name has space
+    # note file path name
+    note_file_name_path = note_name_path +"-"+"notes"+".md"
+
+    with open(note_file_name_path, 'w') as note_file_name:
+        note_file_name.write(line)
+        # print(line, end='')
+
 def create_repo(repo_name):
     """
     @brief create repo
@@ -102,6 +125,8 @@ def note_gen(topic_name):
         create_repo("lab")        
         # create note file template
         note_content_template(topic_name)
+        # create note readme
+        note_readme(topic_name)
 
 def gen_helper():
     print("Usage: python hello_world.py [options] [<NotePath>] [<NoteName>]\n")        
