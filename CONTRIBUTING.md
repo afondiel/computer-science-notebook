@@ -30,14 +30,16 @@ python hello_world.py topic-name
 
 - Create a new folder with the <topic name>
 - Inside the root folder <topic-name>, create: 
-  - 1 markdown file entitled: `topic-notes.md`
   - 2 other folders: `docs`, `lab`
+  - 1 markdown file entitled: `topic-notes.md`
+  - 1 `readme.md`for notes description
 
 Your final note folder should have the following structure:
 
 ```
 E:.
 │   topic-notes.md
+│   readme.md
 │
 ├───docs
 └───lab
@@ -90,6 +92,25 @@ Topic={Topic}
 
 Magic !
 
+### `readme.md` Format
+
+```
+# Machine Learning Notes
+
+![](img)
+
+(Src: link)
+
+## Overview
+
+This is <topic> "Hello World" resources.
+
+## Contributing
+
+Please refer to this [CONTRIBUTING.md](../../CONTRIBUTING.md) file.
+
+> ### “Any funny/interesting quote/citation about the topic” — @Author
+```
 
 ### `Lab` Content
 
