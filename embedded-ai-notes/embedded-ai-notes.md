@@ -1,7 +1,6 @@
-# Embedded-AI - Notes
+# Embedded AI - Notes
 
 ## Table of Contents (ToC)
-
 - Overview
 - Applications
 - Tools & Frameworks
@@ -10,65 +9,70 @@
 
 ## Overview
 
-Embedded-AI is a general-purpose framework system for AI functions that is built into network devices and provides common model management, data obtaining, and data preprocessing functions for AI algorithm-based functions for these devices¹.
+Embedded AI involves integrating artificial intelligence algorithms and models into devices with limited resources, enabling real-time inference on the edge.
 
 ## Applications
 
-Some of the applications of embedded-AI are:
-
-- Face-ID: Using facial recognition to authorize access to machine controls on a factory floor².
-- Anomaly Detection: Detecting abnormal patterns in data streams, such as network traffic, sensor readings, or machine logs³.
-- Voice Control: Using natural language processing to enable voice-based interactions with devices, such as smart speakers, voice assistants, or robots.
+- Edge devices: Smart cameras, IoT sensors, and wearables.
+- Automotive: Driver assistance, object recognition.
+- Healthcare: Remote patient monitoring, medical imaging.
+- Industrial IoT: Predictive maintenance, quality control.
+- Consumer Electronics: Voice assistants, image recognition in smartphones.
 
 ## Tools & Frameworks
 
-Some of the tools and frameworks that can be used to develop embedded-AI applications are:
-
-- TensorFlow: An open-source platform for machine learning that supports various types of neural networks and algorithms.
-- CEVA-XM: A family of low-power and high-performance DSP cores that are optimized for embedded-AI applications, such as vision, audio, and sensor fusion.
-- Huawei EAI: A system that integrates multiple AI algorithms and provides model management, data obtaining, and data preprocessing functions for AI functions on network devices¹.
+- TensorFlow Lite: Lightweight version for mobile and edge devices.
+- PyTorch Mobile: Extension of PyTorch for mobile deployments.
+- Edge TPU: Google's Tensor Processing Unit for edge devices.
+- CMSIS-NN: ARM's neural network kernel library for microcontroller platforms.
+- OpenVINO: Intel's toolkit for optimizing and deploying models on edge devices.
 
 ## Hello World!
 
-Here is a simple example of how to use TensorFlow to create a neural network that can classify handwritten digits:
-
 ```python
-# Import TensorFlow and Keras
-import tensorflow as tf
-from tensorflow import keras
+# Sample code using TensorFlow Lite
+import tflite_runtime.interpreter as tflite
 
-# Load the MNIST dataset of handwritten digits
-mnist = keras.datasets.mnist
-(x_train, y_train), (x_test, y_test) = mnist.load_data()
+# Load the TFLite model and allocate tensors.
+interpreter = tflite.Interpreter(model_path="model.tflite")
+interpreter.allocate_tensors()
 
-# Normalize the input images
-x_train, x_test = x_train / 255.0, x_test / 255.0
+# Get input and output tensors.
+input_tensor = interpreter.tensor(interpreter.get_input_details()[0]['index'])
+output = interpreter.tensor(interpreter.get_output_details()[0]['index'])
 
-# Define the neural network model
-model = keras.models.Sequential([
-  keras.layers.Flatten(input_shape=(28, 28)), # Flatten the 28x28 images into 784-element vectors
-  keras.layers.Dense(128, activation='relu'), # Add a hidden layer with 128 neurons and ReLU activation
-  keras.layers.Dropout(0.2), # Add a dropout layer to prevent overfitting
-  keras.layers.Dense(10, activation='softmax') # Add an output layer with 10 neurons and softmax activation
-])
-
-# Compile the model
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
-
-# Train the model
-model.fit(x_train, y_train, epochs=5)
-
-# Evaluate the model
-model.evaluate(x_test, y_test, verbose=2)
+# Perform inference.
+input_tensor()[0] = input_data
+interpreter.invoke()
+result = output()[0]
+print(result)
 ```
-Src code: [github.com/jraman](https://github.com/jraman/ml-tryouts/tree/862a66d9c35ed717bd620ead9672a2e024ebb55b/mnist_beginner.py) 
 
 ## References
+
+[TensorFlow Lite](https://www.tensorflow.org/lite) Documentation: 
+- https://www.tensorflow.org/lite/microcontrollers
+- https://www.tensorflow.org/lite/microcontrollers/get_started_low_level
+
+[PyTorch Mobile](https://pytorch.org/mobile/)
+
+[Edge TPU](https://coral.ai/)
+
+[CMSIS-NN](https://arm-software.github.io/CMSIS_5/NN/html/index.html)
+
+[OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html)
+
+Embedded AI:
 
 - [What Is Embedded AI (EAI)? Why Do We Need EAI? - Huawei](https://info.support.huawei.com/info-finder/encyclopedia/en/EAI.html)
 - [Mastering embedded AI - Embedded.com](https://www.embedded.com/mastering-embedded-ai/)
 - [Embedded Artificial Intelligence: Intelligence on Devices | IEEE ](https://ieeexplore.ieee.org/document/10224582/)
 
+
+Arduino: 
+- https://docs.arduino.cc/tutorials/nano-33-ble-sense/get-started-with-machine-learning
+Arm CMSIS-NN GitHub Repository
+
+tinyML: 
+- https://www.tinyml.org/
 
