@@ -47,5 +47,7 @@ Artificial General Intelligence (AGI) refers to highly autonomous systems with t
 - [OpenAI - Artificial General Intelligence](https://www.openai.com/research/agi/)
 - [Ethics of Artificial Intelligence and Robotics Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/archives/win2018/entries/ethics-ai-robotics/)
 
-## >"There's a big difference between knowing the name of something and knowing something" - Richard Feynman
+Papers : 
+- [AGI Papers](./papers/)
+
 
