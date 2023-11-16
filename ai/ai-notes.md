@@ -1,6 +1,6 @@
 # AI Notes 
 
-## Table Of contents
+## Table Of Contents
 
 - [Overview](#overview)
 - [Applications](#applications)
@@ -15,24 +15,31 @@
 
 ## Overview
 
-Artificial Intelligence (AI) is the intelligience demonstrated by machines, as opposed to the human intelligence. AI allows computers to think
+Artificial Intelligence (AI) is the intelligience demonstrated by machines, as opposed to the human intelligence. AI allows computers to think.
+
+**AI Capabilities**
+
+- **See**: perceive their environment through vision or other senses
+- **Talk**: hold a natural language dialog grounded in their environment
+- **Act**: navigate and interact with their environment to accomplish goals
+- **Reason**: consider and plan for the long-term consequences of their actions
 
 ## Applications
 
+- Transportation & Mobility: Self-driving cars
+- Robotics: General Purpose Humanoid Robots
+- Healthcare
+- Strategic game systems (such as chess and Go).
+- Chat bots: ChatGPT, Bard, Grok ...   
 - Advanced web search engines (Google, Bing..), 
 - Recommendation systems (used by YouTube, Amazon and Netflix), 
 - Understanding human speech (such as Siri and Alexa), 
-- Self-driving cars 
-- Strategic game systems (such as chess and Go).
-- AI Art
-- AI Chatbots
-- Healthcare
+- AI Art: Image generation ...
 - ...
 
 ## Tools & Frameworks
 
-- Large Language Models (LLMs)
-- GPT Models
+- Large Language Models (LLMs): Openai GPT Models, Google PaLM, LAMDA, Meta LLama(s), ...
 - Search algorithm
 - Mathematical optimization 
 - Evolutionary computation ...
@@ -44,6 +51,8 @@ Artificial Intelligence (AI) is the intelligience demonstrated by machines, as o
 
 
 ## Artificial General Intelligence (AGI)
+
+General topic: check out the [AGI note](./agi-notes/agi-notes.md)
 
 - [@OpenAI Planning for AGI and beyond](https://openai.com/blog/planning-for-agi-and-beyond)
 - [@DeepMind AGI](http://deepmindagi.com/)
@@ -58,7 +67,25 @@ Artificial Intelligence (AI) is the intelligience demonstrated by machines, as o
 
 @TODO
 
-## Companies Shaping the AI fields
+## Embodied-AI Agents
+
+Some Embodied-AI for General-Purpose-Humanoid-Robots:
+
+- 1X: NEO
+- Figure: 01,
+- Tesla: Optimus,
+- SanctuaryAI: Phoenix,
+- BostonDynamics: Atlas.
+
+Some Embodied-AI for Autonomous Vehicles
+
+- [Wayve driver](https://wayve.ai/technology/wayve-ai-driver/)
+  
+
+Embodied AI Workshop - CVPR 2023: 
+- [embodied-ai.org](https://embodied-ai.org/) 
+
+## Companies Shaping AI fields
 
 - OpenAI
 - DeepMind
@@ -124,11 +151,13 @@ Artificial Intelligence (AI) is the intelligience demonstrated by machines, as o
   - [Stanford CS221 - Overview Artificial Intelligence Course | Stanford CS221: Learn AI (Autumn 2019)](https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
 
   - [AI Esssentials - IBM youtube videos](https://www.youtube.com/watch?v=9gGnTQTYNaE&list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF)
-  
-- Certificates : 
-	- Code Spaces : https://www.codespaces.com/best-artificial-intelligence-courses-certifications.html
 
-	- Geektonight : https://www.geektonight.com/best-artificial-intelligence-courses/
+Great AI Blog: [Jürgen Schmidhuber's AI Blog](https://people.idsia.ch/~juergen/blog.html) 
+
+- Online Courses: 
+	- Code Spaces: https://www.codespaces.com/best-artificial-intelligence-courses-certifications.html
+
+	- Geektonight: https://www.geektonight.com/best-artificial-intelligence-courses/
 	- Javin Paul medium article : https://medium.com/javarevisited/10-best-coursera-certifications-courses-for-machine-learning-and-artificial-intelligence-256d9a125822
  
 - School Work: 
