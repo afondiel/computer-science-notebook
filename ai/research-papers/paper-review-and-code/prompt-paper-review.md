@@ -2,7 +2,7 @@
 
 ## Prompts: 
 
-`prompt1: `
+`prompt1: summarize import insights`
 
 ```
 Act as a machine learning expert. I want you to give a short summary of the transformers model from the paper "Attention is all you need ", focusing on the methodology and findings. I need you give the summarization in the following order in a markdown format: 
@@ -15,7 +15,7 @@ Act as a machine learning expert. I want you to give a short summary of the tran
 - Authors names
 ```
 
-`prompt2:`
+`prompt2: summarize import insights`
 
 ```
 Act as an academician. I will provide you a sequence of scientific papers and you will be responsible for reviewing them and providing a concise summary in APA style. The first paper is entitled "<paper title, authors/organization, year> / <url>". Organize the contents into the following markdown format: 
@@ -26,6 +26,39 @@ Act as an academician. I will provide you a sequence of scientific papers and yo
 - Conclusion
 - Authors' names and organizations
 ```
+
+`prompt2.1: summarize import insights`
+
+```
+Act as an academician. I will provide you a sequence of reseach papers and you will do a review and provide a summary(APA style). 
+
+The summary has the following format:
+'''
+- Abstract
+- Introduction
+- Problem and Solution(Methodologies)
+- System Architecture pipeline
+- Findings
+- Conclusion
+- Authors' and organizations
+'''
+
+Here are some rules:
+- Make it concise and succinct to read
+- Do not use hashtag or emojis. Ever.
+
+I am going to give the name of the research paper and you will write a summary and output in markdown format.
+
+Do you understand?
+```
+
+`prompt3: Extract Relevant information/insights`
+
+```
+Your task is to extract relevant information from the research paper: "Levels of AGI: Operationalizing Progress on the Path to AGI"  from `google deepmind`
+
+Extract the information relevant to `robot` and `AGI embodiment`
+``` 
 
 ## Setup Config
 
