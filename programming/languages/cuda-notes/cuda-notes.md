@@ -69,6 +69,7 @@ Lectures & Tutorials:
 NVIDIA DLI Online courses: 
 
 - [An Even Easier Introduction to CUDA - NVIDIA DLI](https://courses.nvidia.com/courses/course-v1:DLI+T-AC-01+V1/)
+  - [Blog post - An Easy Introduction to CUDA C and C++ - 2012](https://developer.nvidia.com/blog/easy-introduction-cuda-c-and-c/)
   - [Blog post - An Even Easier Introduction to CUDA 2017](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
   - [Notebook](./lab/notebook/An_Even_Easier_Introduction_to_CUDA.ipynb)
 - [Getting Started with Accelerated Computing in CUDA C/C++](https://courses.nvidia.com/courses/course-v1:DLI+S-AC-04+V1/)
