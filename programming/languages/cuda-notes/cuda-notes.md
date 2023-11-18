@@ -56,12 +56,11 @@ Documentation
 - [CUDA C++ Programming Guide Release 12.3 - NVIDIA](https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
 - [PyCUDA Documentation](https://documen.tician.de/pycuda/)
 
-- [CUDA Tutorial](https://cuda-tutorial.readthedocs.io/en/latest/)
-
 - [CUDA Wikipedia](https://en.wikipedia.org/wiki/CUDA)
 
 Lectures & Tutorials: 
 
+- [CUDA Tutorial](https://cuda-tutorial.readthedocs.io/en/latest/)
 - [geeksforgeeks.org](https://www.geeksforgeeks.org/introduction-to-cuda-programming/)
 - [Intro to CUDA (part 1): High Level Concepts](https://www.youtube.com/watch?v=4APkMJdiudU&list=PLC6u37oFvF40BAm7gwVP7uDdzmW83yHPe)
 - [CUDA Crash Course: Vector Addition - Nick CoffeeBeforeArch](https://www.youtube.com/watch?v=2NgpYFdsduY&list=PLxNPSjHT5qvtYRVdNN1yDcdSl39uHV_sU)
@@ -69,13 +68,28 @@ Lectures & Tutorials:
 
 NVIDIA DLI Online courses: 
 
-- An Even Easier Introduction to CUDA
-- GPU Acceleration Using CUDA C/C++ DLI NVIDIA
-- Fundamentals of Accelerated Computing with CUDA C/C++ DLI NVIDIA
-- Fundamentals of Accelerated Computing with CUDA Python NVIDIA DLI
-- Accelerating CUDA C++ Applications with Concurrent Streams NVIDIA DLI
-- Scaling Workloads Across Multiple GPUs with CUDA C++ NVIDIA DLI
+- [An Even Easier Introduction to CUDA - NVIDIA DLI](https://courses.nvidia.com/courses/course-v1:DLI+T-AC-01+V1/)
+  - [Blog post - An Even Easier Introduction to CUDA 2017](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
+  - [Notebook](./lab/notebook/An_Even_Easier_Introduction_to_CUDA.ipynb)
+- [Getting Started with Accelerated Computing in CUDA C/C++](https://courses.nvidia.com/courses/course-v1:DLI+S-AC-04+V1/)
+  - [Blog post - CUDA Refresher - Getting started with CUDA - 2020](https://developer.nvidia.com/blog/cuda-refresher-getting-started-with-cuda/)
+  - [Blog post - GPU Accelerated Computing with C and C++ - 2017](https://developer.nvidia.com/how-to-cuda-c-cpp)
+  - [Notebook - @TODO](#)
+- [Fundamentals of Accelerated Computing with CUDA C/C++ NVIDIA DLI - INSTRUCTOR-LED ](https://courses.nvidia.com/courses/course-v1:DLI+C-AC-01+V1/)
+  - [Blog post - GPU Accelerated Computing with C and C++ - 2017](https://developer.nvidia.com/how-to-cuda-c-cpp)  - [Notebook](#)
+- [Fundamentals of Accelerated Computing with CUDA Python NVIDIA DLI](https://courses.nvidia.com/courses/course-v1:DLI+C-AC-02+V1/)
+  - [Blog post - @TODO](#)
+  - [Notebook - TODO](#)
+- [Accelerating CUDA C++ Applications with Concurrent Streams NVIDIA DLI](#)
+  - [Blog post - @TODO](#)
+  - [Notebook - @TODO](#)
+- [Scaling Workloads Across Multiple GPUs with CUDA C++ NVIDIA DLI](#)
+  - [Blog post - @]()
+  - [Notebook - @TODO](#)
 
+Udacity: 
+
+- [Udacity CS344: Intro to Parallel Programming](https://developer.nvidia.com/udacity-cs344-intro-parallel-programming)
 
 Books: 
 
