@@ -1,3 +1,0 @@
-# sw-design-architecture
-
-
