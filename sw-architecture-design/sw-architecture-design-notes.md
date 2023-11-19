@@ -26,6 +26,12 @@ Effective software architecture design is crucial for building scalable, maintai
 - **MVC (Model-View-Controller):** Separate the application into three interconnected components.
 - **Layered Architecture:** Organize components into horizontal layers.
 
+### Pattern Analysis Summary
+
+![](./docs/sw-architecture-pattern.PNG)
+
+Source: [Software Architecture Patterns by Mark Richards](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/)
+
 ## Tools & Frameworks
 
 - **Enterprise Architect:** Visual modeling tool for UML diagrams.
