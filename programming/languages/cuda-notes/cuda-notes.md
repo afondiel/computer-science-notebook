@@ -92,6 +92,11 @@ Udacity:
 
 - [Udacity CS344: Intro to Parallel Programming](https://developer.nvidia.com/udacity-cs344-intro-parallel-programming)
 
+CUDA C - Cheat sheet:
+- Jeanmichel Richer - université d'Angers: https://leria-info.univ-angers.fr/~jeanmichel.richer/cuda/CUDA_C_QuickRef.pdf
+- Kapeli.com: https://kapeli.com/cheat_sheets/CUDA_C.docset/Contents/Resources/Documents/index
+
+
 Books: 
 
 - [CUDA - cs-books](https://github.com/afondiel/cs-books/tree/main/computer-science/programming/cuda)
