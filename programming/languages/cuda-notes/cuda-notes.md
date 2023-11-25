@@ -48,6 +48,17 @@ hello_cuda = cuda_kernel.get_function("hello_cuda")
 hello_cuda(block=(1, 1, 1), grid=(1, 1))
 ```
 
+
+## CUDA Programming In a NetShell
+
+- Function Type Qualifiers
+- Built-in Vector Types
+- Built-in Variables
+- Device Memory Management
+- Kernel Launch
+
+Src: https://kapeli.com/cheat_sheets/CUDA_C.docset/Contents/Resources/Documents/index
+
 ## References
 
 Documentation
