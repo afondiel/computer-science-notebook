@@ -153,7 +153,7 @@ E:\research-notes\agi-notes> git commit -m"agi-notes: Hello World!"
 4. Push to remote
 
 ```
-E:\research-notes\agi-notes> git push origin <branch-name> 
+E:\research-notes\agi-notes> git push -u origin <branch-name> 
 ``` 
 
 5. Open PR on github
