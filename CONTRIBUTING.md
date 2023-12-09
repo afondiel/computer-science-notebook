@@ -127,44 +127,24 @@ If you are submiting a source code refer to the file below :
 
 Documentation, research papers ...
 
-## Your Contribution 
+## Steps to Contribute
 
-For this example I suppose you already performed the followng tasks
-```
-- git clone https://github.com/afondiel/research-notes.git
-- git branch -b <branch-name> 
-``` 
-After made some changes  and finally have your note ready. Let's say your first note is ready and it's called: `agi-notes`.   
+1. Fork it!
+2. Branch off of `master`: `git checkout master`
+3. Create your note branch: `git checkout -b my-new-note`
+4. Make changes
+5. Commit your changes: `git commit -m 'Add topic notes/Add new changes, in case you add new change to an existant note'`
+6. Push to the branch: `git push origin my-new-note`
+7. Submit a pull request. Make sure it is based off of the `master` branch when submitting! :D
+ 
+`Notice`: You might come across to following commit messages format `topic-notes: Hello World!` \ 
+this because, When I started the project, I was the only contributor, so instead of creating 1 branch for each note, \
+I just made my life easier working directly on master (not a good practice, and I apologize to Linus Torvalds If He reads this one day :D )
 
-**First Commit!**
 
-1. Add your current files/changes & cd
+## Note Taking resources
 
-```
-E:\research-notes\agi-notes> git add .
-```
-
-3. Commit them
-
-```
-E:\research-notes\agi-notes> git commit -m"agi-notes: Hello World!"
-``` 
-
-4. Push to remote
-
-```
-E:\research-notes\agi-notes> git push -u origin <branch-name> 
-``` 
-
-5. Open PR on github
-
-It's done! 
-
-PS : Your `first commit message` doesn't need to be boring like "initial commit" or "first commit", instead make it look funny:  git commit -m"agi-notes: Hello World!"
-
-## References
-
-Note Taking resources
+Here you'll find some best practices, methods and techniques for note taking:
 
 - [Note-taking](https://en.wikipedia.org/wiki/Note-taking)
 - [Zettelkasten - The art of taking notes](https://en.wikipedia.org/wiki/Zettelkasten)
@@ -173,7 +153,6 @@ Note Taking resources
 - [Common Note-taking Methods | University of Tennessee](https://www.utc.edu/enrollment-management-and-student-affairs/center-for-academic-support-and-advisement/tips-for-academic-success/note-taking)
 
 The Feynman Technique
-
 - [Learning From the Feynman Technique](https://evernote.com/blog/learning-from-the-feynman-technique/)
 
 
