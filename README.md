@@ -12,11 +12,14 @@ As a Software Engineer Consultant, I have had the opportunity to work on a varie
 
 So, I decided to compile some resources from my previous and ongoing work that software engineers looking to get into any tech industry might find useful, including core skills, projects, and tools.
 
-## Motivation
+The goal of this project is to create a "Hello World" Notebook, a kind of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), that Software Engineers, Developers and Computer Science Students can use as their:  
+- Aide-memoire (quick refresher)
+- Daily work knowledge base
+- Interview preps
+- Study checklist/reviewer for exam preps for students
+- To stay update in lastest tech trends, and more.
 
-The big picture behind this project is to create a "Hello World" Notebook, sort of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), that Software Engineers, Developers and Computer Science Students can use as an aide-memoire or a "prompt" for their daily work, interview preps and study checklist, etc.
-
-## Why Use This Notebook?
+## Benefits
 
 - 🚀 Accelerate Your Learning: Dive into a treasure trove of knowledge curated by passionate software engineers for fellow developers.
 - 📦 Wide-Ranging Resources: From algorithms to data structures, design patterns to coding best practices, our notebook covers it all.
@@ -24,11 +27,11 @@ The big picture behind this project is to create a "Hello World" Notebook, sort 
 - 🌐 Community-Driven: Join a vibrant community of developers like yourself, all working together to shape the future of this invaluable resource.
 
 
-## Topics 
+## Topics & Industries
 
-Topics covered include requirements, design, programming languages, and testing. You may also find some research papers and notebooks about AI, [Prompt Engineering & LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics, and more.
+You will find a variety of topics accross software development cycle including requirements, design, programming languages, and testing. You will also find research papers and notebooks about AI, [Prompt Engineering & LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics, and more.
 
-### Sort By Field
+### Sorted By Field
 
 - [AI](https://github.com/afondiel/research-notes/tree/master/ai)
   - [AI Engineering](https://github.com/afondiel/research-notes/tree/master/ai/ai-engineering-notes)
@@ -61,7 +64,7 @@ Topics covered include requirements, design, programming languages, and testing.
 - [Version Control systems](https://github.com/afondiel/research-notes/tree/master/vcs)
 - [Web Dev](https://github.com/afondiel/research-notes/tree/master/web)
 
-### Sort by Industry
+### Sorted by Industry
 
 - [Automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
   - [Embedded Systems](https://github.com/afondiel/research-notes/tree/master/embedded-systems)
@@ -71,106 +74,25 @@ Topics covered include requirements, design, programming languages, and testing.
 - [Agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
 - [Robotics](https://github.com/afondiel/research-notes/tree/master/robotics)
 
-## Note & Content Generation
+## Usage
 
-**Generate template files and folders with [hello_world.py](hello_world.py) tool**. 
+If you'd like to read the notes online, you can visit https://afondiel.github.io/research-notes/.
 
-The tool generate the note structure in 3 steps:
+If you'd like to read it locally, [install Rust](https://www.rust-lang.org/tools/install), and then:
 
-1. create a note template 
-
-```python
-def note_content_template(topic):
-    pass
-```
-2. Then creates the repos `docs` & `lab` 
-
-```python
-def create_repo(repo_name):
-    pass
-```
-3. Finally, it generates the entire template files
-
-```python
-def note_gen(topic_name):
-    pass
-```
-**Usage**
-```
-Usage: python hello_world.py [options] <NotePath> <NoteName>
-
-<NotePath>
-        Specify a path if you want to generate the note in a different location
-<NoteName>
-        Note/Topic name
-Options:
-        -v, --verbose: print debug informationn
-        -a, --all: display the list of current notes
-        -h, --help: see usage
-        -f, --file: add new file
+```bash
+git clone https://github.com/afondiel/research-notes
+cd research-notes
+cargo install mdbook
+mdbook build
+mdbook serve
 ```
 
-Try it out! by running the command below. Choose a `topic`, and create your first note:
-
-```python
-python hello_world.py topic-name
-```
-
-output:
-
-```
-E:.
-│   topic-notes.md
-│   readme.md
-│
-├───docs
-└───lab
-```
-
-**ChatGPT/Bard Prompt for Content Generation**
-
-After generating your first (empty) note you can fill it out the content by using the prompt below (if you're using Copilot, It might do trick as well)
-
-```
-I'm going to train you write a short-form summary.
-
-The summary has the following format: 
-"""
-# {Topic} - Notes
-## Table of Contents (ToC)
-## Overview
-## Applications
-## Tools & Frameworks
-## Hello World!
-## References
-"""
-Here are the rules: 
-- replace `{Topic}` by the name of the topic I will give you 
-- The `ToC` has to be link-based to each heading
-- The `## Overview` heading has to be one-line sentence
-- Organize the headings in a list of 5-6 succinct bullets except for `Overview`  
-- The `## Hello World! ` has to be a code snippet
-- Do not use hashtags and emojis. Ever.
-- output the summary in markdown format including the `## References`
-
-I am going to give you a topic name and you will summarize the topic.
-
-Do you understand?
-```
-
-Transition:
-
-```
-Topic={Topic}
-``` 
-
-The final output should be a something like [this](./ai/agi-notes/)!
-
-Notice: this prompt might not work in the first attempt depending on the what AI chat you're in. Just hit `regenerate` to give the LLM the time to "think" if that the case
+Happy learning & Enjoy your readings!
 
 ## Contributing
 
-There are still many topics and industry to be added, so feel free to submit a pull request if you have any suggestions or cool ideas that may help this project grow.
+There are still many topics and industry to cover, please feel free to submit a pull request if you have any suggestions or cool ideas that may help this project grow.
 
 Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help this project grow and make learning accessible to all.
 
@@ -178,8 +100,7 @@ Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help thi
 `Some to-do tasks:`
 
 - Add guidelines of "essential resources to get into a specific industry/company"
-- Add MIT LICENSE
-- Sort notes based on tech industries : Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...
+- Add more industries notes: Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...
 - Create a pipeline to generate a 'minimum' note content using [hello_world_prompt.md](./hello_world_prompt.md) + [OpenAI API](https://openai.com/blog/openai-api) / [Bard API ](https://www.googlecloudcommunity.com/gc/AI-ML/Google-Bard-API/m-p/538517#M1526)  
 
 ## LICENSE
