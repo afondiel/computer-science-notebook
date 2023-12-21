@@ -10,21 +10,22 @@
 
 As a Software Engineer Consultant, I have had the opportunity to work on a variety of topics in the **automotive** and **agriculture** industries, including electrification and sustainability, safety and comfort, and more.
 
-So, I decided to compile some resources from my previous and ongoing work that software engineers looking to get into any tech industry might find useful, including core skills, projects, and tools.
+So, I decided to compile some resources from previous experiences and projects in order to create a sort of [Whole Computer Science Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for Software Engineers, Developers and CS Students diving into the field.
 
-The goal of this project is to create a "Hello World" Notebook, a kind of [Whole "Software Engineering" Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog), that Software Engineers, Developers and Computer Science Students can use as their:  
-- Aide-memoire (quick refresher)
-- Daily work knowledge base
-- Interview preps
-- Study checklist/reviewer for exam preps for students
-- To stay update in lastest tech trends, and more.
+## Key Features
+- Access the notebook anywhere, online or offline.
+- Use it as a knowledge base for software engineering concepts and practices.
+- Refresh your memory with the notebook's quick overviews.
+- Prepare for job interviews with the notebook's comprehensive guidance.
+- Review your CS foundations with the notebook's structured approach.
+- Stay updated on the latest software engineering trends.
 
-## Benefits
 
-- 🚀 Accelerate Your Learning: Dive into a treasure trove of knowledge curated by passionate software engineers for fellow developers.
-- 📦 Wide-Ranging Resources: From algorithms to data structures, design patterns to coding best practices, our notebook covers it all.
-- 📝 Interactive Learning: Discover engaging code examples, real-world applications, and interactive challenges to solidify your understanding.
-- 🌐 Community-Driven: Join a vibrant community of developers like yourself, all working together to shape the future of this invaluable resource.
+## Key Benefits
+- **Accelerate Your Learning**: Use concise and short notes curated by passionate software engineers, to boost your productivity.
+- **Wide-Ranging Resources**: From algorithms to data structures, design patterns to coding best practices, the notebook covers it all.
+- **Interactive Learning**: Discover engaging code examples, real-world applications, and interactive challenges to solidify your understanding.
+- **Community-Driven**: The notebook is maintained by a vibrant community of developers like yourself, all working together to shape the future to make CS resources accessible to all.
 
 
 ## Topics & Industries
@@ -34,11 +35,6 @@ You will find a variety of topics accross software development cycle including r
 ### Sorted By Field
 
 - [AI](https://github.com/afondiel/research-notes/tree/master/ai)
-  - [AI Engineering](https://github.com/afondiel/research-notes/tree/master/ai/ai-engineering-notes)
-  - [Machine Learning](https://github.com/afondiel/research-notes/tree/master/ai/ml-notes)
-  - [Deep Learning](https://github.com/afondiel/research-notes/tree/master/ai/deep-learning-notes)
-  - [LLMs](https://github.com/afondiel/research-notes/tree/master/ai/llm-notes)
-  - [Prompt engineering](https://github.com/afondiel/research-notes/tree/master/ai/prompt-engineering-notes)
 - [Computer Vision](https://github.com/afondiel/research-notes/tree/master/computer-vision-notes)
 - [Courses](https://github.com/afondiel/research-notes/tree/master/control-law)
 - [Cyber Security](https://github.com/afondiel/research-notes/tree/master/courses)
@@ -54,7 +50,6 @@ You will find a variety of topics accross software development cycle including r
 - [Project Management](https://github.com/afondiel/research-notes/tree/master/project-management)
 - [Quantum Computing](https://github.com/afondiel/research-notes/tree/master/quantum-computing)
 - [Regular Expression(Regex)](https://github.com/afondiel/research-notes/tree/master/regex-notes)
-- [Robotics](https://github.com/afondiel/research-notes/tree/master/robotics)
 - [Signal Processing](https://github.com/afondiel/research-notes/tree/master/signal-processing)
 - [Sw Design Architecture](https://github.com/afondiel/research-notes/tree/master/sw-design-architecture)
 - [Sw Documentation Convention](https://github.com/afondiel/research-notes/tree/master/sw-documentation-convention)
@@ -72,6 +67,9 @@ You will find a variety of topics accross software development cycle including r
   - [Safety](https://github.com/afondiel/research-notes/tree/master/automotive/safety)
   - [Self-Driving Cars](https://github.com/afondiel/research-notes/tree/master/automotive/self-driving)
 - [Agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
+  - [Agritech](https://github.com/afondiel/research-notes/tree/master/agriculture/agritech)
+  - [FoodTech](https://github.com/afondiel/research-notes/tree/master/agriculture/food-tech)
+  - [Smart Farming](https://github.com/afondiel/research-notes/tree/master/agriculture/smart-farming)
 - [Robotics](https://github.com/afondiel/research-notes/tree/master/robotics)
 
 ## Usage
@@ -91,8 +89,6 @@ mdbook serve
 Happy learning & Enjoy your readings!
 
 ## Contributing
-
-There are still many topics and industry to cover, please feel free to submit a pull request if you have any suggestions or cool ideas that may help this project grow.
 
 Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help this project grow and make learning accessible to all.
 
