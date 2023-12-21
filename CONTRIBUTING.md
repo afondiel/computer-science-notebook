@@ -16,25 +16,7 @@ You can contribute in many ways :
 
 **Note Template**
 
-Two ways you can generate/create your first note:
-
-**Using [hello_world.py](hello_world.py) tool**
-
-By running the command below:
-
-```python
-python hello_world.py topic-name
-```
-
-**Customize your note nanually**
-
-- Create a new folder with the <topic name>
-- Inside the root folder <topic-name>, create: 
-  - 2 other folders: `docs`, `lab`
-  - 1 markdown file entitled: `topic-notes.md`
-  - 1 `readme.md`for notes description
-
-Your final note folder should have the following structure:
+Your note folder should have the following structure:
 
 ```
 E:.
@@ -45,54 +27,35 @@ E:.
 └───lab
 ```
 
+To generate/create a note files, you can either:
+
+**Customize your note manually**
+
+- Create a new folder with the "topic-name"
+- Inside the root folder (topic-name), add: 
+  - 2 other subfolders: `docs`, `lab`
+  - 1 markdown file for the note: `topic-notes.md`
+  - 1 `readme.md`for notes with slight description
+
+**Or use the [hello_world.py](hello_world.py) tool** (Please refer to the section [Note & Content Generation](#note--content-generation), for more details).
+
+
 ### `topic-notes.md` Format
 
 ```
-# Title - Notes
-## Table of Contents (ToC)
-## Overview
-## Applications
-## Tools & FrameWorks
-## Hello World!
-## References
-```
-
-### ChatGPT/Bard Prompt for Content Generation
-
-```
-I'm going to train you write a short-form summary.
-
-The summary has the following format: 
-"""
 # {Topic} - Notes
 ## Table of Contents (ToC)
-## Overview
-## Applications
+## Introduction
+### What's `topic`?
+### Applications
+## Fundamentals
+### How `topic` works?
+#### Topic Architecture Pipeline (image/mermaid diagram, ...)
 ## Tools & Frameworks
 ## Hello World!
+## Lab: Zero to Hero Projects
 ## References
-"""
-Here are the rules: 
-- replace `{Topic}` by the name of the topic I will give you 
-- The `ToC` has to be link-based to each heading
-- The `## Overview` heading has to be one-line sentence
-- Organize the headings in a list of 5-6 succinct bullets except for `Overview`  
-- The `## Hello World! ` has to be a code snippet
-- Do not use hashtags and emojis. Ever.
-- output the summary in markdown format including the `## References`
-
-I am going to give you a topic name and you will summarize the topic.
-
-Do you understand?
 ```
-
-Transition: 
-
-```
-Topic={Topic}
-```
-
-Magic !
 
 ### `readme.md` Format
 
@@ -127,6 +90,109 @@ If you are submiting a source code refer to the file below :
 
 Documentation, research papers ...
 
+
+## Note & Content Generation
+
+**Generate files and folders with [hello_world.py](hello_world.py) tool**. 
+
+The tool generate the note structure in 3 steps:
+
+1. create a note template 
+
+```python
+def note_content_template(topic):
+    pass
+```
+2. Then creates the repos `docs` & `lab` 
+
+```python
+def create_repo(repo_name):
+    pass
+```
+3. Finally, it generates the entire template files
+
+```python
+def note_gen(topic_name):
+    pass
+```
+**Usage**
+```
+Usage: python hello_world.py [options] <NotePath> <NoteName>
+
+<NotePath>
+        Specify a path if you want to generate the note in a different location
+<NoteName>
+        Note/Topic name
+Options:
+        -v, --verbose: print debug informationn
+        -a, --all: display the list of current notes
+        -h, --help: see usage
+        -f, --file: add new file
+```
+
+Try it out! by running the command below. Choose a `topic`, and create your first note:
+
+```python
+python hello_world.py topic-name
+```
+
+output:
+
+```
+E:.
+│   topic-notes.md
+│   readme.md
+│
+├───docs
+└───lab
+```
+
+**ChatGPT/Bard Prompt for Content Generation**
+
+After generating your first (empty) note you can fill it out the content by using the prompt below (if you're using Copilot, It might do trick as well)
+
+```
+I'm going to train you write a short-form summary.
+
+The summary has the following format: 
+"""
+# {Topic} - Notes
+## Table of Contents (ToC)
+## Introduction
+### What's `topic`?
+### Applications
+## Fundamentals
+### How `topic` works?
+#### Topic Architecture Pipeline (image/mermaid diagram, ...)
+## Tools & Frameworks
+## Hello World!
+## Lab: Zero to Hero Projects
+## References
+"""
+Here are the rules: 
+- replace `{Topic}` by the name of the topic I will give you 
+- The `ToC` has to be link-based to each heading
+- The `## Overview` heading has to be one-line sentence
+- Organize the headings in a list of 5-6 succinct bullets except for `Overview`  
+- The `## Hello World! ` has to be a code snippet
+- Do not use hashtags and emojis. Ever.
+- output the summary in markdown format including the `## References`
+
+I am going to give you a topic name and you will summarize the topic.
+
+Do you understand?
+```
+
+Transition:
+
+```
+Topic={Topic}
+``` 
+
+The final output should be a something like [this](./ai/agi-notes/)!
+
+Notice: this prompt might not work in the first attempt depending on the what AI chat you're in. Just hit `regenerate` to give the LLM the time to "think" if that the case
+
 ## Steps to Contribute
 
 1. Fork it!
@@ -137,9 +203,7 @@ Documentation, research papers ...
 6. Push to the branch: `git push origin my-new-note`
 7. Submit a pull request. Make sure it is based off of the `master` branch when submitting! :D
  
-`Notice`: You might come across to following commit messages format `topic-notes: Hello World!` \ 
-this because, When I started the project, I was the only contributor, so instead of creating 1 branch for each note, \
-I just made my life easier working directly on master (not a good practice, and I apologize to Linus Torvalds If He reads this one day :D )
+`Notice`: You might come across to the following commit message patterns `topic-notes: Hello World!`. This because when I started the project, I was the only contributor, so instead of creating a new branch + PR, for each note, I just made my life easier working directly on master branch  (not a good practice, and I apologize to [Linus Torvalds](github.com/Torvalds) If He reads this one day though :D)
 
 
 ## Note Taking resources
