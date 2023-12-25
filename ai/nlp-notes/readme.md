@@ -9,5 +9,6 @@ This is a "Hello World" resources for Natural Language Processing (NLP).
 
 Please refer to this [CONTRIBUTING.md](../../CONTRIBUTING.md) file.
 
-> ### “I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.” ― Alan Turing
+> ### “If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.”
+> ### — Nelson Mandela
 
