@@ -25,6 +25,8 @@ Test plan is written during/between requirement definition and the Design stage
 - Polyspace: static code analysis
 - Helix QAC : static code analysis
 
+19 Best Software Testing Tools For QAs In 2024: https://theqalead.com/tools/best-software-testing-tools/
+
 
 ## Stardards
 
