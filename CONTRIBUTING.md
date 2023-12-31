@@ -170,13 +170,14 @@ The summary has the following format:
 ## References
 """
 Here are the rules: 
-- replace `{Topic}` by the name of the topic I will give you 
-- The `ToC` has to be link-based to each heading
-- The `## Overview` heading has to be one-line sentence
-- Organize the headings in a list of 5-6 succinct bullets except for `Overview`  
-- The `## Hello World! ` has to be a code snippet
+- replace `{Topic}` with the name of the topic I will give you 
+- The `ToC` shall have hyperlinks to each heading
+- The `Introduction` heading shall be a concise one-line sentence
+- Organize the headings into a list of 5-6 succinct bulleted lists, excluding the `Introduction`  
+- The `Hello World! ` section shall be a code snippet 
 - Do not use hashtags and emojis. Ever.
-- output the summary in markdown format including the `## References`
+- output the summary in markdown format 
+- add the references in `References` section
 
 I am going to give you a topic name and you will summarize the topic.
 
