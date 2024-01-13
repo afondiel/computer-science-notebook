@@ -2,9 +2,9 @@
     <img src="./outro/logo.jpg" width="200" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 </p>
 
-<h1 align="center" width="100%"> Research Notes</h1>
+<h1 align="center" width="100%"> Computer Science Open-Catalog</h1>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/research-notes) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/research-notes/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/research-notes.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/research-notes.svg) 
+![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/computer-science-open-catalog) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/computer-science-open-catalog/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/computer-science-open-catalog.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/computer-science-open-catalog.svg) 
 
 ## Overview
 
@@ -32,55 +32,15 @@ So, I decided to compile some resources from previous experiences and projects i
 
 You will find a variety of topics accross software development cycle including requirements, design, programming languages, and testing. You will also find research papers and notebooks about AI, [Prompt Engineering & LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics, and more.
 
-### Sorted By Field
-
-- [AI](https://github.com/afondiel/research-notes/tree/master/ai)
-- [Computer Vision](https://github.com/afondiel/research-notes/tree/master/computer-vision-notes)
-- [Courses](https://github.com/afondiel/research-notes/tree/master/control-law)
-- [Cyber Security](https://github.com/afondiel/research-notes/tree/master/courses)
-- [Data Science](https://github.com/afondiel/research-notes/tree/master/datascience-notes)
-- [Design Patterns](https://github.com/afondiel/research-notes/tree/master/design-patterns-notes)
-- [Devops](https://github.com/afondiel/research-notes/tree/master/devops-notes)
-- [Embedded Systems](https://github.com/afondiel/research-notes/tree/master/embedded-systems)
-- [Game Dev](https://github.com/afondiel/research-notes/tree/master/gamedev-notes)
-- [IoT](https://github.com/afondiel/research-notes/tree/master/iot)
-- [Job Interview](https://github.com/afondiel/research-notes/tree/master/job-interview-notes)
-- [Outro](https://github.com/afondiel/research-notes/tree/master/outro)
-- [Programming](https://github.com/afondiel/research-notes/tree/master/programming)
-- [Project Management](https://github.com/afondiel/research-notes/tree/master/project-management)
-- [Quantum Computing](https://github.com/afondiel/research-notes/tree/master/quantum-computing)
-- [Regular Expression(Regex)](https://github.com/afondiel/research-notes/tree/master/regex-notes)
-- [Signal Processing](https://github.com/afondiel/research-notes/tree/master/signal-processing)
-- [Sw Design Architecture](https://github.com/afondiel/research-notes/tree/master/sw-design-architecture)
-- [Sw Documentation Convention](https://github.com/afondiel/research-notes/tree/master/sw-documentation-convention)
-- [Sw Methodology](https://github.com/afondiel/research-notes/tree/master/sw-methodology)
-- [Sw Standards](https://github.com/afondiel/research-notes/tree/master/sw-standards)
-- [Sw Testing](https://github.com/afondiel/research-notes/tree/master/sw-testing)
-- [Version Control systems](https://github.com/afondiel/research-notes/tree/master/vcs)
-- [Web Dev](https://github.com/afondiel/research-notes/tree/master/web)
-
-### Sorted by Industry
-
-- [Automotive](https://github.com/afondiel/research-notes/tree/master/automotive)
-  - [Embedded Systems](https://github.com/afondiel/research-notes/tree/master/embedded-systems)
-  - [control-law](https://github.com/afondiel/research-notes/tree/master/control-law)
-  - [Safety](https://github.com/afondiel/research-notes/tree/master/automotive/safety)
-  - [Self-Driving Cars](https://github.com/afondiel/research-notes/tree/master/automotive/self-driving)
-- [Agriculture](https://github.com/afondiel/research-notes/tree/master/agriculture)
-  - [Agritech](https://github.com/afondiel/research-notes/tree/master/agriculture/agritech)
-  - [FoodTech](https://github.com/afondiel/research-notes/tree/master/agriculture/food-tech)
-  - [Smart Farming](https://github.com/afondiel/research-notes/tree/master/agriculture/smart-farming)
-- [Robotics](https://github.com/afondiel/research-notes/tree/master/robotics)
-
 ## Usage
 
-If you'd like to read the notes online, you can visit https://afondiel.github.io/research-notes/.
+If you'd like to read the notes online, you can visit https://afondiel.github.io/computer-science-open-catalog/.
 
 If you'd like to read it locally, [install Rust](https://www.rust-lang.org/tools/install), and then:
 
 ```bash
-git clone https://github.com/afondiel/research-notes
-cd research-notes
+git clone https://github.com/afondiel/computer-science-open-catalog
+cd computer-science-open-catalog
 cargo install mdbook
 mdbook build
 mdbook serve
