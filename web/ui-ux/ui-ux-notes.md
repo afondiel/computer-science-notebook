@@ -24,17 +24,19 @@ UI/UX design is essential for creating products that are functional, accessible,
 
 ## Fundamentals
 ### How UI/UX works?
-UI/UX design follows a process that involves several steps, such as:
-- User research: understanding the goals, needs, behaviors, and pain points of the target users
-- User personas: creating fictional profiles of the typical users based on user research
-- User journey maps: visualizing the steps and scenarios that users go through when using a product
-- Wireframes: creating low-fidelity sketches of the layout and structure of the product
-- Prototypes: creating high-fidelity mockups of the product that simulate the look and feel of the final product
-- User testing: evaluating the usability and desirability of the product with real users and collecting feedback
-- Iteration: refining and improving the product based on user testing and feedback
 
-#### UI/UX Design Process (image)
-![UI/UX Design Process]
+UI/UX design follows a process that involves several steps, such as:
+- **User research**: understanding the goals, needs, behaviors, and pain points of the target users
+- **User personas**: creating fictional profiles of the typical users based on user research
+- **User journey maps**: visualizing the steps and scenarios that users go through when using a product
+- **Wireframes**: creating low-fidelity sketches of the layout and structure of the product
+- **Prototypes**: creating high-fidelity mockups of the product that simulate the look and feel of the final product
+- **User testing**: evaluating the usability and desirability of the product with real users and collecting feedback
+- **Iteration**: refining and improving the product based on user testing and feedback
+
+#### UI/UX Design Process
+
+![UI/UX Design Process](https://d3pxwdeb4y32a1.cloudfront.net/wp-content/uploads/2023/08/6-Stages-of-UX-design-process-7ba3d18c5505882a3cd13357386135fb.webp)
 
 ## Tools & Frameworks
 
@@ -92,3 +94,11 @@ To practice and improve your UI/UX design skills, you can try some of these proj
 - [UI vs. UX Design: What’s the Difference? | Coursera](https://www.coursera.org/articles/ui-vs-ux-design)
 - [UI/UX Design Guide: What Are UI Designers, and How Are They Different ...](https://www.freecodecamp.org/news/ui-ux-design-guide/)
 - [flutlab - flutter code generation from figma](https://flutlab.io/)
+  
+Online courses & lectures
+
+- [Intro to UI/UX design - Le Wagon](https://start.lewagon.com/courses/intro-to-ui-ux-design)
+- [Rapid Prototyping: Sketching | Google for Startups](https://www.youtube.com/watch?v=JMjozqJS44M)
+- [Figma for Education: Prototyping with Figma 101](https://www.youtube.com/watch?v=CNQ_N7Pvyag)
+- [Master Figma UI Design in 15 Minutes | This Tutorial Is For You!](https://www.youtube.com/watch?v=uQsyobT2Rv8)
+
