@@ -105,3 +105,6 @@ To practice and improve your web development skills, you can try to create some 
 - (3) [Learn web development | MDN - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn).
 - (4) [What Does a Web Developer Do (and How Do I Become One)? - Coursera](https://www.coursera.org/articles/web-developer).
 
+- [A Handpicked Selection of 60+ Best Web Development Tools - Radixweb.com](https://radixweb.com/blog/web-development-tools)
+
+
