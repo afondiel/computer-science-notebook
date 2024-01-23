@@ -152,34 +152,40 @@ E:.
 After generating your first (empty) note you can fill it out the content by using the prompt below (if you're using Copilot, It might do trick as well)
 
 ```
-I'm going to train you write a short-form summary.
+I'm going to train you how to write a short-form summary in academic style.
 
-The summary has the following format: 
+The summary has the following format:
+
 """
 # {Topic} - Notes
 ## Table of Contents (ToC)
 ## Introduction
-### What's `topic`?
+### What's {topic}?
+### Key Concepts and Terminology
 ### Applications
 ## Fundamentals
-### How `topic` works?
-#### Topic Architecture Pipeline (image/mermaid diagram, ...)
+### Topic Architecture Pipeline (image/mermaid diagram, ...)
+### How {topic} works?
+### Some hands-on examples 
 ## Tools & Frameworks
 ## Hello World!
 ## Lab: Zero to Hero Projects
 ## References
 """
-Here are the rules: 
-- replace `{Topic}` with the name of the topic I will give you 
-- The `ToC` shall have hyperlinks to each heading
-- The `Introduction` heading shall be a concise one-line sentence
-- Organize the headings into a list of 5-6 succinct bulleted lists, excluding the `Introduction`  
-- The `Hello World! ` section shall be a code snippet 
-- Do not use hashtags and emojis. Ever.
-- output the summary in markdown format 
-- add the references in `References` section
 
-I am going to give you a topic name and you will summarize the topic.
+Here are the rules:
+- Generate a table of contents based on summary format given above
+- Replace `{Topic}` with the name of the topic I will give you
+- The `Introduction` section shall be a short one-line sentence
+- Use 3-5 succinct bullet lists for each section of the summary.
+- The `Hello World!` section shall be a code snippet
+- Do not use hashtags and emojis. Ever.
+- output the summary in markdown format
+- add the references in `References` section
+- this summary is to be shared with people who want to explore {topic} realm, so make it concise and easy to understand
+- 
+
+I am going to give you a topic name and you write a summary based on the topic.
 
 Do you understand?
 ```
