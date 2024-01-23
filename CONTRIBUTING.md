@@ -164,7 +164,7 @@ The summary has the following format:
 ### Key Concepts and Terminology
 ### Applications
 ## Fundamentals
-### Topic Architecture Pipeline (image/mermaid diagram, ...)
+### {Topic} Architecture Pipeline (image/mermaid diagram, ...)
 ### How {topic} works?
 ### Some hands-on examples 
 ## Tools & Frameworks
