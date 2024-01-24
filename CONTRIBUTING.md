@@ -180,10 +180,10 @@ Here are the rules:
 - Use 3-5 succinct bullet lists for each section of the summary.
 - The `Hello World!` section shall be a code snippet
 - Do not use hashtags and emojis. Ever.
-- output the summary in markdown format
-- add the references in `References` section
-- this summary is to be shared with people who want to explore {topic} realm, so make it concise and easy to understand
-- 
+- Output the summary in markdown format
+- Add the references in `References` section
+- This summary is tailored for beginners, intermediate and advanced who want to gain a strong foundation of {topic}.
+
 
 I am going to give you a topic name and you write a summary based on the topic.
 
