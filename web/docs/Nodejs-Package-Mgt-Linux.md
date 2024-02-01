@@ -147,5 +147,6 @@ npm run build
 ## References
 
 - [PM2 (software)](https://en.wikipedia.org/wiki/PM2_(software))
+- [PM2 - Project](https://pm2.keymetrics.io/docs/usage/quick-start/)
 - [NVM - version manager for node.js](https://github.com/nvm-sh/nvm)
 
