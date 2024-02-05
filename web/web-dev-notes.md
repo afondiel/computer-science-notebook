@@ -107,4 +107,10 @@ To practice and improve your web development skills, you can try to create some 
 
 - [A Handpicked Selection of 60+ Best Web Development Tools - Radixweb.com](https://radixweb.com/blog/web-development-tools)
 
+Online Courses & Lectures
+- [Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB) - freeCodeCamp.org](https://www.youtube.com/watch?v=nu_pCVPKzTk&list=PLQpme5qo9tFDdmv1J6KQLVAhBu2Ne9sYh&index=3)
+- [Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS) -  Zach Gollwitzer/freeCodeCamp](https://www.youtube.com/watch?v=zJSY8tbf_ys&list=PLQpme5qo9tFDdmv1J6KQLVAhBu2Ne9sYh&index=4)
+- [Use ChatGPT to Code a Full Stack App – Full Course - Judy/freeCodeCamp](https://www.youtube.com/watch?v=GizsSo-EevA&list=PLQpme5qo9tFDdmv1J6KQLVAhBu2Ne9sYh&index=5)
+
+
 
