@@ -8,9 +8,13 @@
 
 ## Overview
 
-As a Software Engineer Consultant, I have had the opportunity to work on a variety of topics in the **automotive** and **agriculture** industries, including electrification and sustainability, safety and comfort, and more.
+This Computer Science Open-Catalog is a compilation of notes and invaluable resources for anyone diving into the field, and beyond.
 
-So, I decided to compile some invaluable resources from previous experiences and projects in order to create a sort of [Whole Computer Science Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for Software Engineers, Developers and CS Students diving into the field.
+## Motivation
+
+During my work as Software Engineer Consultant I've worked on a variety of projects across diverse industries, including **electric cars**, **agriculture**, passanger safety and comfort.
+
+I thought it'd be helpful to create a sort of [Whole Computer Science Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) to gather learning resources. I hope you find it helpful and feel free to contribute.
 
 ## Key Features
 - Access the notebook anywhere, online or offline.
@@ -30,7 +34,7 @@ So, I decided to compile some invaluable resources from previous experiences and
 
 ## Topics & Industries
 
-You will find a variety of topics accross software development cycle including requirements, design, programming languages, and testing. You will also find research papers and notebooks about AI, [Prompt Engineering & LLMs](https://github.com/afondiel/ChatGPT-Prompt-Engineering-DeepLearningAI), ML, DL, NLP, IoT, robotics, and more.
+From programming languages, design patterns, and testing to more advanced topics such as Data Science, and computer vision. You will also find the latest research papers and notebooks about AI, ML, DL, LLMs, IoT, robotics, and more.
 
 ## Usage
 
@@ -46,7 +50,7 @@ mdbook build
 mdbook serve
 ```
 
-Happy learning & Enjoy your readings!
+Happy learning and have fun!
 
 ## Contributing
 
