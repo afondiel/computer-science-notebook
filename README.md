@@ -10,7 +10,7 @@
 
 As a Software Engineer Consultant, I have had the opportunity to work on a variety of topics in the **automotive** and **agriculture** industries, including electrification and sustainability, safety and comfort, and more.
 
-So, I decided to compile some resources from previous experiences and projects in order to create a sort of [Whole Computer Science Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for Software Engineers, Developers and CS Students diving into the field.
+So, I decided to compile some invaluable resources from previous experiences and projects in order to create a sort of [Whole Computer Science Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) for Software Engineers, Developers and CS Students diving into the field.
 
 ## Key Features
 - Access the notebook anywhere, online or offline.
