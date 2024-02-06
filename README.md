@@ -14,7 +14,7 @@ This Computer Science Open-Catalog is a compilation of notes and invaluable reso
 
 During my work as Software Engineer Consultant I've worked on a variety of projects across diverse industries, including **electric cars**, **agriculture**, passanger safety and comfort.
 
-I thought it'd be helpful to create a sort of [Whole Computer Science Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) to gather learning resources. I hope you find it helpful and feel free to contribute.
+I thought it'd be helpful to create a sort of [Whole Computer Science Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) to gather all resources in one place. I hope you find it helpful and feel free to contribute.
 
 ## Key Features
 - Access the notebook anywhere, online or offline.
