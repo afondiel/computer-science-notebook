@@ -32,7 +32,7 @@ I thought it'd be helpful to create a sort of [Whole Computer Science Catalog](h
 - **Community-Driven**: The notebook is maintained by a vibrant community of developers like yourself, all working together to shape the future to make CS resources accessible to all.
 
 
-## Topics & Industries
+## Topics
 
 From programming languages, design patterns, and testing to more advanced topics such as Data Science, and computer vision. You will also find the latest research papers and notebooks about AI, ML, DL, LLMs, IoT, robotics, and more.
 
