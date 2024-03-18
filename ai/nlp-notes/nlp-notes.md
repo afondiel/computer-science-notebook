@@ -64,6 +64,12 @@ Src: [Basic Steps In Natural Language Processing Pipeline](https://monicamundada
 
 - Next Sentence Prediction (NSP) : Check if the sentence B, follows the sentence A.
 
+Tools:
+- Deep Learning
+- GenAI and LLM
+- [RAG (Retrieval-Augmented Generation)](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
+- Embeddings
+
 
 ## Machine Translation
 
@@ -85,6 +91,7 @@ Src: [Study tonight](https://www.studytonight.com/post/different-machine-transla
 - [Word2Vec Model](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py)
 - [OpenAI Embeddings tools](https://platform.openai.com/docs/guides/embeddings)
 - [GloVe - stanford](https://nlp.stanford.edu/projects/glove/)
+- [LangChain](https://python.langchain.com/docs/integrations/toolkits/openapi_nla)
 
 
 ## References
@@ -119,6 +126,8 @@ https://www.youtube.com/watch?v=U8m5ug9Q54M
   - https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6 
   - https://www.youtube.com/watch?v=OQQ-W_63UgQ
 - [Transformer Neural Networks - EXPLAINED! (Attention is all you need) - CodeEmporium](https://www.youtube.com/watch?v=TQQlZhbC5ps)
+- [OpenAI Embeddings and Vector Databases Crash Course](https://www.youtube.com/watch?v=ySus5ZS0b94)
+
 
 
 MT: 
@@ -131,6 +140,12 @@ Word Embedding and Vector Space Model
 - [Word Embedding and Vector Space Models](https://medium.com/analytics-vidhya/word-embedding-and-vector-space-models-11c9b76f58e)
 - [Exploring Qdrant: A Guide to Vector Databases](https://medium.com/@bilalhanif848/exploring-qdrant-a-guide-to-vector-databases-68dc6a405be4)
 - [Getting Started With Embeddings - HuggingFace](https://huggingface.co/blog/getting-started-with-embeddings)
+
+NLP vs DL vs GenAI vs LLM Tools:
+- [Unleashing the Power of Langchain: Advancing NLP with Chained Language Models](https://anote-ai.medium.com/introducing-langchain-revolutionizing-nlp-with-advanced-language-modeling-ef4f8f2fc18a)
+- [NLP vs LLM: A Comprehensive Guide to Understanding Key Differences](https://medium.com/@vaniukov.s/nlp-vs-llm-a-comprehensive-guide-to-understanding-key-differences-0358f6571910)
+- [RAG vs semantic search, embedding, vector... ](https://www.youtube.com/watch?v=orLGv2LgWDE)
+- [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application?](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
 
 Projects:
 - [Self-Driving Taxi Chatbot with Pytorch](https://github.com/diesimo-ai/self-driving-taxi-chatbot)
