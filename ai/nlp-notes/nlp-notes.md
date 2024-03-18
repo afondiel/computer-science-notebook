@@ -130,7 +130,7 @@ Word Embedding and Vector Space Model
 - [Getting Started With Embeddings - HuggingFace](https://huggingface.co/blog/getting-started-with-embeddings)
 
 Projects:
-- [Self-Driving Taxi Chatbot](https://github.com/diesimo-ai/self-driving-taxi-chatbot)
+- [Self-Driving Taxi Chatbot with Pytorch](https://github.com/diesimo-ai/self-driving-taxi-chatbot)
 
 Research papers: 
 - Attention is all you need (paper): https://research.google/pubs/pub46201/
