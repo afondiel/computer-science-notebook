@@ -35,7 +35,7 @@ TEXT MINING: analysation of information from natural language text.
 
 ## NLP Pipeline
 
-![alt text](image.png)
+![alt text](https://miro.medium.com/v2/resize:fit:828/format:webp/1*CbzCcP3XFtYVJmWowZLugQ.png)
 
 Src: [Basic Steps In Natural Language Processing Pipeline](https://monicamundada5.medium.com/basic-steps-in-natural-language-processing-pipeline-763cd299dd99)
 
