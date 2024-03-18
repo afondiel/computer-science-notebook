@@ -1,9 +1,9 @@
 # Natural Language Processing (NLP) - Notes
 
-NLP is a Computer science, artificial Intelligence subsets which deals with Human Language
+## Overview
 
-Subset : 
-- Text mining: analysation of information from natural language text.
+NLP is a computer science, artificial Intelligence subsets which deals with Human Language.
+
 
 ## Application
 
@@ -21,39 +21,48 @@ Subset :
 Natural Language Understanding (NLU)
 - Mapping input to useful representations
 - Analyzing different aspects of the language
-- ambiguity lexical
-- ambiguitysyntactic 
-- ambiguity referential
+- Ambiguity lexical
+- Ambiguitysyntactic 
+- Ambiguity referential
  
 Natural Language Generation (NLG)
-- text planning
-- sentence planning
-- text realization
+- Text planning
+- Sentence planning
+- Text realization
+
+TEXT MINING: analysation of information from natural language text.
+
+
+## NLP Pipeline
+
+![alt text](image.png)
+
+Src: [Basic Steps In Natural Language Processing Pipeline](https://monicamundada5.medium.com/basic-steps-in-natural-language-processing-pipeline-763cd299dd99)
 
 ## NLP Techniques
 
 1. **SYNTACTIC ANALYSIS** : understanding the grammar of the text
-  - **Segmentation** : split document into contituent units (one or more sentences)
-  - **Tokenization** : split a phrase into a small part od token
-  - **Stemming** : normalize words into its base form or root form
-  - **Lemmatization**: morphological analyse of the phrase (based on dictionary : meaning and synonym)
-  - **POS tagging** : classify a part of the speech : verb, adj, noun 
-  - Named Entity Recognition (NER): classify a group of word in a group : movie, monetary value, organizatio, location, quantities, person
-  - 
-  - **Chunking**: picking individual pieces of informations and grouping them into bigger Pieces
-  - **Parsing(tree)**: grammatical analysis of the sentence
+   - **Segmentation** : split document into contituent units (one or more sentences)
+   - **Tokenization** : split a phrase into a small part od token
+   - **Stemming** : normalize words into its base form or root form
+   - **Lemmatization**: morphological analyse of the phrase (based on dictionary : meaning and synonym)
+   - **POS tagging** : classify a part of the speech : verb, adj, noun 
+   - **Named Entity Recognition (NER)**: classify a group of word in a group : movie, monetary value, organizatio, location, quantities, person
+   - **Chunking**: picking individual pieces of informations and grouping them into bigger Pieces
+   - **Parsing(tree)**: grammatical analysis of the sentence
 
 2. **SEMANTIC ANALYSIS** : understanding the literal meaning of the text.
-  - Text Correction
-  - Text generation
-  - Machine Translation
-  - Word sense disambiguation
+   - Text Correction
+   - Text generation
+   - Machine Translation
+   - Word sense disambiguation
+   - Vector/Embeddings
 
 3. **PRAGMATIC ANALYSIS**: understanding of what the text is trying to achieve
 
 ## Content Generation
 
-- Next Sentence Prediction (NSP) : Check if the sentence B, follows the sentence B
+- Next Sentence Prediction (NSP) : Check if the sentence B, follows the sentence A.
 
 
 ## Machine Translation
@@ -64,15 +73,16 @@ Src: [Study tonight](https://www.studytonight.com/post/different-machine-transla
 
 ## Tools & Frameworks
 
-- Nltk : https://www.nltk.org/
-- spacy  :  https://spacy.io/
+- [NLTK](https://www.nltk.org/)
+- [Spacy](https://spacy.io/)
 - Facebook AI XLM/mBERT
 - PyTorch  
 - TensorFlow
 - Keras
 - Chainer
-- Gensim 
-
+- [Gensim](https://radimrehurek.com/gensim/index.html)
+- [Fasttext](https://radimrehurek.com/gensim/auto_examples/tutorials/run_fasttext.html#sphx-glr-auto-examples-tutorials-run-fasttext-py)
+- [Word2Vec Model](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py)
 
 ## References
 
@@ -83,6 +93,7 @@ Src: [Study tonight](https://www.studytonight.com/post/different-machine-transla
   - MT: https://en.wikipedia.org/wiki/Machine_translation
   - Neural MT: https://en.wikipedia.org/wiki/Neural_machine_translation
   - NLP: https://en.wikipedia.org/wiki/Natural_language_processing
+  - semantic wiki: https://en.wikipedia.org/wiki/Semantics
 
 </details>
 
@@ -107,15 +118,19 @@ https://www.youtube.com/watch?v=U8m5ug9Q54M
 - [Transformer Neural Networks - EXPLAINED! (Attention is all you need) - CodeEmporium](https://www.youtube.com/watch?v=TQQlZhbC5ps)
 
 
-Semantic:
- * semantic wiki: https://en.wikipedia.org/wiki/Semantics
- * GenSim: https://radimrehurek.com/gensim/index.html
- * Fasttext: https://radimrehurek.com/gensim/auto_examples/tutorials/run_fasttext.html#sphx-glr-auto-examples-tutorials-run-fasttext-py
- * Model2Vec: https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py
-
-
 MT: 
 - https://www.studytonight.com/post/different-machine-translation-models-in-nlp
+
+Word Embedding and Vector Space Model
+- [Word embedding](https://en.wikipedia.org/wiki/Word_embedding)
+- [Vector Space Models](https://towardsdatascience.com/vector-space-models-48b42a15d86d)
+
+- [Word Embedding and Vector Space Models](https://medium.com/analytics-vidhya/word-embedding-and-vector-space-models-11c9b76f58e)
+- [Exploring Qdrant: A Guide to Vector Databases](https://medium.com/@bilalhanif848/exploring-qdrant-a-guide-to-vector-databases-68dc6a405be4)
+- [Getting Started With Embeddings - HuggingFace](https://huggingface.co/blog/getting-started-with-embeddings)
+
+Projects:
+- [Self-Driving Taxi Chatbot](https://github.com/diesimo-ai/self-driving-taxi-chatbot)
 
 Research papers: 
 - Attention is all you need (paper): https://research.google/pubs/pub46201/
