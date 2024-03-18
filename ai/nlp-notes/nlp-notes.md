@@ -83,6 +83,9 @@ Src: [Study tonight](https://www.studytonight.com/post/different-machine-transla
 - [Gensim](https://radimrehurek.com/gensim/index.html)
 - [Fasttext](https://radimrehurek.com/gensim/auto_examples/tutorials/run_fasttext.html#sphx-glr-auto-examples-tutorials-run-fasttext-py)
 - [Word2Vec Model](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py)
+- [OpenAI Embeddings tools](https://platform.openai.com/docs/guides/embeddings)
+- [GloVe - stanford](https://nlp.stanford.edu/projects/glove/)
+
 
 ## References
 
