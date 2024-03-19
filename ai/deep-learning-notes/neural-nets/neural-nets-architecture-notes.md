@@ -1,46 +1,53 @@
-# Neural Network (NN) Architecture - Notes
+# Neural Network (NN/Neural Nets) Architecture - Notes
 
-Agenda
-- [PERCEPTRON (P)](#perceptron-p)
-- [FEED FORWARD (FF)](#feed-forward-ff)
-- [RADIAL BASIS NETWORK (RBF)](#radial-basis-network-rbf)
-- [DEEP FEED FORWARD (DFF)](#deep-feed-forward-dff)
-- [RECURRENT NEURAL NETWORK(RNN)](#recurrent-neural-networkrnn)
-- [LONG SHORT-TERM MEMORY (LSTM)](#long-short-term-memory-lstm)
-- [CONVOLUTIONAL NEURAL NETWORK (CNN)](#convolutional-neural-network-cnn)
-- [DEEP CONVOLUTIONAL NETWORK (DCN)](#deep-convolutional-network-dcn)
-- [HOPFIELD NETWORK](#hopfield-network)
-- [BOLTZMANN MACHINE](#boltzmann-machine)
-- [TRANFORMER](#tranformer)
-- [GPT-3](#gpt-3)
+**Table of Contents**
 
+  - [Overview](#overview)
+  - [PERCEPTRON (P)](#perceptron-p)
+  - [FEED FORWARD (FF)](#feed-forward-ff)
+  - [RADIAL BASIS NETWORK (RBF)](#radial-basis-network-rbf)
+  - [DEEP FEED FORWARD (DFF)](#deep-feed-forward-dff)
+  - [RECURRENT NEURAL NETWORK(RNN)](#recurrent-neural-networkrnn)
+  - [LONG SHORT-TERM MEMORY (LSTM)](#long-short-term-memory-lstm)
+  - [MODIFIED/MIXED NATIONAL INSTITUTE OF STANDARD TECHNOLOGY (MNIST)](#modifiedmixed-national-institute-of-standard-technology-mnist)
+  - [CONVOLUTIONAL NEURAL NETWORK (CNN)](#convolutional-neural-network-cnn)
+    - [Architecture](#architecture)
+    - [Learning Process](#learning-process)
+  - [DEEP CONVOLUTIONAL NETWORK (DCN)](#deep-convolutional-network-dcn)
+  - [HOPFIELD NETWORK](#hopfield-network)
+  - [BOLTZMANN MACHINE](#boltzmann-machine)
+  - [TRANSFORMER](#transformer)
+  - [GPT-3](#gpt-3)
+  - [Datasets](#datasets)
+  - [References](#references)
 
 ## Overview
 
-![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*n16lj3lSkz2miMc_5cvkrA.jpeg)
+![](https://miro.medium.com/v2/resize:fit:1400/1*vuW6DmvB7PeNM8vddesC3Q.png)
 
-Src: [Benchmark Analysis of Representative Deep Neural Network Architectures - Luigi Celona (@CeLuigi) - 2018](https://arxiv.org/pdf/1810.00736.pdf)
+Neural Nets History (link: [Brief History of Neural Networks](https://miro.medium.com/v2/resize:fit:1400/1*vuW6DmvB7PeNM8vddesC3Q.png)) 
+
 
 
 ## PERCEPTRON (P)
 - Link1 : 
   
-[Perceptron Keras](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/perpectron-model-keras.ipynb)
+[Perceptron Keras](https://github.com/afondiel/computer-science-open-catalog/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/perpectron-model-keras.ipynb)
 ## FEED FORWARD (FF)
 Link :
-- [FF](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/perpectron-model-keras.ipynb)
+- [FF](https://github.com/afondiel/computer-science-open-catalog/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/perpectron-model-keras.ipynb)
 ## RADIAL BASIS NETWORK (RBF)
 Link : 
 - [](#) 
 ## DEEP FEED FORWARD (DFF)
 Link : 
-- [DFF](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/deep-neural-network-keras.ipynb) 
+- [DFF](https://github.com/afondiel/computer-science-open-catalog/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/deep-neural-network-keras.ipynb) 
 ## RECURRENT NEURAL NETWORK(RNN)
 Link : 
-- [RNN](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/recurrent_neural_network_LSTM_notes.ipynb) 
+- [RNN](https://github.com/afondiel/computer-science-open-catalog/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/recurrent_neural_network_LSTM_notes.ipynb) 
 ## LONG SHORT-TERM MEMORY (LSTM) 
 Link : 
-- [LSTM](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/recurrent_neural_network_LSTM_notes.ipynb)
+- [LSTM](https://github.com/afondiel/computer-science-open-catalog/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/recurrent_neural_network_LSTM_notes.ipynb)
 ## MODIFIED/MIXED NATIONAL INSTITUTE OF STANDARD TECHNOLOGY (MNIST)
 **Overview:** Multiclass dataset aim to classify 10 classes (1,2 ..10)
 - sees data as images
@@ -57,9 +64,15 @@ Link :
 - the deeper the NN the higher the capacity to learn
   
 Link : 
-- [MNIST](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/MNIST%20Image%20Recognition.ipynb)
+- [MNIST](https://github.com/afondiel/computer-science-open-catalog/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/MNIST%20Image%20Recognition.ipynb)
+
 ## CONVOLUTIONAL NEURAL NETWORK (CNN)
-Overview : 
+
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*n16lj3lSkz2miMc_5cvkrA.jpeg)
+
+Src: [Benchmark Analysis of Representative Deep Neural Network Architectures - Luigi Celona (@CeLuigi) - 2018](https://arxiv.org/pdf/1810.00736.pdf)
+
+**Overview**: 
 - extract features from image
 - fast computation comparing to a regular NN
   - No limitation and high accuracy
@@ -67,7 +80,7 @@ Overview :
 - for complex images
 
   
-Application :
+**Application**:
 - Face recognition
 - object detection
 - NLP
@@ -119,8 +132,8 @@ Where :
 
 Links : 
 - [great article by Jiwon Jeong](https://towardsdatascience.com/the-most-intuitive-and-easiest-guide-for-convolutional-neural-network-3607be47480)
-- [Implementation CNN - @afondiel](https://github.com/afondiel/research-notes/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/convolutional-neural-network.ipynb) 
-- [pytorch-artificial-intelligence-book](https://github.com/afondiel/research-notes/blob/master/books/ai/pytorch-artificial-intelligence-fundamentals-2020-Jibin-Mathew.pdf)
+- [Implementation CNN - @afondiel](https://github.com/afondiel/computer-science-open-catalog/blob/master/ai/ml-notes/deep-learning-notes/neural-nets/convolutional-neural-network.ipynb) 
+- [pytorch-artificial-intelligence-book](https://github.com/afondiel/computer-science-open-catalog/blob/master/books/ai/pytorch-artificial-intelligence-fundamentals-2020-Jibin-Mathew.pdf)
 - [Building Model with Pytorch](https://pytorch.org/tutorials/beginner/introyt/modelsyt_tutorial.html)
 ## DEEP CONVOLUTIONAL NETWORK (DCN)
 Link : 
@@ -133,7 +146,7 @@ Link :
 -  [BOLTZMANN](#)
 ## TRANSFORMER
 Link : 
-- [Transformer](https://github.com/afondiel/research-notes/blob/master/ai/research-papers/Attention%20is%20all%20you%20need%20-%20Google%20Research%20(2017).pdf)
+- [Transformer](https://github.com/afondiel/computer-science-open-catalog/blob/master/ai/research-papers/Attention%20is%20all%20you%20need%20-%20Google%20Research%20(2017).pdf)
 ## GPT-3
 Link : 
 - [GPT-3](https://en.wikipedia.org/wiki/GPT-3)
