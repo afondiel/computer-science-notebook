@@ -56,7 +56,7 @@ Src: [Basic Steps In Natural Language Processing Pipeline](https://monicamundada
    - Text generation
    - Machine Translation
    - Word sense disambiguation
-   - Vector/Embeddings
+   - Vector/Embeddings (high-dimensional vectors)
 
 3. **PRAGMATIC ANALYSIS**: understanding of what the text is trying to achieve
 
@@ -68,7 +68,7 @@ Tools:
 - Deep Learning
 - GenAI and LLM
 - [RAG (Retrieval-Augmented Generation)](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
-- Embeddings
+- Embeddings ( high-dimensional vectors)
 
 
 ## Machine Translation
