@@ -42,5 +42,6 @@ cargo run
 Please refer to this [CONTRIBUTING.md](../../../CONTRIBUTING.md).
 
 
->### [!TIP] "Keep up your bright swords, for the dew will rust them." - William Shakespeare
+> [!TIP] 
+> "Keep up your bright swords, for the dew will rust them." - William Shakespeare
 
