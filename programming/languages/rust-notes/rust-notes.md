@@ -146,6 +146,3 @@ Courses & Tutorials:
 Projects : 
 - CLI calculator :  https://www.youtube.com/watch?v=MsocPEZBd-M
 
-
-> ## "Keep up your bright swords, for the dew will rust them." - William Shakespeare
-
