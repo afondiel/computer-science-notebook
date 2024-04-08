@@ -2,13 +2,13 @@
     <img src="./outro/logo.jpg" width="200" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 </p>
 
-<h1 align="center" width="100%"> Computer Science Open-Catalog</h1>
+<h1 align="center" width="100%"> Computer Science Notes</h1>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/computer-science-open-catalog) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/computer-science-open-catalog/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/computer-science-open-catalog.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/computer-science-open-catalog.svg) 
+![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/computer-science-notes) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/computer-science-notes/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/computer-science-notes.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/computer-science-notes.svg) 
 
 ## Overview
 
-This Computer Science Open-Catalog is a compilation of notes and invaluable resources for anyone diving into the field, and beyond.
+This is a compilation of notes and invaluable resources for anyone diving into Computer Science field, and beyond.
 
 ## Motivation
 
@@ -38,13 +38,13 @@ From programming languages, design patterns, and testing to more advanced topics
 
 ## Usage
 
-If you'd like to read the notes online, you can visit https://afondiel.github.io/computer-science-open-catalog/.
+If you'd like to read the notes online, you can visit https://afondiel.github.io/computer-science-notes/.
 
 If you'd like to read it locally, [install Rust](https://www.rust-lang.org/tools/install), and then:
 
 ```bash
-git clone https://github.com/afondiel/computer-science-open-catalog
-cd computer-science-open-catalog
+git clone https://github.com/afondiel/computer-science-notes
+cd computer-science-notes
 cargo install mdbook
 mdbook build
 mdbook serve
