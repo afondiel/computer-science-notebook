@@ -1,0 +1,39 @@
+
+From scratch
+
+- build a transformer
+- build a GTP (Karphaty)
+- extend to LLM!!!
+
+Pre-trained
+
+- Hugging face transformers
+- Openai - GPTs (2018)
+- generate GPTs - ui-based
+
+
+Finetuning
+
+- transformer with a new dataset
+- GTP with a new dataset
+- LLM with a new dataset!!!
+
+Deplyoment: 
+
+- Clooud provider?? 
+
+
+
+# References
+
+- https://huggingface.co/learn/nlp-course/chapter1/4
+- https://en.wikipedia.org/wiki/Generative_pre-trained_transformer
+- https://zapier.com/blog/custom-chatgpt/
+
+Openai
+
+- https://openai.com/blog/introducing-gpts
+- https://help.openai.com/en/articles/8554397-creating-a-gpt
+
+
+
