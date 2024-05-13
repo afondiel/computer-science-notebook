@@ -64,7 +64,7 @@ def multimodal_hello_world(text_input, image_input):
     return text_output + image_output
 
 print(multimodal_hello_world("Hello, world!", image_data))
-``
+```
 
 ## Lab: Zero to Hero Projects
 - Build a multimodal sentiment analysis tool.
@@ -72,5 +72,9 @@ print(multimodal_hello_world("Hello, world!", image_data))
 - Develop a cross-modal retrieval application.
 
 ## References
-- [DataCamp's introduction to Multimodal AI](https://www.datacamp.com/blog/what-is-multimodal-ai).
-- [MIT Technology Review on Multimodal AI's new frontier](https://www.technologyreview.com/2024/05/08/1092009/multimodal-ais-new-frontier/).
+
+- [What is Multimodal AI? | DataCamp](https://www.datacamp.com/blog/what-is-multimodal-ai)
+- [Multimodal: AI’s new frontier | MIT Technology Review](https://www.technologyreview.com/2024/05/08/1092009/multimodal-ais-new-frontier/)
+- [The Power of Multimodal AI: A Comprehensive Step-by-Step Guide](https://hyscaler.com/insights/multimodal-ai-step-by-step-guide/)
+- [What is Multimodal AI? How Combining 5 Key Modalities Unlocks New ](https://dotdotfuture.com/ai/what-is-multimodal-ai/)
+- [What Is Multimodal AI? - twelvelabs.io](https://www.twelvelabs.io/blog/what-is-multimodal-ai)
