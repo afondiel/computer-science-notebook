@@ -7,14 +7,14 @@ NLP is a computer science, artificial Intelligence subsets which deals with Huma
 
 ## Application
 
-* Sentimental Analysis: (ex: fb emojis)
-* Chatbot (costumer assistance)
-* Speech Recognition (voice assistance, like windows cortana)
-* Machine Translation (google translate)
-* Spell Checking
-* Information Extraction
-* Keyword Searching
-* Advertisement 
+- Sentimental Analysis: (ex: fb emojis)
+- Chatbot (costumer assistance)
+- Speech Recognition (voice assistance, like windows cortana)
+- Machine Translation (google translate)
+- Spell Checking
+- Information Extraction
+- Keyword Searching
+- Advertisement 
 
 ## Components of NLP
 
@@ -65,10 +65,11 @@ Src: [Basic Steps In Natural Language Processing Pipeline](https://monicamundada
 - Next Sentence Prediction (NSP) : Check if the sentence B, follows the sentence A.
 
 Tools:
-- Deep Learning
-- GenAI and LLM
+- [Deep Learning](../deep-learning-notes/)
+- [GenAI and LLM](../generative-ai-notes/llm-notes/LLM-notes.md)
+- [Multimodal AI](../Multimodal-AI/)
 - [RAG (Retrieval-Augmented Generation)](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
-- Embeddings ( high-dimensional vectors)
+- Embeddings (high-dimensional vectors)
 
 
 ## Machine Translation
@@ -76,6 +77,19 @@ Tools:
 ![](./docs/mt-group.png)
 
 Src: [Study tonight](https://www.studytonight.com/post/different-machine-translation-models-in-nlp)
+
+## Large Language Models (LLMs) 
+
+|Feature|NLP|LLM|
+|--|--|--|
+|Focus|	Broad range of techniques for specific tasks|Specific type of NLP model, broad capabilities|
+|Strength|Accuracy in specific tasks|Versatility, open ended tasks|
+|Underlying Techniques|Rule-based, Machine Learning, Deep Learning|Deep Learning (Transformers)|
+|Applications|	Chatbots (specific functions), sentiment analysis, named entity recognition|Creative text generation, summarization, open ended chatbots|
+||||
+
+- More about LLMs [here](../generative-ai-notes/llm-notes/LLM-notes.md).
+
 
 ## Tools & Frameworks
 
@@ -96,8 +110,7 @@ Src: [Study tonight](https://www.studytonight.com/post/different-machine-transla
 
 ## References
 
-<details>
-  <summary>Wikipedia</summary>
+Wikipedia
 
   - Natural Language Processing: https://en.wikipedia.org/wiki/Natural_language_processing
   - MT: https://en.wikipedia.org/wiki/Machine_translation
@@ -105,29 +118,30 @@ Src: [Study tonight](https://www.studytonight.com/post/different-machine-transla
   - NLP: https://en.wikipedia.org/wiki/Natural_language_processing
   - semantic wiki: https://en.wikipedia.org/wiki/Semantics
 
-</details>
-
 Lecture and Online Courses:
-- ibm: https://www.youtube.com/watch?v=fLvJ8VdHLA0&t=42s
-- ibm nlp vs nlu vs nlg: https://www.youtube.com/watch?v=1I6bQ12VxV0&t=12s
-- Machine Translation - ibm lstm: https://www.youtube.com/watch?v=b61DPVFX03I
+- ibm: 
+  - [What is NLP (Natural Language Processing)?](https://www.youtube.com/watch?v=fLvJ8VdHLA0&t=0s)
+  - ibm nlp vs nlu vs nlg: https://www.youtube.com/watch?v=1I6bQ12VxV0&t=12s
+  - Machine Translation - ibm lstm: https://www.youtube.com/watch?v=b61DPVFX03I
 - npl vs nlu: https://www.kdnuggets.com/2019/07/nlp-vs-nlu-understanding-language-processing.html
-- NLTK: https://www.youtube.com/watch?v=05ONoGfmKvA&t=0s
-- Spacy: https://www.youtube.com/watch?v=dIUTsFT2MeQ&t=1025s
 - Google Research: https://research.google/research-areas/natural-language-processing/
-- Transformer: https://devopedia.org/transformer-neural-network-architecture
-- Rasa - full - tuto: https://www.youtube.com/watch?v=hJ1hzEJE16c&list=PL75e0qA87dlFJiNMeKltWImhQxfFwaxvv&index=1
-frameworks: https://odsc.medium.com/10-notable-frameworks-for-nlp-ce8c4196bfd6
-- NLP w/ python & nltk: 
-https://www.youtube.com/watch?v=U8m5ug9Q54M
-- nlp with spy: 
-  - https://www.youtube.com/watch?v=dIUTsFT2MeQ
-- YT course Stanford :
-  - https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6 
-  - https://www.youtube.com/watch?v=OQQ-W_63UgQ
-- [Transformer Neural Networks - EXPLAINED! (Attention is all you need) - CodeEmporium](https://www.youtube.com/watch?v=TQQlZhbC5ps)
+- [NLP for Developers - Full course Rasa](https://www.youtube.com/watch?v=hJ1hzEJE16c&list=PL75e0qA87dlFJiNMeKltWImhQxfFwaxvv&index=1)
+
+- Stanford Univ School of Engineering:
+  - [Lecture Collection | Natural Language Processing with Deep Learning](https://www.youtube.com/watch?v=OQQ-W_63UgQ&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) 
 - [OpenAI Embeddings and Vector Databases Crash Course](https://www.youtube.com/watch?v=ySus5ZS0b94)
 
+Frameworks: 
+- https://odsc.medium.com/10-notable-frameworks-for-nlp-ce8c4196bfd6
+- NLP w/ python & nltk: 
+  - https://www.youtube.com/watch?v=U8m5ug9Q54M  
+  - https://www.youtube.com/watch?v=05ONoGfmKvA&t=0s
+
+- Nlp with spy: 
+  - https://www.youtube.com/watch?v=dIUTsFT2MeQ
+  - Spacy: https://www.youtube.com/watch?v=dIUTsFT2MeQ&t=1025s
+- [Transformer Neural Networks - EXPLAINED! (Attention is all you need) - CodeEmporium](https://www.youtube.com/watch?v=TQQlZhbC5ps)
+- Transformer: https://devopedia.org/transformer-neural-network-architecture
 
 
 MT: 
