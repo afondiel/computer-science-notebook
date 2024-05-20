@@ -99,7 +99,7 @@ Embodied AI Workshop - CVPR 2023:
 
 ## References
 
-- Wikipedia resources
+Wikipedia resources
   - [What's AI ?](https://en.wikipedia.org/wiki/Artificial_intelligence)
   - [Category](https://en.wikipedia.org/wiki/Category:Artificial_intelligence)
   - [path finding](https://en.wikipedia.org/wiki/Pathfinding)
@@ -115,39 +115,38 @@ AI Tree Wikipedia
   - https://en.wikipedia.org/wiki/Anthropology
   - https://en.wikipedia.org/wiki/Neuroscience
   
-  - https://en.wikipedia.org/wiki/Neural_network
-  - https://en.wikipedia.org/wiki/Neuron
+Neural Nets
   - https://en.wikipedia.org/wiki/Brain
+  - https://en.wikipedia.org/wiki/Neuron
   - https://en.wikipedia.org/wiki/Machine_learning
   - https://en.wikipedia.org/wiki/Deep_learning
+  - https://en.wikipedia.org/wiki/Neural_network
 
-
-
-- Notes
+Research Notes
   - [Machine Learning](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/ml-notes)
   - [Neural Network](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/deep-learning-notes)
   - [NLP](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/nlp-notes)
   - [Computer Vision ](https://github.com/afondiel/computer-science-notes/tree/master/computer-vision-notes)
   - [robotics](https://github.com/afondiel/computer-science-notes/tree/master/robotics)
 
-- Projects : 
+Projects : 
     - https://github.com/afondiel/my-lab/tree/master/projects/ai 
     - https://github.com/afondiel/my-lab/tree/master/projects
 
 - Quantum computing : https://en.wikipedia.org/wiki/Quantum_computing
 - Stochastic process : https://en.wikipedia.org/wiki/Stochastic_process
 
-- Games : 
+Games: 
   - https://en.wikipedia.org/wiki/Chess
   - https://en.wikipedia.org/wiki/Go_(game)
   - https://en.wikipedia.org/wiki/Xiangqi
   - ayo-olopon : https://scorum.com/en-us/other/@jotmax/ayo-olopon-the-game-of-the-intellectual-an-african-board-game
 
-- Mythology : 
+Mythology : 
   - https://en.wikipedia.org/wiki/Egyptian_mythology
   - https://en.wikipedia.org/wiki/Roman_mythology
 
-- Lectures & Tutorial & Online Free Courses:
+Lectures & Tutorial & Online Free Courses:
 
   - [UC Berkeley - CS188 Intro to AI -- Course Materials](http://ai.berkeley.edu/lecture_slides.html) 
   - [Stanford CS221 - Overview Artificial Intelligence Course | Stanford CS221: Learn AI (Autumn 2019)](https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX)
@@ -162,7 +161,7 @@ Great AI Blog: [Jürgen Schmidhuber's AI Blog](https://people.idsia.ch/~juergen/
 	- Geektonight: https://www.geektonight.com/best-artificial-intelligence-courses/
 	- Javin Paul medium article : https://medium.com/javarevisited/10-best-coursera-certifications-courses-for-machine-learning-and-artificial-intelligence-256d9a125822
  
-- My Work - AGI survey from [ENSEA](https://www.ensea.fr/en) - 2016: 
+My Work - AGI survey from [ENSEA](https://www.ensea.fr/en) - 2016: 
   - [AGI - ENSEA 2016](https://github.com/afondiel/computer-science-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
 
 Books
@@ -170,3 +169,5 @@ Books
 
 Papers
 - [Research Papers](./research-papers/)
+
+
