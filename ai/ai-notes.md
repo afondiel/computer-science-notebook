@@ -47,7 +47,7 @@ Artificial Intelligence (AI) is the intelligience demonstrated by machines, as o
 
 ## Weak (Narrow) vs Strong AI 
 
-- [Research Work - Strong AI - 2016](https://github.com/afondiel/research-notes/blob/master/ai/docs/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf)
+- [Research Work - Strong AI - 2016](https://github.com/afondiel/computer-science-notes/blob/master/ai/docs/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf)
 
 
 ## Artificial General Intelligence (AGI)
@@ -79,7 +79,7 @@ Some Embodied-AI for General-Purpose-Humanoid-Robots:
 
 Some Embodied-AI for Autonomous Vehicles
 
-- [Wayve driver](https://wayve.ai/technology/wayve-ai-driver/)
+- [Wayve Driver](https://wayve.ai/technology/wayve-ai-driver/)
   
 
 Embodied AI Workshop - CVPR 2023: 
@@ -100,6 +100,13 @@ Embodied AI Workshop - CVPR 2023:
 ## References
 
 - Wikipedia resources
+  - [What's AI ?](https://en.wikipedia.org/wiki/Artificial_intelligence)
+  - [Category](https://en.wikipedia.org/wiki/Category:Artificial_intelligence)
+  - [path finding](https://en.wikipedia.org/wiki/Pathfinding)
+  - [odemetry](https://en.wikipedia.org/wiki/Odometry)
+  - [Turing machine](https://en.wikipedia.org/wiki/Turing_machine)
+
+AI Tree Wikipedia
   - https://en.wikipedia.org/wiki/Cognitive_science
   - https://en.wikipedia.org/wiki/Artificial_intelligence
   - https://en.wikipedia.org/wiki/Cognitive_psychology#Neisser
@@ -114,19 +121,14 @@ Embodied AI Workshop - CVPR 2023:
   - https://en.wikipedia.org/wiki/Machine_learning
   - https://en.wikipedia.org/wiki/Deep_learning
 
-  - [What's AI ?](https://en.wikipedia.org/wiki/Artificial_intelligence)
-  - [Category](https://en.wikipedia.org/wiki/Category:Artificial_intelligence)
-  - [path finding](https://en.wikipedia.org/wiki/Pathfinding)
-  - [odemetry](https://en.wikipedia.org/wiki/Odometry)
-  - [Turing machine](https://en.wikipedia.org/wiki/Turing_machine)
 
 
 - Notes
-  - [Machine Learning](https://github.com/afondiel/research-notes/tree/master/datascience-notes/ml-notes)
-  - [Neural Network](https://github.com/afondiel/research-notes/tree/master/datascience-notes/deep-learning-notes)
-  - [NLP](https://github.com/afondiel/research-notes/tree/master/datascience-notes/nlp-notes)
-  - [Computer Vision ](https://github.com/afondiel/research-notes/tree/master/computer-vision-notes)
-  - [robotics](https://github.com/afondiel/research-notes/tree/master/robotics)
+  - [Machine Learning](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/ml-notes)
+  - [Neural Network](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/deep-learning-notes)
+  - [NLP](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/nlp-notes)
+  - [Computer Vision ](https://github.com/afondiel/computer-science-notes/tree/master/computer-vision-notes)
+  - [robotics](https://github.com/afondiel/computer-science-notes/tree/master/robotics)
 
 - Projects : 
     - https://github.com/afondiel/my-lab/tree/master/projects/ai 
@@ -160,11 +162,11 @@ Great AI Blog: [Jürgen Schmidhuber's AI Blog](https://people.idsia.ch/~juergen/
 	- Geektonight: https://www.geektonight.com/best-artificial-intelligence-courses/
 	- Javin Paul medium article : https://medium.com/javarevisited/10-best-coursera-certifications-courses-for-machine-learning-and-artificial-intelligence-256d9a125822
  
-- School Work: 
-  - [Strong AI - 2016](https://github.com/afondiel/research-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
+- My Work - AGI survey from [ENSEA](https://www.ensea.fr/en) - 2016: 
+  - [AGI - ENSEA 2016](https://github.com/afondiel/computer-science-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
 
 Books
-- @ADD
+- [FREE AI BOOKs](https://github.com/afondiel/cs-books/tree/main/ai)
 
-- [Papers](#)
-  - 
+Papers
+- [Research Papers](./research-papers/)
