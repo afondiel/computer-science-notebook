@@ -15,7 +15,7 @@
 
 ## Overview
 
-Artificial Intelligence (AI) is the intelligience demonstrated by machines, as opposed to the human intelligence. AI allows computers to think.
+Artificial Intelligence (AI) is the intelligience demonstrated by machines, as opposed to the human intelligence.
 
 **AI Capabilities**
 
