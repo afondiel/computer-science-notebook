@@ -106,7 +106,7 @@ Wikipedia resources
   - [odemetry](https://en.wikipedia.org/wiki/Odometry)
   - [Turing machine](https://en.wikipedia.org/wiki/Turing_machine)
 
-AI Tree Wikipedia
+Cognitive Science Tree Wikipedia
   - https://en.wikipedia.org/wiki/Cognitive_science
   - https://en.wikipedia.org/wiki/Artificial_intelligence
   - https://en.wikipedia.org/wiki/Cognitive_psychology#Neisser
@@ -122,19 +122,22 @@ Neural Nets
   - https://en.wikipedia.org/wiki/Deep_learning
   - https://en.wikipedia.org/wiki/Neural_network
 
+Maths:
+- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
+- [Quantum computing](https://en.wikipedia.org/wiki/Quantum_computing)
+
+
 Research Notes
-  - [Machine Learning](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/ml-notes)
-  - [Neural Network](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/deep-learning-notes)
-  - [NLP](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/nlp-notes)
-  - [Computer Vision ](https://github.com/afondiel/computer-science-notes/tree/master/computer-vision-notes)
-  - [robotics](https://github.com/afondiel/computer-science-notes/tree/master/robotics)
+- [Machine Learning](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/ml-notes)
+- [Neural Network](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/deep-learning-notes)
+- [NLP](https://github.com/afondiel/computer-science-notes/tree/master/datascience-notes/nlp-notes)
+- [Computer Vision ](https://github.com/afondiel/computer-science-notes/tree/master/computer-vision-notes)
+- [robotics](https://github.com/afondiel/computer-science-notes/tree/master/robotics)
 
 Projects : 
-    - https://github.com/afondiel/my-lab/tree/master/projects/ai 
-    - https://github.com/afondiel/my-lab/tree/master/projects
+- https://github.com/afondiel/my-lab/tree/master/projects/ai 
+- https://github.com/afondiel/my-lab/tree/master/projects
 
-- Quantum computing : https://en.wikipedia.org/wiki/Quantum_computing
-- Stochastic process : https://en.wikipedia.org/wiki/Stochastic_process
 
 Games: 
   - https://en.wikipedia.org/wiki/Chess
@@ -161,8 +164,8 @@ Great AI Blog: [Jürgen Schmidhuber's AI Blog](https://people.idsia.ch/~juergen/
 	- Geektonight: https://www.geektonight.com/best-artificial-intelligence-courses/
 	- Javin Paul medium article : https://medium.com/javarevisited/10-best-coursera-certifications-courses-for-machine-learning-and-artificial-intelligence-256d9a125822
  
-My Work - AGI survey from [ENSEA](https://www.ensea.fr/en) - 2016: 
-  - [AGI - ENSEA 2016](https://github.com/afondiel/computer-science-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
+My research on strong AI survey from 1st grade of engineering degree @ [ENSEA](https://www.ensea.fr/en) - 2016: 
+  - [Strong AI survey  - ENSEA 2016](https://github.com/afondiel/computer-science-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
 
 Books
 - [FREE AI BOOKs](https://github.com/afondiel/cs-books/tree/main/ai)
