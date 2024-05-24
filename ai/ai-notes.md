@@ -164,8 +164,8 @@ Great AI Blog: [Jürgen Schmidhuber's AI Blog](https://people.idsia.ch/~juergen/
 	- Geektonight: https://www.geektonight.com/best-artificial-intelligence-courses/
 	- Javin Paul medium article : https://medium.com/javarevisited/10-best-coursera-certifications-courses-for-machine-learning-and-artificial-intelligence-256d9a125822
  
-My research on strong AI survey from 1st grade of engineering degree @ [ENSEA](https://www.ensea.fr/en) - 2016: 
-  - [Strong AI survey  - ENSEA 2016](https://github.com/afondiel/computer-science-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
+My research on strong AI (AGI) survey from 1st grade of engineering degree @ [ENSEA](https://www.ensea.fr/en) - 2016: 
+  - [Strong AI (AGI) survey  - ENSEA 2016](https://github.com/afondiel/computer-science-notes/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
 
 Books
 - [FREE AI BOOKs](https://github.com/afondiel/cs-books/tree/main/ai)
