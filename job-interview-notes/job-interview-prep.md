@@ -2,80 +2,51 @@
 
 ## Overview
 
-This is a Software Engineer Common Interview Questions resources and tips.
+This is a Computer Science/Software Engineer Common Interview Questions notes & Resources.
 
-## Interview preparation 
+## Before
+
+Pre-Interview Research:
+
+1. Target Industries
+2. Company Research
+3. Technical Refresh 
+4. Practice Makes Perfect
+5. Mock Interviews
 
 ### Mindset
 
 ```
-@TODO
+- Dress professionally
+- Arrive early
+- Maintain good posture and eye contact during the interview.
+- Project confidence and enthusiasm
 ```
 
-### Plan & Strategy
+### Plan & Strategy & Framework
 
 ```
-@TODO
+- The STAR Method: Use the STAR method to describe projects, challenges, actions, and results.
+- Highlight Achievements: Quantify accomplishments, like improving accuracy by X% or reducing processing time by Y%.
+- Be Clear & Concise: Avoid jargon and tailor your language to the audience's technical background.
 ```
 
-
-## Topics
-
-- AI 
-  - Machine Learning
-  - Deep Learning
-  - Generative AI and LLMs
-  - Computer Vision
-- Data Science
-- Data structure and Algorithms (DSA)
-- Programming 
-  - Python
-  - C/C++
-  - Rust
-
-## Online Practice Tools, Playground & Tutorial
+### Online Prep Tools, Playground & Tutorial
 
 - [LeetCode](https://leetcode.com/)
 - [codewars](https://www.codewars.com/)
 - [replit](replit.com)
 - [Codecademy](https://www.codecademy.com/)
-- [Codigame - france](https://www.codingame.com/)
+- [Codigame (France)](https://www.codingame.com/)
 - [hackerrank](https://www.hackerrank.com/)
 - [w3schools](https://www.w3schools.com/)
 - [Stackoverflow - Questions](https://stackoverflow.com/questions)
 
-## 100 Software Engineer Common Interview Questions
+## After
 
-1. Questions asked by the recruiter
-a) Personal détails :
-What can you tell me about yourself?
-How do you work under pressure? 
-What was the biggest decision in your life?
-
-b) The extra-curricular activities, sports:
-Do you like to travel?
-Are you a good team player?
-
-c) Studying:
-Why did you major in engineering? 
-If you could choose again, what degree would you do?
-
-d) Previous work experience: 
-What particular experience/qualifications do you think you can bring to this job? 
-What do you measure /evaluate SUCCESS?
-
-2. Question directly related to the job position 
-
-a) Education, experience, personality :
-Why should I hire you?
-
-b) Motivations:
-Why do want to work for us? 
-Which important to you, the money or the type of job?
-
-c) The ambitions of career:
-What are you ideas on salary? 
-1. ....
+```
+@TODO
+```
 
 
 ## References 
