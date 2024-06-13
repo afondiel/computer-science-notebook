@@ -7,25 +7,8 @@
 
 Credits to : Max Rascher
 
+## Contributing
 
+Please refer to this [CONTRIBUTING.md](../../CONTRIBUTING.md) file.
 
-## References
-
-Free Course : 
-
-- [Course on ChatGPT Prompt Engineering for Developers - by DeepLearningAI](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/2/guidelines)
-
-Awesome ChatGPT Prompts : 
-
-- [Awesome ChatGPT Prompts](https://prompts.chat/)
-- [Awesome GPT Prompts](https://www.awesomegptprompts.com/)
-
-Visual Prompting
-
-- [INTRODUCING - Visual Prompting - @LandingAI](https://landing.ai/)
-- [What is Visual Prompting? - LandingAI](https://landing.ai/blog/what-is-visual-prompting/)
-- [Visual Prompting Livestream With Andrew Ng](https://www.youtube.com/watch?v=FE88OOUBonQ)
-- [CVPR 2023 Tutorial on Prompting in Vision](https://prompting-in-vision.github.io/)
-
-
-
+> **"...And so my hope is someday when the next Aristotle is alive, we can capture the underlying worldview of that Aristotle, in a computer, and someday some students will be able to not only read the words Aristotle wrote but ask Aristotle a question and get an answer."** - Steve Jobs (Generative AI Prediction from 1985 Speech)
