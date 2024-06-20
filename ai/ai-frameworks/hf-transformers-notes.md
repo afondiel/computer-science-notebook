@@ -1,19 +1,21 @@
 # Hugging Face Transformers Framework - Notes
 
 ## Table of Contents (ToC)
-1. Introduction
-   - What's Hugging Face Transformers Framework?
-   - Key Concepts and Terminology
-   - Applications
-2. Fundamentals
-   - Hugging Face Transformers Architecture Pipeline
-   - How Hugging Face Transformers Work?
-   - Hugging Face Transformers Techniques
-   - Some Hands-on Examples
-3. Tools & Frameworks
-4. Hello World!
-5. Lab: Zero to Hero Projects
-6. References
+
+  - [Introduction](#introduction)
+    - [What's Hugging Face Transformers Framework?](#whats-hugging-face-transformers-framework)
+    - [Key Concepts and Terminology](#key-concepts-and-terminology)
+    - [Applications](#applications)
+  - [Fundamentals](#fundamentals)
+    - [Hugging Face Transformers Architecture Pipeline](#hugging-face-transformers-architecture-pipeline)
+    - [How Hugging Face Transformers Work?](#how-hugging-face-transformers-work)
+    - [Hugging Face Transformers Techniques](#hugging-face-transformers-techniques)
+    - [Some Hands-on Examples](#some-hands-on-examples)
+  - [Tools \& Frameworks](#tools--frameworks)
+  - [Hello World!](#hello-world)
+  - [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
+  - [References](#references)
+
 
 ## Introduction
 The Hugging Face Transformers framework provides a versatile library for natural language processing (NLP) and computer vision tasks using pre-trained transformer models.
