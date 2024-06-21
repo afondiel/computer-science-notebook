@@ -13,10 +13,10 @@ Credit: [GeeksForGeeks](https://www.geeksforgeeks.org/data-structure-meaning/)
 
 ## Time & Space Complexity
 
-![](https://github.com/afondiel/research-notes/blob/master/programming/algorithms/docs/time_complexity.png?raw=true)
+![](https://github.com/afondiel/computer-science-notes/blob/master/programming/algorithms/docs/time_complexity.png?raw=true)
 
 
-## Big O vs big Omega vs Big Theta
+## Big O vs Big Omega vs Big Theta
 
 **Big O**
 
@@ -45,6 +45,7 @@ Credit: [bigocheatsheet.com](https://www.bigocheatsheet.com/)
 Wikipedia:
 
 - [Data Structure](https://en.wikipedia.org/wiki/Data_structure)
+- [Big O Notation](https://en.m.wikipedia.org/wiki/Big_O_notation)
 
 Big O & big Omega & Big Theta
 - [Big O & big Omega & Big Theta](https://joseiciano.medium.com/an-introduction-to-big-o-big-omega-and-big-theta-d10b5c7db002)
