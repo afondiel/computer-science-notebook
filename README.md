@@ -67,6 +67,9 @@ Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help thi
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
 --
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=afondiel/computer-science-notes&type=Date)](https://star-history.com/#afondiel/computer-science-notes&Date)
 
 >As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful and inspiring as I do.
 >
