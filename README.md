@@ -8,7 +8,7 @@
 
 ## Overview
 
-This is a compilation of notes and invaluable resources for anyone diving into Computer Science field, and beyond.
+This is a compilation of notes and resources covering essential computer science concepts needed by software Engineers/developers of all experience levels.
 
 ## Motivation
 
