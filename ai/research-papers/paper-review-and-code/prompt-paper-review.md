@@ -1,8 +1,4 @@
-# Prompt for Paper Review and Summarization  
-
-## Overview
-
-Prompt for paper review and summarization. The summary can be generated at once or interactively , i.e section by section.
+# Prompt for Paper Review and Summarization    
 
 ## Setup Config
 
@@ -15,21 +11,17 @@ Config:
 - Notice ChatGPT gpt-3 model does not access external pdf files or url, but it may provide the results based on general understanding of the topic
 
 - gpt-4 may not encounter this issue(to be tested)
-
-### MS Copilot
-
-- No additional config need
  
-### Gemini (former Bard)
+### Bard
 
 Config: `default`
 
 - No issues with bard
 
 
-## Prompts: 
+## Prompts History 
 
-`prompt1: summarize import insights`
+`p1: summarize import insights`
 
 ```
 Act as a machine learning expert. I want you to give a short summary of the transformers model from the paper "Attention is all you need ", focusing on the methodology and findings. I need you give the summarization in the following order in a markdown format: 
@@ -42,10 +34,10 @@ Act as a machine learning expert. I want you to give a short summary of the tran
 - Authors names
 ```
 
-`prompt2: summarize import insights`
+`p2: summarize import insights`
 
 ```
-Act as an academician. I will provide you a sequence of scientific papers and you will be responsible for reviewing them and providing a concise summary in APA style. The first paper is entitled "<paper title, authors/organization, year> / <url>". Organize the contents into the following markdown format: 
+Act as an Academic Researcher. I will provide you a sequence of scientific papers and you will be responsible for reviewing them and providing a concise summary in APA style. The first paper is entitled "<paper title, authors/organization, year> / <url>". Organize the contents into the following markdown format: 
 - Introduction
 - Problem and Methodologies
 - Architecture pipeline
@@ -54,32 +46,39 @@ Act as an academician. I will provide you a sequence of scientific papers and yo
 - Authors' names and organizations
 ```
 
-`prompt2.1: summarize import insights`
+`p2.1: summarize import insights`
 
 ```
-Act as an academician. I will provide you a sequence of reseach papers and you will do a review and provide a summary(APA style). 
+Act as an Academic Researcher. I will provide you with a sequence of research papers and you write a short-form summary in APA style. 
 
-The summary has the following format:
-'''
+The summary has the following structure:
+"""
 - Abstract
 - Introduction
-- Problem and Solution (Methodologies)
-- System Architecture pipeline
+- Problem and Solution (Methodology)
+- System Architecture Pipeline
 - Findings
 - Conclusion
-- Authors' and organizations
-'''
+- Authors and organizations
+"""
 
-Here are some rules:
-- Make it concise and succinct to read
-- Do not use hashtag or emojis. Ever.
+Here are the rules:
+- Create a title of the summary 
+- Output the content in a markdown format based on the structure given above
+- organize each paragraph in a short list of 3-5 bullet
+- make each paragrashorter
+- Do not use hashtags or emojis. Ever.
 
-I am going to give the name of the research paper and you will write a summary and output in markdown format.
+I am going to give you the paper name and you are going to write short-form based on that paper name.
 
 Do you understand?
 ```
 
-`prompt3: Extract Relevant information/insights`
+`p2-transition`: the paper= {title} : {link}
+
+
+
+`p3: Extract Relevant information/insights`
 
 ```
 Your task is to extract relevant information from the research paper: "Levels of AGI: Operationalizing Progress on the Path to AGI"  from `google deepmind`
@@ -87,11 +86,10 @@ Your task is to extract relevant information from the research paper: "Levels of
 Extract the information relevant to `robot` and `AGI embodiment`
 ``` 
 
-
 `p4 - last update`
 
 ```
-I am going to train you to write short-form paper summary (in APA style).
+I am going to train you to write short-form paper summary in APA style.
 
 The summary has the following markdown structure:
 """
@@ -115,6 +113,6 @@ I am going to give you the paper name and you are going to write a short-form pi
 
 Do you understand?
 ```
-`p4-transition`: the paper= {title} : {link}
+`p4-transition`: the paper = {title} : {link}
 
 
