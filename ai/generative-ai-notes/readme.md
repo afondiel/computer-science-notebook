@@ -1,11 +1,8 @@
 # Generative AI - Notes
 
-
-![](./llm-notes/llm-overview.png)
-
 ## Overview
 
-This is a "Hello World" resources for Generative AI(GenAI) Models.
+This is a Hello World resources for Generative AI (GenAI).
 
 
 ## Contributing
