@@ -2,8 +2,6 @@
 
 ## Table of Contents (ToC)
 
-- [Generative AI - Notes](#generative-ai---notes)
-  - [Table of Contents (ToC)](#table-of-contents-toc)
   - [Introduction](#introduction)
     - [What's Generative AI?](#whats-generative-ai)
     - [Key Concepts and Terminology](#key-concepts-and-terminology)
