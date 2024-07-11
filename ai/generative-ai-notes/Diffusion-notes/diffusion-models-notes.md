@@ -1,19 +1,20 @@
 # Diffusion Models - Notes
 
 ## Table of Contents (ToC)
-- Introduction
-  - What's Diffusion Models?
-  - Key Concepts and Terminology
-  - Applications
-- Fundamentals
-  - Diffusion Models Architecture Pipeline
-  - How Diffusion Models work?
-  - Types of Diffusion Models
-  - Some hands-on examples
-- Tools & Frameworks
-- Hello World!
-- Lab: Zero to Hero Projects
-- References
+
+- [Introduction](#introduction)
+  - [What's Diffusion Models?](#whats-diffusion-models)
+  - [Key Concepts and Terminology](#key-concepts-and-terminology)
+  - [Applications](#applications)
+- [Fundamentals](#fundamentals)
+  - [Diffusion Models Architecture Pipeline](#diffusion-models-architecture-pipeline)
+  - [How Diffusion Models work?](#how-diffusion-models-work)
+  - [Types of Diffusion Models](#types-of-diffusion-models)
+  - [Some hands-on examples](#some-hands-on-examples)
+- [Tools \& Frameworks](#tools--frameworks)
+- [Hello World!](#hello-world)
+- [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
+- [References](#references)
 
 ## Introduction
 Diffusion models are a class of generative models that generate data by reversing a diffusion process.
