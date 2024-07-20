@@ -1,12 +1,97 @@
 # Deep Learning (DL) -  Notes
 
+## Table of Contents
+
+  - [Overview](#overview)
+  - [Introduction](#introduction)
+    - [What's Deep Learning?](#whats-deep-learning)
+    - [Key Concepts and Terminology](#key-concepts-and-terminology)
+    - [Applications](#applications)
+  - [Fundamentals](#fundamentals)
+    - [Deep Learning Architecture Pipeline](#deep-learning-architecture-pipeline)
+    - [How Deep Learning works?](#how-deep-learning-works)
+    - [Some hands-on examples](#some-hands-on-examples)
+  - [What's Artificial Neural Networks (Neural Nets)?](#whats-artificial-neural-networks-neural-nets)
+  - [Biological Neuron Vs Artificial Neuron](#biological-neuron-vs-artificial-neuron)
+  - [Applications](#applications-1)
+  - [The perceptron (A Linear Unit)](#the-perceptron-a-linear-unit)
+  - [Deep Neural Nets](#deep-neural-nets)
+    - [Deep learning algorithms/model](#deep-learning-algorithmsmodel)
+    - [Deep Learning Modeling Pipeline](#deep-learning-modeling-pipeline)
+    - [Data Collection](#data-collection)
+    - [Modeling](#modeling)
+    - [Prediction](#prediction)
+    - [Test \& Model Update (Weights and Biases)](#test--model-update-weights-and-biases)
+    - [Model configuration / Parameters](#model-configuration--parameters)
+    - [Model Evaluation \& fitting Metrics](#model-evaluation--fitting-metrics)
+  - [Tools \& frameworks](#tools--frameworks)
+  - [DL Glossary](#dl-glossary)
+  - [Hello World!](#hello-world)
+  - [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
+  - [References](#references)
+
+
+## Overview
+
+Deep learning is a [machine learning](../ml-notes/ml-notes.md) subset based on artificial **neural networks** that performs sophisticated computations on large amounts of data.
+
 ## Introduction
+Deep learning is a subset of machine learning that utilizes neural networks with multiple layers to model and understand complex patterns in data.
 
-Deep learning : is Machine Learning (ML) subset based on artificial *neural networks* to perform sophisticated computations on large amounts of data
+### What's Deep Learning?
+- A branch of machine learning focused on neural networks.
+- Employs layers of algorithms to interpret data.
+- Mimics human brain structure for pattern recognition.
 
-Neural Network (NN) simulates the way humans learn. 
-- NN allows to build model/algorithms 
-  - inspired from biological neuron : 
+### Key Concepts and Terminology
+- **Neural Networks**: The foundational structure consisting of layers.
+- **Layers**: Different levels in a neural network, such as input, hidden, and output layers.
+- **Activation Functions**: Functions that determine the output of a neural network node.
+- **Backpropagation**: The process used to train neural networks.
+
+### Applications
+- Image and speech recognition.
+- Natural language processing.
+- Autonomous vehicles.
+- Healthcare diagnostics.
+- Computer vision 
+- Object detection 
+- nlp 
+- Virtual assistant 
+- Face recognition 
+- Chatbots
+- Sound addition to silent films
+- colorization of black and white images ...
+ ...
+- eveywhere since data is everywhere in modern world and taking part of daily life ...
+
+
+## Fundamentals
+
+### Deep Learning Architecture Pipeline
+- Data Collection
+- Data Preprocessing
+- Model Building
+- Model Training
+- Model Evaluation
+- Deployment
+
+### How Deep Learning works?
+- Data is fed into the input layer.
+- The data is processed through hidden layers using weights and biases.
+- Activation functions determine the output at each node.
+- Output layer produces the final prediction or classification.
+- Backpropagation adjusts weights to minimize error.
+
+### Some hands-on examples
+- Building a simple neural network for image classification.
+- Implementing a speech recognition model.
+- Developing a text classification system using recurrent neural networks (RNNs).
+
+
+## What's Artificial Neural Networks (Neural Nets)?
+
+Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. Neural Nets are composed of artificial neurons inspired biological neuron. 
   
 ```mermaid
   graph LR;
@@ -18,7 +103,7 @@ Neural Network (NN) simulates the way humans learn.
 ```
 
 
-biological neuron  vs artificial neuron 
+## Biological Neuron Vs Artificial Neuron  
 
     (neuron)               (perceptron)
     --------------------+--------------------+
@@ -33,9 +118,8 @@ biological neuron  vs artificial neuron
     |       axon        |    output node     |
     --------------------+--------------------+
 
-*new connexion : axon + synapse => next dendrite 
-
-## The perceptron
+*New connexion : axon + synapse => next dendrite 
+## The perceptron (A Linear Unit)
 
 - The perceptron: first model invented by Mc Culloch-Pitts 
   - `1 input layer`
@@ -58,20 +142,8 @@ biological neuron  vs artificial neuron
 
     - 1 output layer
      
+## Deep Neural Nets
 
-## Application
-
-- computer vision 
-- Object detection 
-- nlp 
-- Virtual assistant 
-- Autonomous vehicles 
-- Face recognition 
-- Chatbots
-- Sound addition to silent films
-- colorization of black and white images ...
- ...
-- eveywhere since data is everywhere in modern world and taking part of daily life ...
 
 ### Deep learning algorithms/model
 
@@ -98,14 +170,23 @@ Check the [Neural Networks architecture notes](neural-nets-architecture-notes.md
 
 ```mermaid
 graph LR;
-    A[Dataset]-->B[Modeling];
+    A[Data Collection]-->B[Modeling];
     B-->C[Prediction];
     C-->D[Test and Update W-b];    
     D-->A;
 ```
 
+### Data Collection
+### Modeling
+
+A "loss function" that measures how good the network's predictions are. (WHAT? the problem)
+An "optimizer" that can tell the network how to change its weights.(HOW? to solve it)
+
+### Prediction
+### Test & Model Update (Weights and Biases)
 
 ### Model configuration / Parameters 
+
 - learning rate (lr)
 - epoch  
 - batch size 
@@ -165,9 +246,41 @@ error vs capacity
   - train error : ? 
   - test error : ? 
 - generalization gap : the gap btw train error and test error 
-  
 
-# References : 
+## Hello World! 
+
+```python
+import tensorflow as tf
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+
+# Build a simple neural network
+model = Sequential([
+    Dense(32, activation='relu', input_shape=(784,)),
+    Dense(10, activation='softmax')
+])
+
+# Compile the model
+model.compile(optimizer='adam', 
+              loss='sparse_categorical_crossentropy', 
+              metrics=['accuracy'])
+
+# Summary of the model
+model.summary()
+```
+
+## Lab: Zero to Hero Projects
+- **Project 1**: Image Classification with Convolutional Neural Networks (CNNs).
+- **Project 2**: Sentiment Analysis using Long Short-Term Memory networks (LSTMs).
+- **Project 3**: Developing a Chatbot with Deep Learning techniques.
+- **Project 4**: Time Series Forecasting with Recurrent Neural Networks (RNNs).
+
+## References
+- Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
+- LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444.
+- Chollet, F. (2017). Deep Learning with Python. Manning Publications.
+
+
 - Wikipedia : 
   - https://en.wikipedia.org/wiki/Deep_learning
   - https://en.wikipedia.org/wiki/Supervised_learning
@@ -177,7 +290,10 @@ error vs capacity
   - https://en.wikipedia.org/wiki/Artificial_neural_network
   - https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
 
-- dl crash course : 
+  
+Lectures & Tutorials:
+- [Neural Networks: Zero to Hero - karpathy.ai](https://karpathy.ai/zero-to-hero.html) 
+- [Hacker's guide to Neural Networks -  karpathy.ai](https://karpathy.github.io/neuralnets/)
   - https://www.youtube.com/watch?v=VyWAvY2CF9c
 - Neural Network(3Blue1Brown) :
   - https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
@@ -187,3 +303,6 @@ error vs capacity
 - NVIDIA Deep Learning Institute : 
   - https://www.nvidia.com/en-us/training/
 
+
+Forums & Discussions:
+- [Neural Networks: Zero to Hero - YC News](https://news.ycombinator.com/item?id=35459031)
