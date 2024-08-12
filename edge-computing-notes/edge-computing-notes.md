@@ -13,6 +13,7 @@
   - [Tools \& Frameworks](#tools--frameworks)
   - [Hello World!](#hello-world)
   - [References](#references)
+  - [Related Sources](#related-sources)
 
 ## Introduction
 
@@ -55,6 +56,8 @@
 - **Microsoft Azure IoT Edge**: Runs cloud workloads on edge devices
 - **Google Cloud IoT Edge**: Facilitates AI at the edge
 - **K3s**: Lightweight Kubernetes distribution for edge deployments
+- **EdgeX Foundry**: Open-source framework for building interoperable edge computing systems.
+- **TensorFlow Lite for Edge**: Lightweight version of TensorFlow optimized for edge devices.
 
 ## Hello World!
 
