@@ -1,14 +1,9 @@
-# TinyML - Notes
+# TinyML (Machine Learning) - Notes
 
 ## Overview
 
-```
-Tiny machine learning is broadly defined as a fast growing field of machine learning technologies and applications including :
- - hardware, 
- - algorithms and software capable of performing on-device sensor data analytics at extremely low power, 
- - typically in the mW range and below, 
- - and hence enabling a variety of always-on use-cases and targeting battery operated devices
-```
+> tiny Machine Learning (tinyML) is a machine learning technologies and applications including hardware, algorithms and software capable of performing `on-device` sensor data analytics at extremely `low power`, typically in the `mW` range and below, and hence enabling a variety of always-on use-cases and targeting battery operated devices.
+
 ## Applications
 
 - **Predictive maintenance** - Recognize machine state, detect machine anomalies and act in milliseconds, on device.
@@ -17,7 +12,8 @@ Tiny machine learning is broadly defined as a fast growing field of machine lear
 - **Signal classification** - Recognize repeatable signal patterns from any sensor
 - **Fall detection** - Fall detection using IMUs or a single accelerometer
 - **Material detection** - Real time material detection using low-power radars
-`Src` : Imagimob AI  
+  
+(Source: [Imagimob AI](https://www.imagimob.com/)) 
 
 ## Tools & Frameworks
 
@@ -89,6 +85,8 @@ ModusToolbox ML :
 **Microchip:**
 
 **NVIDIA:**
+
+- [Robotics and Edge Computing Solutions - "Innovative solutions to take on your robotics, edge, and vision AI challenges"](https://www.nvidia.com/en-us/solutions/robotics-and-edge-computing/)
 
 **Microsoft**
 
