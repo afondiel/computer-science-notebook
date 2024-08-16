@@ -247,7 +247,7 @@ Evaluation:
 |Unseen data|bad|bad|
 |Accuracy|train + val/test: Bad|train: OK , Val/test: NOK|
 |Cause|less data|noisy data|
-|Solution|||
+|Solution|more data can't help| more data can help|
 
 
 Error vs Capacity 
