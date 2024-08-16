@@ -166,37 +166,41 @@ Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. 
 Check the [Neural Networks architecture notes](neural-nets-architecture-notes.mdneura) for more.
 
 
-### Deep Learning Modeling Pipeline
+### High Level Deep Learning Pipeline
 
 ```mermaid
 graph LR;
-    A[Data Collection]-->B[Modeling];
-    B-->C[Prediction];
-    C-->D[Test and Update W-b];    
-    D-->A;
+    A(Data Collection)-->B(Model training);
+    B-->C(Model Evaluation and iteration);
+    C-->D(Deployment)
+    D-->E(Monitoring)    
+    E-->A;
 ```
 
-### Data Collection
 ### Modeling
 
-A "loss function" that measures how good the network's predictions are. (WHAT? the problem)
-An "optimizer" that can tell the network how to change its weights.(HOW? to solve it)
+WHAT? (the problem)
+- A "loss function" that measures how good the network's predictions are.
 
-### Prediction
-### Test & Model Update (Weights and Biases)
+HOW? (to solve it)
+  - An "optimizer" that can tell the network how to change its weights.
 
-### Model configuration / Parameters 
+**Dataset**
 
-- learning rate (lr)
-- epoch  
-- batch size 
+Dataset: 
+- Dataset is split into:
+  - `Training set`:  new dataset (generalization)
+  - `Validation set`: evaluate the performance of the model based on diffrent 
+  - `Test set`: final evaluation
 
-- backpropagation : allows NN figure out patterns that are convoluted(complex) for human to extract
-  - Error/cost function : 
-      - R^2
-  - Optimizer functions : 
-    - hyperparameters tuning ? 
-    - gradient descent ... 
+**training Process**
+- Error/cost function: 
+    - R^2
+
+- Backpropagation: allows NeuralNet figure out patterns that are convoluted(complex) for human to extract
+
+- Optimizer functions: 
+  - gradient descent ... 
  
 - Prediction 
   - activation function:      
@@ -205,47 +209,73 @@ An "optimizer" that can tell the network how to change its weights.(HOW? to solv
     - SoftMAx
     - relu
     - Tanh
-  - error vs accuracy(prediction w/ test data) ? 
-
-### Model Evaluation & fitting Metrics
-
-Evaluation : 
-- condition of good model : test error > train error ? 
-  - `underfitting` : small model high capacity (larger dataset) 
-  - `overfitting` : big model low capacity (smalller dataset)
-    - by tuning the hyperparameters we can configure the the complexity of the model
-      - learning rate
-      - number of layers 
-      - numbers of hidden layers
-      - the depth of NN
+ 
+**Metrics**
+- Error
+  - training
+  - test 
+- Accuracy(prediction w/ test data) 
 
 
-## Tools & frameworks
+**Model Tuning/Configuration**
 
-- TensoFlow (Google)
-- Pytorch (Facebook)
-- Microsoft Cognitive Toolkit (CNTK) 
-- Theano (LISA Lab - Mila institute - University of Montreal)
-- Keras : deeplearning tool running on the top of TF, CNTK and Theano ... 
-- MXNet (Apache)
-- Caffe (Berkeley Artificial Intelligence Research (BAIR))
-- [Fastai](https://www.fast.ai/)
+Hyperparameters: are used to control the behavior of the learning algorithm
+- Learning Rate (LR): the speed the model learning
+- Epoch: when the model is trained on the entire dataset (forward + backpropagation)  
+- Batch size: process of splitting the dataset into small chuncks
+- iteration: number of batch size in entire dataset
 
-## DL Glossary
+We can configure the the capacity (complexity) of the model by tuning its hyperparameters 
+- learning rate
+- number of layers 
+- numbers of hidden layers
+- the depth of NeuralNet
 
-dataset : 
-- training data : dataset
-- training set :  new dataset (generalization)
-- validation set: evaluate the performance of the model based on diffrent hyperparameters :
-- test set : final evaluation
+### Model Evaluation
+<img width="400" height="380" src="./docs/model-train-test.png" >
 
-error vs capacity 
-- capacity : ? 
-  - the deeper the NN the higher the capacity to learn
-- error : ? 
-  - train error : ? 
-  - test error : ? 
-- generalization gap : the gap btw train error and test error 
+Evaluation: 
+
+- Condition of good model: `test error > train error` 
+  - `underfitting` : small model high capacity (larger dataset)  - `overfitting` : big model low capacity (smalller dataset)
+
+||Underfitting | Overfitting|
+|--|--|--|
+|Bias|high|low|
+|Variance ( $\sigma^2$ ) |low|high|
+|Train data|bad|good|
+|Unseen data|bad|bad|
+|Accuracy|train + val/test: Bad|train: OK , Val/test: NOK|
+|Cause|less data|noisy data|
+|Solution|||
+
+
+Error vs Capacity 
+- capacity: the complexity of the model
+  - the deeper the NeuralNet the higher the capacity to learn
+- error: ? 
+  - train error:? 
+  - test error: 
+- Generalization gap: the gap btw train error and test error 
+- Bias
+- Variance
+
+## Model Fine-tuning
+- @TODO
+
+## Tools & Frameworks
+
+| Low-Level Library | High-Level Framework |
+|---|---|
+| [PyTorch (Facebook)](https://pytorch.org/) | [Fastai](https://www.fast.ai/) |
+| [TensorFlow (Google)](https://www.tensorflow.org/) | [Keras](https://keras.io/) |
+| [CNTK (Microsoft Cognitive Toolkit)](https://github.com/microsoft/CNTK) | [Keras](https://keras.io/) |
+| [Jax](https://jax.readthedocs.io/en/latest/quickstart.html) | [Haiku](https://github.com/google-deepmind/dm-haiku) |
+| [MXNet (Apache)](https://mxnet.apache.org/versions/1.9.1/) | [Gluon](https://mxnet.apache.org/versions/1.3.1/gluon/index.html) |
+| [PaddlePaddle](https://www.paddlepaddle.org.cn/en) | [Paddle2.0 ](https://pgl.readthedocs.io/en/latest/)|
+| [Theano (LISA Lab - Mila institute - University of Montreal)](https://github.com/Theano/Theano) | [Lasagne](https://github.com/Lasagne/Lasagne), [Keras](https://keras.io/) |
+| [Chainer](https://chainer.org/) | [ChainerCV](https://github.com/chainer/chainercv) |
+| [Caffe (Berkeley Artificial Intelligence Research (BAIR))](https://caffe.berkeleyvision.org/) | - |
 
 ## Hello World! 
 
@@ -270,39 +300,39 @@ model.summary()
 ```
 
 ## Lab: Zero to Hero Projects
+
 - **Project 1**: Image Classification with Convolutional Neural Networks (CNNs).
 - **Project 2**: Sentiment Analysis using Long Short-Term Memory networks (LSTMs).
 - **Project 3**: Developing a Chatbot with Deep Learning techniques.
 - **Project 4**: Time Series Forecasting with Recurrent Neural Networks (RNNs).
 
 ## References
-- Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
-- LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444.
-- Chollet, F. (2017). Deep Learning with Python. Manning Publications.
-
-
-- Wikipedia : 
-  - https://en.wikipedia.org/wiki/Deep_learning
-  - https://en.wikipedia.org/wiki/Supervised_learning
-  - https://en.wikipedia.org/wiki/Weak_supervision#Semi-supervised_learning
-  - https://en.wikipedia.org/wiki/Unsupervised_learning
-  - https://en.wikipedia.org/wiki/Reinforcement_learning
-  - https://en.wikipedia.org/wiki/Artificial_neural_network
-  - https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
-
+Wikipedia : 
+- [Deep Learning (DL)](https://en.wikipedia.org/wiki/Deep_learning)
+  - [Artificial Neural Network (NeuralNets)](https://en.wikipedia.org/wiki/Artificial_neural_network)
+- [Supervised Learning](https://en.wikipedia.org/wiki/Supervised_learning)
+- [Semi-supervised Learning](https://en.wikipedia.org/wiki/Weak_supervision#Semi-supervised_learning)
+- [Unsupervised Learning](https://en.wikipedia.org/wiki/Unsupervised_learning)
+- [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
   
 Lectures & Tutorials:
 - [Neural Networks: Zero to Hero - karpathy.ai](https://karpathy.ai/zero-to-hero.html) 
 - [Hacker's guide to Neural Networks -  karpathy.ai](https://karpathy.github.io/neuralnets/)
-  - https://www.youtube.com/watch?v=VyWAvY2CF9c
-- Neural Network(3Blue1Brown) :
-  - https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
-- How machine learns : 
-  - https://www.youtube.com/watch?v=IHZwWFHWa-w
+- [Deep Learning Crash Course for Beginners - FreebootCamp](https://www.youtube.com/watch?v=VyWAvY2CF9c)
+- [Neural Network(3Blue1Brown)](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [How machine learns](https://www.youtube.com/watch?v=IHZwWFHWa-w) 
 
-- NVIDIA Deep Learning Institute : 
-  - https://www.nvidia.com/en-us/training/
+- [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/training/)
+- [Learn to use Deep Learning, Computer Vision and Machine Learning techniques to Build an Autonomous Car with Python](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/learn/lecture/11294836#overview)
 
+- IBM
+  - [What is regularization?](https://www.ibm.com/topics/regularization#:~:text=Regularization%20is%20a%20set%20of,overfitting%20in%20machine%20learning%20models)
 
 Forums & Discussions:
 - [Neural Networks: Zero to Hero - YC News](https://news.ycombinator.com/item?id=35459031)
+
+
+Research Paper/Works
+- Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
+- LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444.
+- Chollet, F. (2017). Deep Learning with Python. Manning Publications.
