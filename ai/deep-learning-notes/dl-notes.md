@@ -259,6 +259,10 @@ Error vs Capacity
 - Generalization gap: the gap btw train error and test error 
 - Bias
 - Variance
+- Early Stopping (optimal solution)
+  - it's not bad if the accuracy ok (train + test) => bias + variance: ok
+  - Otherwise [Regularization](https://www.ibm.com/topics/regularization#:~:text=Regularization%20is%20a%20set%20of,overfitting%20in%20machine%20learning%20models) is the way to go!!!
+
 
 ## Model Fine-tuning
 - @TODO
