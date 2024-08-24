@@ -143,11 +143,11 @@ OpenAI :
   - paper : https://arxiv.org/pdf/2203.02155.pdf
 
 Google : 
-
-- [Generative AI Studio on Vertex AI](https://cloud.google.com/generative-ai-studio?hl=en)
-- [Generative-ai-search](https://blog.google/products/search/generative-ai-search/)
-- Introduction to Generative AI Studio : 
-  - https://www.youtube.com/watch?v=G2fqAlgmoPo&list=RDCMUCJS9pqu9BzkAMNTmzNMNhvg&start_radio=1&rv=G2fqAlgmoPo&t=800
+- [Generative AI on Vertex AI Documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/overview)
+- [Generative AI  on Vertex AI Studio](https://cloud.google.com/generative-ai-studio?hl=en)
+- [Generative AI Search Engine](https://blog.google/products/search/generative-ai-search/)
+- [Google's T5](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) 
+- [Microsoft DialoGPT](https://github.com/microsoft/DialoGPT)
 
 NVIDIA : 
 
@@ -158,16 +158,22 @@ NVIDIA :
 - Nvidia Reveals Grace Hopper Generative AI Chip (Computex 2023) : https://www.youtube.com/watch?v=_SloSMr-gFI&t=5s
 
 
-IBM - AI Essentials : 
+IBM - AI Essentials: 
 - https://www.youtube.com/watch?v=9gGnTQTYNaE&list=PLOspHqNVtKADfxkuDuHduUkDExBpEt3DF
 
 Oracle
 - [What Is Generative AI? How Does It Work?](https://www.oracle.com/artificial-intelligence/generative-ai/what-is-generative-ai/)
 
 
-Lectures : 
+Lectures & Online course: 
   - [Lecture 13 | Generative Models - Fei-Fei Li & Justin Johnson & Serena Yeung - 2017](http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture13.pdf)
-
+  - Google:
+    - [Introduction to Generative AI Path](https://www.youtube.com/watch?v=G2fqAlgmoPo&list=PLIivdWyY5sqIlLF9JHbyiqzZbib9pFt4x&index=1)
+    - NEW: https://medium.com/@rajputgajanan50/master-ai-in-2024-with-these-8-free-google-courses-257d9982a3e0
+    - Google ML Education: https://developers.google.com/machine-learning
+    - https://www.cloudskillsboost.google/catalog
+    - https://opportunitiescorners.com/google-artificial-intelligence-course-2023/
+    - [Google AI Essentials - Coursera](https://www.coursera.org/google-learn/ai-essentials?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--organicsearch__cam--gwgsite__con--null__ter--null)
 
 Papers and books: 
 
