@@ -98,15 +98,17 @@ print(response.choices[0].text.strip())
 - **Project 4**: Designing an AI-driven content summarizer.
 
 ## References
-- [OpenAI documentation](https://beta.openai.com/docs/)
-- [Hugging Face Transformers](https://huggingface.co/transformers/) 
-- [Google's T5](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) 
-- [Microsoft DialoGPT](https://github.com/microsoft/DialoGPT)
-- https://www.promptingguide.ai/techniques
+- [Prompt engineering for GPT models - OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Prompt Engineering Guide - Prompt Techniques](https://www.promptingguide.ai/techniques)
+- [Introduction to prompting - Google Cloud](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/introduction-prompt-design)
+- [Prompt Engineering for Generative AI - Google](https://developers.google.com/machine-learning/resources/prompt-eng)
+- [Design multimodal prompts - Google Cloud](https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/design-multimodal-prompts)
+- [Challenges of Migrating Prompts from OpenAI GPT to Google's Gemini Pro Model](https://www.linkedin.com/pulse/challenges-migrating-prompts-from-openai-gpt-googles-gemini-kanap-qpgyf)
+
 
 Free Course: 
-
-- [Course on ChatGPT Prompt Engineering for Developers - by DeepLearningAI](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/2/guidelines)
+- [Course on ChatGPT Prompt Engineering for Developers - DeepLearningAI](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/2/guidelines)
+- [Prompt Engineering for Vision Models - DeepLearningAI](https://github.com/afondiel/Prompt-Engineering-for-Vision-Models-DeepLearningAI)
 
 Awesome ChatGPT Prompts: 
 
