@@ -166,6 +166,7 @@ The summary has the following format:
 ## Fundamentals
 ### {Topic} Architecture Pipeline (image/mermaid diagram, ...)
 ### How {topic} works?
+### Types of {topic}?
 ### Some hands-on examples 
 ## Tools & Frameworks
 ## Hello World!
