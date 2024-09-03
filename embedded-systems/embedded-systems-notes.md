@@ -2,9 +2,8 @@
 
 ## Overview
 
-```
-An embedded system is a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electronic system
-```
+An embedded system is a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electronic system.
+
 
 ## Applications
 
@@ -22,7 +21,7 @@ An embedded system is a computer system—a combination of a computer processor,
   - STM32
   - ...
 
-## Embedded Sw Engineer roadmap 
+## Embedded Sw Engineer Roadmap 
 
 **1. Master C Programming language**
 
@@ -81,10 +80,15 @@ After the C/C++, learn Embedded Software Programming
   - Keep Practicing and Learning 
   - IMPORTANT Soft Skills (good communication ...)
 
+## Hello World! 
+@TODO
 
-# References 
+## References 
 
-Wikipdia : 
-- [Embedded system](https://en.wikipedia.org/wiki/Embedded_system)
+Wikipedia: 
+- [Embedded systems](https://en.wikipedia.org/wiki/Embedded_system)
 
+Lectures & Online Courses:
 - [Become An Embedded SW Engineer - by Greidi Ajalik](https://www.youtube.com/watch?v=HFmGk4oufj8)
+
+> ### "We are embedded in a biological world and related to the organisms around us. ~ Walter Gilbert"
