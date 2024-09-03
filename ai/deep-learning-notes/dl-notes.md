@@ -207,9 +207,13 @@ Dataset:
     - Heaveside
     - Sigmoid       
     - SoftMAx
-    - relu
     - Tanh
- 
+    - relu
+    - GLU
+    - SwiGLU
+
+More: https://deepgram.com/ai-glossary/activation-functions
+
 **Metrics**
 - Error
   - training
