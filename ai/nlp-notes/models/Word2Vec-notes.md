@@ -1,19 +1,20 @@
 # Word2Vec - Notes
 
 ## Table of Contents (ToC)
-- Introduction
-  - What's Word2Vec?
-  - Key Concepts and Terminology
-  - Applications
-- Fundamentals
-  - Word2Vec Architecture Pipeline
-  - How Word2Vec Works
-  - Types of Word2Vec Models
-  - Some Hands-On Examples
-- Tools & Frameworks
-- Hello World!
-- Lab: Zero to Hero Projects
-- References
+  - [Introduction](#introduction)
+    - [What's Word2Vec?](#whats-word2vec)
+    - [Key Concepts and Terminology](#key-concepts-and-terminology)
+    - [Applications](#applications)
+  - [Fundamentals](#fundamentals)
+    - [Word2Vec Architecture Pipeline](#word2vec-architecture-pipeline)
+    - [How Word2Vec Works](#how-word2vec-works)
+    - [Types of Word2Vec Models](#types-of-word2vec-models)
+    - [Some Hands-On Examples](#some-hands-on-examples)
+  - [Tools \& Frameworks](#tools--frameworks)
+  - [Hello World!](#hello-world)
+  - [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
+  - [References](#references)
+
 
 ## Introduction
 Word2Vec is a popular word embedding technique that represents words in a continuous vector space, capturing semantic similarities.
