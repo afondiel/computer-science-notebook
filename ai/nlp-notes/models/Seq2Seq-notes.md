@@ -1,20 +1,20 @@
-
 # Seq2Seq - Notes
 
 ## Table of Contents (ToC)
-- Introduction
-  - What's Seq2Seq?
-  - Key Concepts and Terminology
-  - Applications
-- Fundamentals
-  - Seq2Seq Architecture Pipeline
-  - How Seq2Seq Works
-  - Types of Seq2Seq Models
-  - Some Hands-On Examples
-- Tools & Frameworks
-- Hello World!
-- Lab: Zero to Hero Projects
-- References
+  - [Introduction](#introduction)
+    - [What's Seq2Seq?](#whats-seq2seq)
+    - [Key Concepts and Terminology](#key-concepts-and-terminology)
+    - [Applications](#applications)
+  - [Fundamentals](#fundamentals)
+    - [Seq2Seq Architecture Pipeline](#seq2seq-architecture-pipeline)
+    - [How Seq2Seq Works](#how-seq2seq-works)
+    - [Types of Seq2Seq Models](#types-of-seq2seq-models)
+    - [Some Hands-On Examples](#some-hands-on-examples)
+  - [Tools \& Frameworks](#tools--frameworks)
+  - [Hello World!](#hello-world)
+  - [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
+  - [References](#references)
+
 
 ## Introduction
 Seq2Seq (Sequence-to-Sequence) is a deep learning model architecture designed to map input sequences to output sequences.
