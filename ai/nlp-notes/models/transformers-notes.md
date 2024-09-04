@@ -96,8 +96,13 @@ Output:
 - **Custom Sentiment Analysis**: Fine-tune BERT on your own sentiment dataset.
 
 ## References
+
+Documentation: 
+- [HuggingFace Transformers Framework](https://huggingface.co/docs/transformers/index)
+
+Papers:
 - [Vaswani, A., et al. (2017). "Attention Is All You Need."](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
-- Devlin, J., et al. (2018). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding."
-- Radford, A., et al. (2019). "Language Models are Unsupervised Multitask Learners."
+- [Devlin, J., et al. (2018). "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding."](https://arxiv.org/pdf/1810.04805)
+- [Radford, A., et al. (2019). "Language Models are Unsupervised Multitask Learners."](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 - [Dosovitskiy, A., et al. (2020). "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale."](https://arxiv.org/pdf/2010.11929)
 
