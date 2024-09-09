@@ -1,6 +1,6 @@
 # :robot: Robotics Notes :robot:
 
-## Agenda
+## Table of Contents (ToC)
 - [What's Robotics?](#whats-robotics)
 - [What does Robots do?](#what-does-robots-do)
 - [Types of Robots](#types-of-robots)
@@ -16,7 +16,7 @@
 
 Interdisciplinary branch of engineering and computer science. Robotics involves design, construction, operation, and use of robots.
 
-## What does Robots do?
+## What Robots do?
 
 - Work in extreme environments too dangerous for people : 
 	- war or nuclear zones
@@ -39,6 +39,7 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 	..
 
 ## Types of Robots
+
 - Mobile : 
   - AMRs  
   - AGVs
@@ -59,6 +60,7 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
   - ...
   
 ## Applications
+
 - Herding tasks
 - Military robots
 - cleaning toxic or industrial wastes
@@ -73,17 +75,23 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 ![](https://cs.brown.edu/people/tdean/courses/cs148/02/images/paradigms.gif)
 
 Src: [Brown University Cs lectures](https://cs.brown.edu/people/tdean/courses/cs148/02/architectures.html)
-## Robotics Companies
+
+## Robotics Companies leading the Wave
+
 - [Boston Dynamics](https://www.bostondynamics.com/)
 - [Tesla](tesla.com/AI)
 - ...
 
 
-## Tools/frameworks
+## Tools & Frameworks
 
+- OpenCV
 - [ROS](https://www.ros.org/)
 - [Webots by Cyberbotics](https://cyberbotics.com/)
-- [awesome-robotframework - Great Resources!](https://github.com/fkromer/awesome-robotframework)
+- [awesome-robotframework - Great Resources!](https://github.com/fkromer/awesome-robotframework) 
+- Eigen 
+- Orocos 
+
 
 ## Robot Datasets
 
@@ -98,6 +106,7 @@ Src: [Brown University Cs lectures](https://cs.brown.edu/people/tdean/courses/cs
 Src: 
 - [10 Open-Source Datasets To Learn Robotics](https://analyticsindiamag.com/10-open-source-datasets-to-learn-robotics/)
 - [Paper with code - BAIR Robot Pushing - 220 dataset](https://paperswithcode.com/datasets?q=BAIR%20Robot%20Pushing)
+
 ## Robotics Conferences
 
 - [2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)](https://www.ieee-ras.org/conferences-workshops/technical-committees/robot-human-interactive-communication/ro-man)
@@ -140,7 +149,6 @@ Src:
 - [2025 IEEE International Conference on Robotics and Automation (ICRA)](https://www.icra2025.org/)
 
 
-
 ## References 
 
 Wikipedia :  
@@ -167,7 +175,7 @@ NVIDIA :
   - [How AI image generators could help robots](https://news.mit.edu/2022/how-ai-image-generators-could-help-robots-yilun-du-1027)
   - [An easier way to teach robots new skills](https://news.mit.edu/2022/teach-pick-robots-new-task-0425)
 
->**"Three Laws of Robotics" by the Great Isaac Asimov**
+>**"The 3 of Robotics" by the Great Isaac Asimov**
 >1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.
 >2. A robot must obey orders given it by human beings except where such orders would conflict with the First Law.
 >3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
