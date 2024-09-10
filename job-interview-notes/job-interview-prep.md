@@ -64,6 +64,10 @@ Pre-Interview Research:
 - [NeetCode : A better way to prepare for coding interviews](https://neetcode.io/)
 - [Leetcode 75 Questions (NeetCode on yt) - spreadsheet](https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0)
 
+Prep with AI: 
+- [Land a Job using ChatGPT: The Definitive Guide! - Jeff Su](https://www.youtube.com/watch?v=pmnY5V16GSE)
+- [Top 5 ChatGPT Prompts for Job Seekers! - Jeff Su ](https://youtu.be/2uN8PTXMY5c?si=pxUKUy_mrxEDUSrA)
+
 Data interview pro :
 - https://www.youtube.com/watch?v=yhjK6fC68eU
 
