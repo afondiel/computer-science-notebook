@@ -105,23 +105,19 @@ Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. 
 
 ## Biological Neuron Vs Artificial Neuron  
 
-    (neuron)               (perceptron)
-    --------------------+--------------------+
-    | electrical signals|   data samples     |
-    --------------------+---------------------
-    |   synapse(node)   | input node(x, w, b)|
-    --------------------+---------------------
-    |     dendrite      |      summation     |
-    |-------------------+---------------------
-    |  cell-body(soma)  |      activation    |
-    --------------------+---------------------
-    |       axon        |    output node     |
-    --------------------+--------------------+
+
+| Neuron | Perceptron|
+|--|--|
+| electrical signals|   data samples     |
+|   synapse(node)   | input node(x, w, b)|
+|     dendrite      |      summation     |
+|  cell-body(soma)  |      activation    |
+|       axon        |    output node     |
 
 *New connexion : axon + synapse => next dendrite 
 ## The perceptron (A Linear Unit)
 
-- The perceptron: first model invented by Mc Culloch-Pitts 
+- `The perceptron`: first model invented by Mc Culloch-Pitts 
   - `1 input layer`
     - input nodes : `x1*w1 + x2*w2 ...+ b`
       - where : 
@@ -133,7 +129,7 @@ Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. 
         - activation function (step : 0/1) 
   - `1 output layer` 
 
-- The multilayer perceptron forms fully connected NN 
+- The multilayer perceptron forms fully connected Neural Net
     - 1 input layer 
     - multiple hidden layers
     - Neuron 
@@ -269,7 +265,8 @@ Error vs Capacity
 
 
 ## Model Fine-tuning
-- @TODO
+
+- Check the Fine-tuning section of [Neural Nets Hacker Notes](./neural-nets/neural-nets-hacker-notes.md).
 
 ## Tools & Frameworks
 
