@@ -33,7 +33,7 @@ Interdisciplinary branch of engineering and computer science. Robotics involves 
 - Read and learn
 	- Marge (university of Oxiford)
 	- ELIZA
-- Medecine : 
+- Healthcare : 
 	- human desibility assitance (help users with limited arms/legs do)
 	- ASIMOV
 	..
@@ -88,10 +88,11 @@ Src: [Brown University Cs lectures](https://cs.brown.edu/people/tdean/courses/cs
 - OpenCV
 - [ROS](https://www.ros.org/)
 - [Webots by Cyberbotics](https://cyberbotics.com/)
-- [awesome-robotframework - Great Resources!](https://github.com/fkromer/awesome-robotframework) 
 - Eigen 
-- Orocos 
-
+- Orocos
+- [pybullet - Bullet Real-Time Physics Simulation](https://pybullet.org/wordpress/) 
+- [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents)
+- [awesome-robotframework - Great Resources!](https://github.com/fkromer/awesome-robotframework) 
 
 ## Robot Datasets
 
