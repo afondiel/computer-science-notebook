@@ -8,7 +8,7 @@
 
 ## Overview
 
-This is a compilation of notes and resources covering essential computer science concepts needed by software Engineers/developers of all experience levels.
+Essential computer science resources and notes for software engineers and developers, from zero to hero.
 
 ## Motivation
 
@@ -30,7 +30,6 @@ I thought it'd be helpful to create a sort of [Whole Computer Science Catalog](h
 - **Wide-Ranging Resources**: From algorithms to data structures, design patterns to coding best practices, the notebook covers it all.
 - **Interactive Learning**: Discover engaging code examples, real-world applications, and interactive challenges to solidify your understanding.
 - **Community-Driven**: The notebook is maintained by a vibrant community of developers like yourself, all working together to shape the future to make CS resources accessible to all.
-
 
 ## Topics
 
@@ -67,6 +66,7 @@ Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help thi
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
 --
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=afondiel/computer-science-notes&type=Date)](https://star-history.com/#afondiel/computer-science-notes&Date)
