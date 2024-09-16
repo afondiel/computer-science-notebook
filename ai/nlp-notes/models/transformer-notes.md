@@ -1,14 +1,15 @@
-# Transformers Model - Notes
+# Transformer Models - Notes
 
 ## Table of Contents (ToC)
+
   - [Introduction](#introduction)
-    - [What's the Transformers Model?](#whats-the-transformers-model)
+    - [What's the Transformer Model?](#whats-the-transformer-model)
     - [Key Concepts and Terminology](#key-concepts-and-terminology)
     - [Applications](#applications)
   - [Fundamentals](#fundamentals)
-    - [Transformers Architecture Pipeline](#transformers-architecture-pipeline)
-    - [How the Transformers Model Works](#how-the-transformers-model-works)
-    - [Types of Transformers Models](#types-of-transformers-models)
+    - [Transformer Architecture Pipeline](#transformer-architecture-pipeline)
+    - [How the Transformer Models Work](#how-the-transformer-models-work)
+    - [Types of Transformer Models](#types-of-transformer-models)
     - [Some Hands-On Examples](#some-hands-on-examples)
   - [Tools \& Frameworks](#tools--frameworks)
   - [Hello World!](#hello-world)
@@ -17,16 +18,16 @@
 
 
 ## Introduction
-The `Transformers model` is a deep learning architecture that has revolutionized [natural language processing (NLP)](https://github.com/afondiel/computer-science-notes/blob/master/ai/nlp-notes/nlp-notes.md) and other AI fields.
+The `Transformer model` is a deep learning architecture that has revolutionized [natural language processing (NLP)](https://github.com/afondiel/computer-science-notes/blob/master/ai/nlp-notes/nlp-notes.md) and other AI fields.
 
-### What's the Transformers Model?
+### What's the Transformer Model?
 - Introduced in the paper ["Attention is All You Need" (2017)](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf).
 - Utilizes a self-attention mechanism to weigh the importance of different input tokens.
 - Designed to handle sequential data but can process all input simultaneously.
 
 ### Key Concepts and Terminology
 - **Attention Mechanism**: Focuses on relevant parts of the input data.
-- **Encoder-Decoder Architecture**: Standard setup for many transformers, used for tasks like translation.
+- **Encoder-Decoder Architecture**: Standard setup for many transformer, used for tasks like translation.
 - **Self-Attention**: Enables the model to weigh the importance of each part of the input relative to every other part.
 - **Positional Encoding**: Adds information about the position of tokens in the sequence.
 
@@ -37,7 +38,7 @@ The `Transformers model` is a deep learning architecture that has revolutionized
 - **Generative Models**: Used in models like GPT for text generation.
 
 ## Fundamentals
-### Transformers Architecture Pipeline
+### Transformer Architecture Pipeline
 
 <img width="680" height="400" src="../docs/transformer-architecture.png">
 
@@ -47,7 +48,7 @@ The `Transformers model` is a deep learning architecture that has revolutionized
 - **Feed-Forward Network**: Applies dense layers with activation functions.
 - **Output**: Transformed data used for various tasks like classification or generation.
 
-### How the Transformers Model Works
+### How the Transformer Models Work
 
 <img width="520" height="280" src="../docs/attention-mechanisms.png">
 
@@ -56,8 +57,8 @@ The `Transformers model` is a deep learning architecture that has revolutionized
 - **Stacking Layers**: Multiple layers of self-attention and feed-forward networks.
 - **Output Generation**: Final output depends on the specific task (e.g., translation, classification).
 
-### Types of Transformers Models
-- **BERT (Bidirectional Encoder Representations from Transformers)**: Pre-trained model for NLP tasks.
+### Types of Transformer Models
+- **BERT (Bidirectional Encoder Representations from Transformer)**: Pre-trained model for NLP tasks.
 - **GPT (Generative Pre-trained Transformer)**: Focused on text generation.
 - **T5 (Text-To-Text Transfer Transformer)**: Converts all NLP tasks into a text-to-text format.
 - **Vision Transformers (ViT)**: Adaptation for image classification.
@@ -69,8 +70,8 @@ The `Transformers model` is a deep learning architecture that has revolutionized
 
 ## Tools & Frameworks
 - **Hugging Face Transformers**: Popular library for using pre-trained transformer models.
-- **TensorFlow & PyTorch**: Frameworks supporting the implementation of transformers.
-- **Transformers-Interpret**: Library for model interpretability in transformers.
+- **TensorFlow & PyTorch**: Frameworks supporting the implementation of transformer.
+- [**Transformers-Interpret**: Library for model interpretability in transformer.](https://github.com/cdpierse/transformers-interpret)
 - **AllenNLP**: Toolkit for building and evaluating transformer models.
 
 ## Hello World!
@@ -81,7 +82,7 @@ from transformers import pipeline
 classifier = pipeline("sentiment-analysis")
 
 # Example usage
-result = classifier("Transformers models are amazing!")
+result = classifier("Transformer models are amazing!")
 print(result)
 ```
 Output: 
