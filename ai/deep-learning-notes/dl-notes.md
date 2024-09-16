@@ -14,7 +14,7 @@
       - [Biological Neuron vs Artificial Neuron](#biological-neuron-vs-artificial-neuron)
     - [The perceptron (A Linear Unit)](#the-perceptron-a-linear-unit)
     - [Deep Neural Nets](#deep-neural-nets)
-    - [Deep learning algorithms/model](#deep-learning-algorithmsmodel)
+    - [Popular Deep Learning Models \& Algorithms](#popular-deep-learning-models--algorithms)
     - [Model Evaluation](#model-evaluation)
     - [DL Model Fine-tuning](#dl-model-fine-tuning)
   - [Tools \& Frameworks](#tools--frameworks)
@@ -151,8 +151,8 @@ Where: `x`: input signals, `b`: bias, `w`: weights
   - BERTs
   - GPTs
   - T5 ...
-- Convolution Neural Network (CNN)
-- Long Short Term Memory Networks (LSTMs)
+- Convolution Neural Network (CNN): vision tasks
+- Long Short Term Memory Networks (LSTMs): audio/speech tasks 
 - Recurrent Neural Networks (RNNs)
 - Generative Adversarial Networks (GANs)
 - Radial Basis Function Networks (RBFNs)
@@ -370,6 +370,17 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 
 # Train the model
 model.fit(x_train, y_train, epochs=1, batch_size=64, verbose=1)
+
+# Prediction function
+def predict(model, x_test, y_test):
+    predictions = model.predict(x_test[:10])  # Get predictions for the first 10 samples
+    for i, pred in enumerate(predictions):
+        predicted_label = np.argmax(pred)
+        true_label = np.argmax(y_test[i])
+        print(f'Predicted: {predicted_label}, True Label: {true_label}')
+
+# Make predictions on test data
+predict(model, x_test, y_test)
 ```
 
 ### Explanation:
@@ -378,6 +389,9 @@ model.fit(x_train, y_train, epochs=1, batch_size=64, verbose=1)
   - The second layer has 10 neurons (for 10 classes in MNIST) and uses softmax activation.
 - **Dataset**: The MNIST dataset is used in both cases.
 - **Training**: Both codes train the network for one epoch. You can easily extend it for more epochs.
+- **Prediction**: After training, `model.predict()` is used to predict classes for a subset of test images (first 10). The predicted class is obtained with `np.argmax()`, which returns the index of the highest softmax probability.
+
+> Explaination in Depth: [But what is a neural network? | Chapter 1, Deep learning - 3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&t=0s)  
 
 ## Lab: Zero to Hero Projects
 
