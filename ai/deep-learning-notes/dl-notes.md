@@ -141,16 +141,16 @@ Where: `x`: input signals, `b`: bias, `w`: weights
      
 
 
-### Deep learning algorithms/model
+### Popular Deep Learning Models & Algorithms
 
 - Perceptron = biological neuron 
 - Deep Neural Network 
 - MNIST Image Recognition 
 - Recurrent Neural Network (RNN) 
-- Transformers Family 
+- [Transformers Family](../nlp-notes/models/transformer-notes.md) 
   - BERTs
   - GPTs
-  - T5 
+  - T5 ...
 - Convolution Neural Network (CNN)
 - Long Short Term Memory Networks (LSTMs)
 - Recurrent Neural Networks (RNNs)
@@ -161,7 +161,7 @@ Where: `x`: input signals, `b`: bias, `w`: weights
 - Deep Belief Networks (DBNs)
 - Restricted Boltzmann Machines(RBMs)
 
-For full list, please checkout the [Neural Networks architecture notes](neural-nets-architecture-notes.mdneura) for more.
+For full list and description, please checkout the [Neural Networks architecture notes](./neural-nets/neural-nets-architecture-notes.md).
 
 
 **Problem Definition**
