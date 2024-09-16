@@ -1,7 +1,6 @@
 # Deep Learning (DL) -  Notes
 
 ## Table of Contents
-
   - [Overview](#overview)
   - [Introduction](#introduction)
     - [What's Deep Learning?](#whats-deep-learning)
@@ -11,21 +10,14 @@
     - [Deep Learning Architecture Pipeline](#deep-learning-architecture-pipeline)
     - [How Deep Learning works?](#how-deep-learning-works)
     - [Some hands-on examples](#some-hands-on-examples)
-  - [What's Artificial Neural Networks (Neural Nets)?](#whats-artificial-neural-networks-neural-nets)
-  - [Biological Neuron Vs Artificial Neuron](#biological-neuron-vs-artificial-neuron)
-  - [Applications](#applications-1)
-  - [The perceptron (A Linear Unit)](#the-perceptron-a-linear-unit)
-  - [Deep Neural Nets](#deep-neural-nets)
+    - [What's Artificial Neural Networks (Neural Nets)?](#whats-artificial-neural-networks-neural-nets)
+      - [Biological Neuron vs Artificial Neuron](#biological-neuron-vs-artificial-neuron)
+    - [The perceptron (A Linear Unit)](#the-perceptron-a-linear-unit)
+    - [Deep Neural Nets](#deep-neural-nets)
     - [Deep learning algorithms/model](#deep-learning-algorithmsmodel)
-    - [Deep Learning Modeling Pipeline](#deep-learning-modeling-pipeline)
-    - [Data Collection](#data-collection)
-    - [Modeling](#modeling)
-    - [Prediction](#prediction)
-    - [Test \& Model Update (Weights and Biases)](#test--model-update-weights-and-biases)
-    - [Model configuration / Parameters](#model-configuration--parameters)
-    - [Model Evaluation \& fitting Metrics](#model-evaluation--fitting-metrics)
-  - [Tools \& frameworks](#tools--frameworks)
-  - [DL Glossary](#dl-glossary)
+    - [Model Evaluation](#model-evaluation)
+    - [DL Model Fine-tuning](#dl-model-fine-tuning)
+  - [Tools \& Frameworks](#tools--frameworks)
   - [Hello World!](#hello-world)
   - [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
   - [References](#references)
@@ -56,12 +48,12 @@ Deep learning is a subset of machine learning that utilizes neural networks with
 - Healthcare diagnostics.
 - Computer vision 
 - Object detection 
-- nlp 
+- NLP 
 - Virtual assistant 
 - Face recognition 
 - Chatbots
 - Sound addition to silent films
-- colorization of black and white images ...
+- Colorization of black and white images ...
  ...
 - eveywhere since data is everywhere in modern world and taking part of daily life ...
 
@@ -69,6 +61,15 @@ Deep learning is a subset of machine learning that utilizes neural networks with
 ## Fundamentals
 
 ### Deep Learning Architecture Pipeline
+
+```mermaid
+graph LR;
+    A(Data Collection)-->B(Model training);
+    B-->C(Model Evaluation and iteration);
+    C-->D(Deployment)
+    D-->E(Monitoring)    
+    E-->A;
+```
 - Data Collection
 - Data Preprocessing
 - Model Building
@@ -88,8 +89,7 @@ Deep learning is a subset of machine learning that utilizes neural networks with
 - Implementing a speech recognition model.
 - Developing a text classification system using recurrent neural networks (RNNs).
 
-
-## What's Artificial Neural Networks (Neural Nets)?
+### What's Artificial Neural Networks (Neural Nets)?
 
 Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. Neural Nets are composed of artificial neurons inspired biological neuron. 
   
@@ -102,8 +102,7 @@ Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. 
     style A fill:#fff,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5;
 ```
 
-
-## Biological Neuron Vs Artificial Neuron  
+#### Biological Neuron vs Artificial Neuron  
 
 
 | Neuron | Perceptron|
@@ -115,30 +114,29 @@ Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. 
 |       axon        |    output node     |
 
 *New connexion : axon + synapse => next dendrite 
-## The perceptron (A Linear Unit)
 
-- `The perceptron`: first model invented by Mc Culloch-Pitts 
-  - `1 input layer`
-    - input nodes : `x1*w1 + x2*w2 ...+ b`
-      - where : 
-        - x : input signals
-        - b : bias 
-        - w : weights
-    - Neuron 
-        - Summation function
-        - activation function (step : 0/1) 
-  - `1 output layer` 
 
-- The multilayer perceptron forms fully connected Neural Net
+### The perceptron (A Linear Unit)
+
+- **The perceptron:** first model invented by Mc Culloch-Pitts 
+  - 1 input layer: x1, x2, ... ,xn
+  - Neuron: `x1*w1 + x2*w2 ... + b` 
+    - Summation function
+    - Activation function (step: 0/1) 
+  - 1 output layer 
+
+Where: `x`: input signals, `b`: bias, `w`: weights
+
+### Deep Neural Nets
+
+- The **Multilayer Perceptron (MLP)** forms fully connected Neural Nets
     - 1 input layer 
-    - multiple hidden layers
+    - Multiple hidden layers
     - Neuron 
         - Summation function
-        - activation functions (step, tanh, sigmoid, RELU...)
-
+        - Activation functions (step, tanh, sigmoid, RELU...)
     - 1 output layer
      
-## Deep Neural Nets
 
 
 ### Deep learning algorithms/model
@@ -147,8 +145,10 @@ Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. 
 - Deep Neural Network 
 - MNIST Image Recognition 
 - Recurrent Neural Network (RNN) 
-- Transformer 
-- BERT 
+- Transformers Family 
+  - BERTs
+  - GPTs
+  - T5 
 - Convolution Neural Network (CNN)
 - Long Short Term Memory Networks (LSTMs)
 - Recurrent Neural Networks (RNNs)
@@ -159,21 +159,10 @@ Neural Nets (NN) are a stack of algorithms that simulates the way humans learn. 
 - Deep Belief Networks (DBNs)
 - Restricted Boltzmann Machines(RBMs)
 
-Check the [Neural Networks architecture notes](neural-nets-architecture-notes.mdneura) for more.
+For full list, please checkout the [Neural Networks architecture notes](neural-nets-architecture-notes.mdneura) for more.
 
 
-### High Level Deep Learning Pipeline
-
-```mermaid
-graph LR;
-    A(Data Collection)-->B(Model training);
-    B-->C(Model Evaluation and iteration);
-    C-->D(Deployment)
-    D-->E(Monitoring)    
-    E-->A;
-```
-
-### Modeling
+**Problem Definition**
 
 WHAT? (the problem)
 - A "loss function" that measures how good the network's predictions are.
@@ -181,7 +170,7 @@ WHAT? (the problem)
 HOW? (to solve it)
   - An "optimizer" that can tell the network how to change its weights.
 
-**Dataset**
+**Data collection**
 
 Dataset: 
 - Dataset is split into:
@@ -189,7 +178,7 @@ Dataset:
   - `Validation set`: evaluate the performance of the model based on diffrent 
   - `Test set`: final evaluation
 
-**training Process**
+**Training Process**
 - Error/cost function: 
     - R^2
 
@@ -199,7 +188,7 @@ Dataset:
   - gradient descent ... 
  
 - Prediction 
-  - activation function:      
+  - Activation function:      
     - Heaveside
     - Sigmoid       
     - SoftMAx
@@ -209,12 +198,6 @@ Dataset:
     - SwiGLU
 
 More: https://deepgram.com/ai-glossary/activation-functions
-
-**Metrics**
-- Error
-  - training
-  - test 
-- Accuracy(prediction w/ test data) 
 
 
 **Model Tuning/Configuration**
@@ -232,12 +215,14 @@ We can configure the the capacity (complexity) of the model by tuning its hyperp
 - the depth of NeuralNet
 
 ### Model Evaluation
+
+**Evaluation:** 
+
+Condition of good model: `test error > train error` 
+- `underfitting`: simple model or low capacity with larger dataset leading to poor performance
+- `overfitting`: complex model or high capacity with smaller dataset leading to poor generalization
+
 <img width="400" height="380" src="./docs/model-train-test.png" >
-
-Evaluation: 
-
-- Condition of good model: `test error > train error` 
-  - `underfitting` : small model high capacity (larger dataset)  - `overfitting` : big model low capacity (smalller dataset)
 
 ||Underfitting | Overfitting|
 |--|--|--|
@@ -249,8 +234,7 @@ Evaluation:
 |Cause|less data|noisy data|
 |Solution|more data can't help| more data can help|
 
-
-Error vs Capacity 
+**Error vs Capacity** 
 - capacity: the complexity of the model
   - the deeper the NeuralNet the higher the capacity to learn
 - error: ? 
@@ -263,8 +247,34 @@ Error vs Capacity
   - it's not bad if the accuracy ok (train + test) => bias + variance: ok
   - Otherwise [Regularization](https://www.ibm.com/topics/regularization#:~:text=Regularization%20is%20a%20set%20of,overfitting%20in%20machine%20learning%20models) is the way to go!!!
 
+**Error vs Accuracy**
+- Error
+  - training
+  - test 
+- Prediction: 
+  - y_pred = model.pred(X_train or X_test) 
+- Accuracy:
+  - Sum(Corrected pred)/all_predition
 
-## Model Fine-tuning
+```Python
+import numpy as np
+
+# Assuming you have a trained model, training data (X_train, y_train), and test data (X_test, y_test)
+
+# Prediction on the training set
+y_pred_train = model.predict(X_train)
+
+# Prediction on the test set
+y_pred_test = model.predict(X_test)
+
+# Accuracy on the training set
+accuracy_train = np.mean(y_pred_train == y_train)
+
+# Accuracy on the test set
+accuracy_test = np.mean(y_pred_test == y_test)
+```
+
+### DL Model Fine-tuning
 
 - Check the Fine-tuning section of [Neural Nets Hacker Notes](./neural-nets/neural-nets-hacker-notes.md).
 
@@ -312,22 +322,26 @@ model.summary()
 - **Project 4**: Time Series Forecasting with Recurrent Neural Networks (RNNs).
 
 ## References
-Wikipedia : 
-- [Deep Learning (DL)](https://en.wikipedia.org/wiki/Deep_learning)
-  - [Artificial Neural Network (NeuralNets)](https://en.wikipedia.org/wiki/Artificial_neural_network)
+
+- [Deep Learning (DL) - Wikipedia](https://en.wikipedia.org/wiki/Deep_learning)
+- [Artificial Neural Network (NeuralNets) - Wikipedia](https://en.wikipedia.org/wiki/Artificial_neural_network)
+
+Types of Machine Learning:
 - [Supervised Learning](https://en.wikipedia.org/wiki/Supervised_learning)
 - [Semi-supervised Learning](https://en.wikipedia.org/wiki/Weak_supervision#Semi-supervised_learning)
 - [Unsupervised Learning](https://en.wikipedia.org/wiki/Unsupervised_learning)
 - [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
   
 Lectures & Tutorials:
-- [Neural Networks: Zero to Hero - karpathy.ai](https://karpathy.ai/zero-to-hero.html) 
-- [Hacker's guide to Neural Networks -  karpathy.ai](https://karpathy.github.io/neuralnets/)
-- [Deep Learning Crash Course for Beginners - FreebootCamp](https://www.youtube.com/watch?v=VyWAvY2CF9c)
-- [Neural Network(3Blue1Brown)](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [How machine learns](https://www.youtube.com/watch?v=IHZwWFHWa-w) 
-
-- [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/training/)
+- **[Neural Network Playlist - 3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)**
+- **[Deep Learning School - Sept 24/25 2016, Lex Frimad](https://www.youtube.com/watch?v=zij_FTbJHsk&t=0s)**
+- karpathy.ai: 
+  - [Neural Networks: Zero to Hero - karpathy.ai](https://karpathy.ai/zero-to-hero.html) 
+  - [Hacker's guide to Neural Networks -  karpathy.ai](https://karpathy.github.io/neuralnets/)
+- FreebootCamp:  
+  - [Deep Learning Crash Course for Beginners - FreebootCamp](https://www.youtube.com/watch?v=VyWAvY2CF9c)
+- NVIDIA:
+  - [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/training/)
 - [Learn to use Deep Learning, Computer Vision and Machine Learning techniques to Build an Autonomous Car with Python](https://www.udemy.com/course/applied-deep-learningtm-the-complete-self-driving-car-course/learn/lecture/11294836#overview)
 
 - IBM
