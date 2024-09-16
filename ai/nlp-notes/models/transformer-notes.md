@@ -98,6 +98,8 @@ Output:
 
 ## References
 
+[The Transformer model family - HF](https://huggingface.co/docs/transformers/model_summary)
+
 Documentation: 
 - [HuggingFace Transformers Framework](https://huggingface.co/docs/transformers/index)
 
