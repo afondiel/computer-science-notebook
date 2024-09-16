@@ -19,9 +19,11 @@
     - [DL Model Fine-tuning](#dl-model-fine-tuning)
   - [Tools \& Frameworks](#tools--frameworks)
   - [Hello World!](#hello-world)
+    - [PyTorch Version:](#pytorch-version)
+    - [TensorFlow Version:](#tensorflow-version)
+    - [Explanation:](#explanation)
   - [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
   - [References](#references)
-
 
 ## Overview
 
@@ -294,25 +296,88 @@ accuracy_test = np.mean(y_pred_test == y_test)
 
 ## Hello World! 
 
+A simple "Hello World" deep learning program that trains a basic neural network on the classic MNIST dataset of handwritten digits.
+
+### PyTorch Version:
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torchvision import datasets, transforms
+
+# Define the network architecture
+class SimpleNN(nn.Module):
+    def __init__(self):
+        super(SimpleNN, self).__init__()
+        self.fc1 = nn.Linear(28 * 28, 128)
+        self.fc2 = nn.Linear(128, 10)
+
+    def forward(self, x):
+        x = x.view(-1, 28 * 28)  # Flatten the image
+        x = torch.relu(self.fc1(x))
+        x = self.fc2(x)
+        return x
+
+# Training function
+def train(model, device, train_loader, optimizer, criterion, epoch):
+    model.train()
+    for batch_idx, (data, target) in enumerate(train_loader):
+        data, target = data.to(device), target.to(device)
+        optimizer.zero_grad()
+        output = model(data)
+        loss = criterion(output, target)
+        loss.backward()
+        optimizer.step()
+        if batch_idx % 100 == 0:
+            print(f'Train Epoch: {epoch} [{batch_idx * len(data)}/{len(train_loader.dataset)}]\tLoss: {loss.item():.6f}')
+
+# Set up training
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+train_loader = torch.utils.data.DataLoader(datasets.MNIST('./data', train=True, download=True,
+                                                          transform=transforms.ToTensor()), 
+                                           batch_size=64, shuffle=True)
+
+model = SimpleNN().to(device)
+optimizer = optim.Adam(model.parameters(), lr=0.001)
+criterion = nn.CrossEntropyLoss()
+
+# Train for one epoch
+for epoch in range(1, 2):
+    train(model, device, train_loader, optimizer, criterion, epoch)
+```
+
+### TensorFlow Version:
+
 ```python
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+from tensorflow.keras import layers, models
+from tensorflow.keras.datasets import mnist
 
-# Build a simple neural network
-model = Sequential([
-    Dense(32, activation='relu', input_shape=(784,)),
-    Dense(10, activation='softmax')
+# Load and preprocess data
+(x_train, y_train), (_, _) = mnist.load_data()
+x_train = x_train.reshape(-1, 28 * 28).astype('float32') / 255
+y_train = tf.keras.utils.to_categorical(y_train, 10)
+
+# Define the network architecture
+model = models.Sequential([
+    layers.Dense(128, activation='relu', input_shape=(28 * 28,)),
+    layers.Dense(10, activation='softmax')
 ])
 
 # Compile the model
-model.compile(optimizer='adam', 
-              loss='sparse_categorical_crossentropy', 
-              metrics=['accuracy'])
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-# Summary of the model
-model.summary()
+# Train the model
+model.fit(x_train, y_train, epochs=1, batch_size=64, verbose=1)
 ```
+
+### Explanation:
+- **Model**: Both versions create a simple neural network with two fully connected layers.
+  - The first layer has 128 neurons and uses ReLU activation.
+  - The second layer has 10 neurons (for 10 classes in MNIST) and uses softmax activation.
+- **Dataset**: The MNIST dataset is used in both cases.
+- **Training**: Both codes train the network for one epoch. You can easily extend it for more epochs.
 
 ## Lab: Zero to Hero Projects
 
