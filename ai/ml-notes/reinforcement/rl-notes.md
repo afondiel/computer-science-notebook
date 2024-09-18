@@ -31,11 +31,11 @@ A machine learning approach/paradigm which enables a model to learning patterns 
 - Self-driving cars 
 - Strategy games : chess/Go/FrozenLake/Atari ...
 
-## Tools / frameworks 
+## Tools & Frameworks 
 - OpenAI Gym
+- DeepMind Lab
 - TensorFlow
 - Keras
-- DeepMind Lab
 - Pytorch
 - Markov Chain/Markov Decision Process (MDP)
 
@@ -118,12 +118,12 @@ Convolution Neural Network(CNN) - DQN solves curse dimensionality but not the un
 ## Implementation
 
 List of a NON-exaustive RL algorithms : 
-- [Notes](https://github.com/afondiel/research-notes/commit/ae02f5c76a268f708615755ca7fa9a2555f80868)
+- [Notes](https://github.com/afondiel/computer-science-notes/commit/ae02f5c76a268f708615755ca7fa9a2555f80868)
 - [Implementations](#)
   - [RL application for self-driving cars](https://github.com/afondiel/my-lab/tree/master/automotive/self-driving-cars/project/self-driving-car-rl-a-z)
 ## References 
 - [DeepMind - course by Hado Van Hasselt - 2018](https://www.youtube.com/watch?v=ISk80iLhdfU&list=RDCMUCP7jMXSY2xbc3KCAE0MHQ-A)
-- [Deep Learning Essentials - Wei Di, Anurag Bhardwaj, Jianing Wei](https://github.com/afondiel/research-notes/blob/d81a21daac22c624722bba1557d56cc328f79814/books/ai/Deep%20Learning%20Essentials%20-%20Wei%20Di,%20Anurag%20Bhardwaj,%20Jianing%20Wei.pdf)
+- [Deep Learning Essentials - Wei Di, Anurag Bhardwaj, Jianing Wei](https://github.com/afondiel/computer-science-notes/blob/d81a21daac22c624722bba1557d56cc328f79814/books/ai/Deep%20Learning%20Essentials%20-%20Wei%20Di,%20Anurag%20Bhardwaj,%20Jianing%20Wei.pdf)
 - [Welcome to Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/index.html)
 - [Reinforcement learning wiki](https://en.wikipedia.org/wiki/Reinforcement_learning)
 - [Markov Chain](https://en.wikipedia.org/wiki/Markov_chain)
