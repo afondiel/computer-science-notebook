@@ -2,13 +2,13 @@
     <img src="./outro/logo.jpg" width="200" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 </p>
 
-<h1 align="center" width="100%"> Computer Science Notes</h1>
+<h1 align="center" width="100%">Computer Science Notebook</h1>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/computer-science-notes) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/computer-science-notes/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/computer-science-notes.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/computer-science-notes.svg) 
+![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/computer-science-notebook) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/computer-science-notebook/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/computer-science-notebook.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/computer-science-notebook.svg) 
 
 ## Overview
 
-Essential computer science resources and notes for software engineers and developers, from zero to hero.
+Essential computer science notes and resources for software engineers and developers of all levels.
 
 ## Motivation
 
@@ -37,13 +37,13 @@ From programming languages, design patterns, and testing to more advanced topics
 
 ## Usage
 
-If you'd like to read the notes online, you can visit https://afondiel.github.io/computer-science-notes/.
+If you'd like to read the notes online, you can visit https://afondiel.github.io/computer-science-notebook/.
 
 If you'd like to read it locally, [install Rust](https://www.rust-lang.org/tools/install), and then:
 
 ```bash
-git clone https://github.com/afondiel/computer-science-notes
-cd computer-science-notes
+git clone https://github.com/afondiel/computer-science-notebook
+cd computer-science-notebook
 cargo install mdbook
 mdbook build
 mdbook serve
@@ -69,7 +69,7 @@ Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help thi
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=afondiel/computer-science-notes&type=Date)](https://star-history.com/#afondiel/computer-science-notes&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=afondiel/computer-science-notebook&type=Date)](https://star-history.com/#afondiel/computer-science-notebook&Date)
 
 >As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful and inspiring as I do.
 >
