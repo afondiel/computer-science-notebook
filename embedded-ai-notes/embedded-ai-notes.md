@@ -1,11 +1,13 @@
 # Embedded AI - Notes
 
 ## Table of Contents (ToC)
-- Overview
-- Applications
-- Tools & Frameworks
-- Hello World!
-- References
+
+  - [Overview](#overview)
+  - [Applications](#applications)
+  - [Tools \& Frameworks](#tools--frameworks)
+  - [Hello World!](#hello-world)
+  - [References](#references)
+
 
 ## Overview
 
@@ -26,6 +28,7 @@ Embedded AI involves integrating artificial intelligence algorithms and models i
 - Edge TPU: Google's Tensor Processing Unit for edge devices.
 - CMSIS-NN: ARM's neural network kernel library for microcontroller platforms.
 - OpenVINO: Intel's toolkit for optimizing and deploying models on edge devices.
+- [Optimum: transformers and Diffusers on hardware](https://github.com/huggingface/optimum)
 
 ## Hello World!
 
@@ -50,9 +53,10 @@ print(result)
 
 ## References
 
-[TensorFlow Lite](https://www.tensorflow.org/lite) Documentation: 
-- https://www.tensorflow.org/lite/microcontrollers
-- https://www.tensorflow.org/lite/microcontrollers/get_started_low_level
+[TensorFlow Lite](https://www.tensorflow.org/lite) 
+  - Documentation: 
+    - https://www.tensorflow.org/lite/microcontrollers
+    - https://www.tensorflow.org/lite/microcontrollers/get_started_low_level
 
 [PyTorch Mobile](https://pytorch.org/mobile/)
 
@@ -60,7 +64,7 @@ print(result)
 
 [CMSIS-NN](https://arm-software.github.io/CMSIS_5/NN/html/index.html)
 
-[OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html)
+[OpenVINO - Intel](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html)
 
 Embedded AI:
 
@@ -71,8 +75,14 @@ Embedded AI:
 
 Arduino: 
 - https://docs.arduino.cc/tutorials/nano-33-ble-sense/get-started-with-machine-learning
-Arm CMSIS-NN GitHub Repository
+  
+- [Arm CMSIS-NN GitHub Repository](https://github.com/ARM-software/CMSIS-NN)
+
 
 tinyML: 
 - https://www.tinyml.org/
+
+Courses:
+- [Introduction to On-Device AI - DLA](https://www.coursera.org/projects/introduction-to-on-device-ai)
+- [Computer Vision with Embedded ML](https://www.coursera.org/learn/computer-vision-with-embedded-machine-learning)
 
