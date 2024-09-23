@@ -173,3 +173,7 @@ glut.glutMainLoop()
 - **Blender Documentation**: In-depth guides and tutorials for Blender users.
 - **NVIDIA RTX**: Resources and tutorials on ray tracing and advanced rendering techniques.
 
+Lecture & Tutorials:
+- [OpenGL Course - Create 3D and 2D Graphics With C++](https://www.youtube.com/watch?v=45MIykWJ-C4)
+
+
