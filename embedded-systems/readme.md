@@ -1,5 +1,15 @@
-# embedded systems 
+# Embedded Systems & AI Notes
 
-Embedded systems "hello world" resources
+
+## Overview
+
+Embedded Systems and AI: Intelligent Applications in Embedded Environments.
+
+
+**Focus:** Hardware constraints applications, Resource-Efficient AI models, tinyML, and real-time AI deployment.
+
+## Contributing
+
+Please refer to this [file](../../CONTRIBUTING.md).
 
 
