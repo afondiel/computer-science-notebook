@@ -58,6 +58,10 @@ graph LR
 
 ### Types of Generative AI Models
 
+![](./docs/history-of-diffusion-barkely-ML.png)
+
+(Source: [CS 198-126: Lecture 12 - Diffusion Models ML at Berkeley](https://www.youtube.com/watch?v=687zEGODmHA&t=133s))
+
 The table below provides a comprehensive overview of the various types of generative AI models, their techniques, descriptions, and application examples/interests.
 
 | Name | Techniques | Description | Application examples/interests |
@@ -117,13 +121,13 @@ print(generated_text)
 
 ## References
 
+Wikipedia:
 - [Generative Artificial Intelligence](https://en.wikipedia.org/wiki/Generative_artificial_intelligence)
 - [Large language model](https://en.wikipedia.org/wiki/Large_language_model)
-- [Generative pre-trained transformer](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer)
-- [Generative adversarial network](https://en.wikipedia.org/wiki/Generative_adversarial_network)
-- [Introduction to Generative AI](https://www.youtube.com/watch?v=G2fqAlgmoPo)
-- [What is generative ai](https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-generative-ai)
 - [Foundation models](https://en.wikipedia.org/wiki/Foundation_models)
+- [Generative pre-trained transformer](https://en.wikipedia.org/wiki/Generative_pre-trained_transformer)
+- [Generative adversarial network (GAN)](https://en.wikipedia.org/wiki/Generative_adversarial_network)
+
 
 OpenAI : 
 - Generative Pre-trained Transformer (GPT) Models :
@@ -148,6 +152,7 @@ Google :
 - [Generative AI Search Engine](https://blog.google/products/search/generative-ai-search/)
 - [Google's T5](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) 
 - [Microsoft DialoGPT](https://github.com/microsoft/DialoGPT)
+- [Introduction to Generative AI - Google Cloud Tech](https://www.youtube.com/watch?v=G2fqAlgmoPo)
 
 NVIDIA : 
 
@@ -174,6 +179,10 @@ Lectures & Online course:
     - https://www.cloudskillsboost.google/catalog
     - https://opportunitiescorners.com/google-artificial-intelligence-course-2023/
     - [Google AI Essentials - Coursera](https://www.coursera.org/google-learn/ai-essentials?utm_source=google&utm_medium=institutions&utm_campaign=sou--google__med--organicsearch__cam--gwgsite__con--null__ter--null)
+
+Business Insights:
+- [What is generative ai](https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-generative-ai)
+
 
 Papers and books: 
 
