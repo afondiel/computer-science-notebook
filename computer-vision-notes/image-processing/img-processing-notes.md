@@ -146,7 +146,7 @@ Wikipedia
 - [Digital Image](https://en.wikipedia.org/wiki/Digital_image)
 - [Digital Image Processing (DIP)](https://en.wikipedia.org/wiki/Digital_image_processing)
 - [Analog Image Processing](https://en.wikipedia.org/wiki/Analog_image_processing)
-- [Signal Processing Notes ](https://github.com/afondiel/computer-science-notes/tree/master/signal-processing)
+- [Signal Processing Notes](https://github.com/afondiel/computer-science-notebook/tree/master/signal-processing)
 - [Digital Image Processing Basics - GeeksForGeeks](https://www.geeksforgeeks.org/digital-image-processing-basics/)
 
 OpenCV:
