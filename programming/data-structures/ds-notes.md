@@ -18,7 +18,7 @@ Credit: [GeeksForGeeks](https://www.geeksforgeeks.org/data-structure-meaning/)
 
 ## Big O vs Big Omega vs Big Theta
 
-**Big O**
+**Big O** 
 
 ![](https://www.bigocheatsheet.com/img/big-o-cheat-sheet-poster.png)
 
