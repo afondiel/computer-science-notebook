@@ -21,7 +21,6 @@
   - [References](#references)
 
  
-
 ### What's Computer Vision (CV)?
 
 CV uses artificial intelligence (AI) to interpret visual data (mainly digital images and videos ...) to take actions and make recommendations.
@@ -198,6 +197,12 @@ Sub-domains of computer vision include :
   
 ## CV Datasets (Non-exhautive list)
 
+**[List of datasets in computer vision and image processing - Wikipedia](https://en.wikipedia.org/wiki/List_of_datasets_in_computer_vision_and_image_processing)**
+  
+**[SOTA Computer Vision Dataset - @paperwithcode](https://paperswithcode.com/area/computer-vision)**
+
+**[Top 10 Open-Source Datasets for Computer Vision in 2023 - analyticsinsight.net](https://www.analyticsinsight.net/top-10-open-source-datasets-for-computer-vision-in-2023/)**
+
 1. [ImageNet](https://www.image-net.org/index.php)
 2. [COCO (Common Objects in Context)](https://cocodataset.org/#home)
 3. Open Images
@@ -209,15 +214,18 @@ Sub-domains of computer vision include :
 9. CIFAR-10 and CIFAR-100
 10. MNIST
 
-Src: [Top 10 Open-Source Datasets for Computer Vision in 2023](https://www.analyticsinsight.net/top-10-open-source-datasets-for-computer-vision-in-2023/)
 
-Automotive dataset: 
+**Automotive datasets**: 
 
 - [Top 7 Automotive Datasets for in Computer Vision Projects ](https://www.labellerr.com/blog/top-7-automotive-datasets-for-computer-vision-projects/)
 - [Stanford Cars Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-cars-dataset)
 - [Top Self Driving Datasets](https://universe.roboflow.com/browse/self-driving)
 
-[SOTA Computer Vision Dataset - @paperwithcode](https://paperswithcode.com/area/computer-vision)
+**Healthcare**
+
+- [Google search: some resouces & ideas](https://www.google.com/search?q=computer+vision+datasets+for+healthcare&sca_esv=2dac060d692f34ee&sxsrf=ADLYWIJBRasuircxy-0qRaJfcW9bazdFfg%3A1728743065072&ei=mYYKZ-uOBJWMi-gPvrmemAk&ved=0ahUKEwirv7TihYmJAxUVxgIHHb6cB5MQ4dUDCA8&uact=5&oq=computer+vision+datasets+for+healthcare&gs_lp=Egxnd3Mtd2l6LXNlcnAiJ2NvbXB1dGVyIHZpc2lvbiBkYXRhc2V0cyBmb3IgaGVhbHRoY2FyZTIFECEYoAEyBRAhGKABMgUQIRigATIFECEYnwUyBRAhGJ8FMgUQIRifBTIFECEYnwVIzgZQAFj0BHAAeAGQAQCYAbEBoAGgAqoBAzAuMrgBA8gBAPgBAZgCAqACyQKYAwCSBwUwLjEuMaAH1RA&sclient=gws-wiz-serp)
+- [National Library of Medicine, National Center for Biotechnology Information (NCBI)](https://www.ncbi.nlm.nih.gov/)
+
 
 ## Hello World!
 
@@ -255,6 +263,18 @@ Please refer to the [lab](./lab/) repository.
 
 Src: [The Ultimate Guide to Top Computer Vision Conferences: Where Tech Visionaries Unite](https://augmentedstartups.medium.com/the-ultimate-guide-to-top-computer-vision-conferences-where-tech-visionaries-unite-72f99c990ac1)
 
+
+## **Computer Vision Roadmap: Becoming a World-Class CV Engineer**
+
+**Notes: [How To Become A World-Class Computer Vision Engineer - The Ultime Guide](./computer-vision-engineer-guideline.md)**
+
+Resources:
+- [Introduction to Computer Vision / Roadmap to CV Developer in 2022](https://www.karachidotai.com/introduction-to-computer-vision)
+- [Computer Vision Tutorial for Beginners | Learn Computer Vision](https://www.projectpro.io/data-science-in-python-tutorial/computer-vision-tutorial-for-beginners)
+- [Complete RoadMap To Learn Computer Vision - @Krish Naik](https://www.youtube.com/watch?v=jLcuVu5xdDo) 
+- [Computer vision roadmap | How to become a computer vision engineer - @computer vision engineer](https://www.youtube.com/watch?v=DfPAvepK5Ws)
+
+
 ## Computer Vision Researcher - Starting Resources   
 
 - [Quora - great feed](https://www.quora.com/How-do-I-start-research-in-computer-vision)
@@ -268,35 +288,21 @@ Src: [The Ultimate Guide to Top Computer Vision Conferences: Where Tech Visionar
 
 ## References
 
-**Computer Vision Roadmap**:
+**Biology & Neuroscience & Anatomy:**
+- [Optics](https://en.wikipedia.org/wiki/Optics)
+- [Human Eye](https://en.wikipedia.org/wiki/Human_eye)
+- [Visual System](https://en.wikipedia.org/wiki/Visual_system)
+- [Visual Cortex](https://en.wikipedia.org/wiki/Visual_cortex)
+- [Human Brain](https://en.wikipedia.org/wiki/Human_brain)
 
-- [Introduction to Computer Vision / Roadmap to CV Developer in 2022](https://www.karachidotai.com/introduction-to-computer-vision)
-- [Computer Vision Tutorial for Beginners | Learn Computer Vision](https://www.projectpro.io/data-science-in-python-tutorial/computer-vision-tutorial-for-beginners)
-- https://www.youtube.com/watch?v=jLcuVu5xdDo 
-- https://www.youtube.com/watch?v=DfPAvepK5Ws
-
-Essential notes (Wikipedia):
-- [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision)
-- [Machine Perception](https://en.wikipedia.org/wiki/Machine_perception)
-- [Depth Perception](https://en.wikipedia.org/wiki/Depth_perception)
-- [Understanding Depth Perception in Computer Vision - Nasscom](https://coe-dsai.nasscom.in/understanding-depth-perception-in-computer-vision/)
-
-Physics - Environment (Wikipedia):
+**Physics - Environment (Wikipedia):**
   - [Light](https://en.wikipedia.org/wiki/Light)
+  - [Color Theory](https://en.wikipedia.org/wiki/Color_theory)
   - [Electromagnetic Radiation](https://en.wikipedia.org/wiki/Electromagnetic_radiation)
   - [Electromagnetic Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum)
-  - [Optics](https://en.wikipedia.org/wiki/Optics)
-  - [Color Theory](https://en.wikipedia.org/wiki/Color_theory)
 
-Biology & Neuroscience: 
-- Human perception 
-  - [Human Eye](https://en.wikipedia.org/wiki/Human_eye)
-  - [Visual System](https://en.wikipedia.org/wiki/Visual_system)
-  - [Visual Cortex](https://en.wikipedia.org/wiki/Visual_cortex)
-
-Mathematics:
+**Mathematics:**
 - Signal Processing
-
   - [Multidimensional Signal Processing](https://en.wikipedia.org/wiki/Category:Multidimensional_signal_processing)
   - [Image Processing](https://en.wikipedia.org/wiki/Category:Image_processing)
   - [Video Processing](https://en.wikipedia.org/wiki/Category:Video_processing)
@@ -308,11 +314,18 @@ Mathematics:
   - [Geometry Processing](https://en.wikipedia.org/wiki/Geometry_processing)
   - [3D space](https://en.wikipedia.org/wiki/Three-dimensional_space)
 
+Essential notes (Wikipedia):
+- [Computer Vision](https://en.wikipedia.org/wiki/Computer_vision)
+- [Machine Perception](https://en.wikipedia.org/wiki/Machine_perception)
+- [Depth Perception](https://en.wikipedia.org/wiki/Depth_perception)
+- [Understanding Depth Perception in Computer Vision - Nasscom](https://coe-dsai.nasscom.in/understanding-depth-perception-in-computer-vision/)
+
+
 - Deep Learning Models:
 
   - [Convolutional Neural Network - CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
-**Vision & Perception sensors**
+**Imaging sensors**
 - Camera Sensor: 
   - [Image Sensor - Wikipedia](https://en.wikipedia.org/wiki/Image_sensor)
   - [How does a camera work? - Branch Education ](https://www.youtube.com/watch?v=B7Dopv6kzJA)
