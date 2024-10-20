@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img src="./outro/toolS/logo-new.webp" height = 200 width="250" style="border:0px solid #FFFFFF; padding:1px; margin:1px; border-radius: 10%;">
+    <img src="./outro/tools/logo-new.png" height = 200 width="250" style="border:0px solid #FFFFFF; padding:1px; margin:1px; border-radius: 10%;">
 </p>
 
 <h1 align="center" width="100%">Computer Science Notebook</h1>
