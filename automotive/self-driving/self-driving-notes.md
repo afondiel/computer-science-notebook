@@ -78,7 +78,7 @@ Self-Driving Car Modular Architecture. Src : [An Overview about Emerging Technol
 
 #### Sensors
 
-![passive-and-active-sensors](https://github.com/afondiel/research-notes/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png?raw=true)
+![passive-and-active-sensors](https://github.com/afondiel/computer-science-notebook/blob/master/embedded-systems/sensors/resources/The-frequency-bands-of-the-passive-and-active-sensors-for-optical-imaging-and-for-radio.png?raw=true)
 
 - There are two categories of sensors: `active sensors` and `passive sensors`
 - Each sensor operates in a different frequency range based on electromagnetic spectrum or radiation.
@@ -285,6 +285,13 @@ $$
     - [Kivy - Drawing Your Own Map](https://kivy.org/doc/stable/gettingstarted/drawing.html)
       - [Example, Self-driving car - based on reinforcement learning](https://github.com/diesimo-ai/reinforced-self-driving-car)
   - [NVIDIA DRIVE Sim - Powered ](https://www.youtube.com/watch?v=UoPXzzK_g1Q&embeds_euri=https%3A%2F%2Fdeveloper.nvidia.com%2F&feature=emb_title) - [Omniverse](https://www.nvidia.com/en-us/omniverse/)
+
+
+## Self-driving cars Conferences
+
+- [The CVPR Workshop on Autonomous Driving (WAD) - YT Playlist](https://www.youtube.com/@WADatCVPR/playlists)
+
+
 
 ## References
 
