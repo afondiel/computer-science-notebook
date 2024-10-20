@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img src="./outro/logo.jpg" width="200" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
+    <img src="./outro/toolS/logo-new.webp" height = 200 width="250" style="border:0px solid #FFFFFF; padding:1px; margin:1px; border-radius: 10%;">
 </p>
 
 <h1 align="center" width="100%">Computer Science Notebook</h1>
@@ -35,7 +35,7 @@ I thought it'd be helpful to create a sort of [Whole Computer Science Catalog](h
 
 From programming languages, design patterns, and testing to more advanced topics such as Data Science, and computer vision. You will also find the latest research papers and notebooks about AI, ML, DL, LLMs, IoT, robotics, and more.
 
-## Usage
+## Getting Started
 
 If you'd like to read the notes online, you can visit https://afondiel.github.io/computer-science-notebook/.
 
@@ -51,16 +51,25 @@ mdbook serve
 
 Happy learning and have fun!
 
-## Contributing
+## Roadmap: Note Generation using LLM
+
+- **Generate note using LLM from a CLI**: 
+  - [hello_world_prompt.md](./hello_world_prompt.md) for files creation
+  - `LLM API` for note content generation, such as Claude, Gemini, GPT3.5, .. 
+- **Generate note using LLM from a Web App**:
+    - Related work: https://notebooklm.google/
+
+## Contribute
 
 Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help this project grow and make learning accessible to all.
 
 
-`Some to-do tasks:`
+`Some tasks to tackle:`
 
-- Add guidelines of "essential resources to get into a specific industry/company"
-- Add more industries notes: Telecommunications & Network, Aerospace, Defense, Naval-Maritime ...
-- Create a pipeline to generate a 'minimum' note content using [hello_world_prompt.md](./hello_world_prompt.md) + [OpenAI API](https://openai.com/blog/openai-api) / [Bard API ](https://www.googlecloudcommunity.com/gc/AI-ML/Google-Bard-API/m-p/538517#M1526)  
+- Add guideline notes on how to get into a specific industry/company
+- Add more industries: Telecommunications & Network, Aerospace, Defense, Naval, etc ...
+- Create a pipeline to generate a 'hello world' note content using [hello_world_prompt.md](./hello_world_prompt.md) + LLM API: Claude, Gemini, GPT3.5, ... 
+
 
 ## LICENSE
 
