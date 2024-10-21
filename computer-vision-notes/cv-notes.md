@@ -86,23 +86,40 @@ graph LR
 
 ## Tools & Frameworks
 
-List of the Most Popular Computer Vision Tools in 2022 - by Viso.ai: 
-1. OpenCV
-2. Viso Suite
-3. Pytorch
-4. TensorFlow
-5. CUDA
-6. MATLAB
-7. Keras
-8. SimpleCV
-9. BoofCV
-10. [CAFFE](https://caffe.berkeleyvision.org/)
-11. OpenVINO
-12. DeepFace
-13. [Roboflow](roboflow.com)
-14. [landingAI](https://landing.ai)
-15. [Encord](https://encord.com/)
-...
+### Data
+- Roboflow
+- LandingAI
+- Encord
+- Albumentations
+- Kangas
+
+### Build/Evaluate
+- OpenCV
+- Scikit-Image
+- Pillow (PIL Fork)
+- TorchVision
+- MMCV
+- TensorFlow
+- Keras
+- MATLAB
+- PyTorch
+- Hugging Face
+- Caffe
+- Detectron2
+- Anomalib
+- Ultralytics
+- Pythae
+- SimpleCV
+- BoofCV
+- CUDA
+- NVIDIA CUDA-X
+- NVIDIA Performance Primitives
+
+### Deploy & Monitoring
+- OpenVINO
+- Comet
+- Viso Suite
+- DeepFace
 
 
 ## Computer Vision Sub-fields/domains
