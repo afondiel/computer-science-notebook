@@ -74,7 +74,26 @@ Advanced Driver Assistance Systems (ADAS) are technologies designed to enhance v
 - **Autoware**: An open-source software stack for self-driving technology.
 - **Matlab/Simulink**: For modeling and simulating ADAS features.
 
-## Standards
+## Datasets
+- **Waymo Open Dataset**: For self-driving research and development.
+- **NuPlan & NuScenes**: For advanced perception tasks and sensor fusion.
+- **Argoverse 1 & 2**: For self-driving research and development.
+- **KITTI Dataset**: For object detection and scene understanding.
+- **Lyft Level 5 Dataset**: For self-driving research and development.
+- **MS COCO**: For object detection and segmentation.
+
+## Driving Simulators
+- [CARLA](https://carla.org/) - Carla.org
+- [AirSim](https://microsoft.github.io/AirSim/) - MS
+- [NVIDIA DRIVE Sim](https://developer.nvidia.com/drive/simulation) - NVIDIA
+- [GAIA-1 world model](https://anthonyhu.github.io/gaia) - Wayne
+- [UniSim](https://waabi.ai/introducing-unisim-one-of-the-core-groundbreaking-technologies-powering-waabi-world/) - Waabi
+
+## Models & Algorithms
+- [YOLO5](https://github.com/ultralytics/yolov5) - Ultralytics
+- ...
+
+## Standards & Safety and Regulatory Considerations
 - SAE J3016
 - ISO 26262
 - MISRA C
@@ -82,10 +101,6 @@ Advanced Driver Assistance Systems (ADAS) are technologies designed to enhance v
 - ISO 26118
 - ISO 9001
 
-## Datasets
-- **KITTI Dataset**: For object detection and scene understanding.
-- **Waymo Open Dataset**: For self-driving research and development.
-- **Nuscenes**: For advanced perception tasks and sensor fusion.
 
 ## **ADAS vs Self-Driving Cars**:
 - [How a Driverless Car sees the world - Chris Urmson, CEO Aurora](https://youtu.be/tiwVMrTLUWg?si=5zIRHUqHSK1tgK-3)
