@@ -1,6 +1,7 @@
 <head>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 </head>
+
 # Computer Vision (CV) - Notes
 
 ## Table of Contents
