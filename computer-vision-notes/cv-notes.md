@@ -1,126 +1,109 @@
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
 # Computer Vision (CV) - Notes
 
 ## Table of Contents
-  - [What's Computer Vision (CV)?](#whats-computer-vision-cv)
-  - [How It Works?](#how-it-works)
-  - [CV Problem \& Challenge: Why Computer Vision is a HARD problem in AI?](#cv-problem--challenge-why-computer-vision-is-a-hard-problem-in-ai)
-  - [Computer Vision (Basic) Pipeline Architecture](#computer-vision-basic-pipeline-architecture)
-  - [Applications](#applications)
-  - [Tools \& Frameworks](#tools--frameworks)
-  - [Computer Vision Sub-fields/domains](#computer-vision-sub-fieldsdomains)
-  - [CV Algorithms \& Applications](#cv-algorithms--applications)
-  - [Computer Vision \& Deep Learning](#computer-vision--deep-learning)
-  - [Computer Vision \& Generative AI (VLMs, LVMs, ...)](#computer-vision--generative-ai-vlms-lvms-)
-  - [Computer Vision \& Multimodality](#computer-vision--multimodality)
-  - [CV Datasets (Non-exhautive list)](#cv-datasets-non-exhautive-list)
-  - [Hello World!](#hello-world)
-  - [CV Projects](#cv-projects)
-  - [Computer Vision Project in Industry](#computer-vision-project-in-industry)
-  - [Top Computer Vision Conferences](#top-computer-vision-conferences)
-  - [Computer Vision Researcher - Starting Resources](#computer-vision-researcher---starting-resources)
-  - [References](#references)
+- [Introduction](#introduction)
+- [Key Concepts](#key-concepts)
+- [Applications](#applications)
+- [CV Problem & Challenges](#cv-problem--challenges-why-computer-vision-is-a-hard-problem-in-ai)
+- [CV Pipeline Architecture](#cv-pipeline-architecture)
+- [Computer Vision Sub-fields/domains](#computer-vision-sub-fieldsdomains)
+- [CV Algorithms & Applications](#cv-algorithms--applications)
+- [Computer Vision & Deep Learning](#computer-vision--deep-learning)
+- [Computer Vision & Generative AI](#computer-vision--generative-ai-vlms-lvms-)
+- [Computer Vision & Multimodality](#computer-vision--multimodality)
+- [CV Datasets](#cv-datasets-non-exhautive-list)
+- [Hello World!](#hello-world)
+- [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
+- [Computer Vision Projects in Industry](#computer-vision-project-in-industry)
+- [Top Computer Vision Conferences](#top-computer-vision-conferences)
+- [Computer Vision Roadmap](#computer-vision-roadmap-becoming-a-world-class-cv-engineer)
+- [Computer Vision Researcher - Starting Resources](#computer-vision-researcher---starting-resources)
+- [References](#references)
 
+---
  
-### What's Computer Vision (CV)?
+## Introduction
+- **Computer Vision** is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data from the real world.
 
-CV uses artificial intelligence (AI) to interpret visual data (mainly digital images and videos ...) to take actions and make recommendations.
+## Key Concepts
+- **Image Processing**: Manipulating raw images to enhance or extract meaningful information.
+- **Feature Extraction**: Identifying essential patterns or characteristics from visual data (e.g., edges, textures, shapes).
+- **Object Detection**: Locating and identifying objects within an image or video.
+- **Convolutional Neural Networks (CNNs)**: A type of neural network specifically designed to process and analyze visual data.
+- **Common Misconception**: Many believe that computer vision only involves recognizing objects in images, but it also encompasses tasks like image generation, segmentation, and video analysis.
 
-### How It Works? 
+## Applications
+- **Self-driving cars** use computer vision for detecting pedestrians, traffic signals, and other vehicles.
+- **Healthcare** applies computer vision for analyzing medical images (e.g., MRI, X-rays) to diagnose diseases.
+- **Retail** benefits from facial recognition and in-store customer behavior analysis.
+- **Manufacturing** employs vision systems for quality control and defect detection.
+- **Robotics** relies on vision for navigation and manipulation in dynamic environments.
+- **Augmented Reality (AR)** uses computer vision for overlaying digital information on the real world.
+- **Remote Sensing** involves analyzing data from sensors to understand the Earth's surface and atmosphere.
+- And more ...
 
-If [AI](../ai/ai-notes.md) enables computers to think, **computer vision** enables them to see, observe and understand the world.
+## CV Problem & Challenges: Why Computer Vision is a Hard problem in AI?  
 
-CV uses a variety of algorithms and a special [deep learning](../ai/deep-learning-notes/dl-notes.md) neural nets called [Convolutional Neural Networks (CNN)](../ai/deep-learning-notes/neural-nets/convolutional-neural-network.ipynb).
-
-### CV Problem & Challenge: Why Computer Vision is a HARD problem in AI?  
-
-- **Ambiguity and Interpretation:**
-  - **Contextual understanding:** Objects require context for interpretation. 
-  - **Occlusions:** Objects can be partially hidden. 
-  - **Illusions:** Visual illusions can mislead algorithms. 
-
-- **Variability and Diversity:**
-  - **Object variations:** Objects can appear differently due to lighting, pose, scale, or deformation. 
-  - **Background clutter:** Images often have distracting backgrounds.
-  - **Real-world complexity:** The real world is diverse and complex.
-
-- **Data Challenges:** 
-  - **Data acquisition:** Collecting large, diverse, and high-quality datasets is difficult.
-  - **Annotation:** Labeling images accurately is time-consuming and error-prone. 
-  - **Data bias:** Datasets can be biased, leading to biased models.
-
-- **Computational Complexity:**
-  - **Computational resources:** Computer vision algorithms can be computationally demanding. 
-  - **Real-time processing:** Many applications require real-time performance.
-
-- **Generalization:**
-  - **Domain adaptation:** Models may not generalize well to new, unseen data. 
-  - **Out-of-distribution data:** Models can struggle with data that is significantly different from their training data.
+| Challenge Category | Description |
+|---------------------|-------------|
+| **Ambiguity and Interpretation**| - Contextual understanding: Objects require context for interpretation.<br>- Occlusions: Objects can be partially hidden.<br>- Illusions: Visual illusions can mislead algorithms. |
+| **Variability and Diversity** | - Object variations: Objects can appear differently due to lighting, pose, scale, or deformation.<br>- Background clutter: Images often have distracting backgrounds.<br>- Real-world complexity: The real world is diverse and complex. |
+| **Data Challenges** | - Data acquisition: Collecting large, diverse, and high-quality datasets is difficult.<br>- Annotation: Labeling images accurately is time-consuming and error-prone.<br>- Data bias: Datasets can be biased, leading to biased models. |
+| **Computational Complexity** | - Computational resources: Computer vision algorithms can be computationally demanding.<br>- Real-time processing: Many applications require real-time performance. |
+| **Generalization** | - Domain adaptation: Models may not generalize well to new, unseen data.<br>- Out-of-distribution data: Models can struggle with data that is significantly different from their training data. |
 
 - Resources:
   - [Why Computer Vision Is a Hard Problem for AI - Alexei Efros UC Berkeley](https://www.youtube.com/watch?v=YOKPo-I6cgs&t=0s)
-  - [The state of Computer Vision and AI: we are really, really far away - Karpathy Blog](https://karpathy.github.io/2012/10/22/state-of-computer-vision/) 
+  - [The state of Computer Vision and AI: we are really, really far away (Must Read!) - Karpathy Blog](https://karpathy.github.io/2012/10/22/state-of-computer-vision/) 
 
-## Computer Vision (Basic) Pipeline Architecture
+## CV Pipeline Architecture
 
 ```mermaid
 graph LR
-    A[Image Acquisition] ==> B[Image Processing]
-    B ==> C[Feature Extraction]
-    C ==> D[Output, Interpretation & Analysis]
+    A[Image Acquisition fa:fa-camera-retro] --> B[Preprocessing fa:fa-cogs  ]
+    B --> C[Feature Extraction]
+    C --> D[Model Training / Classification]
+    D --> E[Post-processing / Interpretation]
 
-    style A fill:#EEE,stroke:#333,stroke-width:4px
-    style B fill:#F88,stroke:#333,stroke-width:4px
-    style C fill:#4F4,stroke:#333,stroke-width:4px
-    style D fill:#33F,stroke:#333,stroke-width:4px
+    style A font-weight:bold, fill:#CCC,stroke:#333,stroke-width:2px
+    style B font-weight:bold, fill:#F88,stroke:#333,stroke-width:2px
+    style C font-weight:bold, fill:#4F4,stroke:#333,stroke-width:2px
+    style D font-weight:bold, fill:#99F,stroke:#333,stroke-width:2px
+    style E font-weight:bold, fill:#FFF,stroke:#333,stroke-width:2px
 ```
+- **Image Acquisition**: Collecting raw images.
+- **Preprocessing**: Preparing data by resizing, noise reduction, etc.
+- **Feature Extraction**: Identifying key visual elements.
+- **Model Training**: Teaching models to classify or recognize features.
+- **Post-processing**: Interpreting results and making decisions.
 
-## Applications 
+## How Computer Vision Works
+- **Step 1**: Images or videos are captured from sensors (camera, etc.).
+- **Step 2**: Data is preprocessed—resized, normalized, or enhanced to make it suitable for analysis.
+- **Step 3**: Key features are extracted through techniques like edge detection, filtering, or using CNNs.
+- **Step 4**: Models, often neural networks, are trained on labeled datasets to classify, detect, or segment objects.
+- **Step 5**: Results are interpreted, visualized, or fed into decision-making systems.
 
-- Face recognition
-- Optical Character Recognition (OCR)
-- Content-based image retrieval
-- Autonomous vehicles & Robotics
-- Augmented reality (AR)
-- Remote sensing
-- And more ...
+
+## Methods, Types & Variations
+- **Image Classification**: Categorizing images into predefined labels.
+- **Object Detection**: Locating objects in images and bounding them with boxes.
+- **Semantic Segmentation**: Assigning a label to every pixel in an image.
+- **Instance Segmentation**: Identifying distinct objects and outlining each separately.
+- **Contrasting Example**: While classification gives a global label (e.g., cat/dog), segmentation offers pixel-level understanding.
 
 ## Tools & Frameworks
 
-### Data
-- Roboflow
-- LandingAI
-- Encord
-- Albumentations
-- Kangas
+| Category | Tools | Description |
+|----------|-------|-------------|
+| **Data** | - Roboflow<br>- LandingAI<br>- Encord<br>- Albumentations<br>- Kangas | Tools for data preparation, augmentation, and management in computer vision projects. |
+| **Build/Evaluate** | - OpenCV<br>- Scikit-Image<br>- Pillow (PIL Fork)<br>- TorchVision<br>- MMCV<br>- TensorFlow<br>- Keras<br>- MATLAB<br>- PyTorch<br>- Hugging Face<br>- Caffe<br>- Detectron2<br>- Anomalib<br>- Ultralytics<br>- Pythae<br>- SimpleCV<br>- BoofCV<br>- CUDA<br>- NVIDIA CUDA-X<br>- NVIDIA Performance Primitives | Libraries and frameworks for building, training, and evaluating computer vision models. |
+| **Deploy & Monitoring** | - OpenVINO<br>- Comet<br>- Viso Suite<br>- DeepFace | Tools for deploying computer vision models and monitoring their performance in production environments. |
 
-### Build/Evaluate
-- OpenCV
-- Scikit-Image
-- Pillow (PIL Fork)
-- TorchVision
-- MMCV
-- TensorFlow
-- Keras
-- MATLAB
-- PyTorch
-- Hugging Face
-- Caffe
-- Detectron2
-- Anomalib
-- Ultralytics
-- Pythae
-- SimpleCV
-- BoofCV
-- CUDA
-- NVIDIA CUDA-X
-- NVIDIA Performance Primitives
-
-### Deploy & Monitoring
-- OpenVINO
-- Comet
-- Viso Suite
-- DeepFace
-
+- **Pros & Cons**: OpenCV is fast but limited for deep learning; TensorFlow/PyTorch offer flexibility but require more setup.
 
 ## Computer Vision Sub-fields/domains
 
@@ -245,12 +228,27 @@ Sub-domains of computer vision include :
 
 
 ## Hello World!
+The example below shows how to read an image, convert it to grayscale, and display it using OpenCV.
 
+```python
+import cv2
+img = cv2.imread('image.jpg')
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+cv2.imshow('Gray Image', gray)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
 **Want to level up your Computer Vision skills?**
 
 - Check out the [Computer Vision Challenge (CVC)](https://github.com/afondiel/computer-vision-challenge) and dive into exciting projects that will help you master the fundamentals.
 
-## CV Projects
+## Lab: Zero to Hero Projects
+
+1. **Classify images** from CIFAR-10 or MNIST datasets using a simple CNN.
+2. **Build an object detection model** using YOLO (You Only Look Once) to detect objects in real-time videos.
+3. **Apply edge detection filters** (e.g., Sobel, Canny) on images to enhance boundaries.
+4. **Segment a medical image** (e.g., brain scan) using a basic segmentation model.
+5. **Train a GAN** to generate synthetic images based on real-world datasets.
 
 Please refer to the [lab](./lab/) repository. 
 
@@ -361,6 +359,7 @@ Essential notes (Wikipedia):
 **Machine Vision**
 - [Machine Vision](https://en.wikipedia.org/wiki/Machine_vision)
 - [A Practical Guide to Machine Vision Lighting](https://www.ni.com/en/shop/choosing-the-right-hardware-for-your-vision-applications/a-practical-guide-to-machine-vision-lighting.html#:~:text=Back%20to%20top-,Vision%20Illumination%20Sources%20and%20Spectral%20Content,(mercury)%2C%20and%20xenon.)
+- [Google Machine Perception](https://research.google/research-areas/machine-perception/)
 
 **Lectures & Tutorials**:
 
@@ -440,9 +439,19 @@ MISC:
 - [Convolutional Neural Network(CNN) - notebook](https://github.com/afondiel/computer-science-notebook/blob/master/ai/deep-learning-notes/neural-nets/convolutional-neural-network.ipynb)
 
 **Papers**
-- [Research Papers](https://github.com/afondiel/computer-science-notebook/tree/master/computer-vision-notes/research-papers)
-- [Generative Adversarial Networks - Gan](https://arxiv.org/abs/1406.2661) 
+- [LeNet5 - 1998](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
+  - Wiki: https://en.wikipedia.org/wiki/LeNet
+- [ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+  - Wiki: https://en.wikipedia.org/wiki/AlexNet 
+- [AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929v2)
+  - Wiki: https://en.wikipedia.org/wiki/ViT_(vision_transformer)
+- [Scaling Vision Transformers to 22 Billion Parameters](https://arxiv.org/pdf/2302.05442)
+  - [Blog release](https://research.google/blog/scaling-vision-transformers-to-22-billion-parameters/)
+- [Generative Adversarial Networks (GAN)](https://arxiv.org/abs/1406.2661) 
+  - Wiki: https://en.wikipedia.org/wiki/Generative_adversarial_network
 - [OpenAI Dall-E](https://openai.com/blog/dall-e-introducing-outpainting/)
+  - Wiki: https://en.wikipedia.org/wiki/DALL-E
+- [More Research Papers](https://github.com/afondiel/computer-science-notebook/tree/master/computer-vision-notes/research-papers)
 
 **Books** 
 - [Computer Vision - Resources](https://github.com/afondiel/cs-books/tree/main/computer-vision)
