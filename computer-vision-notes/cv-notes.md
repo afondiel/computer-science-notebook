@@ -8,8 +8,8 @@
 - [Introduction](#introduction)
 - [Key Concepts](#key-concepts)
 - [Applications](#applications)
-- [CV Problem & Challenges](#cv-problem--challenges-why-computer-vision-is-a-hard-problem-in-ai)
-- [CV Pipeline Architecture](#cv-pipeline-architecture)
+- [Computer Vision Problem & Challenges](#computer-vision-problem--challenges-why-computer-vision-is-a-hard-problem-in-ai)
+- [Computer Vision Pipeline Architecture](#computer-vision-pipeline-architecture)
 - [Computer Vision Sub-fields/domains](#computer-vision-sub-fieldsdomains)
 - [CV Algorithms & Applications](#cv-algorithms--applications)
 - [Computer Vision & Deep Learning](#computer-vision--deep-learning)
@@ -18,7 +18,7 @@
 - [CV Datasets](#cv-datasets-non-exhautive-list)
 - [Hello World!](#hello-world)
 - [Lab: Zero to Hero Projects](#lab-zero-to-hero-projects)
-- [Computer Vision Projects in Industry](#computer-vision-project-in-industry)
+- [Computer Vision Projects in Industry](#computer-vision-projects-in-industry)
 - [Top Computer Vision Conferences](#top-computer-vision-conferences)
 - [Computer Vision Roadmap](#computer-vision-roadmap-becoming-a-world-class-cv-engineer)
 - [Computer Vision Researcher - Starting Resources](#computer-vision-researcher---starting-resources)
@@ -46,7 +46,7 @@
 - **Remote Sensing** involves analyzing data from sensors to understand the Earth's surface and atmosphere.
 - And more ...
 
-## CV Problem & Challenges: Why Computer Vision is a Hard problem in AI?  
+## Computer Vision Problem & Challenges: Why Computer Vision is a Hard problem in AI?  
 
 | Challenge Category | Description |
 |---------------------|-------------|
@@ -60,7 +60,7 @@
   - [Why Computer Vision Is a Hard Problem for AI - Alexei Efros UC Berkeley](https://www.youtube.com/watch?v=YOKPo-I6cgs&t=0s)
   - [The state of Computer Vision and AI: we are really, really far away (Must Read!) - Karpathy Blog](https://karpathy.github.io/2012/10/22/state-of-computer-vision/) 
 
-## CV Pipeline Architecture
+## Computer Vision Pipeline Architecture
 
 ```mermaid
 graph LR
@@ -127,7 +127,7 @@ Sub-domains of computer vision include :
 - image restoration
 - ...
     
-## CV Algorithms & Applications
+## Computer Vision Algorithms & Applications
 
 **Structure from motion algorithms**
 - Can reconstruct a sparse 3D point model of a large complex scene from hundreds of partially overlapping photographs
@@ -196,7 +196,7 @@ Sub-domains of computer vision include :
 - [A Dive into Vision-Language Models - HF](https://huggingface.co/blog/vision_language_pretraining) 
 - [Vision Language Models Explained - HF](https://huggingface.co/blog/vlms)
   
-## CV Datasets (Non-exhautive list)
+## Computer Vision Datasets (Non-exhautive list)
 
 **[List of datasets in computer vision and image processing - Wikipedia](https://en.wikipedia.org/wiki/List_of_datasets_in_computer_vision_and_image_processing)**
   
@@ -280,7 +280,7 @@ Please refer to the [lab](./lab/) repository.
 Src: [The Ultimate Guide to Top Computer Vision Conferences: Where Tech Visionaries Unite](https://augmentedstartups.medium.com/the-ultimate-guide-to-top-computer-vision-conferences-where-tech-visionaries-unite-72f99c990ac1)
 
 
-## **Computer Vision Roadmap: Becoming a World-Class CV Engineer**
+## **Computer Vision Roadmap: Becoming a World-Class Computer Vision Engineer**
 
 **Notes: [How To Become A World-Class Computer Vision Engineer - The Ultime Guide](./computer-vision-engineer-guideline.md)**
 
