@@ -3,7 +3,7 @@
 
 ## Overview
 
-Edge Computing and IoT: Connecting the Physical and Digital World.
+Edge AI, Computing and IoT: Connecting the Physical and Digital World.
 
 
 **Focus:** Connectivity, real-time data, and distributed processing.
