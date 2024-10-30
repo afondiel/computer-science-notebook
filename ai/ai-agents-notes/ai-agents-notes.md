@@ -148,3 +148,7 @@ This simple code sets up an autonomous agent that interacts with a simulated env
 - **Book**: "Autonomous Agents: From Self-Control to Autonomy" by Daniel G. Amen
 - **Website**: OpenAI Gym Documentation (gym.openai.com)
 - **Research Paper**: "A Survey of Multi-Agent Systems" by IEEE
+- [Intelligent Robotics and Autonomous Agents series - MIT](https://mitpress.mit.edu/series/intelligent-robotics-and-autonomous-agents-series/)
+
+
+

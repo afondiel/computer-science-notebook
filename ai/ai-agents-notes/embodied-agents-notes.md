@@ -141,6 +141,9 @@ This example creates a basic simulation of an embodied robot using PyBullet, all
 ## References
 - **Book**: "Robot Programming: A Guide to Controlling Autonomous Robots" by Cameron Hughes
 - **Website**: Robot Operating System (www.ros.org)
-- **Research Paper**: "Embodied Cognition and the Origins of Human Experience" by MIT
+- **Research Paper**: "Embodied Cognition and the Origins of Human Experience" by MIT 
+
+- [Intelligent Robotics and Autonomous Agents series - MIT](https://mitpress.mit.edu/series/intelligent-robotics-and-autonomous-agents-series/)
+
 
 
