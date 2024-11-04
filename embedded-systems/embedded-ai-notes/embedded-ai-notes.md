@@ -15,7 +15,7 @@ Embedded AI involves integrating artificial intelligence algorithms and models i
 
 ## Applications
 
-- Edge devices: Smart cameras, IoT sensors, and wearables.
+- [Edge devices](../../edge-iot-notes/readme.md): Smart cameras, IoT sensors, and wearables.
 - Automotive: Driver assistance, object recognition.
 - Healthcare: Remote patient monitoring, medical imaging.
 - Industrial IoT: Predictive maintenance, quality control.
@@ -23,11 +23,11 @@ Embedded AI involves integrating artificial intelligence algorithms and models i
 
 ## Tools & Frameworks
 
-- TensorFlow Lite: Lightweight version for mobile and edge devices.
-- PyTorch Mobile: Extension of PyTorch for mobile deployments.
-- Edge TPU: Google's Tensor Processing Unit for edge devices.
-- CMSIS-NN: ARM's neural network kernel library for microcontroller platforms.
-- OpenVINO: Intel's toolkit for optimizing and deploying models on edge devices.
+- **TensorFlow Lite**: Lightweight version for mobile and edge devices.
+- **PyTorch Mobile**: Extension of PyTorch for mobile deployments.
+- **Edge TPU**: Google's Tensor Processing Unit for edge devices.
+- **CMSIS-NN**: ARM's neural network kernel library for microcontroller platforms.
+- **OpenVINO**: Intel's toolkit for optimizing and deploying models on edge devices.
 - [Optimum: transformers and Diffusers on hardware](https://github.com/huggingface/optimum)
 
 ## Hello World!
