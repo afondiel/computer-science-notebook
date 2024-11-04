@@ -1,5 +1,7 @@
 # Autonomous (AI) Agents - Notes
 
+![](https://media1.tenor.com/m/MmRqzJRhG7kAAAAd/clone-twin.gif)
+
 ## Table of Contents (ToC)
 - [Introduction](#introduction)
 - [Key Concepts](#key-concepts)
@@ -101,6 +103,8 @@ These models are essential in creating agents that can learn, plan, and act effe
 - **ROS (Robot Operating System)**: A framework for robot development, commonly used for building autonomous agents in robotics.
 - **TensorFlow Agents**: A library for building reinforcement learning agents using TensorFlow.
 - **JADE**: A Java-based platform for developing multi-agent systems.
+- [crewAI](https://www.crewai.com/)
+- [Cradle](https://github.com/BAAI-Agents/Cradle)
 
 ### Comparison:
 - **Gym**: Great for developing RL agents with easy access to environments, but not specific to robotics.
@@ -149,6 +153,9 @@ This simple code sets up an autonomous agent that interacts with a simulated env
 - **Website**: OpenAI Gym Documentation (gym.openai.com)
 - **Research Paper**: "A Survey of Multi-Agent Systems" by IEEE
 - [Intelligent Robotics and Autonomous Agents series - MIT](https://mitpress.mit.edu/series/intelligent-robotics-and-autonomous-agents-series/)
+
+Lecture & Crash-courses:
+- [Multi AI Agent Systems with crewAI Instructors by João Moura from crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 
 
 
