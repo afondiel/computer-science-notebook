@@ -2,30 +2,31 @@
 
 ## Table of Contents
 
-- Introduction
-- Key Concepts
-- Applications
+- [Introduction](#introduction)
+- [Key Concepts](#key-concepts)
+- [Applications](#applications)
 - [AI Leading Companies](#ai-leading-companies)
-- Architecture Pipeline
-- Description
-- Framework / Key Theories or Models
-- How Artificial Intelligence Works
-- Methods, Types & Variations
-- Self-Practice / Hands-On Examples
-- Pitfalls & Challenges
-- Feedback & Evaluation
-- Tools, Libraries & Frameworks
-- Hello World! (Practical Example)
+- [Architecture Pipeline](#architecture-pipeline)
+- [Description](#description)
+- [Framework / Key Theories or Models](#framework--key-theories-or-models)
+- [How Artificial Intelligence Works](#how-artificial-intelligence-works)
+- [Methods, Types & Variations](#methods-types--variations)
+- [Self-Practice / Hands-On Examples](#self-practice--hands-on-examples)
+- [Pitfalls & Challenges](#pitfalls--challenges)
+- [Feedback & Evaluation](#feedback--evaluation)
+- [Tools, Libraries & Frameworks](#tools-libraries--frameworks)
+- [Hello World! (Practical Example)](#hello-world-practical-example)
 - [Weak (Narrow) vs Strong AI](#weak-narrow-vs-strong-ai)
 - [Artificial General Intelligence (AGI)](#artificial-general-intelligence-agi)
-- Advanced Exploration
-- Zero to Hero Lab Projects
+- [Advanced Exploration](#advanced-exploration)
+- [Zero to Hero Lab Projects](#zero-to-hero-lab-projects)
 - [How to Build AI from Zero to Hero](#how-to-build-ai-from-zero-to-hero)
-- Continuous Learning Strategy
-- References
+- [Continuous Learning Strategy](#continuous-learning-strategy)
+- [References](#references)
 
 ## Introduction
-- **Artificial Intelligence (AI)** refers to machines and systems that simulate human intelligence to perform tasks such as reasoning, learning, and problem-solving.
+
+**Artificial Intelligence (AI)** refers to machines and systems that simulate human intelligence to perform tasks such as reasoning, learning, and problem-solving.
 
 ### Key Concepts
 - **Narrow AI**: AI systems designed to perform a specific task (e.g., speech recognition, recommendation systems).
