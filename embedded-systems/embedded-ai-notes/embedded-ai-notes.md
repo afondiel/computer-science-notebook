@@ -1,10 +1,11 @@
 # Embedded AI - Notes
 
-## Table of Contents (ToC)
+## Table of Contents
 
   - [Overview](#overview)
   - [Applications](#applications)
-  - [Tools \& Frameworks](#tools--frameworks)
+  - [Embedded AI vs On-Device AI](#embedded-ai-vs-on-device-ai)
+  - [Tools & Frameworks](#tools-frameworks)
   - [Hello World!](#hello-world)
   - [References](#references)
 
@@ -20,6 +21,42 @@ Embedded AI involves integrating artificial intelligence algorithms and models i
 - Healthcare: Remote patient monitoring, medical imaging.
 - Industrial IoT: Predictive maintenance, quality control.
 - Consumer Electronics: Voice assistants, image recognition in smartphones.
+
+
+## **Embedded AI vs On-Device AI**
+
+**Embedded AI** and **On-Device AI** are related but refer to slightly different concepts.
+
+### Embedded AI
+- **Definition**: Embedded AI focuses on integrating AI models within dedicated hardware systems that are usually part of a larger machine or infrastructure. These systems are often constrained in terms of computing resources and are purpose-built for specific applications.
+- **Key Characteristics**:
+  - Often deployed on **microcontrollers, ASICs (Application-Specific Integrated Circuits)**, or **FPGAs (Field-Programmable Gate Arrays)**.
+  - Designed to perform specialized tasks within an embedded system, such as sensor data processing, control systems, or automation.
+  - **Examples**: AI in industrial automation systems, smart home devices, robotics, and autonomous vehicles.
+
+### On-Device AI
+- **Definition**: On-Device AI refers to deploying AI models directly on end-user devices, like smartphones, tablets, or IoT gadgets, allowing AI to run locally without needing a network connection.
+- **Key Characteristics**:
+  - Focuses on **real-time processing** and low-latency applications by processing data directly on the device.
+  - Primarily designed for consumer-grade hardware, which may include **smartphones, laptops, and other mobile or edge devices**.
+  - **Examples**: Facial recognition on phones, voice recognition on smart assistants, real-time language translation apps.
+
+### Key Differences
+1. **Purpose and Environment**:
+   - Embedded AI: Often serves specific, task-oriented applications within broader systems (e.g., a microcontroller in a car sensor).
+   - On-Device AI: Provides more general-purpose AI capabilities on mobile or edge devices intended for individual users.
+
+2. **Hardware Constraints**:
+   - Embedded AI: Usually operates within strict resource constraints and is optimized for specific hardware architectures (e.g., microcontrollers).
+   - On-Device AI: More flexible, often leveraging device-specific ML frameworks (e.g., TensorFlow Lite or Core ML) on consumer devices with more computational power than embedded systems.
+
+3. **Common Applications**:
+   - Embedded AI: Industrial and automotive systems, medical devices, smart sensors, robotics.
+   - On-Device AI: Smartphones, tablets, AR/VR headsets, wearable health devices, smart speakers.
+
+### Overlap
+
+There’s a significant overlap since **On-Device AI can be seen as a subset of Embedded AI** when it’s used in mobile or consumer-grade devices with computational capabilities. Both aim to localize AI processing for privacy, real-time response, and reduced dependency on cloud resources.
 
 ## Tools & Frameworks
 
