@@ -1,2 +1,0 @@
-mongoDB 5.0.5
-python3.10.1
