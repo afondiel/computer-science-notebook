@@ -1,0 +1,30 @@
+==== Self-Driving Cars Specialization ===
+
+
+#############################################
+COURSE 1 : INTRODUCTION TO SELF-DRIVING CARS
+#############################################
+//W1 : 
+//W2 : 
+#############################################
+COURSE 2 : SELF ESTIMATION AND LOCALIZATION FOR SELF-DRIVING CARS
+#############################################
+//W1 : 
+//W2 : 
+
+#############################################
+COURSE 3 : VISUAL PERCEPTIONS FOR SELF-DRIVING CARS
+#############################################
+//W1 : 
+//W2 : 
+
+#############################################
+COURSE 4 : MOTIONS PLANNING FOR SELF-DRIVING CARS
+#############################################
+//W1 : 
+//W2 : 
+
+
+# References : 
+
+courses : https://www.coursera.org/learn/intro-self-driving-cars/home/welcome
