@@ -1,3 +1,0 @@
-- gcc compiler
-- debuger
-- ide
