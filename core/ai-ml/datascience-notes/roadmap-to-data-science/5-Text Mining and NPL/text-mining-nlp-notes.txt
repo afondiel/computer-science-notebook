@@ -1,0 +1,18 @@
+== Agenda == 
+
+Corpus
+Named Entity Recognition
+Text Analysis
+UIMA
+Term Document Matrix
+Term Frequency & Weight
+Support Vector Machines
+Association Rules
+Market Based Analysis
+Feature Extraction
+Using Mahout
+Using Weka
+Using NTLK
+Classy Text
+Vocabulary
+

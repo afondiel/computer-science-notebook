@@ -1,0 +1,26 @@
+============ Data Analytics Notes =======
+
+Data analysis is the process of gleaning insights from data to inform better business decisions.
+
+# References 
+
+Analytics : 
+https://en.wikipedia.org/wiki/Analytics
+
+BI : 
+https://en.wikipedia.org/wiki/Business_intelligence
+
+Data Management : 
+https://en.wikipedia.org/wiki/Data_management
+
+Big Data : 
+https://en.wikipedia.org/wiki/Big_data
+
+Job coursera: 
+https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide
+
+Data analysis : 
+https://en.wikipedia.org/wiki/Data_analysis
+
+WEF_Future_of_Jobs_2020 : 
+https://www3.weforum.org/docs/WEF_Future_of_Jobs_2020.pdf

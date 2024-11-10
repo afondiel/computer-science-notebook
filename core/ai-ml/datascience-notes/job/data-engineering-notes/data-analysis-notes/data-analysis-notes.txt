@@ -1,0 +1,10 @@
+==== Data Analysis Notes ====
+
+# References 
+
+Motorsports : 
+https://www.youtube.com/watch?v=lyPNAA1wfiY
+https://www.youtube.com/watch?v=_uVoezDzG9A
+Stocks : 
+Agritech/FoodTech : https://www.coursera.org/learn/sql-data-science/lecture/b7ptR/analyzing-data-with-python 
+dataset : https://archive.ics.uci.edu/ml/machine-learning-databases/
