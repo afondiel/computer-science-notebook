@@ -1,0 +1,9 @@
+====== SUBVERION (SVN) Notes =========
+
+# References : 
+
+svn doc : https://subversion.apache.org/
+
+Tortoise svn : https://tortoisesvn.net/
+
+svn client CMD: https://svnbook.red-bean.com/en/1.7/svn.ref.svn.html
