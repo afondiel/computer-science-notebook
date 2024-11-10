@@ -1,9 +1,0 @@
-TODO-TRANSFORMER 
-
-
-
-
-https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
-https://www.youtube.com/watch?v=TQQlZhbC5ps
-
-https://huggingface.co/docs/transformers/index
