@@ -1,0 +1,50 @@
+============ Proba Notes  ============
+
+- (ln. probabilitas) science du hasard / Inverse de la certitude
+- permet de calcul de dégré de certitues d'une valeur, événement, résultat d'une expérience ...
+
+X : variable/expérience aléatoire
+
+- qualitatives ? 
+- quantitatives ? 
+
+
+# Les lois de proba
+
+
+## Lois discrètes : Une loi de probabilité est dite discrète quand l'expérience aléatoire associée à cette loi ne peut prendre qu'un nombre limité de valeurs distinctes (qualitatives ou quantitatives)
+
+### Loi de Uniforme  (E(X), V(X))
+### Loi de Bernoulli  (E(X), V(X))
+### Stabilité de la loi binomiale  (E(X), V(X))
+### Loi binomiale négative (des temps d’attente)  (E(X), V(X))
+### Loi géométrique ou loi de Pascal ou binomiale négative avec n=  (E(X), V(X))
+### Loi de Uniforme  (E(X), V(X))
+
+ 
+## Lois continues : Une loi de probabilité est dite continue quand l'expérience aléatoire associée à cette loi peut prendre n'importe quelle valeur dans un intervalle défini, ouvert ou non.
+
+
+### Loi de Uniforme (E(X), V(X))
+### Loi normale ou loi de Laplace-Gauss  (E(X), V(X))
+### Stabilité de la loi binomiale  (E(X), V(X))
+### Loi normale centré et réduite (E(X), V(X))
+
+#### Lois déduites de la loi normale 
+- Loi du χ2 de Pearson
+- Loi de Student
+- Loi de Fisher-Snedecor
+
+
+
+/!\ Convergence en loi
+--> Le théorème central limite
+
+
+# references 
+
+https://fr.wikipedia.org/wiki/Portail:Probabilit%C3%A9s_et_statistiques
+https://dun.unistra.fr/ipm/unit/bayesien/co/1_5_1_0.html#:~:text=Notion%20de%20loi%20discr%C3%A8te%20ou%20continue&text=Une%20loi%20de%20probabilit%C3%A9%20est%20dite%20continue%20quand%20l'exp%C3%A9rience,n'a%20plus%20de%20sens
+
+
+

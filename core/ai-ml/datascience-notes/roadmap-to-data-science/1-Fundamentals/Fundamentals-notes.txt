@@ -1,0 +1,18 @@
+== Agenda ==
+
+Matrices & Linear Algebra Fundamentals
+Hash Functions, Binary Tree, O(n)
+Relational Algebra, DB Basics
+Inne, Outer, Cross, Theta Join
+CAP Theorem
+Tabular Data
+Data Frame & Series
+OLAP
+Multidimensional Data Model
+ETL
+Reporting Vs BI Vs Analytics
+JSON & XML
+NoSQL
+Regex
+Vendor Landscape
+Env Setup

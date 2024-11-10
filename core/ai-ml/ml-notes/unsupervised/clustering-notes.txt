@@ -1,0 +1,14 @@
+============ Clustering Notes =============
+
+Clustering : automatic grouping of similar objects into sets.
+
+# References
+
+Scikit learn :
+https://scikit-learn.org/stable/#
+
+Scikit learn Clustering :
+https://scikit-learn.org/stable/modules/clustering.html#clustering
+
+Notebook : 
+https://nbviewer.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb

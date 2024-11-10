@@ -1,0 +1,77 @@
+=============== REGRESSION NOTES ==============
+
+- Invented by Francis Galton (1886)
+
+* Goal: 
+    - Study correlation between prices
+    - Magnetude of relationship (between variables, features of a system ..)
+
+
+* Applications : 
+- medecines (medical models)
+- Business (consummer behavior, firm productivity, competiveness of public/private sector)
+
+* Model (Y = mX + b)
+
+(price) 
+^  
+|  /
+| /
+|/
++++++-> (surface/size)
+
+X -->[  ? ]--> Y
+
+where : 
+- Y : Response var (dependent var to explain/predict based on value of the independent var ) - variable to train/predict based on X
+- X : explanatory/independent var/preditor
+- m : weight
+- b : error/bias
+
+/!\ This model can predict the price of any sized house based on where the value falls on the regression line /!\
+
+* Adjusted Response
+^     ^
+Y  = mX 
+
+* residual error
+^       ^
+e = Y - Y
+
+## SUPERVISED NEURAL NERWORK(NN) : REGRESSION & CLASSIFICATION                      
+- Classification : groups data in some classes 
+- Regression : predicts values based on line which best models the relationship between the independent(X)
+                and dependent variables(Y)
+                => Predict values on a continues spectrum rather than discret Classes
+
+* Cost Fonction for linear regression
+                  ^
+MSE = 1/n*sum(Y - Y)^2 => the derivate gives the Gradien Descent 
+
+
+* Optimization algorithm (MODEL Optimization ? )
+
+Gradien Descent : 1st order (derivative) to find the minimum value i.e reducing error of the cost function
+- derivate of response based on model parameters (m,b)
+
+Expresion : 
+
+f(m,b) = [df/dm] = [ ? ]
+         [df/db]   [ ? ]
+
+* Cost ?
+* Precision ? 
+
+
+
+ * ========== Glossary : ============
+
+- bias : is a "weighing" factor on the interpretation of the results in a more or less hidden way. When we speak of a biased analysis, the results are mathematically correct but their interpretation is distorted by the bias.
+- error: generates false results. Basically, if the data is wrong the results are wrong, if the calculation formulas are wrong or inadequate the results are wrong.
+- residuals  : represent the portion of variability not explained by the model.
+- MSE : mean squared error (erreur quadratique moyenne)
+
+
+
+
+
