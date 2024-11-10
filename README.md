@@ -1,91 +1,153 @@
-<p align="center" width="100%">
-    <img src="./outro/tools/logo-new.png" height = 200 width="250" style="border:0px solid #FFFFFF; padding:1px; margin:1px; border-radius: 10%;">
-</p>
+<h1 align="center" width="100%"> 💻 Computer Science Notebook 📔</h1>
 
-<h1 align="center" width="100%">Computer Science Notebook</h1>
+<div align="center">
+  <img src="https://img.shields.io/github/repo-size/afondiel/computer-science-notebook" alt="GitHub repo size">
+  <img src="https://img.shields.io/github/commit-activity/t/afondiel/computer-science-notebook/master" alt="GitHub commit activity (branch)">
+  <img src="https://img.shields.io/github/stars/afondiel/computer-science-notebook.svg" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/afondiel/computer-science-notebook.svg" alt="GitHub forks">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/afondiel/computer-science-notebook) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/afondiel/computer-science-notebook/master) ![Packagist Stars](https://img.shields.io/github/stars/afondiel/computer-science-notebook.svg) ![Packagist forks](https://img.shields.io/github/forks/afondiel/computer-science-notebook.svg) 
+   <p align="center" width="100%">
+      <img src="./meta/tools/logo-new.png" height = 280 width="400" style="border:0px solid #FFFFFF; padding:1px; margin:1px; border-radius: 5%;">
+   </p>
+   <p><b> Making computer science knowledge accessible to everyone, from theory to industry practice.</b></p>
+</div>
 
-## Overview
+## 🎯 Overview
 
-Essential computer science notes and resources for software engineers and developers of all levels.
+The **Computer Science Notebook** is a comprehensive, community-driven knowledge base that bridges the gap between theoretical computer science and its real-world industry applications.
 
-## Motivation
+Whether you're a student learning the fundamentals, a professional looking to switch industries, or an experienced developer exploring new domains, this notebook is your companion.
 
-During my work as Software Engineer Consultant I've worked on a variety of projects across diverse industries, including **electric cars**, **agriculture**, passanger safety and comfort.
+## 📚 Project Structure
 
-I thought it'd be helpful to create a sort of [Whole Computer Science Catalog](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) to gather all resources in one place. I hope you find it helpful and feel free to contribute.
+```
+computer-science-notebook/
+├── core/                     # Core CS Topics
+│   ├── programming/         # Languages, patterns, practices
+│   ├── systems/            # OS, embedded, cloud
+│   ├── ai-ml/             # AI, ML, computer vision
+│   └── engineering/       # Architecture, testing, DevOps
+├── industry/                # Industry Applications
+│   ├── automotive/        # Electric vehicles, safety systems
+│   ├── agriculture/       # Smart farming, IoT
+│   └── aerospace/        # Navigation, control systems
+└── meta/                    # Project Resources
+    ├── docs/             # Contributing guidelines
+    └── resources/        # Books, courses, interviews
+```
 
-## Key Features
-- Access the notebook anywhere, online or offline.
-- Use it as a knowledge base for software engineering concepts and practices.
-- Refresh your memory with the notebook's quick overviews.
-- Prepare for job interviews with the notebook's comprehensive guidance.
-- Review your CS foundations with the notebook's structured approach.
-- Stay updated on the latest software engineering trends.
+## 🌟 Key Features
 
+### For Students & Learners
+- **Core CS Fundamentals**: Comprehensive coverage of essential computer science topics
+- **Practical Examples**: Real code samples and implementations
+- **Learning Paths**: Structured guidance from basics to advanced topics
+- **Interview Prep**: Curated resources for technical interviews
 
-## Key Benefits
-- **Accelerate Your Learning**: Use concise and short notes curated by passionate software engineers, to boost your productivity.
-- **Wide-Ranging Resources**: From algorithms to data structures, design patterns to coding best practices, the notebook covers it all.
-- **Interactive Learning**: Discover engaging code examples, real-world applications, and interactive challenges to solidify your understanding.
-- **Community-Driven**: The notebook is maintained by a vibrant community of developers like yourself, all working together to shape the future to make CS resources accessible to all.
+### For Industry Professionals
+- **Industry Applications**: Real-world implementations across different sectors
+- **Case Studies**: Detailed analysis of industry-specific solutions
+- **Best Practices**: Industry-standard approaches and methodologies
+- **Cross-Domain Knowledge**: Learn how concepts apply across different industries
 
-## Topics
+## 🚀 Getting Started
 
-From programming languages, design patterns, and testing to more advanced topics such as Data Science, and computer vision. You will also find the latest research papers and notebooks about AI, ML, DL, LLMs, IoT, robotics, and more.
+### Online Access
+Visit our documentation at: https://afondiel.github.io/computer-science-notebook/
 
-## Getting Started
-
-If you'd like to read the notes online, you can visit https://afondiel.github.io/computer-science-notebook/.
-
-If you'd like to read it locally, [install Rust](https://www.rust-lang.org/tools/install), and then:
-
+### Local Setup
 ```bash
+# Clone the repository
 git clone https://github.com/afondiel/computer-science-notebook
+
+# Navigate to the project
 cd computer-science-notebook
+
+# Install mdbook (requires Rust)
 cargo install mdbook
+
+# Build and serve locally
 mdbook build
 mdbook serve
 ```
 
-Happy learning and have fun!
+## 🔍 Finding What You Need
 
-## Roadmap: Note Generation using LLM
+1. **Learning Core CS**:
+   - Start with `/core` for fundamental topics
+   - Each topic includes theory, examples, and practical applications
 
-- **Generate note using LLM from a CLI**: 
-  - [hello_world_prompt.md](./hello_world_prompt.md) for files creation
-  - `LLM API` for note content generation, such as Claude, Gemini, GPT3.5, .. 
-- **Generate note using LLM from a Web App**:
-    - Related work: https://notebooklm.google/
+2. **Industry Applications**:
+   - Browse `/industry` for sector-specific implementations
+   - Find real-world applications of CS concepts in different domains
 
-## Contribute
+3. **Resources & Meta**:
+   - Check `/meta` for learning resources and project documentation
+   - Find interview preparation materials and study guides
 
-Please refer to [CONTRIBUTING.md](./CONTRIBUTING.md) to see how you can help this project grow and make learning accessible to all.
+## 🤝 Contributing
 
+We welcome contributions from everyone! Here's how you can help:
 
-`Some tasks to tackle:`
+1. **Add Core Content**:
+   - Enhance existing CS topics
+   - Add new theoretical concepts
+   - Contribute code examples
 
-- Add guideline notes on how to get into a specific industry/company
-- Add more industries: Telecommunications & Network, Aerospace, Defense, Naval, etc ...
-- Create a pipeline to generate a 'hello world' note content using [hello_world_prompt.md](./hello_world_prompt.md) + LLM API: Claude, Gemini, GPT3.5, ... 
+2. **Share Industry Experience**:
+   - Add case studies from your industry
+   - Document real-world applications
+   - Share industry-specific best practices
 
+3. **Improve Resources**:
+   - Add learning materials
+   - Create or enhance documentation
+   - Share interview experiences
 
-## LICENSE
+See our [Contributing Guide](CONTRIBUTING.md) for detailed instructions.
 
-[MIT](https://en.wikipedia.org/wiki/MIT_License)
---
+## 🛣️ Roadmap
+
+1. **Content Enhancement**:
+   - Expanding industry coverage
+   - Adding interactive examples
+   - Creating comprehensive learning paths
+
+2. **Technical Features**:
+   - LLM-powered note generation
+   - Interactive code examples
+   - Improved search and navigation
+
+3. **Community Growth**:
+   - Industry expert contributions
+   - Peer review system
+   - Community discussions
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⭐ Support the Project
+
+If you find this notebook helpful:
+- Star the repository
+- Share it with others
+- Contribute your knowledge
+- Report issues or suggest improvements
+
+## 🙏 Acknowledgments
+
+Special thanks to all contributors who have helped make this knowledge base possible. Together, we're making computer science education more accessible to everyone.
+
+---
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=afondiel/computer-science-notebook&type=Date)](https://star-history.com/#afondiel/computer-science-notebook&Date)
 
->As a lifelong learner and someone who believes that **free education** will make the world a better a place, I hope you find this project useful and inspiring as I do.
+---
+> As a lifelong learner and advocate for accessible education, I hope this project helps you in your journey. Feel free to reach out with questions or suggestions!
 >
->Cheers,
->
+> Cheers,  
 >[@Muntu](https://github.com/afondiel)
-
-
-
-
+>
