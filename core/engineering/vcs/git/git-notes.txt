@@ -1,0 +1,11 @@
+============ GIT NOTES =================
+
+
+### doc: 
+
+- https://git-scm.com/
+
+
+### Top 20 Git Commands : 
+
+https://www.perforce.com/blog/vcs/perforce-vs-git-commands-you-should-know
