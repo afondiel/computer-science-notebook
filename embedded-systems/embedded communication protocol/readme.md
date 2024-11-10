@@ -1,1 +1,0 @@
-# embedded communication protocols notes
