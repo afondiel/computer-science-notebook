@@ -1,231 +1,401 @@
-# Contributor Guidelines
+# Contributing Guidelines
 
-**Contribute to Excellence**
+Welcome to the **Computer Science Notebook**! We're excited to have you contribute to this knowledge base that bridges theoretical computer science with real-world applications.
 
-- Are you passionate about sharing your expertise and making learning accessible to all? Join us in our mission to empower software engineers worldwide. Whether you're a seasoned pro or just starting your journey, your contributions are invaluable. Together, we can create a resource that will benefit countless aspiring and experienced developers.
-
-**How to Contribute**
-
-- Getting started is easy! Dive into our open issues, propose new topics, enhance existing content, or collaborate with our community of like-minded contributors. Your contributions will not only help others but also establish your presence in the ever-expanding world of computer science education.
-
-Join us in shaping the future of software engineering education and be a part of something truly remarkable. Start today and become an integral part of this exciting journey!
-
-You can contribute in many ways :
-
-## Notes Structure
-
-**Note Template**
-
-Your note folder should have the following structure:
+## Project Structure
 
 ```
-E:.
-│   topic-notes.md
-│   readme.md
-│
-├───docs
-└───lab
+computer-science-notebook/
+├── core/                     # Core CS concepts
+├── industry/                # Industry applications
+└── meta/                    # Resources & docs
 ```
 
-To generate/create a note files, you can either:
+## How to Contribute
 
-**Customize your note manually**
+You can contribute to any of these main areas:
 
-- Create a new folder with the "topic-name"
-- Inside the root folder (topic-name), add: 
-  - 2 other subfolders: `docs`, `lab`
-  - 1 markdown file for the note: `topic-notes.md`
-  - 1 `readme.md`for notes with slight description
+1. **Core Topics** (`/core`)
+   - Theoretical concepts
+   - Programming examples
+   - Best practices
+   - Implementation guides
 
-**Or use the [hello_world.py](hello_world.py) tool** (Please refer to the section [Note & Content Generation](#note--content-generation), for more details).
+2. **Industry Applications** (`/industry`)
+   - Case studies
+   - Real-world implementations
+   - Industry-specific guides
+   - Project examples
 
+3. **Meta Resources** (`/meta`)
+   - Documentation
+   - Learning resources
+   - Career guides
+   - Project tools
 
-### `topic-notes.md` Format
+## Document Templates
 
+### Core Topic Template
 ```
-# {Topic} - Notes
-## Table of Contents (ToC)
-## Introduction
-### What's `topic`?
-### Applications
-## Fundamentals
-### How `topic` works?
-#### Topic Architecture Pipeline (image/mermaid diagram, ...)
-## Tools & Frameworks
-## Hello World!
-## Lab: Zero to Hero Projects
-## References
+core/<topic-area>/<specific-topic>/
+│   README.md
+│   topic-guide.md
+├── concepts/
+│   └── core-concepts.md
+├── examples/
+│   └── implementation.md
+├── resources/
+│   └── additional-materials.md
+└── industry-applications/
+    └── industry-links.md
 ```
 
-### `readme.md` Format
-
+### Industry Application Template
 ```
-# Machine Learning Notes
+industry/<sector>/<application>/
+│   README.md
+│   overview.md
+├── case-studies/
+│   └── example-implementation.md
+├── technical-guide/
+│   └── implementation-details.md
+└── core-topics/
+    └── related-concepts.md
+```
 
-![](img)
+### Content Guidelines
 
-(Src: link)
+#### README.md Format
+```markdown
+# Topic Title
+
+![Optional Topic Image]()
 
 ## Overview
+Brief description of the topic/application
 
-This is <topic> "Hello World" resources.
+## Key Concepts
+- Core concept 1
+- Core concept 2
+- Core concept 3
+
+## Quick Start
+Basic getting started guide
+
+## Related Topics
+Links to related content
 
 ## Contributing
-
-Please refer to this [CONTRIBUTING.md](../../CONTRIBUTING.md) file.
-
-> ### “Any funny/interesting quote/citation about the topic” — @Author
+How to contribute to this section
 ```
 
-### `Lab` Content
+#### Technical Content Format
 
-Notebooks, source code, coding playground link such: leetcode, replit ...
+```markdown
+# {Topic} Technical Notes
 
-If you are submiting a source code refer to the file below : 
+## Quick Reference
+- One-sentence definition
+- Key use cases
+- Prerequisites [scales with audience level]
 
-- [CODING_CONVENTIONS.md](./sw-documentation-convention/CODING_CONVENTIONS.md)
-- [CODING_CONVENTIONS_C++.md](./sw-documentation-convention/CODING_CONVENTIONS_C++.md)
+## Content Overview
+[Auto-generated sections based on audience level and focus area]
 
-### `Docs` Content
-
-Documentation, research papers ...
-
-
-## Note & Content Generation
-
-**Generate files and folders with [hello_world.py](hello_world.py) tool**. 
-
-The tool generate the note structure in 3 steps:
-
-1. create a note template 
-
-```python
-def note_content_template(topic):
-    pass
-```
-2. Then creates the repos `docs` & `lab` 
-
-```python
-def create_repo(repo_name):
-    pass
-```
-3. Finally, it generates the entire template files
-
-```python
-def note_gen(topic_name):
-    pass
-```
-**Usage**
-```
-Usage: python hello_world.py [options] <NotePath> <NoteName>
-
-<NotePath>
-        Specify a path if you want to generate the note in a different location
-<NoteName>
-        Note/Topic name
-Options:
-        -v, --verbose: print debug informationn
-        -a, --all: display the list of current notes
-        -h, --help: see usage
-        -f, --file: add new file
-```
-
-Try it out! by running the command below. Choose a `topic`, and create your first note:
-
-```python
-python hello_world.py topic-name
-```
-
-output:
-
-```
-E:.
-│   topic-notes.md
-│   readme.md
-│
-├───docs
-└───lab
-```
-
-**ChatGPT/Bard Prompt for Content Generation**
-
-After generating your first (empty) note you can fill it out the content by using the prompt below (if you're using Copilot, It might do trick as well)
-
-```
-I'm going to train you how to write a short-form summary in academic style.
-
-The summary has the following format:
-
-"""
-# {Topic} - Notes
-## Table of Contents (ToC)
 ## Introduction
-### What's {topic}?
-### Key Concepts and Terminology
-### Applications
-## Fundamentals
-### {Topic} Architecture Pipeline (image/mermaid diagram, ...)
-### How {topic} works?
-### Types of {topic}?
-### Some hands-on examples 
-## Tools & Frameworks
-## Hello World!
-## Lab: Zero to Hero Projects
+- What: Core definition and purpose
+- Why: Problem it solves/value proposition
+- Where: Application domains
+[Depth scales with audience level]
+
+## Core Concepts
+### Fundamental Understanding
+- Basic principles [scales with audience level]
+- Key components
+- Common misconceptions [audience-specific]
+
+### Visual Architecture
+[Mermaid diagrams - complexity scales with level]
+- System overview
+- Component relationships
+[Technical depth based on focus area]
+
+## Implementation Details
+[Scales significantly based on audience level]
+
+### Basic Implementation [Beginner]
+```[language]
+// Basic working example with detailed comments
+``
+- Step-by-step setup
+- Code walkthrough
+- Common pitfalls
+
+### Intermediate Patterns [Intermediate]
+```[language]
+// Basic working example with detailed comments
+``
+- Design patterns
+- Best practices
+- Performance considerations
+
+### Advanced Topics [Advanced]
+```[language]
+// Basic working example with detailed comments
+``
+- System design
+- Optimization techniques
+- Production considerations
+
+## Real-World Applications
+[Focus area specific]
+### Industry Examples
+- Use cases [complexity scales with level]
+- Implementation patterns
+- Success metrics
+
+### Hands-On Project
+[One focused project matching audience level]
+- Project goals
+- Implementation steps
+- Validation methods
+
+## Tools & Resources
+[Curated based on audience level]
+### Essential Tools
+- Development environment
+- Key frameworks
+- Testing tools
+
+### Learning Resources
+- Documentation
+- Tutorials
+- Community resources
+
 ## References
-"""
+- Official documentation
+- Technical papers
+- Industry standards
+[Depth varies by focus area]
 
-Here are the rules:
-- Generate a table of contents based on summary format given above
-- Replace `{Topic}` with the name of the topic I will give you
-- The `Introduction` section shall be a short one-line sentence
-- Use 3-5 succinct bullet lists for each section of the summary.
-- The `Hello World!` section shall be a code snippet
-- Do not use hashtags and emojis. Ever.
-- Output the summary in markdown format
-- Add the references in `References` section
-- This summary is tailored for beginners, intermediate and advanced who want to gain a strong foundation of {topic}.
+## Appendix
+[Optional sections based on focus area]
+- Glossary
+- Setup guides
+- Code templates
+```
+
+## Contribution Process
+
+1. **Select Your Focus**
+   - Choose between core topics, industry applications, or meta resources
+   - Check existing content to avoid duplication
+   - Identify gaps in current documentation
+
+2. **Fork & Setup**
+   ```bash
+   git clone https://github.com/your-username/computer-science-notebook
+   cd computer-science-notebook
+   git checkout -b feature/your-contribution
+   ```
+
+3. **Create Content**
+   - Use appropriate template based on contribution type
+   - Follow folder structure conventions
+   - Include necessary cross-references
+
+4. **Quality Guidelines**
+   - Write clear, concise content
+   - Include practical examples
+   - Link to related topics
+   - Add references and citations
+   - Follow markdown best practices
+
+5. **Submit Changes**
+   ```bash
+   git add .
+   git commit -m 'Add: brief description of changes'
+   git push origin feature/your-contribution
+   ```
+
+6. **Create Pull Request**
+   - Use the PR template
+   - Link related issues
+   - Provide clear description
+   - Request review from maintainers
+
+## Content Generation Tools
+
+### Using the Note Generator
+```bash
+python tools/generate.py --type <core|industry|meta> --path <path> --name <topic-name>
+```
+
+### AI-Assisted Content Generation
+You can use the following prompt template with AI tools:
+
+```text
+Generate a technical guide for [TOPIC] following this structure:
+
+```markdown
+# {Topic} Technical Notes
+
+## Quick Reference
+- One-sentence definition
+- Key use cases
+- Prerequisites [scales with audience level]
+
+## Table of Contents
+[Auto-generated sections based on audience level and focus area]
+
+## Introduction
+- What: Core definition and purpose
+- Why: Problem it solves/value proposition
+- Where: Application domains
+[Depth scales with audience level]
+
+## Core Concepts
+### Fundamental Understanding
+- Basic principles [scales with audience level]
+- Key components
+- Common misconceptions [audience-specific]
+
+### Visual Architecture
+[Mermaid diagrams - complexity scales with level]
+- System overview
+- Component relationships
+[Technical depth based on focus area]
+
+## Implementation Details
+[Scales significantly based on audience level]
+
+### Basic Implementation [Beginner]
+```[language]
+// Basic working example with detailed comments
+``
+- Step-by-step setup
+- Code walkthrough
+- Common pitfalls
+
+### Intermediate Patterns [Intermediate]
+```[language]
+// Basic working example with detailed comments
+``
+- Design patterns
+- Best practices
+- Performance considerations
+
+### Advanced Topics [Advanced]
+```[language]
+// Basic working example with detailed comments
+``
+- System design
+- Optimization techniques
+- Production considerations
+
+## Real-World Applications
+[Focus area specific]
+### Industry Examples
+- Use cases [complexity scales with level]
+- Implementation patterns
+- Success metrics
+
+### Hands-On Project
+[One focused project matching audience level]
+- Project goals
+- Implementation steps
+- Validation methods
+
+## Tools & Resources
+[Curated based on audience level]
+### Essential Tools
+- Development environment
+- Key frameworks
+- Testing tools
+
+### Learning Resources
+- Documentation
+- Tutorials
+- Community resources
+
+## References
+- Official documentation
+- Technical papers
+- Industry standards
+[Depth varies by focus area]
+
+## Appendix
+[Optional sections based on focus area]
+- Glossary
+- Setup guides
+- Code templates
 
 
-I am going to give you a topic name and you write a summary based on the topic.
+Rules:
+
+Target audience: [beginner/intermediate/advanced]
+
+- Beginner: 
+
+[Template would emphasize fundamental understanding, basic implementations, and learning resources while minimizing advanced topics]
+
+- intermediate:
+
+[Template would emphasize design patterns, best practices, and performance considerations while assuming fundamental knowledge and minimizing advanced topics]
+
+- Advanced:
+
+[Template would focus on production implementations, system design, and real-world case studies while assuming fundamental knowledge]
+
+Focus area: [core concept/industry application]
 
 Do you understand?
 ```
+### Usage Example:
 
-Transition:
-
+```md
+- Topic: Machine Learning
+- Target audience: Beginner
+- Focus area: Core Concepts
 ```
-Topic={Topic}
-``` 
 
-The final output should be a something like [this](./ai/agi-notes/)!
+## Style Guidelines
 
-Notice: this prompt might not work in the first attempt depending on the what AI chat you're in. Just hit `regenerate` to give the LLM the time to "think" if that the case
+1. **Writing Style**
+   - Use clear, professional language
+   - Avoid jargon without explanation
+   - Include practical examples
+   - Cross-reference related topics
 
-## Steps to Contribute
+2. **Code Style**
+   - Follow language-specific conventions
+   - Include comments and documentation
+   - Provide working examples
+   - Test before submission
 
-1. Fork it!
-2. Branch off of `master`: `git checkout master`
-3. Create your note branch: `git checkout -b my-new-note`
-4. Make changes
-5. Commit your changes: `git commit -m 'Add topic notes/Add new changes, in case you add new change to an existant note'`
-6. Push to the branch: `git push origin my-new-note`
-7. Submit a pull request. Make sure it is based off of the `master` branch when submitting! :D
- 
-`Notice`: You might come across to the following commit message patterns `topic-notes: Hello World!`. This because when I started the project, I was the only contributor, so instead of creating a new branch + PR, for each note, I just made my life easier working directly on master branch  (not a good practice, and I apologize to [Linus Torvalds](github.com/Torvalds) If He reads this one day though :D)
+3. **Documentation**
+   - Use consistent formatting
+   - Include table of contents
+   - Add diagrams where helpful
+   - Cite sources and references
 
+## Getting Help
 
-## Note Taking resources
+- Create an issue for questions
+- Join our community discussions
+- Read our FAQ in the wiki
+- Contact maintainers directly
 
-Here you'll find some best practices, methods and techniques for note taking:
+## Recognition
 
-- [Note-taking](https://en.wikipedia.org/wiki/Note-taking)
-- [Zettelkasten - The art of taking notes](https://en.wikipedia.org/wiki/Zettelkasten)
-- [A Beginner’s Guide to the Zettelkasten Method](https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/)
-- [Note Taking Structures - Moving Beyond Bullets and Dashes By T. Milligan](https://www.dunwoody.edu/pdfs/Elftmann-Note-Taking-Structures.pdf)
-- [Common Note-taking Methods | University of Tennessee](https://www.utc.edu/enrollment-management-and-student-affairs/center-for-academic-support-and-advisement/tips-for-academic-success/note-taking)
+Contributors are recognized through:
+- Contributors list in README
+- Author credits in documents
+- Contribution badges
+- Community highlights
 
-The Feynman Technique
-- [Learning From the Feynman Technique](https://evernote.com/blog/learning-from-the-feynman-technique/)
+Remember: Quality over quantity. We value well-thought-out contributions that help others learn and understand complex topics.
 
+---
 
-
+Thank you for contributing to making computer science education more accessible to everyone!
