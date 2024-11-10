@@ -1,0 +1,103 @@
+////////////////////////////////////////////////////////////////////
+//// Section 5 : Computer Vision - Finding Lane Lines + OpenCV  ///
+//////////////////////////////////////////////////////////////////
+
+=> Computer vision lexicon:
+
+- Area of ​​interest: the part of the image that must be processed
+- Hystogram: it is the distribution (frequency) of grayscale (GS) of an image
+
+Pixels
+^(255)
+|                   +
+|                 + || +
+|     +          +  ||  +
+|   + || +      +   ||   + (density/frequency?)
+|  +  ||   + +      ||
+|     ||     ||     ||
+|     ||     ||     ||           Grayscale(GS) : samples
++-----+------+-------+--------->(255)
+0
+
+- Segmentation: operation which consists of extracting geometric primitives from an image.
+    => The most used primitives:
+        => Segments (outlines)
+        => Surfaces( regions)
+- Calibration: operation which consists in finding the relation between the coordinates in the image and the coordinates in the space of the scene.
+- Filter: takes an input image and produces a (cleaner) output image
+- LUT(Lool Up Table): conversion table that groups neighboring NG pixels into a single value.
+    => Matrix with different pixel values
+    => By doing operations on the LUTs it allows to process the image
+- PIXEL (Picture ELement): it is the smallest element of a digital image (2D)
+- VIXEL (Volumic PIXEL): pixel of a 3D image
+- Recale: geometric transformation technique allowing to go from a source image to a target image (destination)
+
+- Morphological:
+    => Skeleton
+    => Erosion
+    => Dilation
+- Frequency
+    => Frame
+    => Equalize
+    => Opening(object)
+    => Closure(hole)
+    => Filter(freq)
+
+- Operators:
+    => img(src) -> Img(destination)
+    => img (src) -> information set
+    => information set -> img(destination)
+    
+# Finding Lanes Lines  : 
+1/ load image => OK 
+    => pip install opencv-python
+
+2/ Gray Scale (Niveau de Gris (NG))
+- Edge Detection : identifying sharp changes in intensity in adjacent pixels 
+
+|
++--+-----+---+-----+--+
+|0 | 255 | 0 | 255 | 0|
++--+-----+---+-----+--+
++ : represents the edge 
+
+- img => 2D matrix => Array of pixels 
+- pixel  : light intensity of some location in the img 
+
+[0 0 255 255]
+[0 0 255 255]
+[0 0 255 255]
+[0 0 255 255]
+[0 0 255 255]
+0 ---------> 255
+where : 
+    0 : Black 
+    255 : White 
+
+- Gradient : measure of change in brightness over adjacent pixels 
+=> strong gradient (0 - 255)
+=> small gradient (0 - 15 ...)
+
+- Edge : rapid change in brightness
+
+### detection process ###
+
+goal : (original img) => gradient img 
+
+1/ original img (RGN : 3 channels ) => grayscale img (1 channel)
+2/ Use Hough Transform : a polar parametric space (parameters of the line)
+    => pixels can mathematically be represented in a scatter graph 
+    => we can the draw a (straight) line => (y =  mx + b )
+    => convert cartesian plan (m, b) to polar plan (Theta, Rho)
+    => the (new)pixel is the intersection of the lines in Hough space
+    => Also the (new) pixel represents the line chosen by the system of votes (numbers of intersections ) of severals courves of the plan 
+    => vote : number of intersection  
+
+3/ Optimization : 
+
+# References : 
+- book : programmming computer vision by Jan Erik Solem 
+- wikipedia : 
+https://en.wikipedia.org/wiki/Computer_vision
+- Lines Detection with Hough Transform
+https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549
