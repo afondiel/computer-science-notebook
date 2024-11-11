@@ -6,18 +6,20 @@
 - [Key Concepts](#key-concepts)
 - [Applications](#applications)
 - [AI Leading Companies](#ai-leading-companies)
-- [Architecture Pipeline](#architecture-pipeline)
+- [AI Pipeline](#ai-pipeline)
 - [Description](#description)
-- [Framework / Key Theories or Models](#framework--key-theories-or-models)
 - [How Artificial Intelligence Works](#how-artificial-intelligence-works)
 - [Methods, Types & Variations](#methods-types--variations)
+- [Framework / Key Theories or Models](#framework--key-theories-or-models)
+- [AI Evolution](#ai-evolution)
+- [Classic AI (Weak / Narrow)](#classic-ai-weak--narrow)
+- [Generative AI](#generative-ai)
+- [Artificial General Intelligence (AGI) - Strong AI](#artificial-general-intelligence-agi---strong-ai)
 - [Self-Practice / Hands-On Examples](#self-practice--hands-on-examples)
 - [Pitfalls & Challenges](#pitfalls--challenges)
 - [Feedback & Evaluation](#feedback--evaluation)
 - [Tools, Libraries & Frameworks](#tools-libraries--frameworks)
 - [Hello World! (Practical Example)](#hello-world-practical-example)
-- [Weak (Narrow) vs Strong AI](#weak-narrow-vs-strong-ai)
-- [Artificial General Intelligence (AGI)](#artificial-general-intelligence-agi)
 - [Advanced Exploration](#advanced-exploration)
 - [Zero to Hero Lab Projects](#zero-to-hero-lab-projects)
 - [How to Build AI from Zero to Hero](#how-to-build-ai-from-zero-to-hero)
@@ -43,25 +45,14 @@
 - **Entertainment**: AI drives recommendation systems on platforms like Netflix, YouTube, and Spotify.
 - **Robotics**: General Purpose Humanoid Robots
 - **Games**: strategic game systems (such as chess and Go).
-- Advanced web search engines (Google, Bing..), 
-- Recommendation systems (used by YouTube, Amazon and Netflix), 
-- Understanding human speech (such as Siri and Alexa), 
+- Advanced web search engines (Google, Bing..) 
+- Recommendation systems (used by YouTube, Amazon and Netflix) 
+- Understanding human speech (such as Siri and Alexa) 
 - Computer Vision: Image generation & synthesis ...
 - ...
 
-### AI Leading Companies
+## AI Pipeline
 
-- OpenAI
-- DeepMind
-- Google
-- MS
-- Meta
-- NVIDIA
-- AMD
-- Intel
-- ...
-
-## Architecture Pipeline
 ```mermaid
 graph LR
     A[Data Collection] --> B[Preprocessing and Cleaning]
@@ -80,14 +71,6 @@ graph LR
 - **Decision Making**: AI models generate insights, decisions, or predictions based on new inputs.
 - **Continuous Improvement**: AI systems learn and adapt from feedback or new data.
 
-
-## Framework / Key Theories or Models
-- **Turing Test**: A measure of a machine's ability to exhibit intelligent behavior equivalent to or indistinguishable from a human.
-- **Neural Networks**: Models that mimic the human brain to recognize patterns and solve problems in complex datasets.
-- **Reinforcement Learning**: A model where agents learn through rewards and penalties in an environment (e.g., AlphaGo).
-- **Natural Language Processing (NLP)**: Enables machines to understand, interpret, and respond to human language (e.g., GPT models).
-- **Historical Framework**: Early AI focused on rule-based systems, evolving into more data-driven approaches like machine learning and deep learning.
-
 ## How Artificial Intelligence Works
 - **Step 1**: Data is gathered, labeled, and preprocessed.
 - **Step 2**: An AI algorithm (e.g., neural networks, decision trees) is selected based on the nature of the task (e.g., image recognition, NLP).
@@ -102,13 +85,18 @@ graph LR
 - **Reinforcement Learning**: AI agents learn by interacting with environments and receiving rewards.
 - **Contrasting Example**: Rule-based systems use fixed instructions, while machine learning models adapt and improve over time.
 
+## Framework / Key Theories or Models
+- **Turing Test**: A measure of a machine's ability to exhibit intelligent behavior equivalent to or indistinguishable from a human.
+- **Neural Networks**: Models that mimic the human brain to recognize patterns and solve problems in complex datasets.
+- **Reinforcement Learning**: A model where agents learn through rewards and penalties in an environment (e.g., AlphaGo).
+- **Natural Language Processing (NLP)**: Enables machines to understand, interpret, and respond to human language (e.g., GPT models).
+- **Historical Framework**: Early AI focused on rule-based systems, evolving into more data-driven approaches like machine learning and deep learning.
+
 ## AI Evolution
 
-### I predicted the future of AI in 2016: Weak (Narrow) vs Strong AI 
+I predicted the future of AI in 2016: [Research Work - Strong AI (2016)](https://github.com/afondiel/computer-science-notebook/blob/master/ai/docs/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf)
 
-- [Research Work - Strong AI - 2016](https://github.com/afondiel/computer-science-notebook/blob/master/ai/docs/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf)
-
-### Classic AI (Weak/Narrow):
+### Classic AI (Weak / Narrow):
 
 > Able to analyse large amounts of data, which can be used, for example, to predict what content people will find more relevant or valuable.
 
@@ -118,13 +106,13 @@ graph LR
 > 
 - Related Notes: [GenAI](./generative-ai-notes/GenAI-notes.md)
 
-### Artificial General Intelligence (AGI) or Strong AI: 
+### Artificial General Intelligence (AGI) - Strong AI: 
+
+> Cognitive functions (like reasoning, planning and perception) that bring us to human capabilities and beyond.
 
 ![](./docs/ai-present-future/agi-model-meta.jpg)
 
-Src: from [Christian Keller (@Meta)](https://x.com/christiankeller) workshop from [ai-PULSE 2024](https://www.ai-pulse.eu/speakers/christian-keller).
-
-> Cognitive functions (like reasoning, planning and perception) that bring us to human capabilities and beyond.
+Src: from [Christian Keller (@Meta)](https://x.com/christiankeller) workshop [@ai-PULSE 2024](https://www.ai-pulse.eu/speakers/christian-keller).
 
 Related notes: 
 - [AGI notes](./agi-notes/agi-notes.md)
@@ -158,6 +146,17 @@ Some Embodied-AI for Autonomous Vehicles
 Embodied AI Workshop - CVPR 2023: 
 - [embodied-ai.org](https://embodied-ai.org/) 
 
+### AI Leading Companies
+
+- OpenAI
+- DeepMind
+- Google
+- MS
+- Meta
+- NVIDIA
+- AMD
+- Intel
+- ...
 
 ## Self-Practice / Hands-On Examples
 1. **Create a chatbot** using natural language processing libraries like NLTK or spaCy.
@@ -223,17 +222,16 @@ model.summary()
 - Study **transfer learning** to leverage pre-trained models for your own tasks.
 - Dive into **natural language processing (NLP)** and learn how AI models like GPT-4 generate human-like text.
 
-
 ## References
 
-Wikipedia resources
+Wikipedia resources:
   - [What's AI ?](https://en.wikipedia.org/wiki/Artificial_intelligence)
   - [Category](https://en.wikipedia.org/wiki/Category:Artificial_intelligence)
   - [path finding](https://en.wikipedia.org/wiki/Pathfinding)
   - [odemetry](https://en.wikipedia.org/wiki/Odometry)
   - [Turing machine](https://en.wikipedia.org/wiki/Turing_machine)
 
-Cognitive Science Tree Wikipedia
+Cognitive Science Tree Wikipedia:
   - https://en.wikipedia.org/wiki/Cognitive_science
   - https://en.wikipedia.org/wiki/Artificial_intelligence
   - https://en.wikipedia.org/wiki/Cognitive_psychology#Neisser
@@ -242,7 +240,7 @@ Cognitive Science Tree Wikipedia
   - https://en.wikipedia.org/wiki/Anthropology
   - https://en.wikipedia.org/wiki/Neuroscience
   
-Neural Nets
+Neural Nets:
   - https://en.wikipedia.org/wiki/Brain
   - https://en.wikipedia.org/wiki/Neuron
   - https://en.wikipedia.org/wiki/Machine_learning
@@ -253,15 +251,14 @@ Maths:
 - [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
 - [Quantum computing](https://en.wikipedia.org/wiki/Quantum_computing)
 
-
-Research Notes
+Research Notes:
 - [Machine Learning](https://github.com/afondiel/computer-science-notebook/tree/master/datascience-notes/ml-notes)
 - [Neural Network](https://github.com/afondiel/computer-science-notebook/tree/master/datascience-notes/deep-learning-notes)
 - [NLP](https://github.com/afondiel/computer-science-notebook/tree/master/datascience-notes/nlp-notes)
 - [Computer Vision ](https://github.com/afondiel/computer-science-notebook/tree/master/computer-vision-notes)
 - [robotics](https://github.com/afondiel/computer-science-notebook/tree/master/robotics)
 
-Projects : 
+Projects: 
 - https://github.com/afondiel/my-lab/tree/master/projects/ai 
 - https://github.com/afondiel/my-lab/tree/master/projects
 
@@ -272,7 +269,7 @@ Games:
   - https://en.wikipedia.org/wiki/Xiangqi
   - ayo-olopon : https://scorum.com/en-us/other/@jotmax/ayo-olopon-the-game-of-the-intellectual-an-african-board-game
 
-Mythology : 
+Mythology: 
   - https://en.wikipedia.org/wiki/Egyptian_mythology
   - https://en.wikipedia.org/wiki/Roman_mythology
 
@@ -294,9 +291,9 @@ Great AI Blog: [Jürgen Schmidhuber's AI Blog](https://people.idsia.ch/~juergen/
 My research on strong AI (AGI) survey from 1st grade of engineering degree @ [ENSEA](https://www.ensea.fr/en) - 2016: 
   - [Strong AI (AGI) survey  - ENSEA 2016](https://github.com/afondiel/computer-science-notebook/blob/master/ai/doc/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf) 
 
-Books
+Books:
 - [FREE AI BOOKs](https://github.com/afondiel/cs-books/tree/main/ai)
 
-Papers
+Papers:
 - [Research Papers](./research-papers/)
 - "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm" by DeepMind (AlphaZero paper).
