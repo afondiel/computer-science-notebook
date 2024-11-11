@@ -102,21 +102,46 @@ graph LR
 - **Reinforcement Learning**: AI agents learn by interacting with environments and receiving rewards.
 - **Contrasting Example**: Rule-based systems use fixed instructions, while machine learning models adapt and improve over time.
 
-## Weak (Narrow) vs Strong AI 
+## AI Evolution
+
+### I predicted the future of AI in 2016: Weak (Narrow) vs Strong AI 
 
 - [Research Work - Strong AI - 2016](https://github.com/afondiel/computer-science-notebook/blob/master/ai/docs/strong-ai-technical-presentation-ensea-2016/strong-ai-research-work-afonso-diela-full-ensea-2016-FR.pdf)
 
-## Artificial General Intelligence (AGI)
+### Classic AI (Weak/Narrow):
 
-General topic: check out the [AGI note](./agi-notes/agi-notes.md)
+> Able to analyse large amounts of data, which can be used, for example, to predict what content people will find more relevant or valuable.
 
+### Generative AI:
+
+> Generative Differeciate through its ability to create new content using text, audio, images or videos, which it can transfer into essays, songs, tunes, artwork, film, or advertising.
+> 
+- Related Notes: [GenAI](./generative-ai-notes/GenAI-notes.md)
+
+### Artificial General Intelligence (AGI) or Strong AI: 
+
+![](./docs/ai-present-future/agi-model-meta.jpg)
+
+Src: from [Christian Keller (@Meta)](https://x.com/christiankeller) workshop from [ai-PULSE 2024](https://www.ai-pulse.eu/speakers/christian-keller).
+
+> Cognitive functions (like reasoning, planning and perception) that bring us to human capabilities and beyond.
+
+Related notes: 
+- [AGI notes](./agi-notes/agi-notes.md)
 - [@OpenAI Planning for AGI and beyond](https://openai.com/blog/planning-for-agi-and-beyond)
 - [@DeepMind AGI](http://deepmindagi.com/)
   - [@DeepMind Vision on AGI](https://deepmind.google/about/)
 - [Richard Feynman on Artificial General Intelligence](https://www.cantorsparadise.com/richard-feynman-on-artificial-general-intelligence-2c1b9d8aae31)
 
+## Autonomous (AI) Agents
 
-## Embodied-AI Agents
+### AI Agent
+
+- Related notes: [AI Agents](./ai-agents-notes/ai-agents-notes.md)
+
+### Embodied-AI Agents
+
+- Related notes: [Embodied-AI Agents](./ai-agents-notes/embodied-agents-notes.md)
 
 Some Embodied-AI for General-Purpose-Humanoid-Robots:
 

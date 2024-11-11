@@ -1,8 +1,12 @@
-# Artificial Intelligence (AI) - Notes :robot:
+# 🤖 Artificial Intelligence (AI) - Notes 
+
+![humain brain](https://media.licdn.com/dms/image/C5612AQEKNDY2iX4BoQ/article-cover_image-shrink_600_2000/0/1589536181536?e=2147483647&v=beta&t=oIJmM2ae1VXcBcbQSadkfFcOJwh_UbmsZokKRJdPHoM)
+
+(Src: [HI vs AI](https://www.linkedin.com/pulse/analogy-human-brains-vs-computers-manmohan-kathari))
 
 ## Overview
 
-This is a "Hello World" resources for AI.
+AI notes & resources. 
 
 ## Contributing
 
