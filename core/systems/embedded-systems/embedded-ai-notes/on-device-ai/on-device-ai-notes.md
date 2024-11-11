@@ -129,7 +129,7 @@ with open('model.tflite', 'wb') as f:
 
 ## Continuous Learning Strategy
 - **Next Steps**: Explore federated learning for on-device training; investigate device-specific model optimizations.
-- **Related Topics**: Embedded AI, Model Compression, IoT Security.
+- **Related Topics**: [Embedded AI](../embedded-ai-notes.md), [Model Compression](./model-compression-notes.md), [IoT Security](../../../edge-iot-notes/iot/iot-notes.md).
 
 ## References
 - **Harvard TinyML Course**: [Link to course](https://www.edx.org/course/tiny-machine-learning)

@@ -1,0 +1,11 @@
+============ Generic Communication Protocol =========
+
+
+Just like a CAN protocol but each node only sends/exchanges data(information) if it's requested (by the receiver )
+
+Transmitter : (node/process) which sends/responses the data
+Receiver : (node/process) which receives/requested the data
+
+
+
+

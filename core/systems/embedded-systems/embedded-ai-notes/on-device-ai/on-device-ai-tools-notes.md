@@ -137,7 +137,7 @@ with open('model.tflite', 'wb') as f:
 - **Next Steps**: 
    - Study model compression techniques like distillation in-depth.
    - Explore advanced hardware accelerators (e.g., TPUs) for edge computing.
-- **Related Topics**: Embedded systems design, sensor integration, federated learning for privacy-aware edge AI.
+- **Related Topics**: [Embedded systems design](../../embedded-systems-notes.md), [sensor integration](../../sensors/sensor-notes.md), federated learning for privacy-aware edge AI.
 
 ## References
 - **MobileNets Paper**: https://arxiv.org/abs/1704.04861

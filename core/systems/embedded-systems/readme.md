@@ -10,6 +10,6 @@ Embedded Systems and AI: Intelligent Applications in Embedded Environments.
 
 ## Contributing
 
-Please refer to this [file](../../CONTRIBUTING.md).
+Please refer to this [file](../CONTRIBUTING.md).
 
-
+> ### "We are embedded in a biological world and related to the organisms around us. ~ Walter Gilbert"

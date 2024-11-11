@@ -123,7 +123,7 @@ graph LR;
 
 ## Continuous Learning Strategy
 - **Next Steps**: Explore hardware-specific optimizations for models (like NVIDIA TensorRT).
-- **Related Topics**: Dive into Edge AI, TinyML, and Embedded Systems for further specialization.
+- **Related Topics**: [Dive into Edge AI](../../../edge-iot-notes/edge-ai/ai-for-edge-devices.md), [TinyML](../tinyML/tinyML-notes.md), and [Embedded Systems](../../embedded-systems-notes.md) for further specialization.
 
 ## References
 - *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* by Mingxing Tan and Quoc V. Le
