@@ -1,8 +1,8 @@
 # 🤖 Artificial Intelligence (AI) - Notes 
 
-![humain brain](https://media.licdn.com/dms/image/C5612AQEKNDY2iX4BoQ/article-cover_image-shrink_600_2000/0/1589536181536?e=2147483647&v=beta&t=oIJmM2ae1VXcBcbQSadkfFcOJwh_UbmsZokKRJdPHoM)
+![humain brain](./docs/brain-functions.jpg)
 
-(Src: [HI vs AI](https://www.linkedin.com/pulse/analogy-human-brains-vs-computers-manmohan-kathari))
+(Src: [High-Level Human Brain Function Mapping](https://www.vectorstock.com/royalty-free-vector/human-brain-function-map-vector-35975559))
 
 ## Overview
 

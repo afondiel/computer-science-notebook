@@ -1,4 +1,4 @@
-# Artificial Intelligence (AI) - Notes
+# 🤖 Artificial Intelligence (AI) - Notes
 
 ## Table of Contents
 
