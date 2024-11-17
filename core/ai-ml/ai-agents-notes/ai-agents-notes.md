@@ -98,6 +98,12 @@ These models are essential in creating agents that can learn, plan, and act effe
 - **Peer Review**: Share your agent's decision-making process and get feedback on the effectiveness.
 - **Real-world Simulation**: Test your agent in a simulated environment (e.g., in a game or robot simulator) and analyze its performance.
 
+## AI Agents Stack
+
+![](./resources/ai-agents-stack.jpg)
+
+( Src: [AgentOps](https://www.agentops.ai/))
+
 ## Tools, Libraries & Frameworks
 - **Gym**: A toolkit for developing and comparing reinforcement learning algorithms.
 - **ROS (Robot Operating System)**: A framework for robot development, commonly used for building autonomous agents in robotics.
