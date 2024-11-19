@@ -2,6 +2,8 @@
 
 ![](https://media1.tenor.com/m/MmRqzJRhG7kAAAAd/clone-twin.gif)
 
+[Agent Smith - Matrix (1999)](https://en.wikipedia.org/wiki/The_Matrix_(franchise))
+
 ## Table of Contents (ToC)
 - [Introduction](#introduction)
 - [Key Concepts](#key-concepts)
@@ -43,14 +45,30 @@
 Mastering autonomous agents is critical for the development of systems that can handle complex tasks in real-time, such as in robotics, finance, and AI-driven services.
 
 ## Architecture Pipeline
+
 ```mermaid
-graph TD
-    A[Perception] --> B[Decision Making]
-    B --> C[Learning Algorithms]
-    C --> D[Planning]
-    D --> E[Action]
-    E --> F[Environment Interaction]
-    F --> A
+flowchart LR
+    subgraph AgenticAI
+        direction RL
+        subgraph Agent
+            direction LR
+            A[Perception]-->B[Decision Making]
+            B-->C[Learning Algorithms]
+            C-->D[Planning]
+            D-->E[Action]
+        end
+        subgraph Environment
+            direction TB
+            F[Environment Interaction]
+        end
+    
+        Environment--(s,r)-->A
+        E--a-->Environment
+
+        classDef fillin fill: #fff
+        class Environment,Agent fillin
+
+    end
 ```
 - **Perception**: Agents perceive their environment through sensors or data input.
 - **Decision Making**: Based on the perceived data, agents make decisions about actions.
@@ -154,7 +172,16 @@ This simple code sets up an autonomous agent that interacts with a simulated env
 - **Explore Applications in Robotics**: Learn how autonomous agents are being used in real-world robotics applications like drones or autonomous vehicles.
 - **Participate in Competitions**: Try entering agent-based competitions like OpenAI’s Gym Challenges or Kaggle RL contests.
 
+## Related Notes
+
+- [Embodied-Agents Notes](./core/ai-ml/ai-agents-notes/embodied-agents-notes.md)
+
 ## References
+
+Wikipedia insights:
+- [Intelligent Agent](https://en.wikipedia.org/wiki/Intelligent_agent)
+- [Embodied Agent](https://en.wikipedia.org/wiki/Embodied_agent)
+
 - **Book**: "Autonomous Agents: From Self-Control to Autonomy" by Daniel G. Amen
 - **Website**: OpenAI Gym Documentation (gym.openai.com)
 - **Research Paper**: "A Survey of Multi-Agent Systems" by IEEE
@@ -163,5 +190,8 @@ This simple code sets up an autonomous agent that interacts with a simulated env
 Lecture & Crash-courses:
 - [Multi AI Agent Systems with crewAI Instructors by João Moura from crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 
-
+AI Leading Companies envision the future of Agentic AI (2024):
+- Langchain: https://www.langchain.com/stateofaiagents
+- Groq: https://groq.com/wp-content/uploads/2024/08/GroqThoughts_Agentic_VF_21Aug2024.pdf
+- artificiality: https://www.artificiality.world/content/files/2024/05/Agentic-AI.pdf
 
