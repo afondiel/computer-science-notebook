@@ -125,7 +125,7 @@ See our [Contributing Guide](CONTRIBUTING.md) for detailed instructions.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under Attribution-NonCommercial-ShareAlike 4.0 International see the [LICENSE](LICENSE) file for details.
 
 ## ⭐ Support the Project
 
