@@ -103,6 +103,7 @@ How to contribute to this section
 [Auto-generated sections based on audience level and focus area]
 
 ## Introduction
+[image with prompt description]
 - What: Core definition and purpose
 - Why: Problem it solves/value proposition
 - Where: Application domains
@@ -356,7 +357,7 @@ Do you understand?
 ```md
 - Topic: Machine Learning
 - Target audience: Beginner
-- Focus area: Core Concepts
+- Focus area: Core Concepts/industry application
 ```
 
 ## Style Guidelines
