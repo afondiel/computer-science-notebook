@@ -1,4 +1,4 @@
-# End-to-End Deployment Pipeline on the Edge
+# End-to-End Edge-AI Deployment Pipeline
 
 ## Table of Contents (ToC)  
 1. [Overview](#overview)
