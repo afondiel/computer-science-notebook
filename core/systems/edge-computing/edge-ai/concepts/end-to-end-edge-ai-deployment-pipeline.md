@@ -1,5 +1,9 @@
 # End-to-End Edge-AI Deployment Pipeline
 
+![](https://github.com/afondiel/Introduction-to-On-Device-AI-DLAI/blob/main/lab/chapters/slides/01_Why_on_device/why_on_device_6.png?raw=true)
+
+(Source: [Link](https://github.com/afondiel/Introduction-to-On-Device-AI-DLAI/blob/main/lab/chapters/slides/01_Why_on_device/why_on_device_6.png))
+
 ## Table of Contents (ToC)  
 1. [Overview](#overview)
 2. [Choose the Right Edge Device](#1-choose-the-right-edge-device)
