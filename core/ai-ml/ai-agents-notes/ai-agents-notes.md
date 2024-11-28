@@ -23,6 +23,7 @@
 - [References](#references)
 
 ---
+- Related Notes: [AI Notes](../ai-notes.md), [Embodied-AI Notes](./core/ai-ml/ai-agents-notes/embodied-agents-notes.md), [Robotics Notes](../../robotics/robotics-notes.md), 
 
 ## Introduction
 **Autonomous agents** are systems or software entities that perform tasks or make decisions independently, often in dynamic environments, without continuous human intervention.
@@ -171,10 +172,6 @@ This simple code sets up an autonomous agent that interacts with a simulated env
 - **Deep Dive into Reinforcement Learning**: Study advanced RL algorithms like Deep Q-Networks (DQN) or Proximal Policy Optimization (PPO).
 - **Explore Applications in Robotics**: Learn how autonomous agents are being used in real-world robotics applications like drones or autonomous vehicles.
 - **Participate in Competitions**: Try entering agent-based competitions like OpenAI’s Gym Challenges or Kaggle RL contests.
-
-## Related Notes
-
-- [Embodied-Agents Notes](./core/ai-ml/ai-agents-notes/embodied-agents-notes.md)
 
 ## References
 
