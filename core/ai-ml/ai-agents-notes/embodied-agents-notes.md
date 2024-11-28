@@ -19,6 +19,7 @@
 - [References](#references)
 
 ---
+- Related Notes: [AI Notes](../ai-notes.md), [Embodied-AI Notes](./core/ai-ml/ai-agents-notes/embodied-agents-notes.md), [AI Agents](../ai-agents-notes/ai-agents-notes.md), [Robotics Notes](../../robotics/robotics-notes.md)
 
 ## Introduction
 **Embodied agents** are autonomous systems or entities equipped with physical bodies, enabling them to interact with the physical world through sensors and actuators, mimicking human-like behavior and perception.
@@ -145,5 +146,5 @@ This example creates a basic simulation of an embodied robot using PyBullet, all
 
 - [Intelligent Robotics and Autonomous Agents series - MIT](https://mitpress.mit.edu/series/intelligent-robotics-and-autonomous-agents-series/)
 
-
-
+CVPR Embodied AI Workshop: 
+- https://www.youtube.com/@embodiedai9326/playlists
