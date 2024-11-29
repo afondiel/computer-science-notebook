@@ -30,6 +30,8 @@ Src: [Microsoft AI@Edge Community](https://microsoft.github.io/ai-at-edge/assets
 └───industry-applications
         industry-links.md
 ```
+## Related Notes
+- [Embedded-AI - Notes](../../embedded-systems/embedded-ai-notes/)
 
 ## References
 
