@@ -209,7 +209,7 @@ Vision platforms:
 - NVIDIA TensorRT
 - Edge Impulse/tinyML
 
-**HW Plaform:**
+**HW Platforms:**
 - Raspberry Pi 4 Model B
 - NVIDIA Jetson Nano
 - Arduino
@@ -218,7 +218,7 @@ Vision platforms:
 - Intel Neural Compute Stick
 - AURIX
 
-edges companies:
+Edges companies:
 https://stlpartners.com/articles/edge-computing/edge-computing-companies-2024/
 
 On device AI/Embedded AI/Edge AI:
