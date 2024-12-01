@@ -209,14 +209,13 @@ Vision platforms:
 - NVIDIA TensorRT
 - Edge Impulse/tinyML
 
-**HW tools:**
+**HW Plaform:**
 - Raspberry Pi 4 Model B
 - NVIDIA Jetson Nano
 - Arduino
 - ESP32
 - Google Coral
 - Intel Neural Compute Stick
-- NVIDIA Jetson Nano
 - AURIX
 
 edges companies:
