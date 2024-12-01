@@ -152,6 +152,7 @@ Several tools can help with edge deployment:
 - **NVIDIA TensorRT**: SDK for high-performance deep learning inference
 - **Apache TVM**: Open-source machine learning compiler framework
 - **Onnx**: Open Neural Network Exchange for cross-platform compatibility.
+- **[Qualcomm AI Hub](https://aihub.qualcomm.com/)**: The platform for on-device AI
 
 ## Conclusion
 
@@ -203,7 +204,7 @@ Vision platforms:
 - TensorFlow Lite
 - PyTorch
 - ONNX
-- Apache TVM
+- Apache TVM (compiler)
 - NVIDIA TensorRT
 - Edge Impulse/tinyML
 
