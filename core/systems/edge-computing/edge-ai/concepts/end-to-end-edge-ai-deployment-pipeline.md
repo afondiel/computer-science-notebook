@@ -146,12 +146,13 @@ Implement security measures:
 
 Several tools can help with edge deployment:
 
-- **Edge Impulse**: Enables development and deployment of TinyML models
 - **TensorFlow Lite**: Optimized version of TensorFlow for mobile and embedded devices
+- **CoreML**: Apple's machine learning framework for on-device model deployment
 - **OpenVINO**: Intel's toolkit for optimizing and deploying AI models
 - **NVIDIA TensorRT**: SDK for high-performance deep learning inference
-- **Apache TVM**: Open-source machine learning compiler framework
 - **Onnx**: Open Neural Network Exchange for cross-platform compatibility.
+- **Edge Impulse**: Enables development and deployment of TinyML models
+- **Apache TVM**: Open-source machine learning compiler framework
 - **[Qualcomm AI Hub](https://aihub.qualcomm.com/)**: The platform for on-device AI
 
 ## Conclusion
