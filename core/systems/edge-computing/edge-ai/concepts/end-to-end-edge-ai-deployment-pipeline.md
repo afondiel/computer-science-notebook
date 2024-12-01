@@ -151,8 +151,11 @@ Several tools can help with edge deployment:
 - **OpenVINO**: Intel's toolkit for optimizing and deploying AI models
 - **NVIDIA TensorRT**: SDK for high-performance deep learning inference
 - **Onnx**: Open Neural Network Exchange for cross-platform compatibility.
-- **Edge Impulse**: Enables development and deployment of TinyML models
 - **Apache TVM**: Open-source machine learning compiler framework
+
+Platform & SW Suite:
+- **[Edge Impulse](https://edgeimpulse.com/)**: Enables development and deployment of TinyML models
+- **[Imagimob AI DEEPCRAFT™ Studio – Edge AI development platform](https://www.imagimob.com/studio)**
 - **[Qualcomm AI Hub](https://aihub.qualcomm.com/)**: The platform for on-device AI
 
 ## Conclusion
@@ -191,12 +194,12 @@ Vision platforms:
     - AWS iot:
         - Bittle Robot Dog AWS IoT Showcase at Latency Conference 2023 - Perth, Australia: https://www.petoi.com/blogs/blog/bittle-robot-dog-aws-iot-showcase-at-latency-conference-2023-perth-australia?srsltid=AfmBOoo4AElmruyMlmWIIarJtCym2Aglg8kUcb8AI37-wMvET3GsxyD2
     - Inferentia
-- Infineon => Imagimob AI
+- Infineon => [Imagimob AI](https://www.imagimob.com/)
 - Edge Impulse =>
 - MS => Azure => AI Edge => ONNX
 - tinyML =>
 - Facebooks => Meta => AI Edge => PyTorch Mobile
-- alibaba => AI Edge => X-brain
+- alibaba => AI Edge => [X-brain](https://fr.linkedin.com/company/xbrain)
 - Baidu => EdgeBoard/DeepBench
 - IBM => Edge platform
 
