@@ -93,6 +93,7 @@ How to contribute to this section
 
 ```markdown
 # {Topic} Technical Notes
+[image with prompt description]
 
 ## Quick Reference
 - One-sentence definition
@@ -103,7 +104,6 @@ How to contribute to this section
 [Auto-generated sections based on audience level and focus area]
 
 ## Introduction
-[image with prompt description]
 - What: Core definition and purpose
 - Why: Problem it solves/value proposition
 - Where: Application domains
@@ -240,6 +240,7 @@ Generate a technical guide for [TOPIC] following this structure:
 
 ```markdown
 # {Topic} Technical Notes
+[image with prompt description]
 
 ## Quick Reference
 - One-sentence definition
@@ -250,7 +251,6 @@ Generate a technical guide for [TOPIC] following this structure:
 [Auto-generated sections based on audience level and focus area]
 
 ## Introduction
-[image with prompt description]
 - What: Core definition and purpose
 - Why: Problem it solves/value proposition
 - Where: Application domains
