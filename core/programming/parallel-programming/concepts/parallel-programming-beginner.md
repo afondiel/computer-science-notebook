@@ -1,5 +1,5 @@
 # Parallel Programming Technical Notes
-![DALL·E 2024-12-08 22.41.03 - A detailed and educational diagram illustrating parallel computing, where multiple CPUs are processing tasks concurrently.](../resources/parellel-computing-overview.webp)
+![DALL·E 2024-12-08 22.41.03 - A detailed and educational diagram illustrating parallel computing, where multiple CPUs are processing tasks concurrently.](../resources/parallel-computing-overview.webp)
 
 ## Quick Reference
 - **One-sentence definition**: Parallel programming is the process of executing multiple tasks simultaneously to improve performance and efficiency.
