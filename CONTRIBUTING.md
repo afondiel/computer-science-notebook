@@ -250,6 +250,7 @@ Generate a technical guide for [TOPIC] following this structure:
 [Auto-generated sections based on audience level and focus area]
 
 ## Introduction
+[image with prompt description]
 - What: Core definition and purpose
 - Why: Problem it solves/value proposition
 - Where: Application domains
