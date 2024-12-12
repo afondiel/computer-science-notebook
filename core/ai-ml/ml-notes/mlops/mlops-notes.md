@@ -1,6 +1,14 @@
 # MLOps Notes
 
+![](./resources/mlops.jpeg)
+
+(Source: [Link](https://www.linkedin.com/pulse/mlops-love-story-between-devops-machine-learning-harshil-bhardwaj))
+
+
+## Overview
+
 This is friendly technical guide on **MLOps** core concepts.
+
 
 ## Beginner
 
