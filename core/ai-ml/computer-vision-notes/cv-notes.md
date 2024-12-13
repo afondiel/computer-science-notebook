@@ -1,8 +1,9 @@
-<head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-</head>
-
 # Computer Vision (CV) - Notes
+
+## Quick Reference
+- **Definition**: Computer vision is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data (images, videos).
+- **Key Use Cases**: Object detection, facial recognition, autonomous driving, medical image analysis, and visual search.
+- **Prerequisites**: Basic understanding of programming (e.g., Python), familiarity with linear algebra and basic probability is helpful but not required.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -24,10 +25,9 @@
 - [Computer Vision Researcher - Starting Resources](#computer-vision-researcher---starting-resources)
 - [References](#references)
 
----
  
 ## Introduction
-- **Computer Vision** is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data from the real world.
+- **Computer Vision** is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data from the real-world.
 
 ## Key Concepts
 - **Image Processing**: Manipulating raw images to enhance or extract meaningful information.
@@ -253,7 +253,7 @@ cv2.destroyAllWindows()
 
 Please refer to the [lab](./lab/) repository. 
 
-## Computer Vision Project in Industry
+## Computer Vision in Industry
 
 - [Meta Research Computer Vision Projects](https://research.facebook.com/publications/research-area/computer-vision/)
 - [Google Vision AI Framework](https://cloud.google.com/vision?hl=en)
@@ -267,7 +267,6 @@ Please refer to the [lab](./lab/) repository.
 
 
 ## Top Computer Vision Conferences
-
 - Conference on Neural Information Processing Systems (NeurIPS)
 - International Conference on Learning Representations (ICLR)
 - Computer Vision and Pattern Recognition (CVPR)
@@ -300,7 +299,6 @@ Resources:
 - [Vision and Learning Lab - Old Website](http://vision.stanford.edu/)
 - [Vision and Learning Lab (SVL) - New Website](https://svl.stanford.edu/)
 - [Car dataset in multiple scenes for AI & Computer Vision](https://aws.amazon.com/marketplace/pp/prodview-6i7gc6mi7hlgs#offers)
-
 
 ## References
 
@@ -336,7 +334,6 @@ Essential notes (Wikipedia):
 - [Depth Perception](https://en.wikipedia.org/wiki/Depth_perception)
 - [Understanding Depth Perception in Computer Vision - Nasscom](https://coe-dsai.nasscom.in/understanding-depth-perception-in-computer-vision/)
 
-
 - Deep Learning Models:
 
   - [Convolutional Neural Network - CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)
@@ -356,7 +353,6 @@ Essential notes (Wikipedia):
 - LiDAR:
   - [Lidar - Wikipedia](https://en.wikipedia.org/wiki/Lidar)
 
-
 **Machine Vision**
 - [Machine Vision](https://en.wikipedia.org/wiki/Machine_vision)
 - [A Practical Guide to Machine Vision Lighting](https://www.ni.com/en/shop/choosing-the-right-hardware-for-your-vision-applications/a-practical-guide-to-machine-vision-lighting.html#:~:text=Back%20to%20top-,Vision%20Illumination%20Sources%20and%20Spectral%20Content,(mercury)%2C%20and%20xenon.)
@@ -371,7 +367,7 @@ Essential notes (Wikipedia):
     - [CS231n Computer Vision Stanford - 2017](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
   - **[Deep Learning for Computer Vision (Andrej Karpathy, OpenAI) from DL School lecture 24/25/2016 by Lex Fridman](https://www.youtube.com/watch?v=u6aEYuemt0M)**
 
-- UC Berkeley
+- UC Berkeley:
   - [CS280: Graduate Computer Vision (UC Berkeley, Spring 2024)](https://cs280-berkeley.github.io/)
   - [CS 198-126: Modern Computer Vision Fall 2022 (UC Berkeley)](https://www.youtube.com/watch?v=Q3fqoJ41g6U&list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5)
   - [UC Berkeley CS 280: Advanced Topics in Computer Vision](https://cs280-berkeley.github.io/resources/CS_280_Spring_2024_Syllabus.pdf)
@@ -410,6 +406,18 @@ MISC:
 - [Computer Vision Tutorial - GeeksForGeeks](https://www.geeksforgeeks.org/computer-vision/)
 - [Lines Detection with Hough Transform](https://towardsdatascience.com/lines-detection-with-hough-transform-84020b3b1549)
 - [What are the different subfields in computer vision? - Quora](https://www.quora.com/What-are-the-different-subfields-in-computer-vision)
+
+**Google Ecosystem**:
+- [Machine Learning Glossary: Image Models](https://developers.google.com/machine-learning/glossary/image)
+- [ML Practicum: Image Classification](https://developers.google.com/machine-learning/practica/image-classification)
+- [xploring Computer Vision content](https://techdevguide.withgoogle.com/resources/topics/computer-vision/?no-filter=true)
+- [Build your first Computer Vision App on Android or iOS](https://developers.google.com/codelabs/tflite-computer-vision-mobile#0)
+- [Seeing the World: Vertex AI Vision Developer Toolkit](https://cloud.google.com/blog/products/ai-machine-learning/get-started-building-computer-vision-applications/)
+- [Build a computer vision model with TensorFlow](https://developers.google.com/codelabs/tensorflow-2-computervision#0)
+- [Computer Vision Fundamentals with Google Cloud](https://www.cloudskillsboost.google/course_templates/18)
+- [10 Essential Tools Every Beginner & Advanced Computer Vision Developer Should Master](https://opencv.org/blog/computer-vision-tools-top-10/)
+- [Computer Vision Fundamentals with Google Cloud](https://codelabs.developers.google.com/cloudvision-translate-springboot#0)
+- [Extract insights from images, documents, and videos](https://cloud.google.com/vision)
 
 **Computer Vision & Transportation**
 
