@@ -350,4 +350,6 @@ References
 
 - Book : [Computer Vision Algorithms and Applications by Richard Szeliski 2010](https://github.com/afondiel/cs-books/blob/main/computer-vision/Computer-Vision-Algorithms-and-Applications-Richard-Szeliski-2010.pdf)
 
+Challenge: 
+- http://www.robustvision.net/
 
