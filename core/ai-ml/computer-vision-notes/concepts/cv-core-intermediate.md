@@ -1,6 +1,6 @@
 # Computer Vision Technical - [Intermediate] Notes  
 
-![DALL·E 2024-12-13 18.55.34 - A futuristic visualization of computer vision analyzing real-world environments, showcasing advanced object detection and segmentation processes.](../../resources/images/core-inter.webp)
+![DALL·E 2024-12-13 18.55.34 - A futuristic visualization of computer vision analyzing real-world environments, showcasing advanced object detection and segmentation processes.](../resources/images/core-inter.webp)
 
 ## Quick Reference
 - **Definition**: Computer vision is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data.  
