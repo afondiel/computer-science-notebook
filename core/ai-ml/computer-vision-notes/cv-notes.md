@@ -25,7 +25,6 @@
 - [Computer Vision Researcher - Starting Resources](#computer-vision-researcher---starting-resources)
 - [References](#references)
 
- 
 ## Introduction
 - **Computer Vision** is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data from the real-world.
 
@@ -108,7 +107,7 @@ graph LR
 
 ## Computer Vision Sub-fields/domains
 
-![cv-diagram](./docs/Computer-Vision-aplications-and-research-fields.png)
+![cv-diagram](./resources/images/Computer-Vision-aplications-and-research-fields.png)
 
 Src: [Rui Nobrega](https://www.researchgate.net/figure/Computer-Vision-aplications-and-research-fields_fig1_258013244)
 
