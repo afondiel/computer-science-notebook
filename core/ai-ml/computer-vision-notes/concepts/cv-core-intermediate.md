@@ -8,14 +8,14 @@
 - **Prerequisites**: Basic understanding of machine learning, linear algebra, Python programming, and familiarity with libraries like OpenCV or TensorFlow.
 
 ## Table of Contents
-1. Introduction  
-2. Core Concepts  
-   - Fundamental Understanding  
-   - Visual Architecture  
-3. Implementation Details  
-   - Basic to Intermediate Patterns  
-4. Tools & Resources  
-5. References  
+1. [Introduction](#introduction)
+2. [Core Concepts](#core-concepts)
+   - [Fundamental Understanding](#fundamental-understanding)
+   - [Visual Architecture](#visual-architecture)
+3. [Implementation Details](#implementation-details)
+   - [Basic to Intermediate Patterns](#basic-to-intermediate-patterns)
+4. [Tools & Resources](#tools--resources)
+5. [References](#references)
 
 ## Introduction
 - **What**: Computer vision focuses on enabling computers to process, understand, and interpret visual data such as images and videos.  
@@ -38,7 +38,7 @@
 
 ### Visual Architecture
 ```mermaid
-graph TD
+graph LR
     A[Input Image/Video] --> B[Preprocessing]
     B --> C[Feature Extraction]
     C --> D[Model Inference]

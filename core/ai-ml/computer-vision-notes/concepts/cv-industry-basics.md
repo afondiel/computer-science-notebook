@@ -1,6 +1,3 @@
-### **Computer Vision Technical Notes (Industry Application)**
-
-```markdown
 # Computer Vision Technical Notes
 
 ## Quick Reference
@@ -9,13 +6,15 @@
 - **Prerequisites**: Basic understanding of AI concepts, familiarity with Python, and knowledge of linear algebra and image formats.
 
 ## Table of Contents
-- Introduction
-- Core Concepts
-- Real-World Applications
-  - Industry Examples
-  - Hands-On Project
-- Tools & Resources
-- References
+1. [Introduction](#introduction)
+2. [Core Concepts](#core-concepts)
+   - [Basic Principles](#basic-principles)
+   - [Key Components](#key-components)
+   - [Common Misconceptions](#common-misconceptions)
+3. [Real-World Applications](#real-world-applications)
+   - [Industry Examples](#industry-examples)
+   - [Hands-On Project](#hands-on-project)
+4. [Tools & Resources](#tools--resources)
 
 ## Introduction
 ![Diagram showing computer vision applications across industries: retail, automotive, healthcare, and agriculture]
@@ -80,6 +79,3 @@
 - [OpenCV documentation](https://docs.opencv.org)
 - [YOLO object detection](https://pjreddie.com/darknet/yolo/)
 - "Computer Vision: Algorithms and Applications" by Richard Szeliski.
-```
-
-Let me know if you'd like to expand on any section or refine it further!

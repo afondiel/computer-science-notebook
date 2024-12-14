@@ -5,14 +5,16 @@
 - **Key Use Cases**: Object detection, facial recognition, autonomous driving, medical image analysis, and visual search.
 - **Prerequisites**: Basic understanding of programming (e.g., Python), familiarity with linear algebra and basic probability is helpful but not required.
 
-## Content Overview
-1. **Introduction**: Overview of computer vision, its purpose, and applications.
-2. **Core Concepts**: Fundamental ideas in computer vision, including image processing and feature extraction.
-3. **Implementation**: Hands-on examples with simple code in Python.
-4. **Real-World Applications**: Introductory applications across different industries.
-5. **Tools & Resources**: Key libraries and resources for getting started.
+## Table of Contents
+- [Introduction](#introduction)
+- [Core Concepts](#core-concepts)
+  - [Fundamental Understanding](#fundamental-understanding)
+  - [Visual Architecture](#visual-architecture)
+- [Implementation Details](#implementation-details)
+  - [Basic Implementation](#basic-implementation)
+- [Tools & Resources](#tools--resources)
+- [References](#references)
 
----
 
 ## Introduction
 - **What**: Computer vision enables computers to understand and interpret visual data similarly to how humans do. It relies on algorithms and models to process images and videos.

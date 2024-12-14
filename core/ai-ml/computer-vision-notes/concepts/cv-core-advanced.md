@@ -26,16 +26,12 @@
 ---
 
 ## Introduction
-### What:
-Computer vision aims to empower machines with human-like abilities to analyze and interpret visual data. It involves a range of tasks, including object detection, image segmentation, and action recognition.
+- **What**: Computer vision aims to empower machines with human-like abilities to analyze and interpret visual data. It involves a range of tasks, including object detection, image segmentation, and action recognition.
 
-### Why:
-Computer vision solves problems of scalability and precision in tasks where human vision is limited, enabling faster and more accurate decisions.
+- **Why**: Computer vision solves problems of scalability and precision in tasks where human vision is limited, enabling faster and more accurate decisions.
 
-### Where:
-Applications span across industries, including automotive, healthcare, agriculture, retail, and security.
+- **Where**: Applications span across industries, including automotive, healthcare, agriculture, retail, and security.
 
----
 
 ## Core Concepts
 ### Advanced Algorithms
