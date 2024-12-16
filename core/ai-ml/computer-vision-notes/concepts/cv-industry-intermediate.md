@@ -1,6 +1,6 @@
 # Computer Vision in Industry Applications  
 
-![Visualization of computer vision in action: autonomous vehicles, medical imaging, and retail analytics]
+![DALL·E 2024-12-16 13.43.55 - A visualization of computer vision applications in various industries, including automotive, healthcare, and agriculture, in a wide rectangular format. The image shows interconnected examples like self-driving cars on a road, robotic arms analyzing crops, and AI-enhanced medical imaging systems. Each industry application is represented in separate sections, connected by data flow lines, emphasizing the diverse impact of computer vision. The design is clean, professional, and educational, with a focus on real-world relevance](../resources/images/industry-inter.webp)
 
 ## Quick Reference
 - **Definition**: The application of computer vision technology to solve domain-specific challenges in various industries.  
@@ -11,15 +11,16 @@
 - **Prerequisites**: Intermediate Python, ML frameworks like TensorFlow or PyTorch, and industry-specific domain knowledge.
 
 ## Table of Contents
-1. Introduction  
-2. Industry Examples  
-   - Automotive  
-   - Healthcare  
-   - Retail  
-3. Implementation Details  
-   - Intermediate Patterns  
-4. Tools & Resources  
-5. References  
+
+1. [Introduction](#introduction)
+2. [Industry Examples](#industry-examples)
+   - [Automotive](#automotive)
+   - [Healthcare](#healthcare)
+   - [Retail](#retail)
+3. [Implementation Details](#implementation-details)
+   - [Intermediate Patterns](#intermediate-patterns)
+4. [Tools & Resources](#tools--resources)
+5. [References](#references)
 
 ## Introduction
 - **What**: Industry applications of computer vision tailor AI-powered visual analysis to address specific business challenges.  
