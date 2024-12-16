@@ -2,8 +2,8 @@
 
 ## Quick Reference
 - **Definition**: Computer vision is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data (images, videos).
-- **Key Use Cases**: Object detection, facial recognition, autonomous driving, medical image analysis, and visual search.
-- **Prerequisites**: Basic understanding of programming (e.g., Python), familiarity with linear algebra and basic probability is helpful but not required.
+- **Key Use Cases**: [Object detection](./concepts/object-detection/), facial recognition, [autonomous driving](../../../industry/transportation/automotive/self-driving), [medical image](./industry/healthcare/) analysis, and [visual search](./concepts/visual-search/image-search-engine/).
+- **Prerequisites**: Basic understanding of programming (e.g., [Python](../../programming/languages/python-notes)), familiarity with [linear algebra and basic probability](./resources/docs/mathematics/) is helpful but not required.
 
 ## Table of Contents
 - [Introduction](#introduction)
