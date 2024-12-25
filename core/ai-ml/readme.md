@@ -1,6 +1,6 @@
 # 🤖 Artificial Intelligence (AI) - Notes 
 
-<img width="520" height="340" src="./docs/brain-functions.jpg" img>
+<img width="520" height="340" src="./docs/brain-functions.jpg" alt="High-Level Human Brain Functions">
 
 (Src: [High-Level Human Brain Functions](https://www.vectorstock.com/royalty-free-vector/human-brain-function-map-vector-35975559))
 
