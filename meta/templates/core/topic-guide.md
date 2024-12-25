@@ -1,5 +1,6 @@
 # Topic Guide
 
+``` 
 core/<topic-area>/<specific-topic>/
 │   README.md
 │   topic-guide.md
@@ -11,3 +12,4 @@ core/<topic-area>/<specific-topic>/
 │   └── additional-materials.md
 └── industry-applications/
     └── industry-links.md
+```
