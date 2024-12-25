@@ -240,7 +240,7 @@ Generate a technical guide for [TOPIC] following this structure:
 
 ```markdown
 # {Topic} Technical Notes
-[Prompt description of image in rectangular format]
+[Long and descriptive Prompt description of image in rectangular format]
 
 ## Quick Reference
 - One-sentence definition
