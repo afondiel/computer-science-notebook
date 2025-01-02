@@ -281,6 +281,9 @@ Project: Implement a federated learning system for sentiment analysis on mobile 
 - Industry reports:
     - "Federated Learning: The Future of Distributed Machine Learning" by Gartner
 
+- Courses:
+    - [Intro to Federated Learning - DeepLearningAI & Flower](https://www.deeplearning.ai/short-courses/intro-to-federated-learning/)
+
 ## Appendix
 
 ### Glossary
