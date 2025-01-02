@@ -1,6 +1,6 @@
 # Federated Learning for Edge AI Technical Notes
 
-![DALL·E 2025-01-02 23.53.16 - A detailed illustration of the federated learning process in a rectangular format. The image shows multiple edge devices (e.g., smartphones, IoT devic)](#)
+![DALL·E 2025-01-02 23.53.16 - A detailed illustration of the federated learning process in a rectangular format. The image shows multiple edge devices (e.g., smartphones, IoT devic)](../resources/federated-learning-cover.webp)
 
 
 ## Quick Reference
