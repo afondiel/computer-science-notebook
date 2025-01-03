@@ -34,6 +34,8 @@ This approach offers benefits like:
 
 ---
 
+## Edge-AI Deploying Workflow
+
 **Here's a step-by-step guide to deploying AI models on edge devices:**
 ```mermaid
 graph LR
@@ -58,7 +60,7 @@ Consider factors like **processing power, memory, power consumption**, and suppo
 
 ## 2. Optimize Your Model
 
-Edge devices often have limited resources, so model optimization is crucial:
+Edge devices often have limited resources, so model optimization is `crucial`:
 
 - **Quantization**: Reduce model precision (e.g., from 32-bit to 8-bit)
 - **Pruning**: Remove unnecessary connections in neural networks
@@ -70,10 +72,10 @@ Edge devices often have limited resources, so model optimization is crucial:
 Convert your model to a format suitable for edge deployment:
 
 - **TensorFlow Lite** for TensorFlow models
-- **ONNX** (Open Neural Network Exchange) for cross-framework compatibility
+- **[ExecuTorch](https://pytorch.org/executorch-overview)**: for Pytorch models
 - **CoreML** for iOS devices
+- **ONNX** (Open Neural Network Exchange) for cross-framework compatibility
 - **OpenVINO** for Intel hardware
-- [**ML Kit**](https://developers.google.com/ml-kit)
 
 Example using TensorFlow Lite:
 
@@ -147,6 +149,7 @@ Implement security measures:
 Several tools can help with edge deployment:
 
 - **TensorFlow Lite**: Optimized version of TensorFlow for mobile and embedded devices
+- **[ExecuTorch](https://pytorch.org/executorch-overview)**: An End-to-end solution for enabling on-device inference capabilities across mobile and edge devices
 - **CoreML**: Apple's machine learning framework for on-device model deployment
 - **OpenVINO**: Intel's toolkit for optimizing and deploying AI models
 - **NVIDIA TensorRT**: SDK for high-performance deep learning inference
@@ -155,8 +158,9 @@ Several tools can help with edge deployment:
 
 Platform & SW Suite:
 - **[Edge Impulse](https://edgeimpulse.com/)**: Enables development and deployment of TinyML models
-- **[Imagimob AI DEEPCRAFT™ Studio – Edge AI development platform](https://www.imagimob.com/studio)**
 - **[Qualcomm AI Hub](https://aihub.qualcomm.com/)**: The platform for on-device AI
+- **[Imagimob AI DEEPCRAFT™ Studio](https://www.imagimob.com/studio)**: Edge AI development platform for Infineon Hardware 
+- **[STM32Cube.AI](https://stm32ai.st.com/stm32-cube-ai/)**: Free AI model optimizer for STM32
 
 ## Conclusion
 
@@ -166,12 +170,13 @@ By following this guide and leveraging appropriate tools, you can successfully r
 
 ## References
 
-- [OpenVINO](https://docs.openvino.ai/latest/index.html)
-- [TensorFlow Lite](https://www.tensorflow.org/lite)
-- [Edge Impulse](https://www.edgeimpulse.com/)
-- [NVIDIA TensorRT](https://developer.nvidia.com/tensorrt)
-- [Apache TVM](https://tvm.apache.org/)
-- [Onnx](https://onnx.ai/)
+- [TensorFlow Lite](https://www.tensorflow.org/lite): A lightweight version of TensorFlow designed for mobile and embedded devices.
+- [ExecuTorch](https://pytorch.org/executorch-overview): A PyTorch-based execution framework for efficient model deployment across mobile and edge devices.
+- [OpenVINO](https://docs.openvino.ai/latest/index.html): Intel's toolkit for optimizing and deploying AI models on various hardware.
+- [NVIDIA TensorRT](https://developer.nvidia.com/tensorrt): An SDK for high-performance deep learning inference on NVIDIA GPUs.
+- [Edge Impulse](https://www.edgeimpulse.com/): A platform for developing and deploying TinyML models on edge devices.
+- [Onnx](https://onnx.ai/): An open format to represent deep learning models for interoperability between different frameworks.
+- [Apache TVM](https://tvm.apache.org/): An open-source machine learning compiler framework for optimizing and deploying models.
 
 Vision platforms:
 
