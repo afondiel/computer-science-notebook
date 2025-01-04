@@ -2,7 +2,7 @@
 
 ## Overview
 
-A foundational technical guide to core Edge-AI concepts for real-world applications.
+Edge-AI core concepts for real-world applications.
 
 ![](./industry-applications/qualcomm-ecosystem/resources/qualcomm-ai-brain-chip.jpeg)
 
