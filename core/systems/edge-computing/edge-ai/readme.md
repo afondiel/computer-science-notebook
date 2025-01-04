@@ -4,9 +4,9 @@
 
 A foundational technical guide to core Edge-AI concepts for real-world applications.
 
-![](https://microsoft.github.io/ai-at-edge/assets/images/ONNX.PNG)
+![](./industry-applications/qualcomm-ecosystem/resources/qualcomm-ai-brain-chip.jpeg)
 
-Src: [Microsoft AI@Edge Community](https://microsoft.github.io/ai-at-edge/assets/images/ONNX.PNG)
+Src: [Qualcomm](https://academy.qualcomm.com/course-catalog/AI-Hub-Training)
 
 ## Learning Guideline 
 
