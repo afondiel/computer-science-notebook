@@ -1,4 +1,4 @@
-# Edge AI Haedware Platforms
+# Edge AI Hardware Platforms
 
 ## Overview
 
