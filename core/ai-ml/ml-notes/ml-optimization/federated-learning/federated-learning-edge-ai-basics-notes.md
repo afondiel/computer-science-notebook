@@ -276,10 +276,12 @@ Project: Implement a federated learning system for sentiment analysis on mobile 
     - TensorFlow Federated: https://www.tensorflow.org/federated
     - FATE: https://fate.fedai.org/
 - Technical papers:
-    - "Communication-Efficient Learning of Deep Networks from Decentralized Data" by McMahan et al.
-    - "Federated Learning: Challenges, Methods, and Future Directions" by T. Li et al.
-- Industry reports:
+    - ["Communication-Efficient Learning of Deep Networks from Decentralized Data" by McMahan et al.](https://arxiv.org/pdf/1602.05629)
+    - ["Federated Learning: Challenges, Methods, and Future Directions" by T. Li et al.](https://ieeexplore.ieee.org/document/9084352)
+- Industry reports, case studies:
     - "Federated Learning: The Future of Distributed Machine Learning" by Gartner
+    - [Federated Learning with Google](https://federated.withgoogle.com/#top)
+
 
 - Courses:
     - [Intro to Federated Learning - DeepLearningAI & Flower](https://www.deeplearning.ai/short-courses/intro-to-federated-learning/)
@@ -288,10 +290,10 @@ Project: Implement a federated learning system for sentiment analysis on mobile 
 
 ### Glossary
 
-- Federated Learning: A machine learning technique that trains an algorithm across multiple decentralized edge devices or servers holding local data samples, without exchanging them.
-- Secure Aggregation: A cryptographic technique that allows a server to compute the sum of user-held data without learning any individual's data.
-- Differential Privacy: A system for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals in the dataset.
-- Non-IID Data: Data that is not Independent and Identically Distributed, a common challenge in federated learning where different clients may have very different data distributions.
+- **Federated Learning**: A machine learning technique that trains an algorithm across multiple decentralized edge devices or servers holding local data samples, without exchanging them.
+- **Secure Aggregation**: A cryptographic technique that allows a server to compute the sum of user-held data without learning any individual's data.
+- **Differential Privacy**: A system for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals in the dataset.
+- **Non-IID Data**: Data that is not Independent and Identically Distributed, a common challenge in federated learning where different clients may have very different data distributions.
 
 ### Setup Guide
 
