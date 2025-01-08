@@ -236,7 +236,7 @@ python tools/generate.py --type <core|industry|meta> --path <path> --name <topic
 You can use the following prompt template with AI tools:
 
 ```text
-Generate a technical guide for [TOPIC] following this structure:
+Your task will be to generate a technical guide for [TOPIC] following this structure:
 
 ```markdown
 # {Topic} Technical Notes
