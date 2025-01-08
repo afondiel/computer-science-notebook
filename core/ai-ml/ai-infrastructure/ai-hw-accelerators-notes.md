@@ -1,5 +1,4 @@
-
-# AI Inference Hardware Technical Notes
+# AI Inference Hardware and Accelerators Technical Notes
 
 ## Quick Reference
 - **Definition**: AI inference hardware refers to specialized computing devices optimized for performing inference tasks with AI models, enabling faster and more efficient processing.
