@@ -53,13 +53,14 @@ As of January 10, 2025:
 
 Google's ecosystem for edge AI/ML and on-device AI is comprehensive, offering developers a wide range of tools and resources to build sophisticated AI-powered applications. The company's strategy focuses on democratizing AI development while pushing the boundaries of what's possible with on-device processing, positioning Google as a leader in the rapidly evolving field of edge AI.
 
-Citations:
-[1] https://www.forwardfuture.ai/p/google-predicts-ai-agents-will-redefine-automation-in-2025
-[2] https://developers.google.com/ml-kit/guides?authuser=0
-[3] https://opentools.ai/news/googles-play-for-2025-more-ai-quantum-leaps-and-staying-scrappy
-[4] https://developers.google.com/ml-kit?hl=en
-[5] https://alitech.io/blog/gemini-will-be-the-companys-biggest-focus-in-2025/
-[6] https://developer.android.com/ai/gemini-nano
-[7] https://www.linkedin.com/pulse/artificial-intelligence-2025-insights-innovations-mohammad-arshad-czg9f
-[8] https://android-developers.googleblog.com/2024/10/bring-your-ai-model-to-android-devices.html
-[9] https://developer.android.com/ai
+## References
+
+- [1] https://www.forwardfuture.ai/p/google-predicts-ai-agents-will-redefine-automation-in-2025
+- [2] https://developers.google.com/ml-kit/guides?authuser=0
+- [3] https://opentools.ai/news/googles-play-for-2025-more-ai-quantum-leaps-and-staying-scrappy
+- [4] https://developers.google.com/ml-kit?hl=en
+- [5] https://alitech.io/blog/gemini-will-be-the-companys-biggest-focus-in-2025/
+- [6] https://developer.android.com/ai/gemini-nano
+- [7] https://www.linkedin.com/pulse/artificial-intelligence-2025-insights-innovations-mohammad-arshad-czg9f
+- [8] https://android-developers.googleblog.com/2024/10/bring-your-ai-model-to-android-devices.html
+- [9] https://developer.android.com/ai
