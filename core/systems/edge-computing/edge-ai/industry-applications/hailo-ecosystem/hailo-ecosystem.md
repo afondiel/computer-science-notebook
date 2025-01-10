@@ -42,12 +42,13 @@ Hailo is a leading Israeli AI technology company specializing in edge AI process
 
 Hailo's ecosystem is designed to empower developers and businesses to implement advanced AI capabilities in edge devices across various industries, positioning the company as a significant player in the evolving landscape of edge AI and on-device machine learning[1][3][4].
 
-Citations:
-[1] https://hailo.ai
-[2] https://www.winmate.com/Support/Technology_Hailo-8
-[3] https://hailo.ai/company-overview/
-[4] https://www.edgeir.com/hailo-unveils-edge-ai-chips-for-generative-ai-and-automotive-innovations-at-ces-2025-20241223
-[5] https://en.wikipedia.org/wiki/Hailo_Technologies
-[6] https://www.deltatec.be/company/partners/hailo-edge-ai-processors
-[7] https://www.cbinsights.com/company/hailo-1
-[8] https://app.dealroom.co/companies/hailo_2
+## References
+
+- [1] https://hailo.ai
+- [2] https://www.winmate.com/Support/Technology_Hailo-8
+- [3] https://hailo.ai/company-overview/
+- [4] https://www.edgeir.com/hailo-unveils-edge-ai-chips-for-generative-ai-and-automotive-innovations-at-ces-2025-20241223
+- [5] https://en.wikipedia.org/wiki/Hailo_Technologies
+- [6] https://www.deltatec.be/company/partners/hailo-edge-ai-processors
+- [7] https://www.cbinsights.com/company/hailo-1
+- [8] https://app.dealroom.co/companies/hailo_2
