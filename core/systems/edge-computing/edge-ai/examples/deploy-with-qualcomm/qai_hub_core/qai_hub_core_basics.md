@@ -1,5 +1,5 @@
 # Deploying Models On the Edge using Qualcomm AI Hub Technical Notes
-[A rectangular image showing a smartphone with a segmented image on its screen, connected to cloud servers and edge devices, with the Qualcomm AI Hub logo prominently displayed]
+<!-- [A rectangular image showing a smartphone with a segmented image on its screen, connected to cloud servers and edge devices, with the Qualcomm AI Hub logo prominently displayed] -->
 
 ## Quick Reference
 - Qualcomm AI Hub is a platform for deploying optimized AI models on edge devices
