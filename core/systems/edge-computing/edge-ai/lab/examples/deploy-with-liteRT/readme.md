@@ -2,6 +2,8 @@
 
 ## Technical Resources
 - [Core Concepts](../../../concepts/frameworks/LiteRT)
+- [Model Zoos](https://github.com/afondiel/Edge-AI-Model-Zoo)
+- [Target (Hardware) Platforms](https://github.com/afondiel/Edge-AI-Platforms)
 - [Google Ecosystem](../../../industry-applications/google-ecosystem)
 
 ## Quick Reference  
