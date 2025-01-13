@@ -1,7 +1,8 @@
 # Deploy with Edge Impulse  
 
-## Technical Guide
+## Technical Resources
 - [Core Concepts](../../../concepts/frameworks/edge-impulse)
+- [Edge Impulse Ecosystem](../../../industry-applications/edge-impulse-ecosystem)
 
 ## Quick Reference  
 - **One-sentence definition**: Edge Impulse is a development platform for building, training, and deploying machine learning models directly onto edge devices.  
