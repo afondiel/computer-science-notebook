@@ -2,8 +2,9 @@
 
 ## Technical Resources
 - [Core Concepts](../../../concepts/frameworks/tensorRT)
+- [Model Zoos](https://github.com/afondiel/Edge-AI-Model-Zoo)
+- [Target (Hardware) Platforms](https://github.com/afondiel/Edge-AI-Platforms)
 - [NVIDIA Ecosystem](../../../industry-applications/nvidia-ecosystem)
-
 
 ## Quick Reference  
 - **One-sentence definition**: TensorRT is NVIDIA's high-performance deep learning inference library, optimized for deploying AI models on GPUs in edge devices.  
