@@ -10,18 +10,18 @@
 - **Prerequisites**: Basic understanding of machine learning, edge devices, and Python.  
 
 ## Table of Contents  
-1. Introduction  
-2. Core Concepts  
-   - What is Edge Impulse?  
-   - Why Use Edge Impulse for Edge AI?  
-   - Workflow Overview  
-3. Visual Architecture  
-   - Edge Impulse Deployment Pipeline  
-4. Implementation Details  
-   - Example: Building and Deploying a Motion Classifier  
-   - Running Inference on an Edge Device  
-5. Tools & Resources  
-6. References  
+1. [Introduction](#introduction)
+2. [Core Concepts](#core-concepts)
+   - [What is Edge Impulse?](#what-is-edge-impulse)
+   - [Why Use Edge Impulse for Edge AI?](#why-use-edge-impulse-for-edge-ai)
+   - [Workflow Overview](#workflow-overview)
+3. [Visual Architecture](#visual-architecture)
+   - [Edge Impulse Deployment Pipeline](#edge-impulse-deployment-pipeline)
+4. [Implementation Details](#implementation-details)
+   - [Example: Building and Deploying a Motion Classifier](#example-building-and-deploying-a-motion-classifier)
+   - [Running Inference on an Edge Device](#running-inference-on-an-edge-device)
+5. [Tools & Resources](#tools--resources)
+6. [References](#references)
 
 ## Introduction  
 ### What  
