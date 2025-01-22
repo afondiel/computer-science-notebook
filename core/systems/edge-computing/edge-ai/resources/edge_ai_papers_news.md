@@ -2,7 +2,7 @@
 
 Edge-AI Latest Research Papers, New, and Resources.
 
-- <img src="https://github.com/afondiel/awesome-smol/blob/main/resources/new_tag.png?raw=true" alt="new" width="30" height="30"/>**[2025/01/04]** [Optimizing Edge AI: A Comprehensive Survey on Data, Model, and System Strategies - Xubin Wang, Weijia Jia]()
+- <img src="https://github.com/afondiel/awesome-smol/blob/main/resources/new_tag.png?raw=true" alt="new" width="30" height="30"/>**[2025/01/04]** [Optimizing Edge AI: A Comprehensive Survey on Data, Model, and System Strategies - Xubin Wang, Weijia Jia](https://arxiv.org/pdf/2501.03265)
 - **[2024/12/23]** [Edge-AI for Agriculture: Lightweight Vision Models for Disease Detection in Resource-Limited Setting - Harsh Joshi](https://arxiv.org/pdf/2412.18635)
 - **[2024/10/20]** [Edge AI: A Taxonomy, Systematic Review and Future Directions - Sukhpal Singh Gill et al.](https://arxiv.org/pdf/2407.04053)
 - **[2024/09/23]** [A SURVEY OF RESOURCE-EFFICIENT LLM AND MULTIMODAL FOUNDATION MODELS - Mengwei Xu et al. ](http://arxiv.org/pdf/2401.08092)   
