@@ -62,7 +62,7 @@ graph LR
 A[IoT Devices] --Data--> B[Gateway]
 B --Data--> C[Edge Processing]
 C --Data--> D[Cloud Analytics]
-D --Processed Data--> E[User Interface (App/Web)]
+D --Processed Data--> E[User Interface - App/Web]
 ```
 - **IoT Devices:** Collect and transmit data.
 - **Gateway:** Routes data and ensures security.

@@ -61,7 +61,7 @@ IoT enables automation, remote monitoring, and smart decision-making by providin
 graph LR
 A[IoT Devices] --Data--> B[Gateway]
 B --Data--> C[Cloud/Edge Processing]
-C --Processed Data--> D[User Interface (App/Web)]
+C --Processed Data--> D[User Interface - App/Web]
 ```
 - **IoT Devices:** Collect data from the environment.
 - **Gateway:** Acts as a bridge between devices and cloud.
