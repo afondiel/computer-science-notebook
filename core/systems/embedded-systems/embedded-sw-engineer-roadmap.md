@@ -1,4 +1,11 @@
-#  Embedded Sw Engineer Roadmap 
+#  Embedded Software Engineer Roadmap
+
+## Table of Contents
+
+1. [Master C Programming language](#1-master-c-programming-language)
+2. [Project Mindset](#2-project-mindset)
+3. [Key skills to Master](#3-key-skills-to-master)
+4. [References](#references)
 
 ## **1. Master C Programming language**
 
