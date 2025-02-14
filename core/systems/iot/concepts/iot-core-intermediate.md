@@ -5,6 +5,7 @@
 - **Definition:** IoT (Internet of Things) refers to a network of physical devices embedded with sensors, software, and connectivity to collect and exchange data.
 - **Key Use Cases:** Smart homes, industrial automation, healthcare monitoring, smart cities, agriculture, and wearable technology.
 - **Prerequisites:** Understanding of networking protocols, basic programming, and familiarity with embedded systems.
+- **Related Notes:** [Embedded Systems](../../embedded-systems/), [Edge Computing](../../edge-computing/), [Edge AI](../../edge-computing/edge-ai/), [Cloud Computing](../../cloud-computing/). 
 
 ## Table of Contents
 1. [Introduction](#introduction)
