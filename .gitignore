@@ -1,13 +1,52 @@
-*.vsc
-*.o
+# Operating System files
+.DS_Store
+
+# Editor and IDE temporary files
+*.vscode
 *.cbp
 *.layout
+*.swp
+*.swo
+*.swn
+*.swop
+
+# Compiled object files and binary artifacts
+*.o
+*.obj
+*.a
+*.dll
+*.so
+*.dylib
+*.lib
 *.exe
-*.depend
+*.exe.stackdump
+*.out
+*.app
+*.app.dSYM
+*.dSYM
 *.build
 *.bin
-*.obj
-*.codeblocks
+*.elf
+*.hex
+*.elf.map
+*.elf.dll
+*.elf.so
 
+# Build directories and generated files
+/book            # mdBook build output
+/target          # Rust build artifacts
 
-RTOS/
+# Language-specific artifacts
+
+## Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+/venv
+/env
+
+## Rust
+Cargo.lock
+
+# ...existing code for project-specific ignores...
