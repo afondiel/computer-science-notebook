@@ -4,6 +4,7 @@
 # Editor and IDE temporary files
 *.vscode
 *.cbp
+*.depend
 *.layout
 *.swp
 *.swo
