@@ -114,7 +114,9 @@ See our [Contributing Guide](CONTRIBUTING.md) for detailed instructions.
    - Creating comprehensive learning paths
 
 2. **Technical Features**:
-   - LLM-powered note generation
+   - Add LLM-API for real-time note generation
+      - Leverage HF/spaces + Gradio  as API endpoints + external UI
+      - Users should choose/select the model they want to use based on the available models   
    - Interactive code examples
    - Improved search and navigation
 
