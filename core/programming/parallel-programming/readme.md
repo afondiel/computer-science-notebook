@@ -11,20 +11,20 @@ Parallel Computing (PC) state-of-the-art resources, core concepts, application e
 ## Quick Start
 
 ```
-│   readme.md (parallel-computing-guide.md)
+│  - readme.md (parallel-computing-guide.md)
 │
 ├───resources/
 │
 ├───concepts/
-│       parallel-computing-core-basics.md
-│       parallel-computing-core-intermediate.md
-│       parallel-computing-core-advanced.md
+│  - parallel-computing-core-basics.md
+│  - parallel-computing-core-intermediate.md
+│  - parallel-computing-core-advanced.md
 │
 ├───examples/
-│       implementation.md
+│  - implementation.md
 │
 └───industry-applications/
-        industry-links.md
+        └─── industry-links.md
 ```
 
 ## Related Notes
