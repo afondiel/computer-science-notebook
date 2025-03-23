@@ -5,7 +5,6 @@
 */
 
 #include <iostream>
-#include "interface.h"
 using namespace std;
 
 
@@ -19,47 +18,62 @@ contagious memory structure
 | data[0] |     data[1]     |      data[2]      |      data[3]  |
 -----------------------------------------------------------------
     BA     BA+1*sizeof(type) BA+2*sizeof(type) BA+3*sizeof(type)
-BA : Base Address
-sizeof(type) : Memory required for single element
+
+- BA: Base Address
+- sizeof(type): Memory required for single element
 */
 
 /*
-Linked List structure
-Each element is a NODE : data + pointer to the next element/Node*
-The 1st Node is called a HEAD
+Linked List (singly, doubly) - Core Concepts
+- Each element is a NODE : data + pointer to the next element/Node*
+- The 1st Node is called a HEAD
 -------------    ------------   ------------    -----------
 | data |next| -> |data |next|-> |data |next|-> |data |NULL|
 -------------    ------------   ------------    -----------
 HEAD                                            TAIL
 
-/!\ LL : Not contigous memory
-/!\ LL  : can be allocated in random location of the memory (Not linear)
+- LL: Not contigous memory
+- LL: can be allocated in random location of the memory (Not linear)
 */
 
-//code
-struct node
+// code
+struct Node
 {
     int data;
-    node *next;
+    Node *next;
 };
 
 class linked_list
 {
 private:
-    node *head, *tail;
+    Node *head, *tail;
 public:
-    //constructor
+    // constructor
     linked_list()
     {
         head = NULL;
         tail = NULL;
     }
+
+    // destructor
+    ~linked_list()
+    {
+        Node* current = head;
+        Node* next;
+
+        while(current != nullptr){
+            next = current->next; // Save the next node
+            delete current; // Delete the current node <=> (free(current) in C-Style)
+            current = next; // Move to the next node
+        }
+    }
+
     //setter add node
     void add_node(int n)
     {
-        //creating a new node object
-        // new :  create a new object and allocate the memory for the current data type
-        node *tmp = new node;
+        // creating a new node object
+        // new:  create a new object and allocate the memory for the current data type
+        Node* tmp = new Node; // C-Style: Node* tmp=(Node*)malloc(sizeof(Node*));
         // adding a new element
         tmp->data = n;
         tmp->next = NULL;
@@ -75,16 +89,30 @@ public:
             tail = tail->next;
         }
     }
-};
 
+    void del_node(int n){
+        // Do nothing
+    }
+
+    void display_list(){
+        Node* temp = head;
+        while (temp != NULL) {
+            std::cout << temp->data << "->";
+            temp = temp->next; // transverse
+        }
+        std::cout << "NULL" << std::endl;
+    }
+};
 
 
 int main()
 {
 
-    linked_list a;
-    a.add_node(1);
-    a.add_node(2);
+    linked_list ll;
+    ll.add_node(1);
+    ll.add_node(2);
+    // display ll
+    ll.display_list();
 
     return 0;
 }
