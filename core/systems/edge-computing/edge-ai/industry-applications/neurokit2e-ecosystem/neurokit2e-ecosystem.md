@@ -93,6 +93,3 @@ NEUROKIT2E represents a significant step forward in empowering Europe’s edge A
 - [8] https://edge-ai-tech.eu/conference-homepage-2023/
 - [9] https://neuropsychology.github.io/NeuroKit/functions/index.html
 - [10] https://codasip.com/company/europe-support/
-
----
-Answer from Perplexity: pplx.ai/share
