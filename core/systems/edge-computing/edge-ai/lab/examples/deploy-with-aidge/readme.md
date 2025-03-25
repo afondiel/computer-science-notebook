@@ -1,7 +1,7 @@
-# Deploy with Aiedge
+# Deploy with Aidge
 
 ## Technical Resources
-- [Aiedge Core Concepts](../../../concepts/frameworks/aidge)
+- [Aidge Core Concepts](../../../concepts/frameworks/aidge)
 - [Model Zoos](https://github.com/afondiel/Edge-AI-Model-Zoo)
 - [Target (Hardware) Platforms](https://github.com/afondiel/Edge-AI-Platforms)
 - [NEUROKIT2E Ecosystem](../../../industry-applications/neurokit2e-ecosystem)

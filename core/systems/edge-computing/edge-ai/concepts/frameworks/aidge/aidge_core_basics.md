@@ -1,7 +1,7 @@
-# Deploy with Aiedge
+# Deploy with Aidge
 
 ## Resources
-- [Aiedge Core Concepts](../../../concepts/frameworks/aidge)
+- [Aidge Core Concepts](../../../concepts/frameworks/aidge)
 - [Model Zoos](https://github.com/afondiel/Edge-AI-Model-Zoo)
 - [Target (Hardware) Platforms](https://github.com/afondiel/Edge-AI-Platforms)
 - [NEUROKIT2E Ecosystem](../../../industry-applications/neurokit2e-ecosystem)
@@ -123,6 +123,8 @@ print("Model exported to output_model.cpp")
 - [Eclipse Aidge GitLab](https://gitlab.eclipse.org/eclipse/aidge/aidge)
 - [Eclipse Aidge Documentation](https://eclipse.dev/aidge/)
 - [ONNX Format Overview](https://onnx.ai/)
+- [DeepGreen.ai](https://deepgreen.ai/)
+- [NEUROKIT2E](https://www.neurokit2e.eu/)
 
 ## Appendix
 
