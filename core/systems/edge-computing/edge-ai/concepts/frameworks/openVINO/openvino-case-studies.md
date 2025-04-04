@@ -1,4 +1,4 @@
-# Implementation Example of Edge-AI: How to Deploy with OpenVINO
+# OpenVINO - Case Studies
 
 ## Quick Reference
 - **One-sentence definition**: OpenVINO (Open Visual Inference and Neural Network Optimization) is a toolkit that enables efficient deployment of AI models for real-time inference on edge devices, particularly in industry settings.  
@@ -6,15 +6,26 @@
 - **Prerequisites**: Basic knowledge of Python, familiarity with AI models, and an edge device with Intel hardware (e.g., Intel CPU, GPU, or NCS2).
 
 ## Table of Contents
-1. Introduction
-2. Core Concepts
-3. Implementation Details
-    - Basic Implementation
-4. Real-World Applications
-    - Industry Examples
-    - Hands-On Project
-5. Tools & Resources
-6. References
+1. [Introduction](#introduction)  
+    - [What](#what)  
+    - [Why](#why)  
+    - [Where](#where)  
+2. [Core Concepts](#core-concepts)  
+    - [Fundamental Understanding](#fundamental-understanding)  
+    - [Visual Architecture](#visual-architecture)  
+3. [Implementation Details](#implementation-details)  
+    - [Basic Implementation](#basic-implementation)  
+      - [Step-by-Step Guide: Deploying Defect Detection in Manufacturing](#step-by-step-guide-deploying-defect-detection-in-manufacturing)  
+      - [Common Pitfalls](#common-pitfalls)  
+4. [Real-World Applications](#real-world-applications)  
+    - [Industry Examples](#industry-examples)  
+    - [Hands-On Project](#hands-on-project)  
+5. [Tools & Resources](#tools--resources)  
+    - [Essential Tools](#essential-tools)  
+    - [Learning Resources](#learning-resources)  
+6. [References](#references)  
+7. [Appendix](#appendix)  
+    - [Glossary](#glossary)  
 
 ## Introduction
 ### What
