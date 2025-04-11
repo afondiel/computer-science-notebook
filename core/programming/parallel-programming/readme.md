@@ -28,8 +28,9 @@ Parallel Computing (PC) state-of-the-art resources, core concepts, application e
 ```
 
 ## Related Notes
+
+- [Software Optimization Engineering Notes](../algorithms/optimization/concepts/)
 - [Supercomputing - Notes](../supercomputing-notes/)
-- [Optimizing C/C++ code for real-time and high-performance applications](../algorithms/optimization/concepts/optimization-techniques-for-c-cpp-guide.md)
 
 ## Contributing
 
