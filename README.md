@@ -1,15 +1,15 @@
 <h1 align="center" width="100%"> 💻 Computer Science Notebook 📔</h1>
 
 <div align="center">
-  <img src="https://img.shields.io/github/repo-size/afondiel/computer-science-notebook" alt="GitHub repo size">
-  <img src="https://img.shields.io/github/commit-activity/t/afondiel/computer-science-notebook/master" alt="GitHub commit activity (branch)">
-  <img src="https://img.shields.io/github/stars/afondiel/computer-science-notebook.svg" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/afondiel/computer-science-notebook.svg" alt="GitHub forks">
 
    <p align="center" width="100%">
       <img src="./meta/tools/logo-new.png" height = 280 width="400" style="border:0px solid #FFFFFF; padding:1px; margin:1px; border-radius: 5%;">
    </p>
-   <p><b> Making computer science knowledge accessible to everyone, from theory to industry practice.</b></p>
+  <img src="https://img.shields.io/github/repo-size/afondiel/computer-science-notebook" alt="GitHub repo size">
+  <img src="https://img.shields.io/github/commit-activity/t/afondiel/computer-science-notebook/master" alt="GitHub commit activity (branch)">
+  <img src="https://img.shields.io/github/stars/afondiel/computer-science-notebook.svg" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/afondiel/computer-science-notebook.svg" alt="GitHub forks">
+   <p> <a href="./core/">Core</a> | <a href="./industry/"> Industry</a> | <a href="./meta/">Meta</a> | <a href="https://afondiel.github.io/computer-science-notebook/">Web Doc</a><br>A practical computer science knowledge base</p>
 </div>
 
 ## 🎯 Overview
@@ -22,18 +22,18 @@ Whether you're a student learning the fundamentals, a professional looking to sw
 
 ```
 computer-science-notebook/
-├── core/                     # Core CS Topics
+├── core/                    # Core CS Topics
 │   ├── programming/         # Languages, patterns, practices
-│   ├── systems/            # OS, embedded, cloud
-│   ├── ai-ml/             # AI, ML, computer vision
-│   └── engineering/       # Architecture, testing, DevOps
+│   ├── systems/             # OS, embedded, cloud
+│   ├── ai-ml/               # AI, ML, computer vision
+│   └── engineering/         # Architecture, testing, DevOps
 ├── industry/                # Industry Applications
-│   ├── automotive/        # Electric vehicles, safety systems
-│   ├── agriculture/       # Smart farming, IoT
-│   └── aerospace/        # Navigation, control systems
+│   ├── automotive/          # Electric vehicles, safety systems
+│   ├── agriculture/         # Smart farming, IoT
+│   └── aerospace/           # Navigation, control systems
 └── meta/                    # Project Resources
-    ├── docs/             # Contributing guidelines
-    └── resources/        # Books, courses, interviews
+    ├── docs/                # Contributing guidelines
+    └── resources/           # Books, courses, interviews
 ```
 
 ## 🌟 Key Features
@@ -53,7 +53,8 @@ computer-science-notebook/
 ## 🚀 Getting Started
 
 ### Online Access
-Visit our documentation at: https://afondiel.github.io/computer-science-notebook/
+
+Read the notebook Visit our documentation at: https://afondiel.github.io/computer-science-notebook/
 
 ### Local Setup
 ```bash
