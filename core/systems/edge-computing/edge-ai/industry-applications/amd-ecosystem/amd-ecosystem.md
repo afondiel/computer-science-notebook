@@ -1,6 +1,15 @@
 # AMD Ecosystem
 
-AMD's ecosystem is a diverse network of partners, technologies, and solutions that spans multiple industries and markets. The company has evolved from its roots in microprocessors to become a key player in high-performance and adaptive computing[4].
+AMD's ecosystem is a diverse network of partners, technologies, and solutions that spans multiple industries and markets. The company has evolved from its roots in **microprocessors** to become a key player in **high-performance** and **adaptive computing**[4].
+
+## Table of Contents
+
+- [Product Portfolio](#product-portfolio)
+- [Partner Network](#partner-network)
+- [Developer Resources](#developer-resources)
+- [Strategic Focus](#strategic-focus)
+- [Recent Initiatives](#recent-initiatives)
+- [References](#references)
 
 ## Product Portfolio
 
@@ -11,7 +20,7 @@ AMD's ecosystem includes a wide range of products:
 - Motherboard chipsets
 - Field-programmable gate arrays (FPGAs) through the Xilinx acquisition[2]
 
-These products cater to various markets, including personal computers, servers, data centers, gaming consoles, and embedded systems[2].
+These products cater to various markets, including *personal computers*, *servers*, *data centers*, *gaming consoles*, and *embedded systems*[2].
 
 ## Partner Network
 
@@ -28,9 +37,9 @@ This collaboration enables AMD to deliver cutting-edge solutions across industri
 
 AMD provides extensive resources for developers:
 
-- AMD Embedded Partner Ecosystem: A global network of hardware and software companies contributing to embedded solutions[3]
+- AMD Embedded Partner Ecosystem: A global network of *hardware* and *software* companies contributing to embedded solutions[3]
 - Tools and developer resources for embedded processors[3]
-- AMD ROCm platform for high-performance computing and AI workflows[8]
+- **AMD ROCm** platform for *high-performance computing* and *AI workflows*[8]
 
 ## Strategic Focus
 
@@ -45,7 +54,7 @@ AMD's strategy focuses on:
 1. x86 Ecosystem Advisory Group: Formed with Intel to accelerate innovation and compatibility across x86 platforms[7]
 
 2. AI-focused developments:
-   - Fully optimized ROCm vLLM Docker Image for efficient inference of LLMs on AMD Instinct MI300X accelerators[8]
+   - *Fully optimized ROCm vLLM Docker Image* for *efficient inference of LLMs* on *AMD Instinct MI300X accelerators*[8]
    - Introduction of AMD Versal RF Series adaptive SoCs[8]
    - Collaboration with Microsoft on Copilot+ PC experiences[11]
 
