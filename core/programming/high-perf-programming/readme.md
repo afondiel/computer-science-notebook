@@ -1,3 +1,6 @@
+<!--Landing Page README.md-->
+# High Performance Programming
+
 # Optimization Notes
 
 ## Overview
@@ -28,5 +31,6 @@ parallel-programming/concepts/parallel-computing-principles.md)
 ## Contributing
 
 Please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+
 
 
