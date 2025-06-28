@@ -1,17 +1,15 @@
 <!--Landing Page README.md-->
-# High Performance Programming
-
-# Optimization Notes
+# High Performance Programming Guide
 
 ## Overview
 
-Optimization core concepts for real-world applications.
+High-Perf programming core concepts for real-world applications.
 
 ## Quick Start
 ```
-core/programming/algorithms/optimization/
-│   ├──README.md
-│   └──optimization-guide.md
+core/programming/high-Perf/
+│   ├──readme.md
+│   └──High-Perf-guide.md
 ├── concepts/
 │   └── core-concepts.md
 ├── examples/
@@ -23,11 +21,11 @@ core/programming/algorithms/optimization/
 ```
 
 ## Related Notes
-- [Parallel Programming](../../../programming/parallel-programming/concepts/parallel-programming-basics.md)
-    - [Parallel Computing Principles](../../../programming/parallel-programming/concepts/parallel-computing-principles.md)
-parallel-programming/concepts/parallel-computing-principles.md)
-- [Machine Learning Optimization - Notes](../../../ai-ml/ml-notes/ml-optimization/ml-optimization-techniques.md)
-
+- [High Perf C](../languages/c-notes/concepts/advanced-concepts/high-perf-c)
+- [High Perf Cpp](../languages/cpp-notes/concepts/advanced-concepts/high-perf-cpp)
+- [High Perf Python](../languages/python-notes/concepts/advanced-concepts/high-perf-python)
+- [High Perf Rust](../languages//rust-notes/concepts/advanced-concepts/high-perf-rust)
+ 
 ## Contributing
 
 Please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file.
