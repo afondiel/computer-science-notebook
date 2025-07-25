@@ -1,4 +1,4 @@
-# End-to-End Edge-AI Deployment Pipeline
+# End-to-End Edge AI Deployment Stack
 
 ![](https://github.com/afondiel/Introduction-to-On-Device-AI-DLAI/blob/main/lab/chapters/slides/01_Why_on_device/why_on_device_6.png?raw=true)
 
