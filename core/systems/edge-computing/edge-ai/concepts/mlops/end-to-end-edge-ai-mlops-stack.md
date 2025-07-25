@@ -83,4 +83,4 @@ By following these steps and considering the additional factors, you can success
 
 
 ## Related Notes
-- [End-to-End Edge-AI Deployment Stack](./end-to-end-edge-ai-deployment-stack.md)
+- [End-to-End Edge-AI Deployment Stack](../deployment/end-to-end-edge-ai-deployment-stack.md)
