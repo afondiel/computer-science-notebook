@@ -7,13 +7,29 @@
 - **Prerequisites**: Expert-level PyTorch/TensorFlow proficiency, deep understanding of model optimization theory, experience with distributed training systems, hardware performance characterization, and production ML deployment.
 
 ## Table of Contents
-1. Introduction
-2. Core Concepts
-3. Implementation Details
-4. Real-World Applications
-5. Tools & Resources
-6. References
-7. Appendix
+- [Pruna Framework Technical Notes](#pruna-framework-technical-notes)
+  - [Quick Reference](#quick-reference)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+    - [What](#what)
+    - [Why](#why)
+    - [Where](#where)
+  - [Core Concepts](#core-concepts)
+    - [Fundamental Understanding](#fundamental-understanding)
+    - [Visual Architecture](#visual-architecture)
+  - [Implementation Details](#implementation-details)
+    - [Advanced Topics](#advanced-topics)
+  - [Real-World Applications](#real-world-applications)
+    - [Industry Examples](#industry-examples)
+    - [Hands-On Project](#hands-on-project)
+  - [Tools \& Resources](#tools--resources)
+    - [Essential Tools](#essential-tools)
+    - [Learning Resources](#learning-resources)
+  - [References](#references)
+  - [Appendix](#appendix)
+    - [Glossary](#glossary)
+    - [Setup Guides](#setup-guides)
+
 
 ## Introduction
 ### What

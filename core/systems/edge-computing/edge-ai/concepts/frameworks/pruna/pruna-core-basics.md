@@ -7,13 +7,30 @@
 - **Prerequisites**: Basic Python knowledge, familiarity with PyTorch or TensorFlow, and a development environment like Jupyter Notebook.
 
 ## Table of Contents
-1. Introduction
-2. Core Concepts
-3. Implementation Details
-4. Real-World Applications
-5. Tools & Resources
-6. References
-7. Appendix
+- [Pruna Framework Technical Notes](#pruna-framework-technical-notes)
+  - [Quick Reference](#quick-reference)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+    - [What: Core definition and purpose](#what-core-definition-and-purpose)
+    - [Why: Problem it solves/value proposition](#why-problem-it-solvesvalue-proposition)
+    - [Where: Application domains](#where-application-domains)
+  - [Core Concepts](#core-concepts)
+    - [Fundamental Understanding](#fundamental-understanding)
+    - [Visual Architecture](#visual-architecture)
+  - [Implementation Details](#implementation-details)
+    - [Basic Implementation \[Beginner\]](#basic-implementation-beginner)
+  - [Real-World Applications](#real-world-applications)
+    - [Industry Examples](#industry-examples)
+    - [Hands-On Project](#hands-on-project)
+  - [Tools \& Resources](#tools--resources)
+    - [Essential Tools](#essential-tools)
+    - [Learning Resources](#learning-resources)
+  - [References](#references)
+  - [Appendix](#appendix)
+    - [Glossary](#glossary)
+    - [Setup guides](#setup-guides)
+
+
 
 ## Introduction
 ### What: Core definition and purpose
