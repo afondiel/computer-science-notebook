@@ -3,11 +3,11 @@
 [Data](#data-optimization-still-to-come) | [Model](#model-optimization-a-full-process) | [System](#system-optimization-still-to-come)|
 ![](./edge-ai-opt-triad.png)
 
-Wang et al. "Optimizing Edge AI: A Comprehensive Survey on Data, Model, and System Strategies", arXiv pp, [arXiv:2501.03265v1](https://arxiv.org/abs/2501.03265), 2025
+*Wang et al. "Optimizing Edge AI: A Comprehensive Survey on Data, Model, and System Strategies", arXiv pp, [arXiv:2501.03265v1](https://arxiv.org/html/2501.03265v1), 2025*
 
-After identifying performance bottlenecks, you can apply Edge AI SOTA optimization techniques across the data pipeline, model, and system architecture (as shown in diagram above) to meet your application goals.
+After identifying performance bottlenecks, you can apply Edge AI SOTA optimization techniques across the data pipeline, model, and system architecture (as shown in diagram above) to meet your application requirements.
 
-For example, if you decide to use quantization, reducing the model precision from `FP32` to `INT8` can reduce the memory footprint and speed up computation, potentially resulting in the following table.
+For example, if you decide to use quantization, reducing the model precision from `FP32` to `INT8`, it can reduce the memory footprint and speed up computation. You can use the following template to compare your model performance before and after applying optimization.
 
 <table border="1">
   <thead>
