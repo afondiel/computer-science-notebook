@@ -2,8 +2,12 @@
 
 ## Overview
 
+
 Computer Audition (CA) core concepts for real-world applications.
 
+![](./resources/ca-fields-2025.png)
+
+## Roadmap
 
 ```bash
 computer-audition/
@@ -52,6 +56,7 @@ computer-audition/
     ├── Computational Auditory Scene Analysis (CASA)
     └── Environmental Parameter Estimation
 ```
+
 
 
 ## Contributing
