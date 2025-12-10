@@ -7,6 +7,8 @@ Computer Audition (CA) core concepts for real-world applications.
 
 ![](./resources/ca-fields-2025.png)
 
+Source: [ECE 477 - Computer Audition](https://hajim.rochester.edu/ece/sites/zduan/teaching/ece477/index.html)
+
 ## Roadmap
 
 ```bash
