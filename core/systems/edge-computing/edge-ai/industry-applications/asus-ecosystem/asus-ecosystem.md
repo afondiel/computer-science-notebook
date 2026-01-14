@@ -56,13 +56,13 @@ ASUS IoT Edge AI Systems excel in delivering GPU-powered, mission-critical edge 
 
 ## Citation 
 
-[1](https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/embedded-computers-edge-ai-systems/pe2100n/)
-[2](https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/embedded-computers-edge-ai-systems/pe1102n/)
-[3](https://www.steliau.fr/en/product-news/asus-iot-vision-based-edge-ai-applications-accelerating-industrial-digital)
-[4](https://iot.asus.com/blog/vision-based-edge-ai/)
-[5](https://www.asus.com/content/asus-iot-edge-ai-systems/)
-[6](https://iot.asus.com/files/ASUS_IoT_Edge_AI_Flyer.pdf)
-[7](https://iot.asus.com/blog/what-is-edge-ai/)
-[8](https://iot.asus.com/embedded-computers-edge-ai-systems/all-series/filter?Series=Embedded-Computers)
-[9](https://170.p.syniva.es/ph/content/asus-iot-edge-ai-systems/)
-[10](https://iot.asus.com/files/asus_iot_product_guide.pdf)
+- [1](https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/embedded-computers-edge-ai-systems/pe2100n/)
+- [2](https://www.asus.com/networking-iot-servers/aiot-industrial-solutions/embedded-computers-edge-ai-systems/pe1102n/)
+- [3](https://www.steliau.fr/en/product-news/asus-iot-vision-based-edge-ai-applications-accelerating-industrial-digital)
+- [4](https://iot.asus.com/blog/vision-based-edge-ai/)
+- [5](https://www.asus.com/content/asus-iot-edge-ai-systems/)
+- [6](https://iot.asus.com/files/ASUS_IoT_Edge_AI_Flyer.pdf)
+- [7](https://iot.asus.com/blog/what-is-edge-ai/)
+- [8](https://iot.asus.com/embedded-computers-edge-ai-systems/all-series/filter?Series=Embedded-Computers)
+- [9](https://170.p.syniva.es/ph/content/asus-iot-edge-ai-systems/)
+- [10](https://iot.asus.com/files/asus_iot_product_guide.pdf)
