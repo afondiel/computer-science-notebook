@@ -1,140 +1,135 @@
-# DEEPCRAFT Technical Notes  
+# Imagimob DEEPCRAFT Technical Notes
 
-## Quick Reference  
-- **One-sentence definition**: LiteRT is a lightweight runtime framework optimized for deploying machine learning models on edge devices with minimal resource consumption.  
-- **Key use cases**: IoT devices, robotics, and real-time embedded systems requiring fast and efficient AI inference.  
-- **Prerequisites**: Familiarity with basic machine learning concepts and working knowledge of Python.
+<!-- A rectangular image illustrating an intermediate DEEPCRAFT workflow, featuring a sensor-equipped wearable device capturing motion data, the DEEPCRAFT Studio interface with data preprocessing tools, AutoML model selection, optimization settings for MCU targets, and deployment to embedded hardware, with arrows showing integration with CI/CD pipelines and performance metrics. -->
 
-## Table of Contents  
-1. [Introduction](#introduction)
-2. [Core Concepts](#core-concepts)
-   - [LiteRT Overview](#lite-rt-overview)
-   - [Key Features](#key-features)
-   - [Common Misconceptions](#common-misconceptions)
-3. [Visual Architecture](#visual-architecture)
-   - [System Overview Diagram](#system-overview-diagram)
-   - [Component Relationships](#component-relationships)
-4. [Implementation Details](#implementation-details)
-   - [Basic Deployment Example](#basic-deployment-example)
-   - [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
-5. [Tools & Resources](#tools--resources)
-6. [References](#references)
+## Quick Reference
+- **Definition**: Imagimob DEEPCRAFT is a comprehensive edge AI platform for developing, optimizing, and deploying machine learning models on resource-constrained devices, specializing in sensor-based applications like IMU data processing.
+- **Key Use Cases**: Real-time activity recognition in wearables, predictive maintenance in industrial IoT, and gesture control in smart devices.
+- **Prerequisites**: Proficiency in machine learning workflows, experience with sensor data handling, and familiarity with embedded systems programming.
 
-## Introduction  
-### What  
-LiteRT is an ultra-lightweight runtime designed for deploying AI models on resource-constrained devices. Its modular design makes it suitable for a wide range of edge applications.  
+## Table of Contents
+1. Introduction
+2. Core Concepts
+3. Implementation Details
+4. Real-World Applications
+5. Tools & Resources
+6. References
+7. Appendix
 
-### Why  
-Deploying AI with LiteRT enables highly efficient, low-latency inference on devices where resources like memory and processing power are limited.  
+## Introduction
+### What
+Imagimob DEEPCRAFT (formerly Imagimob Studio) is an end-to-end software suite for building AI models tailored for edge devices, supporting data labeling, AutoML, optimization, and code generation for MCUs.
 
-### Where  
-LiteRT is commonly used in:  
-- **IoT**: Smart sensors, smart home automation.  
-- **Robotics**: Path planning, object detection.  
-- **Healthcare**: Portable diagnostic devices.  
+### Why
+DEEPCRAFT streamlines the tinyML development process by automating model selection and optimization, ensuring efficient performance on low-power hardware while maintaining high accuracy.
 
-## Core Concepts  
-### LiteRT Overview  
-- **Lightweight Runtime**: Small memory footprint, suitable for microcontrollers and low-power devices.  
-- **Multi-Platform Support**: Compatible with various operating systems and architectures.  
-- **Easy Integration**: Provides simple APIs for loading and running machine learning models.  
+### Where
+DEEPCRAFT is applied in IoT ecosystems for sensor-driven AI, including health monitoring wearables, industrial automation, and consumer electronics with motion intelligence.
 
-### Key Features  
-1. **Dynamic Model Loading**: Models can be loaded and executed on the fly.  
-2. **Optimized Inference**: Utilizes quantization and pruning for efficiency.  
-3. **Cross-Language Support**: APIs available for Python, C++, and other languages.  
+## Core Concepts
+### Fundamental Understanding
+- **Basic Principles**: DEEPCRAFT leverages AutoML for architecture search, focuses on quantization and pruning for edge optimization, and supports seamless transition from prototyping to production deployment.
+- **Key Components**:
+  - **Data Preprocessor**: Tools for filtering, segmentation, and feature extraction from time-series sensor data.
+  - **AutoML Engine**: Automated hyperparameter tuning and model architecture selection.
+  - **Optimizer**: Quantization (INT8), pruning, and hardware-specific adaptations.
+  - **Code Generator**: Exports C/C++ code for MCU integration.
+- **Common Misconceptions**:
+  - AutoML replaces expertise: It accelerates iteration but requires domain knowledge for data quality.
+  - Edge-only focus: Supports hybrid cloud-edge workflows for training.
+  - Limited to IMUs: Handles various sensors like microphones and cameras.
 
-### Common Misconceptions  
-- **Myth**: LiteRT is only for extremely simple models.  
-  - **Fact**: LiteRT supports complex models when optimized for edge deployment.  
-- **Myth**: LiteRT is limited to specific hardware.  
-  - **Fact**: LiteRT runs on a wide range of architectures, from ARM processors to x86.  
-
-## Visual Architecture  
-### System Overview Diagram
-
+### Visual Architecture
 ```mermaid
 graph TD
-A[LiteRT Framework] -->|Loads| B[Optimized AI Model]
-A -->|Interacts with| C[Edge Device APIs]
-C -->|Processes| D[Real-World Inputs]
-D -->|Returns| E[Inference Results]
+    A[Sensor Data Import] -->|Preprocessing & Labeling| B[DEEPCRAFT Studio Project]
+    B -->|AutoML Training| C[Model Candidates]
+    C -->|Evaluation & Selection| D[Optimized Model]
+    D -->|Code Generation| E[MCU Deployment]
+    E -->|Integration Testing| F[Production Application]
 ```
+- **System Overview**: Sensor data is imported and preprocessed in the studio, trained via AutoML, optimized, and deployed as code to MCUs for production.
+- **Component Relationships**: Preprocessing feeds training, AutoML generates candidates, optimization ensures efficiency, deployment enables application.
 
-### Component Relationships  
-- **AI Model**: Pre-trained and optimized for LiteRT.  
-- **LiteRT Framework**: Facilitates model loading, execution, and inference.  
-- **Edge Device APIs**: Interfaces for sensors and actuators on the target device.  
+## Implementation Details
+### Intermediate Patterns
+```c
+// Example generated C code for MCU inference (simplified from DEEPCRAFT export)
+#include "deepcraft_model.h"  // Generated header
 
-## Implementation Details  
-### Basic Deployment Example  
+void setup() {
+  // Initialize sensors (e.g., IMU)
+  init_imu();
+}
 
-#### Step 1: Optimize a Pre-Trained Model  
-Use a framework like TensorFlow Lite to optimize a model for LiteRT:  
-```python
-import tensorflow as tf
-
-# Convert a model to TensorFlow Lite
-model = tf.keras.models.load_model("my_model.h5")
-converter = tf.lite.TFLiteConverter.from_keras_model(model)
-tflite_model = converter.convert()
-
-# Save the optimized model
-with open("model.tflite", "wb") as f:
-    f.write(tflite_model)
+void loop() {
+  float input_data[INPUT_SIZE];  // e.g., 3-axis accel + gyro
+  read_sensor_data(input_data);
+  
+  // Preprocess (normalization, windowing)
+  normalize_data(input_data);
+  
+  // Run inference
+  int prediction = deepcraft_infer(input_data);  // Model call
+  
+  // Act on prediction (e.g., gesture detected)
+  if (prediction == GESTURE_WAVE) {
+    trigger_action();
+  }
+  
+  delay(50);  // Sampling rate
+}
 ```
+- **Design Patterns**:
+  - **Data Pipeline**: Automated segmentation and feature extraction (e.g., FFT, MFCC) for time-series.
+  - **AutoML Workflow**: Hyperparameter sweeps with cross-validation for robust models.
+  - **Hardware Integration**: Generate platform-specific code with HAL abstractions.
+- **Best Practices**:
+  - Balance dataset classes to avoid bias in classification tasks.
+  - Use transfer learning from Ready Models for faster convergence.
+  - Profile power consumption during optimization iterations.
+- **Performance Considerations**:
+  - Target <1ms inference on MCUs via quantization.
+  - Optimize window sizes for real-time vs. accuracy trade-offs.
+  - Monitor overfitting with validation sets from diverse conditions.
 
-#### Step 2: Deploy with LiteRT  
-Install LiteRT and run the model:  
-```python
-import litert
+## Real-World Applications
+### Industry Examples
+- **Use Case**: Fall detection in elderly care wearables.
+- **Implementation Pattern**: Use IMU data with AutoML for anomaly detection, optimize for battery life.
+- **Success Metrics**: >95% detection accuracy, <10mW power draw.
 
-# Load LiteRT runtime
-runtime = litert.Runtime()
+### Hands-On Project
+- **Project Goals**: Develop a custom gesture recognition model for an MCU.
+- **Implementation Steps**:
+  1. Create a project in DEEPCRAFT Studio with gesture accelerator.
+  2. Import labeled IMU data, preprocess with filters.
+  3. Run AutoML to select best architecture.
+  4. Optimize and generate C code for deployment.
+- **Validation Methods**: Test on hardware; measure latency and accuracy.
 
-# Load the optimized model
-model_path = "model.tflite"
-model = runtime.load_model(model_path)
+## Tools & Resources
+### Essential Tools
+- **Development Environment**: DEEPCRAFT Studio (Windows/Mac), MCU dev boards.
+- **Key Frameworks**: Built-in AutoML, supports TensorFlow Lite Micro.
+- **Testing Tools**: Oscilloscope for power profiling, debuggers for MCUs.
 
-# Run inference
-input_data = [1.0, 2.0, 3.0]  # Replace with actual input
-output = model.run(input_data)
+### Learning Resources
+- **Documentation**: DEEPCRAFT developer portal (developer.imagimob.com).
+- **Tutorials**: Video series on model optimization.
+- **Community Resources**: Imagimob forums, tinyML talks.
 
-print("Inference result:", output)
-```
+## References
+- DEEPCRAFT Docs: developer.imagimob.com.
+- Imagimob Website: www.imagimob.com/deepcraft.
+- TinyML Book: "TinyML" by Warden & Situnayake.
 
-#### Step 3: Integrate with Edge Device  
-Add APIs to interact with device sensors or actuators:  
-```python
-# Simulate reading data from a sensor
-def get_sensor_data():
-    return [0.5, 0.8, 1.2]
+## Appendix
+### Glossary
+- **AutoML**: Automated Machine Learning for model search.
+- **Quantization**: Reducing model precision for efficiency.
+- **MCU**: Microcontroller Unit for edge devices.
 
-# Perform inference using LiteRT
-sensor_data = get_sensor_data()
-output = model.run(sensor_data)
-print("Processed output:", output)
-```
-
-### Common Pitfalls and Solutions  
-1. **Incorrect Model Format**: Ensure the model is converted to `.tflite` format.  
-   - **Solution**: Verify the conversion process using TensorFlow Lite tools.  
-2. **Unsupported Operations**: Some complex layers may not be supported.  
-   - **Solution**: Use quantization or simplify the model architecture.  
-
-## Tools & Resources  
-### Essential Tools  
-- **LiteRT Framework**: Download from the official LiteRT repository.  
-- **TensorFlow Lite**: For optimizing models.  
-- **Edge Device Simulator**: Test inference before deployment.  
-
-### Learning Resources  
-- [LiteRT Documentation](https://litert.docs.example)  
-- [TensorFlow Lite Tutorials](https://www.tensorflow.org/lite)  
-- [Edge AI Development Communities](https://forum.edgeai.org)  
-
-## References  
-- [LiteRT Official Guide](https://litert.docs.example)  
-- [Efficient AI Deployment on Edge Devices](https://arxiv.org/abs/edge-ai-2024)  
-- [TensorFlow Lite Conversion Guide](https://www.tensorflow.org/lite/convert)  
- 
+### Setup Guides
+- Install Studio: Download from imagimob.com.
+- Hardware: Use supported boards like STM32 or Nordic.
