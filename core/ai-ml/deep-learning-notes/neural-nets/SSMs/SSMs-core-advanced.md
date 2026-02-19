@@ -41,11 +41,11 @@ SSMs power next-generation foundation models in NLP (long-document QA), genomics
 ### Visual Architecture
 ```mermaid
 graph TD
-    A[Continuous Dynamics<br>dx/dt = Ax + Bu] -->|HiPPO Init & DPLR| B[Structured Params]
-    B -->|Learnable Discretization| C[Discrete \bar{A}, \bar{B}, C]
+    A["Continuous Dynamics<br>dx/dt = Ax + Bu"] -->|"HiPPO Init & DPLR"| B[Structured Params]
+    B -->|Learnable Discretization| C["Discrete \bar{A}, \bar{B}, C"]
     C -->|Selective Gating| D[Input-Dependent Scan]
     D -->|Parallel Computation| E[Output y_k Sequence]
-    E -->|Stacking & Hybrids| F[Deep SSM Model]
+    E -->|"Stacking & Hybrids"| F[Deep SSM Model]
 ```
 - **System Overview**: Continuous dynamics are structured and discretized, selectively scanned in parallel, and stacked into deep models for complex sequence tasks.
 - **Component Relationships**: Structuring enables efficient discretization, gating adds selectivity, parallel scans scale computation.

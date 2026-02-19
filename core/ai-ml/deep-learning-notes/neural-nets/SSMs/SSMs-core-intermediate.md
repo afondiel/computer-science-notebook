@@ -40,11 +40,11 @@ SSMs are used in natural language processing for long-document tasks, genomics f
 ### Visual Architecture
 ```mermaid
 graph TD
-    A[Continuous Input u(t)] -->|Discretize| B[Discrete Input u_k]
+    A["Continuous Input u(t)"] -->|Discretize| B[Discrete Input u_k]
     B -->|B_bar| C[State x_k]
     C -->|A_bar| C
     C -->|C_bar| D[Output y_k]
-    D -->|Non-linear Activation| E[Next Layer/Input]
+    D -->|Non-linear Activation| E["Next Layer/Input"]
 ```
 - **System Overview**: Continuous signals are discretized, states evolve with barred matrices, outputs generated, often with non-linearities for deep models.
 - **Component Relationships**: Discretization enables discrete computation, states integrate history, outputs feed downstream processing.

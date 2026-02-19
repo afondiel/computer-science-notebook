@@ -41,9 +41,9 @@ SSMs are applied in engineering for system control (e.g., robotics), finance for
 ### Visual Architecture
 ```mermaid
 graph TD
-    A[Input u(t)] -->|B| B[State x(t)]
+    A["Input u(t)"] -->|B| B["State x(t)"]
     B -->|A| B
-    B -->|C| C[Output y(t)]
+    B -->|C| C["Output y(t)"]
 ```
 - **System Overview**: Input influences the state via B, state evolves with A, and output is produced via C.
 - **Component Relationships**: The state acts as memory, integrating inputs over time to generate outputs.
