@@ -11,10 +11,7 @@
 
 <img src=".\resources\Signal_processing_system.png" width="800" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
-
-```
 Signal processing is an electrical engineering subfield that focuses on analyzing, modifying and synthesizing signals, such as sound, images, potential fields, seismic signals, altimetry processing, and scientific measurement
-```
 
 ## Applications
 
@@ -30,6 +27,10 @@ Signal processing is an electrical engineering subfield that focuses on analyzin
 
 <img src=".\resources\s_types.jpg" width="600" style="border:0px solid #FFFFFF; padding:1px; margin:1px">
 
+
+### Sequential Signals
+
+![](./resources/sequential-data.png)
 
 ## Signal dimensions
 
@@ -54,7 +55,7 @@ Signal processing is an electrical engineering subfield that focuses on analyzin
 - Wolfram
 
 
-# References
+## References
 
 Wikipedia : 
 - [Signal Processing](https://en.wikipedia.org/wiki/Signal_processing#:~:text=Signal%20processing%20is%20an%20electrical,altimetry%20processing%2C%20and%20scientific%20measurements.)
