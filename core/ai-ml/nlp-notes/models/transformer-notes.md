@@ -1,5 +1,9 @@
 # Transformer Models - Notes
 
+![](./transformers-model-family/transformer-timeline.png)
+
+Source: [Link](https://www.youtube.com/watch?v=zbdong_h-x4)
+
 ## Table of Contents (ToC)
 
   - [Introduction](#introduction)
@@ -98,7 +102,8 @@ Output:
 
 ## References
 
-[The Transformer model family - HF](https://huggingface.co/docs/transformers/model_summary)
+- [The Transformer model family - HF](https://huggingface.co/docs/transformers/model_summary)
+- [HarvardNLP - The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
 Documentation: 
 - [HuggingFace Transformers Framework](https://huggingface.co/docs/transformers/index)
