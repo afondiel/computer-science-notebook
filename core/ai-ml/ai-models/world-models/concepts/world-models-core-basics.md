@@ -1,6 +1,10 @@
 # World Models Technical Notes
 <!-- A rectangular image showing a simple world model concept: an agent (like a robot or AI character) observing a virtual environment through a "camera" eye, with internal thought bubbles representing a compressed mental model of the world (grid-like map with objects), arrows showing how observations update the model and how the model helps predict future actions and outcomes. -->
 
+![](world_models_LeCun_22.jpg)
+
+[Source](https://openreview.net/pdf?id=BZ5a1r-kVsf) 
+
 ## Quick Reference
 - **Definition**: A World Model is an internal representation that an AI agent builds of its environment, allowing it to predict what will happen next, plan actions, and make decisions without always needing to interact directly with the real world.
 - **Key Use Cases**: Training AI for games (like playing Atari or racing games), robotics (simulating movements before trying them in reality), and autonomous systems that need to imagine future scenarios.
@@ -144,5 +148,3 @@ print("Latent shape:", z.shape)
 ### Setup Guides
 - Basic environment: `pip install torch gymnasium`.
 - Test run: Load a simple Gym environment and feed observations to the model.
-
-</xaiArtifact>
