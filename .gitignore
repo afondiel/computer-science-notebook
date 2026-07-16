@@ -54,3 +54,4 @@ Cargo.lock
 
 # MkDocs build output
 /site/
+mkdocs.audit.yml
