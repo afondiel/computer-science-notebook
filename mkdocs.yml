@@ -75,6 +75,10 @@ markdown_extensions:
 
 plugins:
   - same-dir
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+      ignore_h1_titles: true
   - search
   - awesome-nav
   - git-revision-date-localized:
