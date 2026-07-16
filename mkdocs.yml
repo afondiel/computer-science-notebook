@@ -1,0 +1,100 @@
+site_name: Computer Science Notebook
+site_description: A community-driven knowledge base bridging computer science theory with real-world industry applications.
+site_url: https://afondiel.github.io/computer-science-notebook/
+site_author: Afonso Diela
+repo_url: https://github.com/afondiel/computer-science-notebook
+repo_name: afondiel/computer-science-notebook
+edit_uri: edit/master/
+docs_dir: .
+use_directory_urls: false
+copyright: Copyright &copy; Afonso Diela — CC BY-NC-SA 4.0
+
+theme:
+  name: material
+  logo: meta/tools/logo-new.png
+  favicon: meta/tools/logo-new.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - same-dir
+  - search
+  - awesome-nav
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      fallback_to_build_date: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/afondiel/computer-science-notebook
+  generator: false
+
+# docs_dir is the repo root (via the same-dir plugin). These paths are excluded
+# from the built site.
+exclude_docs: |
+  .github/
+  .gitignore
+  CLAUDE.md
+  MKDOCS_MIGRATION_PLAN.md
+  requirements-docs.txt
+  meta/templates/
+  meta/tools/assistant/
+  **/node_modules/
