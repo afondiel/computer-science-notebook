@@ -1,6 +1,6 @@
 # **Brain Map - Notes**
 
-![](./brain-anatomy-quiz.jpg)
+
 
 ## **Table of Contents (ToC)**
 

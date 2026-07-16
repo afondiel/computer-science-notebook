@@ -161,7 +161,7 @@ Where: `x`: input signals, `b`: bias, `w`: weights
 - Deep Belief Networks (DBNs)
 - Restricted Boltzmann Machines(RBMs)
 
-For full list and description, please checkout the [Neural Networks architecture notes](./neural-nets/neural-nets-architecture-notes.md).
+For full list and description, please checkout the Neural Networks architecture notes.
 
 
 **Problem Definition**

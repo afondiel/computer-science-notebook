@@ -152,7 +152,7 @@ Sub-domains of computer vision include :
 **Deep Learning Research Notes**
 
 - [Deep Learning Neural Nets](..\ai\deep-learning-notes\neural-nets)
-- [Deep Learning Neural Nets Architectures](..\ai\deep-learning-notes\neural-nets-architecture-notes.md)
+- Deep Learning Neural Nets Architectures
 - [Convolutional Neural Network (CNN) - Notebook](https://github.com/afondiel/computer-science-notebook/blob/master/ai/deep-learning-notes/neural-nets/notebook/convolutional-neural-network.ipynb)
 - [The State of Computer Vision at Hugging Face](https://huggingface.co/blog/cv_state)
 - [Computer Vision & Keras resources](https://keras.io/examples/vision/)
@@ -281,7 +281,7 @@ Src: [The Ultimate Guide to Top Computer Vision Conferences: Where Tech Visionar
 
 ## **Computer Vision Roadmap: Becoming a World-Class Computer Vision Engineer**
 
-**Notes: [How To Become A World-Class Computer Vision Engineer - The Ultime Guide](./computer-vision-engineer-guideline.md)**
+**Notes: How To Become A World-Class Computer Vision Engineer - The Ultime Guide**
 
 Resources:
 - [Introduction to Computer Vision / Roadmap to CV Developer in 2022](https://www.karachidotai.com/introduction-to-computer-vision)
@@ -435,7 +435,7 @@ MISC:
   - [Tesla AI Day - 2022](https://www.youtube.com/watch?v=ODSJsviD_SU&t=3480s)
 
 **Computer Vision & Space Exploration**
-- [Computer Vision & Space Explorations - Notes](./lab/cv-space-explorations.md)
+- Computer Vision & Space Explorations - Notes
 - [Space Imagery Data - Nasa earthdata](https://www.earthdata.nasa.gov/)
 - [Computer Vision and Remote Sensing](https://www.satimagingcorp.com/applications/artificial-intelligence-ai/computer-vision/)
 - [Computer Vision in Google Maps](https://blog.google/products/maps/google-maps-immersive-view-routes/#:~:text=Using%20machine%20learning%20to%20extract,to%20understand%20what's%20in%20them.)
