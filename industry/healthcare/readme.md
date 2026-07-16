@@ -6,6 +6,6 @@ This is a "Hello World" resources for Computer Science concepts applied in [Heal
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to [CONTRIBUTING.md](../../CONTRIBUTING.md) file.
 
 ### > "Life is an equilibrium state between synthesis and degradation of proteins." ~ Yoshinori Ohsumi

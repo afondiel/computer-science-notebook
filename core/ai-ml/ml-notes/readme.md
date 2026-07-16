@@ -11,7 +11,7 @@ This is a "Hello World" resources for Machine Learning (ML).
 
 ## Contributing
 
-Please refer to this [CONTRIBUTING.md](../../CONTRIBUTING.md) file.
+Please refer to this [CONTRIBUTING.md](../../../CONTRIBUTING.md) file.
 
 > ### “The machines do not solve problems with greater insight than men do, only faster. Only faster!” — Isaac Asimov
 

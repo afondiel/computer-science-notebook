@@ -9,7 +9,7 @@ This is a Hello World resources for Generative AI (GenAI).
 
 ## Contributing
 
-Please refer to this [file](../../CONTRIBUTING.md).
+Please refer to this [file](../../../CONTRIBUTING.md).
 
 
 > ### "Generative AI is to Artificial Intelligence what Big Bang once was for the universe, the birth of galaxies, lives and human intelligence." ~ [@muntu](https://github.com/afondiel)

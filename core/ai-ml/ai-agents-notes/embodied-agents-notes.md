@@ -19,7 +19,7 @@
 - [References](#references)
 
 ---
-- Related Notes: [AI Notes](../ai-notes.md), [Embodied-AI Notes](./core/ai-ml/ai-agents-notes/embodied-agents-notes.md), [AI Agents](../ai-agents-notes/ai-agents-notes.md), [Robotics Notes](../../robotics/robotics-notes.md)
+- Related Notes: [AI Notes](../ai-notes.md), [Embodied-AI Notes](./embodied-agents-notes.md), [AI Agents](../ai-agents-notes/ai-agents-notes.md), [Robotics Notes](../../robotics/robotics-notes.md)
 
 ## Introduction
 **Embodied agents** are autonomous systems or entities equipped with physical bodies, enabling them to interact with the physical world through sensors and actuators, mimicking human-like behavior and perception.

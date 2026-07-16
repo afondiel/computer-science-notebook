@@ -9,7 +9,7 @@ This is a Hello World resources for web development.
 
 ## Contributing
 
-Please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md).
+Please refer to the [CONTRIBUTING.md](../../../CONTRIBUTING.md).
 
 > ## “In the information age, man and spider both live in a web.” ― Amit Kalantri
 

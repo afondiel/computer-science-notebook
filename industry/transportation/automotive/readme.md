@@ -9,7 +9,7 @@ This is a computer science notes and resources for Automotive Industry.
 
 ## Contributing 
 
-Please refer to this [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to this [CONTRIBUTING.md](../../../CONTRIBUTING.md) file.
 
 > ## "The only progress is to keep moving forward." - Henry Ford
 

@@ -9,7 +9,7 @@ This is a set of tools and resources for sw, ai and IoT Enginneers and makers wh
 
 ## Contributing
 
-If you plan to add more resources in this note, please refer to [CONTRIBUTING.md](..\CONTRIBUTING.md) file.
+If you plan to add more resources in this note, please refer to [CONTRIBUTING.md](../../CONTRIBUTING.md) file.
 
 
 

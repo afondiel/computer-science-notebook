@@ -40,7 +40,7 @@ Hello, world!
 ```
 ## Contributing
 
-Please refer to this [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to this [CONTRIBUTING.md](../../../../CONTRIBUTING.md) file.
 
 
 ## References
