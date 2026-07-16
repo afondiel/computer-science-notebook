@@ -1,6 +1,6 @@
 # **Human Brain - Notes**
 
-![](./left_and_right_brain.jpg)
+
 
 ## **Table of Contents (ToC)**
 

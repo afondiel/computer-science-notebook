@@ -23,7 +23,7 @@
 - [References](#references)
 
 ---
-- Related Notes: [AI Notes](../ai-notes.md), [Embodied-AI Notes](./embodied-agents-notes.md), [Robotics Notes](../../robotics/robotics-notes.md), 
+- Related Notes: [AI Notes](../ai-notes.md), [Embodied-AI Notes](./embodied-agents-notes.md), Robotics Notes, 
 
 ## Introduction
 **Autonomous agents** are systems or software entities that perform tasks or make decisions independently, often in dynamic environments, without continuous human intervention.

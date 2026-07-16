@@ -16,7 +16,7 @@ Embedded AI involves integrating artificial intelligence algorithms and models i
 
 ## Applications
 
-- [Edge devices](../../edge-iot-notes/readme.md): Smart cameras, IoT sensors, and wearables.
+- Edge devices: Smart cameras, IoT sensors, and wearables.
 - Automotive: Driver assistance, object recognition.
 - Healthcare: Remote patient monitoring, medical imaging.
 - Industrial IoT: Predictive maintenance, quality control.
