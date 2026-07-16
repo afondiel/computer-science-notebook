@@ -11,6 +11,7 @@ copyright: Copyright &copy; Afonso Diela — CC BY-NC-SA 4.0
 
 theme:
   name: material
+  custom_dir: overrides
   logo: meta/tools/logo-new.png
   favicon: meta/tools/logo-new.png
   palette:
