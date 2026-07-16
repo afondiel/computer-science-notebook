@@ -55,3 +55,6 @@ Cargo.lock
 # MkDocs build output
 /site/
 mkdocs.audit.yml
+
+# mkdocs-jupyter build cache
+.cache/
