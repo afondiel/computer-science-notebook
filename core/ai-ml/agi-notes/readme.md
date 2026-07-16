@@ -10,7 +10,7 @@
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to [CONTRIBUTING.md](../../../CONTRIBUTING.md) file.
 
 
 > ## "There's a big difference between knowing the name of something and knowing something" - Richard Feynman

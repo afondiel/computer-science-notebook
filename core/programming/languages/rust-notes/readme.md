@@ -39,7 +39,7 @@ cargo run
 
 ## Contributing
 
-Please refer to this [CONTRIBUTING.md](../../../CONTRIBUTING.md).
+Please refer to this [CONTRIBUTING.md](../../../../CONTRIBUTING.md).
 
 
 > [!TIP] 

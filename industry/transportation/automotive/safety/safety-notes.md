@@ -40,7 +40,7 @@ Automotive safety functions classification based on [ISO26262](https://en.wikipe
 
 ## Contributing
 
-Please refer to this [CONTRIBUTING.md](../../CONTRIBUTING.md).
+Please refer to this [CONTRIBUTING.md](../../../../CONTRIBUTING.md).
 
 ## References 
 

@@ -11,6 +11,6 @@ Edge AI, Computing and IoT: Connecting the Physical and Digital World.
 
 ## Contributing
 
-Please refer to this [file](../../CONTRIBUTING.md).
+Please refer to this [file](../../../CONTRIBUTING.md).
 
 

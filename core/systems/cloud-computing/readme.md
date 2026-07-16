@@ -30,5 +30,5 @@ Cloud Computing core concepts for real-world applications.
 
 ## Contributing
 
-Please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to the [CONTRIBUTING.md](../../../CONTRIBUTING.md) file.
 

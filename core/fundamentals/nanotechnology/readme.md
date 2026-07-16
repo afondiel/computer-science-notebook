@@ -6,4 +6,4 @@ This is a "Hello World" resources for Computer Science concepts applied in [Nano
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to [CONTRIBUTING.md](../../../CONTRIBUTING.md) file.

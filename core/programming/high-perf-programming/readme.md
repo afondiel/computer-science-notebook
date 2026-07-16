@@ -28,7 +28,7 @@ core/programming/high-Perf/
  
 ## Contributing
 
-Please refer to the [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to the [CONTRIBUTING.md](../../../CONTRIBUTING.md) file.
 
 
 

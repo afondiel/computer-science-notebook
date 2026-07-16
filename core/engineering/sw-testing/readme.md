@@ -10,6 +10,6 @@ This is a "Hello World" resources for **sw testing**.
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+Please refer to [CONTRIBUTING.md](../../../CONTRIBUTING.md) file.
 
 

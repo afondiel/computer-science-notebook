@@ -111,5 +111,5 @@ Books:
 
 ## Related Sources
 
-- [Embedded AI](../embedded-ai-notes/tinyML/tinyML-notes.md)
+- [Embedded AI](../embedded-systems/embedded-ai-notes/tinyML/tinyML-notes.md)
 
