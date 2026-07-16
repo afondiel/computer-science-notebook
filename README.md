@@ -9,140 +9,103 @@
   <img src="https://img.shields.io/github/commit-activity/t/afondiel/computer-science-notebook/master" alt="GitHub commit activity (branch)">
   <img src="https://img.shields.io/github/stars/afondiel/computer-science-notebook.svg" alt="GitHub stars">
   <img src="https://img.shields.io/github/forks/afondiel/computer-science-notebook.svg" alt="GitHub forks">
-   <p> <a href="./core/">Core</a> | <a href="./industry/"> Industry</a> | <a href="./meta/">Meta</a> | <a href="https://afondiel.github.io/computer-science-notebook/">Web Doc</a><br>A practical computer science knowledge base</p>
+  <img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License: CC BY-NC-SA 4.0">
+   <p> <a href="./core/">Core</a> | <a href="./industry/"> Industry</a> | <a href="./meta/">Meta</a> | <a href="https://afondiel.github.io/computer-science-notebook/">📖 Read the Docs</a></p>
 </div>
 
-## 🎯 Overview
+> **700+ free, structured notes** connecting computer science theory to how it's actually used in industry — from algorithms and operating systems to computer vision, LLMs, and edge AI.
 
-The **Computer Science Notebook** is a comprehensive, community-driven knowledge base that bridges the gap between theoretical computer science and its real-world industry applications.
+## 🎯 What is this?
 
-Whether you're a student learning the fundamentals, a professional looking to switch industries, or an experienced developer exploring new domains, this notebook is your companion.
+The **Computer Science Notebook** is an open, community-driven knowledge base that bridges the gap between **theoretical computer science** and **real-world industry applications**.
 
-## 📚 Project Structure
+Whether you're a student learning fundamentals, a professional switching domains, or an engineer exploring a new field, this notebook is a practical companion — organized, tiered by skill level, and cross-referenced from theory to practice.
 
-```
-computer-science-notebook/
-├── core/                    # Core CS Topics
-│   ├── programming/         # Languages, patterns, practices
-│   ├── systems/             # OS, embedded, cloud
-│   ├── ai-ml/               # AI, ML, computer vision
-│   └── engineering/         # Architecture, testing, DevOps
-├── industry/                # Industry Applications
-│   ├── automotive/          # Electric vehicles, safety systems
-│   ├── agriculture/         # Smart farming, IoT
-│   └── aerospace/           # Navigation, control systems
-└── meta/                    # Project Resources
-    ├── docs/                # Contributing guidelines
-    └── resources/           # Books, courses, interviews
-```
+- 📚 **700+ notes** across AI/ML, programming, systems, engineering, and fundamentals
+- 🏭 **Industry sections** mapping concepts to automotive, aerospace, healthcare, manufacturing, and more
+- 🎚️ **Tiered content** — most topics split into beginner → intermediate → advanced
+- 🔎 **Searchable docs site** built with MkDocs Material — [browse it here](https://afondiel.github.io/computer-science-notebook/)
 
-## 🌟 Key Features
+## 🚀 Start Here
 
-### For Students & Learners
-- **Core CS Fundamentals**: Comprehensive coverage of essential computer science topics
-- **Practical Examples**: Real code samples and implementations
-- **Learning Paths**: Structured guidance from basics to advanced topics
-- **Interview Prep**: Curated resources for technical interviews
+| I want to… | Go to |
+|---|---|
+| Learn **AI / Machine Learning** | [core/ai-ml](core/ai-ml/) |
+| Master a **programming language** | [core/programming/languages](core/programming/languages/) |
+| Understand **systems & infrastructure** | [core/systems](core/systems/) |
+| Level up **software engineering** | [core/engineering](core/engineering/) |
+| See CS applied in **industry** | [industry](industry/) |
+| Prep for **technical interviews** | [meta/career/job-interview-notes](meta/career/job-interview-notes/) |
 
-### For Industry Professionals
-- **Industry Applications**: Real-world implementations across different sectors
-- **Case Studies**: Detailed analysis of industry-specific solutions
-- **Best Practices**: Industry-standard approaches and methodologies
-- **Cross-Domain Knowledge**: Learn how concepts apply across different industries
+## 🗂️ Explore the Notebook
 
-## 🚀 Getting Started
+### 🤖 AI & Machine Learning — *the most developed section*
+- [Machine Learning](core/ai-ml/ml-notes/) · [Deep Learning](core/ai-ml/deep-learning-notes/) · [Computer Vision](core/ai-ml/computer-vision-notes/)
+- [NLP](core/ai-ml/nlp-notes/) · [Generative AI](core/ai-ml/generative-ai-notes/) · [Prompt Engineering](core/ai-ml/prompt-engineering-notes/)
+- [AI Agents](core/ai-ml/ai-agents-notes/) · [Computer Audition](core/ai-ml/computer-audition/) · [Cognitive Science](core/ai-ml/cognitive-science/)
 
-### Online Access
+### 💻 Programming
+- [Languages](core/programming/languages/) (C, C++, Python, Rust, Go, Java, MATLAB…)
+- [Algorithms](core/programming/algorithms/) · [Data Structures](core/programming/data-structures/) · [Design Patterns](core/programming/design-patterns-notes/)
+- [High-Performance Programming](core/programming/high-perf-programming/) · [Parallel Programming](core/programming/parallel-programming/)
 
-Read the notebook Visit our documentation at: https://afondiel.github.io/computer-science-notebook/
+### 🖥️ Systems
+- [Operating Systems](core/systems/operating-systems/) · [Embedded Systems](core/systems/embedded-systems/) · [Edge Computing](core/systems/edge-computing/)
+- [Cloud Computing](core/systems/cloud-computing/) · [IoT](core/systems/iot/) · [Quantum Computing](core/systems/quantum-computing/)
 
-### Local Setup
+### 🏗️ Engineering
+- [Software Architecture](core/engineering/sw-architecture-design/) · [Testing](core/engineering/sw-testing/) · [DevOps](core/engineering/devops-notes/)
+- [Web](core/engineering/web/) · [Game Dev](core/engineering/gamedev-notes/) · [Version Control](core/engineering/vcs/)
+
+### 🔬 Fundamentals
+- [Signal Processing](core/fundamentals/signal-processing/) · [Computer Graphics](core/fundamentals/computer-graphics/) · [Control Systems](core/fundamentals/control-systems/)
+
+### 🏭 Industry Applications
+- [Transportation & Automotive](industry/transportation/) · [Aerospace](industry/aerospace/) · [Healthcare](industry/healthcare/)
+- [Manufacturing](industry/manufacturing/) · [Agriculture](industry/agriculture/) · [Robotics](industry/robotics/) · [Smart City](industry/smart-city/)
+
+## 📖 Read Online
+
+The notebook is published as a searchable documentation site:
+
+**➡️ https://afondiel.github.io/computer-science-notebook/**
+
+### Build the docs locally
 ```bash
 # Clone the repository
 git clone https://github.com/afondiel/computer-science-notebook
-
-# Navigate to the project
 cd computer-science-notebook
 
-# Install mdbook (requires Rust)
-cargo install mdbook
+# Install the docs toolchain
+pip install -r requirements-docs.txt
 
-# Build and serve locally
-mdbook build
-mdbook serve
+# Serve locally with live reload
+mkdocs serve
 ```
-
-## 🔍 Finding What You Need
-
-1. **Learning Core CS**:
-   - Start with `/core` for fundamental topics
-   - Each topic includes theory, examples, and practical applications
-
-2. **Industry Applications**:
-   - Browse `/industry` for sector-specific implementations
-   - Find real-world applications of CS concepts in different domains
-
-3. **Resources & Meta**:
-   - Check `/meta` for learning resources and project documentation
-   - Find interview preparation materials and study guides
 
 ## 🤝 Contributing
 
-We welcome contributions from everyone! Here's how you can help:
+Contributions are welcome — add a note, fix a link, improve an explanation, or share an industry case study. Good first contributions are labeled in [Issues](https://github.com/afondiel/computer-science-notebook/issues).
 
-1. **Add Core Content**:
-   - Enhance existing CS topics
-   - Add new theoretical concepts
-   - Contribute code examples
-
-2. **Share Industry Experience**:
-   - Add case studies from your industry
-   - Document real-world applications
-   - Share industry-specific best practices
-
-3. **Improve Resources**:
-   - Add learning materials
-   - Create or enhance documentation
-   - Share interview experiences
-
-See our [Contributing Guide](CONTRIBUTING.md) for detailed instructions.
+See the [Contributing Guide](CONTRIBUTING.md) for templates and conventions.
 
 ## 🛣️ Roadmap
 
-1. **Content Enhancement**:
-   - Expanding industry coverage
-   - Adding interactive examples
-   - Creating comprehensive learning paths
-
-2. **Technical Features**:
-   - Add LLM-API for real-time note generation
-      - Leverage HF/spaces + Gradio  as API endpoints + external UI
-      - Users should choose/select the model they want to use based on the available models   
-   - Interactive code examples
-   - Improved search and navigation
-
-3. **Community Growth**:
-   - Industry expert contributions
-   - Peer review system
-   - Community discussions
+- **Content**: expand industry coverage, add interactive examples and learning paths
+- **Platform**: searchable docs site (✅ live), improved navigation and tags
+- **Community**: expert contributions, peer review, discussions
 
 ## 📄 License
 
-This project is licensed under Attribution-NonCommercial-ShareAlike 4.0 International see the [LICENSE](LICENSE) file for details.
+Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE) (CC BY-NC-SA 4.0).
 
 ## ⭐ Support the Project
 
-If you find this notebook helpful:
-- Star the repository
-- Share it with others
-- Contribute your knowledge
-- Report issues or suggest improvements
-
-## 🙏 Acknowledgments
-
-Special thanks to all contributors who have helped make this knowledge base possible. Together, we're making computer science education more accessible to everyone.
-
----
+If you find this helpful:
+- **Star** the repository ⭐
+- **Share** it with students and colleagues
+- **Contribute** a note or fix
+- **Report** issues or suggest improvements
 
 ## Star History
 
@@ -151,6 +114,5 @@ Special thanks to all contributors who have helped make this knowledge base poss
 ---
 > As a lifelong learner and advocate for accessible education, I hope this project helps you in your journey. Feel free to reach out with questions or suggestions!
 >
-> Cheers,  
->[@Muntu](https://github.com/afondiel)
->
+> Cheers,
+> [@Muntu](https://github.com/afondiel)
