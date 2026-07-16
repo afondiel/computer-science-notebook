@@ -51,3 +51,6 @@ __pycache__/
 Cargo.lock
 
 # ...existing code for project-specific ignores...
+
+# MkDocs build output
+/site/
