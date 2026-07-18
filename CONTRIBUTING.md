@@ -227,6 +227,9 @@ How to contribute to this section
 
 ## Content Generation Tools
 
+> ✍️ For an end-to-end workflow using **Obsidian + Claude** (and how to keep notes
+> MkDocs-compatible), see the [Authoring Guide](meta/tools/authoring-guide.md).
+
 ### Using the Note Generator
 ```bash
 python tools/generate.py --type <core|industry|meta> --path <path> --name <topic-name>
