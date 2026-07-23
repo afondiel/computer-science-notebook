@@ -83,6 +83,20 @@ pip install -r requirements-docs.txt
 mkdocs serve
 ```
 
+### 📓 Open as an Obsidian Vault
+
+Because every note is plain Markdown, you can open the whole repository as an
+[Obsidian](https://obsidian.md/) vault and read, search, and cross-link the notes
+in a rich linked-knowledge graph — no conversion needed.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d139fdc5-8a0a-4455-8cc5-03c6e83eecf8" alt="Notes rendered in Obsidian" width="90%">
+</p>
+
+See the [Authoring Guide](meta/tools/authoring-guide.md) for the recommended
+Obsidian settings (that keep notes MkDocs-compatible) and the AI-assisted note
+workflow.
+
 ## 🤝 Contributing
 
 Contributions are welcome — add a note, fix a link, improve an explanation, or share an industry case study. Good first contributions are labeled in [Issues](https://github.com/afondiel/computer-science-notebook/issues).
