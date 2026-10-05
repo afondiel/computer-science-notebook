@@ -41,6 +41,7 @@ Pre-Interview Research:
 - [hackerrank](https://www.hackerrank.com/)
 - [w3schools](https://www.w3schools.com/)
 - [Stackoverflow - Questions](https://stackoverflow.com/questions)
+- [Poll Until - Timeout + Abort](https://frontendatlas.com/javascript/coding/js-poll-until) - Free JavaScript interview question and full solution covering a deadline that still fires during a pending async check, cancellation, and preventing retries after settlement.
 
 ## After
 
